@@ -1,0 +1,320 @@
+import { useState, useEffect } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import axios from "axios";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Home, CheckCircle2, XCircle, Clock, Award, ChevronRight } from "lucide-react";
+import { Progress } from "@/components/ui/progress";
+
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const API = `${BACKEND_URL}/api`;
+
+const ResultsPage = () => {
+  const { examId } = useParams();
+  const navigate = useNavigate();
+  const [exam, setExam] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchExamResults();
+  }, [examId]);
+
+  const fetchExamResults = async () => {
+    try {
+      const response = await axios.get(`${API}/exams/${examId}`);
+      setExam(response.data);
+    } catch (error) {
+      console.error("Error fetching results:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p>Cargando resultados...</p>
+      </div>
+    );
+  }
+
+  if (!exam) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p>No se encontraron resultados.</p>
+      </div>
+    );
+  }
+
+  const percentage = (exam.puntuacion / exam.preguntas.length) * 100;
+  const correctas = exam.puntuacion;
+  const incorrectas = exam.respuestas_usuario.filter((ans, i) => 
+    ans !== null && ans !== exam.preguntas[i].respuesta_correcta
+  ).length;
+  const enBlanco = exam.respuestas_usuario.filter(ans => ans === null).length;
+
+  const formatTime = (seconds) => {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${mins} min ${secs} seg`;
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-8">
+      <div className="container mx-auto px-4 max-w-6xl">
+        {/* Header */}
+        <div className="text-center mb-8">
+          <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">Resultados del Examen</h1>
+          <p className="text-slate-600">Revisa tu rendimiento y aprende de tus respuestas</p>
+        </div>
+
+        {/* Score Overview */}
+        <div className="grid md:grid-cols-4 gap-4 mb-8">
+          <Card className="border-0 shadow-lg bg-gradient-to-br from-green-500 to-emerald-600 text-white">
+            <CardContent className="p-6 text-center">
+              <Award className="h-8 w-8 mx-auto mb-2" />
+              <div className="text-4xl font-bold mb-1" data-testid="score">{exam.puntuacion}/50</div>
+              <div className="text-sm opacity-90">Puntuación</div>
+              <div className="text-2xl font-bold mt-2">{percentage.toFixed(1)}%</div>
+            </CardContent>
+          </Card>
+
+          <Card className="border-0 shadow-lg">
+            <CardContent className="p-6 text-center">
+              <CheckCircle2 className="h-8 w-8 mx-auto mb-2 text-green-600" />
+              <div className="text-4xl font-bold text-green-600 mb-1" data-testid="correct-count">{correctas}</div>
+              <div className="text-sm text-slate-600">Correctas</div>
+            </CardContent>
+          </Card>
+
+          <Card className="border-0 shadow-lg">
+            <CardContent className="p-6 text-center">
+              <XCircle className="h-8 w-8 mx-auto mb-2 text-red-600" />
+              <div className="text-4xl font-bold text-red-600 mb-1" data-testid="incorrect-count">{incorrectas}</div>
+              <div className="text-sm text-slate-600">Incorrectas</div>
+            </CardContent>
+          </Card>
+
+          <Card className="border-0 shadow-lg">
+            <CardContent className="p-6 text-center">
+              <Clock className="h-8 w-8 mx-auto mb-2 text-blue-600" />
+              <div className="text-2xl font-bold text-blue-600 mb-1" data-testid="time-used">{formatTime(exam.tiempo_usado)}</div>
+              <div className="text-sm text-slate-600">Tiempo usado</div>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* Progress Bars */}
+        <Card className="mb-8 border-0 shadow-lg">
+          <CardHeader>
+            <CardTitle>Desglose de Respuestas</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div>
+              <div className="flex justify-between text-sm mb-2">
+                <span>Correctas</span>
+                <span className="font-semibold text-green-600">{correctas} ({((correctas/50)*100).toFixed(0)}%)</span>
+              </div>
+              <Progress value={(correctas/50)*100} className="h-3 bg-green-100" />
+            </div>
+            <div>
+              <div className="flex justify-between text-sm mb-2">
+                <span>Incorrectas</span>
+                <span className="font-semibold text-red-600">{incorrectas} ({((incorrectas/50)*100).toFixed(0)}%)</span>
+              </div>
+              <Progress value={(incorrectas/50)*100} className="h-3 bg-red-100" />
+            </div>
+            <div>
+              <div className="flex justify-between text-sm mb-2">
+                <span>En blanco</span>
+                <span className="font-semibold text-slate-600">{enBlanco} ({((enBlanco/50)*100).toFixed(0)}%)</span>
+              </div>
+              <Progress value={(enBlanco/50)*100} className="h-3 bg-slate-100" />
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Questions Review */}
+        <Card className="mb-8 border-0 shadow-lg">
+          <CardHeader>
+            <CardTitle>Revisión de Preguntas</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <Tabs defaultValue="all">
+              <TabsList className="mb-6">
+                <TabsTrigger value="all">Todas</TabsTrigger>
+                <TabsTrigger value="incorrect">Incorrectas</TabsTrigger>
+                <TabsTrigger value="correct">Correctas</TabsTrigger>
+              </TabsList>
+
+              <TabsContent value="all" className="space-y-6">
+                {exam.preguntas.map((pregunta, index) => {
+                  const userAnswer = exam.respuestas_usuario[index];
+                  const isCorrect = userAnswer === pregunta.respuesta_correcta;
+                  const isUnanswered = userAnswer === null;
+
+                  return (
+                    <div 
+                      key={index} 
+                      className={`p-6 rounded-lg border-2 ${
+                        isUnanswered ? 'border-slate-200 bg-slate-50' :
+                        isCorrect ? 'border-green-200 bg-green-50' : 'border-red-200 bg-red-50'
+                      }`}
+                      data-testid={`question-review-${index}`}
+                    >
+                      <div className="flex items-start gap-3 mb-4">
+                        {isUnanswered ? (
+                          <div className="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center flex-shrink-0">
+                            <span className="text-slate-600 font-semibold">?</span>
+                          </div>
+                        ) : isCorrect ? (
+                          <CheckCircle2 className="h-8 w-8 text-green-600 flex-shrink-0" />
+                        ) : (
+                          <XCircle className="h-8 w-8 text-red-600 flex-shrink-0" />
+                        )}
+                        <div className="flex-1">
+                          <p className="font-semibold text-slate-900 mb-3">{index + 1}. {pregunta.texto}</p>
+                          
+                          <div className="space-y-2 mb-4">
+                            {pregunta.opciones.map((opcion, optIndex) => {
+                              const isThisCorrect = optIndex === pregunta.respuesta_correcta;
+                              const isUserChoice = optIndex === userAnswer;
+
+                              return (
+                                <div 
+                                  key={optIndex}
+                                  className={`p-3 rounded-lg ${
+                                    isThisCorrect ? 'bg-green-100 border-2 border-green-400' :
+                                    isUserChoice ? 'bg-red-100 border-2 border-red-400' :
+                                    'bg-white border border-slate-200'
+                                  }`}
+                                >
+                                  <span className="font-semibold mr-2">{String.fromCharCode(65 + optIndex)}.</span>
+                                  {opcion}
+                                  {isThisCorrect && <span className="ml-2 text-green-700 font-semibold">(Correcta)</span>}
+                                  {isUserChoice && !isThisCorrect && <span className="ml-2 text-red-700 font-semibold">(Tu respuesta)</span>}
+                                </div>
+                              );
+                            })}
+                          </div>
+
+                          <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
+                            <p className="font-semibold text-blue-900 mb-2">Justificación:</p>
+                            <p className="text-blue-800 text-sm leading-relaxed">{pregunta.justificacion}</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </TabsContent>
+
+              <TabsContent value="incorrect" className="space-y-6">
+                {exam.preguntas
+                  .map((pregunta, index) => ({ pregunta, index }))
+                  .filter(({ index }) => {
+                    const userAnswer = exam.respuestas_usuario[index];
+                    return userAnswer !== null && userAnswer !== exam.preguntas[index].respuesta_correcta;
+                  })
+                  .map(({ pregunta, index }) => {
+                    const userAnswer = exam.respuestas_usuario[index];
+
+                    return (
+                      <div key={index} className="p-6 rounded-lg border-2 border-red-200 bg-red-50">
+                        <div className="flex items-start gap-3 mb-4">
+                          <XCircle className="h-8 w-8 text-red-600 flex-shrink-0" />
+                          <div className="flex-1">
+                            <p className="font-semibold text-slate-900 mb-3">{index + 1}. {pregunta.texto}</p>
+                            
+                            <div className="space-y-2 mb-4">
+                              {pregunta.opciones.map((opcion, optIndex) => {
+                                const isThisCorrect = optIndex === pregunta.respuesta_correcta;
+                                const isUserChoice = optIndex === userAnswer;
+
+                                return (
+                                  <div 
+                                    key={optIndex}
+                                    className={`p-3 rounded-lg ${
+                                      isThisCorrect ? 'bg-green-100 border-2 border-green-400' :
+                                      isUserChoice ? 'bg-red-100 border-2 border-red-400' :
+                                      'bg-white border border-slate-200'
+                                    }`}
+                                  >
+                                    <span className="font-semibold mr-2">{String.fromCharCode(65 + optIndex)}.</span>
+                                    {opcion}
+                                    {isThisCorrect && <span className="ml-2 text-green-700 font-semibold">(Correcta)</span>}
+                                    {isUserChoice && <span className="ml-2 text-red-700 font-semibold">(Tu respuesta)</span>}
+                                  </div>
+                                );
+                              })}
+                            </div>
+
+                            <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
+                              <p className="font-semibold text-blue-900 mb-2">Justificación:</p>
+                              <p className="text-blue-800 text-sm leading-relaxed">{pregunta.justificacion}</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                {exam.preguntas.filter((_, i) => {
+                  const userAnswer = exam.respuestas_usuario[i];
+                  return userAnswer !== null && userAnswer !== exam.preguntas[i].respuesta_correcta;
+                }).length === 0 && (
+                  <div className="text-center py-12 text-slate-600">
+                    ¡Excelente! No tienes respuestas incorrectas.
+                  </div>
+                )}
+              </TabsContent>
+
+              <TabsContent value="correct" className="space-y-6">
+                {exam.preguntas
+                  .map((pregunta, index) => ({ pregunta, index }))
+                  .filter(({ index }) => exam.respuestas_usuario[index] === exam.preguntas[index].respuesta_correcta)
+                  .map(({ pregunta, index }) => (
+                    <div key={index} className="p-6 rounded-lg border-2 border-green-200 bg-green-50">
+                      <div className="flex items-start gap-3">
+                        <CheckCircle2 className="h-8 w-8 text-green-600 flex-shrink-0" />
+                        <div className="flex-1">
+                          <p className="font-semibold text-slate-900 mb-3">{index + 1}. {pregunta.texto}</p>
+                          <div className="p-3 rounded-lg bg-green-100 border-2 border-green-400">
+                            <span className="font-semibold mr-2">{String.fromCharCode(65 + pregunta.respuesta_correcta)}.</span>
+                            {pregunta.opciones[pregunta.respuesta_correcta]}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+              </TabsContent>
+            </Tabs>
+          </CardContent>
+        </Card>
+
+        {/* Actions */}
+        <div className="flex justify-center gap-4">
+          <Button
+            onClick={() => navigate("/")}
+            variant="outline"
+            className="px-8 py-6 rounded-xl"
+            data-testid="home-button"
+          >
+            <Home className="mr-2 h-5 w-5" />
+            Volver al Inicio
+          </Button>
+          <Button
+            onClick={() => navigate("/exam")}
+            className="bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6 rounded-xl"
+            data-testid="new-exam-button"
+          >
+            Nuevo Examen
+            <ChevronRight className="ml-2 h-5 w-5" />
+          </Button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ResultsPage;
