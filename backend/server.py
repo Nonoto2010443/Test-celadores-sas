@@ -220,30 +220,68 @@ async def get_exam_detail(exam_id: str):
 
 @api_router.get("/exams/stats/summary", response_model=Stats)
 async def get_stats():
-    """Get exam statistics"""
+    """Get exam statistics with official scoring"""
     exams = await db.exam_results.find({}, {"_id": 0}).to_list(1000)
     
     if not exams:
         return Stats(
             total_examenes=0,
             promedio_puntuacion=0.0,
-            mejor_puntuacion=0,
+            promedio_sobre_100=0.0,
+            mejor_puntuacion=0.0,
+            mejor_sobre_100=0.0,
             ultima_puntuacion=None,
+            ultima_sobre_100=None,
             tiempo_promedio=0
         )
     
     total = len(exams)
-    scores = [e['puntuacion'] for e in exams]
-    times = [e['tiempo_usado'] for e in exams]
+    
+    # Handle old exams that might not have new fields
+    scores_oficial = []
+    scores_100 = []
+    times = []
+    
+    for e in exams:
+        # For backward compatibility, calculate if fields don't exist
+        if 'puntuacion_oficial' in e:
+            scores_oficial.append(e['puntuacion_oficial'])
+            scores_100.append(e['puntuacion_sobre_100'])
+        else:
+            # Old format - calculate from puntuacion
+            correctas = e.get('puntuacion', 0)
+            incorrectas = e.get('incorrectas', 0) if 'incorrectas' in e else 0
+            oficial = correctas - (incorrectas * 0.25)
+            scores_oficial.append(oficial)
+            scores_100.append((oficial / len(e.get('preguntas', []))) * 100 if e.get('preguntas') else 0)
+        
+        times.append(e['tiempo_usado'])
     
     # Sort by date to get latest
     exams_sorted = sorted(exams, key=lambda x: x['fecha'] if isinstance(x['fecha'], datetime) else datetime.fromisoformat(x['fecha']))
     
+    last_exam = exams_sorted[-1] if exams_sorted else None
+    ultima_oficial = None
+    ultima_100 = None
+    
+    if last_exam:
+        if 'puntuacion_oficial' in last_exam:
+            ultima_oficial = last_exam['puntuacion_oficial']
+            ultima_100 = last_exam['puntuacion_sobre_100']
+        else:
+            correctas = last_exam.get('puntuacion', 0)
+            incorrectas = last_exam.get('incorrectas', 0) if 'incorrectas' in last_exam else 0
+            ultima_oficial = correctas - (incorrectas * 0.25)
+            ultima_100 = (ultima_oficial / len(last_exam.get('preguntas', []))) * 100 if last_exam.get('preguntas') else 0
+    
     return Stats(
         total_examenes=total,
-        promedio_puntuacion=sum(scores) / total,
-        mejor_puntuacion=max(scores),
-        ultima_puntuacion=exams_sorted[-1]['puntuacion'] if exams_sorted else None,
+        promedio_puntuacion=round(sum(scores_oficial) / total, 2),
+        promedio_sobre_100=round(sum(scores_100) / total, 2),
+        mejor_puntuacion=round(max(scores_oficial), 2),
+        mejor_sobre_100=round(max(scores_100), 2),
+        ultima_puntuacion=round(ultima_oficial, 2) if ultima_oficial is not None else None,
+        ultima_sobre_100=round(ultima_100, 2) if ultima_100 is not None else None,
         tiempo_promedio=sum(times) // total
     )
 
