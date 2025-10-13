@@ -65,11 +65,16 @@ const HomePage = () => {
               <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
                 <Award className="h-6 w-6 text-purple-600" />
               </div>
-              <CardTitle className="text-xl">Justificaciones</CardTitle>
-              <CardDescription>Aprende de cada pregunta</CardDescription>
+              <CardTitle className="text-xl">Sistema de Puntuación</CardTitle>
+              <CardDescription>Puntuación oficial SAS</CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-600">Cada respuesta incluye justificación basada en temario oficial y legislación.</p>
+              <div className="space-y-2 text-sm">
+                <p className="text-slate-700">✅ <span className="font-semibold">Correcta:</span> +2 puntos</p>
+                <p className="text-slate-700">❌ <span className="font-semibold">Incorrecta:</span> -0.5 puntos</p>
+                <p className="text-slate-700">⚪ <span className="font-semibold">En blanco:</span> 0 puntos</p>
+                <p className="text-purple-600 font-semibold mt-3">50 correctas = 100 puntos</p>
+              </div>
             </CardContent>
           </Card>
         </div>
