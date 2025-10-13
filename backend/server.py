@@ -42,7 +42,11 @@ class ExamResult(BaseModel):
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     preguntas: List[Question]
     respuestas_usuario: List[Optional[int]]  # User's answers (0-3 or None)
-    puntuacion: int  # Out of 50
+    correctas: int  # Number of correct answers
+    incorrectas: int  # Number of incorrect answers
+    en_blanco: int  # Number of unanswered questions
+    puntuacion_oficial: float  # Official score with penalty (correctas - incorrectas * 0.25)
+    puntuacion_sobre_100: float  # Score out of 100 points
     tiempo_usado: int  # In seconds
     fecha: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     completado: bool
