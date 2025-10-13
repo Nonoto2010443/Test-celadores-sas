@@ -93,10 +93,37 @@ async def generate_questions_with_ai() -> List[Question]:
     
     for batch_num, (batch_size, topic) in enumerate(batch_configs, 1):
         try:
+            # Construir ejemplos del tema
+            ejemplos_prompt = ""
+            if ejemplos_oficiales:
+                tema_key = list(ejemplos_oficiales['temas'].keys())[min(batch_num-1, len(ejemplos_oficiales['temas'])-1)]
+                ejemplos_tema = ejemplos_oficiales['temas'][tema_key][:3]
+                
+                ejemplos_prompt = "\n\nEJEMPLOS DE PREGUNTAS OFICIALES (REPLICA ESTE ESTILO EXACTO):\n"
+                for ej in ejemplos_tema:
+                    ejemplos_prompt += f"\nPregunta: {ej['Question']}\n"
+                    for opt, texto in ej['Options'].items():
+                        ejemplos_prompt += f"{opt}) {texto}\n"
+                    ejemplos_prompt += f"Correcta: {ej['CorrectOption']}\n"
+            
             chat = LlmChat(
                 api_key=api_key,
                 session_id=str(uuid.uuid4()),
-                system_message="Eres un experto en oposiciones de celadores del SAS. REGLAS ESTRICTAS: 1) Cada pregunta debe tener una respuesta inequívocamente correcta basada en legislación o temario oficial. 2) Si ninguna opción es correcta, incluye 'Ninguna de las anteriores es correcta' como opción válida. 3) Cita siempre el artículo o legislación en la justificación."
+                system_message=f"""Eres un experto en oposiciones de celadores del SAS. 
+
+REGLAS ESTRICTAS OBLIGATORIAS:
+1. REPLICA EXACTAMENTE el estilo y formato de las preguntas oficiales de ejemplo
+2. Cada pregunta DEBE basarse en legislación real (Constitución, Ley 14/1986, Ley 55/2003, Ley 41/2002, Estatuto Autonomía)
+3. Las preguntas deben ser PRECISAS y tener una respuesta inequívocamente correcta
+4. Cita SIEMPRE el artículo o ley específica en el texto de la pregunta
+5. Si ninguna opción es correcta, incluye "Ninguna de las anteriores es correcta" como opción D
+6. Las justificaciones DEBEN citar el artículo específico y explicar por qué
+
+FORMATO REQUERIDO (igual que ejemplos oficiales):
+- Pregunta formal y precisa con referencia legal
+- 4 opciones claras (A, B, C, D)
+- Una única respuesta correcta verificable
+- Justificación citando artículo/ley específica"""
             ).with_model("openai", "gpt-4o-mini")
             
             prompt = f"""Genera EXACTAMENTE {batch_size} preguntas tipo test de calidad sobre: {topic}
