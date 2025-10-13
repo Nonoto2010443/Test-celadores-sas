@@ -71,10 +71,6 @@ const StatsPage = () => {
     );
   }
 
-  const promedioPercentage = (stats.promedio_puntuacion / 50) * 100;
-  const mejorPercentage = (stats.mejor_puntuacion / 50) * 100;
-  const ultimaPercentage = stats.ultima_puntuacion ? (stats.ultima_puntuacion / 50) * 100 : 0;
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-8">
       <div className="container mx-auto px-4 max-w-6xl">
@@ -90,7 +86,7 @@ const StatsPage = () => {
             Volver al Inicio
           </Button>
           <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">Estadísticas</h1>
-          <p className="text-slate-600">Analiza tu progreso y rendimiento general</p>
+          <p className="text-slate-600">Analiza tu progreso con el sistema de puntuación oficial</p>
         </div>
 
         {/* Stats Grid */}
@@ -115,8 +111,8 @@ const StatsPage = () => {
               <CardTitle className="text-white">Mejor Puntuación</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-5xl font-bold" data-testid="best-score">{stats.mejor_puntuacion}/50</div>
-              <div className="text-lg opacity-90 mt-2">{mejorPercentage.toFixed(1)}%</div>
+              <div className="text-5xl font-bold" data-testid="best-score">{stats.mejor_sobre_100.toFixed(2)}</div>
+              <div className="text-lg opacity-90 mt-2">sobre 100 pts</div>
             </CardContent>
           </Card>
 
@@ -128,8 +124,8 @@ const StatsPage = () => {
               <CardTitle className="text-white">Promedio</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-5xl font-bold" data-testid="avg-score">{stats.promedio_puntuacion.toFixed(1)}/50</div>
-              <div className="text-lg opacity-90 mt-2">{promedioPercentage.toFixed(1)}%</div>
+              <div className="text-5xl font-bold" data-testid="avg-score">{stats.promedio_sobre_100.toFixed(2)}</div>
+              <div className="text-lg opacity-90 mt-2">sobre 100 pts</div>
             </CardContent>
           </Card>
 
