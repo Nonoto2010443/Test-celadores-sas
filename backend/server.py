@@ -176,6 +176,16 @@ Genera exactamente {batch_size} preguntas de máxima calidad. Solo JSON puro."""
         logging.info(f"Generating {missing} additional questions to reach {TARGET_QUESTIONS}")
         
         try:
+            # Ejemplos adicionales
+            ejemplos_prompt = ""
+            if ejemplos_oficiales:
+                ejemplos_mix = random.sample([p for tema in ejemplos_oficiales['temas'].values() for p in tema], min(2, 10))
+                ejemplos_prompt = "\n\nEJEMPLOS OFICIALES:\n"
+                for ej in ejemplos_mix[:2]:
+                    ejemplos_prompt += f"\n{ej['Question']}\n"
+                    for opt, texto in ej['Options'].items():
+                        ejemplos_prompt += f"{opt}) {texto}\n"
+            
             chat = LlmChat(
                 api_key=api_key,
                 session_id=str(uuid.uuid4()),
@@ -184,13 +194,15 @@ Genera exactamente {batch_size} preguntas de máxima calidad. Solo JSON puro."""
             
             prompt = f"""Genera EXACTAMENTE {missing} preguntas tipo test de calidad sobre celadores SAS (temas variados).
 
+{ejemplos_prompt}
+
 REGLAS OBLIGATORIAS:
 1. Cada pregunta DEBE tener una respuesta inequívocamente correcta
 2. Si ninguna opción es correcta, incluye "Ninguna de las anteriores es correcta"
 3. Cita el artículo específico o temario en la justificación
 
 JSON (sin markdown):
-{{"preguntas":[{{"texto":"...","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"Según artículo X..."}}]}}
+{{"preguntas":[{{"texto":"Según [Ley/Artículo]...","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"Según artículo X..."}}]}}
 
 Solo {missing} preguntas de alta calidad."""
             
