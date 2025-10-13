@@ -64,6 +64,7 @@ const ExamPage = () => {
     const newAnswers = [...answers];
     newAnswers[currentQuestion] = parseInt(value);
     setAnswers(newAnswers);
+    console.log(`Answered question ${currentQuestion + 1}: option ${value}. Total answered: ${newAnswers.filter(a => a !== null).length}`);
   };
 
   const handleSubmit = async () => {
