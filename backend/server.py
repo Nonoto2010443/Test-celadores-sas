@@ -72,27 +72,29 @@ async def generate_questions_with_ai() -> List[Question]:
     api_key = os.environ.get('EMERGENT_LLM_KEY')
     import json
     
-    # Generate 50 questions in 2 batches to stay within budget and time limits
+    TARGET_QUESTIONS = 50
     all_questions = []
     
+    # Strategy: Generate in multiple batches until we have exactly 50
     batch_configs = [
-        (25, "funciones celador, traslado pacientes, movilización, urgencias"),
-        (25, "normativa, derechos, prevención riesgos, higiene, documentación")
+        (25, "funciones celador, traslado pacientes, movilización, urgencias, organización hospitalaria"),
+        (25, "normativa sanitaria, derechos pacientes, prevención riesgos, higiene, documentación")
     ]
     
-    for batch_size, topic in batch_configs:
+    for batch_num, (batch_size, topic) in enumerate(batch_configs, 1):
         try:
             chat = LlmChat(
                 api_key=api_key,
                 session_id=str(uuid.uuid4()),
-                system_message="Experto oposiciones celadores SAS."
+                system_message="Experto en oposiciones celadores SAS."
             ).with_model("openai", "gpt-4o-mini")
             
-            prompt = f"""Genera {batch_size} preguntas test: {topic}
+            prompt = f"""Genera EXACTAMENTE {batch_size} preguntas tipo test sobre: {topic}
 
-JSON: {{"preguntas":[{{"texto":"...","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"..."}}]}}
+Formato JSON (sin markdown):
+{{"preguntas":[{{"texto":"pregunta","opciones":["op1","op2","op3","op4"],"respuesta_correcta":0,"justificacion":"explicación"}}]}}
 
-Sin markdown."""
+IMPORTANTE: Genera exactamente {batch_size} preguntas. Solo JSON puro."""
             
             user_message = UserMessage(text=prompt)
             response = await chat.send_message(user_message)
@@ -100,26 +102,76 @@ Sin markdown."""
             # Parse JSON response
             response_text = response.strip()
             
-            # Remove markdown code blocks if present
+            # Remove markdown code blocks
             if '```' in response_text:
                 response_text = response_text.replace('```json', '').replace('```', '').strip()
             
             data = json.loads(response_text)
             
+            batch_questions = []
             for q in data['preguntas']:
+                batch_questions.append(Question(
+                    texto=q['texto'],
+                    opciones=q['opciones'],
+                    respuesta_correcta=q['respuesta_correcta'],
+                    justificacion=q['justificacion']
+                ))
+            
+            all_questions.extend(batch_questions)
+            logging.info(f"Batch {batch_num}: Generated {len(batch_questions)} questions. Total: {len(all_questions)}")
+                
+        except Exception as e:
+            logging.error(f"Error generating batch {batch_num}: {str(e)}")
+            continue
+    
+    # If we don't have exactly 50, generate additional questions
+    if len(all_questions) < TARGET_QUESTIONS:
+        missing = TARGET_QUESTIONS - len(all_questions)
+        logging.info(f"Generating {missing} additional questions to reach {TARGET_QUESTIONS}")
+        
+        try:
+            chat = LlmChat(
+                api_key=api_key,
+                session_id=str(uuid.uuid4()),
+                system_message="Experto en oposiciones celadores SAS."
+            ).with_model("openai", "gpt-4o-mini")
+            
+            prompt = f"""Genera EXACTAMENTE {missing} preguntas tipo test sobre celadores SAS (temas variados).
+
+JSON (sin markdown):
+{{"preguntas":[{{"texto":"...","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"..."}}]}}
+
+Solo {missing} preguntas."""
+            
+            user_message = UserMessage(text=prompt)
+            response = await chat.send_message(user_message)
+            
+            response_text = response.strip()
+            if '```' in response_text:
+                response_text = response_text.replace('```json', '').replace('```', '').strip()
+            
+            data = json.loads(response_text)
+            
+            for q in data['preguntas'][:missing]:  # Take only what we need
                 all_questions.append(Question(
                     texto=q['texto'],
                     opciones=q['opciones'],
                     respuesta_correcta=q['respuesta_correcta'],
                     justificacion=q['justificacion']
                 ))
-                
+            
+            logging.info(f"Added {min(len(data['preguntas']), missing)} additional questions. Total: {len(all_questions)}")
+            
         except Exception as e:
-            logging.error(f"Error generating batch: {str(e)}")
-            # Continue with other batches
-            continue
+            logging.error(f"Error generating additional questions: {str(e)}")
     
-    # If we have less than 50, return what we have (better than nothing)
+    # Ensure we have exactly 50 (trim if we have more)
+    if len(all_questions) > TARGET_QUESTIONS:
+        all_questions = all_questions[:TARGET_QUESTIONS]
+        logging.info(f"Trimmed to exactly {TARGET_QUESTIONS} questions")
+    
+    logging.info(f"Final question count: {len(all_questions)}")
+    
     return all_questions
 
 
