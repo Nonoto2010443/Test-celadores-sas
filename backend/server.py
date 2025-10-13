@@ -71,14 +71,24 @@ class Stats(BaseModel):
 async def generate_questions_with_ai() -> List[Question]:
     api_key = os.environ.get('EMERGENT_LLM_KEY')
     import json
+    import random
     
     TARGET_QUESTIONS = 50
     all_questions = []
     
+    # Cargar ejemplos de preguntas oficiales
+    ejemplos_oficiales = None
+    try:
+        with open('/app/backend/ejemplos_tests_oficiales.json', 'r', encoding='utf-8') as f:
+            ejemplos_oficiales = json.load(f)
+            logging.info("✅ Ejemplos oficiales cargados correctamente")
+    except Exception as e:
+        logging.warning(f"⚠️ No se pudieron cargar ejemplos oficiales: {e}")
+    
     # Strategy: Generate in multiple batches until we have exactly 50
     batch_configs = [
-        (25, "funciones celador, traslado pacientes, movilización, urgencias, organización hospitalaria"),
-        (25, "normativa sanitaria, derechos pacientes, prevención riesgos, higiene, documentación")
+        (25, "Constitución Española, Estatuto Autonomía Andalucía, derechos fundamentales"),
+        (25, "Ley 14/1986 General de Sanidad, Ley 55/2003 Estatuto Marco, organización SAS")
     ]
     
     for batch_num, (batch_size, topic) in enumerate(batch_configs, 1):
