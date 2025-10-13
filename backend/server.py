@@ -143,15 +143,20 @@ Genera exactamente {batch_size} preguntas de alta calidad. Solo JSON puro."""
             chat = LlmChat(
                 api_key=api_key,
                 session_id=str(uuid.uuid4()),
-                system_message="Experto en oposiciones celadores SAS."
+                system_message="Eres un experto en oposiciones de celadores del SAS. REGLAS ESTRICTAS: 1) Cada pregunta debe tener una respuesta inequívocamente correcta basada en legislación o temario oficial. 2) Si ninguna opción es correcta, incluye 'Ninguna de las anteriores es correcta' como opción válida. 3) Cita siempre el artículo o legislación en la justificación."
             ).with_model("openai", "gpt-4o-mini")
             
-            prompt = f"""Genera EXACTAMENTE {missing} preguntas tipo test sobre celadores SAS (temas variados).
+            prompt = f"""Genera EXACTAMENTE {missing} preguntas tipo test de calidad sobre celadores SAS (temas variados).
+
+REGLAS OBLIGATORIAS:
+1. Cada pregunta DEBE tener una respuesta inequívocamente correcta
+2. Si ninguna opción es correcta, incluye "Ninguna de las anteriores es correcta"
+3. Cita el artículo específico o temario en la justificación
 
 JSON (sin markdown):
-{{"preguntas":[{{"texto":"...","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"..."}}]}}
+{{"preguntas":[{{"texto":"...","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"Según artículo X..."}}]}}
 
-Solo {missing} preguntas."""
+Solo {missing} preguntas de alta calidad."""
             
             user_message = UserMessage(text=prompt)
             response = await chat.send_message(user_message)
