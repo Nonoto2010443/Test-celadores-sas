@@ -65,58 +65,54 @@ async def generate_questions_with_ai() -> List[Question]:
     api_key = os.environ.get('EMERGENT_LLM_KEY')
     import json
     
+    # Generate 50 questions in 2 batches to stay within budget and time limits
     all_questions = []
     
-    # Generate in 3 batches: 20+20+10 = 50 questions
     batch_configs = [
-        (20, "funciones y responsabilidades del celador, traslado de pacientes"),
-        (20, "normativa sanitaria, derechos de pacientes, prevención de riesgos laborales"),
-        (10, "higiene hospitalaria, documentación sanitaria, organización hospitalaria")
+        (25, "funciones celador, traslado pacientes, movilización, urgencias"),
+        (25, "normativa, derechos, prevención riesgos, higiene, documentación")
     ]
     
     for batch_size, topic in batch_configs:
-        chat = LlmChat(
-            api_key=api_key,
-            session_id=str(uuid.uuid4()),
-            system_message="Experto en oposiciones celadores SAS."
-        ).with_model("openai", "gpt-4o-mini")
-        
-        prompt = f"""Genera EXACTAMENTE {batch_size} preguntas test sobre: {topic}
+        try:
+            chat = LlmChat(
+                api_key=api_key,
+                session_id=str(uuid.uuid4()),
+                system_message="Experto oposiciones celadores SAS."
+            ).with_model("openai", "gpt-4o-mini")
+            
+            prompt = f"""Genera {batch_size} preguntas test: {topic}
 
-Formato JSON:
-{{"preguntas":[{{"texto":"pregunta","opciones":["op1","op2","op3","op4"],"respuesta_correcta":0-3,"justificacion":"breve"}}]}}
+JSON: {{"preguntas":[{{"texto":"...","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"..."}}]}}
 
-IMPORTANTE: Debes generar exactamente {batch_size} preguntas, ni más ni menos.
-Responde SOLO con JSON, sin texto adicional."""
-        
-        user_message = UserMessage(text=prompt)
-        response = await chat.send_message(user_message)
-        
-        # Parse JSON response
-        response_text = response.strip()
-        
-        # Remove markdown code blocks if present
-        if response_text.startswith('```'):
-            lines = response_text.split('\n')
-            response_text = '\n'.join(lines[1:-1])
-        
-        if response_text.startswith('```json'):
-            response_text = response_text[7:]
-        if response_text.endswith('```'):
-            response_text = response_text[:-3]
-        
-        response_text = response_text.strip()
-        
-        data = json.loads(response_text)
-        
-        for q in data['preguntas']:
-            all_questions.append(Question(
-                texto=q['texto'],
-                opciones=q['opciones'],
-                respuesta_correcta=q['respuesta_correcta'],
-                justificacion=q['justificacion']
-            ))
+Sin markdown."""
+            
+            user_message = UserMessage(text=prompt)
+            response = await chat.send_message(user_message)
+            
+            # Parse JSON response
+            response_text = response.strip()
+            
+            # Remove markdown code blocks if present
+            if '```' in response_text:
+                response_text = response_text.replace('```json', '').replace('```', '').strip()
+            
+            data = json.loads(response_text)
+            
+            for q in data['preguntas']:
+                all_questions.append(Question(
+                    texto=q['texto'],
+                    opciones=q['opciones'],
+                    respuesta_correcta=q['respuesta_correcta'],
+                    justificacion=q['justificacion']
+                ))
+                
+        except Exception as e:
+            logging.error(f"Error generating batch: {str(e)}")
+            # Continue with other batches
+            continue
     
+    # If we have less than 50, return what we have (better than nothing)
     return all_questions
 
 
