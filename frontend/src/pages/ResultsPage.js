@@ -47,12 +47,12 @@ const ResultsPage = () => {
     );
   }
 
-  const percentage = (exam.puntuacion / exam.preguntas.length) * 100;
-  const correctas = exam.puntuacion;
-  const incorrectas = exam.respuestas_usuario.filter((ans, i) => 
-    ans !== null && ans !== exam.preguntas[i].respuesta_correcta
-  ).length;
-  const enBlanco = exam.respuestas_usuario.filter(ans => ans === null).length;
+  const totalPreguntas = exam.preguntas.length;
+  const correctas = exam.correctas || 0;
+  const incorrectas = exam.incorrectas || 0;
+  const enBlanco = exam.en_blanco || 0;
+  const puntuacionOficial = exam.puntuacion_oficial || 0;
+  const puntuacionSobre100 = exam.puntuacion_sobre_100 || 0;
 
   const formatTime = (seconds) => {
     const mins = Math.floor(seconds / 60);
