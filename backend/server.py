@@ -67,25 +67,27 @@ async def generate_questions_with_ai() -> List[Question]:
     
     all_questions = []
     
-    # Generate 2 batches of 25 questions each to get exactly 50
-    batch_sizes = [25, 25]
-    topics = [
-        "funciones celador, traslado pacientes, movilización, urgencias",
-        "normativa sanitaria, derechos, prevención riesgos, higiene, documentación"
+    # Generate in 3 batches: 20+20+10 = 50 questions
+    batch_configs = [
+        (20, "funciones y responsabilidades del celador, traslado de pacientes"),
+        (20, "normativa sanitaria, derechos de pacientes, prevención de riesgos laborales"),
+        (10, "higiene hospitalaria, documentación sanitaria, organización hospitalaria")
     ]
     
-    for batch_num in range(2):
+    for batch_size, topic in batch_configs:
         chat = LlmChat(
             api_key=api_key,
             session_id=str(uuid.uuid4()),
-            system_message="Experto oposiciones celadores SAS."
+            system_message="Experto en oposiciones celadores SAS."
         ).with_model("openai", "gpt-4o-mini")
         
-        prompt = f"""Genera EXACTAMENTE {batch_sizes[batch_num]} preguntas test sobre: {topics[batch_num]}
+        prompt = f"""Genera EXACTAMENTE {batch_size} preguntas test sobre: {topic}
 
-JSON: {{"preguntas":[{{"texto":"...","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"..."}}]}}
+Formato JSON:
+{{"preguntas":[{{"texto":"pregunta","opciones":["op1","op2","op3","op4"],"respuesta_correcta":0-3,"justificacion":"breve"}}]}}
 
-Sin markdown, solo JSON puro."""
+IMPORTANTE: Debes generar exactamente {batch_size} preguntas, ni más ni menos.
+Responde SOLO con JSON, sin texto adicional."""
         
         user_message = UserMessage(text=prompt)
         response = await chat.send_message(user_message)
