@@ -36,19 +36,17 @@ const HistoryPage = () => {
     return `${mins} min ${secs} seg`;
   };
 
-  const getScoreColor = (score) => {
-    const percentage = (score / 50) * 100;
-    if (percentage >= 80) return "text-green-600";
-    if (percentage >= 60) return "text-blue-600";
-    if (percentage >= 40) return "text-yellow-600";
+  const getScoreColor = (score100) => {
+    if (score100 >= 80) return "text-green-600";
+    if (score100 >= 60) return "text-blue-600";
+    if (score100 >= 40) return "text-yellow-600";
     return "text-red-600";
   };
 
-  const getScoreBg = (score) => {
-    const percentage = (score / 50) * 100;
-    if (percentage >= 80) return "bg-green-100 border-green-300";
-    if (percentage >= 60) return "bg-blue-100 border-blue-300";
-    if (percentage >= 40) return "bg-yellow-100 border-yellow-300";
+  const getScoreBg = (score100) => {
+    if (score100 >= 80) return "bg-green-100 border-green-300";
+    if (score100 >= 60) return "bg-blue-100 border-blue-300";
+    if (score100 >= 40) return "bg-yellow-100 border-yellow-300";
     return "bg-red-100 border-red-300";
   };
 
