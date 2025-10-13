@@ -364,16 +364,38 @@ const ResultsPage = () => {
                   .map((pregunta, index) => ({ pregunta, index }))
                   .filter(({ index }) => exam.respuestas_usuario[index] === exam.preguntas[index].respuesta_correcta)
                   .map(({ pregunta, index }) => (
-                    <div key={index} className="p-6 rounded-lg border-2 border-green-200 bg-green-50">
-                      <div className="flex items-start gap-3">
-                        <CheckCircle2 className="h-8 w-8 text-green-600 flex-shrink-0" />
-                        <div className="flex-1">
-                          <p className="font-semibold text-slate-900 mb-3">{index + 1}. {pregunta.texto}</p>
-                          <div className="p-3 rounded-lg bg-green-100 border-2 border-green-400">
-                            <span className="font-semibold mr-2">{String.fromCharCode(65 + pregunta.respuesta_correcta)}.</span>
-                            {pregunta.opciones[pregunta.respuesta_correcta]}
-                          </div>
+                    <div key={index} className="p-6 rounded-lg border-2 border-green-300 bg-green-50">
+                      {/* Header */}
+                      <div className="flex items-center gap-3 mb-4 pb-3 border-b-2 border-green-200">
+                        <CheckCircle2 className="h-10 w-10 text-green-600" />
+                        <div>
+                          <p className="font-bold text-green-700">Pregunta {index + 1} - ¡CORRECTA!</p>
+                          <p className="text-sm text-green-600">Has respondido correctamente</p>
                         </div>
+                      </div>
+
+                      {/* Pregunta */}
+                      <p className="font-semibold text-lg text-slate-900 mb-4">{pregunta.texto}</p>
+                      
+                      {/* Tu respuesta correcta */}
+                      <div className="mb-4 p-4 bg-green-100 border-l-4 border-green-600 rounded">
+                        <p className="text-sm font-bold text-green-900 mb-1 flex items-center gap-2">
+                          <CheckCircle2 className="h-5 w-5" />
+                          Tu respuesta (correcta):
+                        </p>
+                        <p className="text-green-800 font-semibold">
+                          <span className="font-bold mr-2">{String.fromCharCode(65 + pregunta.respuesta_correcta)}.</span>
+                          {pregunta.opciones[pregunta.respuesta_correcta]}
+                        </p>
+                      </div>
+
+                      {/* Justificación */}
+                      <div className="bg-indigo-50 border-l-4 border-indigo-600 p-4 rounded-lg">
+                        <p className="font-bold text-indigo-900 mb-2 flex items-center gap-2">
+                          <span className="text-lg">📚</span>
+                          Justificación:
+                        </p>
+                        <p className="text-indigo-800 leading-relaxed">{pregunta.justificacion}</p>
                       </div>
                     </div>
                   ))}
