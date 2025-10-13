@@ -139,17 +139,42 @@ async def generate_exam():
 
 @api_router.post("/exams/submit", response_model=ExamResult)
 async def submit_exam(exam: ExamSubmit):
-    """Submit an exam and save results"""
-    # Calculate score
-    score = 0
+    """Submit an exam and save results with official scoring system"""
+    total_preguntas = len(exam.preguntas)
+    
+    # Calculate correctas, incorrectas, en blanco
+    correctas = 0
+    incorrectas = 0
+    en_blanco = 0
+    
     for i, respuesta in enumerate(exam.respuestas_usuario):
-        if respuesta is not None and respuesta == exam.preguntas[i].respuesta_correcta:
-            score += 1
+        if respuesta is None:
+            en_blanco += 1
+        elif respuesta == exam.preguntas[i].respuesta_correcta:
+            correctas += 1
+        else:
+            incorrectas += 1
+    
+    # Official scoring: correctas - (incorrectas × 0.25)
+    # This gives the score out of total questions (e.g., 46, 50, etc.)
+    puntuacion_oficial = correctas - (incorrectas * 0.25)
+    
+    # Convert to score out of 100 points
+    # Each question is worth: 100 / total_preguntas points
+    puntos_por_pregunta = 100.0 / total_preguntas
+    puntuacion_sobre_100 = puntuacion_oficial * puntos_por_pregunta
+    
+    # Ensure score doesn't go below 0
+    puntuacion_sobre_100 = max(0, puntuacion_sobre_100)
     
     result = ExamResult(
         preguntas=exam.preguntas,
         respuestas_usuario=exam.respuestas_usuario,
-        puntuacion=score,
+        correctas=correctas,
+        incorrectas=incorrectas,
+        en_blanco=en_blanco,
+        puntuacion_oficial=round(puntuacion_oficial, 2),
+        puntuacion_sobre_100=round(puntuacion_sobre_100, 2),
         tiempo_usado=exam.tiempo_usado,
         completado=True
     )
