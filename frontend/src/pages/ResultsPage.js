@@ -74,9 +74,10 @@ const ResultsPage = () => {
           <Card className="border-0 shadow-lg bg-gradient-to-br from-green-500 to-emerald-600 text-white">
             <CardContent className="p-6 text-center">
               <Award className="h-8 w-8 mx-auto mb-2" />
-              <div className="text-4xl font-bold mb-1" data-testid="score">{exam.puntuacion}/50</div>
-              <div className="text-sm opacity-90">Puntuación</div>
-              <div className="text-2xl font-bold mt-2">{percentage.toFixed(1)}%</div>
+              <div className="text-4xl font-bold mb-1" data-testid="score">{puntuacionSobre100.toFixed(2)}</div>
+              <div className="text-sm opacity-90">Puntuación sobre 100</div>
+              <div className="text-2xl font-bold mt-2">{puntuacionOficial.toFixed(2)}/{totalPreguntas}</div>
+              <div className="text-xs opacity-75 mt-1">Puntuación oficial</div>
             </CardContent>
           </Card>
 
