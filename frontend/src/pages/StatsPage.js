@@ -147,32 +147,32 @@ const StatsPage = () => {
           <Card className="border-0 shadow-lg">
             <CardHeader>
               <CardTitle>Progreso de Puntuaciones</CardTitle>
-              <CardDescription>Comparación de tu rendimiento</CardDescription>
+              <CardDescription>Sistema oficial: Correctas - (Incorrectas × 0.25)</CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
               <div>
                 <div className="flex justify-between text-sm mb-2">
                   <span className="font-semibold">Mejor Puntuación</span>
-                  <span className="text-green-600 font-bold">{stats.mejor_puntuacion}/50 ({mejorPercentage.toFixed(1)}%)</span>
+                  <span className="text-green-600 font-bold">{stats.mejor_sobre_100.toFixed(2)} pts</span>
                 </div>
-                <Progress value={mejorPercentage} className="h-3" />
+                <Progress value={stats.mejor_sobre_100} className="h-3" />
               </div>
 
               <div>
                 <div className="flex justify-between text-sm mb-2">
                   <span className="font-semibold">Puntuación Promedio</span>
-                  <span className="text-blue-600 font-bold">{stats.promedio_puntuacion.toFixed(1)}/50 ({promedioPercentage.toFixed(1)}%)</span>
+                  <span className="text-blue-600 font-bold">{stats.promedio_sobre_100.toFixed(2)} pts</span>
                 </div>
-                <Progress value={promedioPercentage} className="h-3" />
+                <Progress value={stats.promedio_sobre_100} className="h-3" />
               </div>
 
-              {stats.ultima_puntuacion !== null && (
+              {stats.ultima_sobre_100 !== null && (
                 <div>
                   <div className="flex justify-between text-sm mb-2">
                     <span className="font-semibold">Última Puntuación</span>
-                    <span className="text-purple-600 font-bold">{stats.ultima_puntuacion}/50 ({ultimaPercentage.toFixed(1)}%)</span>
+                    <span className="text-purple-600 font-bold">{stats.ultima_sobre_100.toFixed(2)} pts</span>
                   </div>
-                  <Progress value={ultimaPercentage} className="h-3" />
+                  <Progress value={stats.ultima_sobre_100} className="h-3" />
                 </div>
               )}
             </CardContent>
