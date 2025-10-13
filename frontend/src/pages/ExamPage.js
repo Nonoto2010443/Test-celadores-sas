@@ -94,8 +94,9 @@ const ExamPage = () => {
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
+  // Calculate answered count - React will re-render when answers changes
   const answeredCount = answers.filter(a => a !== null).length;
-  const progress = (answeredCount / questions.length) * 100;
+  const progress = questions.length > 0 ? (answeredCount / questions.length) * 100 : 0;
 
   if (loading) {
     return (
