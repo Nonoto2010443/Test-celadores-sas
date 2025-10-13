@@ -126,22 +126,21 @@ FORMATO REQUERIDO (igual que ejemplos oficiales):
 - Justificación citando artículo/ley específica"""
             ).with_model("openai", "gpt-4o-mini")
             
-            prompt = f"""Genera EXACTAMENTE {batch_size} preguntas tipo test de calidad sobre: {topic}
+            prompt = f"""Genera EXACTAMENTE {batch_size} preguntas tipo test de ALTA CALIDAD sobre: {topic}
 
-REGLAS OBLIGATORIAS:
-1. Cada pregunta DEBE tener una respuesta inequívocamente correcta basada en legislación oficial o temario SAS
-2. Si ninguna de las 4 opciones es correcta, incluye "Ninguna de las anteriores es correcta" como opción D
-3. Las justificaciones DEBEN citar el artículo específico de la ley o temario oficial
-4. Las preguntas deben ser realistas y aparecer en exámenes oficiales
+{ejemplos_prompt}
+
+IMPORTANTE: 
+- Usa el MISMO ESTILO que los ejemplos oficiales
+- Referencias legales REALES y PRECISAS (artículos específicos)
+- Preguntas verificables basadas en legislación oficial
+- 4 opciones claramente diferenciadas
+- Justificaciones citando artículo específico
 
 Formato JSON (sin markdown):
-{{"preguntas":[{{"texto":"pregunta precisa","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"Explicación citando artículo X de la Ley Y o temario oficial"}}]}}
+{{"preguntas":[{{"texto":"Según la Ley X, artículo Y...","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"Artículo X de la Ley Y establece que..."}}]}}
 
-Ejemplos de buenas preguntas:
-- "Según el Estatuto de Personal No Sanitario, ¿cuál es la función principal del celador?"
-- "De acuerdo con la Ley 31/1995 de Prevención de Riesgos Laborales, ¿qué debe hacer el celador...?"
-
-Genera exactamente {batch_size} preguntas de alta calidad. Solo JSON puro."""
+Genera exactamente {batch_size} preguntas de máxima calidad. Solo JSON puro."""
             
             user_message = UserMessage(text=prompt)
             response = await chat.send_message(user_message)
