@@ -110,28 +110,37 @@ const ResultsPage = () => {
         <Card className="mb-8 border-0 shadow-lg">
           <CardHeader>
             <CardTitle>Desglose de Respuestas</CardTitle>
+            <p className="text-sm text-slate-600 mt-2">
+              Sistema de puntuación oficial: Correctas - (Incorrectas × 0.25)
+            </p>
           </CardHeader>
           <CardContent className="space-y-4">
             <div>
               <div className="flex justify-between text-sm mb-2">
                 <span>Correctas</span>
-                <span className="font-semibold text-green-600">{correctas} ({((correctas/50)*100).toFixed(0)}%)</span>
+                <span className="font-semibold text-green-600">{correctas} ({((correctas/totalPreguntas)*100).toFixed(0)}%)</span>
               </div>
-              <Progress value={(correctas/50)*100} className="h-3 bg-green-100" />
+              <Progress value={(correctas/totalPreguntas)*100} className="h-3 bg-green-100" />
             </div>
             <div>
               <div className="flex justify-between text-sm mb-2">
-                <span>Incorrectas</span>
-                <span className="font-semibold text-red-600">{incorrectas} ({((incorrectas/50)*100).toFixed(0)}%)</span>
+                <span>Incorrectas (penalizan 0.25 puntos cada una)</span>
+                <span className="font-semibold text-red-600">{incorrectas} ({((incorrectas/totalPreguntas)*100).toFixed(0)}%)</span>
               </div>
-              <Progress value={(incorrectas/50)*100} className="h-3 bg-red-100" />
+              <Progress value={(incorrectas/totalPreguntas)*100} className="h-3 bg-red-100" />
             </div>
             <div>
               <div className="flex justify-between text-sm mb-2">
-                <span>En blanco</span>
-                <span className="font-semibold text-slate-600">{enBlanco} ({((enBlanco/50)*100).toFixed(0)}%)</span>
+                <span>En blanco (no puntúan)</span>
+                <span className="font-semibold text-slate-600">{enBlanco} ({((enBlanco/totalPreguntas)*100).toFixed(0)}%)</span>
               </div>
-              <Progress value={(enBlanco/50)*100} className="h-3 bg-slate-100" />
+              <Progress value={(enBlanco/totalPreguntas)*100} className="h-3 bg-slate-100" />
+            </div>
+            <div className="pt-4 border-t-2">
+              <div className="flex justify-between items-center">
+                <span className="font-bold">Total preguntas:</span>
+                <span className="font-bold text-lg">{correctas + incorrectas + enBlanco} / {totalPreguntas}</span>
+              </div>
             </div>
           </CardContent>
         </Card>
