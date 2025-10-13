@@ -117,14 +117,14 @@ const ResultsPage = () => {
           <CardContent className="space-y-4">
             <div>
               <div className="flex justify-between text-sm mb-2">
-                <span>Correctas</span>
+                <span>Correctas (+2 puntos cada una)</span>
                 <span className="font-semibold text-green-600">{correctas} ({((correctas/totalPreguntas)*100).toFixed(0)}%)</span>
               </div>
               <Progress value={(correctas/totalPreguntas)*100} className="h-3 bg-green-100" />
             </div>
             <div>
               <div className="flex justify-between text-sm mb-2">
-                <span>Incorrectas (penalizan 0.25 puntos cada una)</span>
+                <span>Incorrectas (-0.5 puntos cada una)</span>
                 <span className="font-semibold text-red-600">{incorrectas} ({((incorrectas/totalPreguntas)*100).toFixed(0)}%)</span>
               </div>
               <Progress value={(incorrectas/totalPreguntas)*100} className="h-3 bg-red-100" />
