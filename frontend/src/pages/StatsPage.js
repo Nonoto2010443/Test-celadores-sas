@@ -184,19 +184,19 @@ const StatsPage = () => {
               <CardDescription>Insights sobre tu preparación</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
-              {promedioPercentage >= 80 && (
+              {stats.promedio_sobre_100 >= 80 && (
                 <div className="p-4 bg-green-50 border-l-4 border-green-600 rounded">
                   <p className="font-semibold text-green-900 mb-1">¡Excelente preparación!</p>
-                  <p className="text-sm text-green-800">Tu promedio está por encima del 80%. Mantén este ritmo.</p>
+                  <p className="text-sm text-green-800">Tu promedio está por encima de 80 puntos. Mantén este ritmo.</p>
                 </div>
               )}
-              {promedioPercentage >= 60 && promedioPercentage < 80 && (
+              {stats.promedio_sobre_100 >= 60 && stats.promedio_sobre_100 < 80 && (
                 <div className="p-4 bg-blue-50 border-l-4 border-blue-600 rounded">
                   <p className="font-semibold text-blue-900 mb-1">Buen progreso</p>
                   <p className="text-sm text-blue-800">Estás en el camino correcto. Sigue practicando para mejorar.</p>
                 </div>
               )}
-              {promedioPercentage < 60 && (
+              {stats.promedio_sobre_100 < 60 && (
                 <div className="p-4 bg-yellow-50 border-l-4 border-yellow-600 rounded">
                   <p className="font-semibold text-yellow-900 mb-1">Necesitas más práctica</p>
                   <p className="text-sm text-yellow-800">Repasa el temario y realiza más exámenes para mejorar.</p>
@@ -204,12 +204,9 @@ const StatsPage = () => {
               )}
 
               <div className="p-4 bg-slate-50 border-l-4 border-slate-600 rounded">
-                <p className="font-semibold text-slate-900 mb-1">Tiempo de Examen</p>
+                <p className="font-semibold text-slate-900 mb-1">Sistema de Puntuación</p>
                 <p className="text-sm text-slate-800">
-                  Tu tiempo promedio es {formatTime(stats.tiempo_promedio)}. 
-                  {stats.tiempo_promedio < 3600 && " Buen ritmo."}
-                  {stats.tiempo_promedio >= 3600 && stats.tiempo_promedio < 4500 && " Maneja bien tu tiempo."}
-                  {stats.tiempo_promedio >= 4500 && " Considera practicar más para reducir el tiempo."}
+                  Correctas (+2 pts) - Incorrectas (-0.5 pts) - En blanco (0 pts)
                 </p>
               </div>
 
