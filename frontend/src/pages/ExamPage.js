@@ -156,7 +156,7 @@ const ExamPage = () => {
             <p className="text-lg text-slate-900 mb-6 leading-relaxed">{currentQ.texto}</p>
             
             <RadioGroup 
-              value={answers[currentQuestion]?.toString()} 
+              value={answers[currentQuestion] !== null ? answers[currentQuestion].toString() : ""} 
               onValueChange={handleAnswerChange}
               data-testid="answer-options"
             >
