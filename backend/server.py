@@ -142,7 +142,13 @@ async def generate_exam():
 
 @api_router.post("/exams/submit", response_model=ExamResult)
 async def submit_exam(exam: ExamSubmit):
-    """Submit an exam and save results with official scoring system"""
+    """Submit an exam and save results with official scoring system
+    
+    Official SAS scoring:
+    - Each correct answer = 2 points (50 correct = 100 points)
+    - Each incorrect answer = -0.5 points (penalty of 1/4 of 2 points)
+    - Blank answers = 0 points
+    """
     total_preguntas = len(exam.preguntas)
     
     # Calculate correctas, incorrectas, en blanco
@@ -158,17 +164,15 @@ async def submit_exam(exam: ExamSubmit):
         else:
             incorrectas += 1
     
-    # Official scoring: correctas - (incorrectas × 0.25)
-    # This gives the score out of total questions (e.g., 46, 50, etc.)
-    puntuacion_oficial = correctas - (incorrectas * 0.25)
-    
-    # Convert to score out of 100 points
-    # Each question is worth: 100 / total_preguntas points
-    puntos_por_pregunta = 100.0 / total_preguntas
-    puntuacion_sobre_100 = puntuacion_oficial * puntos_por_pregunta
+    # Official scoring for 50 questions = 100 points
+    # Each correct = 2 points, each incorrect = -0.5 points
+    puntuacion_sobre_100 = (correctas * 2.0) - (incorrectas * 0.5)
     
     # Ensure score doesn't go below 0
     puntuacion_sobre_100 = max(0, puntuacion_sobre_100)
+    
+    # Official score (correctas - incorrectas × 0.25) for reference
+    puntuacion_oficial = correctas - (incorrectas * 0.25)
     
     result = ExamResult(
         preguntas=exam.preguntas,
