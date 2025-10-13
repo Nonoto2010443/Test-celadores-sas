@@ -63,53 +63,58 @@ class Stats(BaseModel):
 # Helper function to generate questions with AI
 async def generate_questions_with_ai() -> List[Question]:
     api_key = os.environ.get('EMERGENT_LLM_KEY')
-    
-    chat = LlmChat(
-        api_key=api_key,
-        session_id=str(uuid.uuid4()),
-        system_message="Experto en oposiciones celadores SAS. Genera preguntas test concisas."
-    ).with_model("openai", "gpt-4o-mini")
-    
-    prompt = """Genera 50 preguntas test SAS celadores en JSON:
-
-{"preguntas":[{"texto":"pregunta","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"breve"}]}
-
-Temas: funciones, normativa, organización, movilización, higiene, documentación, derechos, prevención riesgos.
-Justificaciones breves (1 línea). Solo JSON, sin markdown."""
-    
-    user_message = UserMessage(text=prompt)
-    response = await chat.send_message(user_message)
-    
-    # Parse JSON response
     import json
     
-    # Try to extract JSON from response
-    response_text = response.strip()
+    all_questions = []
     
-    # Remove markdown code blocks if present
-    if response_text.startswith('```'):
-        lines = response_text.split('\n')
-        response_text = '\n'.join(lines[1:-1])
+    # Generate 2 batches of 25 questions each to stay within budget
+    for batch_num in range(2):
+        chat = LlmChat(
+            api_key=api_key,
+            session_id=str(uuid.uuid4()),
+            system_message="Experto en oposiciones celadores SAS. Genera preguntas test concisas."
+        ).with_model("openai", "gpt-4o-mini")
+        
+        topics = [
+            "funciones del celador, traslado de pacientes",
+            "normativa sanitaria, derechos pacientes, prevención riesgos"
+        ]
+        
+        prompt = f"""Genera 25 preguntas test sobre: {topics[batch_num]}
+
+JSON: {{"preguntas":[{{"texto":"...","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"1 línea"}}]}}
+
+Solo JSON sin markdown."""
+        
+        user_message = UserMessage(text=prompt)
+        response = await chat.send_message(user_message)
+        
+        # Parse JSON response
+        response_text = response.strip()
+        
+        # Remove markdown code blocks if present
+        if response_text.startswith('```'):
+            lines = response_text.split('\n')
+            response_text = '\n'.join(lines[1:-1])
+        
+        if response_text.startswith('```json'):
+            response_text = response_text[7:]
+        if response_text.endswith('```'):
+            response_text = response_text[:-3]
+        
+        response_text = response_text.strip()
+        
+        data = json.loads(response_text)
+        
+        for q in data['preguntas']:
+            all_questions.append(Question(
+                texto=q['texto'],
+                opciones=q['opciones'],
+                respuesta_correcta=q['respuesta_correcta'],
+                justificacion=q['justificacion']
+            ))
     
-    if response_text.startswith('```json'):
-        response_text = response_text[7:]
-    if response_text.endswith('```'):
-        response_text = response_text[:-3]
-    
-    response_text = response_text.strip()
-    
-    data = json.loads(response_text)
-    
-    questions = []
-    for q in data['preguntas']:
-        questions.append(Question(
-            texto=q['texto'],
-            opciones=q['opciones'],
-            respuesta_correcta=q['respuesta_correcta'],
-            justificacion=q['justificacion']
-        ))
-    
-    return questions
+    return all_questions
 
 
 # Routes
