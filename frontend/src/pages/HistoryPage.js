@@ -91,7 +91,8 @@ const HistoryPage = () => {
         ) : (
           <div className="space-y-4">
             {exams.map((exam, index) => {
-              const percentage = (exam.puntuacion / 50) * 100;
+              const puntuacionSobre100 = exam.puntuacion_sobre_100 || 0;
+              const puntuacionOficial = exam.puntuacion_oficial || 0;
               const fecha = new Date(exam.fecha);
 
               return (
@@ -104,12 +105,12 @@ const HistoryPage = () => {
                   <CardContent className="p-6">
                     <div className="flex items-center justify-between gap-6">
                       <div className="flex items-center gap-6 flex-1">
-                        <div className={`w-20 h-20 rounded-2xl border-2 ${getScoreBg(exam.puntuacion)} flex items-center justify-center flex-shrink-0`}>
+                        <div className={`w-20 h-20 rounded-2xl border-2 ${getScoreBg(puntuacionSobre100)} flex items-center justify-center flex-shrink-0`}>
                           <div className="text-center">
-                            <div className={`text-2xl font-bold ${getScoreColor(exam.puntuacion)}`}>
-                              {exam.puntuacion}
+                            <div className={`text-2xl font-bold ${getScoreColor(puntuacionSobre100)}`}>
+                              {puntuacionSobre100.toFixed(1)}
                             </div>
-                            <div className="text-xs text-slate-600">/ 50</div>
+                            <div className="text-xs text-slate-600">/ 100</div>
                           </div>
                         </div>
 
@@ -128,8 +129,8 @@ const HistoryPage = () => {
                             </div>
                             <div className="flex items-center gap-1">
                               <Award className="h-4 w-4" />
-                              <span className={getScoreColor(exam.puntuacion)}>
-                                {percentage.toFixed(1)}%
+                              <span className={getScoreColor(puntuacionSobre100)}>
+                                {puntuacionOficial.toFixed(2)} pts
                               </span>
                             </div>
                           </div>
