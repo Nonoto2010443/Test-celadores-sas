@@ -67,37 +67,15 @@ async def generate_questions_with_ai() -> List[Question]:
     chat = LlmChat(
         api_key=api_key,
         session_id=str(uuid.uuid4()),
-        system_message="Eres un experto en oposiciones para celadores del Servicio Andaluz de Salud (SAS). Tu trabajo es generar preguntas tipo test precisas y realistas basadas en el temario oficial y la legislación vigente."
-    ).with_model("openai", "gpt-4o")
+        system_message="Experto en oposiciones celadores SAS. Genera preguntas test concisas."
+    ).with_model("openai", "gpt-4o-mini")
     
-    prompt = """Genera exactamente 50 preguntas tipo test para preparar las oposiciones de celadores del SAS (Servicio Andaluz de Salud).
+    prompt = """Genera 50 preguntas test SAS celadores en JSON:
 
-Cada pregunta debe tener:
-- Una pregunta clara y específica
-- 4 opciones de respuesta (A, B, C, D)
-- Solo UNA respuesta correcta
-- Una justificación detallada basada en el temario oficial o legislación vigente
+{"preguntas":[{"texto":"pregunta","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"breve"}]}
 
-Temas a cubrir: funciones del celador, normativa sanitaria, organización hospitalaria, movilización de pacientes, higiene hospitalaria, documentación sanitaria, derechos y deberes, prevención de riesgos laborales.
-
-Formato de respuesta JSON:
-{
-  "preguntas": [
-    {
-      "texto": "¿Cuál es la función principal del celador en el área de urgencias?",
-      "opciones": [
-        "Realizar curas y vendajes",
-        "Trasladar pacientes y material sanitario",
-        "Administrar medicación",
-        "Realizar triaje de pacientes"
-      ],
-      "respuesta_correcta": 1,
-      "justificacion": "Según el Estatuto de Personal no Sanitario, la función principal del celador es el traslado de pacientes y material, no pudiendo realizar funciones sanitarias como curas o administración de medicación."
-    }
-  ]
-}
-
-Genera las 50 preguntas variadas y de calidad ahora."""
+Temas: funciones, normativa, organización, movilización, higiene, documentación, derechos, prevención riesgos.
+Justificaciones breves (1 línea). Solo JSON, sin markdown."""
     
     user_message = UserMessage(text=prompt)
     response = await chat.send_message(user_message)
