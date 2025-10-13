@@ -111,7 +111,7 @@ const ResultsPage = () => {
           <CardHeader>
             <CardTitle>Desglose de Respuestas</CardTitle>
             <p className="text-sm text-slate-600 mt-2">
-              Sistema de puntuación oficial: Correctas - (Incorrectas × 0.25)
+              Sistema oficial SAS: Correctas (+2 pts) - Incorrectas (-0.5 pts) - En blanco (0 pts)
             </p>
           </CardHeader>
           <CardContent className="space-y-4">
