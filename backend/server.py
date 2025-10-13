@@ -86,15 +86,25 @@ async def generate_questions_with_ai() -> List[Question]:
             chat = LlmChat(
                 api_key=api_key,
                 session_id=str(uuid.uuid4()),
-                system_message="Experto en oposiciones celadores SAS."
+                system_message="Eres un experto en oposiciones de celadores del SAS. REGLAS ESTRICTAS: 1) Cada pregunta debe tener una respuesta inequívocamente correcta basada en legislación o temario oficial. 2) Si ninguna opción es correcta, incluye 'Ninguna de las anteriores es correcta' como opción válida. 3) Cita siempre el artículo o legislación en la justificación."
             ).with_model("openai", "gpt-4o-mini")
             
-            prompt = f"""Genera EXACTAMENTE {batch_size} preguntas tipo test sobre: {topic}
+            prompt = f"""Genera EXACTAMENTE {batch_size} preguntas tipo test de calidad sobre: {topic}
+
+REGLAS OBLIGATORIAS:
+1. Cada pregunta DEBE tener una respuesta inequívocamente correcta basada en legislación oficial o temario SAS
+2. Si ninguna de las 4 opciones es correcta, incluye "Ninguna de las anteriores es correcta" como opción D
+3. Las justificaciones DEBEN citar el artículo específico de la ley o temario oficial
+4. Las preguntas deben ser realistas y aparecer en exámenes oficiales
 
 Formato JSON (sin markdown):
-{{"preguntas":[{{"texto":"pregunta","opciones":["op1","op2","op3","op4"],"respuesta_correcta":0,"justificacion":"explicación"}}]}}
+{{"preguntas":[{{"texto":"pregunta precisa","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"Explicación citando artículo X de la Ley Y o temario oficial"}}]}}
 
-IMPORTANTE: Genera exactamente {batch_size} preguntas. Solo JSON puro."""
+Ejemplos de buenas preguntas:
+- "Según el Estatuto de Personal No Sanitario, ¿cuál es la función principal del celador?"
+- "De acuerdo con la Ley 31/1995 de Prevención de Riesgos Laborales, ¿qué debe hacer el celador...?"
+
+Genera exactamente {batch_size} preguntas de alta calidad. Solo JSON puro."""
             
             user_message = UserMessage(text=prompt)
             response = await chat.send_message(user_message)
