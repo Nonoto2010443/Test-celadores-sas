@@ -275,40 +275,76 @@ const ResultsPage = () => {
                     const userAnswer = exam.respuestas_usuario[index];
 
                     return (
-                      <div key={index} className="p-6 rounded-lg border-2 border-red-200 bg-red-50">
-                        <div className="flex items-start gap-3 mb-4">
-                          <XCircle className="h-8 w-8 text-red-600 flex-shrink-0" />
-                          <div className="flex-1">
-                            <p className="font-semibold text-slate-900 mb-3">{index + 1}. {pregunta.texto}</p>
-                            
-                            <div className="space-y-2 mb-4">
-                              {pregunta.opciones.map((opcion, optIndex) => {
-                                const isThisCorrect = optIndex === pregunta.respuesta_correcta;
-                                const isUserChoice = optIndex === userAnswer;
-
-                                return (
-                                  <div 
-                                    key={optIndex}
-                                    className={`p-3 rounded-lg ${
-                                      isThisCorrect ? 'bg-green-100 border-2 border-green-400' :
-                                      isUserChoice ? 'bg-red-100 border-2 border-red-400' :
-                                      'bg-white border border-slate-200'
-                                    }`}
-                                  >
-                                    <span className="font-semibold mr-2">{String.fromCharCode(65 + optIndex)}.</span>
-                                    {opcion}
-                                    {isThisCorrect && <span className="ml-2 text-green-700 font-semibold">(Correcta)</span>}
-                                    {isUserChoice && <span className="ml-2 text-red-700 font-semibold">(Tu respuesta)</span>}
-                                  </div>
-                                );
-                              })}
-                            </div>
-
-                            <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
-                              <p className="font-semibold text-blue-900 mb-2">Justificación:</p>
-                              <p className="text-blue-800 text-sm leading-relaxed">{pregunta.justificacion}</p>
-                            </div>
+                      <div key={index} className="p-6 rounded-lg border-2 border-red-300 bg-red-50">
+                        {/* Header */}
+                        <div className="flex items-center gap-3 mb-4 pb-3 border-b-2 border-red-200">
+                          <XCircle className="h-10 w-10 text-red-600" />
+                          <div>
+                            <p className="font-bold text-red-700">Pregunta {index + 1} - INCORRECTA</p>
+                            <p className="text-sm text-red-600">Revisa la respuesta correcta</p>
                           </div>
+                        </div>
+
+                        {/* Pregunta */}
+                        <p className="font-semibold text-lg text-slate-900 mb-4">{pregunta.texto}</p>
+                        
+                        {/* Tu respuesta */}
+                        <div className="mb-4 p-4 bg-red-100 border-l-4 border-red-600 rounded">
+                          <p className="text-sm font-bold text-red-900 mb-1">Tu respuesta (incorrecta):</p>
+                          <p className="text-red-800 font-semibold">
+                            <span className="font-bold mr-2">{String.fromCharCode(65 + userAnswer)}.</span>
+                            {pregunta.opciones[userAnswer]}
+                          </p>
+                        </div>
+                        
+                        {/* Opciones */}
+                        <div className="space-y-3 mb-4">
+                          <p className="text-sm font-semibold text-slate-700 mb-2">Todas las opciones:</p>
+                          {pregunta.opciones.map((opcion, optIndex) => {
+                            const isThisCorrect = optIndex === pregunta.respuesta_correcta;
+                            const isUserChoice = optIndex === userAnswer;
+
+                            return (
+                              <div 
+                                key={optIndex}
+                                className={`p-4 rounded-lg border-2 ${
+                                  isThisCorrect ? 'bg-green-100 border-green-500' :
+                                  isUserChoice ? 'bg-red-100 border-red-500' :
+                                  'bg-white border-slate-200'
+                                }`}
+                              >
+                                <div className="flex items-start gap-2">
+                                  <span className="font-bold text-lg min-w-[30px]">{String.fromCharCode(65 + optIndex)}.</span>
+                                  <div className="flex-1">
+                                    <p className={`${isThisCorrect ? 'text-green-900 font-semibold' : isUserChoice ? 'text-red-900 font-semibold' : 'text-slate-700'}`}>
+                                      {opcion}
+                                    </p>
+                                    {isThisCorrect && (
+                                      <div className="flex items-center gap-2 mt-2">
+                                        <CheckCircle2 className="h-5 w-5 text-green-700" />
+                                        <span className="text-green-700 font-bold text-sm">RESPUESTA CORRECTA</span>
+                                      </div>
+                                    )}
+                                    {isUserChoice && (
+                                      <div className="flex items-center gap-2 mt-2">
+                                        <XCircle className="h-5 w-5 text-red-700" />
+                                        <span className="text-red-700 font-bold text-sm">Tu respuesta</span>
+                                      </div>
+                                    )}
+                                  </div>
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+
+                        {/* Justificación */}
+                        <div className="bg-indigo-50 border-l-4 border-indigo-600 p-4 rounded-lg">
+                          <p className="font-bold text-indigo-900 mb-2 flex items-center gap-2">
+                            <span className="text-lg">📚</span>
+                            Justificación:
+                          </p>
+                          <p className="text-indigo-800 leading-relaxed">{pregunta.justificacion}</p>
                         </div>
                       </div>
                     );
