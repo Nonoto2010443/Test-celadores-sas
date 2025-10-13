@@ -58,9 +58,12 @@ class ExamSubmit(BaseModel):
 
 class Stats(BaseModel):
     total_examenes: int
-    promedio_puntuacion: float
-    mejor_puntuacion: int
-    ultima_puntuacion: Optional[int]
+    promedio_puntuacion: float  # Average official score
+    promedio_sobre_100: float  # Average score out of 100
+    mejor_puntuacion: float  # Best official score
+    mejor_sobre_100: float  # Best score out of 100
+    ultima_puntuacion: Optional[float]  # Last official score
+    ultima_sobre_100: Optional[float]  # Last score out of 100
     tiempo_promedio: int
 
 
