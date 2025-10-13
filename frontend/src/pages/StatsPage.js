@@ -147,7 +147,7 @@ const StatsPage = () => {
           <Card className="border-0 shadow-lg">
             <CardHeader>
               <CardTitle>Progreso de Puntuaciones</CardTitle>
-              <CardDescription>Sistema oficial: Correctas - (Incorrectas × 0.25)</CardDescription>
+              <CardDescription>Sistema oficial SAS: Correctas (+2 pts) - Incorrectas (-0.5 pts)</CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
               <div>
