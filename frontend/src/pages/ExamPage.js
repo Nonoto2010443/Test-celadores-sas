@@ -53,7 +53,7 @@ const ExamPage = () => {
       const response = await axios.post(`${API}/exams/generate`, {}, { timeout: 120000 });
       setQuestions(response.data);
       setAnswers(new Array(response.data.length).fill(null));
-      toast.success("¡Examen generado con éxito!");
+      toast.success("¡Examen generado exitosamente!");
     } catch (error) {
       console.error("Error generating exam:", error);
       toast.error("Error al generar el examen. Por favor, intenta de nuevo.");
