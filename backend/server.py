@@ -240,10 +240,14 @@ Genera EXACTAMENTE {questions_needed} preguntas que sean indistinguibles de las 
             user_message = UserMessage(text=prompt)
             response = await chat.send_message(user_message)
             
-            # Parse JSON
+            # Parse JSON - clean response text
             response_text = response.strip()
             if '```' in response_text:
                 response_text = response_text.replace('```json', '').replace('```', '').strip()
+            
+            # Remove control characters that break JSON parsing
+            import re
+            response_text = re.sub(r'[\x00-\x1f\x7f-\x9f]', '', response_text)
             
             data = json.loads(response_text)
             
