@@ -1,0 +1,552 @@
+[
+  {
+    "Id": 1,
+    "Question": "❓ FFM.-¿Qué aplicación para la gestión de contraseñas permite a los profesionales del SAS el cambio y la recuperación de la misma de forma autogestionada?",
+    "Options": {
+      "A": "a. UNIFY OFFICE",
+      "B": "b. Altiris",
+      "C": "c. LETSAS",
+      "D": "d. AGESCON"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 2,
+    "Question": "❓ FFM.-¿Cuál de los siguientes es un sistema de información para la gestión del mantenimiento y de los activos del SAS?",
+    "Options": {
+      "A": "a. SIGLO",
+      "B": "b. SIGMA-MANSIS",
+      "C": "c. DIRAYA",
+      "D": "d. GERHONTE"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 3,
+    "Question": "❓ FFM.-En el contexto de la ciberseguridad del SAS, ¿qué herramienta está diseñada para convertir URL largas en versiones más cortas y manejables?",
+    "Options": {
+      "A": "a. UNIFY OFFICE",
+      "B": "b. Acortador de URL",
+      "C": "c. Telémaco",
+      "D": "d. Consigna"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 4,
+    "Question": "❓ FFM.-¿Cuál de los siguientes no es un bloque funcional del sistema de información DIRAYA?",
+    "Options": {
+      "A": "a. Historia de Salud Digital",
+      "B": "b. Módulo de Urgencias",
+      "C": "c. Módulo de Contabilidad",
+      "D": "d. Receta electrónica"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 5,
+    "Question": "❓ FFM.-¿Qué sistema de información integral del SAS se utiliza como soporte de la historia clínica electrónica?",
+    "Options": {
+      "A": "a. GESCON",
+      "B": "b. SIGLO",
+      "C": "c. DIRAYA",
+      "D": "d. GERHONTE"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 6,
+    "Question": "❓ FFM.-La aplicación que permite a los profesionales del SAS gestionar sus necesidades informáticas, registrar incidencias y peticiones, se denomina:",
+    "Options": {
+      "A": "a. Web Técnica",
+      "B": "b. ayudaDIGITAL área personal",
+      "C": "c. Jira",
+      "D": "d. COSMOS"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 7,
+    "Question": "❓ FFM.-¿Qué plataforma de gestión de activos del SAS se basa en un inventario automatizado a nivel de puesto de usuario y permite la instalación remota de software?",
+    "Options": {
+      "A": "a. UNIFY OFFICE",
+      "B": "b. Altiris",
+      "C": "c. idenTIC",
+      "D": "d. NetControl"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 8,
+    "Question": "❓ FFM.-¿Qué sistema de gestión corporativo de imágenes médicas del SAS almacena y digitaliza pruebas radiológicas y de medicina nuclear?",
+    "Options": {
+      "A": "a. MTI",
+      "B": "b. PACS",
+      "C": "c. SIGLO",
+      "D": "d. AGD"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 9,
+    "Question": "❓ FFM.-La herramienta de soporte integral informático para los profesionales del SAS, que incluye formación, acceso a aplicaciones y notificaciones en tiempo real, se conoce como:",
+    "Options": {
+      "A": "a. ayudaDIGITAL",
+      "B": "b. Mi Cuenta",
+      "C": "c. RedProfesional",
+      "D": "d. AGESCON"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 10,
+    "Question": "❓ FFM.-El sistema de información y gestión integral de la salud del SAS que permite a los profesionales sanitarios acceder a la información del paciente de forma segura y actualizada es:",
+    "Options": {
+      "A": "a. SIGMA-MANSIS",
+      "B": "b. GERHONTE",
+      "C": "c. SIGLO",
+      "D": "d. DIRAYA"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 11,
+    "Question": "❓ FFM.-¿Cuál es el acrónimo del sistema de información que reúne todas las funcionalidades para la gestión de los Recursos Humanos del Servicio Andaluz de Salud?",
+    "Options": {
+      "A": "a. SIGLO",
+      "B": "b. DIRAYA",
+      "C": "c. GERHONTE",
+      "D": "d. MANSIS"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 12,
+    "Question": "❓ FFM.-Según el Código de Conducta en el uso de las TIC, ¿qué debe hacer un profesional si sospecha que sus credenciales de acceso están siendo utilizadas por otra persona?",
+    "Options": {
+      "A": "a. Esperar a que el sistema se bloquee automáticamente.",
+      "B": "b. Notificar la incidencia a su jefe de servicio al final del día.",
+      "C": "c. Proceder inmediatamente a su cambio y notificar la incidencia de seguridad.",
+      "D": "d. No hacer nada, ya que el sistema de seguridad lo detectará."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 13,
+    "Question": "❓ FFM.-¿Qué aplicación móvil permite a los profesionales del SAS consultar y descargar sus nóminas y certificados IRPF?",
+    "Options": {
+      "A": "a. Diraya",
+      "B": "b. mGerhonte",
+      "C": "c. SIGLO",
+      "D": "d. Salud Responde"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 14,
+    "Question": "❓ FFM.-¿Qué plataforma permite a los profesionales del SAS el acceso a herramientas necesarias para desempeñar sus tareas desde ubicaciones remotas, como el domicilio particular?",
+    "Options": {
+      "A": "a. AGESCON",
+      "B": "b. SARAC",
+      "C": "c. Mi Cuenta",
+      "D": "d. FicherosJunta"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 15,
+    "Question": "❓ FFM.-El servicio de soporte integral TIC, también conocido como CSU o Centro de Servicios al Usuario, se encarga de:",
+    "Options": {
+      "A": "a. Coordinar la gestión del catálogo de bienes y servicios.",
+      "B": "b. Gestionar la contratación administrativa.",
+      "C": "c. Ser el punto único de contacto para los usuarios ante cualquier solicitud de servicio TIC.",
+      "D": "d. Planificar la renovación de equipos obsoletos."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 16,
+    "Question": "❓ FFM.-¿Qué aplicación del SAS permite a los profesionales almacenar y sincronizar archivos en línea y entre ordenadores de forma indefinida, y compartir archivos y carpetas con otros usuarios?",
+    "Options": {
+      "A": "a. Consigna",
+      "B": "b. FicherosJunta",
+      "C": "c. Acortador de URL",
+      "D": "d. AGATA"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 17,
+    "Question": "❓ FFM.-¿Qué herramienta de gestión y control de la Incapacidad Temporal (IT) se constituye como la herramienta de trabajo para los médicos inspectores?",
+    "Options": {
+      "A": "a. SIGLO",
+      "B": "b. Diraya PIT",
+      "C": "c. Sigilum Milenium (SMIL)",
+      "D": "d. GERHONTE"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 18,
+    "Question": "❓ FFM.-¿Cuál de las siguientes es una funcionalidad de la aplicación móvil mGerhonte?",
+    "Options": {
+      "A": "a. Solicitud de citas médicas.",
+      "B": "b. Acceso a la tarjeta sanitaria virtual.",
+      "C": "c. Consulta y descarga de nóminas.",
+      "D": "d. Gestión de la demanda quirúrgica."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 19,
+    "Question": "❓ FFM.-El servicio de correo electrónico corporativo para los empleados de la Junta de Andalucía, al que se puede acceder a través de un navegador web, se conoce como:",
+    "Options": {
+      "A": "a. WebMail",
+      "B": "b. Web Técnica",
+      "C": "c. Correo Electrónico Personal",
+      "D": "d. Correo Office365"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 20,
+    "Question": "❓ FFM.-¿Qué herramienta del SAS se utiliza para gestionar las solicitudes registradas por los usuarios y ver otra información de interés por parte de los resolutores?",
+    "Options": {
+      "A": "a. WebMail",
+      "B": "b. Web Técnica (WT)",
+      "C": "c. Jira",
+      "D": "d. Confluence"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 21,
+    "Question": "❓ FFM.-¿Qué herramienta se utiliza en el SAS para dar soporte a cualquier actividad planificada de los procesos de la Subdirección de Tecnologías de la Información y las Comunicaciones (STIC)?",
+    "Options": {
+      "A": "a. JIRA",
+      "B": "b. Altiris",
+      "C": "c. UNIFY OFFICE",
+      "D": "d. Confluence"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 22,
+    "Question": "❓ FFM.-¿Qué plataforma de monitorización central proporciona información sobre líneas y elementos de comunicaciones principales de la RCJA (Red Corporativa de la Junta de Andalucía)?",
+    "Options": {
+      "A": "a. Telémaco",
+      "B": "b. COSMOS",
+      "C": "c. CMS",
+      "D": "d. Altiris"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 23,
+    "Question": "❓ FFM.-El servicio de soporte integral informático para los profesionales del SAS, que incluye un asistente digital con inteligencia artificial generativa, se llama:",
+    "Options": {
+      "A": "a. AYDI",
+      "B": "b. ayudaDIGITAL",
+      "C": "c. MTI",
+      "D": "d. Ayesa"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 24,
+    "Question": "❓ FFM.-¿Qué herramienta del SAS permite el control remoto de equipos para dar servicio a los usuarios desde cualquier localización?",
+    "Options": {
+      "A": "a. Telémaco",
+      "B": "b. NetControl",
+      "C": "c. idenTIC",
+      "D": "d. Confluence"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 25,
+    "Question": "❓ FFM.-El Sistema Operativo basado en Linux implementado en los terminales ligeros del Servicio Andaluz de Salud es:",
+    "Options": {
+      "A": "a. Microsoft Windows",
+      "B": "b. LETSAS",
+      "C": "c. MacOS",
+      "D": "d. HarmonyOS"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 26,
+    "Question": "❓ FFM.-La aplicación que permite a los empleados de la Junta de Andalucía reservar o consultar la disponibilidad del conjunto de recursos compartidos de su edificio se llama:",
+    "Options": {
+      "A": "a. Consigna",
+      "B": "b. Reserva de recursos",
+      "C": "c. RedProfesional",
+      "D": "d. Mi Cuenta"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 27,
+    "Question": "❓ FFM.-¿Qué herramienta de Atlassian es el Repositorio de documentación y gestión del conocimiento de la STIC?",
+    "Options": {
+      "A": "a. JIRA",
+      "B": "b. Confluence",
+      "C": "c. Altiris",
+      "D": "d. COSMOS"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 28,
+    "Question": "❓ FFM.-¿Qué tipo de usuario de Mi Cuenta tiene el sufijo «.ext» de forma general en sus identificadores?",
+    "Options": {
+      "A": "a. Internos",
+      "B": "b. Externos",
+      "C": "c. Genéricos",
+      "D": "d. SIRHUS"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 29,
+    "Question": "❓ FFM.-¿Cuál de los siguientes es un tipo de puesto de trabajo digital de especial importancia (PTEI)?",
+    "Options": {
+      "A": "a. Quirófano",
+      "B": "b. Quirófano",
+      "C": "c. Quirófano",
+      "D": "d. Todas las anteriores son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 30,
+    "Question": "❓ FFM.-En el puesto de trabajo digital, ¿qué tecnología utiliza el SAS como \"fachada\" para posibilitar el consumo de los módulos de DIRAYA?",
+    "Options": {
+      "A": "a. Citrix",
+      "B": "b. Apple iOS",
+      "C": "c. Google Android",
+      "D": "d. Microsoft Excel"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 31,
+    "Question": "❓ FFM.-¿Qué sistema utiliza el SAS para la gestión y el control de la Incapacidad Temporal (IT)?",
+    "Options": {
+      "A": "a. SIGMA-MANSIS",
+      "B": "b. Sigilum Milenium (SMIL)",
+      "C": "c. DIRAYA",
+      "D": "d. GERHONTE"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 32,
+    "Question": "❓ FFM.-¿Qué módulo de DIRAYA es el repositorio de la historia de salud en atención primaria (HSAP)?",
+    "Options": {
+      "A": "a. DAP (Diraya Atención Primaria)",
+      "B": "b. DAH-EC (Diraya Atención Hospitalaria - Estación Clínica)",
+      "C": "c. DAH-ECC (Diraya Atención Hospitalaria - Estación Clínica de Cuidados)",
+      "D": "d. DAH-EG (Diraya Atención Hospitalaria - Estación de Gestión)"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 33,
+    "Question": "❓ FFM.-¿Qué aplicación de la Subdirección de Tecnologías de la Información y las Comunicaciones (STIC) se utiliza para la gestión del ciclo de vida del software del SAS y para la gestión de proyectos de los equipos provinciales TIC?",
+    "Options": {
+      "A": "a. Confluence",
+      "B": "b. Altiris",
+      "C": "c. Jira",
+      "D": "d. Web Técnica"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 34,
+    "Question": "❓ FFM.-¿Qué servicio corporativo de Comunicaciones Unificadas y Colaboración unifica la voz, el vídeo y la mensajería instantánea en una sola aplicación?",
+    "Options": {
+      "A": "a. LETSAS",
+      "B": "b. UNIFY OFFICE",
+      "C": "c. RedProfesional",
+      "D": "d. Sarac"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 35,
+    "Question": "❓ FFM.-¿Cuál es el sistema de gestión corporativo de imágenes médicas del Servicio Andaluz de Salud?",
+    "Options": {
+      "A": "a. PACS",
+      "B": "b. MTI",
+      "C": "c. SIGLO",
+      "D": "d. AGD"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 36,
+    "Question": "❓ FFM.-El portal que permite a los profesionales del SAS acceder a las estaciones de trabajo y cambiar de centro físico se llama:",
+    "Options": {
+      "A": "a. Portal Diraya",
+      "B": "b. Portal de Admisión",
+      "C": "c. Portal de Urgencias",
+      "D": "d. Portal de Citas"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 37,
+    "Question": "❓ FFM.-¿Cuál es el objetivo principal del servicio de soporte integral de Tecnologías de la Información y Comunicaciones (TIC) del SAS?",
+    "Options": {
+      "A": "a. Gestionar la nómina de los profesionales.",
+      "B": "b. Coordinar las citas de los pacientes.",
+      "C": "c. Proporcionar asistencia técnica a los profesionales del SAS.",
+      "D": "d. Realizar la facturación de los servicios."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 38,
+    "Question": "❓ FFM.-La aplicación DAH-EG se encarga de:",
+    "Options": {
+      "A": "a. Los registros de enfermería.",
+      "B": "b. Las tareas de gestión de los procesos asistenciales de la gestión hospitalaria.",
+      "C": "c. La gestión de Cuidados Críticos y Urgencias.",
+      "D": "d. Las agendas de Atención Primaria."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 39,
+    "Question": "❓ FFM.-¿Qué sistema de información hospitalaria se denomina DIRAYA en el SAS?",
+    "Options": {
+      "A": "a. HIS (Hospital Information System)",
+      "B": "b. PACS (Picture Archiving and Communication System)",
+      "C": "c. MTI (Módulo de Tratamiento de la Información)",
+      "D": "d. SMIL (Sigilum Milenium)"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 40,
+    "Question": "❓ FFM.-¿Cuál es la herramienta de calendario, contactos y tareas del SAS, cuya vigencia finaliza en octubre de 2024?",
+    "Options": {
+      "A": "a. AGESCON",
+      "B": "b. Confluence",
+      "C": "c. AGATA",
+      "D": "d. UNIFY OFFICE"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 41,
+    "Question": "❓ FFM.-¿Qué sistema de información sanitario permite el acceso a un repositorio de información para ser explotado por los profesionales asistenciales de la organización, facilitando el cálculo de estadísticas?",
+    "Options": {
+      "A": "a. Módulo de gestión del conocimiento (MGC)",
+      "B": "b. DAH-EG",
+      "C": "c. Diraya Portal",
+      "D": "d. DAH-EC"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 42,
+    "Question": "❓ FFM.-¿Qué herramienta permite al SAS la gestión de sus activos a nivel de puesto de usuario, incluyendo un inventario automatizado y la distribución remota de software?",
+    "Options": {
+      "A": "a. Altiris",
+      "B": "b. NetControl",
+      "C": "c. idenTIC",
+      "D": "d. Confluence"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 43,
+    "Question": "❓ FFM.-¿Qué herramienta corporativa se utiliza en todos los centros del SAS para el acceso y autorización de la conexión de dispositivos a la red de cableado local y a la red WIFI?",
+    "Options": {
+      "A": "a. Altiris",
+      "B": "b. NetControl",
+      "C": "c. idenTIC",
+      "D": "d. COSMOS"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 44,
+    "Question": "❓ FFM.-¿Qué aplicación permite a los usuarios almacenar y sincronizar archivos en línea y entre ordenadores y compartirlos con otros usuarios, sin un límite de tiempo definido?",
+    "Options": {
+      "A": "a. Consigna",
+      "B": "b. FicherosJunta",
+      "C": "c. RedProfesional",
+      "D": "d. AGESCON"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 45,
+    "Question": "❓ FFM.-¿Cuál es el sistema que permite a los profesionales del SAS acceder a los aplicativos y servicios TIC corporativos de forma segura fuera de la ubicación laboral habitual?",
+    "Options": {
+      "A": "a. LETSAS",
+      "B": "b. AGESCON",
+      "C": "c. SARAC",
+      "D": "d. MTI"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 46,
+    "Question": "❓ FFM.-En el Código de Conducta en el uso de las TIC, ¿qué debe hacer un profesional si sospecha que sus credenciales están siendo utilizadas por otra persona?",
+    "Options": {
+      "A": "a. Esperar a que la persona termine.",
+      "B": "b. Contactar a su superior y notificarle la sospecha.",
+      "C": "c. Proceder inmediatamente a su cambio y notificar la correspondiente incidencia de seguridad.",
+      "D": "d. No hacer nada, ya que la responsabilidad es de la Administración."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 47,
+    "Question": "❓ FFM.-¿Cuál de los siguientes es un sistema de información para la gestión de los procesos asistenciales en el ámbito hospitalario, con excepción del área de urgencias hospitalarias?",
+    "Options": {
+      "A": "a. DAH-EC (Estación Clínica)",
+      "B": "b. DAH-ECC (Estación Clínica de Cuidados)",
+      "C": "c. DAH-EG (Estación de Gestión)",
+      "D": "d. Módulo de Urgencias (CAE)"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 48,
+    "Question": "❓ FFM.-¿Cuál de los siguientes es un componente de la aplicación de Receta XXI?",
+    "Options": {
+      "A": "a. RXXI prescripciones",
+      "B": "b. RXXI dispensación",
+      "C": "c. RXXI visados de recetas",
+      "D": "d. Todas las respuestas son correctas"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 49,
+    "Question": "❓ FFM.-¿Qué sistema de información del SAS se ha creado para que la extracción de grandes volúmenes de información no compita en recursos informáticos con el trabajo habitual sobre registros individuales?",
+    "Options": {
+      "A": "a. DIRAYA",
+      "B": "b. SIGLO",
+      "C": "c. MTI",
+      "D": "d. GERHONTE"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 50,
+    "Question": "❓ FFM.-¿Qué servicio ofrece a los profesionales del SAS un portal para el acceso seguro a aplicaciones y servicios TIC corporativos desde ubicaciones remotas?",
+    "Options": {
+      "A": "a. Telémaco",
+      "B": "b. Sarac",
+      "C": "c. ayudaDIGITAL",
+      "D": "d. Confluence"
+    },
+    "CorrectOption": "B"
+  }
+]
