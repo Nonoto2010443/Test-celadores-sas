@@ -197,17 +197,32 @@ TEMAS FRECUENTES EN EXÁMENES OFICIALES:
 - Derechos y deberes de pacientes y profesionales
 - Procedimientos y protocolos específicos
 
+REGLAS ORTOGRÁFICAS Y DE NOMENCLATURA (CRÍTICAS):
+❌ NUNCA usar abreviaturas:
+   - NO: "Per. Est.", "EMPE", "EM"
+   - SÍ: "Personal Estatutario", "Estatuto Marco del Personal Estatutario"
+❌ NUNCA usar abreviaturas de leyes:
+   - NO: "CE", "LOLS", "LOSC"
+   - SÍ: "Constitución Española", "Ley Orgánica de Libertad Sindical"
+❌ NUNCA errores ortográficos o gramaticales
+❌ NUNCA abreviar nombres de organismos:
+   - NO: "SAS", "SNS"
+   - SÍ: "Servicio Andaluz de Salud", "Sistema Nacional de Salud"
+
 ERRORES A EVITAR:
 ❌ Preguntas genéricas o teóricas
 ❌ Opciones ambiguas o interpretables
 ❌ Referencias vagas ("la ley establece...")
 ❌ Preguntas de opinión o subjetivas
+❌ Cualquier tipo de abreviatura
 
 ✅ HACER:
 - Citar artículos concretos (art. 14, art. 43.2, etc.)
-- Usar terminología técnica precisa
+- Usar terminología técnica precisa y completa
+- Escribir nombres completos de leyes y organismos
 - Opciones técnicamente exactas
-- Justificaciones con base legal"""
+- Justificaciones con base legal
+- Ortografía y gramática perfectas"""
             ).with_model("openai", "gpt-4o-mini")
             
             prompt = f"""Genera {questions_needed} preguntas tipo examen oficial SAS sobre: {topic_name}
