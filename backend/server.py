@@ -151,13 +151,13 @@ async def generate_ai_questions(count: int = 15) -> List[Question]:
         official_examples = []
         db_examples = []
     
-    # Topics distribution based on official exams
+    # Topics distribution based on official exams (3 questions each = 15 total)
     topics = [
-        ("Constitución Española", "1", 5),
-        ("Estatuto de Autonomía de Andalucía", "2", 5),
-        ("Ley 14/1986 General de Sanidad y Organización SAS", "3", 5),
-        ("Estatuto Marco Personal Estatutario", "4", 5),
-        ("Funciones del Celador y Atención al Usuario", "5", 5)
+        ("Constitución Española", "1", 3),
+        ("Estatuto de Autonomía de Andalucía", "2", 3),
+        ("Ley 14/1986 General de Sanidad y Organización SAS", "3", 3),
+        ("Estatuto Marco Personal Estatutario", "4", 3),
+        ("Funciones del Celador y Atención al Usuario", "5", 3)
     ]
     
     for topic_name, tema_num, questions_needed in topics:
