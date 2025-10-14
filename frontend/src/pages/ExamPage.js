@@ -113,6 +113,20 @@ const ExamPage = () => {
 
   const currentQ = questions[currentQuestion];
 
+  // Safety check - if no current question, show error
+  if (!currentQ) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+        <div className="text-center">
+          <AlertCircle className="h-16 w-16 text-red-600 mx-auto mb-4" />
+          <h2 className="text-2xl font-bold text-slate-900 mb-2">Error al cargar la pregunta</h2>
+          <p className="text-slate-600 mb-4">No se pudo cargar la pregunta actual</p>
+          <Button onClick={() => navigate("/")}>Volver al inicio</Button>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-8">
       <div className="container mx-auto px-4 max-w-4xl">
