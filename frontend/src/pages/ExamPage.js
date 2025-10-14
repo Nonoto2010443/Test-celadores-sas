@@ -120,7 +120,7 @@ const ExamPage = () => {
         <div className="mb-6 flex items-center justify-between bg-white rounded-2xl shadow-lg p-6">
           <div>
             <h1 className="text-2xl font-bold text-slate-900">Examen Celadores SAS</h1>
-            <p className="text-slate-600">Pregunta {currentQuestion + 1} de {questions.length}</p>
+            <p className="text-slate-600">{answeredCount}/{questions.length} respondidas</p>
           </div>
           <div className="text-right">
             <div className="flex items-center gap-2 text-2xl font-bold" data-testid="timer">
@@ -129,7 +129,7 @@ const ExamPage = () => {
                 {formatTime(timeRemaining)}
               </span>
             </div>
-            <p className="text-sm text-slate-600 mt-1">{answeredCount}/{questions.length} respondidas</p>
+            <p className="text-sm text-slate-600 mt-1">Pregunta {currentQuestion + 1} de {questions.length}</p>
           </div>
         </div>
 
