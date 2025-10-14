@@ -1,0 +1,1346 @@
+{
+  "total_preguntas_disponibles": 1992,
+  "temas": {
+    "Tema 1 - Constitución Española": [
+      {
+        "Id": 147,
+        "Question": "❓FFM.-El derecho de reunión pacífica y sin armas, se recoge en el art.:",
+        "Options": {
+          "A": "23",
+          "B": "21",
+          "C": "24",
+          "D": "Ninguna de las anteriores."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 264,
+        "Question": "❓FFM.-¿Cómo se llama la sección primera del capítulo II del Título I?",
+        "Options": {
+          "A": "De los españoles y extranjeros.",
+          "B": "Derechos y libertades.",
+          "C": "Derechos fundamentales y libertades públicas.",
+          "D": "Derechos y deberes ciudadanos."
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 317,
+        "Question": "❓FFM.-Según el art. 2 CE, la C.E. se fundamenta en la indisoluble unidad de la Nación española, patria común e indivisible de todos los españoles, y reconoce y garantiza el derecho a:",
+        "Options": {
+          "A": "A la autonomía de las comunidades y zonas que la integran.",
+          "B": "A la solidaridad entre provincias.",
+          "C": "El derecho independiente de las nacionalidades y regiones que la integran.",
+          "D": "La autonomía de las nacionalidades y regiones que la integran y la solidaridad entre todas ellas."
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 287,
+        "Question": "❓ FFM T1 OPE.- Según el art. 44 de la C.E. los poderes públicos:",
+        "Options": {
+          "A": "Promoverán y tutelarán el acceso a la cultura, a la que todos tienen derecho.",
+          "B": "Promoverán la educación sanitaria, la promoción de la salud y la práctica de la educación física.",
+          "C": "Velarán por la utilización racional de todos los recursos naturales.",
+          "D": "Promoverán la información y la educación de los consumidores y usuarios."
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 132,
+        "Question": "❓FFM.-Según establece el art. 9 de la C.E., ¿a quién corresponde promover las condiciones para que la libertad y la igualdad del individuo y de los grupos en que se integran sean reales y efectivas?",
+        "Options": {
+          "A": "A los poderes públicos.",
+          "B": "A los poderes económicos.",
+          "C": "A los poderes sociales.",
+          "D": "A los poderes políticos."
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 32,
+        "Question": "❓FFM.-En el art. 2 de nuestra CE, esta se fundamenta en la disoluble unidad de la nación española, patria común e indivisible de todos los españoles:",
+        "Options": {
+          "A": "Verdadero.",
+          "B": "Falso."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 178,
+        "Question": "❓FFM.-¿Cuántas disposiciones adicionales tiene la CE?",
+        "Options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "9"
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 251,
+        "Question": "❓FFM.-La capacidad de las Comunidades Autónomas de asumir competencias en materia de seguridad e higiene, viene recogida en la Constitución en su art.:",
+        "Options": {
+          "A": "143",
+          "B": "146",
+          "C": "148",
+          "D": "155"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 69,
+        "Question": "❓FFM.-Respecto del Estado, el Rey es símbolo de su:",
+        "Options": {
+          "A": "Unidad e integridad.",
+          "B": "Unidad y permanencia.",
+          "C": "Independencia y soberanía.",
+          "D": "Integridad y soberanía."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 184,
+        "Question": "❓FFM.-Compete a los poderes públicos organizar y tutelar la sanidad pública a través de:",
+        "Options": {
+          "A": "Organizaciones asistenciales.",
+          "B": "Fundaciones sanitarias públicas.",
+          "C": "Hospitales públicos de referencia.",
+          "D": "Medidas preventivas y de las prestaciones y servicios necesarios."
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 27,
+        "Question": "❓FFM.-La garantía de asistencia y prestación sociales suficientes ante situaciones de necesidad, especialmente en caso de desempleo, está recogida en:",
+        "Options": {
+          "A": "La Ley General de Sanidad, art. 142.",
+          "B": "La C.E., art. 41.",
+          "C": "La Ley General de Sanidad, art. 42.",
+          "D": "La C.E., art. 141."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 2,
+        "Question": "❓FFM.-Una vez declarado el estado de excepción, no se puede suspender el derecho/libertad de:",
+        "Options": {
+          "A": "Huelga.",
+          "B": "Enseñanza.",
+          "C": "Adopción de medidas de conflicto colectivo.",
+          "D": "Libertad de circulación."
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 42,
+        "Question": "❓FFM.-Según la CE todos contribuirán al sostenimiento de los gastos públicos mediante un sistema tributario justo inspirado en los principios de:",
+        "Options": {
+          "A": "Solidaridad y progresividad.",
+          "B": "Igualdad y progresividad.",
+          "C": "Igualdad y capacidad.",
+          "D": "Legalidad e igualdad."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 325,
+        "Question": "❓FFM.-En el supuesto de catástrofes, calamidades o desgracias públicas, se podrá declarar:",
+        "Options": {
+          "A": "Estado de alarma.",
+          "B": "Estado de excepción.",
+          "C": "Estado de sitio.",
+          "D": "Estado de emergencia."
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 313,
+        "Question": "❓FFM.-Según el art. 49 CE, las personas con discapacidad ejercen los derechos previstos en este Título en condiciones de:",
+        "Options": {
+          "A": "Mérito, capacidad e igualdad.",
+          "B": "Libertad e igualdad reales y efectivas.",
+          "C": "Libertad e igualdad formales y eficaces.",
+          "D": "Libertad, igualdad y mérito."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 77,
+        "Question": "❓FFM.-Según la C.E. al Rey le corresponde: (Señale la respuesta correcta)",
+        "Options": {
+          "A": "Nombrar y separar a los miembros del Gobierno, a propuesta de su Presidente.",
+          "B": "Convocar a referéndum en los casos previstos en la C.E..",
+          "C": "Sancionar y promulgar las leyes.",
+          "D": "Todas las respuestas anteriores son correctas."
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 100,
+        "Question": "❓FFM.-En relación con la protección de la salud, es competencia de la CE:",
+        "Options": {
+          "A": "Control y organización interna de los hospitales públicos.",
+          "B": "Velar por la salud.",
+          "C": "Promover la salud.",
+          "D": "Organización y tutela de la salud pública."
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 110,
+        "Question": "❓FFM.-La asistencia de los padres a los hijos habidos fuera del matrimonio:",
+        "Options": {
+          "A": "Se condiciona a la no existencia de hijos matrimoniales.",
+          "B": "Se deja a la libre voluntad de los primeros.",
+          "C": "Es obligatoria en el caso de que sean menores de edad.",
+          "D": "Queda supeditada a su adopción por los primeros."
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 351,
+        "Question": "❓FFM.-¿Cómo se elige a los Senadores en las provincias insulares?",
+        "Options": {
+          "A": "Cada isla o agrupación de ellas elige dos Senadores.",
+          "B": "Cada isla o agrupación de ellas elige un Senador.",
+          "C": "Cada isla o agrupación de ellas elige cuatro Senadores.",
+          "D": "Cada provincia elige dos Senadores."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 306,
+        "Question": "❓FFM.-Se prohíben los Tribunales de Honor en el ámbito de la Administración civil y de las organizaciones profesionales en el artículo:",
+        "Options": {
+          "A": "25",
+          "B": "24",
+          "C": "27",
+          "D": "26"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 236,
+        "Question": "❓FFM.-¿Qué art. de la CE recopila las materias que pueden ser asumidas por las CCAA rápidamente?",
+        "Options": {
+          "A": "Art. 147.",
+          "B": "Art. 148.",
+          "C": "Art. 149.",
+          "D": "Art. 150."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 44,
+        "Question": "❓FFM.-Según la C.E., en su art. 137, el Estado se organiza territorialmente en:",
+        "Options": {
+          "A": "Municipios, pueblos y Comunidades Autónomas.",
+          "B": "Aldeas, pueblos y Comunidades Autónomas.",
+          "C": "Comarcas y provincias.",
+          "D": "Municipios, provincias y Comunidades Autónomas."
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 275,
+        "Question": "❓FFM.-La inviolabilidad del domicilio supone que (señale la opción más correcta):",
+        "Options": {
+          "A": "Ninguna entrada podrá hacerse en él sin el consentimiento del titular o resolución judicial.",
+          "B": "Ninguna entrada podrá hacerse en él sin consentimiento del titular, salvo en caso de flagrante delito.",
+          "C": "Las fuerzas y cuerpos de seguridad del estado pueden entrar en tu domicilio, sin autorización.",
+          "D": "Ninguna entrada podrá hacerse en él, sin consentimiento del titular o resolución judicial, salvo en caso de flagrante delito."
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 205,
+        "Question": "❓FFM.-¿Es legal según nuestra C.E. censurar ciertos medios de comunicación si no conviene a la opinión pública?",
+        "Options": {
+          "A": "Sí.",
+          "B": "No.",
+          "C": "Si son medios de propaganda, sí.",
+          "D": "Según el Gobierno que toque."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 341,
+        "Question": "❓FFM.-Según el art. 104 CE, las Fuerzas y Cuerpos de seguridad, tendrán como misión proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana,",
+        "Options": {
+          "A": "bajo la dependencia del Gobierno.",
+          "B": "bajo la dependencia del Rey.",
+          "C": "bajo la dependencia de las Cortes Generales.",
+          "D": "bajo la dependencia del alto cargo de las fuerzas armadas."
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 347,
+        "Question": "❓FFM.-Según la CE en su art. 85, las disposiciones del Gobierno que contengan legislación delegada recibirán el título de:",
+        "Options": {
+          "A": "Decreto-ley.",
+          "B": "Decretos Legislativos.",
+          "C": "Ley de bases.",
+          "D": "Ninguna es correcta."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 219,
+        "Question": "❓FFM.-¿Qué art. de nuestra C.E tiene una protección mínima?",
+        "Options": {
+          "A": "28",
+          "B": "38",
+          "C": "40",
+          "D": "41"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 241,
+        "Question": "❓FFM.-¿Quién nombra al Presidente del Tribunal Supremo?",
+        "Options": {
+          "A": "El Presidente del Gobierno.",
+          "B": "El Rey.",
+          "C": "El Consejo General del Poder Judicial.",
+          "D": "El Presidente del Congreso."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 210,
+        "Question": "❓FFM.-¿Qué ley orgánica es la que desarrolla la figura del Defensor del Pueblo?",
+        "Options": {
+          "A": "2/1981",
+          "B": "3/1981",
+          "C": "4/1981",
+          "D": "Ninguna es correcta."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 295,
+        "Question": "❓FFM.-El derecho a la protección de la salud se:",
+        "Options": {
+          "A": "Garantiza en el art. 43.",
+          "B": "Reconoce en el art. 43.",
+          "C": "A y B son correctas.",
+          "D": "Protege en el art. 43."
+        },
+        "CorrectOption": "B"
+      }
+    ],
+    "Tema 2 - Estatuto Autonomía Andalucía": [
+      {
+        "Id": 204,
+        "Question": "❓KFM.-Los pacientes y usuarios del sistema andaluz de salud tendrán derecho a:",
+        "Options": {
+          "A": "Acceder a todas las prestaciones del sistema",
+          "B": "El respeto a su personalidad, dignidad humana e intimidad",
+          "C": "El acceso a cuidados paliativos",
+          "D": "Todas son correctas"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 214,
+        "Question": "❓KFM.-El artículo 1.1 del Estatuto de Autonomía de Andalucía alude a ésta Comunidad como",
+        "Options": {
+          "A": "Región histórica",
+          "B": "Nacionalidad histórica",
+          "C": "Nación.",
+          "D": "Realidad nacional."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 297,
+        "Question": "❓KFM.-❓FFM.-  Según el EAA, la delegación legislativa para la formación de textos articulados se otorgara mediante",
+        "Options": {
+          "A": "ley ordinaria",
+          "B": "ley orgánica",
+          "C": "ley de bases",
+          "D": "propuesta de ley"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 133,
+        "Question": "❓KFM.-La sesiones ordinarias del Parlamento andaluz comienza en",
+        "Options": {
+          "A": "Septiembre y enero",
+          "B": "Septiembre y febrero",
+          "C": "Septiembre y marzo",
+          "D": "Junio y febrero"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 134,
+        "Question": "❓KFM.-La provincia más pequeña de Andalucía no tendrá menos diputados",
+        "Options": {
+          "A": "Que la mitad de la más grande",
+          "B": "Que la tercera parte de la más grande",
+          "C": "Que la cuarta de la más grande",
+          "D": "No está definido"
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 74,
+        "Question": "❓KFM.- A. ¿A qué supuesto no puede afectar un decreto-ley?",
+        "Options": {
+          "A": "A los presupuestos de Andalucía",
+          "B": "Al régimen electoral",
+          "C": "A las instituciones de la JA",
+          "D": "Todas son correctas"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 429,
+        "Question": "❓KFM.-Las Leyes de Andalucía:",
+        "Options": {
+          "A": "Serán promulgadas, en nombre del Rey, por el Presidente del Parlamento.",
+          "B": "Sólo se publicarán en el Boletín Oficial del Estado cuando afecten a la organización de las instituciones básicas.",
+          "C": "A efectos de su vigencia regirá la fecha de publicación en el Boletín Oficial del Estado.",
+          "D": "Se publicarán en el Boletín Oficial de la Junta de Andalucía y en el Boletín Oficial del Estado."
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 7,
+        "Question": "❓KFM.-El derecho que garantiza la igualdad de oportunidades entre hombres y mujeres está integrado en:",
+        "Options": {
+          "A": "Art. 19",
+          "B": "Art. 16",
+          "C": "Art. 15",
+          "D": "Art. 21"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 316,
+        "Question": "❓KFM.-❓FFM.- .- La disposición adicional primera del EA, menciona el caso de Gibraltar como AMPLIACIÓN de la CA, territorios históricos no integrados otra CA y lo resolverá:",
+        "Options": {
+          "A": "a. El parlamento andaluz.",
+          "B": "b. el consejo de gobierno.",
+          "C": "c. El consejo de ministros.",
+          "D": "d. Las Cortes Generales."
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 29,
+        "Question": "❓KFM.-La letra del himno de Andalucía fue creada por:",
+        "Options": {
+          "A": "Miguel Hernández",
+          "B": "Federico García Lorca",
+          "C": "Raphael",
+          "D": "Blas infante"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 213,
+        "Question": "❓KFM.-T2. El órgano de control externo de la actividad económica y presupuestaria de la junta de Andalucía es:",
+        "Options": {
+          "A": "El Consejo económico y social",
+          "B": "El Defensor del pueblo",
+          "C": "La cámara de cuentas",
+          "D": "El Parlamento"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 60,
+        "Question": "❓KFM.-La gratuidad de la enseñanza se garantiza en Andalucía, según el Estatuto de Autonomía para Andalucía, en:",
+        "Options": {
+          "A": "Los niveles obligatorios.",
+          "B": "La educación infantil.",
+          "C": "La educación superior.",
+          "D": "Todo lo anterior."
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 430,
+        "Question": "❓KFM.-¿En qué artículo del Estatuto de Autonomía para Andalucía viene regulado el derecho a la protección de la salud?",
+        "Options": {
+          "A": "Artículo 22.",
+          "B": "Artículo 21.",
+          "C": "Artículo 18.",
+          "D": "Artículo 43."
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 58,
+        "Question": "❓KFM.-El parlamento andaluz, podrá delegar en el Gobierno Andaluz la elaboración de leyes mediante:",
+        "Options": {
+          "A": "Ley orgánica",
+          "B": "Ley de bases",
+          "C": "Ley ordinaria",
+          "D": "No podrá delegar nunca"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 469,
+        "Question": "❓KFM.-❓FFM.- .- La competencia originaria respecto de la potestad reglamentaria en Andalucía para el desarrollo y ejecución de las leyes la ostenta:",
+        "Options": {
+          "A": "a. Cada consejero.",
+          "B": "b. El Consejo de Gobierno de la Junta de Andalucía.",
+          "C": "c. El Presidente de la Junta de Andalucía.",
+          "D": "d. El Parlamento de Andalucía."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 175,
+        "Question": "❓KFM.-Según el artículo 22 del Estatuto de autonomía para Andalucía entre los derechos de los pacientes y usuarios del sistema andaluz de salud se recogen",
+        "Options": {
+          "A": "El consejo genético y la medicina predictiva",
+          "B": "Recibir asistencia geriátrica especializada",
+          "C": "El acceso a cuidados paliativos",
+          "D": "Todas las respuestas anteriores son correctas"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 24,
+        "Question": "❓KFM.- A ¿Se puede obtener la condición de andaluz en el extranjero?",
+        "Options": {
+          "A": "Si",
+          "B": "No",
+          "C": "No, pero tienen derecho a participar de la vida del pueblo andaluz y compartirla según Leyes",
+          "D": "Depende del caso"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 384,
+        "Question": "❓KFM.-❓FFM.- .- Entre los objetivos básicos del Estatuto de Andalucía se encuentra:",
+        "Options": {
+          "A": "a. La especial atención a las personas en situación de drogodependencia.",
+          "B": "b. Mejora del nivel de vida.",
+          "C": "c. Desarrollo integral del medio urbano.",
+          "D": "d. La cohesión social y participación ciudadana."
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 312,
+        "Question": "❓KFM.-❓FFM.-  EAA. Es el órgano colegiado que, en el marco de sus competencias, ejerce la dirección política de la Comunidad Autónoma.",
+        "Options": {
+          "A": "El Consejo de Gobierno de Andalucía",
+          "B": "El Parlamento",
+          "C": "El Presidente de la Junta",
+          "D": "la Junta de Andalucía"
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 171,
+        "Question": "❓KFM.-T2. La fecha de entrada en vigor del Estatuto de autonomía de Andalucía es:",
+        "Options": {
+          "A": "18 de febrero de 2007",
+          "B": "19 de mayo de 2007",
+          "C": "20 de marzo de 2007",
+          "D": "21 de junio de 2007"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 391,
+        "Question": "❓KFM.-❓FFM.- .- Parlamento de Andalucía, ¿cuál es la correcta?",
+        "Options": {
+          "A": "a. Elegido por 5 años.",
+          "B": "b. Responsabilidad civil en caso de flagrante delito.",
+          "C": "c. Funciona en pleno y comisiones.",
+          "D": "d. Violabilidad de los diputados por razón de sus opiniones y por los votos emitidos."
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 437,
+        "Question": "❓KFM.-Andalucía según se reconoce en el artículo primero de su estatuto de autonomía se define como",
+        "Options": {
+          "A": "nacionalidad constituyente",
+          "B": "nacionalidad por derecho",
+          "C": "nacionalidad histórica",
+          "D": "nacionalidad por referéndum"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 93,
+        "Question": "❓KFM.-TC2 Según el articulo 31 de la ley 9/1983, el defensor del pueblo andaluz dara cuenta de un informe al parlamento de la gestion realizada, ¿cada cuanto tiempo?",
+        "Options": {
+          "A": "Semestralmente",
+          "B": "Anualmente",
+          "C": "Trimestralmente",
+          "D": "Ninguna es correcta."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 72,
+        "Question": "❓KFM.- A el decreto-ley según el EAA será dictado por",
+        "Options": {
+          "A": "El Parlamento",
+          "B": "El presidente de la junta",
+          "C": "El consejo de gobierno",
+          "D": "Ninguna es correcta."
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 140,
+        "Question": "❓KFM.-DE LAS SIGUIENTES LEYES HAY UNA QUE SE PUEDE DELEGAR:",
+        "Options": {
+          "A": "Leyes de reforma del Estatuto de Autonomía",
+          "B": "Leyes del presupuesto de la Comunidad Autónoma",
+          "C": "Leyes que afectan a la organización de las instituciones básicas",
+          "D": "Leyes que requieran cualquier mayoría cualificada del Parlamento"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 371,
+        "Question": "❓KFM.-❓FFM.- .- ¿Dónde se encuentran actualmente las sedes del parlamento de la presidencia de la junta y del Consejo de gobierno sin perjuicio que estas instituciones puedan celebrar sesiones en otros lugares de Andalucía?",
+        "Options": {
+          "A": "a. Granada.",
+          "B": "b. Sevilla.",
+          "C": "c. Málaga.",
+          "D": "d. Cádiz."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 338,
+        "Question": "❓KFM.- A ¿Ante quién tiene responsabilidad política el presidente de la junta ?",
+        "Options": {
+          "A": "a. Sala civil del tribunal Supremo.",
+          "B": "b. Sala penal del tribunal Supremo.",
+          "C": "c. Parlamento.",
+          "D": "d. Consejo de gobierno"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 478,
+        "Question": "❓KFM.-❓FFM.-  EAA La Comunidad Autónoma garantiza el pleno respeto a las minorías que residan en su territorio y reconoce unos derechos mínimos para todas las personas en Andalucía en su artículo:",
+        "Options": {
+          "A": "10",
+          "B": "8",
+          "C": "9",
+          "D": "7"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 499,
+        "Question": "❓KFM.-❓FFM.-  EAA Los Diputados electos deberán ser convocados para la sesión constitutiva del Parlamento dentro de los",
+        "Options": {
+          "A": "Quince días siguientes a la celebración de las elecciones",
+          "B": "Veinte días siguientes a la celebración de las elecciones",
+          "C": "Treinta días siguientes a la celebración de las elecciones",
+          "D": "Veinticinco días siguientes a la celebración de las elecciones"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 381,
+        "Question": "❓KFM.-❓FFM.- .- ¿Cuándo se sometió a referéndum el Estatuto de Autonomía de Andalucía?",
+        "Options": {
+          "A": "a. El veinte de diciembre de 2006.",
+          "B": "b. El diecinueve de marzo de 2007.",
+          "C": "c. Dieciocho de febrero de dos mil siete.",
+          "D": "d. Quince de enero de 2007."
+        },
+        "CorrectOption": "C"
+      }
+    ],
+    "Tema 3 - Organización Sanitaria I": [
+      {
+        "Id": 315,
+        "Question": "❓FFM.-La LGS pretende la creación del SNS la asistencia a toda la población española al acceso de la sanidad y prestaciones sanitarias en condiciones de:",
+        "Options": {
+          "A": "a. Igualdad.",
+          "B": "b. Igualdad legal.",
+          "C": "c. Garantía igualitaria.",
+          "D": "d. Igualdad efectiva."
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 301,
+        "Question": "❓FFM.-Según el art. 11 de la L.S.A  es una obligación de los ciudadanos respecto de los servicios de salud:",
+        "Options": {
+          "A": "La participación de los servicios y actividades sanitarias",
+          "B": "Cuidar las instalaciones y colaborar en el mantenimiento de la habitabilidad de los centros",
+          "C": "Negarse al tratamiento en los términos que establezca la ley",
+          "D": "Todas las respuestas anteriores son correctas"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 152,
+        "Question": "❓FFM.-Según la LGS, ¿en qué tipo de documento se recogerán los planes de salud según el art. 74?",
+        "Options": {
+          "A": "En varios informes independientes.",
+          "B": "En un documento único.",
+          "C": "En una serie de planes parciales por cada Comunidad Autónoma.",
+          "D": "A y B son correctas."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 374,
+        "Question": "❓FFM.-¿Cuál no es un deber individual del ciudadano según el art. 8 de la LSA?",
+        "Options": {
+          "A": "A. Cumplir las prescripciones sanitarias generales y específicas.",
+          "B": "B. Cuidar las instalaciones y colaborar en su mantenimiento.",
+          "C": "C. Firmar un documento de rechazo si se niega a una actuación sanitaria.",
+          "D": "D. Mantener el debido respeto a las normas del centro y al personal. "
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 261,
+        "Question": "❓FFM.-El acceso a la asistencia sanitaria pública se extenderá a toda la población española. El acceso y las prestaciones se realizarán:",
+        "Options": {
+          "A": "a) Con justicia",
+          "B": "b) Con solidaridad",
+          "C": "c) En condiciones de igualdad efectiva",
+          "D": "d) Todas son correctas"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 294,
+        "Question": "❓FFM.-La propuesta de nombramiento y cese del gerente del área de salud es una competencia que le corresponde a:",
+        "Options": {
+          "A": "El Consejo de salud",
+          "B": "El consejero de sanidad",
+          "C": "Al Consejo de Gobierno",
+          "D": "Al Consejo de dirección"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 330,
+        "Question": "❓FFM.-Según el art. 14 de la L.G.S. se podrá elegir médico en el conjunto de la ciudad:",
+        "Options": {
+          "A": "En los núcleos de población de menos de 250.000 habitantes",
+          "B": "En los núcleos de población de más de 250.000 habitantes",
+          "C": "En los núcleos de población de menos de un millón de habitantes",
+          "D": "En los núcleos de población de más de un millón de habitantes"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 241,
+        "Question": "❓FFM.-La LGS concibe los Planes de Salud como instrumento de:",
+        "Options": {
+          "A": "a) La Alta Inspección",
+          "B": "b) La docencia y la investigación",
+          "C": "c) La Coordinación general sanitaria",
+          "D": "d) La Sanidad exterior"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 299,
+        "Question": "❓FFM.-El capítulo IV de la vigente Ley General de Salud trata de:",
+        "Options": {
+          "A": "Del derecho a la protección de la salud",
+          "B": "Del sistema de salud",
+          "C": "De la salud mental",
+          "D": "De la salud laboral"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 336,
+        "Question": "❓FFM.-NO constituye un derecho de los ciudadanos con las instituciones y organismos del sistema sanitario regulado en el art. 10 de la L.G.S.:",
+        "Options": {
+          "A": "a cumplir las prescripciones generales de naturaleza sanitaria comunes a toda la población",
+          "B": "A la confidencialidad de la información relacionada con su proceso",
+          "C": "A la información sobre los servicios sanitarios a que puede acceder",
+          "D": "Todas son correctas"
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 397,
+        "Question": "❓FFM.-Cada comunidad Autónoma elaborará su plan de salud que englobará el conjunto con los planes de:",
+        "Options": {
+          "A": "a. Diferentes áreas de salud.",
+          "B": "b. Diferentes servicios de salud.",
+          "C": "c. En conjunto con la administración del estado y los distintos servicios de salud.",
+          "D": "d. En conjunto con la otras CCAA y el consejo interterritorial de salud."
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 345,
+        "Question": "❓FFM.-Albergar la estructura física de consultas y servicios asistenciales personales correspondientes a la población en la que se ubica es una función que corresponde a los:",
+        "Options": {
+          "A": "Centros de salud.",
+          "B": "Equipos de atención primaria de salud.",
+          "C": "Consultorios de salud.",
+          "D": "Hospitales."
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 462,
+        "Question": "❓FFM.-¿Qué papel juegan los hábitos saludables en la Estrategia de Promoción de una Vida Saludable?",
+        "Options": {
+          "A": "Previenen enfermedades",
+          "B": "No tienen impacto en la salud",
+          "C": "Contribuyen a la recuperación de la persona",
+          "D": "A y C son correctas"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 50,
+        "Question": "❓FFM.-El derecho de los usuarios a la información sobre los servicios sanitarios se reconoce:",
+        "Options": {
+          "A": "Por la Organización Mundial de la Salud",
+          "B": "En la Constitución",
+          "C": "En la L.G.S.",
+          "D": "En la Ley General de Salud"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 28,
+        "Question": "❓FFM.-La LGS determina que es competencia exclusiva del Estado:",
+        "Options": {
+          "A": "Los acuerdos sanitarios internacionales.",
+          "B": "Las relaciones Interterritoriales.",
+          "C": "La sanidad interior.",
+          "D": "La inspección general."
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 77,
+        "Question": "❓FFM.-Serán competencia exclusiva del Estado las siguientes:",
+        "Options": {
+          "A": "La sanidad exterior",
+          "B": "Las relaciones y acuerdos sanitarios internacionales",
+          "C": "A y B son correctas",
+          "D": "No existen las competencias exclusivas"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 486,
+        "Question": "❓FFM.-Hablar de que la atención sociosanitaria representa un reto para los sistemas públicos de salud y de servicios sociales, Nos referimos a la Estrategia:",
+        "Options": {
+          "A": "a) Estrategia de Cáncer",
+          "B": "b) Vigilancia y Respuesta en Salud Pública",
+          "C": "c) Estrategia de Coordinación Sociosanitaria",
+          "D": "d) Estrategia de Promoción de una Vida Saludable en Andalucía"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 341,
+        "Question": "❓FFM.-Según el Art. 9 de la LSA ¿quién garantiza a los ciudadanos información suficiente, adecuada y comprensible sobre sus derechos y deberes respecto a los servicios sanitarios en Andalucía?",
+        "Options": {
+          "A": "Consejero de Salud.",
+          "B": "El Presidente de la Junta de Andalucía.",
+          "C": "La Administración de la Junta de Andalucía",
+          "D": "La dirección de cada centro."
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 4,
+        "Question": "❓FFM.-El marco territorial de la Atención Primaria es:",
+        "Options": {
+          "A": "A. Área de salud",
+          "B": "B. Zona básica de salud",
+          "C": "C. Centro de salud",
+          "D": "D. Consejo de salud"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 227,
+        "Question": "❓FFM.-En el Consejo Andaluz de Salud participan:",
+        "Options": {
+          "A": "Los Sindicatos",
+          "B": "Las Administraciones Locales",
+          "C": "Los Colegios profesionales",
+          "D": "Todas son correctas"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 376,
+        "Question": "❓FFM.-¿Cuál es el objeto de la L.G.S.?",
+        "Options": {
+          "A": "a. Crear las delegaciones de salud en las CCAA.",
+          "B": "b. Reformar el sistema sanitario actual.",
+          "C": "c. Regular todas las acciones que permitan hacer efectivo el derecho a la protección de la salud.",
+          "D": "d. Distribuir las responsabilidades en materia de salud."
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 409,
+        "Question": "❓FFM.-¿Cuál es una de las medidas que se pondrán en marcha según el Contrato Programa?",
+        "Options": {
+          "A": "Eliminar la promoción de la salud pública.",
+          "B": "Fomentar el diálogo con Sociedades Científicas, profesionales y pacientes.",
+          "C": "Desmantelar el sistema de información sanitaria.",
+          "D": "Ninguna es correcta."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 436,
+        "Question": "❓FFM.-¿Qué se puede decir sobre los avances en atención sociosanitaria en España hasta la fecha?",
+        "Options": {
+          "A": "Han sido ampliamente exitosos en todo el país.",
+          "B": "No han supuesto logros significativos en general.",
+          "C": "Han sido insignificantes en todas las CCAA.",
+          "D": "No se han realizado esfuerzos en ningún país del entorno."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 447,
+        "Question": "❓FFM.-¿Cuál es uno de los objetivos de la Estrategia de Atención Primaria en Andalucía?",
+        "Options": {
+          "A": "Reducir los tiempos de espera en hospitales",
+          "B": "Definir e implementar medidas estructurales para la Atención Especializada",
+          "C": "Mejorar la gestión de los centros privados",
+          "D": "Definir e implementar medidas estructurales para la Atención Primaria"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 43,
+        "Question": "❓FFM.-La LSA entró en vigor:",
+        "Options": {
+          "A": "El mismo día de su publicación en el BOJA",
+          "B": "Al día siguiente de su publicación en el BOJA",
+          "C": "El mismo día de su publicación en el BOE y BOJA",
+          "D": "Al día siguiente de su publicación en el BOE y BOJA"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 133,
+        "Question": "❓FFM.-Todos son principios en los que se basa la L.S.A , excepto:",
+        "Options": {
+          "A": "A. Igualdad social y equilibrio territorial",
+          "B": "B. Centralización, autonomía y responsabilidad",
+          "C": "C. Promoción de la docencia e investigación",
+          "D": "D. Todas son correctas"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 322,
+        "Question": "❓FFM.-En particular, el Plan And. Salud contemplará:",
+        "Options": {
+          "A": "A Los objetivos de salud, generales y por áreas de actuación",
+          "B": "B Las conclusiones del análisis de los problemas de salud de la Comunidad Autónoma....y de la situación de los recursos existentes",
+          "C": "C Las prioridades de intervención",
+          "D": "D Todas son correctas"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 414,
+        "Question": "❓FFM.-¿Qué compromiso busca el IV Plan And. Salud en relación con las tecnologías?",
+        "Options": {
+          "A": "Impedir la incorporación de tecnologías en el sistema sanitario.",
+          "B": "Evaluar el conocimiento y la incorporación de tecnologías con criterios de igualdad.",
+          "C": "Utilizar tecnologías sin ninguna evaluación previa.",
+          "D": "Ninguna es correcta."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 323,
+        "Question": "❓FFM.-No se considera rector para el funcionamiento de los servicios sanitarios según la LGS el principio de:",
+        "Options": {
+          "A": "Eficacia",
+          "B": "Eficiencia",
+          "C": "Celeridad",
+          "D": "Economía"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 239,
+        "Question": "❓FFM.-Una única unidad de gestión tutelada por el servicio de salud de la CA correspondiente, el enunciado nos habla de qué característica fundamental de la LGS:",
+        "Options": {
+          "A": "Gestión descentralizada",
+          "B": "Integración de los recursos públicos",
+          "C": "Financiación estatal",
+          "D": "Concepción integral de salud"
+        },
+        "CorrectOption": "B"
+      }
+    ],
+    "Tema 4 - Organización Sanitaria II": [
+      {
+        "Id": 608,
+        "Question": "❓ FFM T4 ¿Qué tipo de actividades realiza el Nodo de Coordinación del Biobanco del SSPA?",
+        "Options": {
+          "A": "A. Crear nuevas unidades de investigación",
+          "B": "B. Coordinar la distribución de muestras biológicas",
+          "C": "C. Gestionar la financiación externa",
+          "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 139,
+        "Question": "❓ FFM.-La representación legal del SAS y la dirección y coordinación de las entidades que tengan adscritas le corresponde a",
+        "Options": {
+          "A": "Persona titular de la Unidad de Gestión Clínica",
+          "B": "Persona titular de la Dirección Gerencia",
+          "C": "Al viceconsejero",
+          "D": "Al consejero"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 542,
+        "Question": "❓ FFM T4 ¿Qué responsabilidad tiene el Nodo de Coordinación del Biobanco del SSPA?",
+        "Options": {
+          "A": "A. Supervisar la extracción de muestras",
+          "B": "B. Coordinar las solicitudes y la distribución de muestras",
+          "C": "C. Regular las actividades del Comité Científico",
+          "D": "D. Designar los nodos del biobanco"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 231,
+        "Question": "❓ FFM Tema 4 ¿Cuál es la demarcación territorial elemental de acceso directo que proporciona asistencia de atención primaria, continuada e integral?",
+        "Options": {
+          "A": "Áreas de gestión sanitaria",
+          "B": "Zona básica de salud",
+          "C": "Área de salud",
+          "D": "Distrito de atención primaria"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 266,
+        "Question": "❓ FFM T4 En cada provincia ostenta la representación institucional de la Consejería en su respectivo ámbito territorial:",
+        "Options": {
+          "A": "a. La delegación territorial de la Consejería.",
+          "B": "b. El titular de la delegación territorial de la Consejería.",
+          "C": "c. El director del hospital principal.",
+          "D": "d. Ninguna es correcta."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 102,
+        "Question": "❓ FFM.La estructura de gestión del área de salud, cuya delimitación territorial coincide con las provincias andaluzas, es:-",
+        "Options": {
+          "A": "Las provincias",
+          "B": "Zonas básicas",
+          "C": "Delegación provincial de la Consejería de Salud",
+          "D": "Áreas básicas"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 456,
+        "Question": "❓ FFM.-El Comité Científico del Biobanco del SSPA contará con una presidencia y al menos el siguiente número de vocalías pertenecientes a las principales disciplinas biomédicas:",
+        "Options": {
+          "A": "Cinco.",
+          "B": "Diez.",
+          "C": "Siete.",
+          "D": "Cuatro."
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 235,
+        "Question": "❓ FFM Según el artículo 14 del Decreto 193/2008, ¿a quién corresponde la jefatura superior del personal adscrito al Servicio Andaluz de Salud?",
+        "Options": {
+          "A": "A. La Consejería de Salud",
+          "B": "B. La Dirección General de Personal",
+          "C": "C. La Dirección Gerencia del servicio Andaluz de Salud",
+          "D": "D. La viceconsejería de salud"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 159,
+        "Question": "❓ FFM.-la Comisión de dirección estará presidida por la Dirección Gerencia del hospital que está la compuesta por: (indique la incorrecta)",
+        "Options": {
+          "A": "Dirección de Enfermería",
+          "B": "Dirección económico administrativa",
+          "C": "Dirección de Servicios Generales",
+          "D": "Dirección de unidad clínica de gestión"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 480,
+        "Question": "❓ FFM.-¿Cuál es el plazo para comunicar los datos de un biobanco autorizado al Registro Nacional de Biobancos?:",
+        "Options": {
+          "A": "2 meses",
+          "B": "15 días",
+          "C": "Un mes",
+          "D": "3 meses"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 356,
+        "Question": "❓ FFM T4.- El marco territorial elemental para la prestación de la atención primaria de salud,en el que se ha de tener una asistencia continuada integral permanente y accesible es: ",
+        "Options": {
+          "A": "El distrito atención primaria.",
+          "B": "El centro de salud.",
+          "C": "La zona básica de salud.",
+          "D": "El área sanitaria."
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 196,
+        "Question": "❓ FFM.-Los servicios de atención primaria comprende. Indica la incorrecta",
+        "Options": {
+          "A": "Los servicios de atención primaria comprende. Indica la incorrecta",
+          "B": "La promoción de la salud",
+          "C": "La educación sanitaria y la vigilancia sanitaria del medio ambiente",
+          "D": "Lo comprende todo"
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 495,
+        "Question": "❓ FFM T4 El Biobanco del SSPA cubre:",
+        "Options": {
+          "A": "A. Solo el procesamiento de muestras",
+          "B": "B. Solo la conservación de muestras",
+          "C": "C. Solo la obtención de muestras",
+          "D": "D. Cualquier fase del proceso, desde la detección hasta la distribución final"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 589,
+        "Question": "❓ FFM T4 ¿Qué función tiene la Unidad de Calidad en los nodos del Biobanco del SSPA?",
+        "Options": {
+          "A": "A. Regular la dirección científica",
+          "B": "B. Aprobar la memoria anual",
+          "C": "C. Asegurar que el registro, procesamiento y distribución de biorrecursos sean adecuados",
+          "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 80,
+        "Question": "❓ FFM.-¿Que forma juridicia ostenta el Servicio Andaluz de Salud?",
+        "Options": {
+          "A": "Empresa pública",
+          "B": "Agencia Pública Empresarial",
+          "C": "Organismo autónomo",
+          "D": "Agencia Administrativa"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 448,
+        "Question": "❓ FFM.-Son funciones del consejo rector :",
+        "Options": {
+          "A": "Aprobar el programa científico",
+          "B": "Designar el comité científico externo",
+          "C": "A y b son correctas",
+          "D": "B es correcta"
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 280,
+        "Question": "❓ FFM T4 .-¿Cuál es el órgano colegiado de participación de los de los facultativos del Área Hospitalaria?",
+        "Options": {
+          "A": "A. La junta de Personal.",
+          "B": "B. La junta del Hospital.",
+          "C": "C. La Junta Facultativa.",
+          "D": "D. La Comisión Consultiva."
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 106,
+        "Question": "❓ FFM.-CADA ÁREA DE SALUD DISPONDRÁ O ESTARÁ VINCULADO:",
+        "Options": {
+          "A": "Como mínimo de dos hospitales",
+          "B": "Al menos de un hospital general",
+          "C": "Al menos de dos hospitales generales",
+          "D": "Al menos de un hospital y un centro de especialidades"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 166,
+        "Question": "❓ FFM.-¿Cuál es la demarcación poblacional y geográfica que proporciona atención de salud continuada, integral y permanente a una determinada población?",
+        "Options": {
+          "A": "El área sanitaria",
+          "B": "El sector sanitario",
+          "C": "La zona de salud",
+          "D": "el centro de salud"
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 412,
+        "Question": "❓ FFM T4-La Comisión de Dirección de los hospitales del SAS se caracteriza por",
+        "Options": {
+          "A": "Es un órgano colegiado de dirección",
+          "B": "Será presidida por el Gerente del hospital",
+          "C": "Estará integrada por el Direct. médico, Direct. de enfermería y Direct. de gestión y servic. grales",
+          "D": "Todas son correctas"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 483,
+        "Question": "❓ FFM T4.- El órgano de asesoramiento y evaluación científica de la cesión de muestras y datos asociados a las mismas es:",
+        "Options": {
+          "A": "a) Sistema Estadístico y Cartográfico de Andalucía.",
+          "B": "b) Banco de Líneas Celulares.",
+          "C": "c) Propio Consejo Rector del Biobanco.",
+          "D": "d) Comité Científico."
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 76,
+        "Question": "❓ FFM.-Según la Ley del Servicio Andaluz de Salud, cada Área de Salud está integrada administrativa y funcionalmente por unidades menores , que son de dos tipos:",
+        "Options": {
+          "A": "Consejo de Salud y Consejo de Dirección",
+          "B": "Hospital General Básico y Hospital General de Especialidades",
+          "C": "Distrito de Atención Primaria y Red hospitalaria pública",
+          "D": "Distrito de Atención Primaria y Área hospitalaria"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 358,
+        "Question": "❓ FFM T4.-¿Con qué órganos de asesoramiento contará cada distrito de atención primaria?",
+        "Options": {
+          "A": "a. Dispositivos de apoyo y Unidades de Gestión Clínica.",
+          "B": "b. Comisión de dirección y Comisión Técnica.",
+          "C": "c. Júnta de hospital y centros periféricos de especialidades y juntas facultativas.",
+          "D": "d. Las respuestas a y b son correctas."
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 35,
+        "Question": "❓ FFM.-El servicio andaluz de salud es",
+        "Options": {
+          "A": "Un organismo autonomo",
+          "B": "Una agencia administrativa",
+          "C": "Una entidad local empresarial",
+          "D": "Un ente administrativo especial"
+        },
+        "CorrectOption": "B"
+      },
+      {
+        "Id": 119,
+        "Question": "❓ FFM.-Los responsables de las unidades orgánicas de enfermería, tendrán la denominación de",
+        "Options": {
+          "A": "Supervisores de enfermería",
+          "B": "Supervisores de unidad",
+          "C": "Director de enfermería",
+          "D": "Ninguna es correcta"
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 376,
+        "Question": "❓ FFM T4.- Los distritos de atención primaria del SAS ordenaran, funcionalmente, la atención continuada y de urgencias y emergencias a traves de:",
+        "Options": {
+          "A": "a. El 061.",
+          "B": "b. El correspondiente punto de atencion continuada.",
+          "C": "c. El correspondiente servicio de cuidados críticos y urgencias.",
+          "D": "d. El correspondiente servicio de emergencias y salud publica."
+        },
+        "CorrectOption": "C"
+      },
+      {
+        "Id": 89,
+        "Question": "❓ FFM.-En el contexto de la continuidad asistencial el principal documento de intercambio de información entre los enfermeros de los niveles de atención primaria y de atención especializada es:",
+        "Options": {
+          "A": "El informe de continuidad de Cuidados de enfermería",
+          "B": "La guía de actuación compartida de enfermería",
+          "C": "El cuaderno de continuidad de Cuidados",
+          "D": "El informe de Salud responde"
+        },
+        "CorrectOption": "A"
+      },
+      {
+        "Id": 2,
+        "Question": "❓ FFM.-Proponer al Director Gerente del Hospital el nombramiento de la persona titular de la Dirección de enfermería de un Hospital del Servicio Andaluz de Salud es una función de:",
+        "Options": {
+          "A": "A. La Junta Facultativa",
+          "B": "B. La Comisión de Calidad Asistencial",
+          "C": "C. La Comisión de Puestos Directivos",
+          "D": "D. La Junta de Enfermería"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 443,
+        "Question": "❓ FFM T4 Se configura como recurso intermedio entre la unidad de salud mental comunitaria y la unidad de hospitalización de salud mental",
+        "Options": {
+          "A": "Unidad de rehabilitación de salud mental",
+          "B": "Comunidad terapéutica de salud mental",
+          "C": "Unidad de salud mental infanto juvenil",
+          "D": "Hospital de Día de salud mental"
+        },
+        "CorrectOption": "D"
+      },
+      {
+        "Id": 327,
+        "Question": "❓ FFM T4.-¿Quién determinará los órganos, la estructura y el funcionamiento de los distritos de atención primaria y los hospitales?",
+        "Options": {
+          "A": "a. Parlamento de Andalucía.",
+          "B": "b. Consejería de Salud.",
+          "C": "c. Consejo de Gobierno de la Junta de Andalucía.",
+          "D": "d. Servicio Andaluz de Salud."
+        },
+        "CorrectOption": "C"
+      }
+    ]
+  },
+  "formato": {
+    "estructura": "Id, Question, Options (A/B/C/D), CorrectOption",
+    "estilo": "Formal, referencias legales específicas, 4 opciones claras",
+    "ejemplo_pregunta": {
+      "Id": 1,
+      "Question": "❓FFM.-CE Todos los españoles, respecto al castellano, tienen el:",
+      "Options": {
+        "A": "Derecho de conocerla y el deber a usarla",
+        "B": "Derecho a usarla y deber de conocerla.",
+        "C": "Derecho y deber de conocer",
+        "D": "Derecho y deber de usarlo"
+      },
+      "CorrectOption": "B"
+    }
+  }
+}
