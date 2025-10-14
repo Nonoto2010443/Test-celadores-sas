@@ -10,6 +10,8 @@ from typing import List, Optional
 import uuid
 from datetime import datetime, timezone
 from emergentintegrations.llm.chat import LlmChat, UserMessage
+import json
+import random
 
 
 ROOT_DIR = Path(__file__).parent
@@ -67,175 +69,228 @@ class Stats(BaseModel):
     tiempo_promedio: int
 
 
-# Helper function to generate questions with AI
-async def generate_questions_with_ai() -> List[Question]:
-    api_key = os.environ.get('EMERGENT_LLM_KEY')
-    import json
-    import random
-    
-    TARGET_QUESTIONS = 50
-    all_questions = []
-    
-    # Cargar ejemplos de preguntas oficiales
-    ejemplos_oficiales = None
+# Helper function to load official questions into MongoDB
+async def load_official_questions_to_db():
+    """Load questions from JSON file into MongoDB if not already loaded"""
     try:
+        # Check if questions are already in DB
+        count = await db.official_questions.count_documents({})
+        if count > 0:
+            logging.info(f"✅ Base de datos ya tiene {count} preguntas oficiales cargadas")
+            return
+        
+        # Load from JSON
         with open('/app/backend/ejemplos_tests_oficiales.json', 'r', encoding='utf-8') as f:
-            ejemplos_oficiales = json.load(f)
-            logging.info("✅ Ejemplos oficiales cargados correctamente")
+            data = json.load(f)
+        
+        questions_to_insert = []
+        for tema_name, preguntas in data['temas'].items():
+            # Extract theme number from name (e.g., "Tema 1 - Constitución Española" -> "1")
+            tema_num = tema_name.split()[1] if 'Tema' in tema_name else "1"
+            
+            for q in preguntas:
+                # Validate question has no empty options
+                opciones = [q['Options'].get('A', ''), q['Options'].get('B', ''), 
+                           q['Options'].get('C', ''), q['Options'].get('D', '')]
+                
+                # Skip if any option is empty
+                if any(not opt or opt.strip() == '' for opt in opciones):
+                    logging.warning(f"⚠️ Pregunta {q.get('Id')} omitida: tiene opciones vacías")
+                    continue
+                
+                # Map correct option letter to index
+                correct_map = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'a': 0, 'b': 1, 'c': 2, 'd': 3}
+                correct_idx = correct_map.get(q['CorrectOption'], 0)
+                
+                # Ensure question starts with ❓ FFM or ❓KFM format
+                texto = q['Question']
+                if not texto.startswith('❓'):
+                    # Try to extract tema number and format properly
+                    texto = f"❓ FFM T{tema_num} {texto}"
+                
+                question_doc = {
+                    "id": str(q.get('Id', uuid.uuid4())),
+                    "texto": texto,
+                    "opciones": opciones,
+                    "respuesta_correcta": correct_idx,
+                    "justificacion": f"Respuesta correcta: {q['CorrectOption']}. {tema_name}",
+                    "tema": tema_name,
+                    "tema_numero": tema_num,
+                    "tipo": "oficial"
+                }
+                questions_to_insert.append(question_doc)
+        
+        if questions_to_insert:
+            await db.official_questions.insert_many(questions_to_insert)
+            logging.info(f"✅ {len(questions_to_insert)} preguntas oficiales cargadas en MongoDB")
+        else:
+            logging.warning("⚠️ No se cargaron preguntas oficiales")
+            
     except Exception as e:
-        logging.warning(f"⚠️ No se pudieron cargar ejemplos oficiales: {e}")
+        logging.error(f"❌ Error cargando preguntas oficiales: {e}")
+
+
+# Helper function to generate questions with AI (15 questions = 30%)
+async def generate_ai_questions(count: int = 15) -> List[Question]:
+    """Generate questions using AI"""
+    api_key = os.environ.get('EMERGENT_LLM_KEY')
+    ai_questions = []
     
-    # Strategy: Generate in multiple batches until we have exactly 50
-    batch_configs = [
-        (25, "Constitución Española, Estatuto Autonomía Andalucía, derechos fundamentales"),
-        (25, "Ley 14/1986 General de Sanidad, Ley 55/2003 Estatuto Marco, organización SAS")
+    topics = [
+        ("Constitución Española", "1"),
+        ("Estatuto de Autonomía de Andalucía", "2"),
+        ("Ley 14/1986 General de Sanidad", "3"),
+        ("Organización Sanitaria SAS", "4"),
+        ("Ley de Transparencia", "5")
     ]
     
-    for batch_num, (batch_size, topic) in enumerate(batch_configs, 1):
-        try:
-            # Construir ejemplos del tema
-            ejemplos_prompt = ""
-            if ejemplos_oficiales:
-                tema_key = list(ejemplos_oficiales['temas'].keys())[min(batch_num-1, len(ejemplos_oficiales['temas'])-1)]
-                ejemplos_tema = ejemplos_oficiales['temas'][tema_key][:3]
-                
-                ejemplos_prompt = "\n\nEJEMPLOS DE PREGUNTAS OFICIALES (REPLICA ESTE ESTILO EXACTO):\n"
-                for ej in ejemplos_tema:
-                    ejemplos_prompt += f"\nPregunta: {ej['Question']}\n"
-                    for opt, texto in ej['Options'].items():
-                        ejemplos_prompt += f"{opt}) {texto}\n"
-                    ejemplos_prompt += f"Correcta: {ej['CorrectOption']}\n"
+    questions_per_topic = count // len(topics) + 1
+    
+    for topic_name, tema_num in topics:
+        if len(ai_questions) >= count:
+            break
             
+        try:
             chat = LlmChat(
                 api_key=api_key,
                 session_id=str(uuid.uuid4()),
-                system_message=f"""Eres un experto en oposiciones de celadores del SAS. 
+                system_message=f"""Eres un experto en oposiciones de celadores del SAS.
 
-REGLAS ESTRICTAS OBLIGATORIAS:
-1. REPLICA EXACTAMENTE el estilo y formato de las preguntas oficiales de ejemplo
-2. Cada pregunta DEBE basarse en legislación real (Constitución, Ley 14/1986, Ley 55/2003, Ley 41/2002, Estatuto Autonomía)
-3. Las preguntas deben ser PRECISAS y tener una respuesta inequívocamente correcta
-4. Cita SIEMPRE el artículo o ley específica en el texto de la pregunta
-5. Si ninguna opción es correcta, incluye "Ninguna de las anteriores es correcta" como opción D
-6. Las justificaciones DEBEN citar el artículo específico y explicar por qué
-
-FORMATO REQUERIDO (igual que ejemplos oficiales):
-- Pregunta formal y precisa con referencia legal
+FORMATO OBLIGATORIO para cada pregunta:
+- DEBE comenzar con: ❓ FFM T{tema_num}
+- Seguido de la pregunta sobre {topic_name}
 - 4 opciones claras (A, B, C, D)
-- Una única respuesta correcta verificable
-- Justificación citando artículo/ley específica"""
+- Una única respuesta correcta
+- Justificación con referencia legal específica
+
+REGLAS ESTRICTAS:
+1. Todas las opciones DEBEN tener texto (no vacías)
+2. Pregunta basada en legislación real
+3. Respuesta inequívoca y verificable"""
             ).with_model("openai", "gpt-4o-mini")
             
-            prompt = f"""Genera EXACTAMENTE {batch_size} preguntas tipo test de ALTA CALIDAD sobre: {topic}
+            prompt = f"""Genera EXACTAMENTE {min(questions_per_topic, count - len(ai_questions))} preguntas sobre: {topic_name}
 
-{ejemplos_prompt}
+FORMATO JSON (sin markdown):
+{{"preguntas":[{{"texto":"❓ FFM T{tema_num} [pregunta sobre legislación]","opciones":["Opción A completa","Opción B completa","Opción C completa","Opción D completa"],"respuesta_correcta":0,"justificacion":"Artículo X de [Ley] establece..."}}]}}
 
-IMPORTANTE: 
-- Usa el MISMO ESTILO que los ejemplos oficiales
-- Referencias legales REALES y PRECISAS (artículos específicos)
-- Preguntas verificables basadas en legislación oficial
-- 4 opciones claramente diferenciadas
-- Justificaciones citando artículo específico
-
-Formato JSON (sin markdown):
-{{"preguntas":[{{"texto":"Según la Ley X, artículo Y...","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"Artículo X de la Ley Y establece que..."}}]}}
-
-Genera exactamente {batch_size} preguntas de máxima calidad. Solo JSON puro."""
+IMPORTANTE: Todas las opciones deben tener texto completo. Solo JSON."""
             
             user_message = UserMessage(text=prompt)
             response = await chat.send_message(user_message)
             
-            # Parse JSON response
+            # Parse JSON
             response_text = response.strip()
-            
-            # Remove markdown code blocks
             if '```' in response_text:
                 response_text = response_text.replace('```json', '').replace('```', '').strip()
             
             data = json.loads(response_text)
             
-            batch_questions = []
             for q in data['preguntas']:
-                batch_questions.append(Question(
-                    texto=q['texto'],
-                    opciones=q['opciones'],
-                    respuesta_correcta=q['respuesta_correcta'],
-                    justificacion=q['justificacion']
-                ))
-            
-            all_questions.extend(batch_questions)
-            logging.info(f"Batch {batch_num}: Generated {len(batch_questions)} questions. Total: {len(all_questions)}")
-                
+                # Validate no empty options
+                if all(q['opciones']) and len(q['opciones']) == 4:
+                    ai_questions.append(Question(
+                        texto=q['texto'],
+                        opciones=q['opciones'],
+                        respuesta_correcta=q['respuesta_correcta'],
+                        justificacion=q['justificacion']
+                    ))
+                    
+                if len(ai_questions) >= count:
+                    break
+                    
         except Exception as e:
-            logging.error(f"Error generating batch {batch_num}: {str(e)}")
+            logging.error(f"Error generando preguntas IA para {topic_name}: {e}")
             continue
     
-    # If we don't have exactly 50, generate additional questions
-    if len(all_questions) < TARGET_QUESTIONS:
-        missing = TARGET_QUESTIONS - len(all_questions)
-        logging.info(f"Generating {missing} additional questions to reach {TARGET_QUESTIONS}")
+    logging.info(f"✅ Generadas {len(ai_questions)} preguntas con IA")
+    return ai_questions[:count]
+
+
+# Helper function to get questions from database
+async def get_db_questions(count: int, tipo: str = "oficial") -> List[Question]:
+    """Get random questions from MongoDB"""
+    try:
+        # Get random questions
+        pipeline = [
+            {"$match": {"tipo": tipo}},
+            {"$sample": {"size": count * 2}}  # Get extra in case we need to filter
+        ]
         
-        try:
-            # Ejemplos adicionales
-            ejemplos_prompt = ""
-            if ejemplos_oficiales:
-                ejemplos_mix = random.sample([p for tema in ejemplos_oficiales['temas'].values() for p in tema], min(2, 10))
-                ejemplos_prompt = "\n\nEJEMPLOS OFICIALES:\n"
-                for ej in ejemplos_mix[:2]:
-                    ejemplos_prompt += f"\n{ej['Question']}\n"
-                    for opt, texto in ej['Options'].items():
-                        ejemplos_prompt += f"{opt}) {texto}\n"
-            
-            chat = LlmChat(
-                api_key=api_key,
-                session_id=str(uuid.uuid4()),
-                system_message="Eres un experto en oposiciones de celadores del SAS. REGLAS ESTRICTAS: 1) Cada pregunta debe tener una respuesta inequívocamente correcta basada en legislación o temario oficial. 2) Si ninguna opción es correcta, incluye 'Ninguna de las anteriores es correcta' como opción válida. 3) Cita siempre el artículo o legislación en la justificación."
-            ).with_model("openai", "gpt-4o-mini")
-            
-            prompt = f"""Genera EXACTAMENTE {missing} preguntas tipo test de calidad sobre celadores SAS (temas variados).
-
-{ejemplos_prompt}
-
-REGLAS OBLIGATORIAS:
-1. Cada pregunta DEBE tener una respuesta inequívocamente correcta
-2. Si ninguna opción es correcta, incluye "Ninguna de las anteriores es correcta"
-3. Cita el artículo específico o temario en la justificación
-
-JSON (sin markdown):
-{{"preguntas":[{{"texto":"Según [Ley/Artículo]...","opciones":["A","B","C","D"],"respuesta_correcta":0-3,"justificacion":"Según artículo X..."}}]}}
-
-Solo {missing} preguntas de alta calidad."""
-            
-            user_message = UserMessage(text=prompt)
-            response = await chat.send_message(user_message)
-            
-            response_text = response.strip()
-            if '```' in response_text:
-                response_text = response_text.replace('```json', '').replace('```', '').strip()
-            
-            data = json.loads(response_text)
-            
-            for q in data['preguntas'][:missing]:  # Take only what we need
-                all_questions.append(Question(
-                    texto=q['texto'],
-                    opciones=q['opciones'],
-                    respuesta_correcta=q['respuesta_correcta'],
-                    justificacion=q['justificacion']
+        questions_docs = await db.official_questions.aggregate(pipeline).to_list(count * 2)
+        
+        questions = []
+        for doc in questions_docs:
+            # Validate no empty options
+            if all(doc['opciones']) and len(doc['opciones']) == 4:
+                questions.append(Question(
+                    texto=doc['texto'],
+                    opciones=doc['opciones'],
+                    respuesta_correcta=doc['respuesta_correcta'],
+                    justificacion=doc['justificacion']
                 ))
-            
-            logging.info(f"Added {min(len(data['preguntas']), missing)} additional questions. Total: {len(all_questions)}")
-            
-        except Exception as e:
-            logging.error(f"Error generating additional questions: {str(e)}")
+                
+            if len(questions) >= count:
+                break
+        
+        logging.info(f"✅ Obtenidas {len(questions)} preguntas de BD (tipo: {tipo})")
+        return questions[:count]
+        
+    except Exception as e:
+        logging.error(f"Error obteniendo preguntas de BD: {e}")
+        return []
+
+
+# Main function to generate exam with mixed questions
+async def generate_mixed_exam() -> List[Question]:
+    """
+    Generate exam with:
+    - 30% AI questions (15)
+    - 40% Official DB questions (20) 
+    - 30% Official exam questions (15)
+    Total: 50 questions
+    """
+    all_questions = []
     
-    # Ensure we have exactly 50 (trim if we have more)
-    if len(all_questions) > TARGET_QUESTIONS:
-        all_questions = all_questions[:TARGET_QUESTIONS]
-        logging.info(f"Trimmed to exactly {TARGET_QUESTIONS} questions")
-    
-    logging.info(f"Final question count: {len(all_questions)}")
-    
-    return all_questions
+    try:
+        # Ensure official questions are loaded
+        await load_official_questions_to_db()
+        
+        # 1. Generate 15 AI questions (30%)
+        logging.info("🤖 Generando 15 preguntas con IA...")
+        ai_questions = await generate_ai_questions(15)
+        all_questions.extend(ai_questions)
+        
+        # 2. Get 20 questions from official DB (40%)
+        logging.info("📚 Obteniendo 20 preguntas de base de datos oficial...")
+        db_questions = await get_db_questions(20, "oficial")
+        all_questions.extend(db_questions)
+        
+        # 3. Get 15 questions from official exams (30%) - same source but different sample
+        logging.info("📝 Obteniendo 15 preguntas de exámenes oficiales...")
+        exam_questions = await get_db_questions(15, "oficial")
+        all_questions.extend(exam_questions)
+        
+        # Shuffle all questions randomly
+        random.shuffle(all_questions)
+        
+        # Ensure we have exactly 50
+        if len(all_questions) < 50:
+            logging.warning(f"⚠️ Solo se generaron {len(all_questions)} preguntas, completando...")
+            # Try to complete with more DB questions
+            missing = 50 - len(all_questions)
+            extra = await get_db_questions(missing, "oficial")
+            all_questions.extend(extra)
+            random.shuffle(all_questions)
+        
+        final_questions = all_questions[:50]
+        logging.info(f"✅ Examen completo: {len(final_questions)} preguntas mezcladas")
+        
+        return final_questions
+        
+    except Exception as e:
+        logging.error(f"❌ Error generando examen mixto: {e}")
+        raise HTTPException(status_code=500, detail=f"Error generando examen: {str(e)}")
 
 
 # Routes
@@ -246,24 +301,18 @@ async def root():
 
 @api_router.post("/exams/generate", response_model=List[Question])
 async def generate_exam():
-    """Generate a new exam with 50 questions using AI"""
+    """Generate a new exam with 50 mixed questions"""
     try:
-        questions = await generate_questions_with_ai()
+        questions = await generate_mixed_exam()
         return questions
     except Exception as e:
-        logging.error(f"Error generating questions: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Error al generar preguntas: {str(e)}")
+        logging.error(f"Error generating exam: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error al generar examen: {str(e)}")
 
 
 @api_router.post("/exams/submit", response_model=ExamResult)
 async def submit_exam(exam: ExamSubmit):
-    """Submit an exam and save results with official scoring system
-    
-    Official SAS scoring:
-    - Each correct answer = 2 points (50 correct = 100 points)
-    - Each incorrect answer = -0.5 points (penalty of 1/4 of 2 points)
-    - Blank answers = 0 points
-    """
+    """Submit an exam and save results with official scoring system"""
     total_preguntas = len(exam.preguntas)
     
     # Calculate correctas, incorrectas, en blanco
