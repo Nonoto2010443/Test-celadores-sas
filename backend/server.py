@@ -320,15 +320,15 @@ async def generate_mixed_exam() -> List[Question]:
         # Ensure official questions are loaded
         await load_official_questions_to_db()
         
-        # 1. Generate 25 AI questions (50%)
-        logging.info("🤖 Generando 25 preguntas con IA (50%)...")
-        ai_questions = await generate_ai_questions(25)
+        # 1. Generate 15 AI questions (30%) - Reduced for faster performance
+        logging.info("🤖 Generando 15 preguntas con IA (30%)...")
+        ai_questions = await generate_ai_questions(15)
         all_questions.extend(ai_questions)
         logging.info(f"  ✅ {len(ai_questions)} preguntas IA generadas")
         
-        # 2. Get 25 questions from database (50%) - all sources mixed
-        logging.info("📚 Obteniendo 25 preguntas de base de datos oficial (50%)...")
-        db_questions = await get_db_questions(25, "oficial")
+        # 2. Get 35 questions from database (70%) - Increased for faster response
+        logging.info("📚 Obteniendo 35 preguntas de base de datos oficial (70%)...")
+        db_questions = await get_db_questions(35, "oficial")
         all_questions.extend(db_questions)
         logging.info(f"  ✅ {len(db_questions)} preguntas de BD obtenidas")
         
