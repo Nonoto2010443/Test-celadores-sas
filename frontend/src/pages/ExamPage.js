@@ -28,13 +28,15 @@ const ExamPage = () => {
   }, []);
 
   useEffect(() => {
-    if (questions.length === 0) return;
+    if (questions.length === 0 || submitting) return;
 
     const timer = setInterval(() => {
       setTimeRemaining((prev) => {
         if (prev <= 1) {
           clearInterval(timer);
-          handleSubmit();
+          if (!submitting) {
+            handleSubmit();
+          }
           return 0;
         }
         return prev - 1;
@@ -42,7 +44,7 @@ const ExamPage = () => {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [questions]);
+  }, [questions.length]);
 
   const generateExam = async () => {
     try {
