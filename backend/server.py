@@ -337,15 +337,22 @@ async def generate_mixed_exam() -> List[Question]:
         
         # Ensure we have exactly 50
         if len(all_questions) < 50:
-            logging.warning(f"⚠️ Solo se generaron {len(all_questions)} preguntas, completando...")
+            logging.warning(f"⚠️ Solo se generaron {len(all_questions)} preguntas, completando con BD...")
             # Try to complete with more DB questions
             missing = 50 - len(all_questions)
             extra = await get_db_questions(missing, "oficial")
             all_questions.extend(extra)
+            logging.info(f"  ✅ Añadidas {len(extra)} preguntas adicionales de BD")
             random.shuffle(all_questions)
         
+        # Ensure we have at least 50 questions
+        if len(all_questions) < 50:
+            # If still not enough, use only DB questions
+            logging.error(f"❌ No hay suficientes preguntas. Usando solo BD...")
+            all_questions = await get_db_questions(50, "oficial")
+        
         final_questions = all_questions[:50]
-        logging.info(f"✅ Examen completo: {len(final_questions)} preguntas (50% IA + 50% BD)")
+        logging.info(f"✅ Examen completo: {len(final_questions)} preguntas")
         
         return final_questions
         
