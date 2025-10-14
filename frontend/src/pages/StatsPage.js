@@ -7,7 +7,7 @@ import { Home, TrendingUp, Target, Award, Clock } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const API = `${BACKEND_URL}/api`;
+const API = BACKEND_URL; // .env already includes /api
 
 const StatsPage = () => {
   const navigate = useNavigate();
