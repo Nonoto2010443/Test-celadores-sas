@@ -105,10 +105,11 @@ const ExamPage = () => {
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
-        <div className="text-center">
+        <div className="text-center max-w-md mx-auto px-4">
           <Loader2 className="h-16 w-16 animate-spin text-blue-600 mx-auto mb-4" />
           <h2 className="text-2xl font-bold text-slate-900 mb-2">Generando tu examen...</h2>
-          <p className="text-slate-600">Creando 50 preguntas personalizadas con IA</p>
+          <p className="text-slate-600 mb-4">Creando 50 preguntas: 15 generadas con IA estilo oficial + 35 de exámenes reales</p>
+          <p className="text-sm text-slate-500 italic">⏱️ Esto puede tardar 40-60 segundos. Por favor, espera...</p>
         </div>
       </div>
     );
