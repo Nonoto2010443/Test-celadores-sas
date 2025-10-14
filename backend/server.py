@@ -232,8 +232,11 @@ ERRORES A EVITAR:
 **INSTRUCCIONES CRÍTICAS:**
 1. ESTUDIA los ejemplos anteriores: observa el nivel de detalle, la precisión técnica, el formato
 2. REPLICA ese mismo estilo: mismo nivel de dificultad, misma precisión en referencias legales
-3. USA artículos reales de la legislación vigente (Constitución, Estatuto Andalucía, Ley 14/1986, Ley 55/2003)
+3. USA artículos reales de la legislación vigente (Constitución Española, Estatuto de Autonomía de Andalucía, Ley 14/1986, Ley 55/2003)
 4. ASEGURA que cada pregunta podría aparecer en un examen oficial real
+5. **ESCRIBE NOMBRES COMPLETOS**: Nunca uses abreviaturas (Per. Est., EMPE, EM, etc.)
+6. **ORTOGRAFÍA PERFECTA**: Revisa cada palabra antes de enviar
+7. **NOMBRES DE LEYES COMPLETOS**: "Estatuto Marco del Personal Estatutario de los Servicios de Salud" (no "EMPE" ni "EM")
 
 FORMATO JSON (sin markdown, sin comentarios):
 {{"preguntas":[
