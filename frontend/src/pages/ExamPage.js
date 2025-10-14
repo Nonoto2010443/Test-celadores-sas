@@ -11,7 +11,7 @@ import { Clock, Loader2, AlertCircle, ChevronLeft, ChevronRight, Send } from "lu
 import { toast } from "sonner";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const API = `${BACKEND_URL}/api`;
+const API = BACKEND_URL; // .env already includes /api
 const EXAM_DURATION = 90 * 60; // 90 minutes in seconds
 
 const ExamPage = () => {
