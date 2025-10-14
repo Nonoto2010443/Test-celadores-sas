@@ -1,0 +1,1168 @@
+[
+  {
+    "id": 1,
+    "Question": "❓ FFM.-¿Cuál de las siguientes tareas NO se incluye entre las de los celadores?",
+    "Options": {
+      "a": "Trasladar a los pacientes a las diferentes plantas y servicios del hospital.",
+      "b": "Movilizar el mobiliario y los aparatos que se necesiten en las distintas dependencias.",
+      "c": "Administrar la medicación a los enfermos según la pauta prescrita.",
+      "d": "Vigilar las entradas del hospital, no permitiendo el acceso a personas no autorizadas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 2,
+    "Question": "❓ FFM.-Cuando un celador traslada a un paciente de un servicio a otro, ¿qué NO deberá hacer?",
+    "Options": {
+      "a": "Llevar la historia del paciente.",
+      "b": "Colocar los drenajes sobre la cama.",
+      "c": "Informar al paciente de qué va a hacer con él.",
+      "d": "Informar al personal sanitario del servicio de origen de que se lleva al paciente."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 3,
+    "Question": "❓ FFM.-¿Cuál es el método para el traslado de los enfermos más rápido, ya que no requiere excesivo esfuerzo y es fácil de aplicar?",
+    "Options": {
+      "a": "Por arrastre con silla.",
+      "b": "Por arrastre directo.",
+      "c": "Por arrastre con colchón.",
+      "d": "Por levantamiento."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 4,
+    "Question": "❓ FFM.-En el supuesto de producción de un incendio, ¿qué acción NUNCA deberemos realizar por iniciativa propia?",
+    "Options": {
+      "a": "Clasificar la magnitud del incendio.",
+      "b": "Actuar por parejas.",
+      "c": "Abandonar el lugar si el incendio parece estar controlado y se ha comunicado al Jefe de Emergencia.",
+      "d": "Evacuar la zona cerrando las puertas a nuestra espalda e indicarlo al Jefe de Emergencia."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 5,
+    "Question": "❓ FFM.-¿Qué método de traslado de enfermos es rápido y bastante confortable para los pacientes, aunque no se puede utilizar, generalmente, para la evacuación vertical?",
+    "Options": {
+      "a": "Por arrastre directo.",
+      "b": "Por arrastre con silla.",
+      "c": "Por arrastre con colchón.",
+      "d": "Por levantamiento."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 6,
+    "Question": "❓ FFM.-¿Cuál es una herramienta fundamental en la rehabilitación del equilibrio y la propiocepción propioceptivos?",
+    "Options": {
+      "a": "Discos de Böher.",
+      "b": "Bosu.",
+      "c": "Jaula de Rocher.",
+      "d": "Banco de Colson."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 7,
+    "Question": "❓ FFM.-Según la Constitución Española de 1978, ¿cuántos miembros del Tribunal Constitucional son propuestos por el Gobierno?",
+    "Options": {
+      "a": "4.",
+      "b": "3.",
+      "c": "2.",
+      "d": "1."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 8,
+    "Question": "❓ FFM.-¿Qué órgano es el competente para conocer un recurso de amparo por violación de derechos y libertades en el art. 14 de la CE?",
+    "Options": {
+      "a": "El Tribunal Supremo.",
+      "b": "El Tribunal Constitucional.",
+      "c": "El Defensor del Pueblo.",
+      "d": "Las respuestas B y C son correctas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 9,
+    "Question": "❓ FFM.-¿Quién nombra al presidente del Tribunal Supremo?",
+    "Options": {
+      "a": "El Presidente del Gobierno.",
+      "b": "El Rey.",
+      "c": "El Consejo General del Poder Judicial.",
+      "d": "El Presidente del Congreso."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 10,
+    "Question": "❓ FFM.-Según la CE, NO es un derecho fundamental:",
+    "Options": {
+      "a": "El derecho a la vida y a la integridad física y moral.",
+      "b": "La libertad ideológica.",
+      "c": "El derecho al honor, a la integridad personal y familiar y a la propia imagen.",
+      "d": "El derecho a contraer matrimonio con plena igualdad jurídica."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 11,
+    "Question": "❓ FFM.-¿De cuántos títulos consta la CE de 1978?",
+    "Options": {
+      "a": "11 títulos.",
+      "b": "10 títulos, porque el preliminar no tiene ningún valor jurídico.",
+      "c": "10 títulos.",
+      "d": "12 títulos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 12,
+    "Question": "❓ FFM.-Una ambulancia llega al hospital en el que usted presta servicios. ¿Será función suya como celador subir o bajar al enfermo de la ambulancia y trasladarlo al servicio correspondiente?",
+    "Options": {
+      "a": "Sí, por ser una de sus funciones.",
+      "b": "Solamente si se lo ordena el personal sanitario.",
+      "c": "Solo si el paciente está en el servicio de urgencias.",
+      "d": "No, en ningún caso."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 13,
+    "Question": "❓ FFM.-¿Es obligatorio usar una crema germicida en el procedimiento de lavado de manos quirúrgico?",
+    "Options": {
+      "a": "Sí.",
+      "b": "No.",
+      "c": "Según la intervención a realizar.",
+      "d": "Depende del servicio."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 14,
+    "Question": "❓ FFM.-La actualización de la C.E. respecto al personal sanitario se realiza mediante la ley:",
+    "Options": {
+      "a": "55/2003.",
+      "b": "27/1996.",
+      "c": "16/1972.",
+      "d": "Ninguna es correcta."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 15,
+    "Question": "❓ FFM.-La tienda de oxígeno se usa para:",
+    "Options": {
+      "a": "Adultos sobre todo.",
+      "b": "Niños pequeños.",
+      "c": "Cuando interesa que quede fuera de la tienda el resto del cuerpo.",
+      "d": "En todos los casos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 16,
+    "Question": "❓ FFM.-¿A quién corresponde la competencia de la Administración General de la Consejería?",
+    "Options": {
+      "a": "A la Viceconsejería de Salud.",
+      "b": "A la Secretaría General de Planificación y Evaluación Económica.",
+      "c": "Al titular de la Consejería de Salud.",
+      "d": "Al Consejo de Gobierno de la Junta de Andalucía."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 17,
+    "Question": "❓ FFM.-El Servicio Andaluz de Salud se crea mediante:",
+    "Options": {
+      "a": "Ley 8/1986, de 6 de mayo.",
+      "b": "Ley 14/1986, de 25 de abril.",
+      "c": "Ley 2/1998, de 19 de marzo.",
+      "d": "Ninguna es correcta."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 18,
+    "Question": "❓ FFM.-El Consejo de Gobierno de la Junta de Andalucía está formado por:",
+    "Options": {
+      "a": "Ninguna es correcta.",
+      "b": "Los consejeros.",
+      "c": "Las respuestas b y d son correctas.",
+      "d": "El presidente y los vicepresidentes en su caso."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 19,
+    "Question": "❓ FFM.-¿Puede la Junta de Andalucía solicitar del Estado la celebración de tratados internacionales en materias de su competencia?",
+    "Options": {
+      "a": "Ninguna es correcta.",
+      "b": "Sí puede.",
+      "c": "No puede solicitarlo al Estado, sino directamente a la Unión Europea.",
+      "d": "No puede."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 20,
+    "Question": "❓ FFM.-El Defensor del Pueblo Andaluz:",
+    "Options": {
+      "a": "Será elegido por el Parlamento Andaluz.",
+      "b": "Será elegido por el Consejo de Gobierno.",
+      "c": "Estará subordinado al Presidente de la Junta de Andalucía.",
+      "d": "Estará subordinado al Presidente del Parlamento Andaluz."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 21,
+    "Question": "❓ FFM.-La elaboración y aplicación del presupuesto de la comunidad autónoma, según el EA, corresponde:",
+    "Options": {
+      "a": "Al Consejero de Economía y Hacienda.",
+      "b": "Al Parlamento.",
+      "c": "Al Consejo de Gobierno.",
+      "d": "Al Presidente de la Junta."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 22,
+    "Question": "❓ FFM.-Según el art. 21, se garantiza, mediante un sistema educativo público, el derecho constitucional de todos a una educación:",
+    "Options": {
+      "a": "B y C son correctas.",
+      "b": "Educación de carácter compensatorio.",
+      "c": "Educación permanente.",
+      "d": "Educación obligatoria."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 23,
+    "Question": "❓ FFM.-El título I del Estatuto de Autonomía de Andalucía recibe el nombre de:",
+    "Options": {
+      "a": "Competencias autonómicas.",
+      "b": "Derechos sociales, deberes y políticas públicas.",
+      "c": "Organización territorial.",
+      "d": "Derechos sociales y deberes públicos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 24,
+    "Question": "❓ FFM.-Según lo establecido en la disposición final tercera del Estatuto de Autonomía, dicho estatuto entrará en vigor:",
+    "Options": {
+      "a": "Al día siguiente de su publicación en el BOE.",
+      "b": "El mismo día de su publicación en el BOE.",
+      "c": "Al día siguiente de su publicación en el BOJA.",
+      "d": "El mismo día de su publicación en el BOJA."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 25,
+    "Question": "❓ FFM.-¿Qué tipo de competencia, según el Estatuto de Autonomía, corresponde a la Junta de Andalucía en materia de comunicaciones electrónicas?",
+    "Options": {
+      "a": "Exclusiva en todo caso.",
+      "b": "Compartida, de acuerdo con el procedimiento en el título IX.",
+      "c": "Ejecutiva, en los términos previstos en la legislación del Estado.",
+      "d": "Exclusiva, siempre que se produzcan dentro del ámbito territorial de la CA."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 26,
+    "Question": "❓ FFM.-Las relaciones entre las instituciones de la Junta de Andalucía y los entes locales se regulan por:",
+    "Options": {
+      "a": "Decreto.",
+      "b": "Real Decreto.",
+      "c": "Ley de Régimen Local.",
+      "d": "Ley de Bases de Régimen Local."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 27,
+    "Question": "❓ FFM.-Según el Estatuto de Autonomía, procederá la actualización del sistema de financiación de la Comunidad de Andalucía cada:",
+    "Options": {
+      "a": "4 años.",
+      "b": "6 años.",
+      "c": "5 años.",
+      "d": "3 años."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 28,
+    "Question": "❓ FFM.-La Administración Pública actúa de acuerdo con los principios de:",
+    "Options": {
+      "a": "Eficacia, jerarquía, descentralización y transparencia.",
+      "b": "Eficacia, jerarquía, coordinación y participación.",
+      "c": "Eficacia, jerarquía, desconcentración y coordinación.",
+      "d": "Eficacia, jerarquía, coordinación y transparencia."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 29,
+    "Question": "❓ FFM.-¿Qué son las centinelas de cama?",
+    "Options": {
+      "a": "Almohadillas utilizadas para prevenir lesiones o caídas.",
+      "b": "Luz tenue y delicada que evita la desorientación del encamado al despertar.",
+      "c": "Ninguna es correcta.",
+      "d": "Timbres próximos al cabecero para avisar de incidentes."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 30,
+    "Question": "❓ FFM.-El accesorio que se ajusta alrededor de la cama para prevenir caídas de pacientes se llama:",
+    "Options": {
+      "a": "Arco de cama.",
+      "b": "Férula de arco.",
+      "c": "Barandillas o rejas de seguridad.",
+      "d": "Barra de tracción."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 31,
+    "Question": "❓ FFM.-El cuadro balcánico es:",
+    "Options": {
+      "a": "Un armazón que inmoviliza las camas en las habitaciones.",
+      "b": "Un aparato mecánico que utiliza exclusivamente el personal de mantenimiento.",
+      "c": "Un conjunto de síntomas de una enfermedad.",
+      "d": "Un armazón que se coloca en las camas de determinados pacientes."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 32,
+    "Question": "❓ FFM.-¿Para qué se utiliza el armazón balcánico?",
+    "Options": {
+      "a": "Ninguna respuesta es correcta.",
+      "b": "Para evitar que el paciente se caiga de la cama.",
+      "c": "Para facilitar la incorporación del paciente con traumatismo en las extremidades inferiores.",
+      "d": "Para evitar posturas viciadas o incorrectas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 33,
+    "Question": "❓ FFM.-La cama que mantiene al paciente girando constantemente, se denomina:",
+    "Options": {
+      "a": "Cama Roto-Rest.",
+      "b": "Cama electrocircular.",
+      "c": "Cama libro.",
+      "d": "Cama de levitación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 34,
+    "Question": "❓ FFM.-La cama electrocircular o de Stryker permite dar giros de:",
+    "Options": {
+      "a": "90 grados.",
+      "b": "180 grados.",
+      "c": "190 grados.",
+      "d": "360 grados."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 35,
+    "Question": "❓ FFM.-Se decide colocar a un paciente en un colchón antiescaras. ¿Cuál es el funcionamiento de este tipo de colchón?",
+    "Options": {
+      "a": "Antipresión en las zonas de riesgo.",
+      "b": "Evitar presión alternante.",
+      "c": "Presión alternante.",
+      "d": "Presión concomitante."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 36,
+    "Question": "❓ FFM.-El colchón alternating se utiliza:",
+    "Options": {
+      "a": "Para enfermos renales.",
+      "b": "Para prevenir las úlceras por presión.",
+      "c": "Para enfermos pulmonares.",
+      "d": "En pacientes fracturados."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 37,
+    "Question": "❓ FFM.-Indique la finalidad de la cama hospitalaria tipo ortopédica de Judet:",
+    "Options": {
+      "a": "Está indicada para pacientes que sufren fracturas o parálisis de las extremidades.",
+      "b": "Es indicada para facilitar el cambio postural en aquellos pacientes que únicamente pueden hacerlo con volteo.",
+      "c": "Utiliza un flujo continuo e intenso de aire que permite que el paciente permanezca en suspensión.",
+      "d": "Se utiliza para la exploración ginecológica, así como en el momento del parto."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 38,
+    "Question": "❓ FFM.-¿Cuál de los siguientes elementos no es accesorio de una cama hospitalaria?",
+    "Options": {
+      "a": "Rejas de seguridad.",
+      "b": "Pie de suero.",
+      "c": "Mesilla.",
+      "d": "Centinelas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 39,
+    "Question": "❓ FFM.-Los movimientos repetitivos:",
+    "Options": {
+      "a": "Son una medida de prevención.",
+      "b": "Son un Riesgo Higiénico.",
+      "c": "Son un Riesgo Ergonómico.",
+      "d": "Son un Riesgo Psicosocial."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 40,
+    "Question": "❓ FFM.-Según el artículo 14.2.1 del Estatuto del Personal no Sanitario, los celadores trasladarán de unos servicios a otros, señale la respuesta correcta:",
+    "Options": {
+      "a": "Las comunicaciones verbales.",
+      "b": "Aparatos o mobiliario.",
+      "c": "Documentos y objetos.",
+      "d": "Todas las respuestas anteriores son correctas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 41,
+    "Question": "❓ FFM.-La Constitución Española, en relación con la sanidad, atribuye a las Comunidades Autónomas competencias en materia de:",
+    "Options": {
+      "a": "Sanidad exterior.",
+      "b": "Bases y coordinación general de la sanidad.",
+      "c": "Sanidad e higiene.",
+      "d": "Bases y coordinación general de la sanidad, sanidad exterior y sanidad e higiene."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 42,
+    "Question": "❓ FFM.-Un pictograma con una calavera sobre tibias cruzadas nos indica que se trata de un residuo:",
+    "Options": {
+      "a": "Radioactivo.",
+      "b": "Tóxico.",
+      "c": "Biológico.",
+      "d": "Citostático."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 43,
+    "Question": "❓ FFM.-El término LIFO significa:",
+    "Options": {
+      "a": "El primero en entrar es el primero en salir.",
+      "b": "El último en entrar es el primero en salir.",
+      "c": "El primer consumo es la primera compra.",
+      "d": "El último en entrar es el último en salir."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 44,
+    "Question": "❓ FFM.-¿Cuál de las opciones respeta el orden correcto de colocación de los elementos de la lencería en una cama hospitalaria?",
+    "Options": {
+      "a": "Bajera, entremetida, hule y encimera.",
+      "b": "Hule, bajera, encimera, entremetida.",
+      "c": "Bajera, hule, entremetida, encimera.",
+      "d": "Hule, bajera, entremetida, encimera."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 45,
+    "Question": "❓ FFM.-La sábana entremetida se dobla:",
+    "Options": {
+      "a": "A lo largo y con el derecho hacia el interior.",
+      "b": "A lo ancho y con el revés hacia el interior.",
+      "c": "A lo ancho y con el derecho hacia el interior.",
+      "d": "No existe la sábana entremetida."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 46,
+    "Question": "❓ FFM.-Indique las características de una cama cerrada:",
+    "Options": {
+      "a": "Permanece vacía hasta la admisión de una persona enferma.",
+      "b": "Es aquella que corresponde a la persona enferma que la ocupa, que puede levantarse y por ello está vacía, a la espera del regreso de un paciente.",
+      "c": "Es aquella cama que espera a la persona recién operada y estará cerrada hasta su salida del despertador.",
+      "d": "Permanece vacía hasta la noche en que la persona enferma se encuentre muy cansada y se acueste."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 47,
+    "Question": "❓ FFM.-Cuando se sacude una sábana antes de colocarla en la cama del paciente:",
+    "Options": {
+      "a": "Facilitamos su colocación en la cama.",
+      "b": "Si no realizamos esta maniobra, pueden quedar arrugas que dañen la piel del paciente.",
+      "c": "Favorecemos la diseminación de microorganismos en el ambiente.",
+      "d": "Es indiferente a la hora de hacer la cama cerrada."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 48,
+    "Question": "❓ FFM.-El movimiento de los pacientes encamados para hacerles la cama corresponde:",
+    "Options": {
+      "a": "A los auxiliares de enfermería.",
+      "b": "Al personal de enfermería y ayudantes de planta, ayudados por el celador cuando los enfermos no puedan moverse por sí mismos.",
+      "c": "Al celador, si el paciente requiere un trato especial debido a sus dolencias para hacerles las camas.",
+      "d": "A los enfermeros/as."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 49,
+    "Question": "❓ FFM.-Una cama abierta es:",
+    "Options": {
+      "a": "La que acaba de ser hecha por el auxiliar de enfermería.",
+      "b": "La que está vacía, a la espera del ingreso de un paciente.",
+      "c": "La que puede ser abierta ocupada o abierta desocupada por un paciente que se encuentra hospitalizado.",
+      "d": "La que está desprovista de barandillas de seguridad."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 50,
+    "Question": "❓ FFM.-La sábana que se coloca para proteger el colchón del contacto directo de la ropa del paciente, es la:",
+    "Options": {
+      "a": "Sábana encimera.",
+      "b": "Sábana bajera.",
+      "c": "Centinela de cama.",
+      "d": "Sábana entremetida."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 51,
+    "Question": "❓ FFM.-Señale la respuesta incorrecta respecto a cuándo está indicada la posición de Morestin:",
+    "Options": {
+      "a": "En cirugía de cabeza.",
+      "b": "En cirugía pélvica, al facilitar la visión del campo operatorio.",
+      "c": "En exploraciones radiológicas.",
+      "d": "En cirugía diafragmática y de la cavidad abdominal superior."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 52,
+    "Question": "❓ FFM.-Antes de colocar a un paciente en decúbito lateral, es necesario:",
+    "Options": {
+      "a": "Poner una almohada debajo de la cabeza del paciente.",
+      "b": "Desplazarlo hasta la orilla del mismo lado de la cama hacia el que se va a girar el cuerpo.",
+      "c": "Desplazarlo hasta la orilla de la cama contraria al lado hacia el que se va a girar el cuerpo.",
+      "d": "Ninguna de las anteriores es correcta."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 53,
+    "Question": "❓ FFM.-El giro del antebrazo que tiene como resultado poner la palma de la mano hacia atrás o hacia abajo, se denomina:",
+    "Options": {
+      "a": "Abducción.",
+      "b": "Aducción.",
+      "c": "Supinación.",
+      "d": "Pronación."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 54,
+    "Question": "❓ FFM.-¿Qué posición es en la que el paciente se encuentra en decúbito supino con la cabeza colgando?",
+    "Options": {
+      "a": "Roser.",
+      "b": "Kraske.",
+      "c": "Morestin.",
+      "d": "Antitrendelenburg."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 55,
+    "Question": "❓ FFM.-Partiendo de la posición anatómica, cuando alejamos una extremidad inferior respecto de la otra en dirección transversal, hablamos de:",
+    "Options": {
+      "a": "Extensión.",
+      "b": "Flexión.",
+      "c": "Abducción.",
+      "d": "Aducción."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 56,
+    "Question": "❓ FFM.-¿Cuál es la posición indicada para cirugía rectal y cirugía coccígea?",
+    "Options": {
+      "a": "Decúbito supino.",
+      "b": "Antitrendelenburg.",
+      "c": "Kraske.",
+      "d": "Morestin."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 57,
+    "Question": "❓ FFM.-La posición de elección para pacientes con lipotimias o síncopes es, principalmente:",
+    "Options": {
+      "a": "Fowler.",
+      "b": "Sims.",
+      "c": "Trendelenburg.",
+      "d": "Decúbito lateral derecho."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 58,
+    "Question": "❓ FFM.-¿Cuál es la posición médica en la que el paciente se acuesta boca arriba con las piernas flexionadas y separadas, y los pies apoyados sobre la cama?:",
+    "Options": {
+      "a": "Flower.",
+      "b": "Ginecológica.",
+      "c": "Sims.",
+      "d": "Decúbito Prono."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 59,
+    "Question": "❓ FFM.-En el plan de cambios posturales del paciente encamado, la posición se mantendrá:",
+    "Options": {
+      "a": "Todas son correctas.",
+      "b": "Estarán a criterio del paciente.",
+      "c": "Durante 2 o 3 horas como máximo.",
+      "d": "Durante 4 horas como máximo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 60,
+    "Question": "❓ FFM.-¿Cómo se denomina la posición en la que el plano del cuerpo está inclinado 45 grados respecto al plano del suelo, pero la cabeza está más elevada que los pies?",
+    "Options": {
+      "a": "Ginecológica.",
+      "b": "Sims.",
+      "c": "Trendelenburg.",
+      "d": "Antitrendelenburg."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 61,
+    "Question": "❓ FFM.-Si hay que trasladar a un accidentado con fractura de columna vertebral, se le colocará:",
+    "Options": {
+      "a": "Boca arriba sobre un plano duro.",
+      "b": "Boca abajo, con la cabeza vuelta hacia un lado.",
+      "c": "Boca abajo sobre un plano duro.",
+      "d": "De costado."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 62,
+    "Question": "❓ FFM.-Cuando el paciente está tumbado sobre la espalda, con los brazos y las piernas extendidos y próximos al cuerpo, en un plano paralelo al suelo, hablamos de posición:",
+    "Options": {
+      "a": "Morestin.",
+      "b": "Decúbito prono.",
+      "c": "Semiprona.",
+      "d": "Decúbito supino."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 63,
+    "Question": "❓ FFM.-Una fractura abierta es aquella que:",
+    "Options": {
+      "a": "Se produce sin posibilidad de recibir tratamiento quirúrgico.",
+      "b": "Afecta a músculos y vísceras.",
+      "c": "Provoca que un fragmento de hueso se encaje firmemente en otro.",
+      "d": "Perfora la piel o la mucosa."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 64,
+    "Question": "❓ FFM.-Entre los tipos de hemorragias que se exponen a continuación, señale cuál NO es correcta:",
+    "Options": {
+      "a": "Arterial.",
+      "b": "Venosa.",
+      "c": "Capilar.",
+      "d": "Linfática."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 65,
+    "Question": "❓ FFM.-¿Qué es una quemadura?",
+    "Options": {
+      "a": "Lesión producida por calor en cualquiera de sus formas.",
+      "b": "Lesión producida por un golpe, rompiendo la piel.",
+      "c": "Herida producida por calor.",
+      "d": "Lesión producida por calor, siendo acompañada siempre de herida."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 66,
+    "Question": "❓ FFM.-¿Para qué se utiliza la regla de Wallace?",
+    "Options": {
+      "a": "Para calcular el porcentaje de las contusiones existentes después de producirse un accidente.",
+      "b": "Para calcular el volumen de una hemorragia.",
+      "c": "Para calcular la extensión de las quemaduras.",
+      "d": "Para calcular el volumen de sodio y potasio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 67,
+    "Question": "❓ FFM.-La cama libro se utiliza en:",
+    "Options": {
+      "a": "Pacientes inmovilizados durante largos periodos de tiempo.",
+      "b": "Para la angulación lateral.",
+      "c": "A y B son correctas.",
+      "d": "Todas son correctas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 68,
+    "Question": "❓ FFM.-De los siguientes nombres, todos se refieren al mismo tipo de posición salvo uno, ¿cuál es?",
+    "Options": {
+      "a": "Morestin.",
+      "b": "Posición inglesa.",
+      "c": "Antitrendelenburg.",
+      "d": "Trendelenburg inversa."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 69,
+    "Question": "❓ FFM.-En caso de fraccionamiento de las vacaciones, la suma de los días de estos periodos no podrá sobrepasar los:",
+    "Options": {
+      "a": "31 días.",
+      "b": "30 días.",
+      "c": "26 días laborables, considerándose entre ellos los sábados.",
+      "d": "26 días sin contar los sábados, domingos y festivos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 70,
+    "Question": "❓ FFM.-Si decimos que es la etapa por la que se reclasifica de nuevo a los pacientes en función de la evolución de las lesiones, nos referimos a:",
+    "Options": {
+      "a": "Dispersión.",
+      "b": "Evacuación.",
+      "c": "Segundo triaje.",
+      "d": "Estabilización."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 71,
+    "Question": "❓ FFM.-Indique cuál es la velocidad a la que se produce el algor mortis:",
+    "Options": {
+      "a": "1 grado por hora.",
+      "b": "1,5 grados por hora.",
+      "c": "0,75 grados por hora.",
+      "d": "0,5 grados por hora."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 72,
+    "Question": "❓ FFM.-¿Cuál de estas funciones NO es del celador de atención primaria?",
+    "Options": {
+      "a": "Trabajar coordinadamente con el resto del equipo.",
+      "b": "Abrir y cerrar el centro de salud.",
+      "c": "Archivar historias clínicas.",
+      "d": "Todas son funciones del celador."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 73,
+    "Question": "❓ FFM.-En el entorno hospitalario, ¿cuál es la acción correcta ante una orden de un superior para acompañar a un paciente en un traslado a otro centro?",
+    "Options": {
+      "a": "Se negará, puesto que no puede salir del centro de trabajo.",
+      "b": "Le dirá cortésmente a la supervisora que esa no es su función.",
+      "c": "Acompañará al paciente, pero solo hasta dejarlo en la ambulancia.",
+      "d": "Cumplirá lo ordenado."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 74,
+    "Question": "❓ FFM.-Durante una intervención quirúrgica, NO se le puede pedir al celador:",
+    "Options": {
+      "a": "El transporte de bolsas de plaquetas desde el banco de sangre al quirófano.",
+      "b": "El uso del artroscopio para ayudar al traumatólogo mientras este interviene una rodilla.",
+      "c": "La sujeción de un miembro que va a ser amputado.",
+      "d": "El traslado al quirófano de aparatos de diagnóstico."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 75,
+    "Question": "❓ FFM.-La medida más eficaz para evitar la transmisión de enfermedades nosocomiales o intrahospitalarias por transmisión directa es:",
+    "Options": {
+      "a": "La esterilización del material sanitario.",
+      "b": "La desinfección de las habitaciones.",
+      "c": "El lavado de manos.",
+      "d": "La limpieza de toallas, sábanas y vajilla."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 76,
+    "Question": "❓ FFM.-En caso de incendio, el celador que actuará en primer lugar es:",
+    "Options": {
+      "a": "El que se encuentre más próximo al incendio.",
+      "b": "El que se encuentre más próximo al Jefe de Emergencia.",
+      "c": "El que se encuentre más próximo al Jefe de Intervención.",
+      "d": "El que se encuentre más próximo al Jefe de Equipo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 77,
+    "Question": "❓ FFM.-NO es función del celador de urgencias del Hospital:",
+    "Options": {
+      "a": "Mantener la entrada provista de carros y camillas.",
+      "b": "Avisar al servicio de ambulancias para el traslado de enfermos.",
+      "c": "Trasladar fallecidos al mortuorio.",
+      "d": "Cursar analíticas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 78,
+    "Question": "❓ FFM.-Para mover a un paciente hemipléjico procuraremos:",
+    "Options": {
+      "a": "Colocarnos siempre por el lado en que conserva la movilidad.",
+      "b": "Colocarnos en el lado paralizado.",
+      "c": "Tenerlo siempre cogido de las manos.",
+      "d": "Ninguna es correcta."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 79,
+    "Question": "❓ FFM.-Indique el cauce formal a través del cual se ejerce el derecho a la asistencia sanitaria en el Sistema Nacional de Salud:",
+    "Options": {
+      "a": "A través de la tarjeta sanitaria individual facilitada por las administraciones sanitarias competentes.",
+      "b": "Siempre que lo necesiten y en caso de urgencia vital.",
+      "c": "Ninguna de las respuestas es correcta.",
+      "d": "A través de la tarjeta sanitaria individual facilitada por las administraciones sanitarias competentes y siempre que lo necesiten y en caso de urgencia vital."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 80,
+    "Question": "❓ FFM.-¿Cuál de las siguientes es una de las funciones del celador de quirófano?",
+    "Options": {
+      "a": "Ayudar al cirujano a ponerse los guantes.",
+      "b": "Trasladar al paciente a la mesa de operaciones.",
+      "c": "Ayudar a la enfermera instrumentista.",
+      "d": "Ayudar al anestesista a intubar."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 81,
+    "Question": "❓ FFM.-Según el art. 14.1.4 del Estatuto de Personal no Sanitario, ¿quién vigilará personalmente la limpieza de un hospital?",
+    "Options": {
+      "a": "El Jefe de Personal Subalterno.",
+      "b": "El encargado de la empresa de limpieza.",
+      "c": "Las respuestas A y D son correctas.",
+      "d": "El servicio de vigilancia del hospital."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 82,
+    "Question": "❓ FFM.-El facultativo va a realizar una punción lumbar y le pide al celador que acuda para ayudarlo. El celador:",
+    "Options": {
+      "a": "No acudirá, alegando que es función exclusiva del personal sanitario.",
+      "b": "Ayudará al facultativo.",
+      "c": "Ninguna es correcta.",
+      "d": "Solo ayudará suministrándole el material necesario."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 83,
+    "Question": "❓ FFM.-Las funciones del Jefe de Personal Subalterno las regula el Estatuto:",
+    "Options": {
+      "a": "Del Personal Médico.",
+      "b": "Del Personal no Sanitario.",
+      "c": "Del Personal Sanitario no Facultativo.",
+      "d": "Ninguna es correcta."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 84,
+    "Question": "❓ FFM.-Es un trastorno de la memoria:",
+    "Options": {
+      "a": "Coma.",
+      "b": "Paramnesia.",
+      "c": "Pseudoalucinación.",
+      "d": "Somnolencia."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 85,
+    "Question": "❓ FFM.-El derecho a la información continuada, se encuentra dentro de los derechos que el Estatuto Marco denomina:",
+    "Options": {
+      "a": "Derechos genéricos.",
+      "b": "Derechos individuales.",
+      "c": "Derechos colectivos.",
+      "d": "Derechos específicos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 86,
+    "Question": "❓ FFM.-Según el Estatuto de Personal no Sanitario de 1971, ¿el celador bañará a los pacientes masculinos que no puedan hacerlo por sí solos? Señale la correcta.",
+    "Options": {
+      "a": "En todo caso, ayudarán a la auxiliar a bañar a los enfermos.",
+      "b": "Excepcionalmente, ayudarán a la auxiliar a bañar a los enfermos.",
+      "c": "Solo si lo indica el Jefe de Personal Subalterno, ayudarán a la auxiliar a bañar a los enfermos.",
+      "d": "Ninguna es correcta."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 87,
+    "Question": "❓ FFM.-Las unidades de reprografía cuentan con máquinas para fotocopiar y encuadernar, y estas unidades trabajan con el fin de:",
+    "Options": {
+      "a": "Ahorrar el máximo de papel.",
+      "b": "Rentabilizar las máquinas.",
+      "c": "Que el celador realice el mantenimiento de las mismas.",
+      "d": "Tener cubiertas las necesidades del centro sanitario."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 88,
+    "Question": "❓ FFM.-¿Cuál de las siguientes NO es una posición quirúrgica?",
+    "Options": {
+      "a": "Morestin.",
+      "b": "Kraske.",
+      "c": "Genupectoral.",
+      "d": "Fowler."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 89,
+    "Question": "❓ FFM.-¿Es lo mismo desinfección que esterilización?",
+    "Options": {
+      "a": "Sí, son sinónimos.",
+      "b": "No, son términos que indican cosas distintas.",
+      "c": "La desinfección como tal no existe.",
+      "d": "La esterilización engloba la desinfección."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 90,
+    "Question": "❓ FFM.-El procedimiento utilizado para la destrucción de todos los microorganismos y sus formas de resistencia recibe el nombre de?",
+    "Options": {
+      "a": "Esterilización.",
+      "b": "Desinfección.",
+      "c": "Limpieza.",
+      "d": "Asepsia."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 91,
+    "Question": "❓ FFM.-¿La esterilización destruye las esporas?",
+    "Options": {
+      "a": "No, solo las formas vegetativas.",
+      "b": "No.",
+      "c": "Sí.",
+      "d": "Depende del método que se utilice."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 92,
+    "Question": "❓ FFM.-¿Cuándo nos debemos lavar las manos?",
+    "Options": {
+      "a": "Antes y después de comer, antes y después del trabajo, antes y después de movilizar a un paciente.",
+      "b": "Antes y después de ir al cuarto de baño, antes de preparar las comidas y después de tocar dinero.",
+      "c": "A y B son ciertas.",
+      "d": "A y B son falsas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 93,
+    "Question": "❓ FFM.-En relación al paciente, ¿cuándo nos debemos lavar las manos?",
+    "Options": {
+      "a": "Antes del contacto con el paciente, antes de hacer una tarea limpia, después del contacto con el paciente y después de una tarea sucia.",
+      "b": "Después del contacto con fluidos del paciente, después del contacto con el paciente y después del contacto con el entorno del paciente.",
+      "c": "Todas son correctas.",
+      "d": "Sólo cuando el enfermo tenga una enfermedad contagiosa."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 94,
+    "Question": "❓ FFM.-¿En el caso de que las manos no estén visiblemente sucias?",
+    "Options": {
+      "a": "No es necesario lavárselas.",
+      "b": "Basta con emplear agua sin jabón.",
+      "c": "Basta con emplear soluciones alcohólicas.",
+      "d": "Es necesario lavárselas durante 30 segundos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 95,
+    "Question": "❓ FFM.-¿Cuántos tipos de lavados de manos existen?",
+    "Options": {
+      "a": "El rutinario y el quirúrgico.",
+      "b": "El rutinario, el quirúrgico y el especial.",
+      "c": "El rutinario y el antiséptico.",
+      "d": "El quirúrgico y el antiséptico."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 96,
+    "Question": "❓ FFM.-¿Cuánto dura el lavado de manos rutinario?",
+    "Options": {
+      "a": "15 segundos.",
+      "b": "60 segundos.",
+      "c": "30 segundos.",
+      "d": "Menos de 10 segundos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 97,
+    "Question": "❓ FFM.-En el lavado de manos, ¿qué es lo más recomendable?",
+    "Options": {
+      "a": "Las pastillas de jabón.",
+      "b": "Los dispensadores de gel neutro.",
+      "c": "Los dispensadores en los que no sea preciso el uso de las manos para obtener el jabón.",
+      "d": "Que el celador se encargue de dispensar el gel de manos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 98,
+    "Question": "❓ FFM.-En cuanto a los ejes en los que se divide el cuerpo humano, podemos señalar que existe:",
+    "Options": {
+      "a": "Un eje longitudinal, un eje transversal y un eje sagital.",
+      "b": "Un eje longitudinal y un eje transversal.",
+      "c": "Un eje longitudinal y un eje sagital.",
+      "d": "No existen en el cuerpo ningún tipo de eje."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 99,
+    "Question": "❓ FFM.-¿Podrías definir el eje longitudinal?",
+    "Options": {
+      "a": "Es el que va de derecha a izquierda.",
+      "b": "Es el que recorre el cuerpo en toda su longitud.",
+      "c": "Es el que recorre el cuerpo de delante a atrás.",
+      "d": "Ninguna es correcta."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 100,
+    "Question": "❓ FFM.-El eje que posee una orientación de adelante hacia atrás, recibe el nombre de:",
+    "Options": {
+      "a": "Longitudinal.",
+      "b": "Sagital.",
+      "c": "Transversal.",
+      "d": "Abductor."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "id": 101,
+    "Question": "❓ FFM.-¿Existe una correlación entre ejes y planos del cuerpo?",
+    "Options": {
+      "a": "Sí, son lo mismo.",
+      "b": "Sí, solo si se habla de plano y eje longitudinal.",
+      "c": "Sí, planos y ejes tienen una correlación en la relación del cuerpo con el espacio.",
+      "d": "No, en ningún caso."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "id": 102,
+    "Question": "❓ FFM.-El plano que divide a una persona en una parte superior y otra inferior, recibe el nombre de:",
+    "Options": {
+      "a": "Transversal.",
+      "b": "Sagital.",
+      "c": "Oblicuo.",
+      "d": "Frontal."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "id": 103,
+    "Question": "❓ FFM.-El plano que presenta una inclinación de 45 grados respecto al plano sagital y al plano frontal, recibe el nombre de:",
+    "Options": {
+      "a": "Plano frontal.",
+      "b": "Plano transversal.",
+      "c": "Plano orbital.",
+      "d": "Plano oblicuo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 104,
+    "Question": "❓ FFM.-¿Cómo definirías el plano transversal?",
+    "Options": {
+      "a": "Es un plano vertical que atraviesa longitudinalmente el cuerpo.",
+      "b": "Es un plano que divide el cuerpo en una parte anterior y una parte posterior.",
+      "c": "Es un plano que divide el cuerpo en una parte izquierda y otra derecha.",
+      "d": "Es un plano horizontal."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 105,
+    "Question": "❓ FFM.-La cavidad abdominal se divide en:",
+    "Options": {
+      "a": "Cuadrante superior, medio e inferior.",
+      "b": "Cuadrante superior e inferior.",
+      "c": "No se divide en cuadrantes.",
+      "d": "Cuadrícula superior, media e inferior."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "id": 106,
+    "Question": "❓ FFM.-El movimiento que implica plegar o doblar una extremidad sobre una articulación se denomina:",
+    "Options": {
+      "a": "Flexión.",
+      "b": "Extensión.",
+      "c": "Circunducción.",
+      "d": "Rotación."
+    },
+    "CorrectOption": "a"
+  }
+]
