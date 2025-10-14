@@ -1,0 +1,3501 @@
+{
+  "preguntas": [
+    {
+      "texto": "❓ FFM La Jefatura del Estado viene recogida en la Constitución Española en:",
+      "opciones": [
+        "El Título V.",
+        "El Título VI.",
+        "El Título VII.",
+        "El Título II."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 1
+    },
+    {
+      "texto": "❓ FFM En el artículo 1 de la Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía, Andalucía se reconoce como:",
+      "opciones": [
+        "Nacionalidad histórica.",
+        "Entidad regional histórica.",
+        "Comunidad Autónoma Regional.",
+        "Territorio Regional autónomo."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 2
+    },
+    {
+      "texto": "❓ FFM El IV Plan Andaluz de Salud afronta seis compromisos, indique cuál de los mencionados es el correcto:",
+      "opciones": [
+        "Disminuir la esperanza de vida en buena salud.",
+        "Contribuir a los efectos del cambio climático.",
+        "Situar el Sistema Sanitario Público de Andalucía al servicio de la ciudadanía con el liderazgo de sus profesionales.",
+        "Aumentar las Desigualdades Sociales en Salud."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 3
+    },
+    {
+      "texto": "❓ FFM Según la Ley de Salud de Andalucía, el máximo órgano de dirección y gestión del Servicio Andaluz de Salud es:",
+      "opciones": [
+        "La Dirección Gerencia.",
+        "El Consejo de Administración.",
+        "La Dirección General de Asistencia Sanitaria y Resultados en Salud.",
+        "La Dirección General de Personal."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 4
+    },
+    {
+      "texto": "❓ FFM Los responsables y encargados del tratamiento de datos, así como todas las personas que intervengan en cualquier fase de éste, estarán sujetas al deber de:",
+      "opciones": [
+        "Sigilo.",
+        "Custodia.",
+        "Confidencialidad.",
+        "Cuidado."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 5
+    },
+    {
+      "texto": "❓ FFM Se constituirá un Comité de Seguridad y Salud en todas las empresas o centros de trabajo que:",
+      "opciones": [
+        "Cuenten con 25 trabajadores.",
+        "Cuenten con al menos 10 trabajadores.",
+        "Cuenten con 50 o más trabajadores.",
+        "Cuenten con al menos más de 100 trabajadores."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 6
+    },
+    {
+      "texto": "❓ FFM La Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía, tiene como objetivo:",
+      "opciones": [
+        "La consecución de la igualdad real y efectiva entre mujeres y hombres.",
+        "La igualdad entre todos.",
+        "La equidad.",
+        "Ninguna de las respuestas anteriores es correcta."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 7
+    },
+    {
+      "texto": "❓ FFM La provisión de plazas del personal estatutario se regirá, entre otros, por los principios básicos de:",
+      "opciones": [
+        "Igualdad, mérito, capacidad y publicidad en la selección, promoción y movilidad del personal de los servicios de salud.",
+        "Igualdad, eficacia, mérito y capacidad.",
+        "Igualdad, mérito, publicidad, promoción e inamovilidad.",
+        "Todas las respuestas son falsas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 8
+    },
+    {
+      "texto": "❓ FFM ¿Cómo se denomina el Sistema de Información para la Gestión del Mantenimiento y los Activos del Servicio Andaluz de Salud?",
+      "opciones": [
+        "SISCONTROL.",
+        "SISMAN.",
+        "eMAN.",
+        "SIGMA MANSIS."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 9
+    },
+    {
+      "texto": "❓ FFM Señale cómo se denomina la herramienta corporativa de la Junta de Andalucía que permite el envío y recogida de ficheros sin enviarlos por correo electrónico:",
+      "opciones": [
+        "Consigna.",
+        "Agata.",
+        "Redezilla.",
+        "COSMOS."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 10
+    },
+    {
+      "texto": "❓ FFM La información previa al consentimiento por escrito deberá incluir:",
+      "opciones": [
+        "Las consecuencias relevantes o de importancia que la intervención origina con seguridad.",
+        "Los riesgos relacionados con las circunstancias personales o profesionales del paciente.",
+        "Los riesgos probables en condiciones normales, conforme a la experiencia y al estado de la ciencia o directamente relacionados con el tipo de intervención.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 11
+    },
+    {
+      "texto": "❓ FFM En el trabajo en equipo podemos diferenciar entre grupos y equipos. Señale la función propia de un equipo de trabajo:",
+      "opciones": [
+        "La toma de decisiones a través de órdenes.",
+        "El conjunto de personas relacionadas entre si, que trabajan para conseguir objetivos comunes.",
+        "Que las personas de una unidad se lleven bien entre ellas.",
+        "El conjunto de personas que desarrolla su labor, respondiendo individualmente de su"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 12
+    },
+    {
+      "texto": "❓ FFM Señale quién NO forma parte del equipo de trabajo en el área de quirófano:",
+      "opciones": [
+        "El personal de enfermería.",
+        "El personal de mantenimiento.",
+        "El personal de celadores.",
+        "El personal médico de Cirugía."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 13
+    },
+    {
+      "texto": "❓ FFM En los centros sanitarios, un aspecto que condiciona negativamente el trabajo en equipo, es:",
+      "opciones": [
+        "Comunicación.",
+        "Confianza.",
+        "Motivación.",
+        "Irresponsabilidad."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 14
+    },
+    {
+      "texto": "❓ FFM ¿Cuál es la actitud correcta cuando nos encontramos con un usuario prepotente?",
+      "opciones": [
+        "No discutir, mostrar interés, pedir consejo y su opinión.",
+        "Discutir, tomar la decisión por el usuario.",
+        "Argumentar en su contra.",
+        "No mostrar interés."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 15
+    },
+    {
+      "texto": "❓ FFM En relación a la información durante la estancia del usuario en un centro sanitario, el/la celador/a NO puede asumir la tarea de informar sobre:",
+      "opciones": [
+        "Ubicación de los servicios y unidades del centro.",
+        "Horarios de visita.",
+        "Horario de información médica.",
+        "Diagnósticos y/o tratamientos que se le estén realizando a los pacientes."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 16
+    },
+    {
+      "texto": "❓ FFM Señale los factores de la comunicación interpersonal que facilitan la relación entre el/la celador/a con pacientes y familiares:",
+      "opciones": [
+        "Hablar demasiado deprisa.",
+        "Usar terminología científica.",
+        "Las frases han de ser cortas, precisas, claras.",
+        "Hablar al paciente en momentos inoportunos."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 17
+    },
+    {
+      "texto": "❓ FFM La cama articulada eléctrica, que permite la incorporación del paciente de decúbito supino a posición de sentado (y son muy utilizadas en UCI), ¿cómo se denomina?",
+      "opciones": [
+        "Cama roto-rest.",
+        "Cama de Gatch.",
+        "Cama rígida.",
+        "Cama de exploración ginecológica."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 18
+    },
+    {
+      "texto": "❓ FFM ¿Qué nombre reciben las áreas de internamiento que están en las unidades especializadas identificadas según las patologías que presentan los pacientes en la UCI?",
+      "opciones": [
+        "Habitación.",
+        "Módulo.",
+        "Sala.",
+        "Box o boxes."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 19
+    },
+    {
+      "texto": "❓ FFM Las compresiones torácicas realizadas por un reanimador, o mediante dispositivos mecánicos, durante la RCP para intentar restablecer la circulación espontánea, se denomina:",
+      "opciones": [
+        "Parada cardíaca.",
+        "Soporte vital.",
+        "Masaje cardíaco.",
+        "Ritmo desfibrilable."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 20
+    },
+    {
+      "texto": "❓ FFM El periodo de tiempo que transcurre desde que un paciente va a ser intervenido, se prepara la intervención, se realiza la misma y hasta que es dado de alta en el hospital, se le conoce con el nombre de:",
+      "opciones": [
+        "Preoperatorio.",
+        "Transoperatorio.",
+        "Perioperatorio.",
+        "Postoperatorio."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 21
+    },
+    {
+      "texto": "❓ FFM ¿Cómo se llama el accesorio metálico, que se fija a la mesa quirúrgica encima del paciente, y permite separar la zona de anestesia de la zona de intervención o campo quirúrgico?",
+      "opciones": [
+        "Aparato de anestesia.",
+        "Lámpara quirúrgica.",
+        "Carro de parada.",
+        "Arco de anestesia."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 22
+    },
+    {
+      "texto": "❓ FFM ¿Cómo se denomina al conjunto de técnicas que garantizan la ausencia de materia séptica o microorganismos infecciosos, tanto en superficie como en profundidad, de los materiales expuestos o de los seres vivos?",
+      "opciones": [
+        "Asepsia.",
+        "Infección.",
+        "Agentes infecciosos.",
+        "Infestación."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 23
+    },
+    {
+      "texto": "❓ FFM El conjunto de tareas que tienen como finalidad aprovisionar de materiales al almacén y servicios sanitarios, se denomina:",
+      "opciones": [
+        "Aprovisionamiento.",
+        "Actividad de suministro.",
+        "Etapa de compra.",
+        "Etapa de precompra."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 24
+    },
+    {
+      "texto": "❓ FFM ¿Cuál de las siguientes tareas en el almacén de fungible, no corresponden al/la celador/a?",
+      "opciones": [
+        "Recepcionar el suministro mediante cotejo del albarán de entrega.",
+        "Cargar y descargar los productos del almacén.",
+        "Distribuir los productos en las estanterías.",
+        "Hacer los pedidos del material al proveedor."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 25
+    },
+    {
+      "texto": "❓ FFM ¿Cómo se denomina al conjunto de operaciones que se llevan a cabo para conocer las cantidades existentes en el almacén de cada producto en un momento determinado?",
+      "opciones": [
+        "Principio de Pareto.",
+        "FIFO.",
+        "LIFO.",
+        "Inventario."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 26
+    },
+    {
+      "texto": "❓ FFM ¿Cuáles son las fases de la recepción de la mercancía en el almacén por el/la celador/a?",
+      "opciones": [
+        "Etiquetado y guardado.",
+        "Dictamen, devolución y entrada a rotos.",
+        "Control de unidades, control de lotes y devoluciones al proveedor.",
+        "Control de pedido, control de bultos y transportista."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 27
+    },
+    {
+      "texto": "❓ FFM En la Unidad de Agudos de Salud Mental de un hospital, ¿cuál de las siguientes funciones NO corresponde al/la celador/a?",
+      "opciones": [
+        "Cuidar del entorno ambiental de los pacientes.",
+        "Prevenir agresiones o autolesiones.",
+        "Administrar medicamentos orales.",
+        "Ayudar al aseo personal de los pacientes que lo precisen."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 28
+    },
+    {
+      "texto": "❓ FFM Uno de los principios de la mecánica corporal para la correcta manipulación de personas inmovilizadas, es proteger la espalda. ¿Cómo debemos protegerla?",
+      "opciones": [
+        "No doblarla incorrectamente.",
+        "Hacer uso de los músculos de las piernas para moverse y levantarse.",
+        "Considerando exclusivamente la fuerza, el ángulo de tracción óptimo para cualquier músculo es de 90 grados.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 29
+    },
+    {
+      "texto": "❓ FFM ¿Cuál es el dispositivo mecánico más importante para la movilización de pacientes encamados, que presentan un grado de movilización escaso o nulo, debido a su estado de salud?",
+      "opciones": [
+        "Arnés.",
+        "Eslinga.",
+        "Grúa.",
+        "Cojines antiescaras."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 30
+    },
+    {
+      "texto": "❓ FFM ¿Qué evitamos con una sistemática de cambios posturales frecuentes y buenas posiciones del paciente imposibilitado en la cama?",
+      "opciones": [
+        "Frenar la cama.",
+        "Las úlceras por presión.",
+        "Alinear al paciente.",
+        "Incidencias con el gotero."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 31
+    },
+    {
+      "texto": "❓ FFM Cuando un paciente fallece en el hospital, ¿cómo se denomina al conjunto de atenciones que se presta a la persona fallecida para su posterior traslado al mortuorio o al tanatorio?",
+      "opciones": [
+        "Rigor mortis.",
+        "Tanatopsia.",
+        "Tanatología.",
+        "Cuidados post-morten."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 32
+    },
+    {
+      "texto": "❓ FFM ¿Cómo se llama la posición en la cual el paciente se halla en decúbito supino con la cabeza colgando, con el objetivo de mantener el cuello en hiperextensión?",
+      "opciones": [
+        "Posición de Morestin.",
+        "Posición de Sims.",
+        "Posición de Fowler.",
+        "Posición de Roser."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 33
+    },
+    {
+      "texto": "❓ FFM \"No mediante el recorte de gastos, sino aprovechando plenamente los recursos de que se dispone para actuar más y mejor\". ¿A qué principio básico del Servicio Andaluz de Salud, como organismo público, nos estamos refiriendo?",
+      "opciones": [
+        "Eficiencia.",
+        "Eficacia.",
+        "Equidad.",
+        "Continuidad de la atención."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 34
+    },
+    {
+      "texto": "❓ FFM Para preservar la intimidad a lo largo de todo acto clínico, indique la respuesta correcta:",
+      "opciones": [
+        "En la historia clínica no se incluirán datos que reflejen aspectos íntimos del paciente y no tengan relación con la naturaleza clínica del resto de la historia.",
+        "No se realizarán de manera conjunta consultas con distintos pacientes.",
+        "La presencia de profesionales en formación, se valorará en casos particulares.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 35
+    },
+    {
+      "texto": "❓ FFM \"La etnia, el sexo, la religión, la clase social del usuario, la orientación sexual, el estado civil o el propio aspecto físico no pueden causar diferencias en la atención, ni deben utilizarse en ningún caso como excusa para expresar un prejuicio\". El Libro de Estilo del Servicio Andaluz de Salud relaciona el párrafo anterior con el principio de:",
+      "opciones": [
+        "Universalidad.",
+        "Equidad.",
+        "Eficiencia.",
+        "Calidad."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 36
+    },
+    {
+      "texto": "❓ FFM El síndrome de mobbing puede presentar una serie de trastornos en la salud. Señale la respuesta correcta:",
+      "opciones": [
+        "Esquizofrenia.",
+        "Ansiedad y/o depresión.",
+        "Epilepsia.",
+        "Alzheimer."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 37
+    },
+    {
+      "texto": "❓ FFM Según el Plan de Agresiones a Profesionales del Sistema Sanitario Público de Andalucía, se considera como agresión a los efectos de aplicación de este Plan:",
+      "opciones": [
+        "Las que se produzca entre trabajadores de los centros sanitarios del SSPA.",
+        "La presentación del usuario de las hojas de reclamaciones sin descalificaciones graves, insultos o vejaciones contra los trabajadores.",
+        "Las que se produzca entre trabajadores de los centros sanitarios del SSPA y entre el personal de empresas externas.",
+        "Las sufridas fuera del centro de trabajo o fuera del horario laboral siempre que sea"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 38
+    },
+    {
+      "texto": "❓ FFM Entre las patologías más frecuentes en el puesto de trabajo, debido a la manipulación de cargas, está:",
+      "opciones": [
+        "La osteoporosis.",
+        "La infección.",
+        "La lumbalgia.",
+        "La quemadura."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 39
+    },
+    {
+      "texto": "❓ FFM Las revisiones de las instalaciones de protección contra incendios se realizarán:",
+      "opciones": [
+        "1 vez al mes.",
+        "1 vez cada 2 años.",
+        "1 vez cada 6 meses.",
+        "1 vez cada 12 meses."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 40
+    },
+    {
+      "texto": "❓ FFM Ante una situación de emergencia producida por un incendio debemos usar un extintor portátil y, ¿qué es lo primero que debemos hacer?",
+      "opciones": [
+        "Realizar una pequeña descarga (corto disparo) del extintor para comprobar su funcionamiento.",
+        "Comprobar que el extintor está en el lugar adecuado.",
+        "Comprobar las fechas de las inspecciones.",
+        "Ninguna de las respuestas anteriores es correcta."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 41
+    },
+    {
+      "texto": "❓ FFM ¿Qué tipo de fuego es el que, dada la situación de poca gravedad, puede ser neutralizado con los medios materiales y humanos disponibles en el lugar de trabajo y próximos al lugar del accidente?",
+      "opciones": [
+        "Emergencia final.",
+        "Emergencia parcial.",
+        "Emergencia general.",
+        "Conato de emergencia."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 42
+    },
+    {
+      "texto": "❓ FFM Ante un incendio usamos el extintor para intentar sofocar el mismo. ¿Hacia dónde debe dirigir la boquilla del extintor?",
+      "opciones": [
+        "A la parte superior de las llamas.",
+        "A la base del incendio, moviendo la boquilla en zig-zag.",
+        "A cualquier parte del incendio, es indiferente el lugar donde dirigiremos la boquilla.",
+        "Ninguna de las respuestas anteriores es correcta."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 43
+    },
+    {
+      "texto": "❓ FFM ¿Cuál de las siguientes funciones corresponde al/la celador/a, en su puesto base como profesional de un Sistema Sanitario Público?",
+      "opciones": [
+        "Vigilará personalmente la limpieza de la institución.",
+        "Realizará la limpieza de los carros de curas y de su material.",
+        "Dará cuenta a sus inmediatos superiores de los desperfectos o anomalías que encontraren en la limpieza y conservación del edificio y material.",
+        "Recogerá y limpiará el instrumental de quirófano."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 1
+    },
+    {
+      "texto": "❓ FFM Según el Estatuto de Personal No Sanitario, los/as celadores/as trasladarán de unos servicios a otros:",
+      "opciones": [
+        "Aquella información médica, que esté seguro que es real, al familiar.",
+        "Sin tardanza, las comunicaciones verbales que le sean confiada por sus superiores.",
+        "Los diagnósticos médicos a los familiares.",
+        "Información sobre los tratamientos de la enfermedad al paciente."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 2
+    },
+    {
+      "texto": "❓ FFM ¿El gorro es una prenda que los/las celadores/as deben utilizar dentro del quirófano?",
+      "opciones": [
+        "No, sólo deben utilizarlo las cirujanas.",
+        "Es una prenda obligada para todas las personas que accedan al área quirúrgica.",
+        "Sólo está indicado para el personal sanitario.",
+        "Depende del tipo de cirugía que se realice, se utilizará o no."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 3
+    },
+    {
+      "texto": "❓ FFM Según los tipos de usuarios, una persona que \"nunca está segura, no sabe lo que le conviene, se decide y retrocede\", se trata de un usuario de tipo:",
+      "opciones": [
+        "Agresivo.",
+        "Discrepado.",
+        "Indeciso.",
+        "Desconfiado."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 4
+    },
+    {
+      "texto": "❓ FFM ¿Cómo se denominan también a los centros de día de salud mental?",
+      "opciones": [
+        "Hospital de día.",
+        "Talleres ocupacionales.",
+        "Pisos protegidos.",
+        "Centros de rehabilitación psicosocial."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 5
+    },
+    {
+      "texto": "❓ FFM ¿Cuál es una de las funciones del/la celador/a en el servicio de rehabilitación?",
+      "opciones": [
+        "Realizarán todas las labores de limpieza que se les encomienden.",
+        "Ayudará al fisioterapeuta cuando sea necesario.",
+        "No estarán localizados en la Unidad.",
+        "No tramitarán documentos o correspondencia."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 6
+    },
+    {
+      "texto": "❓ FFM ¿Cuál de estas afirmaciones sobre la identificación del personal, es FALSA?",
+      "opciones": [
+        "Identificarse ayuda a que los usuarios sepan quién les está atendiendo.",
+        "Es incorrecta la utilización del vestuario clínico fuera del centro, salvo la diseñada con esta finalidad.",
+        "En la atención telefónica, es importante no identificarse con el usuario que estamos atendiendo.",
+        "Identificarse correctamente, supone aceptar la responsabilidad personal del centro y del"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 7
+    },
+    {
+      "texto": "❓ FFM Señale qué característica tiene una agresión física que la diferencia de la agresión verbal:",
+      "opciones": [
+        "Acto o ataque violento con contacto físico, con o sin armas, entre agresor y trabajador, con ánimo de provocar un daño o lesión a éste y pueden o no producir un daño físico o lesión.",
+        "Proferir insultos graves y amenazas.",
+        "Hacer críticas degradantes.",
+        "Dar órdenes agresivas con la intención de dañar o humillar."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 8
+    },
+    {
+      "texto": "❓ FFM En un accidente laboral con riesgo de contaminación de sangre debido a un pinchazo, ¿qué acción inmediata es correcta?",
+      "opciones": [
+        "No quitarse los guantes.",
+        "Lavarse la herida con abundante agua y jabón.",
+        "Presionar la herida para que no sangre.",
+        "Comunicarlo a un compañero celador/a"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 9
+    },
+    {
+      "texto": "❓ FFM Las señales de protección contra incendios deben ser:",
+      "opciones": [
+        "Rectangulares o cuadradas. Pictograma blanco sobre fondo rojo.",
+        "Forma cuadrada. Pictograma blanco sobre fondo verde.",
+        "Forma rectangular. Pictograma blanco sobre fondo azul.",
+        "Ninguna de las respuestas anteriores es correcta."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 10
+    },
+    {
+      "texto": "❓ FFM ¿Con qué acepción se define la persona o entidad pública o privada, que realice cualquiera de las operaciones que componen la gestión de los residuos, sea o no el productor de los mismos?",
+      "opciones": [
+        "Productor de residuos.",
+        "Poseedor de residuos.",
+        "Interventor de residuos.",
+        "Gestor de residuos."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 11
+    },
+    {
+      "texto": "❓ FFM En el trabajo en equipo podemos diferenciar entre grupos y equipos. Señale la función propia de un equipo de trabajo:",
+      "opciones": [
+        "La toma de decisiones a través de órdenes.",
+        "El conjunto de personas relacionadas entre si, que trabajan para conseguir objetivos comunes.",
+        "Que las personas de una unidad se lleven bien entre ellas.",
+        "El conjunto de personas que desarrolla su labor, respondiendo individualmente de su"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 12
+    },
+    {
+      "texto": "❓ FFM Señale quién NO forma parte del equipo de trabajo en el área de quirófano:",
+      "opciones": [
+        "El personal de enfermería.",
+        "El personal de mantenimiento.",
+        "El personal de celadores.",
+        "El personal médico de Cirugía."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 13
+    },
+    {
+      "texto": "❓ FFM En los centros sanitarios, un aspecto que condiciona negativamente el trabajo en equipo, es:",
+      "opciones": [
+        "Comunicación.",
+        "Confianza.",
+        "Motivación.",
+        "Irresponsabilidad."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 14
+    },
+    {
+      "texto": "❓ FFM ¿Cuál es la actitud correcta cuando nos encontramos con un usuario prepotente?",
+      "opciones": [
+        "No discutir, mostrar interés, pedir consejo y su opinión.",
+        "Discutir, tomar la decisión por el usuario.",
+        "Argumentar en su contra.",
+        "No mostrar interés."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 15
+    },
+    {
+      "texto": "❓ FFM En relación a la información durante la estancia del usuario en un centro sanitario, el/la celador/a NO puede asumir la tarea de informar sobre:",
+      "opciones": [
+        "Ubicación de los servicios y unidades del centro.",
+        "Horarios de visita.",
+        "Horario de información médica.",
+        "Diagnósticos y/o tratamientos que se le estén realizando a los pacientes."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 16
+    },
+    {
+      "texto": "❓ FFM Señale los factores de la comunicación interpersonal que facilitan la relación entre el/la celador/a con pacientes y familiares:",
+      "opciones": [
+        "Hablar demasiado deprisa.",
+        "Usar terminología científica.",
+        "Las frases han de ser cortas, precisas, claras.",
+        "Hablar al paciente en momentos inoportunos."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 17
+    },
+    {
+      "texto": "❓ FFM La cama articulada eléctrica, que permite la incorporación del paciente de decúbito supino a posición de sentado (y son muy utilizadas en UCI), ¿cómo se denomina?",
+      "opciones": [
+        "Cama roto-rest.",
+        "Cama de Gatch.",
+        "Cama rígida.",
+        "Cama de exploración ginecológica."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 18
+    },
+    {
+      "texto": "❓ FFM ¿Qué nombre reciben las áreas de internamiento que están en las unidades especializadas identificadas según las patologías que presentan los pacientes en la UCI?",
+      "opciones": [
+        "Habitación.",
+        "Módulo.",
+        "Sala.",
+        "Box o boxes."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 19
+    },
+    {
+      "texto": "❓ FFM Las compresiones torácicas realizadas por un reanimador, o mediante dispositivos mecánicos, durante la RCP para intentar restablecer la circulación espontánea, se denomina:",
+      "opciones": [
+        "Parada cardíaca.",
+        "Soporte vital.",
+        "Masaje cardíaco.",
+        "Ritmo desfibrilable."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 20
+    },
+    {
+      "texto": "❓ FFM El periodo de tiempo que transcurre desde que un paciente va a ser intervenido, se prepara la intervención, se realiza la misma y hasta que es dado de alta en el hospital, se le conoce con el nombre de:",
+      "opciones": [
+        "Preoperatorio.",
+        "Transoperatorio.",
+        "Perioperatorio.",
+        "Postoperatorio."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 21
+    },
+    {
+      "texto": "❓ FFM ¿Cómo se llama el accesorio metálico, que se fija a la mesa quirúrgica encima del paciente, y permite separar la zona de anestesia de la zona de intervención o campo quirúrgico?",
+      "opciones": [
+        "Aparato de anestesia.",
+        "Lámpara quirúrgica.",
+        "Carro de parada.",
+        "Arco de anestesia."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 22
+    },
+    {
+      "texto": "❓ FFM ¿Cómo se denomina al conjunto de técnicas que garantizan la ausencia de materia séptica o microorganismos infecciosos, tanto en superficie como en profundidad, de los materiales expuestos o de los seres vivos?",
+      "opciones": [
+        "Asepsia.",
+        "Infección.",
+        "Agentes infecciosos.",
+        "Infestación."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 23
+    },
+    {
+      "texto": "❓ FFM El conjunto de tareas que tienen como finalidad aprovisionar de materiales al almacén y servicios sanitarios, se denomina:",
+      "opciones": [
+        "Aprovisionamiento.",
+        "Actividad de suministro.",
+        "Etapa de compra.",
+        "Etapa de precompra."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 24
+    },
+    {
+      "texto": "❓ FFM ¿Cuál de las siguientes tareas en el almacén de fungible, no corresponden al/la celador/a?",
+      "opciones": [
+        "Recepcionar el suministro mediante cotejo del albarán de entrega.",
+        "Cargar y descargar los productos del almacén.",
+        "Distribuir los productos en las estanterías.",
+        "Hacer los pedidos del material al proveedor."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 25
+    },
+    {
+      "texto": "❓ FFM ¿Cómo se denomina al conjunto de operaciones que se llevan a cabo para conocer las cantidades existentes en el almacén de cada producto en un momento determinado?",
+      "opciones": [
+        "Principio de Pareto.",
+        "FIFO.",
+        "LIFO.",
+        "Inventario."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 26
+    },
+    {
+      "texto": "❓ FFM ¿Cuáles son las fases de la recepción de la mercancía en el almacén por el/la celador/a?",
+      "opciones": [
+        "Etiquetado y guardado.",
+        "Dictamen, devolución y entrada a rotos.",
+        "Control de unidades, control de lotes y devoluciones al proveedor.",
+        "Control de pedido, control de bultos y transportista."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 27
+    },
+    {
+      "texto": "❓ FFM En la Unidad de Agudos de Salud Mental de un hospital, ¿cuál de las siguientes funciones NO corresponde al/la celador/a?",
+      "opciones": [
+        "Cuidar del entorno ambiental de los pacientes.",
+        "Prevenir agresiones o autolesiones.",
+        "Administrar medicamentos orales.",
+        "Ayudar al aseo personal de los pacientes que lo precisen."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 28
+    },
+    {
+      "texto": "❓ FFM Uno de los principios de la mecánica corporal para la correcta manipulación de personas inmovilizadas, es proteger la espalda. ¿Cómo debemos protegerla?",
+      "opciones": [
+        "No doblarla incorrectamente.",
+        "Hacer uso de los músculos de las piernas para moverse y levantarse.",
+        "Considerando exclusivamente la fuerza, el ángulo de tracción óptimo para cualquier músculo es de 90 grados.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 29
+    },
+    {
+      "texto": "❓ FFM ¿Cuál es el dispositivo mecánico más importante para la movilización de pacientes encamados, que presentan un grado de movilización escaso o nulo, debido a su estado de salud?",
+      "opciones": [
+        "Arnés.",
+        "Eslinga.",
+        "Grúa.",
+        "Cojines antiescaras."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 30
+    },
+    {
+      "texto": "❓ FFM ¿Qué evitamos con una sistemática de cambios posturales frecuentes y buenas posiciones del paciente imposibilitado en la cama?",
+      "opciones": [
+        "Frenar la cama.",
+        "Las úlceras por presión.",
+        "Alinear al paciente.",
+        "Incidencias con el gotero."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 31
+    },
+    {
+      "texto": "❓ FFM Cuando un paciente fallece en el hospital, ¿cómo se denomina al conjunto de atenciones que se presta a la persona fallecida para su posterior traslado al mortuorio o al tanatorio?",
+      "opciones": [
+        "Rigor mortis.",
+        "Tanatopsia.",
+        "Tanatología.",
+        "Cuidados post-morten."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 32
+    },
+    {
+      "texto": "❓ FFM ¿Cómo se llama la posición en la cual el paciente se halla en decúbito supino con la cabeza colgando, con el objetivo de mantener el cuello en hiperextensión?",
+      "opciones": [
+        "Posición de Morestin.",
+        "Posición de Sims.",
+        "Posición de Fowler.",
+        "Posición de Roser."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 33
+    },
+    {
+      "texto": "❓ FFM \"No mediante el recorte de gastos, sino aprovechando plenamente los recursos de que se dispone para actuar más y mejor\". ¿A qué principio básico del Servicio Andaluz de Salud, como organismo público, nos estamos refiriendo?",
+      "opciones": [
+        "Eficiencia.",
+        "Eficacia.",
+        "Equidad.",
+        "Continuidad de la atención."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 34
+    },
+    {
+      "texto": "❓ FFM Para preservar la intimidad a lo largo de todo acto clínico, indique la respuesta correcta:",
+      "opciones": [
+        "En la historia clínica no se incluirán datos que reflejen aspectos íntimos del paciente y no tengan relación con la naturaleza clínica del resto de la historia.",
+        "No se realizarán de manera conjunta consultas con distintos pacientes.",
+        "La presencia de profesionales en formación, se valorará en casos particulares.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 35
+    },
+    {
+      "texto": "❓ FFM \"La etnia, el sexo, la religión, la clase social del usuario, la orientación sexual, el estado civil o el propio aspecto físico no pueden causar diferencias en la atención, ni deben utilizarse en ningún caso como excusa para expresar un prejuicio\". El Libro de Estilo del Servicio Andaluz de Salud relaciona el párrafo anterior con el principio de:",
+      "opciones": [
+        "Universalidad.",
+        "Equidad.",
+        "Eficiencia.",
+        "Calidad."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 36
+    },
+    {
+      "texto": "❓ FFM El síndrome de mobbing puede presentar una serie de trastornos en la salud. Señale la respuesta correcta:",
+      "opciones": [
+        "Esquizofrenia.",
+        "Ansiedad y/o depresión.",
+        "Epilepsia.",
+        "Alzheimer."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 37
+    },
+    {
+      "texto": "❓ FFM Según el Plan de Agresiones a Profesionales del Sistema Sanitario Público de Andalucía, se considera como agresión a los efectos de aplicación de este Plan:",
+      "opciones": [
+        "Las que se produzca entre trabajadores de los centros sanitarios del SSPA.",
+        "La presentación del usuario de las hojas de reclamaciones sin descalificaciones graves, insultos o vejaciones contra los trabajadores.",
+        "Las que se produzca entre trabajadores de los centros sanitarios del SSPA y entre el personal de empresas externas.",
+        "Las sufridas fuera del centro de trabajo o fuera del horario laboral siempre que sea"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 38
+    },
+    {
+      "texto": "❓ FFM Entre las patologías más frecuentes en el puesto de trabajo, debido a la manipulación de cargas, está:",
+      "opciones": [
+        "La osteoporosis.",
+        "La infección.",
+        "La lumbalgia.",
+        "La quemadura."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 39
+    },
+    {
+      "texto": "❓ FFM Las revisiones de las instalaciones de protección contra incendios se realizarán:",
+      "opciones": [
+        "1 vez al mes.",
+        "1 vez cada 2 años.",
+        "1 vez cada 6 meses.",
+        "1 vez cada 12 meses."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 40
+    },
+    {
+      "texto": "❓ FFM Ante una situación de emergencia producida por un incendio debemos usar un extintor portátil y, ¿qué es lo primero que debemos hacer?",
+      "opciones": [
+        "Realizar una pequeña descarga (corto disparo) del extintor para comprobar su funcionamiento.",
+        "Comprobar que el extintor está en el lugar adecuado.",
+        "Comprobar las fechas de las inspecciones.",
+        "Ninguna de las respuestas anteriores es correcta."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 41
+    },
+    {
+      "texto": "❓ FFM ¿Qué tipo de fuego es el que, dada la situación de poca gravedad, puede ser neutralizado con los medios materiales y humanos disponibles en el lugar de trabajo y próximos al lugar del accidente?",
+      "opciones": [
+        "Emergencia final.",
+        "Emergencia parcial.",
+        "Emergencia general.",
+        "Conato de emergencia."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 42
+    },
+    {
+      "texto": "❓ FFM Ante un incendio usamos el extintor para intentar sofocar el mismo. ¿Hacia dónde debe dirigir la boquilla del extintor?",
+      "opciones": [
+        "A la parte superior de las llamas.",
+        "A la base del incendio, moviendo la boquilla en zig-zag.",
+        "A cualquier parte del incendio, es indiferente el lugar donde dirigiremos la boquilla.",
+        "Ninguna de las respuestas anteriores es correcta."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. EXAMEN_CELADOR_LIBRE_PI1",
+      "examen_origen": "EXAMEN_CELADOR_LIBRE_PI1",
+      "numero_pregunta": 43
+    },
+    {
+      "texto": "❓ FFM Las funciones de los celadores y de las celadoras del Servicio Andaluz de Salud se encuentran reguladas en:",
+      "opciones": [
+        "El Estatuto Marco del Personal Estatutario Fijo",
+        "El Estatuto del Personal No Sanitario",
+        "La Ley de Salud de Andalucía",
+        "La Ley-Marco del Personal No Sanitario"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 1
+    },
+    {
+      "texto": "❓ FFM ¿Es función de un celador o una celadora realizar traslado de mobiliario?",
+      "opciones": [
+        "Si, es función de los celadores y de las celadoras",
+        "No, esto es función del personal de mantenimiento",
+        "No, los muebles los traslada una empresa privada",
+        "En colaboración con el personal de enfermería"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 2
+    },
+    {
+      "texto": "❓ FFM ¿De quién es función vigilar las entradas de la institución, no permitiendo el acceso a sus dependencias más que a las personas autorizadas para ello?",
+      "opciones": [
+        "Vigilantes de seguridad",
+        "Jefe de personal subalterno",
+        "Celadores y/o celadoras",
+        "Todas las respuestas son correctas"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 3
+    },
+    {
+      "texto": "❓ FFM Para que un equipo de salud se constituya tienen que cumplir una serie de requisitos, ¿podrías señalar cuáles son?",
+      "opciones": [
+        "Que sus componentes sean dialogantes",
+        "Que se establezcan las normas de cortesía y no se establezcan jerarquías",
+        "Que cada componente del grupo cumpla con sus obligaciones",
+        "Todas las respuestas anteriores son correctas"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 4
+    },
+    {
+      "texto": "❓ FFM El celador tiene una serie de funciones reguladas. Señala la incorrecta:",
+      "opciones": [
+        "Tendrán a su cargo el traslado de pacientes, tanto dentro de la institución como en el servicio de ambulancias",
+        "Tramitarán o conducirán sin tardanza las comunicaciones verbales, documentos u objetos que les sean confiados por sus superiores",
+        "Podrán realizar curas bajo la supervisión de personal sanitario",
+        "Vigilarán las entradas de la institución, no permitiendo el acceso a sus dependencias"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 5
+    },
+    {
+      "texto": "❓ FFM El estatuto de personal no Sanitario permite al celador en determinados supuestos:",
+      "opciones": [
+        "La aplicación de tratamiento curativo de carácter no medicamentoso",
+        "Auxiliar a una facultativa directamente en consultas externas",
+        "Ayudar a la colocación y retirada de cuñas",
+        "Controlar directamente las bombonas de oxígeno"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 6
+    },
+    {
+      "texto": "❓ FFM Indique cuál no es una función de las celadoras:",
+      "opciones": [
+        "Ayudar a la persona encargada de amortajar a pacientes fallecidos",
+        "Trasladar cadáveres al mortuorio",
+        "Limpiar la mesa de autopsias",
+        "Informar a las familias del fallecimiento"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 7
+    },
+    {
+      "texto": "❓ FFM En las Unidades de Gestión Clínica, la actividad se realiza para:",
+      "opciones": [
+        "Mejorar la satisfacción de pacientes",
+        "Fomentar la información y la transparencia",
+        "Implicar a sus miembros en la gestión de los centros",
+        "Todas son correctas"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 8
+    },
+    {
+      "texto": "❓ FFM Las Unidades de Gestión Clínica comportan:",
+      "opciones": [
+        "Descentralización de decisiones sobre la gestión de recursos utilizados en la práctica clínica",
+        "Diseño organizativo enfocado a facilitar la eficacia, efectividad y eficiencia",
+        "Equipos multidisciplinares",
+        "Todas son correctas"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 9
+    },
+    {
+      "texto": "❓ FFM Cada Unidad de Gestión Clínica estará liderada por:",
+      "opciones": [
+        "Dirección Gerencia del Centro Sanitario correspondiente",
+        "Por su profesional con más antigüedad",
+        "Por un o una profesional perteneciente a la misma unidad",
+        "Por la Dirección Médica"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 10
+    },
+    {
+      "texto": "❓ FFM ¿El gorro es una prenda que los celadores deben utilizar dentro del quirófano?",
+      "opciones": [
+        "No, sólo deben utilizarlo las cirujanas",
+        "Es una prenda obligada para todos las personas que accedan al área quirúrgica",
+        "Sólo está indicado para el personal sanitario",
+        "Depende del tipo de cirugía que se realice, se utilizará o no"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 11
+    },
+    {
+      "texto": "❓ FFM La supervisora o supervisor de la planta le indica a un celador que ayude al aseo de un paciente encamado. ¿Qué zona del cuerpo dejarán para el final?",
+      "opciones": [
+        "Región perineal",
+        "Extremidades superiores",
+        "Extremidades inferiores",
+        "Región dorsal"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 12
+    },
+    {
+      "texto": "❓ FFM Una celadora de UCI deberá saber:",
+      "opciones": [
+        "Administrar sedantes a una paciente en caso de necesidad urgente",
+        "Intubar a los pacientes en caso de necesidad urgente",
+        "Hacer la reparación de las camas o camillas del servicio",
+        "Ayudar en los cambios posturales de las pacientes"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 13
+    },
+    {
+      "texto": "❓ FFM ¿Quién desplazará el aparato de artroscopias desde el almacén de utensilios y aparatos del quirófano hasta la mesa de operaciones?",
+      "opciones": [
+        "La celadora de almacén",
+        "El cirujano traumatólogo",
+        "El supervisor de quirófano",
+        "La celadora de quirófano"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 14
+    },
+    {
+      "texto": "❓ FFM Las almohadillas de polietileno hinchadas con aire y ubicadas a los lados de la cama para prevenir lesiones y caídas, se denominan:",
+      "opciones": [
+        "Centinelas de cama",
+        "Protectores de las barandillas",
+        "A y B son correctas",
+        "Barra de tracción"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 15
+    },
+    {
+      "texto": "❓ FFM ¿Qué es lo primero que deberá verificar un celador cuando traslade una paciente al quirófano?",
+      "opciones": [
+        "Qué esté rasurada la zona a operar",
+        "Que los informes correspondan a la paciente",
+        "Que lo sepan los familiares",
+        "No es su función efectuar verificaciones"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 16
+    },
+    {
+      "texto": "❓ FFM En caso de defunción de una paciente en el hospital, ¿podrá ser requerido el celador que se encuentra de servicio en la planta de la persona fallecida, para ayudar al personal de enfermería a amortajarla?",
+      "opciones": [
+        "No, esta función la debe realizar solamente personal de enfermería",
+        "Solamente si el éxitus se ha producido cuando la movilizaba",
+        "No, esta función la debe realizar solamente la celadora del mortuorio",
+        "Sí"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 17
+    },
+    {
+      "texto": "❓ FFM ¿A quién corresponde, normalmente, la función de limpieza del instrumental clínico?",
+      "opciones": [
+        "Regularmente a celadores",
+        "Regularmente a auxiliares de enfermería",
+        "Excepcionalmente a celadores",
+        "Excepcionalmente a auxiliares de enfermería"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 18
+    },
+    {
+      "texto": "❓ FFM ¿Cada cuánto tiempo se deben realizar los cambios posturales a una paciente encamada?",
+      "opciones": [
+        "Cada vez que la paciente lo solicita",
+        "Entre dos y tres horas",
+        "Cada hora",
+        "Depende de la patología de la paciente"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 19
+    },
+    {
+      "texto": "❓ FFM Las unidades que expresan la capacidad de una botella de oxígeno son:",
+      "opciones": [
+        "mm de Hg y Kg/cm3",
+        "Atmósferas (P)",
+        "Litros (l)",
+        "Todas son correctas"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 20
+    },
+    {
+      "texto": "❓ FFM Una celadora en el servicio de Farmacia tiene como función:",
+      "opciones": [
+        "Controlar y eliminar la medicación caducada",
+        "Todas las respuestas son correctas",
+        "Distribuir medicación y demás productos farmacéuticos a las Unidades del Hospital",
+        "Ayudar a técnicos de farmacia a preparar unidosis"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 21
+    },
+    {
+      "texto": "❓ FFM Una de éstas no es función de celadores de una unidad de Psiquiatría:",
+      "opciones": [
+        "Vigilar el orden y la armonía entre pacientes",
+        "Alimentar a pacientes que se nieguen a comer",
+        "Ayudar al aseo personal de pacientes que lo precisen",
+        "Colaborar con la técnica de sujeción de pacientes agitados"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 22
+    },
+    {
+      "texto": "❓ FFM Si es necesario acudir al laboratorio por el resultado de unas analíticas, ¿quién deberá ir?",
+      "opciones": [
+        "Familiares del paciente",
+        "Un auxiliar de enfermería",
+        "La celadora",
+        "La auxiliar administrativa del servicio"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 23
+    },
+    {
+      "texto": "❓ FFM Un celador destinado en el servicio de esterilización sabe que lo fundamental allí es:",
+      "opciones": [
+        "Desinfectar todos los utensilios y enseres",
+        "Revisar la funcionalidad de todos los utensilios y enseres",
+        "Eliminar los gérmenes de todos los utensilios y enseres",
+        "Limpiar perfectamente todos los utensilios y enseres"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 24
+    },
+    {
+      "texto": "❓ FFM Cuando una celadora que trabaja en el gimnasio de rehabilitación, es requerida para ayudar a la fisioterapeuta a iniciar la deambulación a una paciente deberá:",
+      "opciones": [
+        "Ayudar siempre que haya que utilizar un medio mecánico para los movimientos",
+        "Realizar sin excusa esa ayuda",
+        "Esa no es función de celadores",
+        "Ninguna de las repuestas anteriores es correcta"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 25
+    },
+    {
+      "texto": "❓ FFM Durante una autopsia, el celador deberá:",
+      "opciones": [
+        "Limpiar la mesa, el instrumental y la propia sala de autopsias",
+        "Esperar en la puerta por si se le necesita",
+        "Ayudar en la práctica de autopsias en aquellas funciones auxiliares que no requieran, por su parte, hacer uso del instrumental quirúrgico",
+        "Las respuestas a y c son correctas"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 26
+    },
+    {
+      "texto": "❓ FFM Una paciente sale de una consulta y tiene dudas sobre la dosificación de la medicación que le acaba de prescribir la especialista. Como no la quiere molestar, le pide a un celador de información que se lo aclare. ¿Qué debe hacer el celador?",
+      "opciones": [
+        "Leer el informe, y explicarle el tratamiento a seguir",
+        "Enviarla a su médico de familia en su Centro de Salud",
+        "Enviarla nuevamente a la consulta para que le aclaren sus dudas",
+        "Remitirla al servicio de cita previa"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 27
+    },
+    {
+      "texto": "❓ FFM Familiares de un paciente piden al celador de la puerta que les deje pasar unos alimentos para el paciente. ¿Que hará el celador?",
+      "opciones": [
+        "Los dejará pasar, si los alimentos no contienen alcohol",
+        "Les dice que los pasen, pero que la próxima vez pidan permiso al supervisor de planta",
+        "No permitirá la introducción de alimentos en el hospital",
+        "Solicita al guardia de seguridad que retenga los alimentos para devolverlos cuando"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 28
+    },
+    {
+      "texto": "❓ FFM Una celadora está ayudando a un enfermero a amortajar un cadáver para su traslado al mortuorio. Cuando el enfermero le indica que retire la sonda vesical del cadáver, la celadora:",
+      "opciones": [
+        "Se pondrá los guantes y la retirará, con cuidado de no romperla",
+        "Le indicará al enfermero que eso no es función suya",
+        "Le pedirá al enfermero que, antes, le vacíe el globo de sujeción",
+        "No la retirará, y llamará al Jefe de Personal Subalterno para informar"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 29
+    },
+    {
+      "texto": "❓ FFM Que ley propició la integración de pacientes psiquiátricos en el sistema sanitario andaluz?",
+      "opciones": [
+        "La Constitución Española (1978)",
+        "Ley de Autonomía del Paciente (41/2002)",
+        "Ley General de Sanidad (14/1986)",
+        "Ley de creación del Servicio Andaluz de Salud (2/1998)"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 30
+    },
+    {
+      "texto": "❓ FFM Se tiene que trasladar a un paciente a un servicio cuyo acceso tiene una pendiente y la camilla debe de subir por ella. La celadora debe de:",
+      "opciones": [
+        "Tirar de la camilla por los pies colocándose en la piecera",
+        "Empujar la camilla por los pies",
+        "Tirar de la cabecera para que el paciente salga de cabeza",
+        "Empujar la camilla desde la cabecera para que el paciente suba en el sentido de la"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 31
+    },
+    {
+      "texto": "❓ FFM En la posición de fowler, la paciente se halla semi sentada formando un ángulo de:",
+      "opciones": [
+        "30 grados",
+        "45 grados",
+        "90 grados",
+        "120 grados"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 32
+    },
+    {
+      "texto": "❓ FFM Cuando un celador traslada a un paciente desde un servicio a otro, ¿qué no deberá hacer?",
+      "opciones": [
+        "Llevar la historia del paciente",
+        "Colocar los drenajes sobre la cama",
+        "Informar al paciente de qué va a hacer con él",
+        "Informar al personal sanitario del servicio de origen de que se lleva al paciente"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 33
+    },
+    {
+      "texto": "❓ FFM Cuando una celadora traslada a un paciente a otras dependencias dentro del Hospital:",
+      "opciones": [
+        "La responsabilidad de la celadora será únicamente trasladar al paciente de la forma más rápida y correcta posible",
+        "Se responsabilizará también de la documentación que se le entregue en relación con el paciente",
+        "Sólo se responsabiliza de la documentación si lo lleva para realizarle una prueba diagnóstica",
+        "El personal de enfermería es el único responsable de la documentación clínica"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 34
+    },
+    {
+      "texto": "❓ FFM Si una celadora de UVI recibe la orden de colocar a un paciente en posición de “decúbito prono”, deberá colocarlo:",
+      "opciones": [
+        "De espaldas",
+        "De costado",
+        "Boca abajo",
+        "Sentado"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 35
+    },
+    {
+      "texto": "❓ FFM Las modificaciones realizadas en la postura corporal de pacientes encamados, se denominan:",
+      "opciones": [
+        "Mecánica corporal",
+        "Arcos de movimiento",
+        "Cambios posturales",
+        "Fisioterapia pasiva"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 36
+    },
+    {
+      "texto": "❓ FFM Observamos que un paciente se encuentra acostado sobre su espalda, con las piernas extendidas y sus brazos alineados a lo largo del cuerpo, ¿en qué posición se encuentra?",
+      "opciones": [
+        "Posición de fowler",
+        "Posición sims",
+        "Decúbito supino",
+        "Decúbito prono"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 37
+    },
+    {
+      "texto": "❓ FFM ¿Cuál no es una posición quirúrgica?",
+      "opciones": [
+        "Posición ginecológica o litotemia",
+        "Posición trendelemburg",
+        "Posición genupectoral o mahometana",
+        "Posición sims"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 38
+    },
+    {
+      "texto": "❓ FFM ¿Qué debe hacer un celador para entrar y salir de un ascensor con una silla de ruedas?",
+      "opciones": [
+        "Entrar empujando la silla de ruedas de frente para que pase primero la paciente y quede colocada mirando al fondo, para salir tirando de la silla caminando de espaldas",
+        "Entrar primero, caminando de espaldas y tirando de la silla para que la paciente también entre de espaldas. Una vez dentro girar la silla de ruedas para salir de la misma manera a como han entrado",
+        "Entrar empujando la silla de ruedas de frente para que pase primero la paciente y quede colocada mirando al fondo . Una vez dentro girar la silla de ruedas para salir de la misma manera a como han entrado",
+        "Entrar primero, caminando de espaldas y tirando de la silla para que la paciente"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 39
+    },
+    {
+      "texto": "❓ FFM La posición decúbito prono, también llamada decúbito ventral, consiste en:",
+      "opciones": [
+        "Estar acostado sobre el abdomen, cabeza girada lateralmente, piernas extendidas y brazos extendidos",
+        "Estar acostado sobre el abdomen, cabeza girada lateralmente, piernas flexionadas y brazos extendidos",
+        "Estar acostado sobre la espalda, cabeza girada lateralmente, piernas extendidas y brazos extendidos",
+        "Estar acostado sobre la espalda, cabeza girada lateralmente, piernas flexionadas y"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 40
+    },
+    {
+      "texto": "❓ FFM En la secuencia de apoyo sobre cuatro puntos debe indicarse a los pacientes que apoyen:",
+      "opciones": [
+        "Muleta derecha, pie izquierdo, muleta izquierda, pie derecho",
+        "Muleta izquierda, pie izquierdo, muleta derecha, pie derecho",
+        "A y B son correctas",
+        "Ninguna de las anteriores es correcta"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 41
+    },
+    {
+      "texto": "❓ FFM La identificación personal de los trabajadores y trabajadoras del Servicio Andaluz de Salud:",
+      "opciones": [
+        "Nunca es obligatoria, depende del Servicio al que pertenezca",
+        "El libro de Estilo del SAS no menciona en ningún momento esta cuestión",
+        "El ir identificado no cambia nada entre la relación que mantengan paciente y profesional",
+        "Es obligatorio para los y las profesionales del SAS utilizar tarjetas de identificación"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 42
+    },
+    {
+      "texto": "❓ FFM Si un familiar nos demanda información clínica de una paciente, el celador debe de:",
+      "opciones": [
+        "Acceder a la historia de la paciente, leerla e informar a la familia",
+        "Limitarse a tranquilizarlo, dando información de que la evolución es buena",
+        "Decirle que no estamos autorizados a dar información",
+        "Orientar a la familia hacia el facultativo referente de la paciente"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. Examen_C_PI",
+      "examen_origen": "Examen_C_PI",
+      "numero_pregunta": 43
+    },
+    {
+      "texto": "❓ FFM ¿Dónde se hace referencia a la Declaración Universal de Derechos Humanos en la Constitución española?",
+      "opciones": [
+        "En el Artículo 9.",
+        "En el Artículo 10.",
+        "En el Artículo 11.",
+        "En el Artículo 12."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 1
+    },
+    {
+      "texto": "❓ FFM ¿En qué artículo del Estatuto de Autonomía para Andalucía se recogen las competencias de esta Comunidad en salud, sanidad y farmacia?",
+      "opciones": [
+        "Artículo 22",
+        "Artículo 54",
+        "Artículo 55",
+        "Artículo 56"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 2
+    },
+    {
+      "texto": "❓ FFM Ley 14/1986, de 25 de abril, General de Sanidad. Serán obligaciones de los ciudadanos con las Instituciones y organismos del sistema sanitario:",
+      "opciones": [
+        "Cumplir las prescripciones generales de naturaleza sanitaria comunes a toda la población, así como las específicas determinadas por los Servicios Sanitarios.",
+        "Cuidar las instalaciones y colaborar en el mantenimiento de la habitabilidad de las Instituciones Sanitarias.",
+        "Responsabilizarse del uso adecuado de las prestaciones ofrecidas por el sistema sanitario, fundamentalmente en lo que refiere a la utilización de servicios, procedimientos de baja laboral o incapacidad permanente y prestaciones terapéuticas y sociales.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 3
+    },
+    {
+      "texto": "❓ FFM Conforme a la Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía. El objeto de la misma es:",
+      "opciones": [
+        "De aplicación a todo el territorio nacional.",
+        "Hacer efectivo el derecho de igualdad de trato y oportunidades entre mujeres y hombre.",
+        "Excluir a la Administración Local.",
+        "No incluir al sistema universitario andaluz."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 4
+    },
+    {
+      "texto": "❓ FFM Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, establece una serie de preceptos en su artículo 21, son causas de extinción de la condición de personal estatutario fijo:",
+      "opciones": [
+        "Un permiso sin sueldo.",
+        "Una sanción disciplinaria grave.",
+        "La incapacidad temporal.",
+        "La perdida de la nacionalidad tomada en consideración para el nombramiento."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 5
+    },
+    {
+      "texto": "❓ FFM ¿Cuál es la Ley que regula en España la prevención de riesgos laborales?",
+      "opciones": [
+        "Ley 31/1995, de 8 de noviermbre.",
+        "Ley 32/1995, de 8 de noviembre.",
+        "Ley 33/1995, de 8 de noviembre.",
+        "Ley 34/1995, de 8 de noviembre."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 6
+    },
+    {
+      "texto": "❓ FFM Según el artículo 4 (Definiciones) de la vigente Ley de Prevención de Riesgos Laborales, ¿cuál sería la definición de \"equipo de protección individual\"?",
+      "opciones": [
+        "Cualquier equipo que lleve el trabajador, facilitado por el empresario, destinado a prevenir los riesgos en el trabajo.",
+        "Cualquier instrumento, equipo o accesorio que lleve el trabajador, propio o facilitado por el empresario, que le proteja de los riesgos del trabajo.",
+        "Cualquier equipo, accesorio o complemento homologado que pueda ser utlizado por el trabajador para reducir los riesgos inherentes al desarrollo de su trabajo.",
+        "Cualquier equipo destinado a ser llevado o sujetado por el trabajador para que le proteja"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 7
+    },
+    {
+      "texto": "❓ FFM Según la Ley 41/2002, la historia clínica es el conjunto de documentos que contienen los datos, valoraciones e informaciones de cualquier índole sobre la situación y la evolución clínica de un paciente a lo largo del proceso asistencial. Según dicho texto legal ¿quién el es el propietario de la historia clínica?",
+      "opciones": [
+        "El paciente.",
+        "Los profesionales que la generan en la asistencia al paciente.",
+        "El centro sanitario que la almacena y custodia.",
+        "La ley no establece taxativamente la propiedad de la historia clínica."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 8
+    },
+    {
+      "texto": "❓ FFM El Objeto de la Ley 13/2007, de Prevención y Protección Integral contra la violencia de género, es de aplicación:",
+      "opciones": [
+        "En todo el territorio Español.",
+        "En el ámbito territorial de la Comunidad Autónoma de Andalucía.",
+        "Tienen garantizados los derechos que esta Ley reconoce todas las mujeres que se encuentran en el territorio español.",
+        "Ninguna de las respuestas son correctas."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 9
+    },
+    {
+      "texto": "❓ FFM El Capitulo V del Título I de la la Ley 13/2007, de 26 de noviembre, de Prevención y Protección Integral Contra la Violencia de Género, recoge la Formación a profesionales de la Salud, en su Artículo:",
+      "opciones": [
+        "Artículo 22.",
+        "Artículo 23.",
+        "Artículo 24.",
+        "Artículo 25"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 10
+    },
+    {
+      "texto": "❓ FFM ¿Cuál de las siguientes funciones NO es de apoyo interno del celador/a?",
+      "opciones": [
+        "Traslado y control interno de los pacientes y familiares.",
+        "Transporte y control de documentos.",
+        "Tramitación y conducción sin tardanza de las comunicaciones verbales.",
+        "Facilitar información administrativa."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 11
+    },
+    {
+      "texto": "❓ FFM ¿Cuál de las siguientes afirmaciones es función del celador/a?",
+      "opciones": [
+        "Traslado de muebles, equipos y material.",
+        "Traslado de camas para reparar.",
+        "Retirada de colchones en mal estado.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 12
+    },
+    {
+      "texto": "❓ FFM ¿Cuál NO es una indicación para colocar al paciente en la posición Trendelenburg?.",
+      "opciones": [
+        "Lipotimias y sincopes.",
+        "Pacientes con problemas respiratorios.",
+        "Hemorragías.",
+        "Mejora de la circulación cerebral sanguínea."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 13
+    },
+    {
+      "texto": "❓ FFM Un paciente está siendo atendido en urgencias, sufre una parada cardiorrespiratoria. El facultativo a cargo le pide que lo coloque de forma adecuada para intubar al paciente. ¿Cómo deberá proceder?",
+      "opciones": [
+        "Retirará el cabecero de la cama.",
+        "Colocará al paciente en la posición Roser.",
+        "Colocará al paciente en la posición Fowler.",
+        "Las respuestas A y B son correctas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 14
+    },
+    {
+      "texto": "❓ FFM Realizando su tarea en el Bloque Quirúrgico, la cirujana de turno le pide la realización de algunas tareas. ¿Cuáles son las propias del celador/a de quirófano?",
+      "opciones": [
+        "Revisar el funcionamiento del aparto de anestesia.",
+        "Elegir los accesorios a utilizar de la mesa quirúrgica para la colocación del paciente.",
+        "Transportar al quirófano el aparato de ecografía.",
+        "Ninguna de las anteriores es función suya."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 15
+    },
+    {
+      "texto": "❓ FFM Señale cual es función del celador/a en quirófano.",
+      "opciones": [
+        "Auxiliar en todas aquellas labores propias del Celador/a.",
+        "Introducir y sacar a los enfermos del Área Quirúrgica para las intervenciones, colocándolos y retirándolos de la mesa de operaciones.",
+        "Trasladarán el aparataje o mobiliario que se requiera.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 16
+    },
+    {
+      "texto": "❓ FFM ¿En qué consiste el criterio FIFO mediante el cual las mercancías han de estar ordenadas en el almacén de un centro sanitario?",
+      "opciones": [
+        "Primero en entrar, último en salir.",
+        "Último en entrar, primero en salir.",
+        "Primero en entrar, primero en salir.",
+        "Primero en entrar, primero en registrarse."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 19
+    },
+    {
+      "texto": "❓ FFM El traslado de documentación clínica:",
+      "opciones": [
+        "Es función del celador sólo si es acompañado de personal sanitario.",
+        "Es función del personal administrativo.",
+        "Es función del Celador/a.",
+        "Los celadores tienen expresamente prohibido el traslado de documentación clínica."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 20
+    },
+    {
+      "texto": "❓ FFM ¿En qué circunstancias excepcionales podría el Celador/a destinado en psiquiatría administrar medicación a un paciente?",
+      "opciones": [
+        "Cuando se lo ordene el personal focultativo.",
+        "Cuando el paciente deba ser sedado con urgencias, debido a su estado alterado, ante la imposibilidad de ser sedado por el personal sanitario.",
+        "Sólo y exclusivamente bajo la supervisión de la persona responsable o supervisora de planta.",
+        "Nunca."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 21
+    },
+    {
+      "texto": "❓ FFM El Cuadro Balcánico es:",
+      "opciones": [
+        "Un conjunto de síntomas de una enfermedad.",
+        "Un armazón que inmoviliza las camas en las habitaciones.",
+        "Un armazón metálico sujeto a los cuatros extremo de la cama, que se eleva formando un cuadro por encima de la superficie total de la cama.",
+        "Un aparato mecánico que utiliza exclusivamente el personal de mantenimiento."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 22
+    },
+    {
+      "texto": "❓ FFM Teniendo en cuenta las características propias de una cama de somier rígido y no utilizando ningún material adicional. ¿Cuál de las siguientes posiciones del paciente NO es posible alcanzar con ella?",
+      "opciones": [
+        "Decúbito prono o ventral.",
+        "Decúbito dorsal.",
+        "Fowler.",
+        "Antitrendelemburg."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 23
+    },
+    {
+      "texto": "❓ FFM ¿Qué es el feedback en el proceso de la comunicación?",
+      "opciones": [
+        "Mensaje",
+        "Respuesta",
+        "Código",
+        "Canal"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 24
+    },
+    {
+      "texto": "❓ FFM ¿Cuáles son las expectativas actuales de los ciudadanos sobre el Sistema Sanitario Público de Andalucía?.",
+      "opciones": [
+        "Personalización del trato.",
+        "Confianza.",
+        "Respeto por los valores e ideas del paciente",
+        "Todas las respuestas son correctas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 25
+    },
+    {
+      "texto": "❓ FFM Aquella posición del paciente en la que la cabeza está ladeada y el brazo inferior extendido hacia atrás y separado del cuerpo, el brazo superior flexionado próximo a la cabeza, así como la pierna inferior semiflexionada y la superior flexionada por la cadera y la rodilla se denomina:",
+      "opciones": [
+        "Fowler.",
+        "Sims",
+        "Trendelenburg",
+        "Morestin"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 26
+    },
+    {
+      "texto": "❓ FFM En la posición Fowler Alta, la cabecera de la cama con respecto a los pies, forma un ángulo de:",
+      "opciones": [
+        "45 grados.",
+        "60 grados.",
+        "90 grado.",
+        "120 grados."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 27
+    },
+    {
+      "texto": "❓ FFM La interrelación con la ciudadanía estará presidida por el respeto a sus derechos y dignidad, y se seguirán las indicaciones contenidas en:",
+      "opciones": [
+        "Plan Andaluz de Salud.",
+        "Ley General de Sanidad.",
+        "El libro de Estilo del Servicio Andaluz de Salud.",
+        "Ley de Igualdad."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 28
+    },
+    {
+      "texto": "❓ FFM Cualquier profesional sanitario que trabaja con pacientes tiene acceso y es conocedor de información relacionada con su proceso. Mantener el compromiso del silencio, se denomina:",
+      "opciones": [
+        "Objeción de conciencia.",
+        "Deber de Custodia.",
+        "Secreto profesional.",
+        "No es obligatorio mantener silencio."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 29
+    },
+    {
+      "texto": "❓ FFM Señale cuál de las siguientes son características de la atención al usuario según el Libro de Estilo del Servicio Andaluz de Salud:",
+      "opciones": [
+        "Respetar las diferencias y ofrecer atención en condiciones de equidad e igualdad.",
+        "Comprender y respetar la intimidad de las personas que usan los servicios.",
+        "Mantener la confidencialidad como principio general.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 30
+    },
+    {
+      "texto": "❓ FFM Las estrategias generales de prevención de los riesgos higiénicos se basan en el establecimiento de una serie de barreras. ¿Cuáles son las barreras?",
+      "opciones": [
+        "Barreras físicas y barreras químicas.",
+        "Barreras biológicas y precauciones universales.",
+        "Las respuestas A y B son correctas.",
+        "Las respuestas A y B son falsas."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 31
+    },
+    {
+      "texto": "❓ FFM ¿Cuál es la respuesta correcta si un paciente desea que determinada información personal quede entre un profesional y él.?",
+      "opciones": [
+        "Toda la información del paciente debe figurar en la Historia clínica.",
+        "Toda la información del paciente es compartida por todos los médicos.",
+        "Debe respetarse su criterio siempre que no afecte a valoraciones clínicas.",
+        "El paciente no podrá pedir ese trato de su información personal."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 32
+    },
+    {
+      "texto": "❓ FFM Según el Manual de Estilo del Servicio Andaluz de Salud, ¿cuál de las siguientes opciones constituye una característica de la atención sanitaria para preservar la intimidad a lo largo de todo el acto clínico del paciente?",
+      "opciones": [
+        "No es esencial que se busquen espacios en los que la comunicación pueda realizarse de manera reservada sin la presencia de personas ajenas a la atención.",
+        "Los pacientes tienen derecho a que los actos clínicos no sean interrumpidos por la presencia de personas que no tengan relación directa con ellos.",
+        "En ocasiones es imprescindible que colaboren varios profesionales en la atención, no siendo admitida en ningún caso la presencia del personal en formación en consonancia con el principio de apoyo a la docencia e investigación sanitaria.",
+        "Se pueden incluir en la historia clínica informaciones que hagan referencia a aspectos"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 33
+    },
+    {
+      "texto": "❓ FFM Ante un incendio, ¿qué se debe hacer?",
+      "opciones": [
+        "Usar ascensores",
+        "Gatear",
+        "Abrir puertas",
+        "Cubrirse las vías respiratorias con un tejido de fibra artificial."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 34
+    },
+    {
+      "texto": "❓ FFM Golpes o choques con objetos o con equipos de trabajo. Para evitar este riesgo se deberán llevar a cabo una serie de medidas preventivas. Indique la respuesta correcta:",
+      "opciones": [
+        "Sobrecargar la parte superior de los archivadores y estanterías.",
+        "Dejar los archivadores, cajones y armarios entreabiertos cuando no se estén usando.",
+        "Almacenar el material en los lugares destinados para tal fin, dejando libres las zonas de paso, salidas y vías de circulación evitando elementos que sobresalgan.",
+        "No señalizar las puertas acristaladas."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 35
+    },
+    {
+      "texto": "❓ FFM Se entiende legalmente por daño derivado del trabajo:",
+      "opciones": [
+        "Las lesiones sufridas con motivo u ocasión del trabajo.",
+        "Todas las enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo.",
+        "Todas las enfermedades, patologías o lesiones sufridas por el trabajador.",
+        "Cualquier enfermedad que sufra el trabajador derivada del desempeño de su trabajo."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 36
+    },
+    {
+      "texto": "❓ FFM La manipulación manual de cargas está regulada en:",
+      "opciones": [
+        "Real Decreto 487/1997, de 14 de abril",
+        "Decreto 485/1996",
+        "Instrucción Técnica de prevención de 8 de septiembre de 2000",
+        "Ley de prevención de riesgos laborales."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 37
+    },
+    {
+      "texto": "❓ FFM Sobre el Plan de Emergencias ante un posible incendio. Una de las medidas preventivas sería las señales de salvamento o socorro. ¿Cómo serán este tipo de señales?",
+      "opciones": [
+        "De forma rectangular o cuadrada, pictograma blanco sobre fondo verde.",
+        "De forma rectangular o cuadrada, pictograma blanco sobre fondo rojo.",
+        "De forma rectangular o redonda, pictograma blanco sobre fondo azul.",
+        "De forma triangular para indicar peligro y tomar las decisiones adecuadas."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 38
+    },
+    {
+      "texto": "❓ FFM El uso de guantes en materia de higiene del Personal Celador/a:",
+      "opciones": [
+        "Evita el lavado de manos antes del contacto con el paciente.",
+        "Evita el lavado de manos después del contacto con el paciente.",
+        "Evita el lavado de manos entre pacientes.",
+        "No sustituye al lavado de manos."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 39
+    },
+    {
+      "texto": "❓ FFM Señale cuál de las siguientes son funciones del Celador/a:",
+      "opciones": [
+        "Realizarán labores de limpieza de forma habitual.",
+        "Servirán de técnicos ascensoristas.",
+        "Velarán continuamente por conseguir el mayor orden y silencio posible.",
+        "Ninguna de las respuestas son correctas."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 42
+    },
+    {
+      "texto": "❓ FFM Los familiares de un paciente, que está siendo atendido en el servicio de urgencias, preguntan al Celador/a información sobre el diagnóstico y exploración del enfermo. ¿Cuál deberá ser su actuación?",
+      "opciones": [
+        "Informará sobre el pronóstico, omitiendo cualquier otro dato relativo a la exploración o diagnóstico definitivo.",
+        "Solicitará del médico los datos relativos a la exploración para informar ampliamente a los familiares.",
+        "Se abstendrá de dar ese tipo de información, remitiendo a los familiares ante el Jefe de Personal Subalterno.",
+        "En todo caso, deberá orientar la consulta hacia el médico encargado de la asistencia del"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 43
+    },
+    {
+      "texto": "❓ FFM ¿Cuál será la función del celador/a en cuanto al acceso y estancia de visitas a las habitaciones de los pacientes?",
+      "opciones": [
+        "El Celador/a no está obligado al control de visitas, ya que es misión del vigilante jurado de la empresa de seguridad contratada por el hospital.",
+        "El Celador/a deberá vigilar el acceso de familiares y visitantes a las habitaciones procurando que no haya aglomeración, permitiendo que fumen en las habitaciones.",
+        "El Celador/a deberá vigilar el acceso y estancia de familiares y visitantes a las habitaciones de los enfermos, no permitiendo la entrada más que a las personas autorizadas.",
+        "No es tarea del celador/a vigilar el comportamiento de visitantes y enfermos."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20231111_Celador_Cuad_SAS",
+      "examen_origen": "20231111_Celador_Cuad_SAS",
+      "numero_pregunta": 44
+    },
+    {
+      "texto": "❓ FFM Señale cuál de las siguientes afirmaciones es INCORRECTA según la vigente Constitución Española:",
+      "opciones": [
+        "Los españoles son iguales ante la Ley.",
+        "No puede prevalecer discriminación alguna por razón de nacimiento.",
+        "No puede prevalecer discriminación alguna por razón de sexo.",
+        "No se garantiza la libertad ideológica, religiosa y de culto de los individuos y las"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 1
+    },
+    {
+      "texto": "❓ FFM El personal de administración y gestión de los centros sanitarios puede acceder a los datos de la historia clínica:",
+      "opciones": [
+        "Nunca.",
+        "Solo en caso de urgente necesidad.",
+        "Solo a los relacionados con sus propias funciones.",
+        "Solo si ha sido autorizado por personal sanitario."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 2
+    },
+    {
+      "texto": "❓ FFM Según Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, las faltas disciplinarias pueden ser:",
+      "opciones": [
+        "Muy graves, graves o leves.",
+        "Súper graves, muy graves o graves.",
+        "Muy graves, graves o sin importancia.",
+        "Tan solo existen las faltas graves."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 3
+    },
+    {
+      "texto": "❓ FFM Según Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, el incumplimiento injustificado de la jornada de trabajo que, acumulado, suponga más de 20 horas al mes, tendrá la consideración de falta:",
+      "opciones": [
+        "Leve.",
+        "No se considera falta.",
+        "Muy grave.",
+        "Grave."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 4
+    },
+    {
+      "texto": "❓ FFM La ley cuyo objeto es la regulación de todas las acciones que permitan hacer efectivo el derecho a la protección de la salud, reconocido en la Constitución, es:",
+      "opciones": [
+        "La Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud.",
+        "La Ley 14/1986, de 25 de abril, General de Sanidad.",
+        "La ley 2/1986, de 15 de junio, de Salud de Andalucía.",
+        "La ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 5
+    },
+    {
+      "texto": "❓ FFM El artículo 47 de la Ley de Salud de Andalucía, determina que el Sistema Sanitario Público de Andalucía se organiza en demarcaciones territoriales denominadas:",
+      "opciones": [
+        "Zonas Básicas de Salud.",
+        "Áreas Hospitalarias.",
+        "Áreas de Salud.",
+        "Áreas de Gestión Sanitaria."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 6
+    },
+    {
+      "texto": "❓ FFM ¿Cuáles son los requisitos para un buen funcionamiento del trabajo en equipo?",
+      "opciones": [
+        "Planificación, organización y dirección.",
+        "Control, comunicación y complementación.",
+        "Las respuestas A) y B) son correctas.",
+        "Las respuestas A) y B) son falsas."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 7
+    },
+    {
+      "texto": "❓ FFM ¿Cuál NO es uno de los principales requisitos para describir los objetivos de una Unidad de Gestión Clínica?",
+      "opciones": [
+        "Que los objetivos sean realistas.",
+        "Que sean ambiciosos pero alcanzables.",
+        "Que sean unos objetivos medibles.",
+        "Que no añadan valor a la prestación de servicio de la Unidad."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 8
+    },
+    {
+      "texto": "❓ FFM Es muy importante mover y trasladar correctamente a los pacientes para evitar tensión muscular, dolor y posible lesión en la columna vertebral, además de esfuerzos innecesarios. ¿Cuáles son los principios elementales en la movilización?",
+      "opciones": [
+        "Subir la altura de la cama.",
+        "Apretar los músculos de los glúteos, abdomen, piernas y brazos para prevenir lesión.",
+        "Asumir un pequeño apoyo para disminuir la estabilidad.",
+        "Las respuestas A) y B) son correctas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 9
+    },
+    {
+      "texto": "❓ FFM ¿Para qué tipo de intervenciones debemos colocar a los pacientes en la posición de litotomía?",
+      "opciones": [
+        "Operaciones a nivel de la columna cervical.",
+        "Para anestesiar al paciente.",
+        "Cirugía de cabeza y cuello.",
+        "Cirugía vaginal, perianal, urológica y rectal."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 10
+    },
+    {
+      "texto": "❓ FFM ¿Qué artículo de la Constitución Española reconoce el derecho a la protección de la salud?",
+      "opciones": [
+        "Artículo 43.",
+        "Artículo 12.",
+        "Artículo 143.",
+        "Artículo 53."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 11
+    },
+    {
+      "texto": "❓ FFM Señale la respuesta INCORRECTA:",
+      "opciones": [
+        "El Servicio Andaluz de Salud (SAS) es un Organismo Autónomo administrativo de la Junta de Andalucía.",
+        "El SAS es un Organismo independiente administrativo de la Junta de Andalucía.",
+        "El SAS tiene personalidad jurídica propia.",
+        "El SAS desarrolla sus funciones y competencias bajo la Dirección de la Consejería de"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 12
+    },
+    {
+      "texto": "❓ FFM Según la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, los nombramientos del personal estatutario temporal podrán ser:",
+      "opciones": [
+        "De naturaleza jurídica, de interinidad, de gestión.",
+        "De interinidad, de carácter permanente, de carácter eventual.",
+        "De libre designación, de carácter eventual, de interinidad.",
+        "De interinidad, de carácter eventual, de sustitución."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 13
+    },
+    {
+      "texto": "❓ FFM Es una causa de extinción de la condición de personal estatutario fijo:",
+      "opciones": [
+        "La jubilación.",
+        "La incapacidad parcial.",
+        "La sanción disciplinaria absoluta.",
+        "La incapacidad temporal."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 14
+    },
+    {
+      "texto": "❓ FFM Conforme al papel del celador/a en las salas de mortuorios y autopsias, ¿qué indica la Orden del 5 de julio del 1971?",
+      "opciones": [
+        "No es función del celador.",
+        "Ayudarán a la práctica de autopsias en aquellas funciones auxiliares que no requieran por su parte hacer uso de instrumental alguno sobre el cadáver.",
+        "Limpiarán la mesa de autopsias y la propia sala.",
+        "Las respuestas B) y C) son las correctas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 15
+    },
+    {
+      "texto": "❓ FFM ¿Cuál de las siguientes funciones, NO corresponde a un/a celador/a de almacén?",
+      "opciones": [
+        "Recepción de material.",
+        "Entrega en los servicios.",
+        "Procedimiento administrativo de contratación.",
+        "Recuento físico de las existencias."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 16
+    },
+    {
+      "texto": "❓ FFM ¿Cuál es la función principal de un/a celador/a en el Servicio Andaluz de Salud?",
+      "opciones": [
+        "Administrar tratamientos médicos.",
+        "Velar por la concienciación ambiental de los enfermos y sus familiares.",
+        "Transportar enfermos.",
+        "Elaborar informes."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 17
+    },
+    {
+      "texto": "❓ FFM El trabajo en equipo exige una comunicación de tipo:",
+      "opciones": [
+        "Horizontal.",
+        "Abierta.",
+        "Vertical.",
+        "Cerrada."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 18
+    },
+    {
+      "texto": "❓ FFM ¿En qué artículo del Estatuto de Personal no Sanitario (aprobado por la Orden de 5 de julio de 1971), viene recogido las funciones de los/as celadores/as?",
+      "opciones": [
+        "14.2.",
+        "12.4.",
+        "13.2.",
+        "11.4."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 19
+    },
+    {
+      "texto": "❓ FFM ¿Cuál de las siguientes opciones constituye un área del servicio de urgencias?",
+      "opciones": [
+        "Admisión.",
+        "Triaje.",
+        "Salas de espera.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 20
+    },
+    {
+      "texto": "❓ FFM Un paciente que va a ser intervenido, se encuentra en posición de laminectomía, que normalmente se emplea en:",
+      "opciones": [
+        "Cirugía renal.",
+        "Cirugía columna torácica o lumbar.",
+        "Cirugía de tórax.",
+        "Cirugía de abdomen."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 21
+    },
+    {
+      "texto": "❓ FFM ¿Cómo se denomina la zona de urgencias donde los profesionales acogen, clasifican y ubican a los enfermos?",
+      "opciones": [
+        "Box.",
+        "Sala de Espera.",
+        "Triaje.",
+        "Atención nivel 1."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 22
+    },
+    {
+      "texto": "❓ FFM Los movimientos efectuados voluntariamente por el paciente, bien libremente o bien asistido, buscando el objetivo de su recuperación, ¿cómo se denominan?",
+      "opciones": [
+        "Movilizaciones activas.",
+        "Movilizaciones pasivas.",
+        "Técnicas de movilización.",
+        "Ninguna es correcta."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 23
+    },
+    {
+      "texto": "❓ FFM ¿Cómo se denomina la cama que cuenta con somier formado por dos o tres segmentos móviles?",
+      "opciones": [
+        "Articulada.",
+        "Traumatológica.",
+        "Electrocircular.",
+        "Metálica."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 24
+    },
+    {
+      "texto": "❓ FFM Las almohadillas de polietileno hinchadas con aire, y ubicadas a los lados de la cama para prevenir lesiones y caídas, se denominan:",
+      "opciones": [
+        "Centinelas de cama.",
+        "Protectores de las barandillas.",
+        "Las respuestas A) y B) son correctas.",
+        "Barra de tracción."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 25
+    },
+    {
+      "texto": "❓ FFM ¿Cuál de las siguientes opciones define correctamente la posición de Trendelenburg en una intervención quirúrgica?",
+      "opciones": [
+        "El paciente yace sobre el costado.",
+        "El paciente yace sobre el abdomen con la cara girada a un lado, los brazos a los lados con las palmas pronadas, los codos ligeramente flexionados y los pies elevados sobre la almohada para prevenir la flexión plantar.",
+        "El paciente yace tumbado sobre su espalda con el cuello en hiperextensión.",
+        "La cabeza y el cuerpo se bajan hasta colocarse a un nivel por debajo de las piernas y"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 26
+    },
+    {
+      "texto": "❓ FFM Los valores que representa el Servicio Andaluz de Salud derivan de su condición de servicio público, y de su misión como proveedor de atención sanitaria. ¿Cuáles son sus principios básicos?",
+      "opciones": [
+        "Equidad.",
+        "Calidad.",
+        "Todas las respuestas son correctas.",
+        "Eficiencia."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 27
+    },
+    {
+      "texto": "❓ FFM Un/a celador/a en el servicio de Farmacia tiene como función:",
+      "opciones": [
+        "Controlar y eliminar la medicación caducada.",
+        "Ayudar a lo/as técnico/as de farmacia a preparar Unidosis.",
+        "Distribuir medicación y demás productos farmacéuticos a las Unidades del Hospital.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 28
+    },
+    {
+      "texto": "❓ FFM Señale cuál de las siguientes son funciones de oficina del celador/a:",
+      "opciones": [
+        "Traslado de documentos y correspondencia.",
+        "Redactar informes clínicos.",
+        "Transcribir los Planes de Prevención de Riesgos.",
+        "Ninguna es correcta."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 29
+    },
+    {
+      "texto": "❓ FFM “Actuar en la práctica diaria y desde el punto de vista profesional, es asegurar que los usuarios van a recibir la atención que necesitan en función únicamente de sus necesidades, sin ningún tipo de discriminación.” ¿A qué principio básico de los valores que representa el Servicio Andaluz de Salud nos estamos refiriendo?",
+      "opciones": [
+        "Equidad.",
+        "Calidad.",
+        "Eficiencia.",
+        "No es ningún principio básico."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 30
+    },
+    {
+      "texto": "❓ FFM Dentro de todos los elementos que forman parte de una cama hospitalaria, ¿cuál de los siguientes accesorios NO es un complemento de la propia cama?",
+      "opciones": [
+        "Portasuero o pie de suero con ruedas.",
+        "Somier.",
+        "Barandillas laterales.",
+        "Piecero."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 31
+    },
+    {
+      "texto": "❓ FFM “Se utiliza para movilizar pacientes, formada por dos partes simétricas longitudinalmente que se unen, se adaptan a la longitud del paciente y articuladas en sus extremos superior e inferior, con un sistema de anclaje.” Nos estamos refiriendo a una:",
+      "opciones": [
+        "Cama ortopédica.",
+        "Cama electrocircular.",
+        "Cama de levitación.",
+        "Camilla de tijera."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 32
+    },
+    {
+      "texto": "❓ FFM ¿Cuándo será más útil, en una cama traumatológica hospitalaria, el uso del trapecio en la movilización del paciente?",
+      "opciones": [
+        "Para mover al paciente hacia la cabecera de la cama, con la colaboración del paciente.",
+        "Para mover al paciente hacia un lateral de la cama, entre dos personas, con pacientes que no colaboran.",
+        "Para mover al paciente hacia la cabecera de la cama, con pacientes que no colaboran.",
+        "Para mover al paciente, una sola persona, hacia un lateral, con pacientes que no"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 33
+    },
+    {
+      "texto": "❓ FFM La posición de Sims se utiliza:",
+      "opciones": [
+        "Para exploración de abdomen.",
+        "Para exploraciones de cabeza.",
+        "Para explorar las mamas.",
+        "Para enfermos inconscientes."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 34
+    },
+    {
+      "texto": "❓ FFM Si un/a celador/a de UCI recibe la orden de colocar a un paciente en posición de “decúbito prono”, deberá colocarlo:",
+      "opciones": [
+        "De espaldas.",
+        "De costado.",
+        "Boca abajo.",
+        "Sentado."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 35
+    },
+    {
+      "texto": "❓ FFM Señale cuál de las opciones es correcta cuando un/a celador/a traslada a un paciente en camilla y debe subir y bajar una rampa:",
+      "opciones": [
+        "El/la celador/a tendrá que usar un camino alternativo, ya que esta opción no está permitida para pacientes en dicha situación.",
+        "Al subir, el/la celador/a debe empujar la camilla por la zona más próxima a la cabeza, y bajará la rampa de igual forma.",
+        "Al subir, el celador o celadora empujará la camilla por los pies, y al bajar se colocará delante de la camilla y caminará de espaldas a la pendiente.",
+        "Cuando se usa una pendiente, el/la celador/a, velando por la integridad física del"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 36
+    },
+    {
+      "texto": "❓ FFM El accesorio de la cama de hospitalización utilizado para evitar la caída del paciente, habitualmente metálico, que puede abarcar todo el lateral o la mitad superior, se denomina:",
+      "opciones": [
+        "Soporte para la colocación de las botellas de suero.",
+        "Soporte para la sujeción del triángulo.",
+        "Arco protector para cama.",
+        "Barandilla de seguridad."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 37
+    },
+    {
+      "texto": "❓ FFM Se le llama dispositivo de sujeción mecánica:",
+      "opciones": [
+        "A los dispositivos protectores utilizados para limitar la actividad física del paciente.",
+        "A unas correas homologadas.",
+        "A cada uno de los puntos de sujeción que se colocaran de forma firme y segura, sin dañar la piel o impidan la circulación sanguínea.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 38
+    },
+    {
+      "texto": "❓ FFM La cama de Judet está indicada generalmente para:",
+      "opciones": [
+        "Pacientes que sufren fracturas, luxaciones y parálisis en las extremidades.",
+        "Exploraciones ginecológicas.",
+        "Pacientes con grandes quemaduras.",
+        "Los recién nacidos, el tiempo que se encuentran en la sala de neonatos."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 39
+    },
+    {
+      "texto": "❓ FFM La diferencia entre una movilización activa y una pasiva, en pacientes hospitalizados, consiste en:",
+      "opciones": [
+        "Que el paciente colabora o no puede colaborar.",
+        "Que el personal facultativo debe o no colaborar.",
+        "Que se realiza entre pacientes dados de alta o que permanecen ingresados.",
+        "Que se realiza entre dos o más celadores/as."
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 40
+    },
+    {
+      "texto": "❓ FFM ¿Qué debemos observar en un lenguaje no verbal?",
+      "opciones": [
+        "Hablar más de uno al mismo tiempo.",
+        "La postura, la expresión facial y el movimiento de las manos y gestos.",
+        "No vocalizar.",
+        "Usar un lenguaje técnico o argot profesional."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 41
+    },
+    {
+      "texto": "❓ FFM La identificación personal de los trabajadores y trabajadoras del Servicio Andaluz de Salud:",
+      "opciones": [
+        "Nunca es obligatoria, depende del servicio al que pertenezca.",
+        "El Manual de Estilo del SAS no menciona en ningún momento esta cuestión.",
+        "El ir identificado no cambia nada entre la relación que mantengan paciente y profesional.",
+        "Es obligatorio para los y las profesionales del SAS utilizar tarjetas de identificación"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 42
+    },
+    {
+      "texto": "❓ FFM ¿Cuáles de las siguientes opciones constituyen valores del Servicio Andaluz de Salud como organismo?",
+      "opciones": [
+        "Equidad, celeridad y maximización de los beneficios de índole económica.",
+        "Equidad, universalidad y reducción de los costes.",
+        "Eficacia, eficiencia y equidad en el acceso a los servicios de salud evitando cualquier discriminación.",
+        "Ninguna es correcta."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 43
+    },
+    {
+      "texto": "❓ FFM Seleccione la opción correcta con respecto a la comunicación verbal:",
+      "opciones": [
+        "Se utiliza únicamente la palabra escrita.",
+        "Todo aquello que expresamos a través de las palabras.",
+        "No se utiliza la palabra escrita o hablada.",
+        "Solo gestos y movimientos corporales."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 44
+    },
+    {
+      "texto": "❓ FFM En el proceso de comunicación de un/a celador/a con el paciente, ¿qué es importante?",
+      "opciones": [
+        "Mantener una relación de confianza.",
+        "Respetar la intimidad.",
+        "Que la información sea útil.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 45
+    },
+    {
+      "texto": "❓ FFM ¿Cuál de las siguientes opciones constituye un riesgo psicosocial?",
+      "opciones": [
+        "Estrés.",
+        "Burnout.",
+        "Trabajo nocturno.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 46
+    },
+    {
+      "texto": "❓ FFM Según el Plan General de Residuos del Servicio Andaluz de Salud, ¿qué son residuos del Grupo II?",
+      "opciones": [
+        "Residuos generales asimilables a urbanos que se depositan en cualquier tipo de bolsa.",
+        "Residuos peligrosos sanitarios.",
+        "Residuos químicos y citostáticos.",
+        "Residuos sanitarios asimilables a urbanos."
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 47
+    },
+    {
+      "texto": "❓ FFM ¿En qué tipo de Riesgo Laboral se clasifican los citostáticos?",
+      "opciones": [
+        "Riesgo postural.",
+        "Riesgo químico.",
+        "Riesgo ambiental.",
+        "Riesgo biológico."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 48
+    },
+    {
+      "texto": "❓ FFM Señale cuál es un error de mala práctica en el levantamiento de pacientes, que genera o incrementa lesiones durante el trabajo:",
+      "opciones": [
+        "Examinar la carga, si es demasiado pesada pedir ayuda.",
+        "No planificar el levantamiento.",
+        "Utilizar técnicas de movilización correctas.",
+        "Evitar doblarse y torcerse durante el levantamiento."
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 49
+    },
+    {
+      "texto": "❓ FFM ¿Cuáles son funciones de un/a celador/a en el quirófano?",
+      "opciones": [
+        "Estabilizar al paciente en caso de parada crítica.",
+        "Aplicar la anestesia dictaminada por el facultativo pertinente.",
+        "Colocar al paciente en la mesa de operaciones según la posición anatómica que dictamine el cirujano.",
+        "Todas son correctas."
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. 20230123_Cuadernillo_Examen_Aplz_Celador",
+      "examen_origen": "20230123_Cuadernillo_Examen_Aplz_Celador",
+      "numero_pregunta": 50
+    },
+    {
+      "texto": "❓ FFM Las funciones de los celadores y de las celadoras del Servicio Andaluz de Salud se encuentran reguladas en:",
+      "opciones": [
+        "El Estatuto Marco del Personal Estatutario Fijo",
+        "El Estatuto del Personal No Sanitario",
+        "La Ley de Salud de Andalucía",
+        "La Ley-Marco del Personal No Sanitario"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 1
+    },
+    {
+      "texto": "❓ FFM ¿Es función de un celador o una celadora realizar traslado de mobiliario?",
+      "opciones": [
+        "Si, es función de los celadores y de las celadoras",
+        "No, esto es función del personal de mantenimiento",
+        "No, los muebles los traslada una empresa privada",
+        "En colaboración con el personal de enfermería"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 2
+    },
+    {
+      "texto": "❓ FFM ¿De quién es función vigilar las entradas de la institución, no permitiendo el acceso a sus dependencias más que a las personas autorizadas para ello?",
+      "opciones": [
+        "Vigilantes de seguridad",
+        "Jefe de personal subalterno",
+        "Celadores y/o celadoras",
+        "Todas las respuestas son correctas"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 3
+    },
+    {
+      "texto": "❓ FFM Para que un equipo de salud se constituya tienen que cumplir una serie de requisitos, ¿podrías señalar cuáles son?",
+      "opciones": [
+        "Que sus componentes sean dialogantes",
+        "Que se establezcan las normas de cortesía y no se establezcan jerarquías",
+        "Que cada componente del grupo cumpla con sus obligaciones",
+        "Todas las respuestas anteriores son correctas"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 4
+    },
+    {
+      "texto": "❓ FFM El celador tiene una serie de funciones reguladas. Señala la incorrecta:",
+      "opciones": [
+        "Tendrán a su cargo el traslado de pacientes, tanto dentro de la institución como en el servicio de ambulancias",
+        "Tramitarán o conducirán sin tardanza las comunicaciones verbales, documentos u objetos que les sean confiados por sus superiores",
+        "Podrán realizar curas bajo la supervisión de personal sanitario",
+        "Vigilarán las entradas de la institución, no permitiendo el acceso a sus dependencias"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 5
+    },
+    {
+      "texto": "❓ FFM El estatuto de personal no Sanitario permite al celador en determinados supuestos:",
+      "opciones": [
+        "La aplicación de tratamiento curativo de carácter no medicamentoso",
+        "Auxiliar a una facultativa directamente en consultas externas",
+        "Ayudar a la colocación y retirada de cuñas",
+        "Controlar directamente las bombonas de oxígeno"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 6
+    },
+    {
+      "texto": "❓ FFM Indique cuál no es una función de las celadoras:",
+      "opciones": [
+        "Ayudar a la persona encargada de amortajar a pacientes fallecidos",
+        "Trasladar cadáveres al mortuorio",
+        "Limpiar la mesa de autopsias",
+        "Informar a las familias del fallecimiento"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 7
+    },
+    {
+      "texto": "❓ FFM En las Unidades de Gestión Clínica, la actividad se realiza para:",
+      "opciones": [
+        "Mejorar la satisfacción de pacientes",
+        "Fomentar la información y la transparencia",
+        "Implicar a sus miembros en la gestión de los centros",
+        "Todas son correctas"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 8
+    },
+    {
+      "texto": "❓ FFM Las Unidades de Gestión Clínica comportan:",
+      "opciones": [
+        "Descentralización de decisiones sobre la gestión de recursos utilizados en la práctica clínica",
+        "Diseño organizativo enfocado a facilitar la eficacia, efectividad y eficiencia",
+        "Equipos multidisciplinares",
+        "Todas son correctas"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 9
+    },
+    {
+      "texto": "❓ FFM Cada Unidad de Gestión Clínica estará liderada por:",
+      "opciones": [
+        "Dirección Gerencia del Centro Sanitario correspondiente",
+        "Por su profesional con más antigüedad",
+        "Por un o una profesional perteneciente a la misma unidad",
+        "Por la Dirección Médica"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 10
+    },
+    {
+      "texto": "❓ FFM ¿El gorro es una prenda que los celadores deben utilizar dentro del quirófano?",
+      "opciones": [
+        "No, sólo deben utilizarlo las cirujanas",
+        "Es una prenda obligada para todos las personas que accedan al área quirúrgica",
+        "Sólo está indicado para el personal sanitario",
+        "Depende del tipo de cirugía que se realice, se utilizará o no"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 11
+    },
+    {
+      "texto": "❓ FFM La supervisora o supervisor de la planta le indica a un celador que ayude al aseo de un paciente encamado. ¿Qué zona del cuerpo dejarán para el final?",
+      "opciones": [
+        "Región perineal",
+        "Extremidades superiores",
+        "Extremidades inferiores",
+        "Región dorsal"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 12
+    },
+    {
+      "texto": "❓ FFM Una celadora de UCI deberá saber:",
+      "opciones": [
+        "Administrar sedantes a una paciente en caso de necesidad urgente",
+        "Intubar a los pacientes en caso de necesidad urgente",
+        "Hacer la reparación de las camas o camillas del servicio",
+        "Ayudar en los cambios posturales de las pacientes"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 13
+    },
+    {
+      "texto": "❓ FFM ¿Quién desplazará el aparato de artroscopias desde el almacén de utensilios y aparatos del quirófano hasta la mesa de operaciones?",
+      "opciones": [
+        "La celadora de almacén",
+        "El cirujano traumatólogo",
+        "El supervisor de quirófano",
+        "La celadora de quirófano"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 14
+    },
+    {
+      "texto": "❓ FFM Las almohadillas de polietileno hinchadas con aire y ubicadas a los lados de la cama para prevenir lesiones y caídas, se denominan:",
+      "opciones": [
+        "Centinelas de cama",
+        "Protectores de las barandillas",
+        "A y B son correctas",
+        "Barra de tracción"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 15
+    },
+    {
+      "texto": "❓ FFM ¿Qué es lo primero que deberá verificar un celador cuando traslade una paciente al quirófano?",
+      "opciones": [
+        "Qué esté rasurada la zona a operar",
+        "Que los informes correspondan a la paciente",
+        "Que lo sepan los familiares",
+        "No es su función efectuar verificaciones"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 16
+    },
+    {
+      "texto": "❓ FFM En caso de defunción de una paciente en el hospital, ¿podrá ser requerido el celador que se encuentra de servicio en la planta de la persona fallecida, para ayudar al personal de enfermería a amortajarla?",
+      "opciones": [
+        "No, esta función la debe realizar solamente personal de enfermería",
+        "Solamente si el éxitus se ha producido cuando la movilizaba",
+        "No, esta función la debe realizar solamente la celadora del mortuorio",
+        "Sí"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 17
+    },
+    {
+      "texto": "❓ FFM ¿A quién corresponde, normalmente, la función de limpieza del instrumental clínico?",
+      "opciones": [
+        "Regularmente a celadores",
+        "Regularmente a auxiliares de enfermería",
+        "Excepcionalmente a celadores",
+        "Excepcionalmente a auxiliares de enfermería"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 18
+    },
+    {
+      "texto": "❓ FFM ¿Cada cuánto tiempo se deben realizar los cambios posturales a una paciente encamada?",
+      "opciones": [
+        "Cada vez que la paciente lo solicita",
+        "Entre dos y tres horas",
+        "Cada hora",
+        "Depende de la patología de la paciente"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 19
+    },
+    {
+      "texto": "❓ FFM Las unidades que expresan la capacidad de una botella de oxígeno son:",
+      "opciones": [
+        "mm de Hg y Kg/cm3",
+        "Atmósferas (P)",
+        "Litros (l)",
+        "Todas son correctas"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 20
+    },
+    {
+      "texto": "❓ FFM Una celadora en el servicio de Farmacia tiene como función:",
+      "opciones": [
+        "Controlar y eliminar la medicación caducada",
+        "Todas las respuestas son correctas",
+        "Distribuir medicación y demás productos farmacéuticos a las Unidades del Hospital",
+        "Ayudar a técnicos de farmacia a preparar unidosis"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 21
+    },
+    {
+      "texto": "❓ FFM Una de éstas no es función de celadores de una unidad de Psiquiatría:",
+      "opciones": [
+        "Vigilar el orden y la armonía entre pacientes",
+        "Alimentar a pacientes que se nieguen a comer",
+        "Ayudar al aseo personal de pacientes que lo precisen",
+        "Colaborar con la técnica de sujeción de pacientes agitados"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 22
+    },
+    {
+      "texto": "❓ FFM Si es necesario acudir al laboratorio por el resultado de unas analíticas, ¿quién deberá ir?",
+      "opciones": [
+        "Familiares del paciente",
+        "Un auxiliar de enfermería",
+        "La celadora",
+        "La auxiliar administrativa del servicio"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 23
+    },
+    {
+      "texto": "❓ FFM Un celador destinado en el servicio de esterilización sabe que lo fundamental allí es:",
+      "opciones": [
+        "Desinfectar todos los utensilios y enseres",
+        "Revisar la funcionalidad de todos los utensilios y enseres",
+        "Eliminar los gérmenes de todos los utensilios y enseres",
+        "Limpiar perfectamente todos los utensilios y enseres"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 24
+    },
+    {
+      "texto": "❓ FFM Cuando una celadora que trabaja en el gimnasio de rehabilitación, es requerida para ayudar a la fisioterapeuta a iniciar la deambulación a una paciente deberá:",
+      "opciones": [
+        "Ayudar siempre que haya que utilizar un medio mecánico para los movimientos",
+        "Realizar sin excusa esa ayuda",
+        "Esa no es función de celadores",
+        "Ninguna de las repuestas anteriores es correcta"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 25
+    },
+    {
+      "texto": "❓ FFM Durante una autopsia, el celador deberá:",
+      "opciones": [
+        "Limpiar la mesa, el instrumental y la propia sala de autopsias",
+        "Esperar en la puerta por si se le necesita",
+        "Ayudar en la práctica de autopsias en aquellas funciones auxiliares que no requieran, por su parte, hacer uso del instrumental quirúrgico",
+        "Las respuestas a y c son correctas"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 26
+    },
+    {
+      "texto": "❓ FFM Una paciente sale de una consulta y tiene dudas sobre la dosificación de la medicación que le acaba de prescribir la especialista. Como no la quiere molestar, le pide a un celador de información que se lo aclare. ¿Qué debe hacer el celador?",
+      "opciones": [
+        "Leer el informe, y explicarle el tratamiento a seguir",
+        "Enviarla a su médico de familia en su Centro de Salud",
+        "Enviarla nuevamente a la consulta para que le aclaren sus dudas",
+        "Remitirla al servicio de cita previa"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 27
+    },
+    {
+      "texto": "❓ FFM Familiares de un paciente piden al celador de la puerta que les deje pasar unos alimentos para el paciente. ¿Que hará el celador?",
+      "opciones": [
+        "Los dejará pasar, si los alimentos no contienen alcohol",
+        "Les dice que los pasen, pero que la próxima vez pidan permiso al supervisor de planta",
+        "No permitirá la introducción de alimentos en el hospital",
+        "Solicita al guardia de seguridad que retenga los alimentos para devolverlos cuando"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 28
+    },
+    {
+      "texto": "❓ FFM Una celadora está ayudando a un enfermero a amortajar un cadáver para su traslado al mortuorio. Cuando el enfermero le indica que retire la sonda vesical del cadáver, la celadora:",
+      "opciones": [
+        "Se pondrá los guantes y la retirará, con cuidado de no romperla",
+        "Le indicará al enfermero que eso no es función suya",
+        "Le pedirá al enfermero que, antes, le vacíe el globo de sujeción",
+        "No la retirará, y llamará al Jefe de Personal Subalterno para informar"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 29
+    },
+    {
+      "texto": "❓ FFM Que ley propició la integración de pacientes psiquiátricos en el sistema sanitario andaluz?",
+      "opciones": [
+        "La Constitución Española (1978)",
+        "Ley de Autonomía del Paciente (41/2002)",
+        "Ley General de Sanidad (14/1986)",
+        "Ley de creación del Servicio Andaluz de Salud (2/1998)"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 30
+    },
+    {
+      "texto": "❓ FFM Se tiene que trasladar a un paciente a un servicio cuyo acceso tiene una pendiente y la camilla debe de subir por ella. La celadora debe de:",
+      "opciones": [
+        "Tirar de la camilla por los pies colocándose en la piecera",
+        "Empujar la camilla por los pies",
+        "Tirar de la cabecera para que el paciente salga de cabeza",
+        "Empujar la camilla desde la cabecera para que el paciente suba en el sentido de la"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 31
+    },
+    {
+      "texto": "❓ FFM En la posición de fowler, la paciente se halla semi sentada formando un ángulo de:",
+      "opciones": [
+        "30 grados",
+        "45 grados",
+        "90 grados",
+        "120 grados"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 32
+    },
+    {
+      "texto": "❓ FFM Cuando un celador traslada a un paciente desde un servicio a otro, ¿qué no deberá hacer?",
+      "opciones": [
+        "Llevar la historia del paciente",
+        "Colocar los drenajes sobre la cama",
+        "Informar al paciente de qué va a hacer con él",
+        "Informar al personal sanitario del servicio de origen de que se lleva al paciente"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 33
+    },
+    {
+      "texto": "❓ FFM Cuando una celadora traslada a un paciente a otras dependencias dentro del Hospital:",
+      "opciones": [
+        "La responsabilidad de la celadora será únicamente trasladar al paciente de la forma más rápida y correcta posible",
+        "Se responsabilizará también de la documentación que se le entregue en relación con el paciente",
+        "Sólo se responsabiliza de la documentación si lo lleva para realizarle una prueba diagnóstica",
+        "El personal de enfermería es el único responsable de la documentación clínica"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 34
+    },
+    {
+      "texto": "❓ FFM Si una celadora de UVI recibe la orden de colocar a un paciente en posición de “decúbito prono”, deberá colocarlo:",
+      "opciones": [
+        "De espaldas",
+        "De costado",
+        "Boca abajo",
+        "Sentado"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 35
+    },
+    {
+      "texto": "❓ FFM Las modificaciones realizadas en la postura corporal de pacientes encamados, se denominan:",
+      "opciones": [
+        "Mecánica corporal",
+        "Arcos de movimiento",
+        "Cambios posturales",
+        "Fisioterapia pasiva"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 36
+    },
+    {
+      "texto": "❓ FFM Observamos que un paciente se encuentra acostado sobre su espalda, con las piernas extendidas y sus brazos alineados a lo largo del cuerpo, ¿en qué posición se encuentra?",
+      "opciones": [
+        "Posición de fowler",
+        "Posición sims",
+        "Decúbito supino",
+        "Decúbito prono"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 37
+    },
+    {
+      "texto": "❓ FFM ¿Cuál no es una posición quirúrgica?",
+      "opciones": [
+        "Posición ginecológica o litotemia",
+        "Posición trendelemburg",
+        "Posición genupectoral o mahometana",
+        "Posición sims"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 38
+    },
+    {
+      "texto": "❓ FFM ¿Qué debe hacer un celador para entrar y salir de un ascensor con una silla de ruedas?",
+      "opciones": [
+        "Entrar empujando la silla de ruedas de frente para que pase primero la paciente y quede colocada mirando al fondo, para salir tirando de la silla caminando de espaldas",
+        "Entrar primero, caminando de espaldas y tirando de la silla para que la paciente también entre de espaldas. Una vez dentro girar la silla de ruedas para salir de la misma manera a como han entrado",
+        "Entrar empujando la silla de ruedas de frente para que pase primero la paciente y quede colocada mirando al fondo . Una vez dentro girar la silla de ruedas para salir de la misma manera a como han entrado",
+        "Entrar primero, caminando de espaldas y tirando de la silla para que la paciente"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 39
+    },
+    {
+      "texto": "❓ FFM La posición decúbito prono, también llamada decúbito ventral, consiste en:",
+      "opciones": [
+        "Estar acostado sobre el abdomen, cabeza girada lateralmente, piernas extendidas y brazos extendidos",
+        "Estar acostado sobre el abdomen, cabeza girada lateralmente, piernas flexionadas y brazos extendidos",
+        "Estar acostado sobre la espalda, cabeza girada lateralmente, piernas extendidas y brazos extendidos",
+        "Estar acostado sobre la espalda, cabeza girada lateralmente, piernas flexionadas y"
+      ],
+      "respuesta_correcta": 0,
+      "justificacion": "Respuesta correcta: A. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 40
+    },
+    {
+      "texto": "❓ FFM En la secuencia de apoyo sobre cuatro puntos debe indicarse a los pacientes que apoyen:",
+      "opciones": [
+        "Muleta derecha, pie izquierdo, muleta izquierda, pie derecho",
+        "Muleta izquierda, pie izquierdo, muleta derecha, pie derecho",
+        "A y B son correctas",
+        "Ninguna de las anteriores es correcta"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 41
+    },
+    {
+      "texto": "❓ FFM La identificación personal de los trabajadores y trabajadoras del Servicio Andaluz de Salud:",
+      "opciones": [
+        "Nunca es obligatoria, depende del Servicio al que pertenezca",
+        "El libro de Estilo del SAS no menciona en ningún momento esta cuestión",
+        "El ir identificado no cambia nada entre la relación que mantengan paciente y profesional",
+        "Es obligatorio para los y las profesionales del SAS utilizar tarjetas de identificación"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 42
+    },
+    {
+      "texto": "❓ FFM Si un familiar nos demanda información clínica de una paciente, el celador debe de:",
+      "opciones": [
+        "Acceder a la historia de la paciente, leerla e informar a la familia",
+        "Limitarse a tranquilizarlo, dando información de que la evolución es buena",
+        "Decirle que no estamos autorizados a dar información",
+        "Orientar a la familia hacia el facultativo referente de la paciente"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 43
+    },
+    {
+      "texto": "❓ FFM Si un celador detecta un fallo u omisión que pueda afectar a una paciente:",
+      "opciones": [
+        "Intentará solucionarlo siempre que sea posible con su actuación, tanto si le corresponde como si es tarea de otro profesional",
+        "Lo comunicará al responsable de la Unidad",
+        "A y B son verdaderas",
+        "Informará a un familiar"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 44
+    },
+    {
+      "texto": "❓ FFM ¿Qué significado tiene identificarse correctamente?",
+      "opciones": [
+        "Supone aceptar la responsabilidad personal del centro",
+        "Supone aceptar la responsabilidad del SAS como organización",
+        "Todas son correctas",
+        "Ayuda a que el paciente sepa quién le está atendiendo"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 45
+    },
+    {
+      "texto": "❓ FFM Respecto a la circulación del historial clínico de una paciente:",
+      "opciones": [
+        "Cualquier familiar podrá pedir el historial clínico de la paciente en cuestión",
+        "El historial clínico es un documento que no tiene ninguna relevancia",
+        "Es un documento accesible y nada comprometedor para la paciente",
+        "Debe extremarse el cuidado a fin de que no resulte accesible a personas ajenas al"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 46
+    },
+    {
+      "texto": "❓ FFM Si un paciente desea que determinada información personal quede entre un profesional y él, debe saber que:",
+      "opciones": [
+        "Toda la información del paciente debe figurar en la Historia clínica",
+        "Toda la información del paciente es compartida por todos los médicos",
+        "Debe respetarse su criterio siempre que no afecte a valoraciones clínicas",
+        "El paciente no podrá pedir ese trato de su información personal"
+      ],
+      "respuesta_correcta": 3,
+      "justificacion": "Respuesta correcta: D. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 47
+    },
+    {
+      "texto": "❓ FFM La organización de la atención sanitaria se rige por la:",
+      "opciones": [
+        "Orientación al paciente en el uso de los servicios",
+        "Organización que ayuda a resolver los problemas del paciente",
+        "Identificación personal e institucional como medida de orientación",
+        "Todas son correctas"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 48
+    },
+    {
+      "texto": "❓ FFM El consentimiento informado es un planteamiento ético que reconoce a los y las pacientes el derecho a decidir sobre su salud. ¿Cual de estas afirmaciones no es correcta?",
+      "opciones": [
+        "Se obtiene libremente, sin intimidación ni influencia indebida",
+        "Se realiza básicamente a través de intercambio verbal, y por escrito en algunos procesos",
+        "Debe de proporcionar a la persona información adecuada, accesible y comprensible, en una forma y en un lenguaje que ésta entienda",
+        "Puede ocultar alguna información a la persona, con el pretexto de evitar el"
+      ],
+      "respuesta_correcta": 1,
+      "justificacion": "Respuesta correcta: B. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 49
+    },
+    {
+      "texto": "❓ FFM La interrelación con la ciudadanía estará presidida por el respeto a sus derechos y dignidad, y se seguirán las indicaciones contenidas en:",
+      "opciones": [
+        "El libro de Estilo del Servicio Andaluz de Salud",
+        "Ley General de Sanidad",
+        "Ley de Igualdad",
+        "Plan Andaluz de Salud"
+      ],
+      "respuesta_correcta": 2,
+      "justificacion": "Respuesta correcta: C. celador_a_prueba_aplazada-2025",
+      "examen_origen": "celador_a_prueba_aplazada-2025",
+      "numero_pregunta": 50
+    }
+  ]
+}
