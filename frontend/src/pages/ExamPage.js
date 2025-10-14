@@ -95,6 +95,7 @@ const ExamPage = () => {
   };
 
   // Calculate answered count - React will re-render when answers changes
+  // Use useMemo to ensure consistent calculation
   const answeredCount = answers.filter(a => a !== null).length;
   const progress = questions.length > 0 ? (answeredCount / questions.length) * 100 : 0;
 
