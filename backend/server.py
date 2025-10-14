@@ -130,8 +130,8 @@ async def load_official_questions_to_db():
         logging.error(f"❌ Error cargando preguntas oficiales: {e}")
 
 
-# Helper function to generate questions with AI (25 questions = 50%)
-async def generate_ai_questions(count: int = 25) -> List[Question]:
+# Helper function to generate questions with AI (15 questions = 30%)
+async def generate_ai_questions(count: int = 15) -> List[Question]:
     """Generate questions using AI that replicate official exam style"""
     api_key = os.environ.get('EMERGENT_LLM_KEY')
     ai_questions = []
