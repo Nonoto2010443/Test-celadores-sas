@@ -132,49 +132,110 @@ async def load_official_questions_to_db():
 
 # Helper function to generate questions with AI (25 questions = 50%)
 async def generate_ai_questions(count: int = 25) -> List[Question]:
-    """Generate questions using AI"""
+    """Generate questions using AI that replicate official exam style"""
     api_key = os.environ.get('EMERGENT_LLM_KEY')
     ai_questions = []
     
+    # Load official exam examples to learn style
+    try:
+        with open('/app/backend/examenes_oficiales/examenes_procesados.json', 'r', encoding='utf-8') as f:
+            exam_data = json.load(f)
+            official_examples = exam_data['preguntas'][:15]  # Get 15 examples
+        with open('/app/backend/ejemplos_tests_oficiales.json', 'r', encoding='utf-8') as f:
+            db_data = json.load(f)
+            db_examples = []
+            for tema_preguntas in list(db_data['temas'].values())[:3]:
+                db_examples.extend(tema_preguntas[:5])
+    except Exception as e:
+        logging.warning(f"No se pudieron cargar ejemplos oficiales: {e}")
+        official_examples = []
+        db_examples = []
+    
+    # Topics distribution based on official exams
     topics = [
-        ("Constitución Española", "1"),
-        ("Estatuto de Autonomía de Andalucía", "2"),
-        ("Ley 14/1986 General de Sanidad", "3"),
-        ("Organización Sanitaria SAS", "4"),
-        ("Ley de Transparencia", "5")
+        ("Constitución Española", "1", 5),
+        ("Estatuto de Autonomía de Andalucía", "2", 5),
+        ("Ley 14/1986 General de Sanidad y Organización SAS", "3", 5),
+        ("Estatuto Marco Personal Estatutario", "4", 5),
+        ("Funciones del Celador y Atención al Usuario", "5", 5)
     ]
     
-    questions_per_topic = count // len(topics) + 1
-    
-    for topic_name, tema_num in topics:
+    for topic_name, tema_num, questions_needed in topics:
         if len(ai_questions) >= count:
             break
             
         try:
+            # Build examples prompt with official style
+            examples_text = "\n\n**EJEMPLOS DE EXÁMENES OFICIALES REALES (REPLICA EXACTAMENTE ESTE ESTILO):**\n"
+            
+            # Add examples from official exams
+            for i, ex in enumerate(official_examples[:3], 1):
+                examples_text += f"\nEjemplo {i}:\n"
+                examples_text += f"Pregunta: {ex['texto']}\n"
+                for j, opt in enumerate(ex['opciones']):
+                    examples_text += f"{chr(65+j)}) {opt}\n"
+                examples_text += f"Correcta: {chr(65+ex['respuesta_correcta'])}\n"
+            
             chat = LlmChat(
                 api_key=api_key,
                 session_id=str(uuid.uuid4()),
-                system_message=f"""Eres un experto en oposiciones de celadores del SAS.
+                system_message=f"""Eres un elaborador de exámenes oficiales para oposiciones de celadores del SAS.
 
-FORMATO OBLIGATORIO para cada pregunta:
-- DEBE comenzar con: ❓ FFM T{tema_num}
-- Seguido de la pregunta sobre {topic_name}
-- 4 opciones claras (A, B, C, D)
-- Una única respuesta correcta
-- Justificación con referencia legal específica
+TU MISIÓN: Crear preguntas IDÉNTICAS en estilo, dificultad y formato a los exámenes oficiales reales del SAS.
 
-REGLAS ESTRICTAS:
-1. Todas las opciones DEBEN tener texto (no vacías)
-2. Pregunta basada en legislación real
-3. Respuesta inequívoca y verificable"""
+CARACTERÍSTICAS DE LOS EXÁMENES OFICIALES SAS:
+1. Formato estricto: "❓ FFM T{tema_num} [pregunta precisa]"
+2. Preguntas basadas en legislación REAL y vigente
+3. Referencias a artículos específicos (art. X, Ley Y)
+4. Opciones claras y diferenciadas
+5. Una única respuesta inequívocamente correcta
+6. Nivel técnico: medio-alto, propio de oposición
+
+TEMAS FRECUENTES EN EXÁMENES OFICIALES:
+- Artículos específicos de leyes (nunca generalidades)
+- Competencias, funciones y organización
+- Derechos y deberes de pacientes y profesionales
+- Procedimientos y protocolos específicos
+
+ERRORES A EVITAR:
+❌ Preguntas genéricas o teóricas
+❌ Opciones ambiguas o interpretables
+❌ Referencias vagas ("la ley establece...")
+❌ Preguntas de opinión o subjetivas
+
+✅ HACER:
+- Citar artículos concretos (art. 14, art. 43.2, etc.)
+- Usar terminología técnica precisa
+- Opciones técnicamente exactas
+- Justificaciones con base legal"""
             ).with_model("openai", "gpt-4o-mini")
             
-            prompt = f"""Genera EXACTAMENTE {min(questions_per_topic, count - len(ai_questions))} preguntas sobre: {topic_name}
+            prompt = f"""Genera {questions_needed} preguntas tipo examen oficial SAS sobre: {topic_name}
 
-FORMATO JSON (sin markdown):
-{{"preguntas":[{{"texto":"❓ FFM T{tema_num} [pregunta sobre legislación]","opciones":["Opción A completa","Opción B completa","Opción C completa","Opción D completa"],"respuesta_correcta":0,"justificacion":"Artículo X de [Ley] establece..."}}]}}
+{examples_text}
 
-IMPORTANTE: Todas las opciones deben tener texto completo. Solo JSON."""
+**INSTRUCCIONES CRÍTICAS:**
+1. ESTUDIA los ejemplos anteriores: observa el nivel de detalle, la precisión técnica, el formato
+2. REPLICA ese mismo estilo: mismo nivel de dificultad, misma precisión en referencias legales
+3. USA artículos reales de la legislación vigente (Constitución, Estatuto Andalucía, Ley 14/1986, Ley 55/2003)
+4. ASEGURA que cada pregunta podría aparecer en un examen oficial real
+
+FORMATO JSON (sin markdown, sin comentarios):
+{{"preguntas":[
+  {{
+    "texto":"❓ FFM T{tema_num} Según el art. [número] de [Ley específica], [pregunta precisa]",
+    "opciones":[
+      "Opción A técnicamente precisa",
+      "Opción B técnicamente precisa",
+      "Opción C técnicamente precisa", 
+      "Opción D técnicamente precisa"
+    ],
+    "respuesta_correcta":0,
+    "justificacion":"El art. [número] de [Ley] establece textualmente que [explicación precisa]"
+  }}
+]}}
+
+Genera EXACTAMENTE {questions_needed} preguntas que sean indistinguibles de las oficiales."""
             
             user_message = UserMessage(text=prompt)
             response = await chat.send_message(user_message)
@@ -203,7 +264,7 @@ IMPORTANTE: Todas las opciones deben tener texto completo. Solo JSON."""
             logging.error(f"Error generando preguntas IA para {topic_name}: {e}")
             continue
     
-    logging.info(f"✅ Generadas {len(ai_questions)} preguntas con IA")
+    logging.info(f"✅ Generadas {len(ai_questions)} preguntas estilo oficial con IA")
     return ai_questions[:count]
 
 
