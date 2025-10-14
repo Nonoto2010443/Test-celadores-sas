@@ -49,8 +49,8 @@ const ExamPage = () => {
   const generateExam = async () => {
     try {
       setLoading(true);
-      // Increased timeout to 120 seconds (2 minutes) for AI generation
-      const response = await axios.post(`${API}/exams/generate`, {}, { timeout: 120000 });
+      // Increased timeout to 180 seconds (3 minutes) for AI generation
+      const response = await axios.post(`${API}/exams/generate`, {}, { timeout: 180000 });
       setQuestions(response.data);
       setAnswers(new Array(response.data.length).fill(null));
       toast.success("¡Examen generado exitosamente!");
