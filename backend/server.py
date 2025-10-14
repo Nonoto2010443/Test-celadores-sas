@@ -245,9 +245,8 @@ async def get_db_questions(count: int, tipo: str = "oficial") -> List[Question]:
 async def generate_mixed_exam() -> List[Question]:
     """
     Generate exam with:
-    - 30% AI questions (15)
-    - 40% Official DB questions (20) 
-    - 30% Official exam questions (15)
+    - 50% AI questions (25)
+    - 50% Database questions (25) - from all official sources
     Total: 50 questions
     """
     all_questions = []
@@ -256,20 +255,17 @@ async def generate_mixed_exam() -> List[Question]:
         # Ensure official questions are loaded
         await load_official_questions_to_db()
         
-        # 1. Generate 15 AI questions (30%)
-        logging.info("🤖 Generando 15 preguntas con IA...")
-        ai_questions = await generate_ai_questions(15)
+        # 1. Generate 25 AI questions (50%)
+        logging.info("🤖 Generando 25 preguntas con IA (50%)...")
+        ai_questions = await generate_ai_questions(25)
         all_questions.extend(ai_questions)
+        logging.info(f"  ✅ {len(ai_questions)} preguntas IA generadas")
         
-        # 2. Get 20 questions from official DB (40%)
-        logging.info("📚 Obteniendo 20 preguntas de base de datos oficial...")
-        db_questions = await get_db_questions(20, "oficial")
+        # 2. Get 25 questions from database (50%) - all sources mixed
+        logging.info("📚 Obteniendo 25 preguntas de base de datos oficial (50%)...")
+        db_questions = await get_db_questions(25, "oficial")
         all_questions.extend(db_questions)
-        
-        # 3. Get 15 questions from official exams (30%) - same source but different sample
-        logging.info("📝 Obteniendo 15 preguntas de exámenes oficiales...")
-        exam_questions = await get_db_questions(15, "oficial")
-        all_questions.extend(exam_questions)
+        logging.info(f"  ✅ {len(db_questions)} preguntas de BD obtenidas")
         
         # Shuffle all questions randomly
         random.shuffle(all_questions)
@@ -284,7 +280,7 @@ async def generate_mixed_exam() -> List[Question]:
             random.shuffle(all_questions)
         
         final_questions = all_questions[:50]
-        logging.info(f"✅ Examen completo: {len(final_questions)} preguntas mezcladas")
+        logging.info(f"✅ Examen completo: {len(final_questions)} preguntas (50% IA + 50% BD)")
         
         return final_questions
         
