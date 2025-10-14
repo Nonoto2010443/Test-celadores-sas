@@ -8,7 +8,7 @@ import { Home, CheckCircle2, XCircle, Clock, Award, ChevronRight } from "lucide-
 import { Progress } from "@/components/ui/progress";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const API = `${BACKEND_URL}/api`;
+const API = BACKEND_URL; // .env already includes /api
 
 const ResultsPage = () => {
   const { examId } = useParams();
