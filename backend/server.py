@@ -151,23 +151,20 @@ Las preguntas deben ser claras, precisas y del nivel de dificultad de una oposic
         # Create prompt for generating questions
         prompt = f"""Genera exactamente {num_questions} preguntas tipo test para el examen de Celadores del SAS.
 
-REGLAS ESTRICTAS:
-1. TODAS las preguntas deben comenzar con el prefijo: "❓FFM.- "
-2. Nivel de dificultad: BÁSICO
-3. Gramática y ortografía PERFECTAS
-4. Imita el estilo de exámenes oficiales del SAS
-5. SOLO preguntas de {temas_rango}
+REGLAS OBLIGATORIAS:
+1. Prefijo: TODAS las preguntas deben comenzar con "❓FFM.- "
+2. Dificultad: Nivel BÁSICO
+3. Gramática y ortografía: PERFECTAS
+4. Estilo: Imitar exámenes oficiales del SAS
+5. Cobertura: SOLO preguntas de {temas_rango}
 
-REGLA CRÍTICA SOBRE ABREVIATURAS:
-- PROHIBIDO usar abreviaturas de leyes, estatutos y organismos
-- SIEMPRE usa el nombre completo y oficial
-- ÚNICA EXCEPCIÓN PERMITIDA: "SAS" para Servicio Andaluz de Salud
-- Ejemplos de lo que NO debes hacer:
-  ❌ NO USAR: EM, E.M., EA, EMPNS, LPRL, LOPD, etc.
-  ✅ SIEMPRE USAR: Estatuto Marco, Estatuto Marco del Personal No Sanitario, Ley de Prevención de Riesgos Laborales, Ley Orgánica de Protección de Datos, etc.
-- Esta regla es OBLIGATORIA para garantizar la claridad
+REGLA CRÍTICA - PROHIBICIÓN DE ABREVIATURAS:
+✓ SAS (Servicio Andaluz de Salud) - ÚNICA abreviatura permitida
+✗ NO usar: EM, EA, EMPNS, LPRL, LOPD (ni ninguna otra abreviatura)
+✓ SIEMPRE escribir nombres completos: Estatuto Marco, Ley de Prevención de Riesgos Laborales, Ley Orgánica de Protección de Datos, etc.
 
-IMPORTANTE: Responde ÚNICAMENTE con un objeto JSON válido, sin texto adicional.
+FORMATO DE RESPUESTA:
+Responde ÚNICAMENTE con JSON válido (sin texto adicional, sin markdown).
 
 Formato JSON exacto:
 {{
