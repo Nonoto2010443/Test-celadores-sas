@@ -926,7 +926,7 @@ async def generate_new_exam(current_user: TokenData = Depends(require_active_sub
                 logger.error(f"opciones is not a list: {type(opciones)}")
                 opciones = []
             
-            if len(opciones) < 2:
+            if len(opciones) < 4:
                 logger.error(f"Question has insufficient options: {len(opciones)} - {pregunta_texto[:50]}")
                 continue  # Skip this question if it doesn't have enough options
             
@@ -957,7 +957,10 @@ async def generate_new_exam(current_user: TokenData = Depends(require_active_sub
         # Take exactly 50 questions
         all_questions = all_questions[:50]
         
-        logger.info(f"Exam composed: {len(all_questions)} questions (43 from DB, 7 from AI)")
+        # Log composition
+        db_count = len([q for q in all_questions if 'Consulta el temario oficial del SAS' in q.explicacion])
+        ai_count = len(all_questions) - db_count
+        logger.info(f"Exam composed: {len(all_questions)} questions ({db_count} from DB [{db_count/50*100:.1f}%], {ai_count} from AI [{ai_count/50*100:.1f}%])")
         
         exam = Exam(preguntas=all_questions)
         
