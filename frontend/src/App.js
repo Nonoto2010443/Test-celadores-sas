@@ -7,6 +7,9 @@ import Register from './pages/Register';
 import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/ResetPassword';
 import Dashboard from './pages/Dashboard';
+import Pricing from './pages/Pricing';
+import SubscriptionSuccess from './pages/SubscriptionSuccess';
+import SubscriptionCancel from './pages/SubscriptionCancel';
 import ExamPage from './pages/ExamPage';
 import ResultsPage from './pages/ResultsPage';
 import './App.css';
@@ -22,6 +25,9 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
             <Route path="/reset-password" element={<ResetPassword />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/subscription-success" element={<SubscriptionSuccess />} />
+            <Route path="/subscription-cancel" element={<SubscriptionCancel />} />
             
             {/* Protected routes */}
             <Route path="/dashboard" element={
