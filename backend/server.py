@@ -397,13 +397,61 @@ async def generate_exam():
         raise HTTPException(status_code=500, detail=f"Error al generar examen: {str(e)}")
 
 
-def generate_justification_simple(pregunta: Question) -> str:
-    """Generate a simple justification without AI to avoid delays"""
-    correct_letter = chr(65 + pregunta.respuesta_correcta)  # 0->A, 1->B, etc.
-    correct_option = pregunta.opciones[pregunta.respuesta_correcta]
+async def generate_justification_with_ai(pregunta: Question) -> str:
+    """Generate an educational justification using AI"""
+    api_key = os.environ.get('EMERGENT_LLM_KEY')
+    correct_letter = chr(65 + pregunta.respuesta_correcta)
     
-    # Simple but clear justification
-    return f"La respuesta correcta es la opción {correct_letter}: {correct_option}"
+    try:
+        chat = LlmChat(
+            api_key=api_key,
+            session_id=str(uuid.uuid4()),
+            system_message="""Eres un experto en legislación y temario de oposiciones de celadores del SAS.
+
+MISIÓN: Proporcionar justificaciones breves y educativas basadas en legislación o temario oficial.
+
+FORMATO DE RESPUESTA:
+- 1-2 líneas máximo
+- Citar artículo/ley si es posible
+- Explicar POR QUÉ es correcta esa opción
+- NO repetir el texto de la opción correcta
+- Ser educativo y claro
+
+EJEMPLO BUENO:
+"Según el art. 43 de la Constitución Española, se reconoce el derecho a la protección de la salud y compete a los poderes públicos organizar y tutelar la salud pública."
+
+EJEMPLO MALO:
+"La respuesta correcta es la opción B: [texto de la opción]" ❌"""
+        ).with_model("openai", "gpt-4o-mini")
+        
+        prompt = f"""Genera una justificación educativa breve para esta pregunta:
+
+PREGUNTA: {pregunta.texto}
+
+OPCIONES:
+A) {pregunta.opciones[0]}
+B) {pregunta.opciones[1]}
+C) {pregunta.opciones[2]}
+D) {pregunta.opciones[3]}
+
+RESPUESTA CORRECTA: {correct_letter}
+
+Genera una justificación de máximo 2 líneas que explique POR QUÉ la opción {correct_letter} es correcta, citando el artículo o legislación si es posible. NO repitas el texto de la opción."""
+        
+        user_message = UserMessage(text=prompt)
+        response = await chat.send_message(user_message)
+        
+        justification = response.strip()
+        
+        # Si la IA repite la opción correcta, usar fallback
+        if pregunta.opciones[pregunta.respuesta_correcta][:30].lower() in justification.lower():
+            return f"La opción {correct_letter} es correcta según el temario oficial del SAS."
+        
+        return justification
+        
+    except Exception as e:
+        logging.error(f"Error generando justificación con IA: {e}")
+        return f"La opción {correct_letter} es correcta según el temario oficial del SAS."
 
 
 @api_router.post("/exams/submit", response_model=ExamResult)
