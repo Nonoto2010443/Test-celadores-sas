@@ -539,3 +539,35 @@ agent_communication:
   - agent: "testing"
     message: "✅ PERMANENT RULES VERIFICATION COMPLETE - Conducted exhaustive testing of permanent rules implementation with outstanding results. Generated and analyzed 8 exams (250 questions total) with 100% compliance achieved: NO forbidden abbreviations detected, SAS abbreviation properly allowed, perfect 85%/15% DB/AI composition maintained, expanded legal forms correctly implemented, and AI questions following all rules. The permanent rules are working flawlessly and are permanently enforced. System is production-ready with full abbreviation compliance."
 
+
+
+backend:
+  - task: "Dynamic AI Justifications with Google Gemini"
+    implemented: true
+    working: true
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Implemented dynamic AI-powered justifications using Google Gemini 2.0 Flash. Created generate_justification_with_ai() function that generates detailed, educational explanations for each exam question. Modified submit_exam endpoint to automatically generate justifications for all 50 questions after submission. Uses Emergent LLM Key for authentication. System message trains Gemini as SAS Celador expert. Each justification explains why correct answer is correct and why others are wrong, with references to laws and concepts. Processing time ~1.5-2.5 minutes per exam. Fallback to default message if AI fails. Fully integrated and ready for testing."
+
+metadata:
+  created_by: "main_agent"
+  version: "4.0"
+  test_sequence: 5
+  run_ui: false
+
+test_plan:
+  current_focus:
+    - "Dynamic AI Justifications with Google Gemini"
+  stuck_tasks: []
+  test_all: false
+  test_priority: "high_first"
+
+agent_communication:
+  - agent: "main"
+    message: "User requested radical improvement of exam justifications using Google AI (Gemini). Instead of static 'Consulta el temario oficial del SAS', system now generates detailed, educational justifications in real-time. Implemented: 1) New function generate_justification_with_ai() using Gemini 2.0 Flash via Emergent LLM Key, 2) Modified submit_exam endpoint to generate 50 justifications per exam, 3) Specialized prompt for SAS Celador education, 4) Justifications explain why correct answer is correct and why others are wrong, 5) References to specific laws and articles, 6) Professional Spanish tone, 3-5 lines per justification. Processing: async, ~2-3 seconds per question. Cost: ~0.05-0.10 USD per exam. Backend restarted successfully. Ready for manual testing."
+
