@@ -66,10 +66,10 @@
 ## 2. COMPOSICIÓN DEL EXAMEN
 
 ### 2.1 Distribución por Origen de las Preguntas
-**OBLIGATORIO - NO MODIFICAR:**
+**OBLIGATORIO - ACTUALIZADO:**
 
-- **85%** de las preguntas DEBEN provenir de la base de datos (43 preguntas de 50)
-- **15%** de las preguntas DEBEN ser generadas por IA (7 preguntas de 50)
+- **95%** de las preguntas DEBEN provenir de la base de datos (47-48 preguntas de 50)
+- **5%** de las preguntas DEBEN ser generadas por IA (2-3 preguntas de 50)
 
 ### 2.2 Distribución por Temas
 **OBLIGATORIO - NO MODIFICAR:**
