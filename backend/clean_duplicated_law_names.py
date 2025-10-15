@@ -23,29 +23,47 @@ def clean_duplicated_law_names(text):
     if not text or not isinstance(text, str):
         return text
     
-    # Pattern for detecting duplications
+    # Primero, pattern más agresivo para capturar cualquier duplicación del formato "Ley X/YYYY, de DD de mes,"
+    # Este patrón captura la ley completa hasta la coma y la busca duplicada
+    
+    # Patrón general para detectar Ley X/YYYY, de DD de MMMM, ... duplicada
+    pattern1 = r'(Ley Orgánica \d+/\d+, de \d+ de \w+,)\s+\1'
+    text = re.sub(pattern1, r'\1', text, flags=re.IGNORECASE)
+    
+    pattern2 = r'(Ley \d+/\d+, de \d+ de \w+,)\s+\1'
+    text = re.sub(pattern2, r'\1', text, flags=re.IGNORECASE)
+    
+    # Específicos para casos conocidos
     duplications = [
-        # Estatuto de Autonomía duplicado
-        (r'(Ley Orgánica 2/2007, de 19 de marzo, de reforma del) \1', r'\1'),
-        (r'(Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía) \1', r'\1'),
+        # Estatuto de Autonomía duplicado - versión completa
+        (r'Ley Orgánica 2/2007, de 19 de marzo, de reforma del Ley Orgánica 2/2007, de 19 de marzo, de reforma del', 'Ley Orgánica 2/2007, de 19 de marzo, de reforma del'),
         
         # Estatuto Marco duplicado
-        (r'(Ley 55/2003, de 16 de diciembre, del) \1', r'\1'),
-        (r'(Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud) \1', r'\1'),
+        (r'Ley 55/2003, de 16 de diciembre, del Ley 55/2003, de 16 de diciembre, del', 'Ley 55/2003, de 16 de diciembre, del'),
         
-        # Otras leyes duplicadas
-        (r'(Ley 31/2995, de 8 de noviembre, de) \1', r'\1'),
-        (r'(Ley 14/1986, de 25 de abril, General de Sanidad) \1', r'\1'),
-        (r'(Ley 2/1998, de 15 de junio, de Salud de Andalucía) \1', r'\1'),
-        (r'(Ley Orgánica 3/2018, de 5 de diciembre, de) \1', r'\1'),
-        (r'(Ley 1/2014, de 24 de junio, de) \1', r'\1'),
-        (r'(Ley 12/2007, de 26 de noviembre, para) \1', r'\1'),
-        (r'(Ley 13/2007, de 26 de noviembre, de) \1', r'\1'),
-        (r'(Ley 41/2002, de 14 de noviembre, básica) \1', r'\1'),
+        # Prevención Riesgos duplicado
+        (r'Ley 31/1995, de 8 de noviembre, de Ley 31/1995, de 8 de noviembre, de', 'Ley 31/1995, de 8 de noviembre, de'),
         
-        # Pattern general para cualquier duplicación "Ley X/YYYY, de DD de MMM, de X Ley X/YYYY, de DD de MMM, de X"
-        (r'(Ley \d+/\d+, de \d+ de \w+, (?:de|del|para|básica)) \1', r'\1'),
-        (r'(Ley Orgánica \d+/\d+, de \d+ de \w+, (?:de|del|para|básica)) \1', r'\1'),
+        # Sanidad duplicado
+        (r'Ley 14/1986, de 25 de abril, Ley 14/1986, de 25 de abril,', 'Ley 14/1986, de 25 de abril,'),
+        
+        # Salud Andalucía duplicado
+        (r'Ley 2/1998, de 15 de junio, de Ley 2/1998, de 15 de junio, de', 'Ley 2/1998, de 15 de junio, de'),
+        
+        # Protección Datos duplicado
+        (r'Ley Orgánica 3/2018, de 5 de diciembre, de Ley Orgánica 3/2018, de 5 de diciembre, de', 'Ley Orgánica 3/2018, de 5 de diciembre, de'),
+        
+        # Transparencia duplicado
+        (r'Ley 1/2014, de 24 de junio, de Ley 1/2014, de 24 de junio, de', 'Ley 1/2014, de 24 de junio, de'),
+        
+        # Igualdad duplicado
+        (r'Ley 12/2007, de 26 de noviembre, Ley 12/2007, de 26 de noviembre,', 'Ley 12/2007, de 26 de noviembre,'),
+        
+        # Violencia género duplicado
+        (r'Ley 13/2007, de 26 de noviembre, de Ley 13/2007, de 26 de noviembre, de', 'Ley 13/2007, de 26 de noviembre, de'),
+        
+        # Autonomía paciente duplicado
+        (r'Ley 41/2002, de 14 de noviembre, Ley 41/2002, de 14 de noviembre,', 'Ley 41/2002, de 14 de noviembre,'),
     ]
     
     for pattern, replacement in duplications:
