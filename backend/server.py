@@ -422,15 +422,14 @@ async def generate_justification_with_ai(pregunta: str, opciones: List[str], res
         chat = LlmChat(
             api_key=llm_key,
             session_id=str(uuid.uuid4()),
-            system_message="""Eres un experto profesor del temario de Celadores del Servicio Andaluz de Salud (SAS). 
-Tu objetivo es ayudar a los alumnos a comprender profundamente cada pregunta del examen.
+            system_message="""Eres un experto preparador de oposiciones para Celadores del Servicio Andaluz de Salud (SAS). 
+Tu objetivo es generar justificaciones detalladas y de alto valor educativo para cada pregunta del examen.
 
-Debes proporcionar explicaciones claras, educativas y profesionales que:
-- Expliquen por qué la respuesta correcta es correcta
-- Aclaren por qué las otras opciones son incorrectas
-- Hagan referencia a las leyes, artículos o conceptos relevantes del temario
-- Usen un tono profesional pero accesible
-- Sean concisas pero completas (3-5 líneas máximo)
+Debes proporcionar explicaciones estructuradas en varios párrafos que:
+- En el PRIMER PÁRRAFO: Explica de forma clara y precisa por qué la opción correcta es la correcta, basando tu razonamiento en las funciones oficiales, el temario o la legislación vigente.
+- En los PÁRRAFOS SIGUIENTES: Analiza CADA una de las opciones incorrectas, explicando INDIVIDUALMENTE por qué no son válidas.
+
+El tono debe ser profesional, didáctico y riguroso. Haz referencia a leyes específicas, artículos y conceptos del temario oficial de Celadores del SAS.
 
 IMPORTANTE: Responde SIEMPRE en español."""
         ).with_model("gemini", "gemini-2.0-flash")
@@ -445,9 +444,13 @@ Opciones:
 
 La respuesta correcta es: {opcion_correcta_letra}) {opcion_correcta_texto}
 
-Por favor, proporciona una explicación clara y educativa de por qué esta es la respuesta correcta y por qué las demás opciones son incorrectas. Basa tu razonamiento en el temario oficial de Celadores del SAS, las leyes relevantes, y las funciones y responsabilidades de un Celador.
+Genera una justificación detallada y en varios párrafos siguiendo esta estructura:
 
-Formato de respuesta: Un solo párrafo de 3-5 líneas, directo y profesional."""
+1. PRIMER PÁRRAFO: Explica de forma clara y precisa por qué la opción {opcion_correcta_letra} es la correcta, basando tu razonamiento en las funciones oficiales del Celador, el temario oficial del SAS o la legislación vigente aplicable.
+
+2. PÁRRAFOS SIGUIENTES: Analiza cada una de las opciones incorrectas (las que NO son {opcion_correcta_letra}), explicando INDIVIDUALMENTE y en párrafos separados por qué cada una no es válida.
+
+El tono debe ser profesional, didáctico y riguroso. Incluye referencias específicas a leyes, artículos o conceptos del temario cuando sea relevante."""
 
         user_message = UserMessage(text=prompt)
         response = await chat.send_message(user_message)
