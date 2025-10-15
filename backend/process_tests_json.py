@@ -22,20 +22,26 @@ def cargar_json(archivo_path):
 def procesar_pregunta_json(pregunta_json, tema, origen):
     """Convierte una pregunta JSON al formato de MongoDB"""
     
-    # Extraer opciones en orden A, B, C, D
+    # Extraer opciones en orden A, B, C, D (probar mayúsculas y minúsculas)
     opciones = []
-    for letra in ['A', 'B', 'C', 'D']:
-        if letra in pregunta_json['Options']:
-            # Limpiar el texto de la opción (quitar la letra inicial si está)
-            texto_opcion = pregunta_json['Options'][letra]
-            # Remover prefijos como "A. ", "B. ", etc.
-            texto_limpio = texto_opcion
-            if texto_limpio.startswith(f"{letra}. "):
-                texto_limpio = texto_limpio[3:]
-            elif texto_limpio.startswith(f"{letra} "):
-                texto_limpio = texto_limpio[2:]
+    for letra_may in ['A', 'B', 'C', 'D']:
+        letra_min = letra_may.lower()
+        
+        if letra_may in pregunta_json['Options']:
+            texto_opcion = pregunta_json['Options'][letra_may]
+        elif letra_min in pregunta_json['Options']:
+            texto_opcion = pregunta_json['Options'][letra_min]
+        else:
+            continue
             
-            opciones.append(texto_limpio.strip())
+        # Limpiar el texto de la opción
+        texto_limpio = texto_opcion
+        if texto_limpio.startswith(f"{letra_may}. ") or texto_limpio.startswith(f"{letra_min}. "):
+            texto_limpio = texto_limpio[3:]
+        elif texto_limpio.startswith(f"{letra_may} ") or texto_limpio.startswith(f"{letra_min} "):
+            texto_limpio = texto_limpio[2:]
+        
+        opciones.append(texto_limpio.strip())
     
     # Obtener índice de respuesta correcta
     respuesta_letra = pregunta_json['CorrectOption']
