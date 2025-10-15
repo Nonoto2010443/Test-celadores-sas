@@ -128,6 +128,83 @@ class ResetPasswordRequest(BaseModel):
     token: str
     new_password: str
 
+# Helper function to send password reset email
+async def send_password_reset_email(email: str, reset_token: str, origin_url: str):
+    """Send password reset email using SendGrid"""
+    try:
+        sendgrid_api_key = os.environ.get('SENDGRID_API_KEY')
+        sender_email = os.environ.get('SENDER_EMAIL')
+        
+        if not sendgrid_api_key or not sender_email:
+            logger.error("SendGrid not configured")
+            return False
+        
+        # Create reset link
+        reset_link = f"{origin_url}/reset-password?token={reset_token}"
+        
+        # Email content
+        html_content = f"""
+        <html>
+            <body style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; text-align: center; border-radius: 10px 10px 0 0;">
+                    <h1 style="color: white; margin: 0;">Recuperar Contraseña</h1>
+                    <p style="color: white; margin: 10px 0 0 0;">Preparación Oposiciones SAS - Celadores</p>
+                </div>
+                <div style="background: #f9f9f9; padding: 30px; border-radius: 0 0 10px 10px;">
+                    <p style="font-size: 16px; color: #333;">Hola,</p>
+                    <p style="font-size: 16px; color: #333;">
+                        Has solicitado restablecer tu contraseña. Haz clic en el botón de abajo para crear una nueva contraseña:
+                    </p>
+                    <div style="text-align: center; margin: 30px 0;">
+                        <a href="{reset_link}" 
+                           style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                                  color: white; 
+                                  padding: 15px 40px; 
+                                  text-decoration: none; 
+                                  border-radius: 8px; 
+                                  font-weight: bold;
+                                  display: inline-block;">
+                            Restablecer Contraseña
+                        </a>
+                    </div>
+                    <p style="font-size: 14px; color: #666;">
+                        Si no puedes hacer clic en el botón, copia y pega este enlace en tu navegador:
+                    </p>
+                    <p style="font-size: 12px; color: #999; word-break: break-all;">
+                        {reset_link}
+                    </p>
+                    <p style="font-size: 14px; color: #666; margin-top: 30px;">
+                        Este enlace expirará en 24 horas por seguridad.
+                    </p>
+                    <p style="font-size: 14px; color: #666;">
+                        Si no solicitaste este cambio, puedes ignorar este email.
+                    </p>
+                    <hr style="border: none; border-top: 1px solid #ddd; margin: 30px 0;">
+                    <p style="font-size: 12px; color: #999; text-align: center;">
+                        © 2025 Preparación Oposiciones SAS - Celadores
+                    </p>
+                </div>
+            </body>
+        </html>
+        """
+        
+        message = Mail(
+            from_email=sender_email,
+            to_emails=email,
+            subject='Recuperar Contraseña - Preparación Oposiciones SAS',
+            html_content=html_content
+        )
+        
+        sg = SendGridAPIClient(sendgrid_api_key)
+        response = sg.send(message)
+        
+        logger.info(f"Password reset email sent to {email}, status: {response.status_code}")
+        return True
+        
+    except Exception as e:
+        logger.error(f"Error sending email: {e}")
+        return False
+
 # Initialize Stripe (will be done in endpoints with base_url)
 
 # Helper function to check subscription status
