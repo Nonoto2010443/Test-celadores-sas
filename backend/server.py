@@ -466,6 +466,104 @@ async def logout():
     """Logout user (client should remove token)"""
     return {"message": "Logged out successfully"}
 
+@api_router.post("/auth/forgot-password")
+async def forgot_password(request_data: ForgotPasswordRequest, request: Request):
+    """Send password reset email to user"""
+    try:
+        # Find user by email
+        user = await db.users.find_one({"email": request_data.email})
+        
+        # Always return success message for security (don't reveal if email exists)
+        if not user:
+            logger.info(f"Password reset requested for non-existent email: {request_data.email}")
+            return {"message": "Si el email existe en nuestro sistema, recibirás un enlace de recuperación"}
+        
+        # Generate reset token
+        reset_token = secrets.token_urlsafe(32)
+        
+        # Store token in database with expiration
+        token_data = {
+            "token": reset_token,
+            "user_id": user['id'],
+            "user_email": user['email'],
+            "created_at": datetime.now(timezone.utc).isoformat(),
+            "expires_at": (datetime.now(timezone.utc) + timedelta(hours=24)).isoformat(),
+            "used": False
+        }
+        
+        await db.password_reset_tokens.insert_one(token_data)
+        
+        # Get origin URL from request
+        origin_url = request.headers.get('origin', 'http://localhost:3000')
+        
+        # Send email
+        email_sent = await send_password_reset_email(user['email'], reset_token, origin_url)
+        
+        if not email_sent:
+            logger.error(f"Failed to send password reset email to {user['email']}")
+        else:
+            logger.info(f"Password reset email sent to {user['email']}")
+        
+        return {"message": "Si el email existe en nuestro sistema, recibirás un enlace de recuperación"}
+        
+    except Exception as e:
+        logger.error(f"Error in forgot_password: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.post("/auth/reset-password")
+async def reset_password(request_data: ResetPasswordRequest):
+    """Reset password using token"""
+    try:
+        # Find token in database
+        token_record = await db.password_reset_tokens.find_one({
+            "token": request_data.token,
+            "used": False
+        })
+        
+        if not token_record:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Token inválido o ya utilizado"
+            )
+        
+        # Check if token is expired
+        expires_at = datetime.fromisoformat(token_record['expires_at'])
+        if datetime.now(timezone.utc) > expires_at:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="El token ha expirado. Solicita un nuevo enlace de recuperación"
+            )
+        
+        # Validate new password
+        if len(request_data.new_password) < 6:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="La contraseña debe tener al menos 6 caracteres"
+            )
+        
+        # Update user password
+        new_password_hash = get_password_hash(request_data.new_password)
+        await db.users.update_one(
+            {"id": token_record['user_id']},
+            {"$set": {"password_hash": new_password_hash}}
+        )
+        
+        # Mark token as used
+        await db.password_reset_tokens.update_one(
+            {"token": request_data.token},
+            {"$set": {"used": True}}
+        )
+        
+        logger.info(f"Password reset successful for user {token_record['user_email']}")
+        
+        return {"message": "Contraseña actualizada exitosamente. Ya puedes iniciar sesión con tu nueva contraseña"}
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error in reset_password: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 # ============ SUBSCRIPTION & PAYMENT ROUTES ============
 
 @api_router.post("/subscription/create-checkout")
