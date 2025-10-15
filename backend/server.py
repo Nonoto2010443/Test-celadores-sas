@@ -155,9 +155,17 @@ REGLAS ESTRICTAS:
 1. TODAS las preguntas deben comenzar con el prefijo: "❓FFM.- "
 2. Nivel de dificultad: BÁSICO
 3. Gramática y ortografía PERFECTAS
-4. NO uses abreviaturas confusas
-5. Imita el estilo de exámenes oficiales del SAS
-6. SOLO preguntas de {temas_rango}
+4. Imita el estilo de exámenes oficiales del SAS
+5. SOLO preguntas de {temas_rango}
+
+REGLA CRÍTICA SOBRE ABREVIATURAS:
+- PROHIBIDO usar abreviaturas de leyes, estatutos y organismos
+- SIEMPRE usa el nombre completo y oficial
+- ÚNICA EXCEPCIÓN PERMITIDA: "SAS" para Servicio Andaluz de Salud
+- Ejemplos de lo que NO debes hacer:
+  ❌ NO USAR: EM, E.M., EA, EMPNS, LPRL, LOPD, etc.
+  ✅ SIEMPRE USAR: Estatuto Marco, Estatuto Marco del Personal No Sanitario, Ley de Prevención de Riesgos Laborales, Ley Orgánica de Protección de Datos, etc.
+- Esta regla es OBLIGATORIA para garantizar la claridad
 
 IMPORTANTE: Responde ÚNICAMENTE con un objeto JSON válido, sin texto adicional.
 
