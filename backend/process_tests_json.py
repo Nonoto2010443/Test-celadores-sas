@@ -57,8 +57,11 @@ def procesar_pregunta_json(pregunta_json, tema, origen):
         if len(partes) > 1:
             pregunta_texto = partes[1].strip()
     
+    # Obtener ID (puede ser 'Id' o 'id')
+    pregunta_id = pregunta_json.get('Id') or pregunta_json.get('id', 0)
+    
     return {
-        'id': f"{origen}_{pregunta_json['Id']}",
+        'id': f"{origen}_{pregunta_id}",
         'pregunta': pregunta_texto,
         'opciones': opciones,
         'respuesta_correcta': respuesta_index,
