@@ -1,0 +1,3522 @@
+[
+  {
+    "Id": 400,
+    "Question": "❓FFM.-¿Qué tipo de información comprende la “información personal de usuarios” en el SAS?",
+    "Options": {
+      "a": "Detalles administrativos y clínicos del usuario.",
+      "b": "Solo la información médica.",
+      "c": "Información de salud pública en general.",
+      "d": "Datos sobre familiares del usuario."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 401,
+    "Question": "❓FFM.-¿Cuál es el propósito principal de utilizar la información personal de los usuarios?",
+    "Options": {
+      "a": "Para estudios de investigación.",
+      "b": "Informar a los medios de comunicación.",
+      "c": "Compartir con familiares del paciente.",
+      "d": "Garantizar la continuidad del cuidado sanitario."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 402,
+    "Question": "❓FFM.-¿Qué se debe hacer si el usuario solicita que cierta información sea confidencial?",
+    "Options": {
+      "a": "Ignorar la petición.",
+      "b": "Respetar su criterio si es viable.",
+      "c": "Compartir la información de todos modos.",
+      "d": "Solo ocultarla en caso de emergencia."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 403,
+    "Question": "❓FFM.-¿Dónde no deben discutirse temas relacionados con los usuarios en los centros sanitarios?",
+    "Options": {
+      "a": "En la consulta médica.",
+      "b": "En reuniones privadas.",
+      "c": "En espacios públicos como ascensores o pasillos.",
+      "d": "En el área de archivos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 404,
+    "Question": "❓FFM.-¿Qué debe hacerse antes de dar información a los medios sobre personajes públicos?",
+    "Options": {
+      "a": "Solicitar siempre el consentimiento del usuario o sus familiares.",
+      "b": "Proporcionar la información sin restricciones.",
+      "c": "Consultar al jefe de equipo.",
+      "d": "Solo informar sobre detalles clínicos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 405,
+    "Question": "❓FFM.-¿Qué precaución se debe tomar con las historias clínicas para proteger la privacidad del usuario?",
+    "Options": {
+      "a": "Evitar su uso en el centro sanitario.",
+      "b": "Compartirlas con familiares en todo momento.",
+      "c": "Controlar estrictamente su circulación.",
+      "d": "Guardarlas en archivos abiertos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 406,
+    "Question": "❓FFM.-¿Qué medida se debe tomar para evitar que la información de un usuario sea accesible a personas no autorizadas?",
+    "Options": {
+      "a": "Solicitar siempre la aprobación de las autoridades.",
+      "b": "Manejar la documentación con extremo cuidado.",
+      "c": "Permitir solo el acceso del equipo administrativo.",
+      "d": "Compartir la información solo por escrito."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 407,
+    "Question": "❓FFM.-¿Qué se debe hacer si se publica información no autorizada de un usuario?",
+    "Options": {
+      "a": "Continuar como si nada hubiera pasado.",
+      "b": "Evitar situaciones similares en el futuro.",
+      "c": "Solo exponer las iniciales del usuario.",
+      "d": "Asegurarse de tener consentimiento previamente."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 408,
+    "Question": "❓FFM.-¿Qué tipo de datos no deben exponerse en espacios públicos como pasillos o ascensores?",
+    "Options": {
+      "a": "Detalles que identifiquen al usuario en cualquier sentido.",
+      "b": "Los datos médicos de familiares de los pacientes.",
+      "c": "Los resultados de pruebas no concluyentes.",
+      "d": "Solo el nombre del paciente."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 409,
+    "Question": "❓FFM.-¿Qué debe evitarse para proteger la privacidad de los usuarios durante las consultas?",
+    "Options": {
+      "a": "Exponer listas de usuarios en áreas visibles.",
+      "b": "Respetar el espacio personal de los pacientes.",
+      "c": "Usar información médica relevante.",
+      "d": "Comentar sobre tratamientos actuales en consultas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 410,
+    "Question": "❓FFM.-¿Cómo debe considerarse la confidencialidad de la información verbal obtenida de los usuarios?",
+    "Options": {
+      "a": "Puede compartirse si es de interés público.",
+      "b": "Debe tratarse con el mismo cuidado que la documentación clínica.",
+      "c": "Solo aplican restricciones para información digital.",
+      "d": "Solo protegerse si se trata de datos médicos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 411,
+    "Question": "❓FFM.-¿En qué momento puede un familiar acceder a la información de un usuario sin su consentimiento?",
+    "Options": {
+      "a": "Cuando lo solicita el equipo médico.",
+      "b": "Cuando sea conveniente para el personal sanitario.",
+      "c": "Si el familiar lo requiere para tomar decisiones.",
+      "d": "Solo si tiene base legal para ello."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 412,
+    "Question": "❓FFM.-¿Cuál es la prioridad al mantener conversaciones sobre la situación de un paciente entre profesionales?",
+    "Options": {
+      "a": "Realizarlas en áreas de alto tránsito.",
+      "b": "Discutir los detalles en las áreas de descanso.",
+      "c": "Hacerlas siempre en lugares reservados.",
+      "d": "No aplicar restricciones a la confidencialidad."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 413,
+    "Question": "❓FFM.-¿Cuál es la importancia de obtener el consentimiento del paciente en casos de interés público?",
+    "Options": {
+      "a": "Permite publicar información sin restricciones.",
+      "b": "Asegura que los medios tengan acceso completo.",
+      "c": "Protege la privacidad del paciente en situaciones especiales.",
+      "d": "Facilita que el equipo médico comparta los datos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 414,
+    "Question": "❓FFM.-¿Qué incluye el concepto de “confidencialidad de la información” en el ámbito del SAS?",
+    "Options": {
+      "a": "Solo la información clínica de los pacientes.",
+      "b": "Toda información sobre el usuario, incluyendo la administrativa.",
+      "c": "Únicamente la información obtenida a través de registros médicos.",
+      "d": "Información pública sobre el usuario."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 415,
+    "Question": "❓FFM.-¿En qué situación se permite informar a las autoridades competentes sobre un usuario?",
+    "Options": {
+      "a": "Cuando lo solicita un familiar directo.",
+      "b": "Si el usuario es mayor de edad.",
+      "c": "En cualquier consulta médica.",
+      "d": "Solo en casos excepcionales previstos por la legislación."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 416,
+    "Question": "❓FFM.-¿Cuál es la finalidad principal de usar la información personal de los usuarios en el SAS?",
+    "Options": {
+      "a": "Garantizar la continuidad en el cuidado sanitario.",
+      "b": "Facilitar información para investigaciones.",
+      "c": "Compartirla con instituciones académicas.",
+      "d": "Difundirla en medios de comunicación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 417,
+    "Question": "❓FFM.-¿Qué acción deben evitar los profesionales al circular con documentación clínica?",
+    "Options": {
+      "a": "Guardarla en un archivo fijo.",
+      "b": "Revisarla antes de entregarla al usuario.",
+      "c": "Permitir que sea visible para personas no autorizadas.",
+      "d": "Usar solo copias electrónicas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 418,
+    "Question": "❓FFM.-¿Qué debe hacerse si un usuario desea mantener privada cierta información?",
+    "Options": {
+      "a": "Informar al equipo administrativo.",
+      "b": "Respetar su deseo si es factible.",
+      "c": "Compartirla con el personal del centro.",
+      "d": "Divulgar solo la parte médica."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 419,
+    "Question": "❓FFM.-¿A quiénes debe comunicarse la información de un usuario según el SAS?",
+    "Options": {
+      "a": "Solo a las personas que el usuario autoriza.",
+      "b": "A cualquier familiar directo.",
+      "c": "A todos los profesionales del centro sanitario.",
+      "d": "A los servicios sociales locales."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 420,
+    "Question": "❓FFM.-¿Qué información se debe proteger para evitar que personas ajenas al SAS la visualicen?",
+    "Options": {
+      "a": "Exclusivamente información médica.",
+      "b": "Solo detalles sobre el tratamiento.",
+      "c": "La información clínica y cualquier dato personal del usuario.",
+      "d": "Datos económicos del usuario."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 421,
+    "Question": "❓FFM.-¿Qué deben evitar los profesionales cuando están en lugares públicos dentro de un centro sanitario?",
+    "Options": {
+      "a": "Hablar sobre la política del centro.",
+      "b": "Solicitar información de otros pacientes.",
+      "c": "Consultar sobre temas administrativos.",
+      "d": "Hacer referencia a usuarios en cualquier contexto."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 422,
+    "Question": "❓FFM.-¿Qué aspecto es esencial al conversar sobre temas confidenciales entre profesionales?",
+    "Options": {
+      "a": "Hacerlo en lugares públicos.",
+      "b": "Buscar espacios reservados para la conversación.",
+      "c": "Consultar al personal administrativo.",
+      "d": "Exponer los datos en reuniones abiertas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 423,
+    "Question": "❓FFM.-¿Qué debe hacerse antes de proporcionar un parte médico de un personaje público a la prensa?",
+    "Options": {
+      "a": "Solicitar el consentimiento del usuario o sus familiares.",
+      "b": "Consultar siempre con las autoridades locales.",
+      "c": "Publicar solo datos resumidos.",
+      "d": "Enviar un resumen a los medios de comunicación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 424,
+    "Question": "❓FFM.-¿Qué información no debe ser publicada sin autorización en el SAS?",
+    "Options": {
+      "a": "Nombres de usuarios en listas públicas.",
+      "b": "Resultados generales de atención sanitaria.",
+      "c": "Detalles sobre las actividades internas del centro.",
+      "d": "Informes de procesos administrativos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 425,
+    "Question": "❓FFM.-¿Qué acción debe evitarse para proteger la confidencialidad en relación con los actos médicos?",
+    "Options": {
+      "a": "Permitir acceso solo a personal autorizado.",
+      "b": "Compartir resultados solo con la familia.",
+      "c": "Evitar la difusión de imágenes o videos de los pacientes.",
+      "d": "Discutir la información en lugares privados."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 426,
+    "Question": "❓FFM.-¿Qué finalidad tiene el acceso de los profesionales a la información personal de los usuarios?",
+    "Options": {
+      "a": "Mejorar la imagen del SAS.",
+      "b": "Garantizar la continuidad en el cuidado sanitario.",
+      "c": "Apoyar campañas de salud pública.",
+      "d": "Fomentar la formación académica."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 427,
+    "Question": "❓FFM.-¿Qué precaución deben tener los profesionales al tratar documentación clínica en el SAS?",
+    "Options": {
+      "a": "Solo dejarla en áreas de fácil acceso.",
+      "b": "Compartirla libremente con los familiares del usuario.",
+      "c": "Guardarla en áreas comunes del centro.",
+      "d": "Extremar el cuidado para evitar que personas ajenas accedan."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 428,
+    "Question": "❓FFM.-¿Qué actitud debe tomar el profesional sanitario respecto a la confidencialidad de la información de usuarios?",
+    "Options": {
+      "a": "Mantener la confidencialidad de toda información en todo momento.",
+      "b": "Exponer los datos clínicos en zonas comunes.",
+      "c": "Consultar siempre al supervisor antes de compartir cualquier información.",
+      "d": "Solo proteger la información médica."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 429,
+    "Question": "❓FFM.-¿Qué debe hacer un profesional del SAS si un usuario desea que cierta información quede entre él y un profesional?",
+    "Options": {
+      "a": "Informar a otros profesionales para su respaldo.",
+      "b": "Comunicar la información al familiar más cercano.",
+      "c": "Consultar la opinión de un supervisor inmediato.",
+      "d": "Respetar el criterio del usuario siempre que sea posible."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 430,
+    "Question": "❓FFM.-¿En qué lugares deben evitar los profesionales sanitarios del SAS hacer referencia a los usuarios?",
+    "Options": {
+      "a": "En áreas reservadas para la información.",
+      "b": "En cualquier espacio público dentro del centro.",
+      "c": "En oficinas privadas.",
+      "d": "En salas de reuniones cerradas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 431,
+    "Question": "❓FFM.-¿Cuándo pueden los medios recibir información sobre el estado de salud de un paciente?",
+    "Options": {
+      "a": "Solo si el paciente es un personaje público.",
+      "b": "Cuando los familiares lo autorizan expresamente.",
+      "c": "Si el paciente o familiares han dado su consentimiento.",
+      "d": "Cuando el profesional considera que es de interés público."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 432,
+    "Question": "❓FFM.-¿Qué deben evitar los profesionales para proteger la confidencialidad en el SAS?",
+    "Options": {
+      "a": "Publicar listas de pacientes citados sin autorización.",
+      "b": "Guardar la información en archivos electrónicos.",
+      "c": "Reunirse en lugares reservados para discutir casos.",
+      "d": "Facilitar información únicamente a los familiares directos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 433,
+    "Question": "❓FFM.-¿Qué principio debe guiar la gestión de la información sobre los usuarios en el SAS?",
+    "Options": {
+      "a": "La transparencia con el público.",
+      "b": "La confidencialidad en todo momento.",
+      "c": "La divulgación para fines académicos.",
+      "d": "La accesibilidad para todos los empleados."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 434,
+    "Question": "❓FFM.-¿Qué se debe hacer con la documentación clínica al circular por los espacios del centro sanitario?",
+    "Options": {
+      "a": "Guardarla siempre en una carpeta abierta.",
+      "b": "Solicitar al usuario su autorización por escrito.",
+      "c": "Mostrársela al usuario para validación.",
+      "d": "Cuidar que no sea accesible a personas ajenas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 435,
+    "Question": "❓FFM.-¿Qué actitud debe mantenerse con respecto a los usuarios en los pasillos de los centros sanitarios?",
+    "Options": {
+      "a": "Referirse a ellos solo en presencia de familiares.",
+      "b": "Consultar sobre su estado en voz baja.",
+      "c": "Evitar cualquier mención sobre ellos.",
+      "d": "Comunicar su estado si lo pide un compañero."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 436,
+    "Question": "❓FFM.-¿Cómo deben proceder los profesionales del SAS si desean discutir una situación sobre un paciente?",
+    "Options": {
+      "a": "Escoger un lugar reservado para conversar.",
+      "b": "Usar zonas públicas si no hay espacios reservados.",
+      "c": "Reunirse en el lugar donde más convenga.",
+      "d": "Solicitar permiso antes de comentar."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 437,
+    "Question": "❓FFM.-¿Qué se debe evitar al publicar información personal de pacientes en el SAS?",
+    "Options": {
+      "a": "Asegurarse de que el usuario no esté presente.",
+      "b": "Exponer listas o imágenes de pacientes sin autorización.",
+      "c": "Mostrar solo la información de usuarios mayores de edad.",
+      "d": "Guardar copias físicas de la información en archivos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 438,
+    "Question": "❓FFM.-¿Cómo debe manejarse la información personal de los usuarios para asegurar su uso adecuado?",
+    "Options": {
+      "a": "Solo compartirla si es información médica.",
+      "b": "Exponerla a todo el equipo médico.",
+      "c": "Usarla únicamente para fines del cuidado sanitario.",
+      "d": "Consultar al usuario en cada visita."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 439,
+    "Question": "❓FFM.-¿Cuál es la mejor práctica al entregar historias clínicas en el SAS?",
+    "Options": {
+      "a": "Hacerlo en cualquier espacio disponible.",
+      "b": "Entregar la historia clínica en espacios públicos.",
+      "c": "Entregar una copia a los familiares del usuario.",
+      "d": "Asegurar su privacidad y confidencialidad."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 440,
+    "Question": "❓FFM.-¿Qué se recomienda en el SAS para las conversaciones entre profesionales sobre temas que puedan afectar a un paciente?",
+    "Options": {
+      "a": "Hablar en cualquier espacio del centro.",
+      "b": "Buscar un lugar reservado para conversar.",
+      "c": "Comentar la información sin preocuparse.",
+      "d": "Conversar solo en áreas públicas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 441,
+    "Question": "❓FFM.-¿Qué se debe hacer antes de divulgar el estado de un paciente famoso a la prensa?",
+    "Options": {
+      "a": "Pedir el consentimiento del paciente o su familia.",
+      "b": "Consultar solo con el supervisor.",
+      "c": "Facilitar un resumen médico general.",
+      "d": "Divulgarlo solo en la web del centro."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 442,
+    "Question": "❓FFM.-¿Qué conducta debe seguir un profesional al tratar con información personal administrativa de los usuarios?",
+    "Options": {
+      "a": "Consultarla abiertamente con otros colegas.",
+      "b": "Compartirla con los familiares de los pacientes.",
+      "c": "Usarla solo para el propósito de su trabajo.",
+      "d": "Hacer referencia a ella en áreas comunes."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 443,
+    "Question": "❓FFM.-¿Qué debe evitarse cuando se maneja la información de usuarios en el SAS?",
+    "Options": {
+      "a": "Compartir detalles clínicos con familiares.",
+      "b": "Gestionar la información en archivos electrónicos.",
+      "c": "Consultar archivos de otros profesionales.",
+      "d": "Permitir el acceso de personas no autorizadas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 444,
+    "Question": "❓FFM.-¿Cuál es una señal de profesionalidad y respeto en el trabajo del personal del Servicio Andaluz de Salud?",
+    "Options": {
+      "a": "Resolver problemas rápidamente.",
+      "b": "Ser respetuoso en el trato hacia los superiores.",
+      "c": "Mantener amabilidad y cortesía en todo momento.",
+      "d": "Tener paciencia en todo momento."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 445,
+    "Question": "❓FFM.-¿Qué debe hacer el profesional ante una situación en la que el usuario pierde los nervios?",
+    "Options": {
+      "a": "Intentar calmarlo sin perder la calma.",
+      "b": "Devolver el mismo trato para mostrarse firme.",
+      "c": "Ignorar la actitud del usuario.",
+      "d": "Informar de inmediato a un superior."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 446,
+    "Question": "❓FFM.-¿Qué tratamiento debe utilizarse en la comunicación oral con los usuarios adultos?",
+    "Options": {
+      "a": "Emplear el tuteo de manera profesional.",
+      "b": "Usar el tratamiento de “usted”.",
+      "c": "Dirigirse por el nombre de pila.",
+      "d": "Usar términos afectivos como “amigo”."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 447,
+    "Question": "❓FFM.-En la documentación escrita, ¿cómo deben los profesionales referirse a los usuarios?",
+    "Options": {
+      "a": "Con el tratamiento de “tú” y su nombre.",
+      "b": "Utilizando únicamente su nombre.",
+      "c": "Con respeto, usando “don” o “doña” y sus dos apellidos.",
+      "d": "Con un lenguaje más cercano y coloquial."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 448,
+    "Question": "❓FFM.-¿Qué tratamiento se desaconseja en la atención a personas mayores?",
+    "Options": {
+      "a": "Referirse a ellos como “señor” o “señora”.",
+      "b": "Llamarlos por su nombre.",
+      "c": "Dirigirse a ellos usando “don” o “doña”.",
+      "d": "Usar el término “abuelo/a”."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 449,
+    "Question": "❓FFM.-¿Cuál es una obligación de los usuarios hacia los profesionales?",
+    "Options": {
+      "a": "Respetar a los profesionales en todo momento.",
+      "b": "Aceptar sin cuestionamientos los tratamientos propuestos.",
+      "c": "Adaptarse a cualquier cambio de personal.",
+      "d": "Tratar con indiferencia cualquier decisión del profesional."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 450,
+    "Question": "❓FFM.-¿Qué es adecuado que haga el profesional cuando un usuario plantea el tuteo en la comunicación?",
+    "Options": {
+      "a": "Decidir si acepta o no el tuteo.",
+      "b": "Evitar el tuteo en cualquier caso.",
+      "c": "Cambiar automáticamente al tuteo.",
+      "d": "Pedir una autorización formal."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 451,
+    "Question": "❓FFM.-¿Qué tipo de términos deben evitarse en la comunicación escrita sobre los usuarios?",
+    "Options": {
+      "a": "Palabras técnicas de la salud.",
+      "b": "Términos de familiaridad excesiva o falta de respeto.",
+      "c": "Expresiones de cortesía y respeto.",
+      "d": "Tratamientos formales como “usted”."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 452,
+    "Question": "❓FFM.-¿Qué acción puede tomar el responsable del centro si se detecta una incompatibilidad en la relación médico-paciente?",
+    "Options": {
+      "a": "Cambiar al usuario de profesional si es necesario.",
+      "b": "Pedir al paciente que espere a otro día.",
+      "c": "Ignorar la situación y seguir con la atención.",
+      "d": "Realizar una reunión de grupo con el usuario."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 453,
+    "Question": "❓FFM.-¿Qué actitud refleja profesionalidad en la comunicación escrita de los profesionales del SAS?",
+    "Options": {
+      "a": "Ser siempre breve y directo.",
+      "b": "Usar expresiones coloquiales para ser accesible.",
+      "c": "Mantener un lenguaje respetuoso y adecuado.",
+      "d": "Evitar títulos formales en la documentación."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 454,
+    "Question": "❓FFM.-¿Cuál es la principal prioridad en el trabajo de atención a los usuarios del SAS?",
+    "Options": {
+      "a": "Mantener la simpatía con los usuarios.",
+      "b": "Resolver problemas de los usuarios de forma rápida y correcta.",
+      "c": "Lograr una relación amistosa con los usuarios.",
+      "d": "Seguir únicamente las instrucciones internas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 455,
+    "Question": "❓FFM.-¿Cómo se indica el trato hacia usuarios adultos en la cultura del SAS?",
+    "Options": {
+      "a": "Tratando de “tú” a los usuarios.",
+      "b": "Empleando el “usted” como forma de respeto.",
+      "c": "Usando apodos cariñosos.",
+      "d": "Comunicándose de manera informal."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 456,
+    "Question": "❓FFM.-¿Qué debe evitar un buen profesional ante una reacción negativa del usuario?",
+    "Options": {
+      "a": "Informar del incidente si es necesario.",
+      "b": "Escuchar atentamente las quejas.",
+      "c": "Mantener la calma y cordialidad.",
+      "d": "Perder los nervios frente al usuario."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 457,
+    "Question": "❓FFM.-¿Qué se debe incluir en la comunicación escrita con los usuarios adultos según el SAS?",
+    "Options": {
+      "a": "El tratamiento “tú” y el nombre.",
+      "b": "El nombre completo sin título.",
+      "c": "El nombre y dos apellidos con “don” o “doña”.",
+      "d": "Solo el primer apellido con “usted”."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 458,
+    "Question": "❓FFM.-¿Qué muestra de respeto mutuo es necesaria en la atención de los usuarios en el SAS?",
+    "Options": {
+      "a": "Resolución rápida sin cortesía.",
+      "b": "Cortesía y buenas maneras en todo momento.",
+      "c": "Eficiencia sin empatía.",
+      "d": "Escuchar solo en situaciones graves."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 459,
+    "Question": "❓FFM.-¿Qué refleja el uso del tratamiento de “usted” en la atención a los usuarios adultos?",
+    "Options": {
+      "a": "Indiferencia hacia el usuario.",
+      "b": "Profesionalidad y respeto.",
+      "c": "Complejidad en el trato.",
+      "d": "Amistad y cercanía."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 460,
+    "Question": "❓FFM.-¿Qué actitud deben mantener los profesionales del SAS en todo momento?",
+    "Options": {
+      "a": "Cortesía y respeto.",
+      "b": "Simpatía sin formalidad.",
+      "c": "Eficiencia sin empatía.",
+      "d": "Objetividad sin compromiso."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 461,
+    "Question": "❓FFM.-¿Quién puede decidir el uso del tuteo en la interacción entre profesional y usuario?",
+    "Options": {
+      "a": "Solamente el profesional.",
+      "b": "Únicamente el usuario.",
+      "c": "Es una decisión del usuario y del profesional.",
+      "d": "No se permite el tuteo en ningún caso."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 462,
+    "Question": "❓FFM.-¿Cuál es una señal de excelencia en el trabajo de los profesionales del SAS?",
+    "Options": {
+      "a": "El uso de lenguaje técnico.",
+      "b": "Resolver problemas rápidamente.",
+      "c": "La gestión eficaz de recursos.",
+      "d": "Mantener la cortesía y las buenas maneras."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 463,
+    "Question": "❓FFM.-¿Qué tratamiento se recomienda usar con los usuarios mayores en el SAS?",
+    "Options": {
+      "a": "Usar términos familiares para hacerlos sentir cómodos.",
+      "b": "Aplicar siempre el tuteo para mostrar cercanía.",
+      "c": "Referirse a ellos de manera respetuosa, evitando términos como “abuelo/a”.",
+      "d": "Evitar dirigirse a ellos de manera formal."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 464,
+    "Question": "❓FFM.-En caso de incompatibilidad en la relación entre un profesional y un usuario, ¿qué se aconseja hacer?",
+    "Options": {
+      "a": "Ignorar la situación.",
+      "b": "Cambiar al profesional si el usuario lo solicita.",
+      "c": "Pedir al usuario que busque otro centro de salud.",
+      "d": "Evaluar la situación y cambiar de asignación si es necesario."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 465,
+    "Question": "❓FFM.-¿Qué tipo de términos se deben evitar en la relación con el usuario?",
+    "Options": {
+      "a": "Expresiones de familiaridad inapropiadas.",
+      "b": "Lenguaje formal y técnico.",
+      "c": "Palabras de respeto.",
+      "d": "Expresiones de cortesía y amabilidad."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 466,
+    "Question": "❓FFM.-¿Qué debe priorizar un profesional al atender a un usuario en el SAS?",
+    "Options": {
+      "a": "Lograr una relación personal.",
+      "b": "Resolver los problemas del usuario de manera rápida y eficaz.",
+      "c": "Evitar conflictos y mantener distancia.",
+      "d": "Priorizar siempre los intereses del centro."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 467,
+    "Question": "❓FFM.-¿Cuál es la actitud que deben mantener los profesionales del SAS hacia los usuarios adultos?",
+    "Options": {
+      "a": "Cortesía sin profesionalidad.",
+      "b": "Distancia emocional.",
+      "c": "Respeto y cortesía.",
+      "d": "Amistad y cercanía."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 468,
+    "Question": "❓FFM.-¿Cómo deben referirse los profesionales a los usuarios en la documentación escrita?",
+    "Options": {
+      "a": "Con sus nombres y apellidos y un lenguaje formal.",
+      "b": "Con apodos respetuosos.",
+      "c": "Con nombres de pila para mayor cercanía.",
+      "d": "Utilizando el tuteo en todo momento."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 469,
+    "Question": "❓FFM.-¿Cuál es la principal característica de la relación profesional entre usuarios y profesionales en el SAS?",
+    "Options": {
+      "a": "La formalidad en todo momento.",
+      "b": "La cercanía y familiaridad.",
+      "c": "La distancia profesional estricta.",
+      "d": "La amabilidad y el respeto mutuo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 470,
+    "Question": "❓FFM.-¿Qué debe hacer un profesional si el usuario pierde los nervios durante la atención?",
+    "Options": {
+      "a": "Mantener la calma y responder con cortesía.",
+      "b": "Elevar el tono de voz para ser escuchado.",
+      "c": "Despedir al usuario de inmediato.",
+      "d": "Pedir que otro profesional lo atienda."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 471,
+    "Question": "❓FFM.-En el caso de personas mayores, ¿qué actitud se espera de los profesionales del SAS?",
+    "Options": {
+      "a": "Tratar de manera afectuosa sin formalidades.",
+      "b": "Respetarlos y evitar términos como “abuelo/a”.",
+      "c": "Evitar la formalidad para acercarse más.",
+      "d": "No aplicar ningún trato especial."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 472,
+    "Question": "❓FFM.-¿Qué se debe hacer cuando un usuario solicita un cambio de profesional en el SAS?",
+    "Options": {
+      "a": "Cambiar al profesional inmediatamente.",
+      "b": "Informar al usuario que no es posible.",
+      "c": "Considerar la petición según la ley y calidad asistencial.",
+      "d": "Ignorar la solicitud y continuar la atención."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 473,
+    "Question": "❓FFM.-¿Qué muestra de profesionalidad es esencial en el trato con usuarios adultos?",
+    "Options": {
+      "a": "Usar términos formales y el “usted”.",
+      "b": "La rapidez sin cortesía.",
+      "c": "Responder con tuteo y cercanía.",
+      "d": "Evitar cualquier expresión formal."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 474,
+    "Question": "❓FFM.-¿Qué aspecto clave se menciona para facilitar la continuidad de la atención al paciente cuando varios dispositivos participan en su cuidado?",
+    "Options": {
+      "a": "La identificación del paciente.",
+      "b": "La claridad en las responsabilidades individuales de cada profesional.",
+      "c": "La cantidad de recursos disponibles.",
+      "d": "La cercanía del centro de atención."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 475,
+    "Question": "❓FFM.-¿Qué debe hacer el médico responsable cuando interviene en la primera visita de un paciente?",
+    "Options": {
+      "a": "Dejar constancia de su presencia en la historia clínica.",
+      "b": "Informar al paciente solo de su función.",
+      "c": "Presentarse con su nombre, apellidos y función.",
+      "d": "Presentarse únicamente si el paciente lo solicita."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 476,
+    "Question": "❓FFM.-¿Qué responsabilidad tiene la institución cuando otro dispositivo debe hacerse cargo de la atención de un paciente?",
+    "Options": {
+      "a": "Solicitar los datos al paciente.",
+      "b": "Entregar la documentación necesaria para evitar duplicar procedimientos.",
+      "c": "No intervenir en la gestión documental.",
+      "d": "Informar únicamente al paciente sobre el cambio."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 477,
+    "Question": "❓FFM.-¿Cuál es una obligación del personal de enfermería responsable en la primera visita al paciente?",
+    "Options": {
+      "a": "Presentarse sin indicar su función.",
+      "b": "Presentarse personalmente con su nombre, apellidos y función.",
+      "c": "No es necesario que se presente.",
+      "d": "Informar solo a los acompañantes del paciente."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 478,
+    "Question": "❓FFM.-¿Qué información debe proporcionarse al paciente siempre que sea posible?",
+    "Options": {
+      "a": "Solo el nombre del médico responsable.",
+      "b": "Información sobre la institución.",
+      "c": "Detalles técnicos del procedimiento.",
+      "d": "La función, el nombre del profesional y qué va a hacer con él."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 479,
+    "Question": "❓FFM.-¿Qué acción complementa la labor de informar al usuario de manera adecuada?",
+    "Options": {
+      "a": "Entregar información escrita únicamente.",
+      "b": "Escuchar al usuario y aclarar sus dudas.",
+      "c": "Presentar informes de manera formal.",
+      "d": "Evitar consultas adicionales."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 480,
+    "Question": "❓FFM.-¿Cuál es la primera condición para ganar la confianza del usuario?",
+    "Options": {
+      "a": "Informar cuando el usuario lo necesita y sobre lo que puede afectarle.",
+      "b": "Informar solo en presencia de todos los acompañantes.",
+      "c": "Evitar información hasta tener todos los datos.",
+      "d": "Informar solo al finalizar el tratamiento."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 481,
+    "Question": "❓FFM.-¿Qué papel tiene el trabajo en equipo en la atención brindada por el SAS?",
+    "Options": {
+      "a": "Solo aplica al personal médico.",
+      "b": "Es una opción según el tipo de servicio.",
+      "c": "Es esencial para asegurar la continuidad de la atención.",
+      "d": "Depende de la solicitud del paciente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 482,
+    "Question": "❓FFM.-¿Qué trabajadores del SAS forman parte del equipo asistencial según el manual de estilo?",
+    "Options": {
+      "a": "Solo el personal médico y de enfermería.",
+      "b": "Solo los profesionales de áreas sanitarias.",
+      "c": "Solo los que atienden directamente al paciente.",
+      "d": "Todo el personal, incluyendo celadores y administrativos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 483,
+    "Question": "❓FFM.-¿Qué se considera fundamental en la transmisión de información clínica según el SAS?",
+    "Options": {
+      "a": "Un lenguaje técnico detallado.",
+      "b": "Un lenguaje comprensible y adaptado al usuario.",
+      "c": "Información limitada solo a la familia.",
+      "d": "Informes extensos y técnicos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 484,
+    "Question": "❓FFM.-¿Qué se debe hacer cuando el usuario no entiende la información proporcionada?",
+    "Options": {
+      "a": "Dejar que busque la información por su cuenta.",
+      "b": "Escuchar su opinión y aclarar lo que no entiende.",
+      "c": "Ofrecerle un documento adicional.",
+      "d": "Aconsejarle leer documentos médicos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 485,
+    "Question": "❓FFM.-¿Qué objetivo tiene el informar en todas las fases de la atención sanitaria?",
+    "Options": {
+      "a": "Generar una opinión temprana.",
+      "b": "Solo responder dudas al final del tratamiento.",
+      "c": "Garantizar que el usuario esté informado sin alarmarlo innecesariamente.",
+      "d": "Proporcionar un diagnóstico completo desde el inicio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 486,
+    "Question": "❓FFM.-¿Quién debe coordinar la información proporcionada al paciente cuando intervienen varios dispositivos?",
+    "Options": {
+      "a": "Los profesionales sanitarios implicados.",
+      "b": "El personal administrativo.",
+      "c": "Solo el médico de cabecera.",
+      "d": "El paciente, solicitando cada informe."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 487,
+    "Question": "❓FFM.-¿Qué responsabilidad recae sobre el médico respecto a las intervenciones que recibe el paciente?",
+    "Options": {
+      "a": "Evitar cualquier intervención adicional.",
+      "b": "Informar solo de intervenciones nuevas.",
+      "c": "Delegar en otros la supervisión de intervenciones.",
+      "d": "Velar por la coherencia de las intervenciones realizadas sobre el paciente."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 488,
+    "Question": "❓FFM.-¿Qué debe hacer el médico responsable para asegurar la coherencia en las intervenciones sobre un paciente?",
+    "Options": {
+      "a": "Coordinar solo con el personal administrativo.",
+      "b": "Realizar personalmente todas las intervenciones.",
+      "c": "Vigilar que las intervenciones no sean redundantes.",
+      "d": "Solicitar al paciente que supervise las intervenciones."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 489,
+    "Question": "❓FFM.-¿Qué deben hacer los profesionales sanitarios para evitar la repetición de procedimientos?",
+    "Options": {
+      "a": "Supervisar la historia clínica del paciente.",
+      "b": "Coordinarse entre ellos para compartir información.",
+      "c": "Realizar las mismas pruebas si son de diferentes dispositivos.",
+      "d": "Repetir procedimientos solo si el paciente lo solicita."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 490,
+    "Question": "❓FFM.-¿Cuál es el papel del personal de enfermería responsable en la primera visita al paciente?",
+    "Options": {
+      "a": "Presentarse con su nombre, apellidos y función.",
+      "b": "Confirmar solo su apellido.",
+      "c": "No es necesario presentarse.",
+      "d": "Dar solo su número de identificación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 491,
+    "Question": "❓FFM.-¿Qué deben hacer los profesionales cuando informan al paciente sobre su atención?",
+    "Options": {
+      "a": "Informar solo cuando el paciente pregunte.",
+      "b": "Informar solo al finalizar el tratamiento.",
+      "c": "No informar sobre las funciones de cada profesional.",
+      "d": "Aclarar la función de cada profesional que interviene."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 492,
+    "Question": "❓FFM.-¿Qué información debe incluir el médico cuando se presenta en la primera visita?",
+    "Options": {
+      "a": "Su número de teléfono.",
+      "b": "Su nombre, apellidos y función.",
+      "c": "Su dirección personal.",
+      "d": "Su lugar de formación académica."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 493,
+    "Question": "❓FFM.-¿Qué condición se considera esencial para mantener la confianza del usuario en el SAS?",
+    "Options": {
+      "a": "Evitar la comunicación con el usuario.",
+      "b": "Restringir la información al equipo médico.",
+      "c": "Informar al usuario sobre aspectos que puedan afectarle.",
+      "d": "Dejar que el usuario consulte en internet."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 494,
+    "Question": "❓FFM.-¿Qué deben hacer los profesionales si la situación lo permite al informar al paciente?",
+    "Options": {
+      "a": "Explicar su función, nombre y el procedimiento que realizarán.",
+      "b": "Informar solo del nombre del centro.",
+      "c": "Evitar cualquier explicación detallada.",
+      "d": "Dar solo el número de la consulta."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 495,
+    "Question": "❓FFM.-¿Qué actitud deben adoptar los profesionales sanitarios al escuchar al paciente?",
+    "Options": {
+      "a": "Mantenerse distantes y no involucrarse.",
+      "b": "Escuchar activamente y aclarar lo que no se entiende.",
+      "c": "Limitar la interacción para evitar confusión.",
+      "d": "Aceptar solo preguntas escritas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 496,
+    "Question": "❓FFM.-¿Qué deben hacer los trabajadores del SAS para asegurar una atención de calidad?",
+    "Options": {
+      "a": "Limitar su interacción al mínimo.",
+      "b": "Colaborar como equipo, sin importar el rol específico.",
+      "c": "Solo los sanitarios deben trabajar en equipo.",
+      "d": "Los administrativos no necesitan colaborar."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 497,
+    "Question": "❓FFM.-¿Qué responsabilidad tiene la institución que recibe información de otro dispositivo sobre un paciente?",
+    "Options": {
+      "a": "Repetir los trámites si los necesita.",
+      "b": "No compartir información por confidencialidad.",
+      "c": "Facilitar al nuevo equipo la documentación para evitar repeticiones.",
+      "d": "Solicitar al paciente los documentos necesarios."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 498,
+    "Question": "❓FFM.-¿Qué es necesario hacer al transmitir información clínica a los usuarios?",
+    "Options": {
+      "a": "Utilizar terminología médica compleja.",
+      "b": "Usar un lenguaje comprensible y accesible.",
+      "c": "Evitar cualquier tipo de comunicación escrita.",
+      "d": "Limitar la información a lo estrictamente esencial."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 499,
+    "Question": "❓FFM.-¿Qué papel juega la escucha activa en la comunicación con el usuario del SAS?",
+    "Options": {
+      "a": "Permite simplificar el proceso de atención.",
+      "b": "Es una opción secundaria para los sanitarios.",
+      "c": "Solo es importante al final de la intervención.",
+      "d": "Facilita aclarar lo que el usuario no comprende."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 500,
+    "Question": "❓FFM.-¿Qué se espera de los profesionales sanitarios cuando participan varios dispositivos en la atención de un paciente?",
+    "Options": {
+      "a": "Que cada dispositivo trabaje de forma independiente.",
+      "b": "Que solo el médico responsable se comunique con otros dispositivos.",
+      "c": "Que mantengan una comunicación constante entre ellos.",
+      "d": "Que cada profesional siga únicamente su propio criterio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 501,
+    "Question": "❓FFM.-¿Cuál es la finalidad de informar en todas las fases de la atención sanitaria?",
+    "Options": {
+      "a": "Crear alarmas preventivas.",
+      "b": "Asegurar que el paciente esté bien informado sin alarmarlo.",
+      "c": "Evitar que el paciente haga preguntas.",
+      "d": "Proporcionar un diagnóstico completo desde el principio."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 502,
+    "Question": "❓FFM.-¿Qué aspecto clave se menciona en el trabajo en equipo de los trabajadores del SAS?",
+    "Options": {
+      "a": "Solo es obligatorio para el personal sanitario.",
+      "b": "Los médicos y enfermeros no necesitan trabajar en equipo.",
+      "c": "Solo los celadores deben colaborar con el equipo.",
+      "d": "Todos los trabajadores tienen roles para asegurar una atención continua."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 503,
+    "Question": "❓FFM.-¿Qué debe hacer el médico responsable si otros dispositivos van a atender al paciente?",
+    "Options": {
+      "a": "Esperar a que el nuevo equipo contacte con él.",
+      "b": "Ignorar cualquier solicitud externa de información.",
+      "c": "Facilitar la documentación médica al nuevo equipo.",
+      "d": "Hacer una consulta al paciente sobre su preferencia."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 504,
+    "Question": "❓FFM.-¿Cómo deben tratar los profesionales del SAS la información que brindan a los usuarios?",
+    "Options": {
+      "a": "Utilizar un lenguaje claro y comprensible para el usuario.",
+      "b": "Mantener los detalles lo más simples posibles, aunque no sea comprensible.",
+      "c": "Limitarse a proporcionar información mínima.",
+      "d": "Solo informar si el usuario lo pide."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 505,
+    "Question": "❓FFM.-¿Cómo deben abordar los profesionales sanitarios las intervenciones en las distintas fases de atención sanitaria?",
+    "Options": {
+      "a": "Aplazar la información hasta el final del tratamiento.",
+      "b": "Solo informar en intervenciones complejas.",
+      "c": "Evitar dar información detallada.",
+      "d": "Informar en todas las fases de la atención sanitaria."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 506,
+    "Question": "❓FFM.-¿Qué se requiere de todos los trabajadores del SAS, no solo del personal sanitario?",
+    "Options": {
+      "a": "Colaborar como miembros de un equipo de atención continua.",
+      "b": "Tener conocimientos médicos básicos.",
+      "c": "Mantenerse al margen del trato con pacientes.",
+      "d": "Realizar actividades estrictamente administrativas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 507,
+    "Question": "❓FFM.-¿Cuál es la función del médico interlocutor cuando participan varios dispositivos en la atención?",
+    "Options": {
+      "a": "Delegar todas sus funciones.",
+      "b": "Ser la figura que coordina la atención al paciente.",
+      "c": "Comunicarse solo si el paciente lo requiere.",
+      "d": "No intervenir en la atención directa."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 508,
+    "Question": "❓FFM.-¿Por qué es esencial el uso de un lenguaje adecuado en la comunicación con el usuario?",
+    "Options": {
+      "a": "Para evitar que el usuario haga preguntas.",
+      "b": "Para que el usuario entienda y confíe en el proceso.",
+      "c": "Para limitar la información que recibe el paciente.",
+      "d": "Para impresionar al paciente con conocimientos técnicos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 509,
+    "Question": "❓FFM.-¿Qué responsabilidad tiene el personal de enfermería en la primera visita al paciente?",
+    "Options": {
+      "a": "Presentarse solo si es necesario.",
+      "b": "Delegar en el médico la presentación.",
+      "c": "Identificarse claramente con su función.",
+      "d": "Informar solo al final del tratamiento."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 510,
+    "Question": "❓FFM.-¿Cuál es el objetivo de la comunicación continua en todas las fases de atención?",
+    "Options": {
+      "a": "Evitar el contacto con el usuario.",
+      "b": "Dar una opinión completa al principio.",
+      "c": "Informar sin generar alarma innecesaria.",
+      "d": "Proporcionar solo información escrita."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 511,
+    "Question": "❓FFM.-¿Qué se espera del personal no sanitario en relación con la atención sanitaria?",
+    "Options": {
+      "a": "Participar en el equipo para una atención de calidad.",
+      "b": "Realizar tareas estrictamente administrativas.",
+      "c": "Limitar su función a su área de trabajo.",
+      "d": "No interactuar con el paciente bajo ninguna circunstancia."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 512,
+    "Question": "❓FFM.-¿Qué actitud debe mantener un profesional sanitario al informar al paciente sobre un procedimiento?",
+    "Options": {
+      "a": "Explicar solo si el paciente lo solicita.",
+      "b": "No dar explicaciones si es un procedimiento rutinario.",
+      "c": "Limitarse a la función que cumplirá.",
+      "d": "Aclarar la función, su nombre y el procedimiento que realizará."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 513,
+    "Question": "❓FFM.-¿Qué se considera esencial para asegurar la continuidad de la atención en el SAS?",
+    "Options": {
+      "a": "Que el personal sanitario trabaje de manera independiente.",
+      "b": "Que los profesionales se coordinen y compartan información.",
+      "c": "Evitar la participación del paciente en su atención.",
+      "d": "Delegar todas las responsabilidades en el médico responsable."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 514,
+    "Question": "❓FFM.-¿Por qué se enfatiza la importancia de la escucha activa en la comunicación con el usuario?",
+    "Options": {
+      "a": "Permite entender sus necesidades y opiniones.",
+      "b": "Evita que el usuario haga preguntas innecesarias.",
+      "c": "Facilita la comunicación únicamente al final de la atención.",
+      "d": "Reduce el tiempo de la consulta."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 515,
+    "Question": "❓FFM.-¿Cuál es el rol de la documentación médica al pasar la atención a otro equipo?",
+    "Options": {
+      "a": "Ser guardada solo si el paciente la solicita.",
+      "b": "Guardarse solo en el archivo del centro de origen.",
+      "c": "Permitir que el nuevo equipo continúe el tratamiento sin repeticiones.",
+      "d": "Evitar que el paciente tenga acceso a ella."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 516,
+    "Question": "❓FFM.-¿Qué significa que la información sea un “continuo” en el contexto de la atención sanitaria?",
+    "Options": {
+      "a": "Informar al usuario solo cuando lo necesite.",
+      "b": "Informar solo al principio de la atención.",
+      "c": "Limitar la información hasta el final del tratamiento.",
+      "d": "Ofrecer información progresiva durante todo el proceso de atención."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 517,
+    "Question": "❓FFM.-¿Qué debe hacer el profesional cuando el paciente se muestra confundido sobre su atención?",
+    "Options": {
+      "a": "Simplificar las explicaciones al máximo sin preguntar.",
+      "b": "Aclarar dudas y contar con su opinión.",
+      "c": "Limitar las respuestas para evitar confundirlo.",
+      "d": "Delegar la explicación en otro compañero."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 518,
+    "Question": "❓FFM.-¿Qué debe hacer el médico responsable cuando coordina la atención con otros dispositivos?",
+    "Options": {
+      "a": "Asegurar que las intervenciones sean coherentes y no redundantes.",
+      "b": "Permitir que cada profesional actúe sin coordinación.",
+      "c": "Dejar que el equipo de enfermería se encargue de la coherencia.",
+      "d": "Esperar a que el paciente informe sobre su atención."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 519,
+    "Question": "❓FFM.-¿Cuál es la importancia de la colaboración en equipo en la atención continuada?",
+    "Options": {
+      "a": "Garantizar que el paciente no interactúe con múltiples profesionales.",
+      "b": "Evitar que los dispositivos de atención se mezclen.",
+      "c": "Asegurar una atención coherente y continua.",
+      "d": "Limitar la intervención de los dispositivos externos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 520,
+    "Question": "❓FFM.-¿Qué deben hacer los profesionales para proporcionar asistencia de calidad?",
+    "Options": {
+      "a": "Limitar sus funciones a su área específica de trabajo.",
+      "b": "Actuar de manera independiente en sus funciones.",
+      "c": "Evitar la comunicación con otros dispositivos.",
+      "d": "Colaborar activamente como miembros de un equipo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 521,
+    "Question": "❓FFM.-¿Qué actitud deben mantener los profesionales al informar al paciente sobre sus intervenciones?",
+    "Options": {
+      "a": "Explicar únicamente si el paciente lo solicita.",
+      "b": "Informar al paciente de forma comprensible y con claridad.",
+      "c": "Evitar dar detalles sobre el procedimiento.",
+      "d": "Informar solo de lo estrictamente necesario."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 522,
+    "Question": "❓FFM.-¿Cuál es el rol del celador y otros trabajadores no sanitarios en el SAS?",
+    "Options": {
+      "a": "Actuar exclusivamente en sus tareas específicas sin relación con la atención.",
+      "b": "Limitarse a realizar tareas administrativas.",
+      "c": "Colaborar para que la asistencia al paciente sea integral y de calidad.",
+      "d": "No tener ningún contacto con los usuarios."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 523,
+    "Question": "❓FFM.-¿Qué facilita el uso de un lenguaje comprensible en la comunicación con los pacientes?",
+    "Options": {
+      "a": "Que el paciente entienda claramente la información proporcionada.",
+      "b": "Que el profesional reduzca el tiempo de interacción.",
+      "c": "Que el paciente no tenga dudas sobre el procedimiento.",
+      "d": "Que el profesional evite hablar en exceso."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 524,
+    "Question": "❓FFM.-¿Qué es necesario para informar adecuadamente al usuario según el SAS?",
+    "Options": {
+      "a": "Solo dar información verbal.",
+      "b": "Saber escuchar y aclarar lo que el usuario no comprende.",
+      "c": "Limitar la información a los datos más relevantes.",
+      "d": "Evitar la participación del usuario en la conversación."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 525,
+    "Question": "❓FFM.-¿Por qué se considera esencial la coordinación entre profesionales sanitarios?",
+    "Options": {
+      "a": "Para minimizar el tiempo de interacción con el paciente.",
+      "b": "Para permitir que los pacientes se comuniquen con cualquier miembro del equipo.",
+      "c": "Para delegar funciones en el equipo de enfermería.",
+      "d": "Para evitar que el paciente reciba atención duplicada."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 526,
+    "Question": "❓FFM.-¿Qué deben hacer los profesionales del SAS para ganar la confianza del usuario?",
+    "Options": {
+      "a": "Informarle únicamente cuando lo solicite.",
+      "b": "Evitar dar demasiada información para no alarmar.",
+      "c": "Informar de todo lo que pueda afectarle de forma adecuada y comprensible.",
+      "d": "Informar solo de los procedimientos importantes."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 527,
+    "Question": "❓FFM.-¿Cómo deben presentarse el médico y el personal de enfermería en la primera visita?",
+    "Options": {
+      "a": "Solo deben saludar al paciente de manera formal.",
+      "b": "Presentarse con nombre, apellidos y función.",
+      "c": "Solicitar a un compañero que haga las presentaciones.",
+      "d": "Evitar presentarse al usuario para ahorrar tiempo."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 528,
+    "Question": "❓FFM.-¿Qué se espera de todos los trabajadores del SAS en relación con la continuidad asistencial?",
+    "Options": {
+      "a": "Que actúen como un equipo para asegurar una asistencia de calidad.",
+      "b": "Que realicen únicamente las tareas que se les asignan sin coordinación.",
+      "c": "Que dejen las funciones de calidad asistencial a los médicos.",
+      "d": "Que limiten su participación al entorno de trabajo propio."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 529,
+    "Question": "❓FFM.-¿Qué debe hacer el profesional cuando el paciente necesita pasar a otro dispositivo?",
+    "Options": {
+      "a": "Informar al paciente sobre el cambio y no hacer nada más.",
+      "b": "Limitarse a las instrucciones verbales al paciente.",
+      "c": "Dejar que el nuevo equipo solicite la información que requiera.",
+      "d": "Facilitar la documentación necesaria para la atención continua."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 530,
+    "Question": "❓FFM.-¿Qué es esencial en la información que se da al paciente durante las fases de atención?",
+    "Options": {
+      "a": "Solo proporcionar información al final de la atención.",
+      "b": "Ofrecer detalles únicamente en las fases críticas.",
+      "c": "Informar de forma continua durante toda la atención.",
+      "d": "Evitar crear alarmas innecesarias dando pocos detalles."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 531,
+    "Question": "❓FFM.-¿Qué aspecto es fundamental en la comunicación para ganarse la confianza del paciente?",
+    "Options": {
+      "a": "Escuchar al paciente y aclarar cualquier incomprensión.",
+      "b": "Informar solo de los aspectos positivos del tratamiento.",
+      "c": "Ofrecer solo la información que el paciente pueda entender.",
+      "d": "Evitar que el paciente se involucre en la conversación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 532,
+    "Question": "❓FFM.-¿Qué función debe cumplir el lenguaje en la documentación entregada a otros dispositivos?",
+    "Options": {
+      "a": "Ser comprensible para facilitar la continuidad de la atención.",
+      "b": "Estar limitado a términos técnicos médicos.",
+      "c": "Solo centrarse en el tratamiento más reciente.",
+      "d": "Evitar que el nuevo equipo reciba información detallada."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 533,
+    "Question": "❓FFM.-¿Qué responsabilidad tiene el médico en la atención continuada?",
+    "Options": {
+      "a": "Colaborar con el equipo administrativo.",
+      "b": "Coordinar los traslados de los usuarios entre servicios.",
+      "c": "Asegurar la coherencia y evitar redundancias en las intervenciones.",
+      "d": "Diseñar al personal de enfermería adecuado."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 534,
+    "Question": "❓FFM.-¿Cómo debe ser la relación entre los profesionales y los pacientes?",
+    "Options": {
+      "a": "Informativa y centrada en el usuario.",
+      "b": "Respetuosa y clara en la comunicación.",
+      "c": "Técnica y breve en su contenido.",
+      "d": "Solo comunicativa cuando sea necesario."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 535,
+    "Question": "❓FFM.-¿Qué debe hacer el médico responsable en la primera visita?",
+    "Options": {
+      "a": "Presentarse personalmente al paciente.",
+      "b": "Proveer información detallada del procedimiento.",
+      "c": "Informar al paciente sobre la organización del servicio.",
+      "d": "Asegurar la disponibilidad de los recursos médicos necesarios."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 536,
+    "Question": "❓FFM.-¿Cuál es una práctica importante en la atención sanitaria del SAS?",
+    "Options": {
+      "a": "Facilitar información en todas las fases de la atención.",
+      "b": "Solo comunicar al paciente al finalizar el tratamiento.",
+      "c": "Mantener la comunicación dentro del equipo únicamente.",
+      "d": "Esperar a tener todos los datos antes de informar al usuario."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 537,
+    "Question": "❓FFM.-¿Cómo se asegura la continuidad en la atención cuando un paciente cambia de equipo?",
+    "Options": {
+      "a": "Consultando directamente al paciente.",
+      "b": "Facilitando la documentación necesaria.",
+      "c": "Solicitando al paciente la información faltante.",
+      "d": "Solo mediante los registros internos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 538,
+    "Question": "❓FFM.-¿Qué papel tiene la presentación del médico para el paciente?",
+    "Options": {
+      "a": "Tranquiliza al paciente sobre su tratamiento.",
+      "b": "Permite al paciente elegir el profesional que prefiere.",
+      "c": "Refuerza la confianza y profesionalidad en el servicio.",
+      "d": "Da al paciente la seguridad de su recuperación."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 539,
+    "Question": "❓FFM.-¿Qué tipo de lenguaje debe utilizarse en los informes entregados a los pacientes?",
+    "Options": {
+      "a": "Comprensible y adecuado al usuario.",
+      "b": "Exclusivamente técnico para mayor precisión.",
+      "c": "Solo el necesario para cumplir con los requisitos.",
+      "d": "Científico para garantizar la profesionalidad."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 540,
+    "Question": "❓FFM.-¿Qué actitud deben tener los profesionales sanitarios ante las consultas de los pacientes?",
+    "Options": {
+      "a": "Dejar al paciente la decisión final.",
+      "b": "Evitar prolongar la conversación.",
+      "c": "Proporcionar solo la información básica.",
+      "d": "Escuchar y aclarar cualquier duda."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 541,
+    "Question": "❓FFM.-¿Cómo se debe tratar a los pacientes en la atención continuada?",
+    "Options": {
+      "a": "Respetando la estructura del servicio.",
+      "b": "Priorizando siempre la rapidez de atención.",
+      "c": "Con respeto y claridad en la información.",
+      "d": "Exigiendo una actitud respetuosa del paciente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 542,
+    "Question": "❓FFM.-¿Qué característica es vital para el trabajo en equipo en el SAS?",
+    "Options": {
+      "a": "Velar solo por la atención directa al paciente.",
+      "b": "Colaboración y claridad en las responsabilidades.",
+      "c": "Flexibilidad en los horarios de los profesionales.",
+      "d": "Proporcionar formación continua en todos los departamentos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 543,
+    "Question": "❓FFM.-¿Qué debe garantizar el equipo sanitario en la atención continuada?",
+    "Options": {
+      "a": "Que el paciente conozca los profesionales que le atienden.",
+      "b": "La finalización de los procedimientos lo antes posible.",
+      "c": "Solo una comunicación eficaz entre médicos y enfermeros.",
+      "d": "Que el paciente colabore activamente en su proceso."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 544,
+    "Question": "❓FFM.-¿Qué responsabilidad tiene el médico interlocutor?",
+    "Options": {
+      "a": "Coordinar los cambios de turno.",
+      "b": "Controlar el tiempo de cada consulta.",
+      "c": "Realizar todos los trámites administrativos.",
+      "d": "Ser responsable de la coherencia en las intervenciones."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 545,
+    "Question": "❓FFM.-¿Cuál es la forma más adecuada de comunicación en los documentos dirigidos a los usuarios?",
+    "Options": {
+      "a": "Usar un lenguaje respetuoso y comprensible.",
+      "b": "Mantenerse exclusivamente en el ámbito formal.",
+      "c": "Incluir solo información técnica.",
+      "d": "Utilizar abreviaturas para mayor claridad."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 546,
+    "Question": "❓FFM.-¿Por qué es importante que el médico se presente al paciente?",
+    "Options": {
+      "a": "Para obtener información de los síntomas.",
+      "b": "Para reforzar la confianza y claridad en la atención.",
+      "c": "Para justificar el tiempo de consulta.",
+      "d": "Para que el paciente se familiarice con el personal."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 547,
+    "Question": "❓FFM.-¿Qué se debe evitar en la comunicación con pacientes de edad avanzada?",
+    "Options": {
+      "a": "Usar términos como “abuelo/a” u otros apelativos.",
+      "b": "Realizar preguntas que requieran esfuerzo de memoria.",
+      "c": "Usar frases largas y complicadas.",
+      "d": "Referirse únicamente al apellido del paciente."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 548,
+    "Question": "❓FFM.-¿Qué debe hacer el personal de enfermería en la primera visita al paciente?",
+    "Options": {
+      "a": "Presentarse con nombre, apellidos y función.",
+      "b": "Explicar el plan de tratamiento.",
+      "c": "Realizar una evaluación de riesgos.",
+      "d": "Acompañar al médico en la presentación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 549,
+    "Question": "❓FFM.-¿Cuál es el propósito principal de la información continua en la atención sanitaria?",
+    "Options": {
+      "a": "Proporcionar seguridad al equipo.",
+      "b": "Reducir la carga administrativa del personal.",
+      "c": "Que el paciente delegue sus decisiones en el equipo.",
+      "d": "Evitar alarmas innecesarias y mantener al paciente informado."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 550,
+    "Question": "❓FFM.-¿Qué actitud debe tener el personal del SAS en la atención directa al paciente?",
+    "Options": {
+      "a": "Mostrar siempre empatía y paciencia.",
+      "b": "Transmitir solo la información clínica esencial.",
+      "c": "Usar un lenguaje comprensible y adecuado.",
+      "d": "Delegar la explicación en otros profesionales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 551,
+    "Question": "❓FFM.-¿Quién debe asumir la responsabilidad de la coherencia en las intervenciones de los pacientes?",
+    "Options": {
+      "a": "El médico responsable del paciente.",
+      "b": "El médico especialista.",
+      "c": "El personal administrativo.",
+      "d": "El equipo de enfermería."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 552,
+    "Question": "❓FFM.-¿Qué debe hacer el médico al comienzo de su interacción con un paciente?",
+    "Options": {
+      "a": "Preguntar sobre el motivo de consulta.",
+      "b": "Realizar un diagnóstico preliminar.",
+      "c": "Presentarse con su nombre, apellidos y función.",
+      "d": "Solicitar información al acompañante."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 553,
+    "Question": "❓FFM.-¿Qué facilita la colaboración de todos los profesionales del SAS?",
+    "Options": {
+      "a": "Garantizar la continuidad de la atención.",
+      "b": "Reducir los tiempos de espera.",
+      "c": "Aumentar la eficiencia administrativa.",
+      "d": "Mejorar la relación entre el equipo y la administración."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 554,
+    "Question": "❓FFM.-¿Qué es fundamental al comunicar la información clínica a los pacientes?",
+    "Options": {
+      "a": "Escuchar y aclarar lo que no se entienda.",
+      "b": "Evitar que el paciente realice preguntas.",
+      "c": "Mantener un tono técnico.",
+      "d": "Limitarse a lo estrictamente necesario."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 555,
+    "Question": "❓FFM.-¿Cómo deben actuar los profesionales ante un posible traslado del paciente?",
+    "Options": {
+      "a": "Pedir al paciente que informe al nuevo equipo.",
+      "b": "Facilitar la documentación para evitar duplicación de procedimientos.",
+      "c": "Realizar el traslado solo en casos urgentes.",
+      "d": "Dejar que el paciente gestione su historia clínica."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 556,
+    "Question": "❓FFM.-¿Qué aspecto es esencial para que el paciente confíe en el equipo médico?",
+    "Options": {
+      "a": "Informar al paciente en todas las fases de la atención.",
+      "b": "Mantener un trato cordial con los acompañantes.",
+      "c": "Que el paciente conozca solo al médico.",
+      "d": "Brindar únicamente información administrativa."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 557,
+    "Question": "❓FFM.-¿Cómo se garantiza la continuidad de la atención en el SAS?",
+    "Options": {
+      "a": "Revisando los procedimientos cada semana.",
+      "b": "Manteniendo registros solo en formato digital.",
+      "c": "Mediante la colaboración entre todos los profesionales del equipo.",
+      "d": "Limitando el acceso a la información clínica."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 558,
+    "Question": "❓FFM.-¿Qué deben hacer los profesionales al atender a un paciente?",
+    "Options": {
+      "a": "Brindar solo información relevante al diagnóstico.",
+      "b": "Proporcionar toda la información al final del proceso.",
+      "c": "Realizar preguntas directas y técnicas.",
+      "d": "Informar al paciente sobre su función y el tratamiento."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 559,
+    "Question": "❓FFM.-¿Qué es fundamental para una buena relación entre profesionales y pacientes?",
+    "Options": {
+      "a": "Comunicación respetuosa y comprensible.",
+      "b": "Uso de términos técnicos precisos.",
+      "c": "Trato cordial con el acompañante.",
+      "d": "Informar solo cuando el paciente lo solicite."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 560,
+    "Question": "❓FFM.-¿Cuál es una de las responsabilidades del personal del SAS en la comunicación con el paciente?",
+    "Options": {
+      "a": "Utilizar un lenguaje accesible en los informes.",
+      "b": "Evitar el uso de nombres propios.",
+      "c": "Mantener información breve.",
+      "d": "Informar solo de los diagnósticos positivos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 561,
+    "Question": "❓FFM.-¿Qué actitud debe mostrar el personal del SAS en la comunicación con el paciente?",
+    "Options": {
+      "a": "Mantenerse distante.",
+      "b": "Escuchar activamente y aclarar dudas.",
+      "c": "Limitar las respuestas a lo esencial.",
+      "d": "Evitar largas explicaciones."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 562,
+    "Question": "❓FFM.-¿Qué responsabilidad tiene el SAS ante un cambio de equipo para un paciente?",
+    "Options": {
+      "a": "Garantizar que el nuevo equipo reciba la documentación completa.",
+      "b": "Pedir al paciente que lleve sus documentos.",
+      "c": "Informar solo de los procedimientos urgentes.",
+      "d": "Dejar la decisión en manos del paciente."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 563,
+    "Question": "❓FFM.-¿Qué tipo de información deben ofrecer los profesionales de salud a los usuarios?",
+    "Options": {
+      "a": "Solo la información solicitada por el usuario.",
+      "b": "La información que sea necesaria para la comprensión del proceso de enfermedad y tratamientos.",
+      "c": "Exclusivamente la información relacionada con pruebas diagnósticas.",
+      "d": "Únicamente la información que implique intervención activa del usuario."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 564,
+    "Question": "❓FFM.-¿Cuál es uno de los objetivos de la información sobre el funcionamiento de la asistencia al usuario?",
+    "Options": {
+      "a": "Asegurar que los usuarios interpreten adecuadamente las prácticas de atención.",
+      "b": "Facilitar desplazamientos frecuentes y duplicación de procedimientos.",
+      "c": "Evitar molestias y malentendidos respecto a las actuaciones de los servicios.",
+      "d": "Limitar el acceso a servicios si el usuario no solicita información."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 565,
+    "Question": "❓FFM.-¿Qué se debe asegurar cuando los usuarios retiran documentación de su historia clínica?",
+    "Options": {
+      "a": "Que se registre quién retira la información y qué documentos se llevan.",
+      "b": "Que solo se informe a familiares directos de los pacientes.",
+      "c": "Que se limite la retirada de información solo al personal autorizado.",
+      "d": "Que no se permita al usuario acceder a sus informes sin permiso especial."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 566,
+    "Question": "❓FFM.-En situaciones complejas, ¿qué procedimiento debe establecerse para informar al paciente o acompañante?",
+    "Options": {
+      "a": "Permitir al usuario consultar a cualquier miembro del equipo en cualquier momento.",
+      "b": "Definir un procedimiento claro sobre cuándo y quién proporcionará la información.",
+      "c": "Esperar a que el usuario solicite la información.",
+      "d": "Informar únicamente al final de cada intervención."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 567,
+    "Question": "❓FFM.-¿Qué responsabilidad tienen los profesionales sanitarios con respecto a la toma de decisiones por parte del usuario?",
+    "Options": {
+      "a": "Decidir en lugar del usuario.",
+      "b": "Asegurarse de que el usuario siempre siga las recomendaciones.",
+      "c": "Evitar que el usuario obtenga demasiada información sobre los riesgos.",
+      "d": "Asesorar al usuario para que pueda tomar decisiones informadas sobre su salud."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 568,
+    "Question": "❓FFM.-¿Qué actitud puede tomar un usuario frente a la decisión sobre su tratamiento, según se menciona?",
+    "Options": {
+      "a": "Delegar la decisión en el profesional sanitario.",
+      "b": "Negarse a recibir información alguna.",
+      "c": "Decidir solo basándose en recomendaciones de familiares.",
+      "d": "Rechazar todos los tratamientos posibles sin justificación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 569,
+    "Question": "❓FFM.-¿Qué implica el consentimiento informado en relación a los derechos del usuario?",
+    "Options": {
+      "a": "Obliga al usuario a aceptar cualquier intervención propuesta.",
+      "b": "Reconoce el derecho del usuario a decidir sobre su salud tras recibir la información pertinente.",
+      "c": "Permite al usuario posponer su tratamiento indefinidamente.",
+      "d": "Limita al usuario a las decisiones que el médico considere necesarias."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 570,
+    "Question": "❓FFM.-¿Cuál es el método principal de comunicación para el consentimiento informado?",
+    "Options": {
+      "a": "Siempre por medio de documentos escritos.",
+      "b": "A través de sistemas digitales de atención.",
+      "c": "Mediante una tercera persona designada por el usuario.",
+      "d": "Básicamente a través de intercambio verbal."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 571,
+    "Question": "❓FFM.-¿Qué información sobre riesgos debe proporcionarse al usuario?",
+    "Options": {
+      "a": "Solo los riesgos graves y muy probables.",
+      "b": "Todos los efectos secundarios sin omisión.",
+      "c": "Solo aquellos riesgos que el profesional considere irrelevantes.",
+      "d": "Aquellos riesgos y beneficios probables que sean clínicamente relevantes."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 572,
+    "Question": "❓FFM.-¿Cuándo debe firmarse el documento de consentimiento informado?",
+    "Options": {
+      "a": "Inmediatamente después de que el usuario ingresa al centro de salud.",
+      "b": "Antes de cualquier información proporcionada por el médico.",
+      "c": "Una vez el usuario ha comenzado el tratamiento.",
+      "d": "Todas las respuestas son incorrectas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 573,
+    "Question": "❓FFM.-¿Qué tipo de consentimiento se debe recabar para proyectos de investigación con pacientes?",
+    "Options": {
+      "a": "Solo el consentimiento verbal.",
+      "b": "Un consentimiento por parte de los familiares.",
+      "c": "Un consentimiento detallado que implique acuerdo por parte del paciente.",
+      "d": "No es necesario el consentimiento en investigaciones no invasivas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 574,
+    "Question": "❓FFM.-¿Dónde puede solicitar el usuario una segunda opinión médica?",
+    "Options": {
+      "a": "Únicamente con el médico que lo está atendiendo.",
+      "b": "En cualquier servicio asistencial sin solicitud formal.",
+      "c": "Directamente en el hospital sin requerir trámite.",
+      "d": "En el Servicio de Atención al Usuario del distrito sanitario u hospital correspondiente."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 575,
+    "Question": "❓FFM.-¿Qué debe contener la información en situaciones de atención urgente?",
+    "Options": {
+      "a": "Solo información relevante al momento.",
+      "b": "Toda la información posible en el menor tiempo.",
+      "c": "Información adecuada al momento, y definir cuándo y quién la proporcionará.",
+      "d": "Información solo si el paciente o acompañante la solicita."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 576,
+    "Question": "❓FFM.-¿Qué se debe respetar si el paciente no desea conocer toda la información sobre su estado?",
+    "Options": {
+      "a": "Se debe informar de todos modos sin excepción.",
+      "b": "Los deseos del paciente deben ser respetados, proporcionando información con sensibilidad.",
+      "c": "Informar a los familiares sin consultar al paciente.",
+      "d": "Continuar informando en cada revisión médica."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 577,
+    "Question": "❓FFM.-¿Qué situación podría interpretarse como una mala práctica si no se informa adecuadamente?",
+    "Options": {
+      "a": "Un diagnóstico erróneo.",
+      "b": "Un cambio de tratamiento sin consulta.",
+      "c": "La realización de una revisión semestral sin justificación previa.",
+      "d": "El retraso en el tratamiento tras la consulta inicial."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 578,
+    "Question": "❓FFM.-¿Qué tipo de información se debe ofrecer al usuario para evitar molestias y desplazamientos innecesarios?",
+    "Options": {
+      "a": "La relacionada con su diagnóstico.",
+      "b": "La que ayuda a comprender los beneficios del tratamiento.",
+      "c": "La que orienta sobre el funcionamiento de la asistencia y evita desplazamientos innecesarios.",
+      "d": "La que permite acceder a cualquier punto de la red asistencial."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 579,
+    "Question": "❓FFM.-En situaciones urgentes, ¿qué se requiere para garantizar la información al paciente?",
+    "Options": {
+      "a": "Personal adicional para informar.",
+      "b": "Procedimientos establecidos para ofrecer información adecuada.",
+      "c": "Entrega de folletos informativos.",
+      "d": "La presencia de un médico durante el proceso."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 580,
+    "Question": "❓FFM.-¿Qué debe hacerse si un usuario deja la decisión sobre su tratamiento en manos del profesional?",
+    "Options": {
+      "a": "Rechazar la petición y recomendar que el usuario decida.",
+      "b": "Remitir al usuario a otro profesional.",
+      "c": "Aconsejar la opción que el profesional considere más adecuada.",
+      "d": "No aceptar esa responsabilidad."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 581,
+    "Question": "❓FFM.-¿Qué aspecto se debe garantizar al solicitar el consentimiento informado para una intervención?",
+    "Options": {
+      "a": "Que el usuario firme el documento antes de recibir la información.",
+      "b": "Que el usuario conozca solo los beneficios del tratamiento.",
+      "c": "Que el usuario reciba toda la información, comprenda y acepte sin presiones.",
+      "d": "Que el usuario esté acompañado de un familiar."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 582,
+    "Question": "❓FFM.-¿Qué tipo de información debe constar en la historia clínica del paciente?",
+    "Options": {
+      "a": "La relacionada con documentos entregados y a quién se le ha entregado.",
+      "b": "Solo aquella relacionada con intervenciones urgentes.",
+      "c": "Solo los tratamientos farmacológicos prescritos.",
+      "d": "Ningún documento específico."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 583,
+    "Question": "❓FFM.-¿Qué derecho tienen los usuarios respecto a su tratamiento cuando reciben información médica?",
+    "Options": {
+      "a": "Tomar decisiones sobre su salud en base a la información proporcionada.",
+      "b": "Rechazar cualquier información negativa.",
+      "c": "Aceptar el tratamiento sin posibilidad de consulta.",
+      "d": "Que el profesional decida por ellos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 584,
+    "Question": "❓FFM.-¿En qué se diferencia el consentimiento informado en un proyecto de investigación?",
+    "Options": {
+      "a": "Se necesita que el paciente firme dos veces.",
+      "b": "Se requiere un documento específico solo para investigación.",
+      "c": "No se necesita consentimiento para la investigación.",
+      "d": "Se debe dar una explicación detallada de todos los aspectos que le afecten personalmente."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 585,
+    "Question": "❓FFM.-¿Cuál es el principal medio de comunicación del consentimiento informado entre profesional y paciente?",
+    "Options": {
+      "a": "A través de un documento firmado exclusivamente.",
+      "b": "Por un intercambio verbal registrado por escrito si es necesario.",
+      "c": "Mediante reuniones con otros profesionales.",
+      "d": "Solo por medio de informes documentados."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 586,
+    "Question": "❓FFM.-¿Cuál es el propósito de la información sobre salud colectiva que se proporciona a los usuarios?",
+    "Options": {
+      "a": "Hacer que el usuario adopte comportamientos saludables.",
+      "b": "Aumentar la responsabilidad del usuario sobre otros pacientes.",
+      "c": "Garantizar que eviten visitas al hospital.",
+      "d": "Facilitar el seguimiento de su historial médico."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 587,
+    "Question": "❓FFM.-¿Cómo deben manejar los profesionales la entrega de información en entornos de alta presión, como UCI?",
+    "Options": {
+      "a": "Solo informar al acompañante.",
+      "b": "Evitar informar por falta de tiempo.",
+      "c": "Utilizar un procedimiento para asegurar la información adecuada.",
+      "d": "Entregar únicamente información escrita."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 588,
+    "Question": "❓FFM.-¿Qué se debe considerar en relación a los riesgos al informar en el consentimiento informado?",
+    "Options": {
+      "a": "Solo informar sobre los efectos secundarios negativos.",
+      "b": "Describir beneficios, riesgos típicos y graves aunque infrecuentes.",
+      "c": "Informar solo de los efectos beneficiosos.",
+      "d": "Evitar detalles sobre los riesgos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 589,
+    "Question": "❓FFM.-¿Qué se debe hacer cuando el usuario tiene dudas o temores sobre su decisión de salud?",
+    "Options": {
+      "a": "El profesional debe ayudar a resolver sus inquietudes y facilitarle una decisión informada.",
+      "b": "Referir al usuario a un terapeuta.",
+      "c": "Respetar sus dudas sin intervenir.",
+      "d": "Anotar sus dudas sin dar respuesta."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 590,
+    "Question": "❓FFM.-¿Cuándo es imprescindible solicitar consentimiento del usuario?",
+    "Options": {
+      "a": "Al iniciar cualquier tratamiento.",
+      "b": "Al incluirlo en proyectos docentes o de investigación.",
+      "c": "Solo si el paciente está en desacuerdo con el tratamiento.",
+      "d": "Solo para tratamientos quirúrgicos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 591,
+    "Question": "❓FFM.-¿Qué considera el SAS sobre el derecho del usuario a solicitar una segunda opinión médica?",
+    "Options": {
+      "a": "Rechaza esta opción si es frecuente.",
+      "b": "Debe solicitarlo exclusivamente si está insatisfecho.",
+      "c": "Es legítimo y se realiza a través del Servicio de Atención al Usuario.",
+      "d": "Solo lo permite en hospitales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 592,
+    "Question": "❓FFM.-¿Cuál es el objetivo de la atención continuada y el trabajo en equipo según el SAS?",
+    "Options": {
+      "a": "Que el profesional actúe sin necesidad de otros.",
+      "b": "Reducir las visitas al hospital.",
+      "c": "Solo cubrir las urgencias de los pacientes.",
+      "d": "Optimizar la calidad de la atención al usuario."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 593,
+    "Question": "❓FFM.-¿Qué se reconoce acerca del tabaco en relación con la salud pública?",
+    "Options": {
+      "a": "Que afecta negativamente solo a los fumadores.",
+      "b": "Que únicamente perjudica a mujeres y no a hombres.",
+      "c": "Que es uno de los principales problemas de salud en la sociedad.",
+      "d": "Que no existen estudios concluyentes sobre su daño."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 594,
+    "Question": "❓FFM.-¿Qué papel deben asumir los profesionales sanitarios ante la población en relación al consumo de tabaco?",
+    "Options": {
+      "a": "No intervenir ni emitir opiniones al respecto.",
+      "b": "Asegurarse de que todos los usuarios consuman tabaco.",
+      "c": "Ser un modelo de conducta para evitar el consumo de tabaco.",
+      "d": "Aplicar las normas solo si son no fumadores."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 595,
+    "Question": "❓FFM.-¿Qué tipo de mensajes se deben comunicar al público sobre el tabaco?",
+    "Options": {
+      "a": "Mensajes ambiguos para evitar confrontaciones.",
+      "b": "Mensajes claros e inequívocos sobre sus efectos perjudiciales.",
+      "c": "Solo advertencias generales sin detalles.",
+      "d": "Información únicamente para no fumadores."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 596,
+    "Question": "❓FFM.-¿Qué acciones son necesarias respecto a los estudios sobre el consumo de tabaco según el SAS?",
+    "Options": {
+      "a": "Desarrollar más investigaciones para confirmar su daño.",
+      "b": "Producir estudios adicionales solo para fumadores.",
+      "c": "Realizar estudios exclusivamente en centros libres de humo.",
+      "d": "No es necesario desarrollar más estudios sobre sus efectos perjudiciales."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 597,
+    "Question": "❓FFM.-¿Cuál es la responsabilidad de los profesionales en cuanto a las normas de restricción del consumo de tabaco en su jornada laboral?",
+    "Options": {
+      "a": "Respetar y aplicar las normas de restricción del tabaco.",
+      "b": "Decidir si las aplican o no según su criterio.",
+      "c": "Hacer excepciones en zonas determinadas.",
+      "d": "Solo aplicarlas en presencia de usuarios."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 598,
+    "Question": "❓FFM.-¿Qué actitud deben mantener los profesionales sanitarios que no han abandonado el hábito de fumar?",
+    "Options": {
+      "a": "Seguir fumando sin restricción alguna.",
+      "b": "Mantener comportamientos responsables en público ante los usuarios.",
+      "c": "Fumar solo en áreas designadas para personal.",
+      "d": "No tener en cuenta su conducta en espacios sanitarios."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 599,
+    "Question": "❓FFM.-¿Cuál es el estatus de los centros sanitarios del SAS respecto al consumo de tabaco?",
+    "Options": {
+      "a": "Son espacios libres de humo de tabaco sin excepciones.",
+      "b": "Permiten el consumo en áreas exteriores.",
+      "c": "Son libres de humo solo en determinadas zonas.",
+      "d": "Cada centro establece sus propias reglas de consumo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 600,
+    "Question": "❓FFM.-¿Cuál es el enfoque del SAS en relación con la información sobre los efectos del tabaco?",
+    "Options": {
+      "a": "Se evita detallar los efectos perjudiciales.",
+      "b": "Se informa solo si los usuarios lo solicitan.",
+      "c": "Se difunden mensajes claros sobre los riesgos del tabaco.",
+      "d": "Los mensajes se reservan únicamente para los no fumadores."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 601,
+    "Question": "❓FFM.-¿Qué significa que el tabaco sea un “problema de salud” según el SAS?",
+    "Options": {
+      "a": "Solo afecta a los que eligen fumar.",
+      "b": "Tiene un impacto significativo en la salud de la sociedad en general.",
+      "c": "Solo perjudica a los que inhalan directamente el humo.",
+      "d": "No hay impacto social ni económico significativo."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 602,
+    "Question": "❓FFM.-¿Cuál es el impacto del consumo de tabaco en la sociedad según el SAS?",
+    "Options": {
+      "a": "No afecta a las personas no fumadoras.",
+      "b": "No existe suficiente evidencia sobre su impacto.",
+      "c": "Solamente afecta a los hombres.",
+      "d": "Es perjudicial tanto para fumadores como para los que inhalan el humo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 603,
+    "Question": "❓FFM.-¿Qué función específica tienen los mensajes del SAS sobre el tabaco para los profesionales sanitarios?",
+    "Options": {
+      "a": "Servir como guía para comportamientos en centros sanitarios.",
+      "b": "Justificar el consumo moderado en espacios abiertos.",
+      "c": "Permitir excepciones en zonas externas.",
+      "d": "Informar solo a profesionales no fumadores."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 604,
+    "Question": "❓FFM.-¿A quiénes perjudica el humo de tabaco según el SAS?",
+    "Options": {
+      "a": "Exclusivamente a quienes lo fuman.",
+      "b": "Únicamente a personas mayores.",
+      "c": "A todos los que inhalan aire contaminado por humo de tabaco.",
+      "d": "Solo a quienes trabajan en áreas sanitarias."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 605,
+    "Question": "❓FFM.-¿Por qué el SAS considera innecesario realizar más estudios sobre el tabaco?",
+    "Options": {
+      "a": "Porque ya existe suficiente evidencia de su daño.",
+      "b": "Porque no se ha encontrado impacto social.",
+      "c": "Porque es imposible reducir su consumo.",
+      "d": "Porque solo afecta a algunos individuos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 606,
+    "Question": "❓FFM.-¿Qué deben hacer los profesionales sanitarios respecto a las normas de restricción del tabaco?",
+    "Options": {
+      "a": "Omitir las normas en sus espacios privados.",
+      "b": "Decidir individualmente su cumplimiento.",
+      "c": "Implementarlas solo en presencia de usuarios.",
+      "d": "Aceptar y aplicar las restricciones de tabaco en horario laboral."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 607,
+    "Question": "❓FFM.-¿Qué característica tienen los centros sanitarios del SAS respecto al consumo de tabaco?",
+    "Options": {
+      "a": "Son espacios libres de humo de tabaco sin excepciones.",
+      "b": "Se permite fumar solo en áreas designadas para fumadores.",
+      "c": "Los usuarios pueden fumar en exteriores.",
+      "d": "Son libres de humo solo durante horas laborales."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 608,
+    "Question": "❓FFM.-¿Cuál es la obligación del profesional que detecta una mala organización o error repetido?",
+    "Options": {
+      "a": "Intentar resolver el problema por sí mismo.",
+      "b": "Contactar con el servicio de atención al usuario.",
+      "c": "Comunicarlo a su superior directo.",
+      "d": "Ignorar el problema si no afecta a su área de trabajo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 609,
+    "Question": "❓FFM.-¿Qué deben hacer los profesionales con funciones organizativas respecto a la opinión de los usuarios?",
+    "Options": {
+      "a": "Tomar notas y archivarlas para futuras referencias.",
+      "b": "Utilizar las opiniones para mejorar la asistencia.",
+      "c": "Consultar solo las opiniones que sean favorables.",
+      "d": "Realizar una encuesta anual de satisfacción."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 610,
+    "Question": "❓FFM.-¿Qué responsabilidad tienen los profesionales en relación con la Carta de derechos y deberes de los ciudadanos?",
+    "Options": {
+      "a": "Solo consultarla cuando un usuario tenga dudas.",
+      "b": "Archivar una copia en cada departamento.",
+      "c": "Hacerla cumplir solo si afecta al equipo.",
+      "d": "Conocerla y facilitar su cumplimiento."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 611,
+    "Question": "❓FFM.-¿Qué deben hacer las unidades de atención al usuario para evitar que los usuarios transporten documentación?",
+    "Options": {
+      "a": "Dejar que el usuario elija entre llevar o no la documentación.",
+      "b": "Solicitar que el usuario llame antes de llevarla.",
+      "c": "Pedir al usuario que llame antes de transportarla.",
+      "d": "Gestionar los documentos internamente sin implicar al usuario."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 612,
+    "Question": "❓FFM.-¿Cuál es la función del profesional que atiende directamente a un usuario respecto a la información de su atención?",
+    "Options": {
+      "a": "Informarle sobre las actuaciones previstas en relación con su problema.",
+      "b": "Informarle sobre otros servicios que pueda requerir en el futuro.",
+      "c": "Facilitarle acceso a todo el historial de sus trámites.",
+      "d": "Solo indicarle la fecha de la próxima cita."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 613,
+    "Question": "❓FFM.-¿Qué debe hacer un profesional cuando indica a un usuario que realice un trámite en otro servicio?",
+    "Options": {
+      "a": "Entregarle solo la dirección del servicio.",
+      "b": "Informarle sobre el lugar, documentación y pasos a seguir.",
+      "c": "Remitirlo a otra unidad de atención al usuario.",
+      "d": "Pedirle que regrese si tiene dudas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 614,
+    "Question": "❓FFM.-¿Qué se debe hacer con las normas internas que dificultan el confort de los usuarios?",
+    "Options": {
+      "a": "Revisarlas cada tres años.",
+      "b": "Evitarlas solo en situaciones de emergencia.",
+      "c": "Revisarlas y eliminarlas para facilitar la accesibilidad.",
+      "d": "Informar a los usuarios sobre la normativa vigente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 615,
+    "Question": "❓FFM.-¿Cuál es una responsabilidad específica de los profesionales con tareas organizativas?",
+    "Options": {
+      "a": "Recoger información de profesionales y usuarios para posibles mejoras.",
+      "b": "Delegar sus funciones en otro profesional.",
+      "c": "Informar únicamente sobre normas externas.",
+      "d": "Elaborar informes de errores solo para uso interno."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 616,
+    "Question": "❓FFM.-¿Qué se debe hacer cuando un usuario tiene expectativas que el sistema no puede satisfacer?",
+    "Options": {
+      "a": "Informarle que el sistema es inflexible.",
+      "b": "Derivarlo a otro servicio más accesible.",
+      "c": "Explicarle las razones y ofrecer alternativas si existen.",
+      "d": "Dejarle realizar el trámite bajo su responsabilidad."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 617,
+    "Question": "❓FFM.-¿Qué deben evitar los profesionales al comunicar información a los usuarios?",
+    "Options": {
+      "a": "Explicar la información de manera breve.",
+      "b": "Utilizar términos técnicos sin explicarlos.",
+      "c": "Dar detalles innecesarios de sus tareas.",
+      "d": "Repetir la misma información varias veces."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 618,
+    "Question": "❓FFM.-¿Qué se recomienda al indicar la ubicación de servicios dentro del centro?",
+    "Options": {
+      "a": "Proporcionar la dirección exacta en papel.",
+      "b": "Pedir al usuario que busque por sí mismo.",
+      "c": "Facilitar un plano o acompañar al usuario.",
+      "d": "Sugerir una aplicación de mapas digitales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 619,
+    "Question": "❓FFM.-¿Qué acción deben evitar los profesionales en relación con el transporte de documentos entre centros?",
+    "Options": {
+      "a": "Involucrar al usuario en el transporte de documentos.",
+      "b": "Solicitar ayuda a los familiares del usuario.",
+      "c": "Entregar copias a los usuarios de sus documentos.",
+      "d": "Pedir al usuario que contacte con otros centros."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 620,
+    "Question": "❓FFM.-¿Qué se debe ofrecer a los usuarios cuando haya cambios que afecten a su atención?",
+    "Options": {
+      "a": "Solo informar si el usuario lo solicita.",
+      "b": "Informar con antelación y dar la nueva fecha o información.",
+      "c": "Notificar el cambio solo si es de emergencia.",
+      "d": "Enviar un correo electrónico únicamente."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 621,
+    "Question": "❓FFM.-¿Qué deben hacer las unidades de atención al usuario cuando se indica una derivación?",
+    "Options": {
+      "a": "Dejar que el usuario consulte los detalles por su cuenta.",
+      "b": "Hacer seguimiento únicamente de los casos urgentes.",
+      "c": "Proporcionar toda la información sobre el proceso de derivación.",
+      "d": "Solicitar que el usuario regrese con la documentación completa."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 622,
+    "Question": "❓FFM.-¿Cuál es una de las finalidades al analizar el impacto de una nueva medida en los servicios?",
+    "Options": {
+      "a": "Implementar medidas sin restricciones.",
+      "b": "Garantizar el ahorro de recursos económicos.",
+      "c": "Minimizar el tiempo de espera del personal.",
+      "d": "Evitar efectos negativos en la atención a los usuarios."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 623,
+    "Question": "❓FFM.-¿Qué deben hacer los profesionales al detectar un fallo organizativo que no pueden resolver por sí mismos?",
+    "Options": {
+      "a": "Guardarlo como información para reportarlo después.",
+      "b": "Informar a los usuarios afectados por el fallo.",
+      "c": "Comunicarlo a su superior directo para resolverlo.",
+      "d": "Solicitar ayuda de un compañero de trabajo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 624,
+    "Question": "❓FFM.-¿Qué deben hacer los responsables organizativos con las opiniones de los usuarios?",
+    "Options": {
+      "a": "Solo registrarlas sin darles seguimiento.",
+      "b": "Adoptar únicamente las sugerencias de las quejas formales.",
+      "c": "Archivar todas las opiniones para análisis estadísticos.",
+      "d": "Tener en cuenta las opiniones de los usuarios para mejorar la asistencia."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 625,
+    "Question": "❓FFM.-¿Cómo deben proceder las unidades de atención al usuario con los trámites del paciente?",
+    "Options": {
+      "a": "Solicitar la presencia del usuario para realizar gestiones.",
+      "b": "Realizar trámites que requieran la intervención directa del usuario.",
+      "c": "Resolver internamente todas las gestiones posibles sin implicar al usuario.",
+      "d": "Hacer que el usuario gestione su documentación en persona."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 626,
+    "Question": "❓FFM.-¿Qué deben evitar los profesionales cuando explican términos médicos al usuario?",
+    "Options": {
+      "a": "Usar palabras de fácil comprensión.",
+      "b": "Ofrecer explicaciones amplias.",
+      "c": "Emplear términos técnicos sin explicarlos.",
+      "d": "Simplificar las instrucciones sin necesarias."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 627,
+    "Question": "❓FFM.-¿Qué responsabilidad tienen los profesionales al orientar al usuario en su proceso de atención?",
+    "Options": {
+      "a": "Informar sobre todas las actuaciones previstas que estén relacionadas con su problema.",
+      "b": "Explicar los procedimientos técnicos de cada prueba médica.",
+      "c": "Agilizar el tiempo de cada consulta que reciba el usuario.",
+      "d": "Derivar al usuario a otra área si desconoce la respuesta."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 628,
+    "Question": "❓FFM.-¿Qué deben hacer los profesionales ante cualquier cambio que afecte la atención del usuario?",
+    "Options": {
+      "a": "Informar solo cuando el cambio es de larga duración.",
+      "b": "Comunicar el cambio con suficiente antelación.",
+      "c": "Notificar solo al usuario en la próxima consulta.",
+      "d": "No informar de cambios que consideren poco relevantes."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 629,
+    "Question": "❓FFM.-¿Qué deben realizar los profesionales antes de implantar una nueva medida organizativa?",
+    "Options": {
+      "a": "Ajustar los horarios de consulta del personal.",
+      "b": "Consultar con los médicos directamente implicados.",
+      "c": "Notificar la nueva medida en el área correspondiente.",
+      "d": "Evaluar el impacto sobre los usuarios y profesionales."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 630,
+    "Question": "❓FFM.-¿Qué información deben ofrecer los profesionales al derivar a un usuario a otro servicio?",
+    "Options": {
+      "a": "Explicar claramente qué documentos debe llevar y qué esperar después.",
+      "b": "Solicitar al usuario que llame al nuevo servicio para más detalles.",
+      "c": "Indicar solo el nombre del próximo profesional a atenderle.",
+      "d": "Aconsejarle presentarse al servicio sin más información."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 631,
+    "Question": "❓FFM.-¿Qué deben evitar los profesionales respecto a los desplazamientos de los usuarios para trámites?",
+    "Options": {
+      "a": "Limitar la cantidad de trámites por día.",
+      "b": "Evitar que el usuario deba desplazarse a otros centros cuando sea posible resolverlo internamente.",
+      "c": "Permitir solo desplazamientos dentro del centro de salud.",
+      "d": "Gestionar todos los trámites por vía telefónica."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 632,
+    "Question": "❓FFM.-¿Cómo pueden los usuarios comunicar sus opiniones sobre el servicio recibido?",
+    "Options": {
+      "a": "Únicamente mediante encuestas anuales.",
+      "b": "Por quejas oficiales exclusivamente.",
+      "c": "A través de sugerencias, grupos focales, encuestas, contactos informales o quejas.",
+      "d": "Solo mediante el libro de sugerencias del centro."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 633,
+    "Question": "❓FFM.-¿Qué debe hacer el personal cuando el usuario no comprende términos técnicos?",
+    "Options": {
+      "a": "Explicarlos de manera clara para facilitar la comprensión.",
+      "b": "Pedirle al usuario que busque información adicional.",
+      "c": "Usar términos más sencillos sin explicación.",
+      "d": "Remitir al usuario a un documento técnico."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 634,
+    "Question": "❓FFM.-¿Qué deben hacer los profesionales con la información sobre posibles mejoras organizativas?",
+    "Options": {
+      "a": "Guardar solo información positiva.",
+      "b": "Registrar tanto comentarios positivos como negativos.",
+      "c": "Incluir solo sugerencias de los compañeros.",
+      "d": "Tener en cuenta solo las quejas graves."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 635,
+    "Question": "❓FFM.-¿Qué se debe proporcionar a los usuarios para orientarlos en el centro?",
+    "Options": {
+      "a": "Un mapa general para orientarse.",
+      "b": "Ayuda para orientarse, como una explicación o acompañamiento si es necesario.",
+      "c": "Solo un folleto de bienvenida.",
+      "d": "Un directorio con todos los nombres de los profesionales."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 636,
+    "Question": "❓FFM.-¿Qué deben hacer los responsables con las normas internas de funcionamiento?",
+    "Options": {
+      "a": "Revisarlas anualmente sin modificaciones.",
+      "b": "Aplicarlas sin considerar sus efectos.",
+      "c": "Mantenerlas sin cambios para evitar confusión.",
+      "d": "Eliminar las normas que dificulten la accesibilidad y el confort del usuario."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 637,
+    "Question": "❓FFM.-¿Cuál es la responsabilidad principal de los profesionales del SAS ante los usuarios?",
+    "Options": {
+      "a": "Atender todas las solicitudes de los usuarios.",
+      "b": "Cumplir solo con el listado de tareas asignadas.",
+      "c": "Atender y, si es necesario, redirigir al usuario a otro profesional o unidad.",
+      "d": "Informar al usuario sobre los servicios disponibles."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 638,
+    "Question": "❓FFM.-¿Qué debe hacer un profesional si detecta una omisión que ha afectado a un usuario?",
+    "Options": {
+      "a": "Ignorar la omisión si no fue su error.",
+      "b": "Intentar resolver la omisión y comunicarla al responsable.",
+      "c": "Pedir al usuario que presente una queja formal.",
+      "d": "Notificar inmediatamente al director del centro."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 639,
+    "Question": "❓FFM.-¿Cómo se deben expresar las demandas profesionales en el SAS?",
+    "Options": {
+      "a": "Mediante los cauces establecidos.",
+      "b": "A través de las redes sociales.",
+      "c": "Directamente a los usuarios.",
+      "d": "A través de sus superiores sin seguir los cauces formales."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 640,
+    "Question": "❓FFM.-¿Qué se requiere en la atención al usuario por teléfono?",
+    "Options": {
+      "a": "Omitir detalles.",
+      "b": "Presentarse al usuario como un número.",
+      "c": "Identificar el centro y el nombre del profesional.",
+      "d": "Hablar de manera impersonal."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 641,
+    "Question": "❓FFM.-¿Qué debe figurar en la documentación escrita dirigida a los usuarios?",
+    "Options": {
+      "a": "Solo el nombre del centro.",
+      "b": "Nombre completo del centro, dirección y teléfono.",
+      "c": "Nombre y apellidos del profesional únicamente.",
+      "d": "Solo el logotipo del SAS."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 642,
+    "Question": "❓FFM.-¿En qué casos es correcto utilizar el vestuario clínico fuera del centro?",
+    "Options": {
+      "a": "En ninguna circunstancia.",
+      "b": "Cuando el profesional deba acudir rápidamente al centro.",
+      "c": "Solo si el diseño permite atención a urgencias fuera del centro.",
+      "d": "Si el profesional está de guardia en cualquier lugar."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 643,
+    "Question": "❓FFM.-¿Cuál es la función principal de la tarjeta sanitaria individual en el SAS?",
+    "Options": {
+      "a": "Ser un documento de identidad alternativo.",
+      "b": "Servir como un registro de visitas.",
+      "c": "Solo ser usada en hospitales.",
+      "d": "Funcionar como el documento identificativo básico de los ciudadanos en el SAS."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 644,
+    "Question": "❓FFM.-¿Qué elementos deben revisarse periódicamente en los centros de salud para facilitar la orientación de los usuarios?",
+    "Options": {
+      "a": "Señalización interna y externa.",
+      "b": "Los manuales de procedimientos.",
+      "c": "Los registros de asistencia.",
+      "d": "Los horarios de atención."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 645,
+    "Question": "❓FFM.-¿Qué acción deben tomar los centros del SAS con información desactualizada en espacios públicos?",
+    "Options": {
+      "a": "Mantenerla disponible para los usuarios.",
+      "b": "Retirarla para evitar desinformación.",
+      "c": "Transferirla a zonas de acceso profesional.",
+      "d": "Destinarla a una sección especial de archivos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 646,
+    "Question": "❓FFM.-¿Qué debe hacer un profesional si un usuario solicita información adicional sobre el personal?",
+    "Options": {
+      "a": "Derivar al usuario a la administración.",
+      "b": "Identificarse personal y profesionalmente.",
+      "c": "Solo ofrecer su número de identificación.",
+      "d": "Decir que la información es confidencial."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 647,
+    "Question": "❓FFM.-¿Por qué los profesionales deben utilizar tarjetas de identificación visible en el centro?",
+    "Options": {
+      "a": "Para seguir las normativas de vestuario.",
+      "b": "Como parte de los requisitos de formación.",
+      "c": "Para aceptar la responsabilidad personal y del centro.",
+      "d": "Para mejorar la seguridad del edificio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 648,
+    "Question": "❓FFM.-¿Qué no está permitido en la publicidad de los espacios informativos de los centros?",
+    "Options": {
+      "a": "Anuncios de convocatorias internas.",
+      "b": "Carteles de otros centros sanitarios.",
+      "c": "Información sobre servicios médicos.",
+      "d": "Publicidad de empresas privadas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 649,
+    "Question": "❓FFM.-¿Qué deben incluir todos los materiales impresos entregados a los usuarios?",
+    "Options": {
+      "a": "Logotipos específicos del centro.",
+      "b": "Nombre del SAS, de la Consejería de Salud y de la Junta de Andalucía.",
+      "c": "Solo el nombre de la Junta de Andalucía.",
+      "d": "El nombre de cada profesional del centro."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 650,
+    "Question": "❓FFM.-¿Qué es importante recordar sobre el nombre de los centros del SAS?",
+    "Options": {
+      "a": "Se puede usar el nombre antiguo si es familiar.",
+      "b": "El nombre puede cambiar según el servicio.",
+      "c": "Se debe emplear siempre el nombre oficial.",
+      "d": "Se debe usar el nombre más sencillo de recordar."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 651,
+    "Question": "❓FFM.-¿Qué acción debe evitarse al mencionar los servicios del SAS?",
+    "Options": {
+      "a": "Usar el término “Seguro” en lugar de SAS.",
+      "b": "Referirse a la Consejería de Salud.",
+      "c": "Identificar el centro por su especialidad.",
+      "d": "Describir el servicio de forma general."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 652,
+    "Question": "❓FFM.-¿Cuál es la actuación cuando se detecta una omisión que afecta a un usuario?",
+    "Options": {
+      "a": "Intentar compensarla en la medida de lo posible.",
+      "b": "Documentarla sin realizar acción alguna.",
+      "c": "Ignorarla si no es parte de sus tareas directas.",
+      "d": "Esperar a que otro profesional la resuelva."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 653,
+    "Question": "❓FFM.-¿Qué se asegura al utilizar el vestuario adecuado dentro del centro?",
+    "Options": {
+      "a": "Comodidad para el profesional.",
+      "b": "Identificación de la función profesional ante el usuario.",
+      "c": "Evitar riesgos de salud laboral.",
+      "d": "Privacidad del profesional."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 654,
+    "Question": "❓FFM.-¿Cómo deben realizarse las identificaciones en la atención telefónica?",
+    "Options": {
+      "a": "Solo identificando al dispositivo utilizado.",
+      "b": "Mencionando únicamente el nombre del profesional.",
+      "c": "Identificando el centro y la persona que atiende.",
+      "d": "Sin necesidad de ninguna identificación."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 655,
+    "Question": "❓FFM.-¿Qué documento es el identificativo básico en la relación del usuario con el SAS?",
+    "Options": {
+      "a": "Tarjeta sanitaria individual.",
+      "b": "Tarjeta bancaria.",
+      "c": "DNI.",
+      "d": "Receta médica."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 656,
+    "Question": "❓FFM.-¿Qué acción debe tomarse con la información pública en los centros?",
+    "Options": {
+      "a": "Dejarla sin actualización permanente.",
+      "b": "Revisarla anualmente.",
+      "c": "Eliminar la que no sea vigente.",
+      "d": "Incorporar anuncios laborales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 657,
+    "Question": "❓FFM.-¿Qué se debe evitar en los espacios públicos de los centros?",
+    "Options": {
+      "a": "Publicidad de entidades privadas.",
+      "b": "Anuncios de eventos internos.",
+      "c": "Información de orientación.",
+      "d": "Información sobre servicios clínicos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 658,
+    "Question": "❓FFM.-¿Qué función cumple la correcta señalización interna en los centros?",
+    "Options": {
+      "a": "Solo embellece el entorno.",
+      "b": "Aumenta el número de visitas.",
+      "c": "Proporciona una apariencia profesional.",
+      "d": "Evita confusiones y ahorra tiempo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 659,
+    "Question": "❓FFM.-¿Qué debe figurar en los materiales impresos de los centros?",
+    "Options": {
+      "a": "Únicamente el logotipo del centro.",
+      "b": "Nombres del SAS, Consejería de Salud y Junta de Andalucía.",
+      "c": "Logotipos de empresas colaboradoras.",
+      "d": "Información solo institucional."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 660,
+    "Question": "❓FFM.-¿Cuál es la identificación en la documentación escrita?",
+    "Options": {
+      "a": "Nombre completo del centro, dirección y teléfono.",
+      "b": "Solo la firma del emisor.",
+      "c": "Iniciales del emisor.",
+      "d": "Nombre del paciente únicamente."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 661,
+    "Question": "❓FFM.-¿Qué requisito deben cumplir las tarjetas de identificación?",
+    "Options": {
+      "a": "Estar en colores llamativos.",
+      "b": "Ser opcionales según la función del profesional.",
+      "c": "Ser visibles en todo momento en el centro.",
+      "d": "Ser utilizadas solo en funciones específicas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 662,
+    "Question": "❓FFM.-¿Qué se debe evitar en los nombres de los centros del SAS?",
+    "Options": {
+      "a": "Utilizar nombres de ciudades.",
+      "b": "Usar denominaciones antiguas no oficiales.",
+      "c": "Agregar siglas desconocidas.",
+      "d": "Modificar el nombre del SAS."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 663,
+    "Question": "❓FFM.-¿Qué documento es considerado básico en la relación de los ciudadanos con el SAS?",
+    "Options": {
+      "a": "Tarjeta sanitaria individual.",
+      "b": "Pasaporte.",
+      "c": "Documento de ingreso al centro.",
+      "d": "Certificado de nacimiento."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 664,
+    "Question": "❓FFM.-¿Qué información debe figurar en los directorios y señalización?",
+    "Options": {
+      "a": "Solo nombre del SAS.",
+      "b": "Detalles de empleados.",
+      "c": "Horarios de atención médica.",
+      "d": "Información actualizada para facilitar circulación."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 665,
+    "Question": "❓FFM.-¿Cómo se deben comunicar las demandas del personal?",
+    "Options": {
+      "a": "A través de los usuarios.",
+      "b": "A través de los cauces establecidos.",
+      "c": "Directamente al público.",
+      "d": "Por mensajes de texto."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 666,
+    "Question": "❓FFM.-¿Qué se requiere en la atención al usuario por teléfono?",
+    "Options": {
+      "a": "Omitir detalles.",
+      "b": "Presentarse al usuario como un número.",
+      "c": "Identificar el centro y el nombre del profesional.",
+      "d": "Hablar de manera impersonal."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 667,
+    "Question": "❓FFM.-¿Qué se debe hacer con el material impreso en los centros?",
+    "Options": {
+      "a": "Incluir la identidad corporativa del SAS.",
+      "b": "Solo llevar el logotipo del centro.",
+      "c": "Añadir publicidad privada.",
+      "d": "No incluir nombres."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 668,
+    "Question": "❓FFM.-¿Qué actitud debe adoptar un profesional al enfrentar problemas de organización?",
+    "Options": {
+      "a": "Resolverlo fuera del centro.",
+      "b": "Involucrar a los usuarios en el problema.",
+      "c": "Ignorar la situación.",
+      "d": "Usar canales internos de comunicación."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 669,
+    "Question": "❓FFM.-¿Cuál debe ser la primera acción al presentarse una situación conflictiva?",
+    "Options": {
+      "a": "Evaluar si el servicio está funcionando correctamente y actuar en consecuencia.",
+      "b": "Escuchar al usuario e informarlo de los motivos del conflicto.",
+      "c": "Reunirse con un supervisor para determinar el curso de acción.",
+      "d": "Conceder al usuario lo que solicita para evitar conflictos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 670,
+    "Question": "❓FFM.-¿Cómo se debe actuar ante una petición del usuario que no es razonable?",
+    "Options": {
+      "a": "Darle una respuesta ambigua para evitar conflicto.",
+      "b": "Informar al usuario y explicar las razones por las que no se puede atender.",
+      "c": "Redirigir al usuario a otro profesional.",
+      "d": "Conceder la petición solo en casos excepcionales."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 671,
+    "Question": "❓FFM.-¿Cuál es el riesgo de actuar con complacencia ante peticiones no razonables?",
+    "Options": {
+      "a": "Que el usuario sienta que el servicio no es adecuado.",
+      "b": "Fortalecer la relación entre el usuario y el profesional.",
+      "c": "Dañar la imagen del profesional, del centro y del SAS.",
+      "d": "Que el usuario se sienta valorado en su queja."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 672,
+    "Question": "❓FFM.-¿Cómo debe responder el profesional ante una queja formulada en tono inapropiado?",
+    "Options": {
+      "a": "Ignorar el tono y enfocarse en el contenido.",
+      "b": "Justificar su actuación para evitar malentendidos.",
+      "c": "Derivar la queja a un superior inmediatamente.",
+      "d": "Responder con profesionalidad, evitando confrontaciones y temas personales."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 673,
+    "Question": "❓FFM.-¿Qué indica una queja de un usuario sobre el servicio recibido?",
+    "Options": {
+      "a": "Que el usuario es problemático.",
+      "b": "Que puede haber problemas o áreas de mejora en los servicios.",
+      "c": "Que el usuario quiere llamar la atención.",
+      "d": "Que el sistema de salud no es adecuado."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 674,
+    "Question": "❓FFM.-¿Cuál es la actuación general ante una queja escrita o verbal?",
+    "Options": {
+      "a": "Contestar únicamente las quejas escritas.",
+      "b": "Responder al usuario independientemente del medio utilizado.",
+      "c": "Remitir al usuario a otro departamento.",
+      "d": "Atender solo las quejas con soporte legal."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 675,
+    "Question": "❓FFM.-¿Qué deben hacer los directores de centros respecto a las reclamaciones formales?",
+    "Options": {
+      "a": "Asumir la tarea de atenderlas o delegarla bajo su responsabilidad.",
+      "b": "Ignorar aquellas que no tengan relevancia.",
+      "c": "Delegar todas las reclamaciones en otros profesionales.",
+      "d": "Solo atender las reclamaciones verbales."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 676,
+    "Question": "❓FFM.-¿Cuál es el papel del profesional ante una queja presentada por el usuario?",
+    "Options": {
+      "a": "Derivar inmediatamente al usuario a su superior.",
+      "b": "Evitar contestar hasta confirmar la validez de la queja.",
+      "c": "Justificar su actuación personal para evitar críticas.",
+      "d": "Escuchar al usuario y, si es necesario, dirigirlo a otro profesional o unidad."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 677,
+    "Question": "❓FFM.-¿Cuál es el propósito de responder a una queja?",
+    "Options": {
+      "a": "Justificarse ante el usuario.",
+      "b": "Proporcionar una excusa por la situación.",
+      "c": "Escuchar y buscar resolver la situación o informar a responsables.",
+      "d": "Cambiar el servicio sin supervisión."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 678,
+    "Question": "❓FFM.-¿Por qué toda queja debe ser tratada como importante?",
+    "Options": {
+      "a": "Porque es una fuente de información para mejorar el servicio.",
+      "b": "Porque siempre indica un error del sistema.",
+      "c": "Porque implica un fallo grave en el servicio.",
+      "d": "Porque da valor al usuario que se queja."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 679,
+    "Question": "❓FFM.-¿Qué debe hacer un profesional si no tiene conocimientos suficientes para atender una queja?",
+    "Options": {
+      "a": "Escuchar al usuario y redirigirlo a otro profesional o unidad que pueda ayudarle.",
+      "b": "Justificar su falta de conocimiento ante el usuario.",
+      "c": "Ofrecer una disculpa sin solucionar el problema.",
+      "d": "Negarse a atender la queja."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 680,
+    "Question": "❓FFM.-¿Qué debe evitar el profesional al responder una queja de un usuario?",
+    "Options": {
+      "a": "Explicar los procedimientos médicos.",
+      "b": "Entrar en temas personales o confrontaciones.",
+      "c": "Pedir al usuario que sea más específico.",
+      "d": "Mostrar empatía hacia el usuario."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 681,
+    "Question": "❓FFM.-¿Qué norma se sigue para responder a quejas en el SAS?",
+    "Options": {
+      "a": "Contestar solo si el usuario lo solicita.",
+      "b": "Responder solo si es una queja formal.",
+      "c": "Ignorar las quejas orales.",
+      "d": "Contestar siempre, sin importar el medio utilizado para la queja."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 682,
+    "Question": "❓FFM.-¿Cuál es la función principal de los directores en relación a las reclamaciones?",
+    "Options": {
+      "a": "Derivar todas las reclamaciones a un comité.",
+      "b": "Evitar involucrarse directamente en ellas.",
+      "c": "Asumir la función de respuesta o delegarla con responsabilidad.",
+      "d": "Delegarlas sin supervisión a cualquier empleado."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 683,
+    "Question": "❓FFM.-¿Qué debe evitarse al tratar una queja de un usuario?",
+    "Options": {
+      "a": "Informar al usuario sobre los procedimientos.",
+      "b": "Entrar en temas personales o responder con confrontación.",
+      "c": "Escuchar la queja con atención.",
+      "d": "Ofrecer una solución al problema."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 684,
+    "Question": "❓FFM.-¿Qué debe hacer el profesional ante una queja de un usuario?",
+    "Options": {
+      "a": "Atender la queja y derivar si es necesario.",
+      "b": "Dirigir la queja al director del centro siempre.",
+      "c": "Justificar la situación ante el usuario.",
+      "d": "Evitar escuchar detalles de la queja."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 685,
+    "Question": "❓FFM.-¿Qué implica responder adecuadamente a una queja?",
+    "Options": {
+      "a": "Escuchar y justificar la situación con rapidez.",
+      "b": "Escuchar, resolver e informar a los responsables.",
+      "c": "Evitar ofrecer explicaciones al usuario.",
+      "d": "Derivar la queja sin responder al usuario."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 686,
+    "Question": "❓FFM.-¿Quién asume la representación del SAS en las respuestas formales?",
+    "Options": {
+      "a": "El profesional que recibe la queja.",
+      "b": "Cualquier empleado disponible en el momento.",
+      "c": "Los cargos directivos o sus delegados.",
+      "d": "El usuario mismo si desea resolverla."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 687,
+    "Question": "❓FFM.-¿Qué se espera del profesional cuando un usuario plantea una queja?",
+    "Options": {
+      "a": "Justificarse de inmediato.",
+      "b": "Pasar la queja a otro compañero.",
+      "c": "Descartar la queja si la considera injusta.",
+      "d": "Escuchar atentamente y resolver si es posible."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 688,
+    "Question": "❓FFM.-¿Cuándo deben los directores de centro atender personalmente a un usuario?",
+    "Options": {
+      "a": "Cuando el usuario o el profesional lo soliciten.",
+      "b": "Solo si el usuario lo pide explícitamente.",
+      "c": "En casos de conflictos graves solamente.",
+      "d": "Siempre, sin importar la gravedad de la queja."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 689,
+    "Question": "❓FFM.-¿Qué debe evitar el profesional ante una queja del usuario?",
+    "Options": {
+      "a": "Escuchar demasiado.",
+      "b": "Entrar en confrontación o temas personales.",
+      "c": "Explicar detalladamente la situación.",
+      "d": "Derivar la queja de inmediato."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 690,
+    "Question": "❓FFM.-¿Cuál es la actitud recomendada ante situaciones conflictivas en el SAS?",
+    "Options": {
+      "a": "Confrontar directamente al usuario.",
+      "b": "Justificar al profesional involucrado.",
+      "c": "Actuar con profesionalidad.",
+      "d": "Desestimar la queja del usuario."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 691,
+    "Question": "❓FFM.-¿Qué debe hacer un profesional si recibe una petición no razonable?",
+    "Options": {
+      "a": "Ceder a la petición.",
+      "b": "Informar al usuario de los motivos de la negativa.",
+      "c": "Evitar toda explicación.",
+      "d": "Remitir la petición a un superior sin más."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 692,
+    "Question": "❓FFM.-¿Qué puede percibir un usuario ante la complacencia con una petición irracional?",
+    "Options": {
+      "a": "Una descalificación hacia otros profesionales.",
+      "b": "Un acto de comprensión.",
+      "c": "Una acción profesional.",
+      "d": "Un derecho ganado."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 693,
+    "Question": "❓FFM.-Cuando un usuario expresa una queja, ¿qué se debe hacer según el SAS?",
+    "Options": {
+      "a": "Ignorar la queja si parece insignificante.",
+      "b": "Archivar la queja sin más trámite.",
+      "c": "Remitirla a dirección inmediatamente.",
+      "d": "Responder siempre al usuario."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 694,
+    "Question": "❓FFM.-¿Qué actitud debe mantener el profesional ante una queja verbal del usuario?",
+    "Options": {
+      "a": "Interrumpirlo para corregirlo.",
+      "b": "Justificarse sin más detalles.",
+      "c": "Ignorar el comentario.",
+      "d": "Escuchar y averiguar el malestar."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 695,
+    "Question": "❓FFM.-¿Qué indica el SAS respecto a toda queja recibida?",
+    "Options": {
+      "a": "Archivarla para registro futuro.",
+      "b": "Considerarla como fuente de mejora.",
+      "c": "Ignorarla si no es formal.",
+      "d": "Desestimarla según criterio del profesional."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 696,
+    "Question": "❓FFM.-En caso de que un profesional no pueda resolver una queja, ¿qué debe hacer?",
+    "Options": {
+      "a": "Derivar al usuario sin más.",
+      "b": "Explicar que no puede ayudarlo.",
+      "c": "Dirigir al usuario a la persona indicada.",
+      "d": "Pedirle al usuario que espere."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 697,
+    "Question": "❓FFM.-¿Qué se entiende por “responder” a una queja en el contexto del SAS?",
+    "Options": {
+      "a": "Justificarse ante el usuario.",
+      "b": "Archivar la queja sin respuesta.",
+      "c": "Escuchar, comprender y resolver.",
+      "d": "Desestimar la queja."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 698,
+    "Question": "❓FFM.-¿Quiénes tienen la responsabilidad de representar formalmente al SAS en las reclamaciones?",
+    "Options": {
+      "a": "Todos los profesionales del SAS.",
+      "b": "Los directores de los centros.",
+      "c": "Los médicos tratantes.",
+      "d": "El personal administrativo."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 699,
+    "Question": "❓FFM.-¿Qué papel desempeña un profesional al recibir una queja?",
+    "Options": {
+      "a": "Actuar como representante del SAS.",
+      "b": "Gestionar la queja sin más intervención.",
+      "c": "Derivar la queja a otro profesional.",
+      "d": "Evaluar si la queja es válida o no."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 700,
+    "Question": "❓FFM.-¿Qué debe hacer un director cuando el usuario o un profesional solicita su intervención?",
+    "Options": {
+      "a": "Desestimar la solicitud si es menor.",
+      "b": "Asumir la función de atención.",
+      "c": "Delegar en el personal administrativo.",
+      "d": "Remitir la solicitud a servicios generales."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 701,
+    "Question": "❓FFM.-¿Qué finalidad se persigue al responder formalmente a una reclamación?",
+    "Options": {
+      "a": "Dar cumplimiento a la normativa sin más.",
+      "b": "Justificar la actuación del personal.",
+      "c": "Escuchar y atender al usuario adecuadamente.",
+      "d": "Explicar el funcionamiento interno."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 702,
+    "Question": "❓FFM.-¿Cómo deben gestionarse las quejas según el SAS?",
+    "Options": {
+      "a": "Como simples sugerencias.",
+      "b": "Evitándolas siempre que sea posible.",
+      "c": "Como fuentes de información valiosa.",
+      "d": "Archivándolas para revisión futura."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 703,
+    "Question": "❓FFM.-¿Por qué es importante no justificar una acción al responder a una queja?",
+    "Options": {
+      "a": "Para evitar conflictos innecesarios.",
+      "b": "Porque no es relevante para el usuario.",
+      "c": "Para enfocarse solo en el problema.",
+      "d": "Porque responder es escuchar, no justificar."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 704,
+    "Question": "❓FFM.-¿Qué determina la política del SAS respecto a las demandas de tratamientos específicos?",
+    "Options": {
+      "a": "Acceder si el usuario insiste.",
+      "b": "Priorizar el criterio médico.",
+      "c": "Informar al usuario que se evaluará.",
+      "d": "Derivar al usuario a otro profesional."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 705,
+    "Question": "❓FFM.-¿Qué actitud se recomienda ante quejas formuladas en mal tono?",
+    "Options": {
+      "a": "Confrontar al usuario para aclarar la situación.",
+      "b": "Explicar detalladamente los procedimientos.",
+      "c": "Mantener la profesionalidad.",
+      "d": "Remitir al usuario a otro profesional."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 706,
+    "Question": "❓FFM.-¿Qué función cumplen las quejas dentro del sistema sanitario?",
+    "Options": {
+      "a": "Son irrelevantes para la mejora.",
+      "b": "Se archivan como parte del proceso.",
+      "c": "Son motivo de advertencias al personal.",
+      "d": "Son valiosas para la mejora continua."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 707,
+    "Question": "❓FFM.-¿Qué debe hacer el SAS ante una demanda no razonable?",
+    "Options": {
+      "a": "Atender siempre la solicitud.",
+      "b": "Ignorarla si no tiene respaldo legal.",
+      "c": "Informar al usuario de la negativa.",
+      "d": "Derivarla a otro profesional sin análisis."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 708,
+    "Question": "❓FFM.-¿Qué debe hacer un profesional si la queja no es atribuible a su propia actuación?",
+    "Options": {
+      "a": "Indicar que no es su responsabilidad.",
+      "b": "Derivar la queja directamente a un superior.",
+      "c": "Escuchar y derivar a quien corresponda.",
+      "d": "Ignorar la queja."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 709,
+    "Question": "❓FFM.-¿Qué ocurre si un superior cede ante una petición no razonable?",
+    "Options": {
+      "a": "Se daña la imagen del SAS y del profesional.",
+      "b": "Se mejora la relación con el usuario.",
+      "c": "Se valida el profesionalismo del SAS.",
+      "d": "Se promueve el trato justo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 710,
+    "Question": "❓FFM.-¿Cuál es la mejor práctica para atender a un usuario insatisfecho?",
+    "Options": {
+      "a": "Ignorar sus demandas para evitar conflictos.",
+      "b": "Transferirlo a otro profesional.",
+      "c": "Escuchar sus preocupaciones y buscar una solución.",
+      "d": "Justificar las limitaciones del servicio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 711,
+    "Question": "❓FFM.-¿Qué debe hacer un profesional al recibir una queja que considera infundada?",
+    "Options": {
+      "a": "Responder con respeto y profesionalidad.",
+      "b": "Indicar al usuario que no tiene fundamento.",
+      "c": "Ignorar la queja por falta de base.",
+      "d": "Remitirla sin responder."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 712,
+    "Question": "❓FFM.-¿Cuál es el objetivo principal de una reclamación para el SAS?",
+    "Options": {
+      "a": "Justificar la actuación del profesional.",
+      "b": "Archivar la situación para revisión futura.",
+      "c": "Resolver el conflicto sin entrar en detalles.",
+      "d": "Mejorar el servicio a través de la información recibida."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 713,
+    "Question": "❓FFM.-¿Qué debe evitar un profesional al recibir una queja?",
+    "Options": {
+      "a": "Atender al usuario rápidamente.",
+      "b": "Remitir la queja a un superior.",
+      "c": "Adoptar una actitud defensiva.",
+      "d": "Mostrar interés en la preocupación del usuario."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 714,
+    "Question": "❓FFM.-¿Cuál es la finalidad de tomar nota de las quejas en el SAS?",
+    "Options": {
+      "a": "Para mantener un registro que pueda archivarse.",
+      "b": "Identificar áreas de mejora en los servicios.",
+      "c": "Justificar la actuación de los profesionales.",
+      "d": "Dar por cerrada la queja."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 715,
+    "Question": "❓FFM.-¿Qué actitud debe evitarse al atender una queja verbal?",
+    "Options": {
+      "a": "Actuar de manera defensiva o con confrontación.",
+      "b": "Escuchar atentamente al usuario.",
+      "c": "Remitir la queja si no puede resolverla.",
+      "d": "Buscar comprender la perspectiva del usuario."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 716,
+    "Question": "❓FFM.-¿Por qué es importante no prometer soluciones inmediatas al usuario?",
+    "Options": {
+      "a": "Porque los procedimientos son rígidos.",
+      "b": "Porque el usuario no siempre tiene razón.",
+      "c": "Porque puede no ser viable en todas las situaciones.",
+      "d": "Porque el profesional no es responsable."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 717,
+    "Question": "❓FFM.-¿Qué se considera una buena práctica al responder a una queja por escrito?",
+    "Options": {
+      "a": "Emplear un lenguaje técnico para precisión.",
+      "b": "Minimizar el problema para no alarmar al usuario.",
+      "c": "Justificar la actuación del profesional.",
+      "d": "Ser claro, respetuoso y explicar el proceso."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 718,
+    "Question": "❓FFM.-¿Cuál es la recomendación ante una queja donde el usuario esté especialmente enfadado?",
+    "Options": {
+      "a": "Mantener la calma y escuchar con empatía.",
+      "b": "Explicar al usuario que su actitud no es adecuada.",
+      "c": "Redirigirlo a otro profesional de inmediato.",
+      "d": "Informarle de que su queja será ignorada."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 719,
+    "Question": "❓FFM.-¿Qué debe hacer el SAS para garantizar la calidad en la atención al usuario?",
+    "Options": {
+      "a": "Evitar quejas innecesarias.",
+      "b": "Implementar un sistema rígido de actuación.",
+      "c": "Revisar y mejorar continuamente los procesos.",
+      "d": "Archivar todas las quejas sin analizarlas."
+    },
+    "CorrectOption": "c"
+  }
+]
