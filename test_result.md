@@ -503,3 +503,35 @@ agent_communication:
     message: "Completed comprehensive database quality assurance scan. User reported bug where option A was identical to question text, plus ongoing abbreviation issues (LSA, LPRL, etc.). Created and ran fix_question_quality.py script that scanned all 16,510 questions. Found and fixed: 2 duplicate options (including the reported bug from screenshot), expanded 469 abbreviations across questions and options, and cleaned 4,756 option labels from database. All fixes verified. Ready for backend testing to confirm exam generation works correctly with cleaned data."
   - agent: "testing"
     message: "✅ COMPREHENSIVE DATABASE QUALITY TESTING COMPLETE - All database quality fixes are working perfectly. Tested exam generation, submission, and results retrieval with 31 test cases, all passed (100% success rate). Key findings: 1) No duplicate options detected in generated exams, 2) All questions have exactly 4 options, 3) No forbidden abbreviations (LSA, LPRL, EBAP, etc.) found, 4) No option labels (A), B), C), D)) in stored text, 5) Proper question prefixes maintained. The database quality scan and fixes have successfully resolved all reported issues. Exam flow is production-ready with clean, high-quality question data."
+
+
+backend:
+  - task: "Permanent Rules Implementation - LOPDPGDD and Abbreviations"
+    implemented: true
+    working: true
+    file: "backend/fix_question_quality.py, backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Implemented permanent rules: 1) Added LOPDPGDD to abbreviation dictionary (expands to 'Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales'), 2) Added EM, EMPNS to dictionary, 3) Executed scan finding 53 questions with LOPDPGDD - all corrected, 4) Updated LLM prompt with exhaustive list of prohibited abbreviations, 5) Verified exam composition remains 85% DB / 15% IA. Created REGLAS_PERMANENTES.md documenting all permanent rules."
+
+metadata:
+  created_by: "main_agent"
+  version: "3.3"
+  test_sequence: 4
+  run_ui: false
+
+test_plan:
+  current_focus:
+    - "Permanent Rules Implementation - LOPDPGDD and Abbreviations"
+  stuck_tasks: []
+  test_all: false
+  test_priority: "high_first"
+
+agent_communication:
+  - agent: "main"
+    message: "User requested strict permanent rules: 1) LOPDPGDD must be expanded to full name, 2) Review all other abbreviations (EM, LPRL, etc.), 3) Only SAS abbreviation allowed, 4) Reminder that exam composition is 85% DB / 15% IA. Updated abbreviation dictionary with LOPDPGDD, EM, EMPNS. Ran quality scan finding 53 questions with LOPDPGDD - all corrected. Enhanced LLM prompt with comprehensive abbreviation rules. Verified 0 instances of LOPDPGDD remain in database. Created REGLAS_PERMANENTES.md document. Ready for testing to verify rules are enforced."
+
