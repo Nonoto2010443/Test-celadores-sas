@@ -1,0 +1,1168 @@
+[
+    {
+        "Id": 526,
+        "Question": "❓ FFM T4 ¿Dónde se encuentra el Nodo Coordinador del Biobanco del SSPA en el área de investigación?",
+        "Options": {
+            "A": "A. En Sevilla",
+            "B": "B. En el Parque Tecnológico de Ciencias de la Salud de Granada",
+            "C": "C. En Málaga",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 527,
+        "Question": "❓ FFM T4 ¿Cuál es uno de los objetivos de la política de calidad del Biobanco?",
+        "Options": {
+            "A": "A. Disminuir la implicación corporativa",
+            "B": "B. Reducir la calidad del servicio",
+            "C": "C. Garantizar un adecuado sistema de trazabilidad",
+            "D": "D. Limitar la formación de los profesionales"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 528,
+        "Question": "❓ FFM T4 ¿Qué garantiza la Ley 9/2007 en la composición del Consejo Rector del Biobanco?",
+        "Options": {
+            "A": "A. El equilibrio entre profesionales sanitarios",
+            "B": "B. La representación equilibrada de hombres y mujeres",
+            "C": "C. La exclusividad de médicos",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 529,
+        "Question": "❓ FFM T4 ¿Qué documento regula la ordenación administrativa y funcional de los Servicios de Salud Mental en el ámbito del Servicio Andaluz de Salud?",
+        "Options": {
+            "A": "A. Ley 23/2001",
+            "B": "B. Decreto 77/2008, de 4 de marzo",
+            "C": "C. Decreto 89/2010, de 12 de junio",
+            "D": "D. Ley 15/2002"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 530,
+        "Question": "❓ FFM T4 ¿Quién aprueba el reglamento del Comité Científico del Biobanco?",
+        "Options": {
+            "A": "A. El Nodo Coordinador",
+            "B": "B. El Consejo Rector",
+            "C": "C. El Comité de Ética",
+            "D": "D. La Consejería de Salud"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 531,
+        "Question": "❓ FFM T4 ¿En cuántos niveles de atención se organiza la salud mental en el ámbito del SAS?",
+        "Options": {
+            "A": "A. En uno",
+            "B": "B. En dos",
+            "C": "C. En tres",
+            "D": "D. En cuatro"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 532,
+        "Question": "❓ FFM T4 ¿Qué asegura el Reglamento del Biobanco en términos de procedimiento?",
+        "Options": {
+            "A": "A. La transparencia en la distribución de muestras",
+            "B": "B. La creación de nuevas líneas celulares",
+            "C": "C. El cumplimiento de la normativa vigente",
+            "D": "D. A y C son correctas"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 533,
+        "Question": "❓ FFM T4 ¿Qué función no corresponde a los centros de atención primaria según el artículo 3 del Decreto 77/2008?",
+        "Options": {
+            "A": "A. Establecer el primer contacto con las personas",
+            "B": "B. Realizar la derivación al nivel especializado de atención",
+            "C": "C. Realizar procedimientos quirúrgicos avanzados",
+            "D": "D. Identificar la necesidad de apoyo social"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 534,
+        "Question": "❓ FFM T4 ¿Qué órgano tiene la función de aprobar el Programa Científico del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. El Comité Científico",
+            "B": "B. El Consejo Rector",
+            "C": "C. El Comité de Ética",
+            "D": "D. La Consejería de Salud"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 535,
+        "Question": "❓ FFM T4 Según el artículo 3 del Decreto 77/2008, ¿cuál es una de las funciones de los centros de atención primaria?",
+        "Options": {
+            "A": "A. Realizar la atención sanitaria en los casos que requieran cirugía",
+            "B": "B. Facilitar el acceso a servicios comunitarios",
+            "C": "C. Proveer atención especializada en salud mental.",
+            "D": "D. Gestionar recursos financieros para tratamientos"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 536,
+        "Question": "❓ FFM T4 ¿Qué papel desempeña el Comité Coordinador de Ética en el Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Aprobar la memoria anual",
+            "B": "B. Garantizar el cumplimiento de los principios éticos",
+            "C": "C. Dirigir las operaciones de los nodos",
+            "D": "D. A y C son correctas"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 537,
+        "Question": "❓ FFM T4 ¿Qué enfoque debe tenerse en cuenta al definir las estrategias de intervención en los centros de atención primaria?",
+        "Options": {
+            "A": "A. Enfoque económico",
+            "B": "B. Enfoque cultural",
+            "C": "C. Enfoque de género",
+            "D": "D. Enfoque tecnológico"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 538,
+        "Question": "❓ FFM T4 ¿Cuál es el objetivo principal del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Centralizar todas las muestras biológicas en un único centro",
+            "B": "B. Proveer productos sanguíneos y derivados para uso clínico e investigativo",
+            "C": "C. Comercializar las muestras biológicas humanas",
+            "D": "D. A y C son correctas"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 539,
+        "Question": "❓ FFM T4 ¿Cuál es una de las funciones de los centros de atención primaria en relación con las personas con problemas de salud mental?",
+        "Options": {
+            "A": "A. Realizar la investigación de nuevos tratamientos",
+            "B": "B. Prestar atención sanitaria en los casos que no requieran atención especializada",
+            "C": "C. Proporcionar soporte financiero para tratamientos",
+            "D": "D. Desarrollar políticas de salud pública"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 540,
+        "Question": "❓ FFM T4 ¿Qué tipo de estructura organizativa tiene el Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Una estructura descentralizada con nodos",
+            "B": "B. Una estructura centralizada",
+            "C": "C. Una estructura sin dirección fija",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "A"
+    },
+    {
+        "Id": 541,
+        "Question": "❓ FFM T4 ¿Qué acción deben tomar los centros de atención primaria cuando se requiere atención especializada?",
+        "Options": {
+            "A": "A. Proporcionar atención especializada",
+            "B": "B. Realizar una valoración económica del tratamiento",
+            "C": "C. Derivar a las personas al nivel especializado de atención",
+            "D": "D. Atender las solicitudes de tratamiento sin derivar"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 542,
+        "Question": "❓ FFM T4 ¿Qué responsabilidad tiene el Nodo de Coordinación del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Supervisar la extracción de muestras",
+            "B": "B. Coordinar las solicitudes y la distribución de muestras",
+            "C": "C. Regular las actividades del Comité Científico",
+            "D": "D. Designar los nodos del biobanco"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 543,
+        "Question": "❓ FFM T4 ¿Qué tarea NO es parte de las funciones de los centros de atención primaria según el Decreto 77/2008?",
+        "Options": {
+            "A": "A. Establecer el primer contacto",
+            "B": "B. Realizar valoraciones",
+            "C": "C. Prestar atención sanitaria básica",
+            "D": "D. Proveer tratamiento quirúrgico"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 544,
+        "Question": "❓ FFM T4 ¿Dónde tiene su sede el Nodo de Coordinación del área de investigación del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. En Málaga",
+            "B": "B. En Sevilla",
+            "C": "C. En Granada",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 545,
+        "Question": "❓ FFM T4 ¿Qué deben hacer los centros de atención primaria en relación con las personas con trastorno mental grave?",
+        "Options": {
+            "A": "A. Atenderlas sin colaboración con otros dispositivos",
+            "B": "B. Realizar seguimiento sin necesidad de derivación",
+            "C": "C. Colaborar con los dispositivos de atención especializada en su seguimiento.",
+            "D": "D. Ofrecer únicamente atención farmacológica"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 546,
+        "Question": "❓ FFM T4 ¿Qué valor promueve el Biobanco del SSPA en relación con la innovación?",
+        "Options": {
+            "A": "A. Mantenerse como un banco local",
+            "B": "B. Ser pionero en el desarrollo del trabajo en red",
+            "C": "C. Mantener un equipo pequeño y selecto",
+            "D": "D. No involucrarse en iniciativas biotecnológicas"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 547,
+        "Question": "❓ FFM T4 ¿Cómo se organiza la atención a la salud mental en los centros de atención primaria?",
+        "Options": {
+            "A": "A. Solo a través de atención especializada",
+            "B": "B. Solo mediante servicios comunitarios",
+            "C": "C. Exclusivamente mediante derivación",
+            "D": "D. A través de profesionales adscritos a los centros"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 548,
+        "Question": "❓ FFM T4 ¿Cómo se asegura el Biobanco del SSPA de promover el talento profesional?",
+        "Options": {
+            "A": "A. A través de programas de formación especializados",
+            "B": "B. Desarrollando un equipo humano cohesionado y preparado",
+            "C": "C. Ofreciendo puestos a nivel internacional",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 549,
+        "Question": "❓ FFM T4 ¿Qué regula el Decreto 77/2008?",
+        "Options": {
+            "A": "A. La atención primaria en salud mental",
+            "B": "B. La ordenación administrativa y funcional de los Servicios de Salud Mental en el SAS",
+            "C": "C. La regulación del personal en el SAS",
+            "D": "D. La atención a enfermedades infecciosas"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 550,
+        "Question": "❓ FFM T4 ¿Qué busca la Unidad de Calidad del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Aumentar la cantidad de muestras",
+            "B": "B. Garantizar que el registro, procesamiento y distribución de biorrecursos sean adecuados",
+            "C": "C. Supervisar la creación de nuevas unidades",
+            "D": "D. A y C son correctas"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 551,
+        "Question": "❓ FFM T4 ¿Cuál de los siguientes dispositivos NO está incluido en la atención especializada a la salud mental según el Decreto 77/2008?",
+        "Options": {
+            "A": "A. Unidad de salud mental comunitaria",
+            "B": "B. Unidad de rehabilitación de salud mental",
+            "C": "C. Hospital de día de salud mental",
+            "D": "D. Centro de bienestar físico y mental"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 552,
+        "Question": "❓ FFM T4 ¿Cuál es la visión del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Ser un banco especializado solo en productos sanguíneos",
+            "B": "B. Ser un referente nacional e internacional por su calidad y eficiencia",
+            "C": "C. Centralizar los servicios en un único nodo",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 553,
+        "Question": "❓ FFM T4 ¿En qué dispositivos asistenciales prestan servicios equipos de carácter multidisciplinar según el Decreto 77/2008?",
+        "Options": {
+            "A": "A. Solo en unidades de hospitalización",
+            "B": "B. Solo en unidades de salud mental comunitaria",
+            "C": "C. En todos los dispositivos asistenciales mencionados",
+            "D": "D. Solo en unidades terapéuticas"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 554,
+        "Question": "❓ FFM T4 ¿Qué es uno de los valores fundamentales del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Centralización de todas las muestras",
+            "B": "B. Innovación en el trabajo en red",
+            "C": "C. Reducción del equipo científico",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 555,
+        "Question": "❓ FFM T4 ¿Cuál es una de las profesiones que puede formar parte de un equipo multidisciplinar en salud mental?",
+        "Options": {
+            "A": "A. Abogado",
+            "B": "B. Psiquiatra",
+            "C": "C. Ingeniero en encefalopatías",
+            "D": "D. Técnico conductual mental"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 556,
+        "Question": "❓ FFM T4 ¿Cuál es el objetivo del Biobanco al formar parte de estructuras cooperativas como la Red Nacional de Biobancos?",
+        "Options": {
+            "A": "A. Aumentar el número de donantes",
+            "B": "B. Estandarizar y normalizar procedimientos",
+            "C": "C. Obtener beneficios económicos",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 557,
+        "Question": "❓ FFM T4 Según el Decreto 77/2008, ¿qué profesionales pueden estar integrados en los equipos de salud mental?",
+        "Options": {
+            "A": "A. Solo psiquiatras y psicólogos clínicos",
+            "B": "B. Enfermería obstétrica",
+            "C": "C. Fisioterapeuta",
+            "D": "D. Todas son correctas"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 558,
+        "Question": "❓ FFM T4 ¿Cuál es la función del Nodo de Coordinación del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Regular la investigación en salud",
+            "B": "B. Coordinar las solicitudes de servicios y distribución de muestras",
+            "C": "C. Controlar la creación de nodos adicionales",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 559,
+        "Question": "❓ FFM T4 ¿Cuál de las siguientes unidades NO se menciona en el Decreto 77/2008 como parte de los dispositivos asistenciales?",
+        "Options": {
+            "A": "A. Unidad de salud mental infanto-juvenil",
+            "B": "B. Unidad de rehabilitación de salud mental",
+            "C": "C. Unidad de investigación y formación en salud mental",
+            "D": "D. Comunidad terapéutica de salud mental"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 560,
+        "Question": "❓ FFM T4 ¿Cómo se asegura el Biobanco del SSPA de ofrecer un servicio accesible y cercano?",
+        "Options": {
+            "A": "A. A través de una estructura centralizada",
+            "B": "B. Manteniendo un espíritu de servicio público",
+            "C": "C. Trabajando únicamente con investigadores locales",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 561,
+        "Question": "❓ FFM T4 ¿Cómo se organiza la atención especializada a la salud mental en el SAS según el Decreto 77/2008?",
+        "Options": {
+            "A": "A. A través de hospitales generales",
+            "B": "B. A través de centros de atención primaria",
+            "C": "C. A través de consultas externas",
+            "D": "D. A través de dispositivos específicos"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 562,
+        "Question": "❓ FFM T4 ¿Qué garantiza el reglamento interno del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. La inclusión de nodos",
+            "B": "B. El uso adecuado de los biorrecursos",
+            "C": "C. La asignación de recursos financieros",
+            "D": "D. Todas son correctas"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 563,
+        "Question": "❓ FFM T4 Según el Decreto 77/2008, ¿qué posibilidad de movilidad tiene el personal en los dispositivos asistenciales de salud mental?",
+        "Options": {
+            "A": "A. Puede cambiar de área hospitalaria si es necesario",
+            "B": "B. Puede moverse entre unidades de hospitalización",
+            "C": "C. Solo puede moverse entre unidades de hospitalización",
+            "D": "D. A y B son correctas"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 564,
+        "Question": "❓ FFM T4 ¿Quién designa a las personas que forman parte del Consejo Rector del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. El Nodo Coordinador",
+            "B": "B. La persona titular de la Consejería de Salud",
+            "C": "C. El Comité Científico",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 565,
+        "Question": "❓ FFM T4 ¿Qué asegura la Dirección Gerencia del hospital en relación con las unidades de gestión clínica?",
+        "Options": {
+            "A": "A. Exclusivamente la gestión de recursos financieros",
+            "B": "B. La participación de las direcciones en la organización de la actividad asistencial",
+            "C": "C. La reducción de la formación continuada",
+            "D": "D. La eliminación de la investigación"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 566,
+        "Question": "❓ FFM T4 ¿Qué función tiene el Consejo Rector del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Aprobar el reglamento interno del Comité Científico",
+            "B": "B. Designar los bancos de líneas celulares",
+            "C": "C. Dirigir la Unidad de Calidad",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "A"
+    },
+    {
+        "Id": 567,
+        "Question": "❓ FFM T4 ¿Qué aspectos se incluyen en la participación de los profesionales según el Decreto 77/2008?",
+        "Options": {
+            "A": "A. Exclusivamente en la evaluación de los resultados",
+            "B": "B. En la elaboración de objetivos anuales y en la consecución de los mismos",
+            "C": "C. Solo en la formación continuada",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 568,
+        "Question": "❓ FFM T4 ¿Qué busca Biobanco SSPA en términos de sostenibilidad?",
+        "Options": {
+            "A": "A. Reducir el número de nodos",
+            "B": "B. Garantizar el mantenimiento del rigor científico y técnico",
+            "C": "C. Minimizar la cooperación internacional",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 569,
+        "Question": "❓ FFM T4 ¿Qué tipo de unidades se integran en las áreas hospitalarias o áreas de gestión sanitaria?",
+        "Options": {
+            "A": "A. Solo unidades de hospitalización",
+            "B": "B. Solo unidades de salud mental infanto-juvenil",
+            "C": "C. Todos los dispositivos asistenciales mencionados",
+            "D": "D. Solo comunidades terapéuticas"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 570,
+        "Question": "❓ FFM T4 ¿Qué se requiere para que un nodo sea incluido en la estructura del Biobanco en Red?",
+        "Options": {
+            "A": "A. La aprobación del Comité Científico",
+            "B": "B. La aprobación del Consejo Rector",
+            "C": "C. La aprobación del Comité de Ética",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 571,
+        "Question": "❓ FFM T4 ¿Cuál de los siguientes profesionales no se menciona como parte del equipo multidisciplinar en el Decreto 77/2008?",
+        "Options": {
+            "A": "A. Auxiliar de Enfermería",
+            "B": "B. Monitor Ocupacional",
+            "C": "C. Trabajador Social",
+            "D": "D. Técnico de laboratorio"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 572,
+        "Question": "❓ FFM T4 ¿Quién preside el Consejo Rector del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. La persona titular de la Consejería de Salud o persona en quien delegue",
+            "B": "B. El Comité Científico",
+            "C": "C. El Nodo Coordinador",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "A"
+    },
+    {
+        "Id": 573,
+        "Question": "❓ FFM T4 Según el Decreto 77/2008, ¿qué función debe cumplir el personal en relación con la normativa vigente?",
+        "Options": {
+            "A": "A. Atender solo a la normativa interna del hospital",
+            "B": "B. Estar sujeto a movilidad dentro de los dispositivos asistenciales si es necesario",
+            "C": "C. Evitar cualquier cambio de área",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 574,
+        "Question": "❓ FFM T4 ¿Qué estructura de coordinación tiene el Biobanco del SSPA en el área de investigación?",
+        "Options": {
+            "A": "A. Un nodo de investigación",
+            "B": "B. Un nodo coordinador situado en Sevilla",
+            "C": "C. Un Nodo de Coordinación con sede en Granada",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 575,
+        "Question": "❓ FFM T4 ¿Qué aspecto de la gestión debe asegurar la Dirección Gerencia del hospital según el artículo 23?",
+        "Options": {
+            "A": "A. Exclusivamente la disponibilidad de equipos médicos",
+            "B": "B. La participación de los profesionales en la elaboración de propuestas de objetivos anuales",
+            "C": "C. La reducción de costos en la gestión de recursos",
+            "D": "D. La eliminación de la formación continuada"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 576,
+        "Question": "❓ FFM T4 ¿Qué órgano tiene la responsabilidad de elaborar y aprobar la memoria anual de actividades del Biobanco?",
+        "Options": {
+            "A": "A. El Comité Científico",
+            "B": "B. El Consejo Rector",
+            "C": "C. La Consejería de Salud",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 577,
+        "Question": "❓ FFM T4 ¿Qué aspecto no está incluido en la política de calidad de los servicios de salud mental según el Decreto 77/2008?",
+        "Options": {
+            "A": "A. Transparencia en la evaluación de los resultados",
+            "B": "B. Participación en la formación continua",
+            "C": "C. Exclusividad en el uso de recursos tecnológicos",
+            "D": "D. Garantía de la participación de los profesionales en la gestión"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 578,
+        "Question": "❓ FFM T4 ¿Cuál es la sede del Nodo Coordinador del Área de Investigación del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Sevilla",
+            "B": "B. Granada",
+            "C": "C. Málaga",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 579,
+        "Question": "❓ FFM T4 ¿Qué tipo de unidad es una unidad de rehabilitación de salud mental?",
+        "Options": {
+            "A": "A. Unidad de atención primaria",
+            "B": "B. Unidad de atención especializada",
+            "C": "C. Unidad de prevención",
+            "D": "D. Unidad de investigación"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 580,
+        "Question": "❓ FFM T4 ¿Qué busca el Biobanco del SSPA al integrarse en plataformas nacionales e internacionales?",
+        "Options": {
+            "A": "A. Aumentar sus muestras",
+            "B": "B. Colaborar en la estandarización y normalización de procedimientos",
+            "C": "C. Obtener financiación externa",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 581,
+        "Question": "❓ FFM T4 ¿Cómo se asegura la participación de los profesionales en el seno de la unidad de gestión clínica?",
+        "Options": {
+            "A": "A. Mediante reuniones trimestrales",
+            "B": "B. Mediante la evaluación periódica de resultados",
+            "C": "C. Mediante la elaboración de propuestas de objetivos anuales",
+            "D": "D. Mediante la elaboración de revisiones mensuales"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 582,
+        "Question": "❓ FFM T4 ¿Qué parte del Biobanco del SSPA actúa como garante de la calidad en el registro y distribución de biorrecursos?",
+        "Options": {
+            "A": "A. El Comité de Ética",
+            "B": "B. El Consejo Rector",
+            "C": "C. La Unidad de Calidad",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 583,
+        "Question": "❓ FFM T4 ¿Cuál es el primer nivel de atención especializada en salud mental según el Decreto 77/2008?",
+        "Options": {
+            "A": "A. Unidad de salud mental infanto-juvenil",
+            "B": "B. Unidad de hospitalización de salud mental",
+            "C": "C. Unidad de salud mental comunitaria",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 584,
+        "Question": "❓ FFM T4 ¿Cuál es la función de la unidad de salud mental comunitaria en relación con los dispositivos asistenciales?",
+        "Options": {
+            "A": "A. Reemplazar otros dispositivos asistenciales",
+            "B": "B. Coordinar con el resto de los dispositivos asistenciales",
+            "C": "C. Dirigir a otros dispositivos de salud mental",
+            "D": "D. Prestar servicios exclusivamente a nivel hospitalario"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 585,
+        "Question": "❓ FFM T4 ¿Cuál es uno de los principios fundamentales de funcionamiento del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Centralizar la investigación en un solo nodo",
+            "B": "B. Mantener un espíritu de servicio público, accesible y orientado a las necesidades del usuario",
+            "C": "C. Limitar la distribución de muestras a nivel local",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 586,
+        "Question": "❓ FFM T4 ¿Qué tipo de atención presta la unidad de salud mental comunitaria?",
+        "Options": {
+            "A": "A. Atención integral en régimen ambulatorio",
+            "B": "B. Atención integral en régimen domiciliario",
+            "C": "C. Atención quirúrgica cerebral",
+            "D": "D. A y B son correctas"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 587,
+        "Question": "❓ FFM T4 ¿Qué se garantiza en la composición del Consejo Rector del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. La igualdad de género",
+            "B": "B. La representación de todas las provincias andaluzas",
+            "C": "C. La inclusión de miembros internacionales",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 588,
+        "Question": "❓ FFM T4 ¿Qué actividades NO desarrolla la unidad de salud mental comunitaria en sus programas de atención?",
+        "Options": {
+            "A": "A. Actividades de carácter preventivo y asistenciales",
+            "B": "B. Actividades de apoyo a la integración social",
+            "C": "C. Actividades de cuidados y rehabilitación",
+            "D": "D. Actividades de carácter paliativo"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 589,
+        "Question": "❓ FFM T4 ¿Qué función tiene la Unidad de Calidad en los nodos del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Regular la dirección científica",
+            "B": "B. Aprobar la memoria anual",
+            "C": "C. Asegurar que el registro, procesamiento y distribución de biorrecursos sean adecuados",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 590,
+        "Question": "❓ FFM T4 ¿Cómo asegura la unidad de salud mental comunitaria la continuidad asistencial y de cuidados?",
+        "Options": {
+            "A": "A. Exclusivamente a través de consultas externas",
+            "B": "B. Mediante la coordinación con otros dispositivos asistenciales",
+            "C": "C. Mediante la atención en el hospital",
+            "D": "D. Mediante derivación a servicios privados"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 591,
+        "Question": "❓ FFM T4 ¿Qué se establece en la Ley 9/2007 y la Ley 40/2015 sobre el funcionamiento del Consejo Rector?",
+        "Options": {
+            "A": "A. La creación de un comité ético interno",
+            "B": "B. La normativa para órganos colegiados",
+            "C": "C. La inclusión de nodos adicionales",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 592,
+        "Question": "❓ FFM T4 ¿Qué papel NO juega la unidad de salud mental comunitaria en relación con los centros de atención primaria?",
+        "Options": {
+            "A": "A. Asesora a los centros de atención primaria en la atención a problemas de salud mental",
+            "B": "B. Apoya a los centros de atención primaria en la atención a problemas de salud mental",
+            "C": "C. Apoya y asesora a los centros de atención primaria exclusivamente en la derivación de pacientes",
+            "D": "D. A y B son correctas"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 593,
+        "Question": "❓ FFM T4 ¿Qué función tiene el Comité Científico del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Proponer nuevos nodos",
+            "B": "B. Actuar como órgano de asesoramiento y evaluación científica",
+            "C": "C. Gestionar los recursos financieros del Biobanco",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 594,
+        "Question": "❓ FFM T4 ¿En qué tipo de población está basada la unidad de salud mental comunitaria?",
+        "Options": {
+            "A": "A. En población de cualquier área geográfica",
+            "B": "B. En la población asignada en el área hospitalaria",
+            "C": "C. En la población asignada en el área de gestión sanitaria correspondiente",
+            "D": "D. B y C son correctas"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 595,
+        "Question": "❓ FFM T4 ¿Cuál es la misión del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Facilitar el acceso exclusivo a investigadores andaluces",
+            "B": "B. Ofrecer al usuario productos sanguíneos y derivados para uso asistencial e investigación",
+            "C": "C. Centralizar todos los biobancos de España",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 596,
+        "Question": "❓ FFM T4 ¿Cuál de las siguientes es una de las funciones específicas de la unidad de salud mental comunitaria?",
+        "Options": {
+            "A": "A. Gestionar recursos financieros para otros sobre salud mental",
+            "B": "B. Proponer la derivación a otro centro o servicio vinculado con el SAS mediante convenio",
+            "C": "C. Proponer la derivación a otro centro o servicio con el SAS mediante concierto",
+            "D": "D. B y C son correctas"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 597,
+        "Question": "❓ FFM T4 ¿Qué valores promueve el Biobanco del SSPA?",
+        "Options": {
+            "A": "A. La innovación, el servicio público y la transparencia",
+            "B": "B. La reducción de recursos financieros",
+            "C": "C. La creación de nuevos nodos en cada provincia",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "A"
+    },
+    {
+        "Id": 598,
+        "Question": "❓ FFM T4 ¿Qué se coordina principalmente desde la unidad de salud mental comunitaria?",
+        "Options": {
+            "A": "A. Recursos financieros del hospital",
+            "B": "B. Servicios de atención médica general",
+            "C": "C. La derivación de pacientes al resto de los dispositivos de salud mental",
+            "D": "D. La administración de medicamentos"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 599,
+        "Question": "❓ FFM T4 ¿Cuántos nodos forman parte del Biobanco del SSPA en su área de investigación?",
+        "Options": {
+            "A": "A. 10",
+            "B": "B. 26",
+            "C": "C. 50",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 600,
+        "Question": "❓ FFM T4 ¿Cuál es una de las funciones de la unidad de hospitalización de salud mental?",
+        "Options": {
+            "A": "A. Prestar atención en régimen de consulta externa",
+            "B": "B. Prestar atención especializada en régimen de hospitalización parcial",
+            "C": "C. Ofrecer solo apoyo psicológico ambulatorio",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 601,
+        "Question": "❓ FFM T4 ¿Qué garantiza el Biobanco del SSPA al promover la sostenibilidad?",
+        "Options": {
+            "A": "A. El mantenimiento del rigor científico y técnico",
+            "B": "B. La creación de nuevos biobancos",
+            "C": "C. La centralización de todas las muestras",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "A"
+    },
+    {
+        "Id": 602,
+        "Question": "❓ FFM T4 ¿Cuál es el papel del Nodo de Coordinación del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Dirigir las investigaciones biomédicas",
+            "B": "B. Coordinar las solicitudes y distribución de muestras",
+            "C": "C. Centralizar la investigación a nivel regional",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 603,
+        "Question": "❓ FFM T4 Si se considera conveniente la derivación de un paciente a otros dispositivos asistenciales de salud mental, ¿cómo se realiza?",
+        "Options": {
+            "A": "A. Directamente por la unidad de hospitalización sin coordinación",
+            "B": "B. Solo con la unidad de salud mental infanto-juvenil",
+            "C": "C. En coordinación con la unidad de salud mental comunitaria",
+            "D": "D. A través de muestras de admisión clínica"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 604,
+        "Question": "❓ FFM T4 ¿Qué tipo de muestras gestiona el Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Solo muestras sanguíneas",
+            "B": "B. Muestras biológicas humanas para uso clínico e investigativo",
+            "C": "C. Muestras animales para investigación",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 605,
+        "Question": "❓ FFM T4 ¿Qué función cumple la unidad de hospitalización en relación con pacientes ingresados en otros servicios del hospital?",
+        "Options": {
+            "A": "A. No tiene ninguna función",
+            "B": "B. Atender a pacientes ingresados en otros servicios del hospital que lo precisan",
+            "C": "C. Transferir todos los pacientes a otras unidades",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 606,
+        "Question": "❓ FFM T4 ¿Cuál es uno de los objetivos del Biobanco del SSPA en cuanto a su participación en consorcios internacionales?",
+        "Options": {
+            "A": "A. Competir por recursos financieros",
+            "B": "B. Asumir retos mediante alianzas",
+            "C": "C. Disminuir el número de nodos",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 607,
+        "Question": "❓ FFM T4 ¿Qué función cumple la unidad de hospitalización en relación con pacientes ingresados en otros servicios del hospital?",
+        "Options": {
+            "A": "A. No tiene ninguna función",
+            "B": "B. Atender a los pacientes que lo precisan",
+            "C": "C. Coordinar el alta en todos los casos",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 608,
+        "Question": "❓ FFM T4 ¿Qué tipo de actividades realiza el Nodo de Coordinación del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Crear nuevas unidades de investigación",
+            "B": "B. Coordinar la distribución de muestras biológicas",
+            "C": "C. Gestionar la financiación externa",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 609,
+        "Question": "❓ FFM T4 ¿En qué deben participar las unidades de hospitalización en el desarrollo de programas de atención?",
+        "Options": {
+            "A": "A. En el desarrollo de programas de atención a pacientes con bajo riesgo de hospitalización",
+            "B": "B. En el desarrollo de programas de atención a pacientes con alto riesgo de hospitalización",
+            "C": "C. En la administración de recursos de personal",
+            "D": "D. Todas son correctas"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 610,
+        "Question": "❓ FFM T4 ¿Con qué unidades deben coordinarse las unidades de hospitalización en el desarrollo de programas de atención?",
+        "Options": {
+            "A": "A. Con las unidades de atención primaria",
+            "B": "B. Con las unidades de salud mental comunitaria y otros dispositivos asistenciales de salud mental",
+            "C": "C. Solo con la administración del hospital",
+            "D": "D. Todas son correctas"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 611,
+        "Question": "❓ FFM T4 ¿Qué promueve el Biobanco del SSPA para garantizar la calidad en el trabajo en red?",
+        "Options": {
+            "A": "A. Un equipo científico pequeño",
+            "B": "B. La integración de todos los bancos de sangre y tejidos en una estructura única",
+            "C": "C. Limitar la cooperación internacional",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 612,
+        "Question": "❓ FFM T4 ¿Qué tipo de estancia se ofrece en la unidad de hospitalización de salud mental?",
+        "Options": {
+            "A": "A. Solo estancia prolongada",
+            "B": "B. Solo estancia ambulatoria",
+            "C": "C. Estancia completa y de corta estancia",
+            "D": "D. Solo estancia en régimen de día"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 613,
+        "Question": "❓ FFM T4 ¿Qué objetivo tiene la Visión del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Ser un referente internacional por su calidad y eficiencia",
+            "B": "B. Crear nuevos nodos en cada provincia",
+            "C": "C. Limitar la distribución de muestras a nivel regional",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "A"
+    },
+    {
+        "Id": 614,
+        "Question": "❓ FFM T4 ¿Qué debe garantizar la Unidad de Calidad en los nodos del Biobanco?",
+        "Options": {
+            "A": "A. El desarrollo de nuevas líneas de investigación",
+            "B": "B. El registro y la distribución adecuados de biorrecursos",
+            "C": "C. La creación de nodos de coordinación en todas las provincias",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 615,
+        "Question": "❓ FFM T4 ¿Cuál es la función de la unidad de hospitalización en cuanto a la continuidad de los cuidados de enfermería?",
+        "Options": {
+            "A": "A. No se encarga de los cuidados de enfermería",
+            "B": "B. Solo garantiza la continuidad en el hospital",
+            "C": "C. Garantiza la continuidad de los cuidados de enfermería en coordinación con la USMC",
+            "D": "D. Deriva los cuidados de enfermería a centros privados"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 616,
+        "Question": "❓ FFM T4 ¿Qué aspectos garantiza el Biobanco del SSPA a través de la transparencia?",
+        "Options": {
+            "A": "A. Limitar la investigación biomédica",
+            "B": "B. Ser accesible y cercano al usuario",
+            "C": "C. Crear nuevas líneas celulares",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 617,
+        "Question": "❓ FFM T4 ¿Qué debe hacer la unidad de hospitalización si se considera necesaria la derivación a otros dispositivos?",
+        "Options": {
+            "A": "A. Realizar la derivación sin coordinación",
+            "B": "B. Coordinar la derivación con la unidad de salud mental comunitaria",
+            "C": "C. Derivar directamente sin previo aviso",
+            "D": "D. Contactar solo con el paciente"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 618,
+        "Question": "❓ FFM T4 ¿Qué tipo de apoyo debe proporcionar la unidad de hospitalización de salud mental?",
+        "Options": {
+            "A": "A. Apoyo solo en casos de emergencia",
+            "B": "B. Apoyo asistencial necesario en régimen de hospitalización parcial y de larga estancia",
+            "C": "C. Apoyo solo en atención primaria",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 619,
+        "Question": "❓ FFM T4 ¿Qué estructura actúa como Nodo Coordinador del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. El Parque Tecnológico de Málaga",
+            "B": "B. El Centro de Investigación Biomédica en Granada",
+            "C": "C. La Consejería de Salud",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 620,
+        "Question": "❓ FFM T4 ¿Qué función tiene el Reglamento Interno del Comité Científico del Biobanco?",
+        "Options": {
+            "A": "A. Crear nuevas unidades de investigación",
+            "B": "B. Regular las funciones de asesoramiento científico",
+            "C": "C. Aprobar la memoria anual",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 621,
+        "Question": "❓ FFM T4 ¿Cuál es el tipo de atención que presta la unidad de hospitalización de salud mental?",
+        "Options": {
+            "A": "A. Atención especializada en régimen de hospitalización completa",
+            "B": "B. Atención ambulatoria de larga estancia",
+            "C": "C. Atención especializada en régimen de corta estancia",
+            "D": "D. A y C son correctas"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 622,
+        "Question": "❓ FFM T4 ¿Qué sucede tras el alta de un paciente en la unidad de hospitalización de salud mental?",
+        "Options": {
+            "A": "A. El paciente es dado de alta sin más procedimientos",
+            "B": "B. Se informa a la unidad de salud mental comunitaria",
+            "C": "C. El paciente es transferido a un centro privado",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 623,
+        "Question": "❓ FFM T4 ¿Qué promueve el Biobanco del SSPA para fomentar el talento profesional?",
+        "Options": {
+            "A": "A. Crear nodos en cada región",
+            "B": "B. Desarrollar un equipo humano preparado y cohesionado",
+            "C": "C. Limitar el acceso a investigadores externos",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 624,
+        "Question": "❓ FFM T4 ¿Qué función cumple la unidad de hospitalización respecto a los pacientes ingresados en otros servicios del hospital?",
+        "Options": {
+            "A": "A. Proporciona atención solo si es solicitada por familiares",
+            "B": "B. No tiene ninguna implicación",
+            "C": "C. Atiende a los pacientes que lo precisen",
+            "D": "D. Coordina el alta en todos los casos"
+        },
+        "CorrectOption": "C"
+    },
+    {
+        "Id": 625,
+        "Question": "❓ FFM T4 ¿En qué áreas trabaja el Biobanco del SSPA con plataformas provinciales?",
+        "Options": {
+            "A": "A. Registro y distribución de muestras biológicas",
+            "B": "B. Comercialización de productos sanguíneos",
+            "C": "C. Gestión de nodos internacionales",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "A"
+    },
+    {
+        "Id": 626,
+        "Question": "❓ FFM T4 ¿Con qué dispositivos asistenciales se coordinan las unidades de hospitalización en programas de atención a pacientes con alto riesgo de hospitalización?",
+        "Options": {
+            "A": "A. Solo con las unidades de hospitalización del SAS",
+            "B": "B. Con las unidades de salud mental rehabilitadora y otros centros asistenciales",
+            "C": "C. Con centros de atención pública y concertada",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 627,
+        "Question": "❓ FFM T4 ¿Quién nombra al Comité Científico del Biobanco del SSPA?",
+        "Options": {
+            "A": "A. La Consejería de Salud",
+            "B": "B. El Consejo Rector",
+            "C": "C. El Comité Coordinador de Ética",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "B"
+    },
+    {
+        "Id": 628,
+        "Question": "❓ FFM T4 ¿Qué debe hacer la unidad de hospitalización si un paciente requiere derivación a otro dispositivo?",
+        "Options": {
+            "A": "A. Realizar la derivación en coordinación con la unidad de salud mental comunitaria",
+            "B": "B. Informar directamente a los familiares",
+            "C": "C. Derivar al paciente a centros privados",
+            "D": "D. A y C son correctas"
+        },
+        "CorrectOption": "A"
+    },
+    {
+        "Id": 629,
+        "Question": "❓ FFM T4 ¿Cómo se garantiza la equidad de género en el Biobanco del SSPA?",
+        "Options": {
+            "A": "A. Mediante la Ley de la Administración de la Junta de Andalucía",
+            "B": "B. Limitando la participación de mujeres en el Consejo Rector",
+            "C": "C. Proponiendo cuotas de género en el reglamento interno",
+            "D": "D. Ninguna es correcta"
+        },
+        "CorrectOption": "A"
+    },
+    {
+        "Id": 630,
+        "Question": "❓ FFM T4 El Decreto 198/2024, de 3 de septiembre introduce una nueva Dirección General en el SAS:",
+        "Options": {
+            "A": "A. Dirección General de Digitalización y Sistemas",
+            "B": "B. Dirección General de Gestión Económica y Servicios Digitales",
+            "C": "C. Dirección General de Asistencia Sanitaria y Resultados de la Comunicación Digital",
+            "D": "D. Dirección General de Sistemas de información y Comunicaciones"
+        },
+        "CorrectOption": "D"
+    },
+    {
+        "Id": 631,
+        "Question": "❓ FFM T4 La vigente delimitación del marco territorial que abarca cada Distrito y Zona de Salud se establece en",
+        "Options": {
+            "A": "A. Orden 17 de julio de 2022",
+            "B": "B. Orden 17 de junio de 2020",
+            "C": "C. Orden 17 de junio de 2022",
+            "D": "D. Orden 7 de junio de 2002"
+        },
+        "CorrectOption": "B"
+    }
+]
