@@ -678,7 +678,7 @@ def test_protected_exam_generation(authenticated_users):
     return results, generated_exams
 
 def test_exam_submission(generated_exams):
-    """Test user-specific exam submission"""
+    """Test user-specific exam submission with scoring logic verification"""
     results = TestResults()
     
     if not generated_exams:
@@ -691,24 +691,40 @@ def test_exam_submission(generated_exams):
     
     submitted_results = []
     
-    # Test 1: Valid submission with authentication
-    for i, (exam_id, token, user_data) in enumerate(generated_exams):
+    # Test 1: Valid submission with authentication and scoring verification
+    for i, (exam_id, token, user_data, questions) in enumerate(generated_exams):
         try:
-            # Create realistic answers (mix of correct, incorrect, and blank)
+            # Create realistic answers using actual question IDs from the generated exam
             answers = []
-            for j in range(50):  # 50 questions
-                question_id = f"q_{j}"  # Simplified for testing
-                if j % 3 == 0:
-                    selected_option = None  # Blank answer
-                elif j % 2 == 0:
-                    selected_option = 0  # First option
+            expected_correctas = 0
+            expected_incorrectas = 0
+            expected_en_blanco = 0
+            
+            for j, question in enumerate(questions):
+                question_id = question.get('id')
+                correct_answer = question.get('respuesta_correcta', 0)
+                
+                if j % 4 == 0:
+                    # Blank answer (25% of questions)
+                    selected_option = None
+                    expected_en_blanco += 1
+                elif j % 3 == 0:
+                    # Correct answer (33% of remaining questions)
+                    selected_option = correct_answer
+                    expected_correctas += 1
                 else:
-                    selected_option = 1  # Second option
+                    # Incorrect answer (remaining questions)
+                    # Choose a different option than the correct one
+                    selected_option = (correct_answer + 1) % 4
+                    expected_incorrectas += 1
                 
                 answers.append({
                     "question_id": question_id,
                     "selected_option": selected_option
                 })
+            
+            # Calculate expected score: +2 for correct, -0.5 for incorrect, 0 for blank, min 0
+            expected_score = max(0, (expected_correctas * 2) + (expected_incorrectas * -0.5))
             
             submission_data = {
                 "exam_id": exam_id,
@@ -734,28 +750,86 @@ def test_exam_submission(generated_exams):
                 
                 if all(field in data for field in expected_fields):
                     submitted_results.append((data["id"], token, user_data))
+                    
+                    # Test basic submission
                     results.add_result(
-                        f"Exam Submission {i+1}",
+                        f"Exam Submission - Basic {i+1}",
                         True,
                         f"Successfully submitted exam for {user_data['nombre']} - Score: {data['puntuacion']}"
                     )
+                    
+                    # Test scoring logic verification
+                    actual_correctas = data['correctas']
+                    actual_incorrectas = data['incorrectas']
+                    actual_en_blanco = data['en_blanco']
+                    actual_score = data['puntuacion']
+                    
+                    # Verify counts
+                    counts_correct = (
+                        actual_correctas == expected_correctas and
+                        actual_incorrectas == expected_incorrectas and
+                        actual_en_blanco == expected_en_blanco
+                    )
+                    
+                    if counts_correct:
+                        results.add_result(
+                            f"Exam Scoring - Answer Counts {i+1}",
+                            True,
+                            f"Correct counts: {actual_correctas}C, {actual_incorrectas}I, {actual_en_blanco}B"
+                        )
+                    else:
+                        results.add_result(
+                            f"Exam Scoring - Answer Counts {i+1}",
+                            False,
+                            f"Count mismatch - Expected: {expected_correctas}C, {expected_incorrectas}I, {expected_en_blanco}B; Got: {actual_correctas}C, {actual_incorrectas}I, {actual_en_blanco}B"
+                        )
+                    
+                    # Verify score calculation (+2/-0.5/0, min 0)
+                    score_tolerance = 0.1  # Allow small floating point differences
+                    if abs(actual_score - expected_score) <= score_tolerance:
+                        results.add_result(
+                            f"Exam Scoring - Score Calculation {i+1}",
+                            True,
+                            f"Correct score calculation: {actual_score} (expected: {expected_score})"
+                        )
+                    else:
+                        results.add_result(
+                            f"Exam Scoring - Score Calculation {i+1}",
+                            False,
+                            f"Score calculation error - Expected: {expected_score}, Got: {actual_score}"
+                        )
+                    
+                    # Verify minimum score is 0
+                    if actual_score >= 0:
+                        results.add_result(
+                            f"Exam Scoring - Minimum Score {i+1}",
+                            True,
+                            f"Score is non-negative: {actual_score}"
+                        )
+                    else:
+                        results.add_result(
+                            f"Exam Scoring - Minimum Score {i+1}",
+                            False,
+                            f"Score is negative: {actual_score} (should be minimum 0)"
+                        )
+                        
                 else:
                     results.add_result(
-                        f"Exam Submission {i+1}",
+                        f"Exam Submission - Basic {i+1}",
                         False,
                         "Missing required fields in response",
                         f"Expected: {expected_fields}, Got: {list(data.keys())}"
                     )
             else:
                 results.add_result(
-                    f"Exam Submission {i+1}",
+                    f"Exam Submission - Basic {i+1}",
                     False,
                     f"Exam submission failed with status {response.status_code}",
                     response.text
                 )
         except Exception as e:
             results.add_result(
-                f"Exam Submission {i+1}",
+                f"Exam Submission - Basic {i+1}",
                 False,
                 f"Request failed: {str(e)}"
             )
