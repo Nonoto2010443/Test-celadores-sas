@@ -116,7 +116,7 @@ async def fix_questions():
     
     # Process questions in batches
     batch_size = 100
-    cursor = db.preguntas.find({})
+    cursor = db.preguntas_oficiales.find({})
     
     async for question in cursor:
         stats['total_scanned'] += 1
