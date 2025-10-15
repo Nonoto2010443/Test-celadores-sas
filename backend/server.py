@@ -119,6 +119,25 @@ SUBSCRIPTION_CURRENCY = "eur"
 
 # Initialize Stripe (will be done in endpoints with base_url)
 
+# Helper function to check subscription status
+async def check_user_subscription(user_email: str) -> bool:
+    """Check if user has an active subscription"""
+    user = await db.users.find_one({"email": user_email})
+    if not user:
+        return False
+    return user.get('subscription_status') == 'active'
+
+# Dependency for subscription-protected routes
+async def require_active_subscription(current_user: TokenData = Depends(get_current_user)):
+    """Dependency that requires an active subscription"""
+    has_subscription = await check_user_subscription(current_user.email)
+    if not has_subscription:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Active subscription required. Please subscribe to access this content."
+        )
+    return current_user
+
 # Helper function to generate questions with AI
 async def generate_questions_with_ai(num_questions: int = 7, tema_tipo: str = None) -> List[Question]:
     """Generate exam questions using OpenAI via EmergentIntegrations"""
