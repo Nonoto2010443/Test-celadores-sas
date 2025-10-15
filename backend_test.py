@@ -67,17 +67,17 @@ def test_user_registration():
     """Test user registration endpoint"""
     results = TestResults()
     
-    # Test data
+    # Test data - using realistic Spanish names for SAS Celadores
     test_users = [
         {
-            "email": f"maria.gonzalez.{uuid.uuid4().hex[:8]}@hospital.com",
+            "email": f"ana.rodriguez.{uuid.uuid4().hex[:8]}@sas.junta-andalucia.es",
             "password": "CeladorSAS2025!",
-            "nombre": "María González"
+            "nombre": "Ana Rodríguez Martín"
         },
         {
-            "email": f"carlos.martinez.{uuid.uuid4().hex[:8]}@hospital.com", 
+            "email": f"jose.fernandez.{uuid.uuid4().hex[:8]}@sas.junta-andalucia.es", 
             "password": "SeguridadHospital123!",
-            "nombre": "Carlos Martínez"
+            "nombre": "José Fernández López"
         }
     ]
     
