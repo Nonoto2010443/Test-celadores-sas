@@ -98,3 +98,7 @@ data/temario/temario_especifico_t11-t19.pdf
 *.env.*
 frontend/node_modules/.cache/default-development/1.pack
 frontend/node_modules/.cache/default-development/0.pack
+-e 
+# Environment files
+*.env
+*.env.*
