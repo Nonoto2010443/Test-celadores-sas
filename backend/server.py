@@ -397,7 +397,7 @@ async def generate_exam():
         raise HTTPException(status_code=500, detail=f"Error al generar examen: {str(e)}")
 
 
-async def generate_justification_simple(pregunta: Question) -> str:
+def generate_justification_simple(pregunta: Question) -> str:
     """Generate a simple justification without AI to avoid delays"""
     correct_letter = chr(65 + pregunta.respuesta_correcta)  # 0->A, 1->B, etc.
     correct_option = pregunta.opciones[pregunta.respuesta_correcta]
