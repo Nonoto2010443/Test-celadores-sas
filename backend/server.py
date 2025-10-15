@@ -1040,6 +1040,18 @@ async def generate_new_exam(current_user: TokenData = Depends(require_active_sub
         # Take exactly 50 questions
         all_questions = all_questions[:50]
         
+        # Verify we have exactly 50
+        if len(all_questions) < 50:
+            logger.error(f"Failed to generate 50 questions, only have {len(all_questions)}")
+            # Generate remaining with AI
+            remaining = 50 - len(all_questions)
+            extra = await generate_questions_with_ai(remaining, None)
+            all_questions.extend(extra)
+        
+        # Final verification
+        if len(all_questions) != 50:
+            logger.error(f"CRITICAL: Exam has {len(all_questions)} questions instead of 50")
+        
         # Log composition
         db_count = len([q for q in all_questions if 'Consulta el temario oficial del SAS' in q.explicacion])
         ai_count = len(all_questions) - db_count
