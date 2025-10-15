@@ -414,9 +414,19 @@ async def generate_new_exam(current_user: TokenData = Depends(get_current_user))
         all_questions.extend(comun_ai)
         all_questions.extend(especifico_ai)
         
-        # 5. Mezclar aleatoriamente
+        # 5. Verificar que tenemos suficientes preguntas
+        if len(all_questions) < 50:
+            logger.warning(f"Only {len(all_questions)} valid questions, need 50. Generating more AI questions...")
+            needed = 50 - len(all_questions)
+            extra_ai = await generate_questions_with_ai(needed, None)
+            all_questions.extend(extra_ai)
+        
+        # 6. Mezclar aleatoriamente
         import random
         random.shuffle(all_questions)
+        
+        # Take exactly 50 questions
+        all_questions = all_questions[:50]
         
         logger.info(f"Exam composed: {len(all_questions)} questions (43 from DB, 7 from AI)")
         
