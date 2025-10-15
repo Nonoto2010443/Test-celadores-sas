@@ -100,7 +100,7 @@ async def fix_questions():
     print(f"{'='*80}\n")
     
     # Get total count
-    total_questions = await db.preguntas.count_documents({})
+    total_questions = await db.preguntas_oficiales.count_documents({})
     print(f"📊 Total questions to scan: {total_questions:,}\n")
     
     # Statistics
