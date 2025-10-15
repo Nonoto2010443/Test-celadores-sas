@@ -207,17 +207,6 @@ const ResultsPage = () => {
                       {/* Pregunta */}
                       <p className="font-semibold text-lg text-slate-900 mb-4">{pregunta.texto}</p>
                       
-                      {/* Respuesta del usuario */}
-                      {!isUnanswered && (
-                        <div className="mb-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded">
-                          <p className="text-sm font-semibold text-blue-900 mb-1">Tu respuesta:</p>
-                          <p className="text-blue-800">
-                            <span className="font-bold mr-2">{String.fromCharCode(65 + userAnswer)}.</span>
-                            {pregunta.opciones[userAnswer]}
-                          </p>
-                        </div>
-                      )}
-                      
                       {/* Opciones */}
                       <div className="space-y-3 mb-4">
                         <p className="text-sm font-semibold text-slate-700 mb-2">Opciones de respuesta:</p>
