@@ -9,7 +9,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from dotenv import load_dotenv
 from datetime import datetime, timezone
 import uuid
-from emergentintegrations import LlmChat, UserMessage
+from emergentintegrations.llm.chat import LlmChat, UserMessage
 import logging
 
 logging.basicConfig(level=logging.INFO)
