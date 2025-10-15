@@ -475,6 +475,240 @@ def test_get_current_user(authenticated_users):
     
     return results
 
+def test_permanent_rules_implementation(authenticated_users):
+    """Test permanent rules implementation - CRITICAL VERIFICATION for abbreviations and exam composition"""
+    results = TestResults()
+    
+    if not authenticated_users:
+        results.add_result(
+            "Permanent Rules Setup",
+            False,
+            "No authenticated users available for testing"
+        )
+        return results, []
+    
+    generated_exams = []
+    
+    print("\n🔍 PERMANENT RULES VERIFICATION - Testing Multiple Exams")
+    print("="*60)
+    
+    # Generate multiple exams to thoroughly test permanent rules
+    for exam_num in range(3):  # Generate 3 exams for comprehensive testing
+        print(f"\n📝 Generating Exam {exam_num + 1}/3...")
+        
+        try:
+            token, user_data = authenticated_users[0]  # Use first authenticated user
+            auth_headers = {
+                **HEADERS,
+                "Authorization": f"Bearer {token}"
+            }
+            
+            response = requests.post(
+                f"{BASE_URL}/exam/generate",
+                headers=auth_headers,
+                timeout=45  # Longer timeout for AI generation
+            )
+            
+            if response.status_code == 200:
+                data = response.json()
+                questions = data.get("preguntas", [])
+                
+                if len(questions) == 50:
+                    generated_exams.append((data["id"], token, user_data, questions))
+                    print(f"   ✅ Generated exam {exam_num + 1} with {len(questions)} questions")
+                    
+                    # CRITICAL TEST 1: FORBIDDEN ABBREVIATIONS VERIFICATION
+                    print(f"   🔍 Checking forbidden abbreviations in exam {exam_num + 1}...")
+                    
+                    # Comprehensive list of forbidden abbreviations
+                    forbidden_abbrevs = [
+                        'LOPDPGDD', 'LOPDGDD', 'LOPD',  # Data protection laws
+                        'EM', 'EMPNS',                   # Estatuto Marco
+                        'EA', 'EAA',                     # Estatuto de Autonomía
+                        'LPRL', 'PRL',                   # Prevención Riesgos Laborales
+                        'EBAP', 'EBEP',                  # Estatuto Básico Empleado Público
+                        'LGS', 'LSA',                    # Ley General Sanidad / Ley Salud Andalucía
+                        'BOE', 'BOJA',                   # Boletines oficiales
+                        'RD', 'RDL',                     # Real Decreto
+                        'CE'                             # Constitución Española (except EU context)
+                    ]
+                    
+                    abbreviation_violations = []
+                    db_questions_count = 0
+                    ai_questions_count = 0
+                    
+                    for idx, q in enumerate(questions):
+                        pregunta_text = q.get('pregunta', '')
+                        opciones = q.get('opciones', [])
+                        explicacion = q.get('explicacion', '')
+                        
+                        # Count DB vs AI questions
+                        if pregunta_text.startswith('❓FFM.- '):
+                            if 'Consulta el temario oficial del SAS' in explicacion:
+                                db_questions_count += 1
+                            else:
+                                ai_questions_count += 1
+                        
+                        # Check question text for forbidden abbreviations
+                        for abbrev in forbidden_abbrevs:
+                            # Use word boundaries to avoid false positives
+                            import re
+                            pattern = r'\b' + re.escape(abbrev) + r'\b'
+                            if re.search(pattern, pregunta_text):
+                                abbreviation_violations.append(f"Exam {exam_num+1}, Q{idx+1}: '{abbrev}' in question")
+                        
+                        # Check options for forbidden abbreviations
+                        for opt_idx, opcion in enumerate(opciones):
+                            if isinstance(opcion, str):
+                                for abbrev in forbidden_abbrevs:
+                                    pattern = r'\b' + re.escape(abbrev) + r'\b'
+                                    if re.search(pattern, opcion):
+                                        abbreviation_violations.append(f"Exam {exam_num+1}, Q{idx+1}, Opt{opt_idx+1}: '{abbrev}' in option")
+                        
+                        # Check explanation for forbidden abbreviations
+                        for abbrev in forbidden_abbrevs:
+                            pattern = r'\b' + re.escape(abbrev) + r'\b'
+                            if re.search(pattern, explicacion):
+                                abbreviation_violations.append(f"Exam {exam_num+1}, Q{idx+1}: '{abbrev}' in explanation")
+                    
+                    # CRITICAL TEST 2: VERIFY "SAS" IS STILL ALLOWED
+                    sas_found = False
+                    for q in questions:
+                        pregunta_text = q.get('pregunta', '')
+                        opciones = q.get('opciones', [])
+                        if 'SAS' in pregunta_text or any('SAS' in str(opt) for opt in opciones):
+                            sas_found = True
+                            break
+                    
+                    # CRITICAL TEST 3: EXAM COMPOSITION VERIFICATION (85% DB / 15% IA)
+                    expected_db = 43  # 85% of 50
+                    expected_ai = 7   # 15% of 50
+                    composition_tolerance = 2  # Allow small variance due to filtering
+                    
+                    composition_correct = (
+                        abs(db_questions_count - expected_db) <= composition_tolerance and
+                        abs(ai_questions_count - expected_ai) <= composition_tolerance
+                    )
+                    
+                    print(f"   📊 Composition: {db_questions_count} DB, {ai_questions_count} AI")
+                    
+                    # CRITICAL TEST 4: FULL TEXT VERIFICATION
+                    full_text_found = []
+                    expected_expansions = [
+                        "Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales",
+                        "Estatuto Marco del Personal Estatutario",
+                        "Estatuto de Autonomía de Andalucía", 
+                        "Ley de Prevención de Riesgos Laborales",
+                        "Estatuto Básico del Empleado Público",
+                        "Ley General de Sanidad"
+                    ]
+                    
+                    for expansion in expected_expansions:
+                        for q in questions:
+                            pregunta_text = q.get('pregunta', '')
+                            opciones = q.get('opciones', [])
+                            if expansion in pregunta_text or any(expansion in str(opt) for opt in opciones):
+                                full_text_found.append(expansion)
+                                break
+                    
+                    # CRITICAL TEST 5: AI QUESTIONS QUALITY
+                    ai_quality_issues = []
+                    for idx, q in enumerate(questions):
+                        pregunta_text = q.get('pregunta', '')
+                        explicacion = q.get('explicacion', '')
+                        
+                        # Check if it's an AI question (not from DB)
+                        if pregunta_text.startswith('❓FFM.- ') and 'Consulta el temario oficial del SAS' not in explicacion:
+                            # Verify AI question has proper format
+                            if len(q.get('opciones', [])) != 4:
+                                ai_quality_issues.append(f"AI Q{idx+1}: Not exactly 4 options")
+                            
+                            # Check for abbreviations in AI questions specifically
+                            for abbrev in forbidden_abbrevs:
+                                pattern = r'\b' + re.escape(abbrev) + r'\b'
+                                if re.search(pattern, pregunta_text):
+                                    ai_quality_issues.append(f"AI Q{idx+1}: Contains forbidden abbreviation '{abbrev}'")
+                    
+                    # Record results for this exam
+                    if not abbreviation_violations:
+                        results.add_result(
+                            f"Exam {exam_num+1} - No Forbidden Abbreviations",
+                            True,
+                            f"✅ ZERO forbidden abbreviations found in all 50 questions"
+                        )
+                        print(f"   ✅ No forbidden abbreviations found")
+                    else:
+                        results.add_result(
+                            f"Exam {exam_num+1} - No Forbidden Abbreviations", 
+                            False,
+                            f"❌ Found {len(abbreviation_violations)} abbreviation violations",
+                            "; ".join(abbreviation_violations[:10])
+                        )
+                        print(f"   ❌ Found {len(abbreviation_violations)} abbreviation violations")
+                    
+                    results.add_result(
+                        f"Exam {exam_num+1} - SAS Abbreviation Allowed",
+                        sas_found,
+                        f"✅ SAS abbreviation found and allowed" if sas_found else "⚠️ SAS abbreviation not found in this exam"
+                    )
+                    
+                    results.add_result(
+                        f"Exam {exam_num+1} - Exam Composition (85%/15%)",
+                        composition_correct,
+                        f"✅ Composition: {db_questions_count} DB (~85%), {ai_questions_count} AI (~15%)" if composition_correct else f"❌ Composition off: {db_questions_count} DB, {ai_questions_count} AI (expected ~43/7)"
+                    )
+                    
+                    results.add_result(
+                        f"Exam {exam_num+1} - Full Text Expansions",
+                        len(full_text_found) > 0,
+                        f"✅ Found {len(full_text_found)} expanded forms: {', '.join(full_text_found[:3])}" if full_text_found else "⚠️ No expanded forms found in this exam"
+                    )
+                    
+                    results.add_result(
+                        f"Exam {exam_num+1} - AI Questions Quality",
+                        len(ai_quality_issues) == 0,
+                        f"✅ All {ai_questions_count} AI questions follow rules" if not ai_quality_issues else f"❌ {len(ai_quality_issues)} AI quality issues: {'; '.join(ai_quality_issues[:3])}"
+                    )
+                    
+                else:
+                    results.add_result(
+                        f"Exam {exam_num+1} - Generation Failed",
+                        False,
+                        f"Expected 50 questions, got {len(questions)}"
+                    )
+                    print(f"   ❌ Exam {exam_num+1} generation failed: {len(questions)} questions")
+            else:
+                results.add_result(
+                    f"Exam {exam_num+1} - Generation Failed",
+                    False,
+                    f"HTTP {response.status_code}: {response.text[:200]}"
+                )
+                print(f"   ❌ Exam {exam_num+1} generation failed: HTTP {response.status_code}")
+                
+        except Exception as e:
+            results.add_result(
+                f"Exam {exam_num+1} - Generation Error",
+                False,
+                f"Exception: {str(e)}"
+            )
+            print(f"   ❌ Exam {exam_num+1} generation error: {str(e)}")
+    
+    # SUMMARY ANALYSIS
+    print(f"\n📋 PERMANENT RULES VERIFICATION SUMMARY")
+    print("="*60)
+    
+    total_abbreviation_tests = sum(1 for r in results.results if "No Forbidden Abbreviations" in r["test"])
+    passed_abbreviation_tests = sum(1 for r in results.results if "No Forbidden Abbreviations" in r["test"] and r["passed"])
+    
+    total_composition_tests = sum(1 for r in results.results if "Exam Composition" in r["test"])
+    passed_composition_tests = sum(1 for r in results.results if "Exam Composition" in r["test"] and r["passed"])
+    
+    print(f"Abbreviation Tests: {passed_abbreviation_tests}/{total_abbreviation_tests} passed")
+    print(f"Composition Tests: {passed_composition_tests}/{total_composition_tests} passed")
+    print(f"Total Exams Generated: {len(generated_exams)}")
+    
+    return results, generated_exams
+
 def test_protected_exam_generation(authenticated_users):
     """Test protected exam generation endpoint with database quality checks"""
     results = TestResults()
