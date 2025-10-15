@@ -192,7 +192,7 @@ async def fix_questions():
                 if 'justificacion' in question:
                     update_data['justificacion'] = question['justificacion']
                 
-                await db.preguntas.update_one(
+                await db.preguntas_oficiales.update_one(
                     {'question_id': question_id},
                     {'$set': update_data}
                 )
