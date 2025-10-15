@@ -477,11 +477,14 @@ backend:
     file: "backend/fix_question_quality.py"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: true
         agent: "main"
         comment: "Fixed database quality issues: 1) Detected and fixed 2 questions where option text was identical to question text (replaced with placeholder '[OPCIÓN X REQUIERE REVISIÓN MANUAL]'). 2) Expanded 326 abbreviations in questions and 143 in options (LSA→Ley de Salud de Andalucía, LPRL→Ley de Prevención de Riesgos Laborales, etc.). 3) Removed 4,756 option labels (A), B), C), D)) from stored option text. Total 408 questions updated across 16,510 in database."
+      - working: true
+        agent: "testing"
+        comment: "✅ Database quality fixes verified successfully. Comprehensive testing of exam generation confirms: 1) No duplicate options found (0/50 questions had options identical to question text), 2) All 50 questions have exactly 4 options, 3) No forbidden abbreviations found (LSA, LPRL, EBAP, LOPD, EM, EA, EMPNS), 4) No option labels (A), B), C), D)) found in option text, 5) All questions have correct '❓FFM.- ' prefix. Exam generation, submission, and results retrieval all working correctly with clean data."
 
 metadata:
   created_by: "main_agent"
