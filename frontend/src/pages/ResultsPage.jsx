@@ -81,12 +81,36 @@ const ResultsPage = () => {
             <div className="flex justify-center mb-4">
               <Trophy className={`w-20 h-20 ${getScoreColor(result.puntuacion)}`} />
             </div>
-            <h1 className="text-4xl font-bold text-gray-800 mb-2">
+            <h1 className="text-4xl font-bold text-gray-800 mb-4">
               Resultados del Examen
             </h1>
-            <p className={`text-2xl font-bold ${getScoreColor(result.puntuacion)}`}>
-              {getScoreMessage(result.puntuacion)}
-            </p>
+            
+            {/* Mensaje de resultado destacado */}
+            {result.puntuacion >= 65 ? (
+              <div className="bg-green-50 border-2 border-green-500 rounded-xl p-6 mb-4">
+                <p className="text-3xl font-bold text-green-600 mb-2">
+                  ¡Enhorabuena!
+                </p>
+                <p className="text-xl text-green-700">
+                  Has superado el examen con éxito
+                </p>
+                <p className="text-lg text-green-600 mt-2">
+                  ✓ Puntuación de aprobado alcanzada (≥65 puntos)
+                </p>
+              </div>
+            ) : (
+              <div className="bg-red-50 border-2 border-red-400 rounded-xl p-6 mb-4">
+                <p className="text-3xl font-bold text-red-600 mb-2">
+                  Necesitas más preparación
+                </p>
+                <p className="text-xl text-red-700">
+                  No te desanimes, sigue estudiando y practicando
+                </p>
+                <p className="text-lg text-red-600 mt-2">
+                  ℹ️ Necesitas al menos 65 puntos para aprobar
+                </p>
+              </div>
+            )}
           </div>
         </Card>
 
