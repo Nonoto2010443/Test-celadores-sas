@@ -84,3 +84,7 @@ data/temario/temario_especifico_t11-t19.pdf
 # Environment files
 *.env
 *.env.*
+-e 
+# Environment files
+*.env
+*.env.*
