@@ -180,7 +180,7 @@ async def procesar_y_guardar_examenes():
         # Combinar preguntas con respuestas correctas - Examen Aplazada
         for pregunta in preguntas_aplazada:
             num = pregunta['numero']
-            if num in respuestas_aplazada and len(pregunta['opciones']) == 4:
+            if num in respuestas_aplazada and len(pregunta['opciones']) >= 3:
                 respuesta_letra = respuestas_aplazada[num]
                 respuesta_index = ord(respuesta_letra) - ord('A')
                 
