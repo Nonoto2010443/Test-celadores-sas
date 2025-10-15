@@ -291,7 +291,27 @@ REGLAS OBLIGATORIAS:
 4. Estilo: Imitar exámenes oficiales del SAS
 5. Cobertura: SOLO preguntas de {temas_rango}
 
-REGLA CRÍTICA - PROHIBICIÓN ESTRICTA DE ABREVIATURAS:
+REGLA CRÍTICA 1 - FORMATO OFICIAL DE LEYES Y NORMATIVAS:
+TODAS las leyes y normativas DEBEN mencionarse con su número, fecha y nombre completo oficial.
+
+✓ FORMATO CORRECTO (OBLIGATORIO):
+   - "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales"
+   - "Ley 14/1986, de 25 de abril, General de Sanidad"
+   - "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales"
+   - "Constitución Española de 1978"
+   - "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía"
+   - "Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud"
+   - "Ley 7/2007, de 12 de abril, del Estatuto Básico del Empleado Público"
+   - "Ley 2/1998, de 15 de junio, de Salud de Andalucía"
+   - "Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente"
+
+✗ FORMATO INCORRECTO (PROHIBIDO):
+   - "Ley de Prevención de Riesgos Laborales" (sin número ni fecha)
+   - "Ley General de Sanidad" (sin número ni fecha)
+   - "LOPDPGDD" o cualquier abreviatura
+   - Nombres sin el formato oficial completo
+
+REGLA CRÍTICA 2 - PROHIBICIÓN ESTRICTA DE ABREVIATURAS:
 ✓ SAS (Servicio Andaluz de Salud) - ÚNICA abreviatura permitida
 
 ✗ PROHIBIDO USAR ESTAS ABREVIATURAS:
