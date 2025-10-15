@@ -107,7 +107,9 @@ async def fix_questions():
     stats = {
         'total_scanned': 0,
         'duplicate_options_found': 0,
-        'abbreviations_found': 0,
+        'abbreviations_in_questions': 0,
+        'abbreviations_in_options': 0,
+        'missing_options': 0,
         'questions_updated': 0,
         'errors': 0
     }
@@ -115,7 +117,6 @@ async def fix_questions():
     issues_log = []
     
     # Process questions in batches
-    batch_size = 100
     cursor = db.preguntas_oficiales.find({})
     
     async for question in cursor:
@@ -125,63 +126,78 @@ async def fix_questions():
             print(f"   Processed {stats['total_scanned']:,} questions...")
         
         try:
-            question_id = question.get('question_id')
+            # Get question data
+            question_id = question.get('id') or question.get('question_id') or question.get('_id')
             pregunta_text = question.get('pregunta', '')
-            opciones = question.get('opciones', {})
+            opciones = question.get('opciones', [])
+            
+            # Ensure opciones is a list
+            if not isinstance(opciones, list):
+                opciones = []
             
             needs_update = False
             issue_details = {
-                'question_id': question_id,
+                'question_id': str(question_id),
                 'pregunta': pregunta_text[:100] + '...' if len(pregunta_text) > 100 else pregunta_text,
                 'issues': []
             }
             
+            # Check for missing options
+            if len(opciones) < 4:
+                stats['missing_options'] += 1
+                issue_details['issues'].append(f"Only {len(opciones)} options (should be 4)")
+            
             # Check for duplicate options
             cleaned_question = clean_text_for_comparison(pregunta_text)
-            duplicate_options = []
             
-            for opt_key in ['A', 'B', 'C', 'D']:
-                opt_text = opciones.get(opt_key, '')
-                cleaned_option = clean_text_for_comparison(opt_text)
+            for idx, option_text in enumerate(opciones):
+                if not isinstance(option_text, str):
+                    continue
+                    
+                cleaned_option = clean_text_for_comparison(option_text)
                 
-                # Check if option is identical or very similar to question
-                if cleaned_option and cleaned_question:
-                    if cleaned_option == cleaned_question:
-                        duplicate_options.append(opt_key)
-                        stats['duplicate_options_found'] += 1
-                        issue_details['issues'].append(f"Option {opt_key} is duplicate of question")
-                        needs_update = True
-                        
-                        # Fix: Replace with a generic placeholder that can be manually reviewed
-                        opciones[opt_key] = f"[OPCIÓN {opt_key} REQUIERE REVISIÓN MANUAL]"
+                # Check if option is identical to question
+                if cleaned_option and cleaned_question and cleaned_option == cleaned_question:
+                    stats['duplicate_options_found'] += 1
+                    issue_details['issues'].append(f"Option {idx} (label {chr(65+idx)}) is duplicate of question")
+                    # Fix: Replace with a placeholder
+                    opciones[idx] = f"[OPCIÓN {chr(65+idx)} REQUIERE REVISIÓN MANUAL]"
+                    needs_update = True
             
             # Check and expand abbreviations in question text
             expanded_pregunta = expand_abbreviations(pregunta_text)
             if expanded_pregunta != pregunta_text:
-                stats['abbreviations_found'] += 1
+                stats['abbreviations_in_questions'] += 1
                 needs_update = True
-                issue_details['issues'].append("Abbreviations found and expanded in question")
+                issue_details['issues'].append("Abbreviations expanded in question")
                 pregunta_text = expanded_pregunta
             
             # Check and expand abbreviations in options
-            for opt_key in ['A', 'B', 'C', 'D']:
-                if opt_key in opciones:
-                    original_opt = opciones[opt_key]
-                    expanded_opt = expand_abbreviations(original_opt)
-                    if expanded_opt != original_opt:
-                        stats['abbreviations_found'] += 1
+            new_opciones = []
+            for idx, option_text in enumerate(opciones):
+                if isinstance(option_text, str):
+                    expanded_opt = expand_abbreviations(option_text)
+                    if expanded_opt != option_text:
+                        stats['abbreviations_in_options'] += 1
                         needs_update = True
-                        opciones[opt_key] = expanded_opt
-                        if f"Abbreviations in option {opt_key}" not in str(issue_details['issues']):
-                            issue_details['issues'].append(f"Abbreviations found in option {opt_key}")
+                        new_opciones.append(expanded_opt)
+                    else:
+                        new_opciones.append(option_text)
+                else:
+                    new_opciones.append(option_text)
             
-            # Check and expand abbreviations in justification
-            if 'justificacion' in question:
-                original_just = question['justificacion']
-                expanded_just = expand_abbreviations(original_just)
-                if expanded_just != original_just:
-                    question['justificacion'] = expanded_just
-                    needs_update = True
+            if new_opciones != opciones:
+                opciones = new_opciones
+                if "Abbreviations expanded in options" not in str(issue_details['issues']):
+                    issue_details['issues'].append("Abbreviations expanded in options")
+            
+            # Check and expand abbreviations in explanation
+            if 'explicacion' in question:
+                original_exp = question['explicacion']
+                if original_exp:
+                    expanded_exp = expand_abbreviations(original_exp)
+                    if expanded_exp != original_exp:
+                        needs_update = True
             
             # Update question if needed
             if needs_update:
@@ -189,19 +205,23 @@ async def fix_questions():
                     'pregunta': pregunta_text,
                     'opciones': opciones
                 }
-                if 'justificacion' in question:
-                    update_data['justificacion'] = question['justificacion']
+                if 'explicacion' in question and question['explicacion']:
+                    update_data['explicacion'] = expand_abbreviations(question['explicacion'])
                 
+                # Use _id for update since it's always present
                 await db.preguntas_oficiales.update_one(
-                    {'question_id': question_id},
+                    {'_id': question['_id']},
                     {'$set': update_data}
                 )
                 stats['questions_updated'] += 1
-                issues_log.append(issue_details)
+                
+                if issue_details['issues']:
+                    issues_log.append(issue_details)
         
         except Exception as e:
             stats['errors'] += 1
-            print(f"❌ Error processing question {question.get('question_id', 'unknown')}: {str(e)}")
+            q_id = str(question.get('id', question.get('question_id', question.get('_id', 'unknown'))))
+            print(f"❌ Error processing question {q_id}: {str(e)}")
     
     # Print results
     print(f"\n{'='*80}")
@@ -210,13 +230,15 @@ async def fix_questions():
     print(f"\n📊 STATISTICS:")
     print(f"   Total questions scanned: {stats['total_scanned']:,}")
     print(f"   Questions with duplicate options: {stats['duplicate_options_found']:,}")
-    print(f"   Instances of abbreviations found: {stats['abbreviations_found']:,}")
+    print(f"   Questions with missing options: {stats['missing_options']:,}")
+    print(f"   Abbreviations expanded in questions: {stats['abbreviations_in_questions']:,}")
+    print(f"   Abbreviations expanded in options: {stats['abbreviations_in_options']:,}")
     print(f"   Questions updated: {stats['questions_updated']:,}")
     print(f"   Errors: {stats['errors']:,}")
     
     if issues_log:
-        print(f"\n📝 DETAILED ISSUES LOG (First 20):")
-        for i, issue in enumerate(issues_log[:20], 1):
+        print(f"\n📝 DETAILED ISSUES LOG (First 30):")
+        for i, issue in enumerate(issues_log[:30], 1):
             print(f"\n   {i}. Question ID: {issue['question_id']}")
             print(f"      Text: {issue['pregunta']}")
             print(f"      Issues: {', '.join(issue['issues'])}")
