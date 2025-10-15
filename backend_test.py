@@ -1532,12 +1532,25 @@ def main():
         else:
             print(f"⚠️  Could not activate subscription for {user_data['nombre']}")
     
-    # 4. Test Protected Exam Generation
+    # 4. Test Permanent Rules Implementation (CRITICAL)
+    print("\n🔒 Testing Permanent Rules Implementation...")
+    rules_results, rules_exams = test_permanent_rules_implementation(authenticated_users)
+    all_results.results.extend(rules_results.results)
+    all_results.passed += rules_results.passed
+    all_results.failed += rules_results.failed
+    
+    # Add rules exams to generated exams for further testing
+    generated_exams = rules_exams
+    
+    # 5. Test Protected Exam Generation (Additional)
     print("\n📝 Testing Protected Exam Generation...")
-    exam_results, generated_exams = test_protected_exam_generation(authenticated_users)
+    exam_results, additional_exams = test_protected_exam_generation(authenticated_users)
     all_results.results.extend(exam_results.results)
     all_results.passed += exam_results.passed
     all_results.failed += exam_results.failed
+    
+    # Combine all generated exams
+    generated_exams.extend(additional_exams)
     
     # 5. Test Exam Submission
     print("\n📤 Testing Exam Submission...")
