@@ -1280,6 +1280,15 @@ def main():
     all_results.passed += me_results.passed
     all_results.failed += me_results.failed
     
+    # 3.5. Activate subscriptions for test users
+    print("\n🔑 Activating subscriptions for test users...")
+    for token, user_data in authenticated_users:
+        activated = activate_user_subscription(user_data["email"])
+        if activated:
+            print(f"✅ Activated subscription for {user_data['nombre']}")
+        else:
+            print(f"⚠️  Could not activate subscription for {user_data['nombre']}")
+    
     # 4. Test Protected Exam Generation
     print("\n📝 Testing Protected Exam Generation...")
     exam_results, generated_exams = test_protected_exam_generation(authenticated_users)
