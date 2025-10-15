@@ -398,14 +398,14 @@ async def get_tema_by_number(numero: int):
     return tema
 
 @api_router.post("/exam/generate", response_model=Exam)
-async def generate_new_exam(current_user: TokenData = Depends(get_current_user)):
+async def generate_new_exam(current_user: TokenData = Depends(require_active_subscription)):
     """Generate a new exam with 50 questions following specific rules:
     - 30% from Common Topics (T1-T10) = 15 questions
     - 70% from Specific Topics (T11-T19) = 35 questions
     - 85% from Database = 43 questions
     - 15% from AI = 7 questions
     
-    Requires authentication.
+    Requires authentication and active subscription.
     """
     try:
         logger.info("Generating new exam with specific distribution...")
