@@ -156,6 +156,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema15.json',
             'tema': 15,
             'nombre': 'Tema 15 - Movilización y traslado de pacientes'
+        },
+        {
+            'archivo': 'test_tema16.json',
+            'tema': 16,
+            'nombre': 'Tema 16 - Manual de Estilo del SAS'
         }
     ]
     
