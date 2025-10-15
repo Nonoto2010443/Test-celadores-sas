@@ -146,6 +146,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema13.json',
             'tema': 13,
             'nombre': 'Tema 13 - El Celador en Hospitalización, Quirófano y Urgencias'
+        },
+        {
+            'archivo': 'test_tema14.json',
+            'tema': 14,
+            'nombre': 'Tema 14 - El Celador en Consultas Externas y otras unidades'
         }
     ]
     
