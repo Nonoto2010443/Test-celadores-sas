@@ -1,0 +1,205 @@
+.subscription-result-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.subscription-result-card {
+  background: white;
+  border-radius: 20px;
+  padding: 50px 40px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.spinner-large {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #667eea;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 30px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 auto 30px;
+  animation: scaleIn 0.5s ease-out;
+}
+
+.error-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 auto 30px;
+  animation: scaleIn 0.5s ease-out;
+}
+
+.cancel-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.subscription-result-card h2 {
+  font-size: 2rem;
+  color: #333;
+  margin: 0 0 20px 0;
+}
+
+.success-message {
+  font-size: 1.1rem;
+  color: #4caf50;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.error-message {
+  font-size: 1.1rem;
+  color: #f44336;
+  margin-bottom: 30px;
+}
+
+.cancel-message {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.subscription-result-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.benefits-list {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px 0;
+  text-align: left;
+}
+
+.benefits-list h3 {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+.benefits-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits-list li {
+  padding: 8px 0;
+  color: #4caf50;
+  font-weight: 500;
+}
+
+.redirect-message {
+  font-size: 0.9rem;
+  color: #999;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+.action-button {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+.action-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.action-button.primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.action-button.secondary {
+  background: #f0f0f0;
+  color: #667eea;
+  border: 2px solid #667eea;
+}
+
+.action-button.secondary:hover {
+  background: #667eea;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .subscription-result-card {
+    padding: 40px 25px;
+  }
+
+  .subscription-result-card h2 {
+    font-size: 1.6rem;
+  }
+
+  .success-icon,
+  .error-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 2.5rem;
+  }
+}
