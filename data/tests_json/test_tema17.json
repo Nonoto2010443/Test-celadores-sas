@@ -1,0 +1,5768 @@
+[
+  {
+    "Id": 1,
+    "Question": "❓FFM.-¿Qué tipo de riesgo incluye lesiones y quemaduras?",
+    "Options": {
+      "a": "Riesgos de ergonomía.",
+      "b": "Riesgos de seguridad.",
+      "c": "Riesgos de higiene.",
+      "d": "Riesgos psicosociales."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 2,
+    "Question": "❓FFM.-¿Cuál de las siguientes opciones es un riesgo higiénico?",
+    "Options": {
+      "a": "Golpes y caídas.",
+      "b": "Trabajo a turnos.",
+      "c": "Manipulación de cargas.",
+      "d": "Exposición a gases."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 3,
+    "Question": "❓FFM.-¿Qué medida preventiva se recomienda para la movilización de enfermos?",
+    "Options": {
+      "a": "Utilizar la técnica correcta.",
+      "b": "Manipularlos rápidamente.",
+      "c": "No pedir ayuda.",
+      "d": "Evitar el contacto físico."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 4,
+    "Question": "❓FFM.-¿Qué tipo de riesgo laboral incluye el estrés?",
+    "Options": {
+      "a": "Higiene.",
+      "b": "Seguridad.",
+      "c": "Ergonomía y psicosociología.",
+      "d": "Inmunización."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 5,
+    "Question": "❓FFM.-¿Qué medida preventiva es importante para evitar los golpes en el manejo de sillas de ruedas?",
+    "Options": {
+      "a": "Limpiar las sillas antes de usarlas.",
+      "b": "Manipularlas con velocidad.",
+      "c": "Evitar las prisas en el manejo.",
+      "d": "Utilizar guantes de goma."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 6,
+    "Question": "❓FFM.-¿Qué indica el texto sobre la reutilización de agujas?",
+    "Options": {
+      "a": "No deben ser enfundadas nuevamente.",
+      "b": "Pueden ser reutilizadas si se esterilizan.",
+      "c": "Se guardan en cualquier contenedor.",
+      "d": "Solo se enfundan si son desechables."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 7,
+    "Question": "❓FFM.-¿Qué debe hacer el personal antes de comenzar su jornada laboral?",
+    "Options": {
+      "a": "Lavarse las manos y cambiar de ropa.",
+      "b": "Cambiar de uniforme en su casa.",
+      "c": "Limpiar su área de trabajo únicamente.",
+      "d": "Recoger objetos usados por enfermos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 8,
+    "Question": "❓FFM.-¿Cuál es un equipo de protección individual para proteger la visión?",
+    "Options": {
+      "a": "Mascarillas.",
+      "b": "Gafas de protección ocular.",
+      "c": "Batas.",
+      "d": "Ropa de trabajo."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 9,
+    "Question": "❓FFM.-¿Por qué debe el celador mantener una buena higiene personal?",
+    "Options": {
+      "a": "Para evitar accidentes.",
+      "b": "Para prevenir la transmisión de gérmenes.",
+      "c": "Para reducir el ruido ambiental.",
+      "d": "Para disminuir la carga mental."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 10,
+    "Question": "❓FFM.-¿Qué deben hacer los celadores con las agujas de un solo uso?",
+    "Options": {
+      "a": "Colocarlas en contenedores de seguridad.",
+      "b": "Esterilizarlas para reutilización.",
+      "c": "Enfundarlas nuevamente.",
+      "d": "Desecharlas en cualquier contenedor."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 11,
+    "Question": "❓FFM.-¿Qué tipo de riesgo laboral supone el ruido en el trabajo?",
+    "Options": {
+      "a": "Seguridad.",
+      "b": "Psicosocial.",
+      "c": "Ergonomía.",
+      "d": "Higiene."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 12,
+    "Question": "❓FFM.-¿Qué se recomienda hacer ante heridas o erosiones en la piel?",
+    "Options": {
+      "a": "Cubrirlas solo al final del turno.",
+      "b": "No es necesario protegerlas.",
+      "c": "Protegerlas antes de empezar la tarea.",
+      "d": "Lavarlas cada dos horas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 13,
+    "Question": "❓FFM.-¿Qué elemento forma parte de las medidas de protección individual?",
+    "Options": {
+      "a": "Mascarillas de tela.",
+      "b": "Guantes estériles o no estériles.",
+      "c": "Uniforme de calle.",
+      "d": "Protección visual casera."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 14,
+    "Question": "❓FFM.-¿Cuál es el propósito de la ergonomía en el entorno laboral?",
+    "Options": {
+      "a": "Adaptar el diseño al trabajador.",
+      "b": "Aumentar la carga de trabajo.",
+      "c": "Crear tareas rutinarias.",
+      "d": "Reducir las tareas complejas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 15,
+    "Question": "❓FFM.-¿Qué aspecto debe estudiarse minuciosamente antes de construir un edificio de trabajo?",
+    "Options": {
+      "a": "La orientación y vías de salida.",
+      "b": "La estética exterior.",
+      "c": "La distribución de escritorios.",
+      "d": "El diseño de la estructura arquitectónica."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 16,
+    "Question": "❓FFM.-¿Qué tipo de ventilación puede contribuir a la dispersión de la contaminación en ambientes contaminados?",
+    "Options": {
+      "a": "La ventilación general por dilución.",
+      "b": "La ventilación por extracción localizada.",
+      "c": "La ventilación natural.",
+      "d": "La ventilación por carbón activo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 17,
+    "Question": "❓FFM.-¿Qué porcentaje de energía utilizada se transforma en calor cuando el trabajo es físico?",
+    "Options": {
+      "a": "Hasta el 95%.",
+      "b": "El 80%.",
+      "c": "Un 50%.",
+      "d": "Menos del 30%."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 18,
+    "Question": "❓FFM.-¿Qué opción de ventilación es la más adecuada para entornos de trabajo que requieren una temperatura y humedad constantes?",
+    "Options": {
+      "a": "La ventilación mecánica.",
+      "b": "El aire acondicionado.",
+      "c": "La ventilación natural.",
+      "d": "La ventilación por puertas y ventanas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 19,
+    "Question": "❓FFM.-¿Cuál es el rango de temperatura permitido en locales de trabajo sedentarios?",
+    "Options": {
+      "a": "Entre 17 y 27 ºC.",
+      "b": "Entre 10 y 15 ºC.",
+      "c": "Entre 25 y 35 ºC.",
+      "d": "Entre 15 y 20 ºC."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 20,
+    "Question": "❓FFM.-¿Cuál es el límite de velocidad de corrientes de aire en trabajos no sedentarios en ambientes calurosos?",
+    "Options": {
+      "a": "0,25 m/s.",
+      "b": "0,5 m/s.",
+      "c": "0,75 m/s.",
+      "d": "1,0 m/s."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 21,
+    "Question": "❓FFM.-¿Qué factor personal influye en el ambiente térmico debido a la producción de calor?",
+    "Options": {
+      "a": "La estructura arquitectónica.",
+      "b": "El metabolismo del trabajador.",
+      "c": "La ventilación mecánica.",
+      "d": "La distancia entre trabajadores."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 22,
+    "Question": "❓FFM.-¿Qué nivel máximo de ruido se permite en oficinas y despachos públicos?",
+    "Options": {
+      "a": "25 dB.",
+      "b": "55 dB.",
+      "c": "45 dB.",
+      "d": "65 dB."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 23,
+    "Question": "❓FFM.-¿Cuál es la característica que permite diferenciar varios sonidos en un entorno laboral?",
+    "Options": {
+      "a": "La intensidad del sonido.",
+      "b": "La frecuencia del ruido.",
+      "c": "La fuerza del ruido.",
+      "d": "El timbre del sonido."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 24,
+    "Question": "❓FFM.-¿A partir de qué nivel de ruido es obligatorio el uso de protectores auditivos?",
+    "Options": {
+      "a": "55 dB.",
+      "b": "85 dB.",
+      "c": "75 dB.",
+      "d": "65 dB."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 25,
+    "Question": "❓FFM.-¿Cuál es el límite superior de humedad relativa en ambientes laborales comunes?",
+    "Options": {
+      "a": "80%.",
+      "b": "70%.",
+      "c": "60%.",
+      "d": "50%."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 26,
+    "Question": "❓FFM.-¿Qué elemento ayuda a reducir los olores desagradables en algunas industrias?",
+    "Options": {
+      "a": "El carbón activo.",
+      "b": "La ventilación natural.",
+      "c": "La ventilación mecánica.",
+      "d": "La estructura arquitectónica."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 27,
+    "Question": "❓FFM.-¿Qué nivel de ruido es considerado seguro para exposiciones de hasta 40 horas semanales?",
+    "Options": {
+      "a": "75 dB.",
+      "b": "65 dB.",
+      "c": "90 dB.",
+      "d": "85 dB."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 28,
+    "Question": "❓FFM.-¿Cuál de los siguientes materiales debería evitarse en la construcción de un edificio laboral?",
+    "Options": {
+      "a": "Materiales incombustibles.",
+      "b": "Materiales absorbentes.",
+      "c": "Materiales fácilmente combustibles.",
+      "d": "Materiales insonorizantes."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 29,
+    "Question": "❓FFM.-¿Qué elemento se evalúa mediante la audiometría en los trabajadores expuestos a ruido?",
+    "Options": {
+      "a": "La frecuencia del sonido.",
+      "b": "El estado fisiológico del oído.",
+      "c": "La resistencia a corrientes de aire.",
+      "d": "La intensidad de la visión."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 30,
+    "Question": "❓FFM.-¿Cuál es uno de los efectos negativos del ruido en el entorno laboral?",
+    "Options": {
+      "a": "Afecta el rendimiento psíquico.",
+      "b": "Aumenta el rendimiento físico.",
+      "c": "Mejora la audición a largo plazo.",
+      "d": "Facilita la concentración en tareas complejas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 31,
+    "Question": "❓FFM.-¿Qué temperatura es adecuada en locales de trabajo sedentario en oficinas?",
+    "Options": {
+      "a": "Entre 10 y 20ºC.",
+      "b": "Entre 14 y 22ºC.",
+      "c": "Entre 17 y 27ºC.",
+      "d": "Entre 20 y 30ºC."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 32,
+    "Question": "❓FFM.-¿Qué valor de humedad relativa es necesario en lugares con riesgos de electricidad estática?",
+    "Options": {
+      "a": "60%.",
+      "b": "40%.",
+      "c": "30%.",
+      "d": "50%."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 33,
+    "Question": "❓FFM.-¿Cuál es la definición de “tono” en relación al sonido?",
+    "Options": {
+      "a": "Es la sensación auditiva asociada a la frecuencia del sonido.",
+      "b": "Es la fuerza con la que se percibe el sonido.",
+      "c": "Es la capacidad de diferenciar sonidos distintos.",
+      "d": "Es la medida de la vibración del sonido en dB."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 34,
+    "Question": "❓FFM.-¿Qué se busca al estudiar la orientación espacial de un edificio?",
+    "Options": {
+      "a": "Mejorar la resistencia del edificio.",
+      "b": "Evitar riesgos de incendio.",
+      "c": "Facilitar el acceso a electricidad.",
+      "d": "Optimizar el flujo de personas y la comunicación."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 35,
+    "Question": "❓FFM.-¿Qué se debe considerar al elegir los materiales de construcción?",
+    "Options": {
+      "a": "La facilidad para el transporte.",
+      "b": "La baja combustibilidad.",
+      "c": "Su resistencia a la humedad.",
+      "d": "El peso del material."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 36,
+    "Question": "❓FFM.-¿Qué sistema de ventilación genera corrientes de aire y cambios bruscos de temperatura?",
+    "Options": {
+      "a": "Aire acondicionado.",
+      "b": "Mecánico.",
+      "c": "Natural.",
+      "d": "Inyección de aire frío."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 37,
+    "Question": "❓FFM.-¿Qué efecto tiene el metabolismo del trabajador en el ambiente térmico?",
+    "Options": {
+      "a": "Absorbe la temperatura del entorno.",
+      "b": "No influye en la temperatura.",
+      "c": "Evita la variación de la humedad.",
+      "d": "Genera calor debido a la actividad muscular."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 38,
+    "Question": "❓FFM.-¿Qué sistema de ventilación es adecuado en ambientes contaminados?",
+    "Options": {
+      "a": "Mecánico.",
+      "b": "Natural.",
+      "c": "Aire acondicionado.",
+      "d": "Inyección de aire caliente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 39,
+    "Question": "❓FFM.-¿Qué factor determina la intensidad de un ruido?",
+    "Options": {
+      "a": "Su duración en el tiempo.",
+      "b": "La altura de la frecuencia.",
+      "c": "El tono del ruido.",
+      "d": "La fuerza del ruido."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 40,
+    "Question": "❓FFM.-¿Cuál es el límite de velocidad del aire para trabajos sedentarios en ambientes calurosos?",
+    "Options": {
+      "a": "0,25 m/s.",
+      "b": "0,75 m/s.",
+      "c": "1 m/s.",
+      "d": "0,5 m/s."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 41,
+    "Question": "❓FFM.-¿Qué es esencial para un adecuado ambiente térmico laboral?",
+    "Options": {
+      "a": "Ropa de trabajo pesada.",
+      "b": "Alto porcentaje de humedad.",
+      "c": "Equilibrio entre el calor metabólico y las pérdidas de calor.",
+      "d": "Temperaturas extremas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 42,
+    "Question": "❓FFM.-¿Qué nivel de ruido es seguro en exposición continua de 40 horas semanales?",
+    "Options": {
+      "a": "75 dB.",
+      "b": "65 dB.",
+      "c": "85 dB.",
+      "d": "95 dB."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 43,
+    "Question": "❓FFM.-¿Cuál es el límite de intensidad acústica para hospitales?",
+    "Options": {
+      "a": "35 dB.",
+      "b": "25 dB.",
+      "c": "45 dB.",
+      "d": "55 dB."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 44,
+    "Question": "❓FFM.-¿Qué característica permite diferenciar entre diversos sonidos?",
+    "Options": {
+      "a": "Intensidad.",
+      "b": "Frecuencia.",
+      "c": "Tono.",
+      "d": "Timbre."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 45,
+    "Question": "❓FFM.-¿Qué tipo de iluminación es recomendada por su variabilidad según la hora del día y la estación del año?",
+    "Options": {
+      "a": "Iluminación mixta.",
+      "b": "Iluminación de seguridad.",
+      "c": "Iluminación natural.",
+      "d": "Iluminación artificial."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 46,
+    "Question": "❓FFM.-¿Qué nivel mínimo de iluminación se requiere en zonas de altas exigencias visuales?",
+    "Options": {
+      "a": "500 lux.",
+      "b": "200 lux.",
+      "c": "100 lux.",
+      "d": "1.000 lux."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 47,
+    "Question": "❓FFM.-¿Qué porcentaje de flujo luminoso se dirige hacia abajo en una iluminación directa?",
+    "Options": {
+      "a": "40-60%.",
+      "b": "10-40%.",
+      "c": "90-100%.",
+      "d": "50%."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 48,
+    "Question": "❓FFM.-¿Qué lesión puede aparecer en la piel tras una exposición prolongada a radiaciones ionizantes?",
+    "Options": {
+      "a": "Pérdida del cabello.",
+      "b": "Dermatitis leve.",
+      "c": "Carcinoma.",
+      "d": "Hemorragias internas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 49,
+    "Question": "❓FFM.-¿Cuál es la función principal de la iluminación de seguridad en los lugares de trabajo?",
+    "Options": {
+      "a": "Ofrecer luz en zonas de trabajo.",
+      "b": "Facilitar una evacuación rápida.",
+      "c": "Iluminar áreas de baja exigencia visual.",
+      "d": "Mejorar la iluminación general del espacio."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 50,
+    "Question": "❓FFM.-¿En qué zona del cuerpo se presentan más comúnmente lesiones debido al uso de martillos neumáticos?",
+    "Options": {
+      "a": "Brazos.",
+      "b": "Pies.",
+      "c": "Espalda.",
+      "d": "Manos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 51,
+    "Question": "❓FFM.-¿Cuál es el límite de dosis equivalente anual para la piel en los trabajadores expuestos a radiaciones ionizantes?",
+    "Options": {
+      "a": "100 mSv.",
+      "b": "500 mSv.",
+      "c": "20 mSv.",
+      "d": "50 mSv."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 52,
+    "Question": "❓FFM.-¿Qué nivel mínimo de iluminación se requiere en vías de circulación de uso ocasional?",
+    "Options": {
+      "a": "25 lux.",
+      "b": "50 lux.",
+      "c": "100 lux.",
+      "d": "200 lux."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 53,
+    "Question": "❓FFM.-¿Qué instrumento se utiliza en meteorología para medir la radiación solar?",
+    "Options": {
+      "a": "Termómetro.",
+      "b": "Piranómetro.",
+      "c": "Higrómetro.",
+      "d": "Pirómetro."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 54,
+    "Question": "❓FFM.-¿Qué parte del cuerpo es susceptible de desarrollar cataratas por exposición a radiaciones ionizantes?",
+    "Options": {
+      "a": "La piel.",
+      "b": "Los ojos.",
+      "c": "Las manos.",
+      "d": "Los pulmones."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 55,
+    "Question": "❓FFM.-¿Qué tipo de radiación se utiliza en soldaduras realizadas por arco eléctrico?",
+    "Options": {
+      "a": "Rayos gamma.",
+      "b": "Radiaciones infrarrojas.",
+      "c": "Radiaciones ultravioleta.",
+      "d": "Rayos X."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 56,
+    "Question": "❓FFM.-¿Qué ocurre en el aparato reproductor con una exposición excesiva a radiaciones ionizantes?",
+    "Options": {
+      "a": "Posible esterilidad.",
+      "b": "Aumento de fertilidad.",
+      "c": "Mejora de células germinales.",
+      "d": "Disminución de masa ósea."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 57,
+    "Question": "❓FFM.-¿Qué nivel de iluminación es adecuado para áreas de uso habitual en el trabajo?",
+    "Options": {
+      "a": "50 lux.",
+      "b": "25 lux.",
+      "c": "200 lux.",
+      "d": "100 lux."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 58,
+    "Question": "❓FFM.-¿Cuál es la función de un actinómetro en la industria?",
+    "Options": {
+      "a": "Medir la humedad ambiental.",
+      "b": "Medir el poder calorífico de la radiación.",
+      "c": "Calcular la temperatura ambiental.",
+      "d": "Regular el flujo de aire."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 59,
+    "Question": "❓FFM.-¿Qué nivel de iluminación es suficiente en áreas de exigencias visuales moderadas?",
+    "Options": {
+      "a": "100 lux.",
+      "b": "500 lux.",
+      "c": "200 lux.",
+      "d": "50 lux."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 60,
+    "Question": "❓FFM.-¿Cuál es el nivel mínimo de iluminación en áreas de uso ocasional?",
+    "Options": {
+      "a": "100 lux.",
+      "b": "500 lux.",
+      "c": "50 lux.",
+      "d": "25 lux."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 61,
+    "Question": "❓FFM.-¿Qué cantidad de luz se dirige hacia abajo en la iluminación directa?",
+    "Options": {
+      "a": "40-60%.",
+      "b": "90-100%.",
+      "c": "10-40%.",
+      "d": "25-50%."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 62,
+    "Question": "❓FFM.-¿Cuál es la principal consecuencia de la exposición prolongada a radiaciones ionizantes en la piel?",
+    "Options": {
+      "a": "Eritema y pérdida de vello.",
+      "b": "Solo eritema.",
+      "c": "Aumento del riesgo de diabetes.",
+      "d": "Problemas en el sistema nervioso."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 63,
+    "Question": "❓FFM.-¿Qué porcentaje de luz se dirige hacia arriba en la iluminación semidirecta?",
+    "Options": {
+      "a": "50-70%.",
+      "b": "60-80%.",
+      "c": "10-40%.",
+      "d": "5-15%."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 64,
+    "Question": "❓FFM.-¿Qué tipo de vibraciones es comúnmente transmitida al cuerpo mediante el uso de martillos neumáticos?",
+    "Options": {
+      "a": "Vibraciones térmicas.",
+      "b": "Vibraciones mecánicas.",
+      "c": "Vibraciones electromagnéticas.",
+      "d": "Vibraciones acústicas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 65,
+    "Question": "❓FFM.-¿Cuál es la dosis máxima permitida para la piel en trabajadores expuestos a radiaciones ionizantes?",
+    "Options": {
+      "a": "20 mSv.",
+      "b": "500 mSv.",
+      "c": "100 mSv.",
+      "d": "50 mSv."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 66,
+    "Question": "❓FFM.-¿Qué es el actinómetro?",
+    "Options": {
+      "a": "Un aparato para medir el poder calorífico de la radiación.",
+      "b": "Un dispositivo para medir las vibraciones.",
+      "c": "Un medidor de la luz artificial.",
+      "d": "Un medidor de velocidad."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 67,
+    "Question": "❓FFM.-¿Qué tipo de radiaciones son los rayos X?",
+    "Options": {
+      "a": "Corpusculares.",
+      "b": "Radiactivas.",
+      "c": "Ionizantes.",
+      "d": "Solares."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 68,
+    "Question": "❓FFM.-¿Cuál es el límite de dosis equivalente para el cristalino en un único año oficial?",
+    "Options": {
+      "a": "20 mSv.",
+      "b": "250 mSv.",
+      "c": "500 mSv.",
+      "d": "50 mSv."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 69,
+    "Question": "❓FFM.-¿Qué tipo de radiación se emite en la soldadura por arco eléctrico?",
+    "Options": {
+      "a": "Infrarroja.",
+      "b": "Ultravioleta.",
+      "c": "Visible.",
+      "d": "Rayos gamma."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 70,
+    "Question": "❓FFM.-¿Qué efecto causa en los ojos la exposición a radiaciones ionizantes?",
+    "Options": {
+      "a": "Glaucoma.",
+      "b": "Miopía.",
+      "c": "Cataratas.",
+      "d": "Hipermetropía."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 71,
+    "Question": "❓FFM.-¿Cuál es la cantidad de luz mínima necesaria para vías de circulación de uso ocasional?",
+    "Options": {
+      "a": "50 lux.",
+      "b": "25 lux.",
+      "c": "100 lux.",
+      "d": "200 lux."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 72,
+    "Question": "❓FFM.-¿Qué tipo de lesión pueden sufrir los trabajadores que usan herramientas como martillos neumáticos?",
+    "Options": {
+      "a": "Lesiones hepáticas.",
+      "b": "Lesiones pulmonares.",
+      "c": "Lesiones vasculares en las manos.",
+      "d": "Lesiones en el sistema auditivo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 73,
+    "Question": "❓FFM.-¿A qué grupo pertenecen las radiaciones alfa?",
+    "Options": {
+      "a": "Corpusculares.",
+      "b": "Electromagnéticas.",
+      "c": "Térmicas.",
+      "d": "Infrarrojas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 74,
+    "Question": "❓FFM.-¿Qué aspecto aborda la ergonomía geométrica?",
+    "Options": {
+      "a": "La relación entre el trabajador y las condiciones ambientales.",
+      "b": "El estudio de la relación entre el trabajador y las medidas de su puesto de trabajo.",
+      "c": "La adaptación de las tareas a las capacidades individuales.",
+      "d": "El diseño de los descansos en función del esfuerzo físico."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 75,
+    "Question": "❓FFM.-¿Cuál es una función de la fisiología dentro de la ergonomía?",
+    "Options": {
+      "a": "Estudia las fuerzas aplicadas en la actividad laboral.",
+      "b": "Evalúa la conducta humana.",
+      "c": "Examina la funcionalidad de los sentidos en relación con el trabajo.",
+      "d": "Calcula valores necesarios en el diseño ergonómico."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 76,
+    "Question": "❓FFM.-¿Qué provoca el síndrome del túnel carpiano?",
+    "Options": {
+      "a": "Movimientos de hiperflexión del codo.",
+      "b": "El uso excesivo de herramientas eléctricas.",
+      "c": "Compresión del nervio mediano en la muñeca.",
+      "d": "Una postura incorrecta de la espalda."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 77,
+    "Question": "❓FFM.-¿Qué disciplina contribuye al estudio de las medidas corporales en ergonomía?",
+    "Options": {
+      "a": "Sociología.",
+      "b": "Mecánica.",
+      "c": "Economía.",
+      "d": "Anatomía."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 78,
+    "Question": "❓FFM.-¿Qué aspecto cubre la ergonomía temporal?",
+    "Options": {
+      "a": "La relación entre la fatiga y el tiempo de descanso.",
+      "b": "El estudio de las vibraciones en el puesto de trabajo.",
+      "c": "La adaptación de la iluminación.",
+      "d": "El diseño de los equipos de trabajo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 79,
+    "Question": "❓FFM.-¿Qué tipo de postura puede causar lumbalgia en el trabajador?",
+    "Options": {
+      "a": "Mantenerse de pie durante periodos prolongados.",
+      "b": "Levantar objetos pesados de manera adecuada.",
+      "c": "Sentarse con las piernas cruzadas.",
+      "d": "Trabajar con luz inadecuada."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 80,
+    "Question": "❓FFM.-¿Cuál es un factor individual de riesgo para problemas dorsolumbares?",
+    "Options": {
+      "a": "Espacio de trabajo reducido.",
+      "b": "Condiciones ambientales inadecuadas.",
+      "c": "Ropa o calzado inadecuados.",
+      "d": "Exposición a vibraciones."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 81,
+    "Question": "❓FFM.-¿Cuál es el objetivo principal de la ergonomía?",
+    "Options": {
+      "a": "Adaptar el trabajo a las necesidades del trabajador.",
+      "b": "Diseñar equipos de trabajo eficientes.",
+      "c": "Mejorar la relación del trabajador con la naturaleza.",
+      "d": "Optimizar la estética del espacio laboral."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 82,
+    "Question": "❓FFM.-¿Qué enfermedad profesional se previene ajustando el mobiliario del puesto de trabajo?",
+    "Options": {
+      "a": "Síndrome de túnel carpiano.",
+      "b": "Lumbalgias.",
+      "c": "Hipertensión.",
+      "d": "Depresión."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 83,
+    "Question": "❓FFM.-¿Qué aspecto de la ergonomía se relaciona con las condiciones medioambientales del lugar de trabajo?",
+    "Options": {
+      "a": "Ergonomía temporal.",
+      "b": "Ergonomía ambiental.",
+      "c": "Ergonomía geométrica.",
+      "d": "Ergonomía del equipo."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 84,
+    "Question": "❓FFM.-¿Qué efecto busca evitar la ergonomía con un buen diseño de los espacios laborales?",
+    "Options": {
+      "a": "Incremento de la velocidad de trabajo.",
+      "b": "Mejora de la estética laboral.",
+      "c": "Generación de microtraumatismos.",
+      "d": "Creación de ritmos impuestos de trabajo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 85,
+    "Question": "❓FFM.-¿Qué posturas son consideradas de riesgo para desarrollar lumbalgias?",
+    "Options": {
+      "a": "Estar de pie o sentado de forma prolongada.",
+      "b": "Posturas que requieren hiperflexión de las piernas.",
+      "c": "Movimientos bruscos del cuello.",
+      "d": "Trabajos con herramientas eléctricas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 86,
+    "Question": "❓FFM.-¿Qué ayuda a reducir el riesgo de fatiga en el trabajador?",
+    "Options": {
+      "a": "Temperatura óptima en el lugar de trabajo.",
+      "b": "Un diseño ergonómico de jornada laboral y descansos.",
+      "c": "Ropa cómoda y holgada.",
+      "d": "Uso de herramientas vibrátiles."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 87,
+    "Question": "❓FFM.-¿Qué tarea puede incrementar el riesgo de lesiones en las extremidades superiores?",
+    "Options": {
+      "a": "Uso de herramientas de vibración continua.",
+      "b": "Sentarse durante mucho tiempo.",
+      "c": "Trabajar en temperaturas bajas.",
+      "d": "Realizar estiramientos de la mano."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 88,
+    "Question": "❓FFM.-¿Cuál es el objetivo principal de la ergonomía geométrica?",
+    "Options": {
+      "a": "Maximizar la productividad del trabajador.",
+      "b": "Mejorar el diseño de herramientas.",
+      "c": "Aumentar la resistencia física del trabajador.",
+      "d": "Garantizar la seguridad y comodidad en el puesto de trabajo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 89,
+    "Question": "❓FFM.-¿Qué áreas científicas aportan a la ergonomía conocimientos sobre el cálculo de valores necesarios?",
+    "Options": {
+      "a": "Psicología y física.",
+      "b": "Matemáticas y física.",
+      "c": "Anatomía y sociología.",
+      "d": "Fisiología y economía."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 90,
+    "Question": "❓FFM.-¿Cuál de las siguientes situaciones representa un factor de riesgo dorsolumbar debido a las características de la carga?",
+    "Options": {
+      "a": "Cuando la carga es voluminosa o difícil de sujetar.",
+      "b": "Cuando el trabajador tiene períodos insuficientes de descanso.",
+      "c": "Cuando el espacio libre resulta insuficiente para realizar la tarea.",
+      "d": "Cuando la iluminación es inadecuada."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 91,
+    "Question": "❓FFM.-¿Qué patología es frecuente en las extremidades superiores y es causada por esfuerzos repetidos con la muñeca?",
+    "Options": {
+      "a": "Síndrome del túnel carpiano.",
+      "b": "Lumbalgia.",
+      "c": "Tendinitis.",
+      "d": "Compresión del nervio radial."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 92,
+    "Question": "❓FFM.-¿Cuál es el campo de la ergonomía que se ocupa de evitar la fatiga física y psicológica mediante descansos y horarios adecuados?",
+    "Options": {
+      "a": "Ergonomía ambiental.",
+      "b": "Ergonomía temporal.",
+      "c": "Ergonomía geométrica.",
+      "d": "Ergonomía psicológica."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 93,
+    "Question": "❓FFM.-¿Qué tipo de movimientos en el puesto de trabajo pueden provocar lesiones en las extremidades superiores?",
+    "Options": {
+      "a": "Levantamiento de cargas pesadas.",
+      "b": "Movimientos rápidos con las piernas.",
+      "c": "Movimientos repetidos de la mano y muñeca.",
+      "d": "Mantener una postura erguida prolongada."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 94,
+    "Question": "❓FFM.-¿Qué ciencias contribuyen a la ergonomía al estudiar la aplicación de fuerzas humanas?",
+    "Options": {
+      "a": "Mecánica y fisiología.",
+      "b": "Sociología y psicología.",
+      "c": "Matemáticas y economía.",
+      "d": "Física y antropometría."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 95,
+    "Question": "❓FFM.-¿Cuál es un factor de riesgo dorsolumbar relacionado con la actividad en el puesto de trabajo?",
+    "Options": {
+      "a": "Cuando la carga es voluminosa.",
+      "b": "La falta de iluminación.",
+      "c": "Período insuficiente de reposo fisiológico o recuperación.",
+      "d": "Espacio libre insuficiente para realizar la tarea."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 96,
+    "Question": "❓FFM.-¿Qué medida se debe tomar para prevenir las lumbalgias?",
+    "Options": {
+      "a": "Usar herramientas de mano vibrátiles.",
+      "b": "Utilizar ropa holgada y cómoda.",
+      "c": "Realizar movimientos de flexión con carga.",
+      "d": "Realizar movimientos de pinzas con los dedos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 97,
+    "Question": "❓FFM.-¿Qué elemento estudia la ergonomía ambiental para mejorar el bienestar del trabajador?",
+    "Options": {
+      "a": "La disposición del mobiliario.",
+      "b": "La duración de los turnos laborales.",
+      "c": "La temperatura del ambiente laboral.",
+      "d": "Las tareas repetitivas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 98,
+    "Question": "❓FFM.-¿Qué puede causar el síndrome del túnel carpiano en el lugar de trabajo?",
+    "Options": {
+      "a": "Movimientos repetidos de la mano.",
+      "b": "Levantamiento de cargas pesadas.",
+      "c": "Exposición a ruidos intensos.",
+      "d": "Descanso prolongado de la mano."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 99,
+    "Question": "❓FFM.-¿Qué se debe evitar en un diseño ergonómico de un puesto de trabajo para reducir la fatiga muscular?",
+    "Options": {
+      "a": "Espacios de trabajo amplios.",
+      "b": "Esfuerzos superfluos.",
+      "c": "Horarios de trabajo continuos.",
+      "d": "Movimientos de flexión de la muñeca."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 100,
+    "Question": "❓FFM.-¿Cuál es una de las principales causas de lumbalgia por posturas laborales?",
+    "Options": {
+      "a": "Trabajar con el tronco inclinado.",
+      "b": "Trabajar en ambientes muy iluminados.",
+      "c": "Rotar turnos laborales.",
+      "d": "Permanecer sentado durante cortos períodos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 101,
+    "Question": "❓FFM.-¿Cómo se debe levantar una carga ancha?",
+    "Options": {
+      "a": "Manteniéndola lo más cerca del cuerpo.",
+      "b": "Sosteniéndola en los extremos.",
+      "c": "Elevándola con un solo brazo.",
+      "d": "Manteniéndola alejada del cuerpo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 102,
+    "Question": "❓FFM.-¿Qué se debe evitar en la manipulación de cargas pesadas?",
+    "Options": {
+      "a": "Agarrar la carga firmemente.",
+      "b": "Usar el equipo adecuado.",
+      "c": "Hacer descansos frecuentes.",
+      "d": "Realizar movimientos bruscos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 103,
+    "Question": "❓FFM.-¿Cuál es el peso máximo recomendado en manipulación manual en condiciones no ideales?",
+    "Options": {
+      "a": "25 kg.",
+      "b": "15 kg.",
+      "c": "30 kg.",
+      "d": "40 kg."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 104,
+    "Question": "❓FFM.-¿Cuál es una característica de las cargas mal distribuidas?",
+    "Options": {
+      "a": "Tienen un menor riesgo de manipulación.",
+      "b": "Son más ligeras para transportar.",
+      "c": "Suponen menor esfuerzo físico.",
+      "d": "Aumentan el riesgo de lesiones."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 105,
+    "Question": "❓FFM.-¿Qué se debe hacer si una carga es demasiado grande?",
+    "Options": {
+      "a": "Transportarla lo más rápido posible.",
+      "b": "Solicitar asistencia o usar ayudas mecánicas.",
+      "c": "Manipularla individualmente.",
+      "d": "Evitar descansos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 106,
+    "Question": "❓FFM.-¿Cuál es una consecuencia de no usar agarres adecuados?",
+    "Options": {
+      "a": "Disminución del esfuerzo necesario.",
+      "b": "Mejora en la postura del trabajador.",
+      "c": "Incremento de las posibilidades de manipulación inadecuada.",
+      "d": "Facilita el manejo seguro de la carga."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 107,
+    "Question": "❓FFM.-¿Qué debe hacerse en caso de cargas con bordes peligrosos?",
+    "Options": {
+      "a": "Ignorar la peligrosidad de los bordes.",
+      "b": "Usar guantes de protección.",
+      "c": "Transportar la carga sin precauciones.",
+      "d": "Agarrar la carga con fuerza adicional."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 108,
+    "Question": "❓FFM.-¿Cuál es la recomendación al manipular una carga pesada?",
+    "Options": {
+      "a": "Sujetarla lejos del cuerpo.",
+      "b": "Manipularla rápidamente.",
+      "c": "Usar las piernas para soportar el peso.",
+      "d": "Usar solo la fuerza de los brazos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 109,
+    "Question": "❓FFM.-¿Qué se debe evitar al manipular cargas?",
+    "Options": {
+      "a": "Realizar giros bruscos de torso.",
+      "b": "Tener una postura erguida.",
+      "c": "Utilizar una carga de peso adecuado.",
+      "d": "Mantener la espalda recta."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 110,
+    "Question": "❓FFM.-¿Qué tipo de peso debería asignarse a mujeres en la manipulación manual?",
+    "Options": {
+      "a": "No mayor a 15 kg.",
+      "b": "No mayor a 25 kg.",
+      "c": "No mayor a 20 kg.",
+      "d": "No mayor a 30 kg."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 111,
+    "Question": "❓FFM.-¿Qué deben hacer los trabajadores ante una carga de difícil manipulación?",
+    "Options": {
+      "a": "Manipularla sin pensar en su tamaño.",
+      "b": "Ignorar las instrucciones.",
+      "c": "Utilizar medios mecánicos o pedir ayuda.",
+      "d": "Aumentar el esfuerzo físico."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 112,
+    "Question": "❓FFM.-¿Qué se debe evitar al trasladar una carga muy profunda?",
+    "Options": {
+      "a": "Mantenerla cerca del cuerpo.",
+      "b": "Flexionar las rodillas.",
+      "c": "Tomar descansos periódicos.",
+      "d": "Realizar giros de torso."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 113,
+    "Question": "❓FFM.-¿Cuál es la postura recomendada para manipular cargas pesadas?",
+    "Options": {
+      "a": "Mantener la carga alejada del cuerpo.",
+      "b": "Flexionar las rodillas y mantener la espalda recta.",
+      "c": "Girar la cintura al levantar la carga.",
+      "d": "Levantar la carga usando solo los brazos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 114,
+    "Question": "❓FFM.-¿Qué acción se debe evitar para prevenir lesiones al levantar una carga?",
+    "Options": {
+      "a": "Mantener la carga cerca del cuerpo.",
+      "b": "Flexionar las rodillas.",
+      "c": "Levantar lentamente.",
+      "d": "Girar el tronco mientras se levanta."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 115,
+    "Question": "❓FFM.-¿Cuál es una recomendación importante al manejar cargas manualmente?",
+    "Options": {
+      "a": "Planificar el recorrido antes de mover la carga.",
+      "b": "Levantarla sin flexionar las rodillas.",
+      "c": "Movilizarla rápidamente para reducir el tiempo de esfuerzo.",
+      "d": "Usar solo la fuerza de los brazos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 116,
+    "Question": "❓FFM.-¿Qué aumenta al manipular cargas en superficies irregulares?",
+    "Options": {
+      "a": "La facilidad del movimiento.",
+      "b": "La estabilidad de la carga.",
+      "c": "El control sobre la carga.",
+      "d": "El riesgo de lesiones y caídas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 117,
+    "Question": "❓FFM.-¿Cuál es el beneficio de usar ayudas mecánicas en la manipulación de cargas?",
+    "Options": {
+      "a": "Aumentan la fuerza requerida.",
+      "b": "Disminuyen el esfuerzo físico necesario.",
+      "c": "Reducen el tamaño de la carga.",
+      "d": "Eliminar cualquier riesgo de lesión."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 118,
+    "Question": "❓FFM.-¿Qué es recomendable al movilizar cargas durante un turno largo?",
+    "Options": {
+      "a": "Hacerlo sin pausas.",
+      "b": "Usar solo la espalda.",
+      "c": "Realizar pausas regulares.",
+      "d": "Aumentar la velocidad de trabajo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 119,
+    "Question": "❓FFM.-¿Cuál es la altura óptima para cargar y descargar objetos?",
+    "Options": {
+      "a": "A la altura de la cintura.",
+      "b": "A nivel de los pies.",
+      "c": "A nivel del pecho.",
+      "d": "Por encima de la cabeza."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 120,
+    "Question": "❓FFM.-¿Qué debe hacerse si se presenta dolor durante la manipulación de una carga?",
+    "Options": {
+      "a": "Continuar con la tarea.",
+      "b": "Cambiar la posición de la carga.",
+      "c": "Aumentar la velocidad de manipulación.",
+      "d": "Detener la actividad y evaluar el dolor."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 121,
+    "Question": "❓FFM.-¿Qué deben hacer los trabajadores ante una carga con bordes filosos?",
+    "Options": {
+      "a": "Sujetarla con cuidado.",
+      "b": "Transportarla rápidamente.",
+      "c": "Utilizar guantes de protección.",
+      "d": "Dejar los bordes expuestos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 122,
+    "Question": "❓FFM.-¿Cuál es la técnica adecuada al transportar objetos pesados?",
+    "Options": {
+      "a": "Mantener la carga lejos del cuerpo.",
+      "b": "Levantar solo con la fuerza de los brazos.",
+      "c": "Mantener la carga cerca del centro de gravedad.",
+      "d": "Girar la cintura para mayor impulso."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 123,
+    "Question": "❓FFM.-¿Qué riesgo aumenta al levantar cargas pesadas sin ayuda?",
+    "Options": {
+      "a": "Mayor estabilidad.",
+      "b": "Reducción del esfuerzo físico.",
+      "c": "Facilidad en la postura.",
+      "d": "Incremento del riesgo de lesiones."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 124,
+    "Question": "❓FFM.-¿Qué técnica es clave para evitar lesiones al manipular cargas?",
+    "Options": {
+      "a": "Girar la espalda al levantar.",
+      "b": "Flexionar las rodillas.",
+      "c": "Mantener las piernas rectas.",
+      "d": "Elevar la carga solo con la espalda."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 125,
+    "Question": "❓FFM.-¿Qué deben hacer los trabajadores al manipular una carga pesada?",
+    "Options": {
+      "a": "Ignorar el peso de la carga.",
+      "b": "Mantener las piernas rectas.",
+      "c": "Pedir ayuda o usar equipos mecánicos.",
+      "d": "Levantar la carga rápidamente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 126,
+    "Question": "❓FFM.-¿Qué se debe hacer si la carga supera el peso recomendado?",
+    "Options": {
+      "a": "Movilizarla lo más rápido posible.",
+      "b": "Usar solo la fuerza de los brazos.",
+      "c": "Dividir la carga en partes más manejables.",
+      "d": "Manipularla sin precaución."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 127,
+    "Question": "❓FFM.-¿Qué es importante al trasladar cargas en espacios reducidos?",
+    "Options": {
+      "a": "No tener en cuenta el entorno.",
+      "b": "Aumentar la velocidad del traslado.",
+      "c": "Sostener la carga de forma insegura.",
+      "d": "Tomar precauciones adicionales y moverse lentamente."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 128,
+    "Question": "❓FFM.-¿Cuál es el peso teórico recomendado al levantar una carga desde la altura del codo y pegada al cuerpo?",
+    "Options": {
+      "a": "13 kg.",
+      "b": "19 kg.",
+      "c": "25 kg.",
+      "d": "20 kg."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 129,
+    "Question": "❓FFM.-¿Cuál es la capacidad de levantamiento aproximada de dos personas manipulando una carga en equipo?",
+    "Options": {
+      "a": "Igual a la suma de sus capacidades individuales.",
+      "b": "La mitad de la suma de sus capacidades individuales.",
+      "c": "Dos tercios de la suma de sus capacidades individuales.",
+      "d": "Un tercio de la suma de sus capacidades individuales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 130,
+    "Question": "❓FFM.-¿Qué altura es recomendada para manipular cargas cuando se realiza un desplazamiento vertical?",
+    "Options": {
+      "a": "Entre la altura de los hombros y la de media pierna.",
+      "b": "Por encima de los hombros.",
+      "c": "Por debajo de media pierna.",
+      "d": "A la altura de los tobillos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 131,
+    "Question": "❓FFM.-¿Cuál es el peso máximo recomendado al manipular una carga con el tronco inclinado?",
+    "Options": {
+      "a": "19 kg.",
+      "b": "0 kg.",
+      "c": "10 kg.",
+      "d": "5 kg."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 132,
+    "Question": "❓FFM.-¿Cuál es el límite de carga acumulada diaria en un turno de 8 horas para transportes de hasta 10 metros?",
+    "Options": {
+      "a": "6,000 kg.",
+      "b": "5,000 kg.",
+      "c": "10,000 kg.",
+      "d": "8,000 kg."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 133,
+    "Question": "❓FFM.-¿Cuál es el peso teórico recomendado para manipular en postura sentada y pegada al tronco?",
+    "Options": {
+      "a": "5 kg.",
+      "b": "10 kg.",
+      "c": "15 kg.",
+      "d": "8 kg."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 134,
+    "Question": "❓FFM.-¿Qué efecto tiene un giro del tronco al manipular cargas?",
+    "Options": {
+      "a": "Facilita el levantamiento.",
+      "b": "Mejora la posición de la columna.",
+      "c": "Aumenta el riesgo de lesiones lumbares.",
+      "d": "Disminuye el esfuerzo en los brazos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 135,
+    "Question": "❓FFM.-¿Qué sucede si el trabajador no cuenta con suficiente formación para la manipulación de cargas?",
+    "Options": {
+      "a": "Reduce el riesgo de lesiones.",
+      "b": "Aumenta el riesgo de lesiones.",
+      "c": "Facilita la manipulación de cargas pesadas.",
+      "d": "Mejora la postura en el levantamiento."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 136,
+    "Question": "❓FFM.-¿Qué recomendación se da al manipular cargas en una postura inestable?",
+    "Options": {
+      "a": "Cargar un peso mayor.",
+      "b": "Evitar la postura inestable para reducir riesgos.",
+      "c": "Usar más fuerza en el tronco.",
+      "d": "Inclinar el tronco hacia la carga."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 137,
+    "Question": "❓FFM.-¿Qué sucede si se aumenta el desplazamiento vertical al almacenar cargas?",
+    "Options": {
+      "a": "Aumenta el esfuerzo y riesgo de lesiones.",
+      "b": "Se reduce el riesgo de fatiga.",
+      "c": "Mejora la técnica de agarre.",
+      "d": "Facilita el levantamiento."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 138,
+    "Question": "❓FFM.-¿Qué peso se recomienda no exceder al mantener una carga en movimiento?",
+    "Options": {
+      "a": "25 kg.",
+      "b": "10 kg.",
+      "c": "15 kg.",
+      "d": "5 kg."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 139,
+    "Question": "❓FFM.-¿Qué opción describe la postura correcta al levantar una carga?",
+    "Options": {
+      "a": "Tronco inclinado hacia adelante.",
+      "b": "Tronco girado hacia un lado.",
+      "c": "Tronco arqueado hacia atrás.",
+      "d": "Tronco recto y cercano a la carga."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 140,
+    "Question": "❓FFM.-¿Qué sucede con el riesgo de fatiga si el ritmo de trabajo es impuesto?",
+    "Options": {
+      "a": "Disminuye el riesgo de fatiga.",
+      "b": "No afecta el riesgo de fatiga.",
+      "c": "Facilita la manipulación de cargas.",
+      "d": "Aumenta el riesgo de fatiga."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 141,
+    "Question": "❓FFM.-¿Cuál es el mayor peso teórico recomendado al manipular una carga pegada al cuerpo a la altura del codo?",
+    "Options": {
+      "a": "25 kg.",
+      "b": "20 kg.",
+      "c": "19 kg.",
+      "d": "13 kg."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 142,
+    "Question": "❓FFM.-Al manipular una carga, ¿qué sucede si el objeto está lejos del centro de gravedad del cuerpo?",
+    "Options": {
+      "a": "Se reduce el esfuerzo necesario para levantar la carga.",
+      "b": "Aumenta el riesgo de lesiones lumbares.",
+      "c": "Disminuye el riesgo de compresión de la columna.",
+      "d": "La carga se vuelve más ligera."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 143,
+    "Question": "❓FFM.-¿Cuál es el peso máximo recomendado para levantar una carga con el tronco inclinado?",
+    "Options": {
+      "a": "10 kg.",
+      "b": "15 kg.",
+      "c": "20 kg.",
+      "d": "Ninguno, se debe evitar levantar en esta posición."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 144,
+    "Question": "❓FFM.-Al realizar una tarea en una postura inestable, el trabajador está expuesto a:",
+    "Options": {
+      "a": "Pérdida de equilibrio.",
+      "b": "Menor esfuerzo físico.",
+      "c": "Mayor eficiencia en el levantamiento de cargas.",
+      "d": "Mayor estabilidad de la columna."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 145,
+    "Question": "❓FFM.-¿Cuál es el peso teórico recomendado al manipular una carga a la altura de los nudillos y cerca del cuerpo?",
+    "Options": {
+      "a": "25 kg.",
+      "b": "20 kg.",
+      "c": "15 kg.",
+      "d": "13 kg."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 146,
+    "Question": "❓FFM.-Para reducir riesgos, ¿en qué casos se debe evitar la manipulación manual de cargas?",
+    "Options": {
+      "a": "Siempre que la carga sea superior a 10 kg.",
+      "b": "Siempre que se cuente con ayuda mecánica.",
+      "c": "Al manipular cargas de menos de 5 kg.",
+      "d": "Cuando la carga está por encima de los hombros o en el suelo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 147,
+    "Question": "❓FFM.-¿Qué debe considerarse al almacenar una carga?",
+    "Options": {
+      "a": "El desplazamiento vertical de la carga.",
+      "b": "La frecuencia de uso de la carga.",
+      "c": "La postura del trabajador.",
+      "d": "El tamaño de la carga."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 148,
+    "Question": "❓FFM.-¿Qué peso máximo debería levantarse en postura sentada cerca del tronco?",
+    "Options": {
+      "a": "10 kg.",
+      "b": "8 kg.",
+      "c": "5 kg.",
+      "d": "7 kg."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 149,
+    "Question": "❓FFM.-¿Cuál es la fuerza máxima en kg recomendada para poner en movimiento o detener una carga?",
+    "Options": {
+      "a": "10 kg.",
+      "b": "25 kg.",
+      "c": "15 kg.",
+      "d": "5 kg."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 150,
+    "Question": "❓FFM.-Al manipular cargas, ¿qué distancia de transporte no debería excederse para reducir el riesgo ergonómico?",
+    "Options": {
+      "a": "1 metro.",
+      "b": "5 metros.",
+      "c": "10 metros.",
+      "d": "15 metros."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 151,
+    "Question": "❓FFM.-¿Cuál es el límite de carga acumulada en kg en un turno de 8 horas para distancias de transporte superiores a 10 metros?",
+    "Options": {
+      "a": "10,000 kg.",
+      "b": "8,000 kg.",
+      "c": "4,000 kg.",
+      "d": "6,000 kg."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 152,
+    "Question": "❓FFM.-¿Cuál de los siguientes factores es crucial en la aparición de riesgos ergonómicos al manipular cargas?",
+    "Options": {
+      "a": "El tipo de carga manipulada.",
+      "b": "La resistencia del trabajador.",
+      "c": "La frecuencia de manipulación de la carga.",
+      "d": "La distancia de la carga al centro de gravedad del cuerpo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 153,
+    "Question": "❓FFM.-¿Cuál es la altura máxima recomendada para almacenar cargas?",
+    "Options": {
+      "a": "150 cm.",
+      "b": "160 cm.",
+      "c": "170 cm.",
+      "d": "175 cm."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 154,
+    "Question": "❓FFM.-¿Cuál es el peso máximo recomendado para manipular una carga pegada al cuerpo en la altura de la cintura?",
+    "Options": {
+      "a": "10 kg.",
+      "b": "25 kg.",
+      "c": "15 kg.",
+      "d": "30 kg."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 155,
+    "Question": "❓FFM.-¿Qué significa el término “biomecánica” en el contexto de la manipulación manual de cargas?",
+    "Options": {
+      "a": "El análisis de las cargas a levantar.",
+      "b": "La forma de levantar las cargas de manera más rápida.",
+      "c": "El estudio de los movimientos del cuerpo y su mecánica.",
+      "d": "El equipo necesario para levantar cargas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 156,
+    "Question": "❓FFM.-¿Qué factor aumenta el riesgo de lesiones en la columna vertebral al levantar cargas?",
+    "Options": {
+      "a": "Levantar la carga lentamente.",
+      "b": "Mantener la carga cerca del cuerpo.",
+      "c": "Usar ambas manos para levantar.",
+      "d": "Realizar giros con el tronco mientras se sostiene la carga."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 157,
+    "Question": "❓FFM.-¿Qué posición debe evitarse al levantar una carga pesada?",
+    "Options": {
+      "a": "Con el tronco inclinado hacia adelante y las piernas rectas.",
+      "b": "Con las rodillas flexionadas y la espalda recta.",
+      "c": "Pegando la carga al cuerpo.",
+      "d": "Con un movimiento suave y sin tirones."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 158,
+    "Question": "❓FFM.-¿Cuál es el peso máximo recomendado para levantar una carga con el tronco inclinado?",
+    "Options": {
+      "a": "15 kg.",
+      "b": "5 kg.",
+      "c": "8 kg.",
+      "d": "Todas son incorrectas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 159,
+    "Question": "❓FFM.-¿Qué peso máximo es recomendable al trasladar una carga cerca del cuerpo en posición sentada?",
+    "Options": {
+      "a": "7 kg.",
+      "b": "6 kg.",
+      "c": "5 kg.",
+      "d": "10 kg."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 160,
+    "Question": "❓FFM.-¿Cuál es la recomendación al manipular cargas en el suelo?",
+    "Options": {
+      "a": "Flexionar las rodillas y mantener la espalda recta.",
+      "b": "Inclinar el tronco hacia adelante.",
+      "c": "Girar el cuerpo durante el levantamiento.",
+      "d": "Levantar la carga rápidamente para evitar esfuerzo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 161,
+    "Question": "❓FFM.-¿Qué debe evitarse al transportar una carga manualmente?",
+    "Options": {
+      "a": "Mantener la carga cerca del cuerpo.",
+      "b": "Realizar giros de tronco con la carga en las manos.",
+      "c": "Asegurarse de que la carga no esté inclinada.",
+      "d": "Llevar una carga liviana."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 162,
+    "Question": "❓FFM.-Para minimizar el esfuerzo en la espalda, ¿cuál es la posición más recomendable al levantar una carga?",
+    "Options": {
+      "a": "Con las rodillas flexionadas y la carga pegada al cuerpo.",
+      "b": "Con el tronco inclinado hacia adelante.",
+      "c": "Con las piernas rectas y la espalda encorvada.",
+      "d": "Con los brazos extendidos y el peso alejado del cuerpo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 163,
+    "Question": "❓FFM.-¿Qué postura reduce el riesgo de lesiones al transportar una carga?",
+    "Options": {
+      "a": "Con el cuerpo girado hacia un lado.",
+      "b": "Caminando hacia atrás con la carga.",
+      "c": "Con el tronco inclinado hacia adelante.",
+      "d": "Manteniendo el cuerpo derecho y evitando giros de tronco."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 164,
+    "Question": "❓FFM.-¿Por qué es importante evitar los giros del tronco al manipular cargas?",
+    "Options": {
+      "a": "Aumenta el esfuerzo de los brazos.",
+      "b": "Aumenta el riesgo de lesiones en la columna vertebral.",
+      "c": "Permite reducir el tiempo de manipulación.",
+      "d": "Disminuye la carga en la zona lumbar."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 165,
+    "Question": "❓FFM.-¿Qué acción debe evitarse durante la manipulación manual de cargas?",
+    "Options": {
+      "a": "Mantener la carga cerca del cuerpo.",
+      "b": "Levantar la carga con los brazos extendidos.",
+      "c": "Flexionar las rodillas al levantar.",
+      "d": "Agarrar firmemente la carga."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 166,
+    "Question": "❓FFM.-¿Cuál es la altura recomendada para manipular cargas de manera que se reduzca la tensión en la zona lumbar?",
+    "Options": {
+      "a": "Entre los hombros y la cintura.",
+      "b": "A la altura de los hombros.",
+      "c": "Entre la altura de codos y los nudillos.",
+      "d": "A la altura de la cabeza."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 167,
+    "Question": "❓FFM.-¿Qué debe evitarse durante el levantamiento de cargas para prevenir lesiones?",
+    "Options": {
+      "a": "Mantener la espalda recta.",
+      "b": "Realizar giros con el tronco.",
+      "c": "Sujetar la carga con ambas manos.",
+      "d": "Separar los pies para una postura estable."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 168,
+    "Question": "❓FFM.-¿Qué acción es recomendada al levantar una carga pesada del suelo?",
+    "Options": {
+      "a": "Flexionar demasiado las rodillas.",
+      "b": "Doblar las piernas manteniendo la espalda recta.",
+      "c": "Inclinarse hacia adelante.",
+      "d": "Levantar rápidamente la carga."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 169,
+    "Question": "❓FFM.-¿Qué tipo de agarre es más seguro al levantar una carga?",
+    "Options": {
+      "a": "Agarre suelto para ajustar la posición.",
+      "b": "Agarre con una sola mano.",
+      "c": "Agarre de pinza con los dedos.",
+      "d": "Agarre de gancho con ambas manos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 170,
+    "Question": "❓FFM.-¿Qué es recomendable hacer antes de levantar una carga desconocida?",
+    "Options": {
+      "a": "Comprobar su peso probando a levantar un lado.",
+      "b": "Levantarla sin preparación para ganar tiempo.",
+      "c": "Usar siempre el mismo método de levantamiento.",
+      "d": "Comenzar a levantar sin observar su tamaño."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 171,
+    "Question": "❓FFM.-¿Cuál es la acción recomendada al manipular cargas para proteger la espalda?",
+    "Options": {
+      "a": "Colocar los pies juntos.",
+      "b": "Flexionar solo la espalda al levantar.",
+      "c": "Separar los pies y mantener uno adelantado.",
+      "d": "Girar el tronco al levantar la carga."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 172,
+    "Question": "❓FFM.-¿Qué debe evitarse al levantar una carga para reducir el riesgo de lesiones?",
+    "Options": {
+      "a": "Utilizar las piernas en lugar de la espalda.",
+      "b": "Mantener la carga pegada al cuerpo.",
+      "c": "Realizar el levantamiento de forma suave.",
+      "d": "Dar tirones o movimientos bruscos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 173,
+    "Question": "❓FFM.-¿Qué se debe hacer al cambiar el agarre durante el levantamiento?",
+    "Options": {
+      "a": "Cambiar el agarre en el aire sin detenerse.",
+      "b": "Soltar la carga completamente y volver a agarrarla.",
+      "c": "Hacer un movimiento rápido para evitar caída.",
+      "d": "Apoyar la carga en una superficie si es posible."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 174,
+    "Question": "❓FFM.-¿Qué calzado es adecuado al levantar cargas manualmente?",
+    "Options": {
+      "a": "Cualquier calzado deportivo.",
+      "b": "Calzado adecuado y antideslizante.",
+      "c": "Sandalias para mayor comodidad.",
+      "d": "Zapatillas de casa."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 175,
+    "Question": "❓FFM.-¿Qué acción es recomendable si el peso de una carga es excesivo?",
+    "Options": {
+      "a": "Buscar ayuda o utilizar medios mecánicos.",
+      "b": "Intentar levantar la carga rápidamente.",
+      "c": "Girar el cuerpo para ajustarse a la carga.",
+      "d": "Aumentar la velocidad de levantamiento."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 176,
+    "Question": "❓FFM.-¿Qué postura es preferible al levantar una carga desde el suelo?",
+    "Options": {
+      "a": "Mantener la espalda doblada y rodillas estiradas.",
+      "b": "Inclinar el tronco hacia adelante.",
+      "c": "Flexionar demasiado las rodillas.",
+      "d": "Mantener la espalda recta y doblar las piernas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 177,
+    "Question": "❓FFM.-¿Qué es recomendable al colocar una carga en altura por encima de los hombros?",
+    "Options": {
+      "a": "Apoyar la carga a mitad de camino para cambiar el agarre.",
+      "b": "Realizar un movimiento rápido y fuerte.",
+      "c": "Mantener los brazos completamente extendidos.",
+      "d": "Girar el tronco para ajustar la posición."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 178,
+    "Question": "❓FFM.-¿Qué técnica es mejor al levantar una carga del suelo?",
+    "Options": {
+      "a": "Levantar la carga solo con los brazos.",
+      "b": "Usar la extensión de las piernas y no la espalda.",
+      "c": "Girar el cuerpo mientras se levanta la carga.",
+      "d": "Elevar la carga sin flexionar las rodillas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 179,
+    "Question": "❓FFM.-¿Qué acción es importante al realizar levantamientos de cargas pesadas?",
+    "Options": {
+      "a": "Hacer el levantamiento en un solo paso.",
+      "b": "Ignorar las indicaciones del embalaje.",
+      "c": "Planificar el levantamiento observando peso y agarres.",
+      "d": "Levantar de inmediato sin preparación."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 180,
+    "Question": "❓FFM.-¿Qué debe evitarse al sostener una carga durante su transporte?",
+    "Options": {
+      "a": "Mantener la carga pegada al cuerpo.",
+      "b": "Suavizar los movimientos durante el traslado.",
+      "c": "Girar el tronco al cambiar de dirección.",
+      "d": "Colocar los pies en la dirección de movimiento."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 181,
+    "Question": "❓FFM.-¿Cuál es la forma adecuada de planificar el levantamiento de una carga?",
+    "Options": {
+      "a": "Observar la carga y probar a levantar un lado.",
+      "b": "Levantar inmediatamente sin observar la carga.",
+      "c": "Tomar siempre el mismo agarre sin variación.",
+      "d": "Ignorar el tamaño y las características de la carga."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 182,
+    "Question": "❓FFM.-¿Qué debe hacerse al manipular cargas pesadas para evitar el uso excesivo de la espalda?",
+    "Options": {
+      "a": "Usar siempre las manos.",
+      "b": "Utilizar más los músculos de las piernas.",
+      "c": "Cargar sobre los hombros.",
+      "d": "Levantar desde la altura del pecho."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 183,
+    "Question": "❓FFM.-¿Cuál es la postura correcta al levantar una carga desde el suelo?",
+    "Options": {
+      "a": "Mantener los pies juntos.",
+      "b": "Inclinarse hacia adelante.",
+      "c": "Doblar demasiado las rodillas.",
+      "d": "Mantener la espalda recta y doblar las piernas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 184,
+    "Question": "❓FFM.-¿Qué acción es recomendable al encontrar una carga sin indicaciones de peso?",
+    "Options": {
+      "a": "Levantarla directamente para descubrir su peso.",
+      "b": "Probar a alzar un lado para estimar el peso.",
+      "c": "Usar la misma técnica sin importar el peso.",
+      "d": "Levantar con fuerza para evitar esfuerzos prolongados."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 185,
+    "Question": "❓FFM.-¿Qué debe evitarse al levantar una carga para prevenir lesiones en la espalda?",
+    "Options": {
+      "a": "Realizar giros con el tronco al levantar.",
+      "b": "Mantener la carga pegada al cuerpo.",
+      "c": "Agarrar firmemente con ambas manos.",
+      "d": "Usar los músculos de las piernas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 186,
+    "Question": "❓FFM.-¿Qué se recomienda hacer si el levantamiento debe realizarse hasta una altura elevada?",
+    "Options": {
+      "a": "Extender los brazos completamente desde el inicio.",
+      "b": "Apoyar la carga a mitad de camino para cambiar el agarre.",
+      "c": "Realizar un giro brusco del tronco.",
+      "d": "Sostener la carga a distancia."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 187,
+    "Question": "❓FFM.-¿Qué tipo de agarre es más seguro para levantar una carga manualmente?",
+    "Options": {
+      "a": "Agarre suelto con una sola mano.",
+      "b": "Agarre firme con ambas manos.",
+      "c": "Agarre de pinza con los dedos.",
+      "d": "Agarre flojo para ajustar la carga."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 188,
+    "Question": "❓FFM.-¿Qué es necesario evitar al levantar una carga para proteger la columna vertebral?",
+    "Options": {
+      "a": "Dar tirones o movimientos bruscos.",
+      "b": "Realizar el levantamiento de forma suave.",
+      "c": "Usar las piernas al levantar.",
+      "d": "Apoyar la carga en una superficie al cambiar de agarre."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 189,
+    "Question": "❓FFM.-¿Qué debe hacerse al colocar los pies antes de levantar una carga?",
+    "Options": {
+      "a": "Juntar los pies para mayor estabilidad.",
+      "b": "Colocar ambos pies detrás de la carga.",
+      "c": "Separar los pies y adelantar uno.",
+      "d": "Colocar un pie detrás del otro en línea recta."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 190,
+    "Question": "❓FFM.-¿Qué se recomienda hacer cuando la carga tiene un centro de gravedad inestable?",
+    "Options": {
+      "a": "Consultar las indicaciones en el embalaje.",
+      "b": "Levantarla sin consideración en su inestabilidad.",
+      "c": "Ignorar las indicaciones y levantarla rápido.",
+      "d": "Usar cualquier técnica de agarre."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 191,
+    "Question": "❓FFM.-¿Cuál es el mejor lugar para mantener la carga durante el proceso de levantamiento?",
+    "Options": {
+      "a": "Pegada al cuerpo.",
+      "b": "A un brazo de distancia.",
+      "c": "A la altura de la cabeza.",
+      "d": "Alejada del cuerpo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 192,
+    "Question": "❓FFM.-¿Qué debe observarse antes de levantar una carga sin etiquetas de advertencia?",
+    "Options": {
+      "a": "El color de la carga.",
+      "b": "La posición de los pies.",
+      "c": "El entorno cercano.",
+      "d": "Su tamaño, peso y posibles zonas de agarre."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 193,
+    "Question": "❓FFM.-¿Qué se debe evitar al intentar trasladar una carga en el lugar de trabajo?",
+    "Options": {
+      "a": "Realizar el levantamiento con ambas manos.",
+      "b": "Apoyar la carga si es necesario.",
+      "c": "Girar el tronco en lugar de mover los pies.",
+      "d": "Mantener la carga pegada al cuerpo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 194,
+    "Question": "❓FFM.-¿Cuál es el procedimiento adecuado para iniciar un levantamiento de carga?",
+    "Options": {
+      "a": "Girar el tronco para adaptarse a la posición.",
+      "b": "Separar los pies y colocarlos en dirección del movimiento.",
+      "c": "Doblar la espalda sin flexionar las piernas.",
+      "d": "Levantar rápidamente sin preparar la postura."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 195,
+    "Question": "❓FFM.-¿Qué debe hacerse cuando se deba ajustar la posición de una carga tras depositarla?",
+    "Options": {
+      "a": "Ajustar la posición una vez depositada.",
+      "b": "Girar el tronco mientras se deposita.",
+      "c": "Realizar un movimiento brusco al soltarla.",
+      "d": "Ajustarla sin soltar la carga."
+    },
+    "CorrectOption": "a"
+  },
+  {
+	"Id": 196,
+    "Question": "❓FFM.-¿Qué estudio presenta la Nota Técnica de Prevención NTP 275?",
+    "Options": {
+      "a": "Un estudio sobre los beneficios del trabajo hospitalario.",
+      "b": "Un estudio sobre la carga física en el trabajo.",
+      "c": "Un estudio sobre la carga mental en el trabajo hospitalario.",
+      "d": "Un estudio sobre los riesgos físicos en el trabajo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 197,
+    "Question": "❓FFM.-¿Cuál es el objetivo de la guía de factores presentada en la NTP 275?",
+    "Options": {
+      "a": "Determinar factores que deben modificarse para evitar problemas de salud.",
+      "b": "Aumentar la carga mental de los trabajadores.",
+      "c": "Facilitar el cambio de turnos en hospitales.",
+      "d": "Mejorar la comunicación entre departamentos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 198,
+    "Question": "❓FFM.-¿Qué implica el concepto de carga mental según Szekely?",
+    "Options": {
+      "a": "Una medida para valorar el esfuerzo físico.",
+      "b": "Un estado de relajación mental.",
+      "c": "Un estado de movilización debido a la tarea que exige procesamiento de información.",
+      "d": "Una disminución en la capacidad física."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 199,
+    "Question": "❓FFM.-¿Qué puede resultar si las exigencias del trabajo sobrepasan la capacidad de respuesta del trabajador?",
+    "Options": {
+      "a": "Fatiga y alteración del equilibrio de salud.",
+      "b": "Incremento de la motivación.",
+      "c": "Mejora en el rendimiento laboral.",
+      "d": "Un estado de completa adaptación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 200,
+    "Question": "❓FFM.-¿Qué tipo de medidas se utilizan para valorar la carga mental en el trabajo hospitalario?",
+    "Options": {
+      "a": "Únicamente métodos objetivos.",
+      "b": "Solo encuestas a directivos.",
+      "c": "Evaluaciones físicas y de peso corporal.",
+      "d": "Una combinación de métodos objetivos y subjetivos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 201,
+    "Question": "❓FFM.-¿Cuál es uno de los principales factores organizativos que contribuyen a la carga mental en hospitales?",
+    "Options": {
+      "a": "La cantidad de horas trabajadas.",
+      "b": "La comunicación entre turnos y departamentos.",
+      "c": "La ubicación geográfica del hospital.",
+      "d": "La especialidad de cada trabajador."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 202,
+    "Question": "❓FFM.-¿Qué papel juega el trabajo nocturno en el hospital?",
+    "Options": {
+      "a": "Puede afectar el equilibrio físico, psíquico y social de los trabajadores.",
+      "b": "Aumenta las horas de descanso.",
+      "c": "Reduce la fatiga mental.",
+      "d": "Disminuye el estrés laboral."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 203,
+    "Question": "❓FFM.-¿Cuál es un aspecto organizativo que, si es deficiente, podría aumentar la carga mental?",
+    "Options": {
+      "a": "Los descansos extendidos.",
+      "b": "Las interferencias con otras tareas.",
+      "c": "Los turnos bien coordinados.",
+      "d": "La capacitación técnica adecuada."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 204,
+    "Question": "❓FFM.-¿Por qué la valoración subjetiva es necesaria en la evaluación de la carga mental?",
+    "Options": {
+      "a": "Porque las valoraciones objetivas son más costosas.",
+      "b": "Porque solo la subjetiva da resultados precisos.",
+      "c": "Debido a la complejidad del concepto y la falta de una única medida objetiva.",
+      "d": "Porque el personal no necesita métodos objetivos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 205,
+    "Question": "❓FFM.-¿Qué caracteriza la carga mental en el trabajo hospitalario en relación con la información?",
+    "Options": {
+      "a": "La estabilidad de la información.",
+      "b": "La fluctuación y complejidad constante de los datos.",
+      "c": "La facilidad para interpretar la información.",
+      "d": "La falta de necesidad de análisis."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 206,
+    "Question": "❓FFM.-¿Cuál es un aspecto crítico en las unidades de vigilancia intensiva?",
+    "Options": {
+      "a": "Menor carga de trabajo.",
+      "b": "Baja interacción con la tecnología.",
+      "c": "Alta complejidad de la información y rapidez de respuesta.",
+      "d": "Ritmo de trabajo constante."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 207,
+    "Question": "❓FFM.-¿Qué puede provocar la falta de fluidez en las comunicaciones dentro del hospital?",
+    "Options": {
+      "a": "Mejora en la salud de los trabajadores.",
+      "b": "Situaciones de incertidumbre en la toma de decisiones.",
+      "c": "Reducción de la carga mental.",
+      "d": "Mejor desempeño en las tareas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 208,
+    "Question": "❓FFM.-¿Por qué es relevante la participación de los trabajadores en decisiones relacionadas con su trabajo?",
+    "Options": {
+      "a": "Reduce las horas de trabajo.",
+      "b": "Mejora la autonomía y satisfacción personal.",
+      "c": "Facilita el cambio de turno.",
+      "d": "Disminuye la comunicación."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 209,
+    "Question": "❓FFM.-¿Qué sucede con la carga de trabajo si se incluyen tecnologías avanzadas sin previa formación?",
+    "Options": {
+      "a": "Mejora el ambiente laboral.",
+      "b": "No tiene impacto en la carga mental.",
+      "c": "Reduce el tiempo de respuesta.",
+      "d": "Incrementa la carga mental debido a la falta de preparación."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 210,
+    "Question": "❓FFM.-¿Cuál de los siguientes no es un factor directo en la carga mental?",
+    "Options": {
+      "a": "La gravedad de los enfermos.",
+      "b": "La fluctuación de la información.",
+      "c": "La cantidad de días de vacaciones.",
+      "d": "La presión temporal."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 211,
+    "Question": "❓FFM.-¿Cuál es uno de los objetivos principales de la valoración de la carga mental en el trabajo hospitalario?",
+    "Options": {
+      "a": "Prevenir consecuencias patológicas en los trabajadores.",
+      "b": "Reducir el tiempo de trabajo.",
+      "c": "Aumentar la responsabilidad de los trabajadores.",
+      "d": "Simplificar la estructura organizativa."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 212,
+    "Question": "❓FFM.-¿Qué factor no es relevante para la carga mental?",
+    "Options": {
+      "a": "El tipo de uniforme del personal.",
+      "b": "La presión temporal.",
+      "c": "La gravedad de los pacientes.",
+      "d": "Las situaciones de incertidumbre."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 213,
+    "Question": "❓FFM.-¿Qué pueden provocar los problemas jerárquicos en el trabajo hospitalario?",
+    "Options": {
+      "a": "Mayor colaboración entre equipos.",
+      "b": "Un aumento en la carga mental.",
+      "c": "Reducción de responsabilidades.",
+      "d": "Mejor distribución de tareas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 214,
+    "Question": "❓FFM.-¿Cuál de las siguientes afirmaciones describe mejor el trabajo en unidades de vigilancia intensiva?",
+    "Options": {
+      "a": "Permite un ritmo de trabajo relajado.",
+      "b": "No requiere comunicación entre turnos.",
+      "c": "Presenta una carga mental baja.",
+      "d": "Exige alta atención y manejo de información compleja."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 215,
+    "Question": "❓FFM.-¿Qué puede resultar de una sobrecarga continua en la capacidad de respuesta del trabajador?",
+    "Options": {
+      "a": "Aumento en el tiempo libre.",
+      "b": "Mejor salud a largo plazo.",
+      "c": "Fatiga mental y física.",
+      "d": "Reducción en el número de tareas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 216,
+    "Question": "❓FFM.-¿Cuál es una característica del trabajo hospitalario en relación con la toma de decisiones?",
+    "Options": {
+      "a": "La necesidad de tomar decisiones rápidas bajo presión.",
+      "b": "La posibilidad de tomar decisiones sin urgencia.",
+      "c": "La falta de necesidad de decisión en la mayoría de los casos.",
+      "d": "La baja presión en las decisiones."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 217,
+    "Question": "❓FFM.-¿Qué se considera importante en la organización hospitalaria para reducir la carga mental?",
+    "Options": {
+      "a": "La fluidez de las comunicaciones entre departamentos.",
+      "b": "La supervisión de cada tarea por el mismo trabajador.",
+      "c": "La creación de departamentos más grandes.",
+      "d": "El aumento de horas trabajadas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 218,
+    "Question": "❓FFM.-¿Qué aspecto influye en la carga mental del personal en función del tipo de pacientes?",
+    "Options": {
+      "a": "El tamaño del hospital.",
+      "b": "La disponibilidad de recursos financieros.",
+      "c": "La gravedad y autonomía de los pacientes.",
+      "d": "La cantidad de pacientes atendidos por día."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 219,
+    "Question": "❓FFM.-¿Qué factor organizativo se menciona como influyente en la satisfacción laboral?",
+    "Options": {
+      "a": "La cantidad de vacaciones.",
+      "b": "La participación en decisiones laborales.",
+      "c": "El tipo de uniforme.",
+      "d": "El lugar de residencia del trabajador."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 220,
+    "Question": "❓FFM.-¿Qué se menciona como un obstáculo para la valoración de la carga mental?",
+    "Options": {
+      "a": "La alta capacidad de adaptación.",
+      "b": "La sobrecarga de tareas físicas.",
+      "c": "La poca cantidad de tareas.",
+      "d": "La falta de un método único aplicable a todas las situaciones."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 221,
+    "Question": "❓FFM.-¿Qué representa la carga mental según el concepto de tratamiento de la información?",
+    "Options": {
+      "a": "Una carga física que limita las capacidades.",
+      "b": "Un estado de inactividad del operador.",
+      "c": "El esfuerzo en el procesamiento de información complejo.",
+      "d": "Un estado sin consecuencias para el trabajador."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 222,
+    "Question": "❓FFM.-¿Qué elemento se considera fundamental en las comunicaciones hospitalarias?",
+    "Options": {
+      "a": "La precisión en la indumentaria.",
+      "b": "La exclusión de otros departamentos.",
+      "c": "El límite de horas en turnos de trabajo.",
+      "d": "La transmisión efectiva de información entre turnos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 223,
+    "Question": "❓FFM.-¿Qué recurso ayuda a evaluar la carga mental en el trabajo hospitalario?",
+    "Options": {
+      "a": "Exclusivamente los métodos subjetivos.",
+      "b": "Solamente los informes de accidentes laborales.",
+      "c": "La combinación de métodos objetivos y subjetivos.",
+      "d": "Las encuestas de satisfacción de clientes."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 224,
+    "Question": "❓FFM.-¿Qué impacto tiene la introducción de nuevas tecnologías en la carga mental?",
+    "Options": {
+      "a": "Puede incrementar la carga mental si no hay formación adecuada.",
+      "b": "Reduce la carga mental de manera inmediata.",
+      "c": "No tiene impacto en la carga mental.",
+      "d": "Mejora la autonomía sin efectos secundarios."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 225,
+    "Question": "❓FFM.-¿Qué puede causar una carga mental elevada en el personal sanitario?",
+    "Options": {
+      "a": "Tareas simples y repetitivas.",
+      "b": "Presión para tomar decisiones rápidas y precisas.",
+      "c": "Alta autonomía en su trabajo.",
+      "d": "Tiempo prolongado en descansos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 226,
+    "Question": "❓FFM.-¿Cuál es una característica esencial del trabajo hospitalario?",
+    "Options": {
+      "a": "Flexibilidad de horarios.",
+      "b": "Trabajo a turnos y nocturno.",
+      "c": "Jornadas laborales fijas.",
+      "d": "Exclusión de trabajo nocturno."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 227,
+    "Question": "❓FFM.-¿Qué función cumplen los ritmos circadianos en el cuerpo humano?",
+    "Options": {
+      "a": "Estabilizan los niveles de glucosa en la sangre.",
+      "b": "Regulan los ciclos de vigilia y sueño.",
+      "c": "Controlan el metabolismo basal.",
+      "d": "Promueven el descanso solo durante el día."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 228,
+    "Question": "❓FFM.-¿Qué efecto produce el trabajo nocturno en los ritmos biológicos?",
+    "Options": {
+      "a": "Mantiene los ritmos circadianos estables.",
+      "b": "Facilita el descanso adecuado.",
+      "c": "Altera los sincronizadores sociales y biológicos.",
+      "d": "Disminuye la productividad diurna."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 229,
+    "Question": "❓FFM.-¿Cuál es una consecuencia típica de la “patología de la turnicidad”?",
+    "Options": {
+      "a": "Aumento de la energía y vitalidad.",
+      "b": "Astenia, nerviosismo y dispepsia.",
+      "c": "Mejoría en la salud cardiovascular.",
+      "d": "Descenso en los niveles de estrés."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 230,
+    "Question": "❓FFM.-¿Por qué el trabajo nocturno afecta el sueño de los trabajadores?",
+    "Options": {
+      "a": "Los factores ambientales diurnos dificultan el descanso.",
+      "b": "Las fases 1 y 2 se ven alteradas.",
+      "c": "Los ritmos circadianos no intervienen en este caso.",
+      "d": "Permite un sueño más reparador."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 231,
+    "Question": "❓FFM.-¿Cuál es una consecuencia del estrés debido a la alteración del sueño?",
+    "Options": {
+      "a": "Disminución del sistema nervioso.",
+      "b": "Recuperación rápida de la fatiga.",
+      "c": "Equilibrio en las funciones digestivas.",
+      "d": "Aparición de fatiga crónica y estrés."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 232,
+    "Question": "❓FFM.-¿Cómo afecta el trabajo a turnos a la vida familiar y social de los trabajadores?",
+    "Options": {
+      "a": "Mejora las relaciones sociales.",
+      "b": "Facilita la convivencia con horarios familiares.",
+      "c": "Crea desincronización con el entorno.",
+      "d": "Disminuye los problemas psicosociales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 233,
+    "Question": "❓FFM.-¿Qué significa “mobbing” en el contexto laboral?",
+    "Options": {
+      "a": "Apoyo y colaboración entre compañeros.",
+      "b": "Ataques o acoso sistemático hacia alguien.",
+      "c": "Competencia sana entre empleados.",
+      "d": "Promoción profesional dentro de la empresa."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 234,
+    "Question": "❓FFM.-¿Qué modalidad de mobbing ocurre entre empleados del mismo nivel?",
+    "Options": {
+      "a": "Mobbing ascendente.",
+      "b": "Mobbing descendente.",
+      "c": "Mobbing pasivo.",
+      "d": "Mobbing horizontal."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 235,
+    "Question": "❓FFM.-¿Cuál es una causa profesional del mobbing?",
+    "Options": {
+      "a": "Ansias de ascenso.",
+      "b": "Envidia social.",
+      "c": "Problemas familiares.",
+      "d": "Falta de competencia en el área."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 236,
+    "Question": "❓FFM.-¿Cuál es una de las fases iniciales del mobbing?",
+    "Options": {
+      "a": "Fase de marginación.",
+      "b": "Fase de recuperación.",
+      "c": "Fase de seducción.",
+      "d": "Fase de exclusión laboral."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 237,
+    "Question": "❓FFM.-¿Qué suele caracterizar la Fase 3 del mobbing?",
+    "Options": {
+      "a": "La reconciliación de las partes.",
+      "b": "Exclusión del entorno social.",
+      "c": "Incremento de la carga laboral.",
+      "d": "Marginación del acosado en la empresa."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 238,
+    "Question": "❓FFM.-¿Cuál de los siguientes efectos no es un resultado común del mobbing?",
+    "Options": {
+      "a": "Ansiedad.",
+      "b": "Incremento de la autoestima.",
+      "c": "Depresión.",
+      "d": "Trastornos psicosomáticos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 239,
+    "Question": "❓FFM.-¿Qué solución se propone para la prevención del mobbing?",
+    "Options": {
+      "a": "Apoyo psicológico y establecimiento de normativas.",
+      "b": "Evitar conflictos laborales.",
+      "c": "Reemplazar a los trabajadores acosados.",
+      "d": "Reducir la competitividad laboral."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 240,
+    "Question": "❓FFM.-¿Qué grupo es el más afectado por el mobbing?",
+    "Options": {
+      "a": "Hombres de alto rango.",
+      "b": "Trabajadores jóvenes.",
+      "c": "Mujeres.",
+      "d": "Nuevos empleados."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 241,
+    "Question": "❓FFM.-¿Qué factor influye en la sincronización de los ritmos circadianos?",
+    "Options": {
+      "a": "Hábitos sociales y alternancia luz/oscuridad.",
+      "b": "El tipo de alimentación.",
+      "c": "La actividad física.",
+      "d": "La postura de descanso."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 242,
+    "Question": "❓FFM.-¿Cómo se caracteriza la patología de la turnicidad?",
+    "Options": {
+      "a": "Por hipertensión y dispepsia.",
+      "b": "Por insomnio y falta de apetito.",
+      "c": "Por astenia, nerviosismo y dispepsia.",
+      "d": "Por falta de energía y dolor corporal."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 243,
+    "Question": "❓FFM.-¿En qué fase del sueño es más probable que se interrumpa el descanso de los trabajadores nocturnos?",
+    "Options": {
+      "a": "Fase 1.",
+      "b": "Fase 5.",
+      "c": "Fase 2.",
+      "d": "Fase 4."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 244,
+    "Question": "❓FFM.-¿Cuál es una consecuencia del trabajo a turnos sobre el sueño?",
+    "Options": {
+      "a": "Aumenta la actividad durante el día.",
+      "b": "Afecta el equilibrio entre las fases del sueño.",
+      "c": "Reduce la duración del sueño profundo.",
+      "d": "Disminuye las horas de sueño total."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 245,
+    "Question": "❓FFM.-¿Cómo puede afectar el trabajo nocturno a la vida social de los empleados?",
+    "Options": {
+      "a": "Provoca dificultades de organización y falta de sincronización.",
+      "b": "Impulsa una vida social más activa.",
+      "c": "Facilita la participación en eventos sociales.",
+      "d": "Fomenta relaciones familiares más fuertes."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 246,
+    "Question": "❓FFM.-¿Cuál de las siguientes es una modalidad de mobbing?",
+    "Options": {
+      "a": "Mobbing lateral.",
+      "b": "Mobbing interno.",
+      "c": "Mobbing ascendente.",
+      "d": "Mobbing dependiente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 247,
+    "Question": "❓FFM.-¿Quién introdujo el término “mobbing” en el ámbito laboral?",
+    "Options": {
+      "a": "Sigmund Freud.",
+      "b": "Konrad Lorenz.",
+      "c": "Carl Jung.",
+      "d": "Heinz Leymann."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 248,
+    "Question": "❓FFM.-¿Cuál de las siguientes es una causa personal del acosador en situaciones de mobbing?",
+    "Options": {
+      "a": "La envidia.",
+      "b": "La falta de comunicación.",
+      "c": "La competitividad externa.",
+      "d": "El entorno de trabajo positivo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 249,
+    "Question": "❓FFM.-¿Qué objetivo se persigue con la fase de acoso moral en el trabajo?",
+    "Options": {
+      "a": "Mejorar el ambiente laboral.",
+      "b": "Hacer el vacío completo al acosado.",
+      "c": "Incrementar la productividad.",
+      "d": "Lograr una conciliación."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 250,
+    "Question": "❓FFM.-¿Qué causa de mobbing se relaciona con la edad de gestar de una persona?",
+    "Options": {
+      "a": "Causa moral.",
+      "b": "Causa emocional.",
+      "c": "Causa de control laboral.",
+      "d": "Causa discriminatoria."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 251,
+    "Question": "❓FFM.-¿Qué aspecto caracteriza a la fase de seducción en el mobbing?",
+    "Options": {
+      "a": "Agresiones directas al acosado.",
+      "b": "Cambio de área de trabajo.",
+      "c": "Seducción hacia el entorno del acosado.",
+      "d": "Manipulación del supervisor directo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 252,
+    "Question": "❓FFM.-¿Qué tipo de trastornos emocionales puede provocar el mobbing?",
+    "Options": {
+      "a": "Labilidad afectiva.",
+      "b": "Incremento de la creatividad.",
+      "c": "Mejoría en la comunicación.",
+      "d": "Reducción de los conflictos laborales."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 253,
+    "Question": "❓FFM.-¿Cuál es un efecto grave del mobbing sobre la salud?",
+    "Options": {
+      "a": "Aumento de la resistencia laboral.",
+      "b": "Mejora en el ambiente de trabajo.",
+      "c": "Incremento de las habilidades sociales.",
+      "d": "Aumento del riesgo de suicidio."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 254,
+    "Question": "❓FFM.-¿Qué factor organizativo fomenta el desarrollo del mobbing?",
+    "Options": {
+      "a": "Excesiva competitividad dentro de la empresa.",
+      "b": "Políticas de respeto laboral.",
+      "c": "Cultura de trabajo en equipo.",
+      "d": "Transparencia en los objetivos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 255,
+    "Question": "❓FFM.-¿Cuál es un método de ayuda para víctimas de mobbing?",
+    "Options": {
+      "a": "Cambio de área laboral sin supervisión.",
+      "b": "Apoyo psicológico especializado.",
+      "c": "Sanciones temporales al acosador.",
+      "d": "Incremento de la competitividad."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 256,
+    "Question": "❓FFM.-¿Qué profesional describió el síndrome de burnout por primera vez?",
+    "Options": {
+      "a": "Cristina Maslach.",
+      "b": "Freudenberg.",
+      "c": "Sigmund Freud.",
+      "d": "Carl Jung."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 257,
+    "Question": "❓FFM.-¿Cuál es la traducción literal al español de “burnout”?",
+    "Options": {
+      "a": "Quemado.",
+      "b": "Desgastado.",
+      "c": "Estresado.",
+      "d": "Cansado."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 258,
+    "Question": "❓FFM.-¿Cuál es la principal causa del síndrome de burnout en profesionales?",
+    "Options": {
+      "a": "El bajo salario.",
+      "b": "La falta de experiencia laboral.",
+      "c": "La falta de apoyo administrativo.",
+      "d": "El estrés interpersonal y la insatisfacción profesional."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 259,
+    "Question": "❓FFM.-¿En qué grupo es más común el síndrome de burnout debido a sobrecargas familiares?",
+    "Options": {
+      "a": "Varones casados.",
+      "b": "Hombres solteros.",
+      "c": "Mujeres.",
+      "d": "Hombres con hijos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 260,
+    "Question": "❓FFM.-¿Qué edad suele favorecer el desarrollo del síndrome de burnout en los primeros años de ejercicio profesional?",
+    "Options": {
+      "a": "Los primeros años de ejercicio.",
+      "b": "La mediana edad.",
+      "c": "La edad avanzada.",
+      "d": "No tiene relación con la edad."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 261,
+    "Question": "❓FFM.-¿Qué factor relacionado con el estado civil se asocia con una menor capacidad para manejar el burnout?",
+    "Options": {
+      "a": "Personas casadas sin hijos.",
+      "b": "Personas viudas.",
+      "c": "Personas casadas con hijos.",
+      "d": "Personas solteras."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 262,
+    "Question": "❓FFM.-¿Qué fase inicial del burnout se caracteriza por un desequilibrio entre los recursos y las demandas?",
+    "Options": {
+      "a": "Fase de cambios conductuales.",
+      "b": "Fase de estrés psicofísico.",
+      "c": "Fase de estrés psicosocial.",
+      "d": "Fase de agotamiento emocional."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 263,
+    "Question": "❓FFM.-¿Qué síntoma psíquico es común en personas con burnout?",
+    "Options": {
+      "a": "Hiperactividad.",
+      "b": "Agotamiento emocional.",
+      "c": "Aumento de autoestima.",
+      "d": "Felicidad extrema."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 264,
+    "Question": "❓FFM.-¿Qué tipo de trastorno físico se relaciona con el síndrome de burnout?",
+    "Options": {
+      "a": "Cefaleas y alteraciones gastrointestinales.",
+      "b": "Aumento de la visión.",
+      "c": "Crecimiento acelerado del cabello.",
+      "d": "Dolores articulares en las manos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 265,
+    "Question": "❓FFM.-¿Cuál es un síntoma conductual del síndrome de burnout?",
+    "Options": {
+      "a": "Mejora de habilidades sociales.",
+      "b": "Trabajo en exceso.",
+      "c": "Mejor rendimiento.",
+      "d": "Absentismo laboral."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 266,
+    "Question": "❓FFM.-¿Cuál es una de las estrategias de afrontamiento recomendadas para el burnout?",
+    "Options": {
+      "a": "Prácticas de técnicas de relajación.",
+      "b": "Aumento de la carga laboral.",
+      "c": "Reducción de los descansos.",
+      "d": "Evitar las relaciones interpersonales."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 267,
+    "Question": "❓FFM.-¿Qué factor organizativo puede aumentar el riesgo de burnout en los trabajadores?",
+    "Options": {
+      "a": "Jornada laboral continua.",
+      "b": "Excesiva burocratización.",
+      "c": "Clima laboral armonioso.",
+      "d": "Apoyo continuo de los supervisores."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 268,
+    "Question": "❓FFM.-¿En qué área profesional es más frecuente el síndrome de burnout?",
+    "Options": {
+      "a": "Administración pública.",
+      "b": "Sanidad.",
+      "c": "Tecnologías de la información.",
+      "d": "Marketing."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 269,
+    "Question": "❓FFM.-¿Cuál es un síntoma avanzado y grave que puede aparecer en el burnout?",
+    "Options": {
+      "a": "Estado de felicidad constante.",
+      "b": "Incremento de energía.",
+      "c": "Tendencia al suicidio.",
+      "d": "Satisfacción laboral plena."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 270,
+    "Question": "❓FFM.-¿Qué método de tratamiento es fundamental en casos graves de burnout?",
+    "Options": {
+      "a": "Terapia cognitivo-conductual.",
+      "b": "Medicina alternativa.",
+      "c": "Descanso prolongado en casa.",
+      "d": "Automedicación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 271,
+    "Question": "❓FFM.-¿Qué sentimiento puede experimentar una persona con burnout debido a la pérdida de su autoestima?",
+    "Options": {
+      "a": "Empoderamiento.",
+      "b": "Felicidad.",
+      "c": "Fracaso profesional.",
+      "d": "Euforia."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 272,
+    "Question": "❓FFM.-¿Qué condición suele estar presente en el síndrome de burnout debido a la frustración constante en el trabajo?",
+    "Options": {
+      "a": "Aumento de la motivación.",
+      "b": "Agotamiento emocional.",
+      "c": "Mejor rendimiento laboral.",
+      "d": "Optimismo."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 273,
+    "Question": "❓FFM.-¿Qué tipo de conflicto interno puede surgir en el profesional con expectativas altruistas no satisfechas?",
+    "Options": {
+      "a": "Sentimientos de culpabilidad.",
+      "b": "Sentimiento de alegría.",
+      "c": "Entusiasmo por el trabajo.",
+      "d": "Logro personal."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 274,
+    "Question": "❓FFM.-¿Cuál de las siguientes áreas laborales es especialmente vulnerable al síndrome de burnout?",
+    "Options": {
+      "a": "Finanzas.",
+      "b": "Ingeniería.",
+      "c": "Docencia.",
+      "d": "Comercio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 275,
+    "Question": "❓FFM.-¿Qué tipo de expectativa personal puede predisponer al burnout en profesionales que trabajan en atención a pacientes?",
+    "Options": {
+      "a": "Hedonistas.",
+      "b": "Individualistas.",
+      "c": "Materialistas.",
+      "d": "Altruistas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 276,
+    "Question": "❓FFM.-¿Cuál es una posible consecuencia en el entorno familiar de alguien con burnout?",
+    "Options": {
+      "a": "Aumento de la participación familiar.",
+      "b": "Mejora de relaciones.",
+      "c": "Conflictos interpersonales.",
+      "d": "Reducción de la ansiedad."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 277,
+    "Question": "❓FFM.-¿Qué conducta evitativa es común en personas con burnout?",
+    "Options": {
+      "a": "Mayor productividad laboral.",
+      "b": "Absentismo laboral.",
+      "c": "Compromiso creciente con el trabajo.",
+      "d": "Participación constante en reuniones."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 278,
+    "Question": "❓FFM.-¿Qué factor laboral está asociado con el síndrome de burnout debido a la carga emocional de tratar a pacientes?",
+    "Options": {
+      "a": "Identificación con el sufrimiento del paciente.",
+      "b": "Reconocimiento constante del esfuerzo.",
+      "c": "Trabajo en solitario.",
+      "d": "Flexibilidad en horarios."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 279,
+    "Question": "❓FFM.-¿Qué fase del burnout lleva a la búsqueda de tareas rutinarias para evitar el contacto con personas?",
+    "Options": {
+      "a": "Fase de estrés psicosocial.",
+      "b": "Fase de estrés psicofísico.",
+      "c": "Fase de agotamiento físico.",
+      "d": "Fase de cambios conductuales."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 280,
+    "Question": "❓FFM.-¿Qué síntoma físico es común en personas que padecen burnout?",
+    "Options": {
+      "a": "Aumento de energía.",
+      "b": "Mejora en la salud mental.",
+      "c": "Taquicardia.",
+      "d": "Disminución de cefaleas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 281,
+    "Question": "❓FFM.-¿Cuál es una recomendación para reducir el burnout a nivel organizativo?",
+    "Options": {
+      "a": "Evitar la formación profesional.",
+      "b": "Ignorar los problemas de los empleados.",
+      "c": "Rediseñar las tareas.",
+      "d": "Eliminar las evaluaciones de desempeño."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 282,
+    "Question": "❓FFM.-¿Qué tipo de trastorno conductual puede presentar una persona con burnout?",
+    "Options": {
+      "a": "Motivación constante.",
+      "b": "Tolerancia alta al estrés.",
+      "c": "Fuerte compromiso laboral.",
+      "d": "Adicciones."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 283,
+    "Question": "❓FFM.-¿Cuál de los siguientes es un factor organizativo que contribuye al burnout?",
+    "Options": {
+      "a": "Horarios flexibles.",
+      "b": "Apoyo constante de los superiores.",
+      "c": "Mínimo trabajo en equipo.",
+      "d": "Actividades recreativas en el trabajo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 284,
+    "Question": "❓FFM.-¿Qué estrategia personal es recomendada para afrontar el burnout?",
+    "Options": {
+      "a": "Técnicas de autocontrol emocional.",
+      "b": "Mantenerse aislado.",
+      "c": "Aumentar las horas de trabajo.",
+      "d": "Evitar las relaciones interpersonales."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 285,
+    "Question": "❓FFM.-¿Qué porcentaje de casos de burnout puede llegar a ser irreversible?",
+    "Options": {
+      "a": "Entre el 1-3%.",
+      "b": "Menos del 1%.",
+      "c": "Entre el 5-10%.",
+      "d": "Más del 50%."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 286,
+    "Question": "❓FFM.-¿Cuál es la definición de un accidente de riesgo biológico?",
+    "Options": {
+      "a": "Contacto con pacientes sin guantes de protección.",
+      "b": "Exposición a sangre o fluidos infecciosos a través de heridas, mucosas o piel no intacta.",
+      "c": "Presencia de agentes infecciosos en el aire.",
+      "d": "Manipulación de productos químicos peligrosos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 287,
+    "Question": "❓FFM.-Según el Real Decreto 664/1997, en los establecimientos sanitarios, ¿qué debe considerarse en la evaluación de riesgos?",
+    "Options": {
+      "a": "La cantidad de personal expuesto.",
+      "b": "La posible presencia de agentes biológicos en pacientes o muestras.",
+      "c": "La duración de los turnos de trabajo.",
+      "d": "La ubicación del centro de trabajo."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 288,
+    "Question": "❓FFM.-¿Qué se debe aplicar en las prácticas laborales para reducir el riesgo de infecciones?",
+    "Options": {
+      "a": "Solo precauciones en caso de diagnóstico positivo.",
+      "b": "Uso de precauciones universales según el tipo de paciente.",
+      "c": "Precauciones universales en todas las muestras.",
+      "d": "Evitar contacto solo con pacientes de alto riesgo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 289,
+    "Question": "❓FFM.-¿Cuál es una medida preventiva fundamental para trabajadores expuestos a fluidos biológicos?",
+    "Options": {
+      "a": "Control de acceso a las instalaciones.",
+      "b": "Inmunización activa o vacunación.",
+      "c": "Asignación de turnos más cortos.",
+      "d": "Cambio frecuente de uniforme."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 290,
+    "Question": "❓FFM.-¿Qué se recomienda hacer antes y después de cualquier procedimiento con contacto de fluidos biológicos?",
+    "Options": {
+      "a": "Lavarse las manos con agua y jabón.",
+      "b": "Cambiar los guantes.",
+      "c": "Limpiar con desinfectante las superficies de trabajo.",
+      "d": "Cubrir todas las heridas expuestas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 291,
+    "Question": "❓FFM.-¿Cuándo se deben usar guantes como protección de barrera?",
+    "Options": {
+      "a": "Cuando se manejen fluidos corporales contaminados con sangre.",
+      "b": "Solo en procedimientos quirúrgicos.",
+      "c": "Únicamente en presencia de heridas grandes.",
+      "d": "Siempre que el paciente tenga síntomas visibles de infección."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 292,
+    "Question": "❓FFM.-¿Qué elemento se debe usar para evitar salpicaduras que puedan afectar los ojos o nariz?",
+    "Options": {
+      "a": "Guantes.",
+      "b": "Bata desechable.",
+      "c": "Mascarillas y protección ocular.",
+      "d": "Ropa de manga larga."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 293,
+    "Question": "❓FFM.-¿Qué debe hacer el personal con objetos cortantes después de usarlos?",
+    "Options": {
+      "a": "Reutilizarlos después de una limpieza.",
+      "b": "Depositarlos en contenedores rígidos apropiados.",
+      "c": "Guardarlos en un lugar seguro.",
+      "d": "Romperlos para evitar su reutilización."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 294,
+    "Question": "❓FFM.-¿Qué productos deben usarse para la desinfección de superficies no resistentes al calor?",
+    "Options": {
+      "a": "Jabón y agua corriente.",
+      "b": "Solo productos de uso médico.",
+      "c": "Alcohol diluido en agua.",
+      "d": "Productos químicos desinfectantes."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 295,
+    "Question": "❓FFM.-¿Cuál es el método de elección para esterilizar instrumental en hospitales?",
+    "Options": {
+      "a": "Lavado con agua y jabón.",
+      "b": "Desinfección por vapores químicos.",
+      "c": "Esterilización por autoclave (calor húmedo bajo presión).",
+      "d": "Secado al aire libre."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 296,
+    "Question": "❓FFM.-¿Qué debe evitarse para reducir riesgos con objetos cortantes?",
+    "Options": {
+      "a": "Limpiarlos después de cada uso.",
+      "b": "Manipularlos con precaución en todo momento.",
+      "c": "Encapsular las agujas después de usarlas.",
+      "d": "Guardarlos en una caja sin tapa."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 297,
+    "Question": "❓FFM.-¿Cuál es una precaución universal importante en los lugares de trabajo?",
+    "Options": {
+      "a": "Permitir que los trabajadores descansen regularmente.",
+      "b": "Cubrir heridas en manos con apósitos impermeables.",
+      "c": "Uso de elementos de plástico solo.",
+      "d": "Cambiar de guantes cada hora."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 298,
+    "Question": "❓FFM.-¿Cuál es una medida para asegurar la esterilización de superficies?",
+    "Options": {
+      "a": "Usar cualquier tipo de desinfectante.",
+      "b": "Utilizar una esponja para aplicar el desinfectante.",
+      "c": "Cambiar el desinfectante cada semana.",
+      "d": "Mantener un contacto prolongado entre el desinfectante y la superficie."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 299,
+    "Question": "❓FFM.-¿Por qué se debe evitar el pipeteo con la boca en el área de trabajo?",
+    "Options": {
+      "a": "Por el riesgo de exposición a agentes infecciosos.",
+      "b": "Porque es incómodo para el trabajador.",
+      "c": "Ya no es necesario con equipos modernos.",
+      "d": "Para mejorar la higiene en el entorno."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 300,
+    "Question": "❓FFM.-¿En qué situación es recomendable utilizar batas protectoras?",
+    "Options": {
+      "a": "Cuando el trabajador lo considere necesario.",
+      "b": "Cuando exista riesgo de contacto con sangre o fluidos.",
+      "c": "Solo en procedimientos quirúrgicos.",
+      "d": "Al manipular muestras secas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 301,
+    "Question": "❓FFM.-¿Cómo se define un accidente de riesgo biológico?",
+    "Options": {
+      "a": "Exposición a luz intensa.",
+      "b": "Lesión por objetos cortantes.",
+      "c": "Exposición a sangre, tejidos o fluidos potencialmente infecciosos.",
+      "d": "Caída en el lugar de trabajo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 302,
+    "Question": "❓FFM.-¿Qué establece el Real Decreto 664/1997 en su artículo 14 sobre la evaluación de riesgos?",
+    "Options": {
+      "a": "Deberá considerar la incertidumbre acerca de la presencia de agentes biológicos.",
+      "b": "No se requiere evaluación en clínicas.",
+      "c": "Los laboratorios no necesitan cumplirlo.",
+      "d": "La evaluación es opcional."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 303,
+    "Question": "❓FFM.-¿Qué debe incluir la evaluación de riesgos en los servicios de salud?",
+    "Options": {
+      "a": "Revisión de productos de limpieza.",
+      "b": "Capacitación de personal administrativo.",
+      "c": "Consideración de la presencia de agentes infecciosos.",
+      "d": "Evaluación de costos operativos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 304,
+    "Question": "❓FFM.-¿Cuáles son las “precauciones universales”?",
+    "Options": {
+      "a": "Solo lavado de manos.",
+      "b": "Desinfección de superficies sin precauciones.",
+      "c": "Uso de mascarillas únicamente.",
+      "d": "Actitud constante de autoprotección."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 305,
+    "Question": "❓FFM.-¿Qué tipo de precauciones deben adoptarse en procedimientos de riesgo?",
+    "Options": {
+      "a": "No se requiere ninguna precaución.",
+      "b": "Usar barreras protectoras adecuadas.",
+      "c": "Solo desinfectar superficies.",
+      "d": "Ignorar la manipulación de muestras."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 306,
+    "Question": "❓FFM.-¿Cuál de las siguientes es una precaución universal?",
+    "Options": {
+      "a": "Vacunación (inmunización activa).",
+      "b": "Uso exclusivo de guantes de algodón.",
+      "c": "Uso de ropa normal.",
+      "d": "Ignorar lesiones en las manos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 307,
+    "Question": "❓FFM.-¿Qué debe hacer el personal con lesiones que no se puedan cubrir?",
+    "Options": {
+      "a": "Evitar el cuidado directo de los pacientes.",
+      "b": "Continuar trabajando sin restricciones.",
+      "c": "Informar solo a los superiores.",
+      "d": "Ignorar las lesiones."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 308,
+    "Question": "❓FFM.-¿Qué debe hacerse después de realizar cualquier técnica que implique contacto con material infeccioso?",
+    "Options": {
+      "a": "No es necesario hacer nada.",
+      "b": "Desinfectar solo la superficie.",
+      "c": "Lavado de manos con agua y jabón.",
+      "d": "Solo secar con un paño."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 309,
+    "Question": "❓FFM.-¿Cuándo deben usarse los guantes en el ámbito sanitario?",
+    "Options": {
+      "a": "Solo si se trabaja con pacientes adultos.",
+      "b": "Solo durante cirugías.",
+      "c": "En ningún caso.",
+      "d": "Cuando se maneje sangre o fluidos corporales."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 310,
+    "Question": "❓FFM.-¿Qué aspecto es importante en la desinfección de superficies?",
+    "Options": {
+      "a": "Tiempo de contacto con el desinfectante.",
+      "b": "No se necesita especificar.",
+      "c": "Solo el tipo de producto.",
+      "d": "Evitar el contacto con la piel."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 311,
+    "Question": "❓FFM.-¿Qué se busca con la esterilización?",
+    "Options": {
+      "a": "Destrucción de todos los gérmenes, incluidas esporas.",
+      "b": "Solo eliminar bacterias.",
+      "c": "Limpiar superficies visibles.",
+      "d": "Preparar materiales sin cuidados."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 312,
+    "Question": "❓FFM.-¿Cuál es el método más confiable para la esterilización?",
+    "Options": {
+      "a": "Esterilización por radiación.",
+      "b": "Esterilización por vapor de agua.",
+      "c": "Esterilización por calor húmedo bajo presión.",
+      "d": "Esterilización química únicamente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 313,
+    "Question": "❓FFM.-¿Qué tipo de esterilización se debe realizar con material que no resista vapor?",
+    "Options": {
+      "a": "Esterilización por ebullición.",
+      "b": "Esterilización con óxido de etileno.",
+      "c": "Solo desinfección.",
+      "d": "Esterilización por calor seco."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 314,
+    "Question": "❓FFM.-¿Qué son las “precauciones estándar”?",
+    "Options": {
+      "a": "Medidas para mantener la autoprotección y trabajo seguro.",
+      "b": "Medidas opcionales.",
+      "c": "Solo higiene personal.",
+      "d": "Exclusivamente protección ocular."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 315,
+    "Question": "❓FFM.-¿Cuál es el riesgo de contagio para el virus de la hepatitis B tras un accidente con riesgo biológico?",
+    "Options": {
+      "a": "30%.",
+      "b": "3%.",
+      "c": "0.3%.",
+      "d": "0.04%."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 316,
+    "Question": "❓FFM.-¿Qué porcentaje de casos de hepatitis C se convierte en crónico?",
+    "Options": {
+      "a": "30%.",
+      "b": "60-70%.",
+      "c": "0.3%.",
+      "d": "0.04%."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 317,
+    "Question": "❓FFM.-¿Cuál de los virus tiene vacuna disponible para su prevención?",
+    "Options": {
+      "a": "VIH.",
+      "b": "VHC.",
+      "c": "VHB.",
+      "d": "Todos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 318,
+    "Question": "❓FFM.-¿Qué se debe realizar al accidentado con riesgo de hepatitis B si se desconoce su estado inmunológico?",
+    "Options": {
+      "a": "Solo seguimiento.",
+      "b": "Inyección de inmunoglobulinas antihepatitis B en 48 horas.",
+      "c": "Evaluación anual de anticuerpos.",
+      "d": "Aplicación de vacuna cada dos semanas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 319,
+    "Question": "❓FFM.-¿Qué título de Anti HBs indica que una persona está inmunizada contra la hepatitis B?",
+    "Options": {
+      "a": "100 UI/L.",
+      "b": "1 UI/L.",
+      "c": "50 UI/L.",
+      "d": "10 UI/L."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 320,
+    "Question": "❓FFM.-En la vacunación contra hepatitis B, ¿en qué región se debe administrar la inmunoglobulina?",
+    "Options": {
+      "a": "Deltoides.",
+      "b": "Pierna.",
+      "c": "Glúteo.",
+      "d": "Abdomen."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 321,
+    "Question": "❓FFM.-¿Qué ocurre si el título de Anti HBs es inferior a 10 UI/L después de la tercera dosis de la vacuna?",
+    "Options": {
+      "a": "Debe administrarse una cuarta dosis de vacuna.",
+      "b": "Se interrumpe la vacunación.",
+      "c": "Se repite la segunda dosis.",
+      "d": "No es necesario hacer nada."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 322,
+    "Question": "❓FFM.-¿Cuál es la primera acción para tratar una herida con riesgo de tétanos?",
+    "Options": {
+      "a": "Administración de antibióticos.",
+      "b": "Limpieza con agua y jabón.",
+      "c": "Extracción sanguínea.",
+      "d": "Administración de inmunoglobulina."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 323,
+    "Question": "❓FFM.-Si una persona es Anti VHC positivo tras un accidente, ¿qué medida se toma?",
+    "Options": {
+      "a": "Profilaxis con inmunoglobulina.",
+      "b": "Seguimiento y educación sanitaria.",
+      "c": "Vacunación.",
+      "d": "Nada, se considera inmunizado."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 324,
+    "Question": "❓FFM.-¿Cuál es el porcentaje estimado de riesgo de VIH tras un pinchazo con material contaminado?",
+    "Options": {
+      "a": "1%.",
+      "b": "5%.",
+      "c": "0.3%.",
+      "d": "3%."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 325,
+    "Question": "❓FFM.-¿Qué tratamiento se recomienda si el accidentado es VIH negativo pero la fuente es VIH positivo?",
+    "Options": {
+      "a": "Quimioprofilaxis con AZT.",
+      "b": "Dosis única de antirretrovirales.",
+      "c": "Seguimiento mensual sin tratamiento.",
+      "d": "No es necesario tratamiento."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 326,
+    "Question": "❓FFM.-¿Qué controles periódicos se realizan si el accidentado es VIH negativo y la fuente es desconocida?",
+    "Options": {
+      "a": "Cada 6 meses.",
+      "b": "Cada 3 semanas.",
+      "c": "Cuando ocurre el accidente, mes y medio, 3, 6 y 12 meses después.",
+      "d": "Cada 2 años."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 327,
+    "Question": "❓FFM.-¿Qué es el Ag HBe en relación con la hepatitis B?",
+    "Options": {
+      "a": "Un marcador de hepatitis C.",
+      "b": "Un antígeno soluble indicador de alta infectividad.",
+      "c": "Una proteína de inmunidad.",
+      "d": "Un tipo de tratamiento antiviral."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 328,
+    "Question": "❓FFM.-¿Cuál es el tratamiento inicial para una brucelosis tras un accidente con riesgo?",
+    "Options": {
+      "a": "Inmunoglobulina humana.",
+      "b": "Antibióticos inmediatos.",
+      "c": "Solo seguimiento.",
+      "d": "Lavado con antiséptico."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 329,
+    "Question": "❓FFM.-¿Qué se debe hacer en caso de no obtener un título de Anti HBs superior a 10 UI/L tras cuatro dosis?",
+    "Options": {
+      "a": "Reiniciar la pauta desde la primera dosis.",
+      "b": "No aplicar más dosis.",
+      "c": "Administrar una dosis de recuerdo cada 5 años.",
+      "d": "Administrar cada seis meses."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 330,
+    "Question": "❓FFM.-¿Qué tipo de material contaminado se considera de alto riesgo en brucelosis?",
+    "Options": {
+      "a": "Muestras de sangre.",
+      "b": "Muestras de orina.",
+      "c": "Vacunas con gérmenes vivos.",
+      "d": "Heridas abiertas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 331,
+    "Question": "❓FFM.-¿Qué se administra en caso de exposición a sangre contaminada con hepatitis B si no se dispone del estado inmunológico?",
+    "Options": {
+      "a": "Una dosis de vacuna.",
+      "b": "Inmunoglobulina antihepatitis B en 48 horas.",
+      "c": "Profilaxis antirretroviral.",
+      "d": "Una extracción sanguínea."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 332,
+    "Question": "❓FFM.-¿Qué dosis se recomienda para la quimioprofilaxis de VIH en caso de exposición con fuente VIH positiva?",
+    "Options": {
+      "a": "500 mg cada 12 horas.",
+      "b": "150 mg cada 6 horas.",
+      "c": "250 mg una vez al día.",
+      "d": "250 mg cada 8 horas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 333,
+    "Question": "❓FFM.-¿Qué acciones se realizan en caso de un accidente con riesgo de hepatitis C y Anti VHC positivo?",
+    "Options": {
+      "a": "Ninguna acción.",
+      "b": "Profilaxis antiviral.",
+      "c": "Vacunación preventiva.",
+      "d": "Seguimiento y educación sanitaria."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 334,
+    "Question": "❓FFM.-¿Cuál es el primer paso para tratar una herida con riesgo de tétanos?",
+    "Options": {
+      "a": "Profilaxis antibiótica.",
+      "b": "Aplicación de vacuna.",
+      "c": "Limpieza rigurosa con agua y jabón.",
+      "d": "Administración de inmunoglobulina."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 335,
+    "Question": "❓FFM.-¿Qué se debe hacer en el caso de una fuente VIH desconocida?",
+    "Options": {
+      "a": "Controles periódicos de serología.",
+      "b": "Ninguna acción.",
+      "c": "Quimioprofilaxis con AZT.",
+      "d": "Seguimiento de dos meses."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 336,
+    "Question": "❓FFM.-¿Cuál es el factor más importante en la prevención de enfermedades infecciosas?",
+    "Options": {
+      "a": "Uso de antibióticos.",
+      "b": "Educación sanitaria.",
+      "c": "Profilaxis masiva.",
+      "d": "Exámenes semestrales."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 337,
+    "Question": "❓FFM.-¿En qué lugar se administra la vacuna contra la hepatitis B en caso de exposición?",
+    "Options": {
+      "a": "Muslo.",
+      "b": "Glúteo.",
+      "c": "Deltoides.",
+      "d": "Abdomen."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 338,
+    "Question": "❓FFM.-¿Cada cuánto tiempo se realizan los controles serológicos en el caso de riesgo de hepatitis C con fuente positiva?",
+    "Options": {
+      "a": "Anualmente.",
+      "b": "Al cabo de mes y medio, tres, seis y doce meses.",
+      "c": "Solo al inicio.",
+      "d": "Cada dos semanas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 339,
+    "Question": "❓FFM.-¿Qué tratamiento se administra inmediatamente en caso de alto riesgo de brucelosis?",
+    "Options": {
+      "a": "Vacuna profiláctica.",
+      "b": "Limpieza de la herida.",
+      "c": "Antibióticos.",
+      "d": "Quimioprofilaxis de VIH."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 340,
+    "Question": "❓FFM.-¿Qué dosis de vacuna se recomienda para personas en contratos temporales expuestas a hepatitis B?",
+    "Options": {
+      "a": "Una dosis al inicio.",
+      "b": "Una dosis única.",
+      "c": "Cinco dosis.",
+      "d": "Tres dosis en total."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 341,
+    "Question": "❓FFM.-¿Cuál es el riesgo de transmisión del VIH por contacto con mucosas?",
+    "Options": {
+      "a": "1%.",
+      "b": "30%.",
+      "c": "0.04%.",
+      "d": "5%."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 342,
+    "Question": "❓FFM.-¿Qué se realiza a la fuente identificada en caso de riesgo de VIH?",
+    "Options": {
+      "a": "Ninguna acción.",
+      "b": "Extracción sanguínea para anticuerpos.",
+      "c": "Solo observación.",
+      "d": "Administración de AZT."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 343,
+    "Question": "❓FFM.-¿Qué se considera en una herida de bajo riesgo de tétanos?",
+    "Options": {
+      "a": "Que no penetre ni contamine mucho.",
+      "b": "Que sea superficial pero infectada.",
+      "c": "Que penetre pero esté limpia.",
+      "d": "Que tenga poco tejido afectado."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 344,
+    "Question": "❓FFM.-¿Qué medida debe tomarse al producirse una exposición accidental a sangre u otros fluidos corporales?",
+    "Options": {
+      "a": "Aplicar antiséptico inmediatamente.",
+      "b": "Lavar la herida con abundante agua y jabón.",
+      "c": "Comunicarlo al supervisor al día siguiente.",
+      "d": "Tomarse un descanso."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 345,
+    "Question": "❓FFM.-¿Qué elemento es indispensable para evitar el contacto directo con fluidos corporales?",
+    "Options": {
+      "a": "Batas de algodón.",
+      "b": "Guantes.",
+      "c": "Botas de seguridad.",
+      "d": "Jeringas desechables."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 346,
+    "Question": "❓FFM.-¿Cuál es la agencia de EEUU que regula las medidas de seguridad para prevenir la exposición ocupacional a patógenos?",
+    "Options": {
+      "a": "CDC.",
+      "b": "VHPB.",
+      "c": "OSHA.",
+      "d": "OMS."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 347,
+    "Question": "❓FFM.-¿Qué acción se debe evitar al manipular agujas después de su uso?",
+    "Options": {
+      "a": "Colocarlas en un envase resistente.",
+      "b": "Descartarlas al final del turno.",
+      "c": "Reencapucharlas.",
+      "d": "Colocarlas en una bolsa."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 348,
+    "Question": "❓FFM.-¿Qué líquidos se deben considerar factores de riesgo para la transmisión de infecciones?",
+    "Options": {
+      "a": "Únicamente sangre.",
+      "b": "Sangre y otros fluidos biológicos.",
+      "c": "Agua contaminada.",
+      "d": "Medicamentos líquidos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 349,
+    "Question": "❓FFM.-¿Cuál es una de las primeras medidas ante un accidente laboral relacionado con sangre?",
+    "Options": {
+      "a": "Notificar al Servicio de Prevención.",
+      "b": "Lavar con desinfectante.",
+      "c": "Aplicar gasas.",
+      "d": "Colocar vendajes."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 350,
+    "Question": "❓FFM.-¿Cuál es una de las funciones del VHPB en Europa?",
+    "Options": {
+      "a": "Elaborar vacunas.",
+      "b": "Identificar principios para prevenir infecciones hemáticas.",
+      "c": "Supervisar hospitales.",
+      "d": "Formar a pacientes."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 351,
+    "Question": "❓FFM.-¿Qué deben hacer las empresas respecto a la vacunación de sus trabajadores en riesgo?",
+    "Options": {
+      "a": "Ofrecerla gratuitamente.",
+      "b": "Cobrar un porcentaje.",
+      "c": "Recomendarla opcionalmente.",
+      "d": "Exigir que cada trabajador la pague."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 352,
+    "Question": "❓FFM.-¿Qué órgano de protección es imprescindible si hay riesgo de salpicadura de sangre?",
+    "Options": {
+      "a": "Delantal.",
+      "b": "Mascarilla y gafas protectoras.",
+      "c": "Guantes de látex.",
+      "d": "Calzado cerrado."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 353,
+    "Question": "❓FFM.-¿Cuál es uno de los principios para reducir la exposición a infecciones de transmisión hemática?",
+    "Options": {
+      "a": "Contratar a profesionales con experiencia.",
+      "b": "Incrementar la supervisión en general.",
+      "c": "Usar solo materiales desechables.",
+      "d": "Mejorar los procedimientos de trabajo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 354,
+    "Question": "❓FFM.-¿Qué debe incluirse en el registro de un accidente laboral relacionado con sangre?",
+    "Options": {
+      "a": "Hora y mecanismo de producción únicamente.",
+      "b": "Datos completos sobre el accidente.",
+      "c": "Solo el nombre y el puesto.",
+      "d": "Observaciones del supervisor."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 355,
+    "Question": "❓FFM.-¿Qué organismo define los fluidos biológicos como factores de riesgo en la prevención de exposición?",
+    "Options": {
+      "a": "ISSNT.",
+      "b": "OMS.",
+      "c": "VHPB.",
+      "d": "OSHA."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 356,
+    "Question": "❓FFM.-¿Qué se debe hacer si un trabajador tiene una lesión cutánea exudativa?",
+    "Options": {
+      "a": "Evitar el contacto con el paciente.",
+      "b": "Usar apósitos.",
+      "c": "Aplicar solo guantes.",
+      "d": "Cubrir con cinta adhesiva."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 357,
+    "Question": "❓FFM.-¿Qué tipo de protección es fundamental para manipular instrumental manchado con fluidos?",
+    "Options": {
+      "a": "Mascarilla.",
+      "b": "Bata impermeable.",
+      "c": "Guantes.",
+      "d": "Protector facial."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 358,
+    "Question": "❓FFM.-¿Qué recomendación existe en EEUU para todos los pacientes en tratamiento?",
+    "Options": {
+      "a": "Que se usen guantes solo cuando se confirme infección.",
+      "b": "Que se efectúe un análisis previo a cada paciente.",
+      "c": "Que se apliquen solo medidas de protección facial.",
+      "d": "Considerar a todos como potencialmente infecciosos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 359,
+    "Question": "❓FFM.-¿Cuál es la medida inicial tras un accidente laboral con exposición a sangre o fluidos corporales contaminados?",
+    "Options": {
+      "a": "Quitarse los guantes y lavar la herida con agua y jabón.",
+      "b": "Aplicar povidona yodada directamente en la herida.",
+      "c": "Notificar el incidente a la supervisora de enfermería.",
+      "d": "Realizar un informe epidemiológico de inmediato."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 360,
+    "Question": "❓FFM.-¿Qué agencia en EEUU elabora reglamentos para prevenir la exposición a patógenos en el ámbito laboral?",
+    "Options": {
+      "a": "CDC.",
+      "b": "OMS.",
+      "c": "OSHA.",
+      "d": "ISSNT."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 361,
+    "Question": "❓FFM.-¿Qué medida de protección deben usar los trabajadores sanitarios cuando exista riesgo de salpicaduras de sangre?",
+    "Options": {
+      "a": "Gafas de protección.",
+      "b": "Ropa impermeable.",
+      "c": "Mascarilla y guantes dobles.",
+      "d": "Gorro quirúrgico."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 362,
+    "Question": "❓FFM.-¿Qué tipo de fluido es considerado factor de riesgo de transmisión hemática?",
+    "Options": {
+      "a": "Líquido linfático.",
+      "b": "Saliva.",
+      "c": "Sangre y sus componentes.",
+      "d": "Orina."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 363,
+    "Question": "❓FFM.-¿Qué debe hacer el personal sanitario si tiene lesiones cutáneas serosas?",
+    "Options": {
+      "a": "Cubrir las heridas y proceder normalmente.",
+      "b": "Evitar el contacto directo con pacientes hasta su sanación.",
+      "c": "Usar guantes dobles como precaución adicional.",
+      "d": "Solicitar medidas de profilaxis adicional."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 364,
+    "Question": "❓FFM.-¿Qué reglamento fue publicado en el “Federal Register” en 1991?",
+    "Options": {
+      "a": "Normativa sobre vacunación obligatoria.",
+      "b": "Procedimiento de eliminación de material contaminado.",
+      "c": "Medidas de seguridad para prevenir la exposición a patógenos.",
+      "d": "Manual de higiene hospitalaria."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 365,
+    "Question": "❓FFM.-¿Qué protección se recomienda para el personal sanitario durante una reanimación boca a boca?",
+    "Options": {
+      "a": "Mascarilla con filtro.",
+      "b": "Guantes estériles.",
+      "c": "Uso de barreras protectoras.",
+      "d": "Lentes protectores."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 366,
+    "Question": "❓FFM.-¿Cuál de las siguientes es una de las funciones del Viral Hepatitis Prevention Board (VHPB)?",
+    "Options": {
+      "a": "Administrar vacunas contra la hepatitis.",
+      "b": "Promover tratamientos de urgencia para la hepatitis.",
+      "c": "Supervisar a nivel mundial los accidentes laborales.",
+      "d": "Definir principios esenciales para prevenir infecciones hemáticas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 367,
+    "Question": "❓FFM.-¿Qué medida se toma si la fuente de un accidente de exposición a sangre es positiva para el VIH?",
+    "Options": {
+      "a": "Se administra profilaxis antibiótica.",
+      "b": "Se ofrece quimioprofilaxis con AZT.",
+      "c": "Se inicia seguimiento serológico inmediato.",
+      "d": "Se notifica al servicio de salud pública."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 368,
+    "Question": "❓FFM.-¿Qué se debe evitar al manejar agujas contaminadas?",
+    "Options": {
+      "a": "Colocarlas en una bandeja.",
+      "b": "Desecharlas en una bolsa plástica.",
+      "c": "Reencapucharlas tras el uso.",
+      "d": "Transportarlas en contenedores resistentes."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 369,
+    "Question": "❓FFM.-¿Qué tipo de heridas se consideran de alto riesgo para el tétanos?",
+    "Options": {
+      "a": "Heridas pequeñas y no penetrantes.",
+      "b": "Lesiones cutáneas superficiales.",
+      "c": "Cortes que no sangran.",
+      "d": "Heridas contaminadas de alto riesgo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 370,
+    "Question": "❓FFM.-¿Qué nivel de protección se debe usar al manipular material contaminado con sangre fresca?",
+    "Options": {
+      "a": "Protección ocular y guantes dobles.",
+      "b": "Solo guantes.",
+      "c": "Solo delantal impermeable.",
+      "d": "Máscara y delantal desechable."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 371,
+    "Question": "❓FFM.-¿Qué tipo de formación es esencial para los trabajadores en riesgo de exposición hemática?",
+    "Options": {
+      "a": "Educación en reanimación cardiopulmonar.",
+      "b": "Cursos de bioseguridad e higiene laboral.",
+      "c": "Talleres de inmunización rápida.",
+      "d": "Capacitación en primeros auxilios."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 372,
+    "Question": "❓FFM.-¿Cuándo se considera que se ha completado un seguimiento serológico en caso de exposición?",
+    "Options": {
+      "a": "A los 3 meses de seguimiento.",
+      "b": "Al finalizar el protocolo de vacunación.",
+      "c": "A los 6 meses de serología negativa.",
+      "d": "Al completar 12 meses de controles periódicos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 373,
+    "Question": "❓FFM.-¿Cuál es una de las causas más comunes de caídas en entornos hospitalarios?",
+    "Options": {
+      "a": "Uso de equipos incorrectos.",
+      "b": "Superficies mojadas.",
+      "c": "Exposición a radiación.",
+      "d": "Material inflamable."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 374,
+    "Question": "❓FFM.-¿Qué medida de prevención es esencial para evitar el atrapamiento en puertas automáticas?",
+    "Options": {
+      "a": "Señalización de zonas peligrosas.",
+      "b": "Uso de equipos de protección personal.",
+      "c": "Capacitación en el uso seguro de equipos automáticos.",
+      "d": "Prohibición de fumar."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 375,
+    "Question": "❓FFM.-¿Cuál es una medida recomendada para prevenir golpes y cortes?",
+    "Options": {
+      "a": "Formación en manipulación de equipos.",
+      "b": "Uso de equipos de radiación.",
+      "c": "Almacenamiento seguro de materiales inflamables.",
+      "d": "Prohibición de fumar."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 376,
+    "Question": "❓FFM.-¿Qué deben utilizar los celadores para reducir el riesgo de caídas en zonas húmedas?",
+    "Options": {
+      "a": "Delantales de plomo.",
+      "b": "Equipos de protección visual.",
+      "c": "Camillas ajustables.",
+      "d": "Alfombrillas antideslizantes."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 377,
+    "Question": "❓FFM.-¿Qué equipo deben usar los celadores al manipular objetos punzantes o cortantes?",
+    "Options": {
+      "a": "Guantes protectores.",
+      "b": "Alfombrillas de seguridad.",
+      "c": "Delantales de plomo.",
+      "d": "Tablas de transferencia."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 378,
+    "Question": "❓FFM.-¿Qué se recomienda hacer antes de movilizar a un paciente?",
+    "Options": {
+      "a": "Colocar señalización de peligro.",
+      "b": "Usar sistemas de alarma.",
+      "c": "Aplicar productos de limpieza.",
+      "d": "Evaluar los riesgos de movilización."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 379,
+    "Question": "❓FFM.-¿Qué tipo de equipo es necesario en áreas de alto riesgo como los quirófanos?",
+    "Options": {
+      "a": "Delantales de plomo.",
+      "b": "Calzado antideslizante.",
+      "c": "Extintores contra emergencias.",
+      "d": "Camillas automáticas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 380,
+    "Question": "❓FFM.-¿Qué medida es eficaz para evitar incendios relacionados con materiales inflamables?",
+    "Options": {
+      "a": "Uso de gafas protectoras.",
+      "b": "Capacitación en manejo de radiación.",
+      "c": "Almacenamiento seguro de materiales inflamables.",
+      "d": "Uso de calzado antideslizante."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 381,
+    "Question": "❓FFM.-¿Qué sistema ayuda a prevenir situaciones violentas en el trabajo?",
+    "Options": {
+      "a": "Supervisión de equipos.",
+      "b": "Señalización en áreas de alto riesgo.",
+      "c": "Sistema de alerta y seguridad.",
+      "d": "Uso de delantales de plomo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 382,
+    "Question": "❓FFM.-¿Qué debe hacerse regularmente para reducir el riesgo de incendios eléctricos?",
+    "Options": {
+      "a": "Limpiar el área de trabajo.",
+      "b": "Inspección de instalaciones eléctricas.",
+      "c": "Capacitar en el uso de grúas.",
+      "d": "Colocar alfombrillas antideslizantes."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 383,
+    "Question": "❓FFM.-¿Cuál es una medida para reducir el riesgo de exposición a radiación?",
+    "Options": {
+      "a": "Uso de técnicas de movilización.",
+      "b": "Prohibición de fumar.",
+      "c": "Calzado antideslizante.",
+      "d": "Delantales de plomo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 384,
+    "Question": "❓FFM.-¿Qué debe hacerse con los residuos peligrosos?",
+    "Options": {
+      "a": "Guardarlos sin clasificación.",
+      "b": "Desecharlos en áreas comunes.",
+      "c": "Clasificarlos y eliminarlos siguiendo protocolos.",
+      "d": "Guardarlos en cualquier contenedor."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 385,
+    "Question": "❓FFM.-¿Qué medida ayuda a evitar la fatiga de los celadores en la movilización de pacientes?",
+    "Options": {
+      "a": "Trabajo en equipo.",
+      "b": "Capacitación en extinción de incendios.",
+      "c": "Colocación de señales de advertencia.",
+      "d": "Uso de delantales de plomo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 386,
+    "Question": "❓FFM.-¿Qué debe utilizarse para evitar accidentes al mover camas ajustables?",
+    "Options": {
+      "a": "Uso de protección visual.",
+      "b": "Alfombrillas antideslizantes.",
+      "c": "Supervisión y asistencia.",
+      "d": "Clasificación de residuos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 387,
+    "Question": "❓FFM.-¿Cuál es una medida preventiva para minimizar la exposición a sustancias peligrosas?",
+    "Options": {
+      "a": "Uso de gafas de lectura.",
+      "b": "Uso de EPI adecuado.",
+      "c": "Capacitación en primeros auxilios.",
+      "d": "Limpieza frecuente de suelos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 388,
+    "Question": "❓FFM.-¿Qué tipo de calzado se recomienda para evitar caídas en áreas de alto riesgo?",
+    "Options": {
+      "a": "Botas de seguridad.",
+      "b": "Zapatos con puntera de acero.",
+      "c": "Calzado antideslizante.",
+      "d": "Zapatillas deportivas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 389,
+    "Question": "❓FFM.-¿Cuál de las siguientes es una medida de prevención ante el riesgo de atrapamiento?",
+    "Options": {
+      "a": "Señalización de áreas peligrosas.",
+      "b": "Capacitación en manejo de conflictos.",
+      "c": "Evaluación de riesgos de exposición a sustancias.",
+      "d": "Supervisión y asistencia al mover equipos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 390,
+    "Question": "❓FFM.-¿Qué debe utilizarse al manipular productos químicos de limpieza?",
+    "Options": {
+      "a": "Gafas de lectura.",
+      "b": "Guantes y mascarillas.",
+      "c": "Calzado antideslizante.",
+      "d": "Delantal de plomo."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 391,
+    "Question": "❓FFM.-¿Cuál es una causa de accidentes relacionados con cortes entre los celadores?",
+    "Options": {
+      "a": "Uso de tableros de control.",
+      "b": "Mal manejo de equipos de comunicación.",
+      "c": "Manipulación incorrecta de material de hospitalización.",
+      "d": "Falta de señalamientos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 392,
+    "Question": "❓FFM.-¿Qué tipo de señalización es importante en zonas húmedas?",
+    "Options": {
+      "a": "Señales de velocidad.",
+      "b": "Señales de advertencia.",
+      "c": "Señales de evacuación.",
+      "d": "Señales de reciclaje."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 393,
+    "Question": "❓FFM.-¿Qué se recomienda realizar con frecuencia en equipos mecánicos?",
+    "Options": {
+      "a": "Inspección y mantenimiento.",
+      "b": "Cambio de ubicación.",
+      "c": "Evaluación de seguridad radiológica.",
+      "d": "Capacitación del personal en primeros auxilios."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 394,
+    "Question": "❓FFM.-¿Qué sistema ayuda a prevenir incidentes violentos en el hospital?",
+    "Options": {
+      "a": "Sistema de control de residuos.",
+      "b": "Supervisión de pacientes.",
+      "c": "Inspección de equipos.",
+      "d": "Sistema de alerta y seguridad."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 395,
+    "Question": "❓FFM.-¿Cuál es una medida preventiva ante el riesgo de incendio?",
+    "Options": {
+      "a": "Uso de gafas de protección.",
+      "b": "Capacitación en técnicas de radiología.",
+      "c": "Almacenamiento adecuado de materiales inflamables.",
+      "d": "Uso de calzado antideslizante."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 396,
+    "Question": "❓FFM.-¿Qué tipo de capacitación es esencial para prevenir caídas de pacientes?",
+    "Options": {
+      "a": "Uso de extintores.",
+      "b": "Manejo de residuos peligrosos.",
+      "c": "Técnicas de movilización segura.",
+      "d": "Señalización de riesgos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 397,
+    "Question": "❓FFM.-¿Qué equipo es necesario para reducir la exposición a radiación en áreas de diagnóstico?",
+    "Options": {
+      "a": "Zapatos de seguridad.",
+      "b": "Alfombrillas antideslizantes.",
+      "c": "Delantales de plomo.",
+      "d": "Mascarillas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 398,
+    "Question": "❓FFM.-¿Qué medida se aplica para el manejo seguro de equipos?",
+    "Options": {
+      "a": "Inspección visual.",
+      "b": "Capacitación en manipulación de equipos.",
+      "c": "Control de sustancias peligrosas.",
+      "d": "Señalización de riesgo de incendios."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 399,
+    "Question": "❓FFM.-¿Cuál es una medida preventiva para reducir riesgos al manejar sustancias peligrosas?",
+    "Options": {
+      "a": "Clasificación de residuos generales.",
+      "b": "Uso de EPI adecuado.",
+      "c": "Revisión de instalaciones eléctricas.",
+      "d": "Uso de señalización en áreas de trabajo."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 400,
+    "Question": "❓FFM.-¿Qué tipo de política es clave para reducir la violencia en el trabajo?",
+    "Options": {
+      "a": "Política de reciclaje.",
+      "b": "Política de seguridad en radiación.",
+      "c": "Política de almacenaje de productos químicos.",
+      "d": "Política de tolerancia cero."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 401,
+    "Question": "❓FFM.-¿Cuál es una medida preventiva para evitar caídas durante la movilización de pacientes?",
+    "Options": {
+      "a": "Supervisión de residuos.",
+      "b": "Uso de alfombrillas de entrada.",
+      "c": "Trabajo en equipo.",
+      "d": "Colocación de señales de peligro."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 402,
+    "Question": "❓FFM.-¿Qué procedimiento es importante para prevenir la acumulación de líquidos en el suelo?",
+    "Options": {
+      "a": "Capacitación en uso de equipos de diagnóstico.",
+      "b": "Revisión de protocolos de emergencia.",
+      "c": "Uso de delantales de plomo.",
+      "d": "Limpieza regular y mantenimiento."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 403,
+    "Question": "❓FFM.-¿Cuál es el artículo que establece la obligación de proporcionar EPIs cuando los riesgos no pueden evitarse de otro modo?",
+    "Options": {
+      "a": "Artículo 15 de la Ley de Prevención de Riesgos Laborales.",
+      "b": "Artículo 18 de la Ley de Prevención de Riesgos Laborales.",
+      "c": "Artículo 17 de la Ley de Prevención de Riesgos Laborales.",
+      "d": "Artículo 16 de la Ley de Prevención de Riesgos Laborales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 404,
+    "Question": "❓FFM.-Según el Real Decreto 773/1997, ¿qué característica deben tener los EPIs para proteger eficazmente?",
+    "Options": {
+      "a": "Adaptarse únicamente a las condiciones de trabajo.",
+      "b": "No suponer riesgos adicionales ni molestias innecesarias.",
+      "c": "Estar fabricados con materiales específicos.",
+      "d": "Tener un costo accesible."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 405,
+    "Question": "❓FFM.-¿Qué debe considerarse al elegir un EPI frente al riesgo biológico?",
+    "Options": {
+      "a": "La idoneidad del equipo y las condiciones del mercado.",
+      "b": "La durabilidad del equipo exclusivamente.",
+      "c": "El costo más bajo en el mercado.",
+      "d": "La apariencia estética del equipo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 406,
+    "Question": "❓FFM.-¿Qué significa el marcado “CE” en un EPI?",
+    "Options": {
+      "a": "Certificación Europea.",
+      "b": "Conformidad Europea.",
+      "c": "Calidad Especial.",
+      "d": "Condiciones Estandarizadas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 407,
+    "Question": "❓FFM.-¿Qué deben considerar los EPIs al ser distribuidos para un uso efectivo?",
+    "Options": {
+      "a": "La durabilidad en su almacenamiento.",
+      "b": "La versatilidad en cualquier actividad.",
+      "c": "El grado de confort exclusivo del usuario.",
+      "d": "Las características anatómicas del trabajador."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 408,
+    "Question": "❓FFM.-¿En qué situaciones los EPIs pueden ser utilizados por varios usuarios?",
+    "Options": {
+      "a": "En áreas donde se tomen medidas para garantizar la higiene.",
+      "b": "En cualquier situación.",
+      "c": "Únicamente en emergencias.",
+      "d": "Solo en casos de riesgo biológico."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 409,
+    "Question": "❓FFM.-¿Cuál es una función del Servicio de Prevención en relación con los EPIs?",
+    "Options": {
+      "a": "Fabricar los EPIs de cada trabajador.",
+      "b": "Realizar la limpieza exclusiva de todos los EPIs.",
+      "c": "Distribuir y mantener un stock mínimo de EPIs.",
+      "d": "Superar los estándares internacionales de EPIs."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 410,
+    "Question": "❓FFM.-¿Por qué el uso de guantes es común en contacto con pacientes o fluidos biológicos?",
+    "Options": {
+      "a": "Porque evita la pérdida de temperatura de las manos.",
+      "b": "Porque es una barrera de protección contra riesgos biológicos.",
+      "c": "Porque aumenta la sensibilidad en el tacto.",
+      "d": "Porque mejora la circulación sanguínea."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 411,
+    "Question": "❓FFM.-¿Qué es obligatorio para comercializar un EPI en la UE según el Real Decreto 1407/1992?",
+    "Options": {
+      "a": "Que garantice la salud y seguridad del usuario.",
+      "b": "Que sea el equipo más económico del mercado.",
+      "c": "Que tenga componentes reciclables.",
+      "d": "Que sea de un solo uso."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 412,
+    "Question": "❓FFM.-¿Cuál es una práctica para garantizar el uso efectivo de los EPIs?",
+    "Options": {
+      "a": "No proporcionar instrucciones de uso.",
+      "b": "Consultar a los trabajadores antes de adquirir un EPI.",
+      "c": "Permitir el uso de EPIs sin control.",
+      "d": "Hacer rotación continua de los EPIs."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 413,
+    "Question": "❓FFM.-¿Qué se debe hacer cuando los EPIs se asignan a distintos trabajadores en un laboratorio?",
+    "Options": {
+      "a": "Considerar los equipos como de uso personalizado.",
+      "b": "Desechar los EPIs al finalizar el turno.",
+      "c": "Limpiar los EPIs solo una vez al mes.",
+      "d": "Asignarlos indistintamente."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 414,
+    "Question": "❓FFM.-¿Qué incluye un procedimiento normalizado para el uso de un EPI?",
+    "Options": {
+      "a": "Solo la fecha de fabricación del EPI.",
+      "b": "Instrucciones de uso, conservación y almacenamiento.",
+      "c": "Únicamente el lugar de almacenamiento.",
+      "d": "Reglas sobre su fabricación."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 415,
+    "Question": "❓FFM.-¿Cuál es una de las normas generales para el uso de EPIs en centros sanitarios?",
+    "Options": {
+      "a": "Uso permanente de guantes en contacto directo con muestras biológicas.",
+      "b": "Uso de viseras en todas las áreas de trabajo.",
+      "c": "Uso obligatorio de gafas de sol.",
+      "d": "Uso de protectores auditivos en consultas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 416,
+    "Question": "❓FFM.-¿Qué tipo de EPIs se usa en centros sanitarios para evitar la exposición laboral?",
+    "Options": {
+      "a": "Mascarillas de tipo quirúrgico.",
+      "b": "Viseras para todo tipo de riesgo.",
+      "c": "Gafas con protección de rayos UV.",
+      "d": "Mascarillas autofiltrantes desechables."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 417,
+    "Question": "❓FFM.-¿Qué debe hacerse en el caso de actividades que requieren contacto directo en la asistencia sanitaria?",
+    "Options": {
+      "a": "Eliminar cualquier tipo de protección.",
+      "b": "Solo utilizar ropa de trabajo común.",
+      "c": "Considerar otras medidas organizativas para reducir la exposición.",
+      "d": "Utilizar protección química avanzada."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 418,
+    "Question": "❓FFM.-¿Qué medida debe aplicarse al manipular muestras biológicas en centros sanitarios?",
+    "Options": {
+      "a": "Precauciones universales para tratar todo caso como potencialmente infeccioso.",
+      "b": "No utilizar protección, si el riesgo es mínimo.",
+      "c": "Usar guantes solo si la muestra parece peligrosa.",
+      "d": "Almacenar la muestra sin medidas adicionales."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 419,
+    "Question": "❓FFM.-¿Qué artículo de la Ley de Prevención de Riesgos Laborales establece la obligación de proporcionar equipos de protección individual?",
+    "Options": {
+      "a": "Artículo 20.",
+      "b": "Artículo 17.",
+      "c": "Artículo 25.",
+      "d": "Artículo 19."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 420,
+    "Question": "❓FFM.-¿Qué debe hacer el empresario en relación con el uso de los EPIs?",
+    "Options": {
+      "a": "Facilitar la formación del personal exclusivamente.",
+      "b": "Informar sobre los riesgos pero no es obligatorio proporcionar EPIs.",
+      "c": "Proporcionar EPIs adecuados y asegurar su uso efectivo.",
+      "d": "Solo proporcionar los EPIs sin preocuparse por el uso."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 421,
+    "Question": "❓FFM.-¿Cuál de las siguientes condiciones debe cumplir un EPI según el Real Decreto 773/1997?",
+    "Options": {
+      "a": "Ser desechable.",
+      "b": "Ser compatible con otros equipos de protección.",
+      "c": "Ser de una talla única.",
+      "d": "Ser exclusivo para un solo usuario."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 422,
+    "Question": "❓FFM.-¿Cuál es el objetivo principal del marcado “CE” en los EPIs?",
+    "Options": {
+      "a": "Identificar los equipos fabricados en España.",
+      "b": "Probar que son reutilizables.",
+      "c": "Indicar que son de uso médico exclusivo.",
+      "d": "Certificar que cumplen con normas de seguridad y salud de la UE."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 423,
+    "Question": "❓FFM.-Según la gestión de los EPI, ¿cuándo debe realizarse la evaluación de riesgos?",
+    "Options": {
+      "a": "Al finalizar la jornada laboral.",
+      "b": "Únicamente en situaciones de emergencia.",
+      "c": "De forma periódica y según las condiciones de trabajo.",
+      "d": "Solo al inicio de cada año."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 424,
+    "Question": "❓FFM.-¿Qué sucede si un EPI es incómodo o genera molestias innecesarias?",
+    "Options": {
+      "a": "El usuario debe adaptarse a él.",
+      "b": "No debería utilizarse en condiciones laborales.",
+      "c": "Debe ser reemplazado por otro que no cause molestias.",
+      "d": "Se continúa usando, pero con precaución."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 425,
+    "Question": "❓FFM.-¿Qué debe realizar el Servicio de Prevención en relación con los EPI compartidos en ciertas áreas?",
+    "Options": {
+      "a": "Sustituir los componentes necesarios si se comparte.",
+      "b": "Ignorar el mantenimiento de los EPIs.",
+      "c": "Permitir el uso sin restricciones.",
+      "d": "Dejar que los trabajadores gestionen los cambios."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 426,
+    "Question": "❓FFM.-¿Qué se debe hacer antes de implantar un nuevo EPI?",
+    "Options": {
+      "a": "Consultar al personal sobre su diseño.",
+      "b": "Verificar su estética.",
+      "c": "Analizar la rentabilidad económica.",
+      "d": "Revisar la necesidad de su uso y elegir el equipo adecuado."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 427,
+    "Question": "❓FFM.-¿Qué equipos de protección se consideran de uso permanente en contacto directo con pacientes?",
+    "Options": {
+      "a": "Ropa de protección específica.",
+      "b": "Gafas de seguridad.",
+      "c": "Guantes.",
+      "d": "Mascarillas autofiltrantes."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 428,
+    "Question": "❓FFM.-¿Qué criterio se debe considerar para la adquisición de un EPI?",
+    "Options": {
+      "a": "Su color y diseño.",
+      "b": "Su compatibilidad con otros EPIs.",
+      "c": "La marca de fabricación.",
+      "d": "La frecuencia de limpieza requerida."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 429,
+    "Question": "❓FFM.-¿Por qué debe consultarse a los trabajadores en la compra de EPIs?",
+    "Options": {
+      "a": "Para verificar su comodidad y aceptación del equipo.",
+      "b": "Para que puedan seleccionar el color del EPI.",
+      "c": "Para decidir si desean usarlo o no.",
+      "d": "Para conocer su opinión sobre la marca del EPI."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 430,
+    "Question": "❓FFM.-¿Qué tipo de protección es importante establecer en un laboratorio para el personal eventual?",
+    "Options": {
+      "a": "Ropa de trabajo.",
+      "b": "Guantes de látex.",
+      "c": "Mascarillas quirúrgicas.",
+      "d": "Gafas de seguridad."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 431,
+    "Question": "❓FFM.-¿Qué equipo de protección respiratoria es obligatorio para protección laboral y no para la del producto?",
+    "Options": {
+      "a": "Mascarillas quirúrgicas.",
+      "b": "Mascarillas autofiltrantes.",
+      "c": "Viseras.",
+      "d": "Delantales."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 432,
+    "Question": "❓FFM.-¿Qué debe incluirse en el procedimiento normalizado de uso de los EPIs?",
+    "Options": {
+      "a": "Solo instrucciones de limpieza.",
+      "b": "Indicaciones para cada zona de uso.",
+      "c": "Solo la fecha de caducidad.",
+      "d": "Las instrucciones de conservación y vida útil."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 433,
+    "Question": "❓FFM.-¿Qué sucede cuando un EPI no elimina completamente el riesgo?",
+    "Options": {
+      "a": "Se continúa el trabajo con precaución.",
+      "b": "Se combinan EPIs con otras medidas preventivas.",
+      "c": "Se ignora el riesgo.",
+      "d": "Se utiliza el EPI solo en casos urgentes."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 434,
+    "Question": "❓FFM.-¿Qué precaución debe tomarse con los pacientes para evitar riesgos?",
+    "Options": {
+      "a": "Asumir que todos los casos pueden ser infecciosos.",
+      "b": "Evitar cualquier contacto.",
+      "c": "Solo usar protección con pacientes graves.",
+      "d": "No realizar procedimientos sin guantes."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 435,
+    "Question": "❓FFM.-¿Qué aspecto se debe considerar al seleccionar los equipos de protección individual?",
+    "Options": {
+      "a": "Las condiciones anatómicas y fisiológicas del trabajador.",
+      "b": "La opinión de otros trabajadores.",
+      "c": "La disponibilidad de materiales.",
+      "d": "La duración de los equipos de protección."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 436,
+    "Question": "❓FFM.-¿Qué indica el marcado “CE” en los EPI?",
+    "Options": {
+      "a": "Que el equipo ha sido probado en laboratorio.",
+      "b": "Que el equipo es de un solo uso.",
+      "c": "Que el fabricante ha evaluado su producto y cumple con los requisitos de seguridad.",
+      "d": "Que el equipo es recomendado por el Servicio de Prevención."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 437,
+    "Question": "❓FFM.-¿Qué se debe hacer antes de la implantación de una prenda de protección?",
+    "Options": {
+      "a": "Revisar la normativa de la empresa.",
+      "b": "Capacitar a todos los trabajadores.",
+      "c": "Comprar el equipo más barato.",
+      "d": "Evaluar la necesidad de uso."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 438,
+    "Question": "❓FFM.-¿Qué función tiene el Servicio de Prevención en la gestión de EPI?",
+    "Options": {
+      "a": "Supervisar y garantizar el mantenimiento de los EPI.",
+      "b": "Establecer precios para los equipos.",
+      "c": "Comprar equipos de protección.",
+      "d": "Realizar la evaluación de riesgos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 439,
+    "Question": "❓FFM.-¿Qué sucede si se utilizan equipos de protección inadecuados?",
+    "Options": {
+      "a": "Puede haber una sensación de falsa protección frente al riesgo.",
+      "b": "Los equipos se dañan más rápidamente.",
+      "c": "Se incrementa el riesgo de accidentes.",
+      "d": "No hay ningún efecto."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 440,
+    "Question": "❓FFM.-¿Cuál es un ejemplo de un EPI que debe asignarse de forma personalizada?",
+    "Options": {
+      "a": "Mascarillas quirúrgicas.",
+      "b": "Ropa de trabajo.",
+      "c": "Equipos de protección respiratoria.",
+      "d": "Guantes de látex."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 441,
+    "Question": "❓FFM.-¿Qué aspecto no es un criterio para la correcta utilización de los EPI?",
+    "Options": {
+      "a": "La edad del trabajador.",
+      "b": "Instrucciones de limpieza.",
+      "c": "Limitaciones de uso.",
+      "d": "Zonas donde deben usarse."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 442,
+    "Question": "❓FFM.-¿Por qué es importante la normalización interna del uso de EPI?",
+    "Options": {
+      "a": "Para aumentar el costo de adquisición.",
+      "b": "Para establecer un mecanismo de control.",
+      "c": "Para evitar el uso de equipos antiguos.",
+      "d": "Para informar sobre el uso correcto y limitaciones."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 443,
+    "Question": "❓FFM.-¿Qué riesgo se presenta si no se utilizan correctamente los EPI en el ámbito sanitario?",
+    "Options": {
+      "a": "Menor gasto en materiales.",
+      "b": "Confusión en la distribución de equipos.",
+      "c": "Exposición a agentes biológicos.",
+      "d": "Sanciones económicas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 444,
+    "Question": "❓FFM.-¿Qué tipo de mascarillas se utilizan para evitar la exposición laboral?",
+    "Options": {
+      "a": "Mascarillas quirúrgicas.",
+      "b": "Mascarillas de tela.",
+      "c": "Mascarillas autofiltrantes desechables.",
+      "d": "Mascarillas de papel."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 445,
+    "Question": "❓FFM.-¿Qué ocurre si no se puede garantizar la higiene de los EPI usados por varios trabajadores?",
+    "Options": {
+      "a": "Se deben sustituir las partes necesarias.",
+      "b": "Se deben limpiar todos los EPI después de su uso.",
+      "c": "Se debe suspender el uso de los EPI.",
+      "d": "No se requiere ninguna acción."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 446,
+    "Question": "❓FFM.-¿Cuál de los siguientes es un aspecto subjetivo a considerar en el uso de EPI?",
+    "Options": {
+      "a": "La normativa vigente.",
+      "b": "El costo de los equipos.",
+      "c": "La apariencia del paciente.",
+      "d": "El tipo de EPI utilizado."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 447,
+    "Question": "❓FFM.-¿Qué EPI se debe utilizar de forma permanente en contacto con fluidos biológicos?",
+    "Options": {
+      "a": "Guantes.",
+      "b": "Mascarillas quirúrgicas.",
+      "c": "Gafas de seguridad.",
+      "d": "Ropa de trabajo normal."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 448,
+    "Question": "❓FFM.-¿Qué se requiere para que un EPI pueda comercializarse?",
+    "Options": {
+      "a": "Una campaña publicitaria.",
+      "b": "El consentimiento del usuario.",
+      "c": "La aprobación de un comité interno.",
+      "d": "Conformidad con las exigencias del Real Decreto 1407/1992."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 449,
+    "Question": "❓FFM.-¿Cuál es uno de los principales riesgos para los celadores en contacto con pacientes en un hospital?",
+    "Options": {
+      "a": "El riesgo de lesiones físicas debido a movimientos repetitivos.",
+      "b": "El riesgo de infecciones como hepatitis o tuberculosis.",
+      "c": "El riesgo de intoxicación por productos de limpieza.",
+      "d": "El riesgo de sufrir estrés por turnos largos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 450,
+    "Question": "❓FFM.-¿Qué es fundamental para prevenir la infección hospitalaria según las normas generales de asepsia?",
+    "Options": {
+      "a": "El lavado de manos.",
+      "b": "La aplicación de desinfectantes en el suelo.",
+      "c": "La ventilación frecuente de las habitaciones.",
+      "d": "El uso de ropa estéril en todo el hospital."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 452,
+    "Question": "❓FFM.-¿Qué deben hacer los celadores tras sufrir una exposición accidental a sustancias biológicas?",
+    "Options": {
+      "a": "Acudir al Servicio de Medicina Preventiva inmediatamente.",
+      "b": "Esperar 48 horas para observar síntomas.",
+      "c": "Consultar a su supervisor inmediato.",
+      "d": "Hacer un reporte escrito para el siguiente turno."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 453,
+    "Question": "❓FFM.-¿Cuál es la flora bacteriana que reside habitualmente en las capas profundas de la piel?",
+    "Options": {
+      "a": "Flora transitoria.",
+      "b": "Flora temporal.",
+      "c": "Flora nociva.",
+      "d": "Flora residente."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 454,
+    "Question": "❓FFM.-¿Cuál es la duración recomendada para el lavado de manos quirúrgico?",
+    "Options": {
+      "a": "Entre 2 y 6 minutos.",
+      "b": "Entre 30 y 45 segundos.",
+      "c": "Exactamente 10 minutos.",
+      "d": "Entre 1 y 2 minutos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 455,
+    "Question": "❓FFM.-¿Cuál es el propósito principal del lavado de manos antiséptico?",
+    "Options": {
+      "a": "Reducir la suciedad visible en la piel.",
+      "b": "Eliminar toda la flora bacteriana de las manos.",
+      "c": "Destruir microorganismos transeúntes.",
+      "d": "Evitar cualquier tipo de contaminación."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 456,
+    "Question": "❓FFM.-¿Qué tipo de vacuna es facilitada por el Servicio de Medicina Preventiva a los celadores?",
+    "Options": {
+      "a": "Vacuna contra la varicela.",
+      "b": "Vacuna contra la hepatitis B.",
+      "c": "Vacuna contra la rabia.",
+      "d": "Vacuna contra el sarampión."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 457,
+    "Question": "❓FFM.-¿Qué se recomienda no llevar durante el lavado de manos para evitar contaminación?",
+    "Options": {
+      "a": "Mascarilla y guantes.",
+      "b": "Calzado de seguridad.",
+      "c": "Relojes y anillos.",
+      "d": "Bata de protección."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 458,
+    "Question": "❓FFM.-¿Qué producto antiséptico se usa comúnmente para el lavado de manos quirúrgico?",
+    "Options": {
+      "a": "Jabón líquido de manos común.",
+      "b": "Alcohol al 70 %.",
+      "c": "Clorhexidina al 4 %.",
+      "d": "Povidona yodada al 3 %."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 459,
+    "Question": "❓FFM.-¿Qué acción es fundamental después de la manipulación de orinales y ropa sucia?",
+    "Options": {
+      "a": "Limpiar los orinales con desinfectante.",
+      "b": "Lavarse las manos.",
+      "c": "Usar guantes en todo momento.",
+      "d": "Aplicar alcohol en las manos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 460,
+    "Question": "❓FFM.-¿Qué se debe hacer con el grifo tras el lavado de manos rutinario?",
+    "Options": {
+      "a": "Cerrar con las propias manos mojadas.",
+      "b": "Cerrar con una toalla seca de papel.",
+      "c": "No cerrar y dejar correr el agua.",
+      "d": "Secar el grifo con una toalla."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 461,
+    "Question": "❓FFM.-¿Cuál es la duración mínima recomendada para la antisepsia de manos con solución hidroalcohólica?",
+    "Options": {
+      "a": "15 segundos.",
+      "b": "30 segundos.",
+      "c": "1 minuto.",
+      "d": "2 minutos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 462,
+    "Question": "❓FFM.-¿En qué situaciones es recomendable el lavado de manos con jabón antimicrobiano?",
+    "Options": {
+      "a": "Cuando las manos están visiblemente sucias o contaminadas.",
+      "b": "Siempre antes de cualquier interacción social.",
+      "c": "Al finalizar cada tarea administrativa.",
+      "d": "Antes de usar el baño."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 463,
+    "Question": "❓FFM.-¿Qué tipo de guantes deben usarse de acuerdo a los protocolos de cada unidad hospitalaria?",
+    "Options": {
+      "a": "Guantes de tela lavables.",
+      "b": "Guantes de plástico o goma.",
+      "c": "Guantes de algodón.",
+      "d": "Guantes de látex con polvo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 464,
+    "Question": "❓FFM.-¿Qué es importante aplicar al final de la jornada laboral para proteger la piel de las manos?",
+    "Options": {
+      "a": "Una solución de agua y jabón.",
+      "b": "Aceites esenciales.",
+      "c": "Un gel desinfectante de alcohol.",
+      "d": "Cremas protectoras."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 465,
+    "Question": "❓FFM.-¿Cuál de las siguientes vacunas es parte de las recomendaciones de salud para los celadores en el hospital?",
+    "Options": {
+      "a": "Gripe.",
+      "b": "Hepatitis.",
+      "c": "Neumonía.",
+      "d": "Varicela."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 466,
+    "Question": "❓FFM.-¿Qué práctica es fundamental para reducir la infección hospitalaria?",
+    "Options": {
+      "a": "Usar mascarilla.",
+      "b": "Usar guantes de goma.",
+      "c": "Llevar ropa aséptica.",
+      "d": "Lavarse las manos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 467,
+    "Question": "❓FFM.-¿Cuándo debe realizarse un control de salud al celador para evaluar posibles enfermedades transmisibles?",
+    "Options": {
+      "a": "Después de un brote en el hospital.",
+      "b": "Al inicio de su trabajo en el centro.",
+      "c": "Solamente si tiene síntomas de alguna enfermedad.",
+      "d": "Antes de cada turno de trabajo."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 468,
+    "Question": "❓FFM.-¿Qué elemento es necesario para el manejo de pacientes con tuberculosis?",
+    "Options": {
+      "a": "Bata de aislamiento.",
+      "b": "Gafas de protección.",
+      "c": "Mascarilla de alta resolución (FFP).",
+      "d": "Zapatos desechables."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 469,
+    "Question": "❓FFM.-¿Qué debe hacer un celador si experimenta una exposición accidental a sustancias biológicas?",
+    "Options": {
+      "a": "Continuar trabajando y avisar al final de la jornada.",
+      "b": "Acudir inmediatamente al Servicio de Medicina Preventiva.",
+      "c": "Informar a su superior y seguir trabajando.",
+      "d": "Esperar 24 horas para informar del incidente."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 470,
+    "Question": "❓FFM.-¿Cuál es la duración recomendada para el lavado de manos con solución hidroalcohólica?",
+    "Options": {
+      "a": "10 segundos.",
+      "b": "20 segundos.",
+      "c": "Mínimo 30 segundos.",
+      "d": "60 segundos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 471,
+    "Question": "❓FFM.-¿Cuál es el propósito principal del lavado de manos quirúrgico?",
+    "Options": {
+      "a": "Eliminar suciedad visible.",
+      "b": "Prevenir alergias en la piel.",
+      "c": "Proteger al paciente de agentes químicos.",
+      "d": "Asegurar una asepsia extrema para procedimientos quirúrgicos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 472,
+    "Question": "❓FFM.-¿Cuál de las siguientes opciones indica una acción que debe realizarse antes de administrar medicamentos?",
+    "Options": {
+      "a": "Usar guantes de goma.",
+      "b": "Lavar el equipo de administración.",
+      "c": "Lavarse las manos.",
+      "d": "Consultar al supervisor."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 473,
+    "Question": "❓FFM.-¿Cuál de los siguientes grupos de flora bacteriana es más responsable de las infecciones nosocomiales?",
+    "Options": {
+      "a": "Flora residente.",
+      "b": "Flora transitoria.",
+      "c": "Flora protectora.",
+      "d": "Flora bacteriana natural."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 474,
+    "Question": "❓FFM.-¿Cuál es el tiempo recomendado para el lavado de manos rutinario o higiénico?",
+    "Options": {
+      "a": "5-10 segundos.",
+      "b": "10-20 segundos.",
+      "c": "15-30 segundos.",
+      "d": "30-45 segundos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 475,
+    "Question": "❓FFM.-¿Qué se debe evitar al realizar el lavado de manos quirúrgico?",
+    "Options": {
+      "a": "Usar jabón antiséptico.",
+      "b": "Frotar la piel al secarse.",
+      "c": "Enjuagarse con agua fría.",
+      "d": "Usar soluciones alcohólicas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 476,
+    "Question": "❓FFM.-¿Cuál es una de las prácticas incorrectas al usar jabones en dispensadores?",
+    "Options": {
+      "a": "Reemplazar el jabón vacío.",
+      "b": "Rellenar un dispensador parcialmente vacío.",
+      "c": "Usar jabón antimicrobiano.",
+      "d": "Cambiar el dispensador regularmente."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 477,
+    "Question": "❓FFM.-¿Cuál es un paso necesario antes del lavado de manos quirúrgico?",
+    "Options": {
+      "a": "Retirar anillos, relojes, y pulseras.",
+      "b": "Lavar solo las manos.",
+      "c": "Limpiar el área del codo.",
+      "d": "Usar toallas reutilizables."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 478,
+    "Question": "❓FFM.-¿Cuál de las siguientes condiciones se debe descontaminar las manos tras contacto con un paciente?",
+    "Options": {
+      "a": "Solo al final del turno.",
+      "b": "Antes y después de cada contacto directo.",
+      "c": "Solamente antes del contacto.",
+      "d": "Después de realizar una cura."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 479,
+    "Question": "❓FFM.-¿Qué recomendación es parte de las categorías de cumplimiento para la higiene de manos según el CDC/HICPAC?",
+    "Options": {
+      "a": "Categoría IC.",
+      "b": "Categoría IA.",
+      "c": "Categoría III.",
+      "d": "Categoría IE."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 480,
+    "Question": "❓FFM.-¿Cuál es una recomendación importante para el cuidado de la piel en profesionales sanitarios?",
+    "Options": {
+      "a": "Proporcionar lociones y cremas de manos para evitar dermatitis de contacto.",
+      "b": "Usar guantes para evitar la dermatitis.",
+      "c": "Desinfectar la piel después de cada paciente.",
+      "d": "Evitar el contacto directo con pacientes."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 481,
+    "Question": "❓FFM.-¿Qué aspecto de las uñas debe cumplir un celador antes de tener contacto con pacientes de alto riesgo?",
+    "Options": {
+      "a": "No llevar uñas artificiales o extensiones.",
+      "b": "Pintarse las uñas para protegerlas.",
+      "c": "Dejar que crezcan al menos un centímetro.",
+      "d": "Limar las uñas cada día."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 482,
+    "Question": "❓FFM.-¿Cuándo deben quitarse los guantes en el entorno hospitalario?",
+    "Options": {
+      "a": "Al salir del hospital.",
+      "b": "Al final del turno de trabajo.",
+      "c": "Después de atender a cada paciente.",
+      "d": "Solo al manipular material limpio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 483,
+    "Question": "❓FFM.-¿Qué se debe hacer al cambiar de una zona contaminada a una zona limpia en un mismo paciente?",
+    "Options": {
+      "a": "Cambiarse el uniforme.",
+      "b": "Cambiar la bata.",
+      "c": "Usar solución alcohólica para las manos.",
+      "d": "Cambiar los guantes."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 484,
+    "Question": "❓FFM.-¿Qué aspecto relacionado con el uso de anillos en centros sanitarios está sin resolver?",
+    "Options": {
+      "a": "La recomendación respecto a su uso.",
+      "b": "El uso de guantes sobre anillos.",
+      "c": "El riesgo de perder anillos durante el trabajo.",
+      "d": "La obligación de llevarlos guardados."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 485,
+    "Question": "❓FFM.-¿Qué actividad es parte de un programa educativo para mejorar la higiene de manos?",
+    "Options": {
+      "a": "Educar al personal sobre la contaminación de las manos.",
+      "b": "Asignar guantes a cada trabajador.",
+      "c": "Instruir en el uso exclusivo de agua y jabón.",
+      "d": "Promover el uso de desinfectantes para las mesas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 486,
+    "Question": "❓FFM.-¿Qué práctica debe evitarse al usar dispensadores de jabón?",
+    "Options": {
+      "a": "Cambiar el jabón regularmente.",
+      "b": "Usar jabón antimicrobiano.",
+      "c": "Rellenar un dispensador parcialmente vacío.",
+      "d": "Limpiar el dispensador antes de llenarlo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 487,
+    "Question": "❓FFM.-¿Qué responsabilidad tiene la administración en cuanto a la higiene de manos?",
+    "Options": {
+      "a": "Hacer de la higiene de manos una prioridad institucional.",
+      "b": "Dejar a cada trabajador elegir su método de limpieza.",
+      "c": "Asignar supervisores para cada área del hospital.",
+      "d": "Limitar el uso de productos de higiene."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 488,
+    "Question": "❓FFM.-¿Cuál de los siguientes métodos se usa para medir la higiene de manos en el personal sanitario?",
+    "Options": {
+      "a": "Observación directa.",
+      "b": "Control de temperatura.",
+      "c": "Pruebas de laboratorio.",
+      "d": "Encuestas a pacientes."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 489,
+    "Question": "❓FFM.-¿Cuándo se recomienda evitar el uso de guantes en el hospital?",
+    "Options": {
+      "a": "Al realizar una intervención quirúrgica.",
+      "b": "Al atender pacientes con infecciones.",
+      "c": "En situaciones no recomendadas.",
+      "d": "Al tratar heridas abiertas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 490,
+    "Question": "❓FFM.-¿Qué acción se debe tomar después de quitarse los guantes?",
+    "Options": {
+      "a": "Lavarse solo si se tocó sangre.",
+      "b": "Secar los guantes y reutilizarlos.",
+      "c": "Guardarlos para su próximo uso.",
+      "d": "Descontaminar las manos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 491,
+    "Question": "❓FFM.-¿Qué se recomienda proporcionar al personal para mejorar la adhesión a la higiene de manos?",
+    "Options": {
+      "a": "Guantes de látex para cada paciente.",
+      "b": "Supervisores en cada área.",
+      "c": "Gafas protectoras.",
+      "d": "Soluciones alcohólicas accesibles para la higiene de manos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 492,
+    "Question": "❓FFM.-¿Dónde deben almacenarse las soluciones alcohólicas para higiene de manos?",
+    "Options": {
+      "a": "En cualquier lugar del hospital.",
+      "b": "En áreas aprobadas para productos inflamables.",
+      "c": "En la cocina del hospital.",
+      "d": "En los baños de los pacientes."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 493,
+    "Question": "❓FFM.-¿Qué método de higiene de manos es parte de las recomendaciones para el personal sanitario?",
+    "Options": {
+      "a": "Uso de solución hidroalcohólica en áreas de alta presión asistencial.",
+      "b": "Solo lavarse las manos con agua.",
+      "c": "Uso de guantes al interactuar con otros trabajadores.",
+      "d": "Uso de toallitas de papel en áreas de pacientes."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 494,
+    "Question": "❓FFM.-¿Qué práctica no está recomendada con respecto al uso de guantes?",
+    "Options": {
+      "a": "Desecharlos después de usarlos.",
+      "b": "Cambiarlos entre pacientes.",
+      "c": "Lavarlos para reutilizarlos entre pacientes.",
+      "d": "Usarlos en contacto con mucosas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 495,
+    "Question": "❓FFM.-¿Qué acción se debe tomar para minimizar la dermatitis de contacto entre el personal?",
+    "Options": {
+      "a": "Usar guantes en todo momento.",
+      "b": "Proporcionar lociones y cremas de manos.",
+      "c": "Evitar el uso de jabón antimicrobiano.",
+      "d": "Limitar el tiempo de contacto con pacientes."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 496,
+    "Question": "❓FFM.-¿Qué se entiende por agresión a los profesionales del SAS?",
+    "Options": {
+      "a": "Solo la violencia física ejercida en el centro de trabajo.",
+      "b": "Todo acto que implique violencia física o verbal grave en el ejercicio de sus funciones o como consecuencia de ellas.",
+      "c": "Todo acto de violencia física, insultos graves, amenazas, acoso o coacción hacia el profesional en su labor.",
+      "d": "La falta de respeto leve en el entorno laboral."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 497,
+    "Question": "❓FFM.-¿Qué principio asegura que las acciones del plan abarquen todos los niveles, profesionales y ámbitos necesarios?",
+    "Options": {
+      "a": "Integralidad.",
+      "b": "Coordinación.",
+      "c": "Orientación de servicio.",
+      "d": "Mejora continua."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 498,
+    "Question": "❓FFM.-¿Cuál es el objetivo principal del plan de formación incluido en las medidas de prevención?",
+    "Options": {
+      "a": "Realizar simulacros de agresión en los centros sanitarios.",
+      "b": "Mejorar las competencias en el trato con pacientes en situaciones conflictivas.",
+      "c": "Entrenar habilidades básicas para una atención eficaz en situaciones difíciles.",
+      "d": "Facilitar acceso a materiales educativos sobre salud y bienestar."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 499,
+    "Question": "❓FFM.-¿Cuál de las siguientes es una medida de seguridad pasiva según el plan?",
+    "Options": {
+      "a": "Contratar un equipo de seguridad para los centros sanitarios.",
+      "b": "Realizar sesiones informativas para el personal.",
+      "c": "Hacer campañas de concienciación sobre agresiones.",
+      "d": "Colocar dispositivos de alarma en consultas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 500,
+    "Question": "❓FFM.-¿Qué objetivo persiguen las medidas de coordinación en el plan contra agresiones?",
+    "Options": {
+      "a": "Asegurar una respuesta eficaz a las agresiones.",
+      "b": "Promover el respeto mutuo en la relación profesional-usuario.",
+      "c": "Evitar la denuncia de los casos de agresión.",
+      "d": "Delegar las funciones de prevención en la seguridad privada."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 501,
+    "Question": "❓FFM.-¿Qué talleres incluirá el plan de formación?",
+    "Options": {
+      "a": "Simulacros de evacuación.",
+      "b": "Talleres de habilidades de comunicación en situaciones difíciles.",
+      "c": "Entrenamiento en primeros auxilios.",
+      "d": "Talleres de ergonomía y salud física."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 502,
+    "Question": "❓FFM.-¿Qué principio del plan destaca la necesidad de mejorar continuamente los procedimientos?",
+    "Options": {
+      "a": "Coordinación.",
+      "b": "Integralidad.",
+      "c": "Adecuación de infraestructuras.",
+      "d": "Mejora continua."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 503,
+    "Question": "❓FFM.-¿Qué se recomienda cuando una visita domiciliaria representa un riesgo para el profesional?",
+    "Options": {
+      "a": "Aplicar medidas que reduzcan la exposición a situaciones conflictivas.",
+      "b": "Realizar la visita sin compañía.",
+      "c": "Omitir la visita domiciliaria.",
+      "d": "Dejar al profesional solo en la residencia."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 504,
+    "Question": "❓FFM.-¿Qué establece el plan en relación con la contratación de empresas de seguridad?",
+    "Options": {
+      "a": "Delega en las empresas la responsabilidad total de seguridad.",
+      "b": "Requiere estándares claros y detallados en los contratos de seguridad.",
+      "c": "Elimina la necesidad de empresas de seguridad en zonas de bajo riesgo.",
+      "d": "Solicita la presencia de un guardia solo en horario nocturno."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 505,
+    "Question": "❓FFM.-¿Cuál de los siguientes principios prioriza el respeto a los derechos de los ciudadanos?",
+    "Options": {
+      "a": "Integralidad.",
+      "b": "Respeto hacia los derechos de los ciudadanos.",
+      "c": "Mejora continua.",
+      "d": "Coordinación."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 506,
+    "Question": "❓FFM.-¿Qué debe hacer un profesional agredido tras el incidente?",
+    "Options": {
+      "a": "Llamar a un familiar para denunciar la situación.",
+      "b": "Completar un informe psicológico con un especialista.",
+      "c": "Informar al responsable del centro sobre la agresión.",
+      "d": "Evitar mencionar el incidente para no incomodar al agresor."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 507,
+    "Question": "❓FFM.-¿Qué valoran los responsables del centro al recibir la notificación de agresión?",
+    "Options": {
+      "a": "Si la agresión justifica el traslado del profesional a otro centro.",
+      "b": "Si el profesional agredido desea retirarse del lugar.",
+      "c": "La asistencia jurídica obligatoria para todos los implicados.",
+      "d": "La gravedad del hecho para decidir su presencia física o telefónica."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 508,
+    "Question": "❓FFM.-¿Cuál es el propósito de la “Guía de Orientación Jurídica” para los profesionales agredidos?",
+    "Options": {
+      "a": "Asesorarles en acciones legales tras un incidente de agresión.",
+      "b": "Indicar la sanción que debe imponerse al agresor.",
+      "c": "Proporcionar apoyo psicológico inmediato.",
+      "d": "Determinar la gravedad de las lesiones del profesional."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 509,
+    "Question": "❓FFM.-¿Qué medidas se toman ante situaciones conflictivas en domicilios de zonas con necesidades de transformación social?",
+    "Options": {
+      "a": "Se recomiendan acciones que minimicen la exposición a riesgos.",
+      "b": "Se prohíben todas las visitas domiciliarias.",
+      "c": "Se establece un equipo médico extra en cada visita.",
+      "d": "No se implementan medidas especiales para estas zonas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 510,
+    "Question": "❓FFM.-¿Qué se prioriza en los programas de conciliación laboral para un profesional agredido?",
+    "Options": {
+      "a": "Asegurar un diagnóstico médico detallado de sus lesiones.",
+      "b": "Facilitar la renuncia del profesional sin consecuencias.",
+      "c": "Coordinar el traslado inmediato al hospital.",
+      "d": "Proponer su adscripción temporal a otro centro, si es necesario."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 511,
+    "Question": "❓FFM.-¿Qué actitud refleja el principio de competencia profesional, según Kane (1992)?",
+    "Options": {
+      "a": "Aplicar solo los conocimientos básicos en la profesión.",
+      "b": "Utilizar conocimientos, habilidades y buen juicio en todas las situaciones.",
+      "c": "Evitar decisiones críticas en situaciones difíciles.",
+      "d": "Basarse únicamente en habilidades personales, sin experiencia previa."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 512,
+    "Question": "❓FFM.-¿Qué acción debe tomar un profesional del SSPA ante una situación de agresión en la que no haya vigilante de seguridad disponible?",
+    "Options": {
+      "a": "Intentar calmar al agresor solo.",
+      "b": "Dirigirse a un lugar seguro inmediatamente.",
+      "c": "Solicitar la ayuda de un compañero cercano.",
+      "d": "Llamar directamente a las fuerzas de seguridad."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 513,
+    "Question": "❓FFM.-¿Qué acción debe realizar un profesional tras finalizar una situación de agresión en un centro del SSPA?",
+    "Options": {
+      "a": "Notificar el hecho al responsable del centro.",
+      "b": "Abandonar el lugar de trabajo.",
+      "c": "Comunicarse directamente con los cuerpos de seguridad.",
+      "d": "Llenar la hoja de registro de agresiones."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 514,
+    "Question": "❓FFM.-¿Qué ocurre si en una agresión a un profesional se identifican lesiones?",
+    "Options": {
+      "a": "Se procede directamente a la denuncia ante el juzgado.",
+      "b": "Se solicita apoyo psicológico inmediato.",
+      "c": "Se emite un parte de lesiones.",
+      "d": "Se comunica al responsable del centro."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 515,
+    "Question": "❓FFM.-¿Cuál es el propósito de la hoja de registro de agresiones en el SSPA?",
+    "Options": {
+      "a": "Solicitar apoyo psicológico para el profesional.",
+      "b": "Identificar al responsable del centro.",
+      "c": "Registrar el incidente para la Unidad de Prevención de Riesgos Laborales.",
+      "d": "Notificar el hecho a las fuerzas de seguridad."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 516,
+    "Question": "❓FFM.-¿Qué acción debe llevar a cabo la Unidad de Prevención de Riesgos Laborales tras recibir la notificación de una agresión?",
+    "Options": {
+      "a": "Notificar a la Subdirección de Asesoría Jurídica.",
+      "b": "Ofrecer al profesional una guía de orientación jurídica.",
+      "c": "Elaborar un manifiesto de rechazo de la agresión.",
+      "d": "Contactar con el profesional el primer día hábil posterior al incidente."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 517,
+    "Question": "❓FFM.-¿En qué situación se ofrece asesoramiento jurídico a un profesional agredido?",
+    "Options": {
+      "a": "Solo si el profesional tiene lesiones graves.",
+      "b": "Si el profesional decide no denunciar el incidente.",
+      "c": "Cuando el profesional decide denunciar el incidente.",
+      "d": "En cualquier situación, independientemente de la decisión del profesional."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 518,
+    "Question": "❓FFM.-¿Cuál es el propósito de un manifiesto de rechazo de la agresión?",
+    "Options": {
+      "a": "Comunicar la situación a los cuerpos de seguridad.",
+      "b": "Notificar el incidente a la Subdirección de Asesoría Jurídica.",
+      "c": "Lamentar el daño y rechazar la violencia en el centro.",
+      "d": "Determinar la responsabilidad del agresor."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 519,
+    "Question": "❓FFM.-¿Qué requisito es necesario para que la Asesoría Jurídica represente a un profesional agredido en juicio?",
+    "Options": {
+      "a": "Que el profesional realice una declaración jurada.",
+      "b": "Que el profesional presente una solicitud de asistencia legal.",
+      "c": "Que el centro lo notifique de inmediato al juzgado.",
+      "d": "Que el responsable del centro apruebe la solicitud."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 520,
+    "Question": "❓FFM.-¿Cuál es uno de los factores que puede generar situaciones violentas en el ámbito sanitario?",
+    "Options": {
+      "a": "La falta de acceso a servicios jurídicos.",
+      "b": "La escasez de servicios de seguridad.",
+      "c": "La frustración por no satisfacer expectativas.",
+      "d": "La alta disponibilidad de recursos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 521,
+    "Question": "❓FFM.-¿Qué característica describe el perfil de un potencial agresor en centros sanitarios?",
+    "Options": {
+      "a": "Baja resistencia a la frustración.",
+      "b": "Alta competencia social.",
+      "c": "Elevada estabilidad emocional.",
+      "d": "Actitud colaborativa."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 522,
+    "Question": "❓FFM.-¿Qué competencia contribuye a que los profesionales enfrenten mejor situaciones de tensión?",
+    "Options": {
+      "a": "Confianza en la organización.",
+      "b": "Autocontrol emocional.",
+      "c": "Habilidades de comunicación escrita.",
+      "d": "Persuasión en situaciones conflictivas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 523,
+    "Question": "❓FFM.-¿Cuál de los siguientes aspectos es fundamental para la prevención de la violencia en el ámbito sanitario?",
+    "Options": {
+      "a": "Controlar la información al paciente.",
+      "b": "Incrementar los plazos de consulta.",
+      "c": "Entrenar competencias específicas de los profesionales.",
+      "d": "Disminuir el acceso de pacientes al centro."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 524,
+    "Question": "❓FFM.-Según Kane (1992), ¿cómo define la competencia profesional?",
+    "Options": {
+      "a": "Como el conocimiento profundo de las leyes de salud.",
+      "b": "Como el nivel de autoridad en el centro.",
+      "c": "Como el uso adecuado de conocimientos, habilidades y juicio en la práctica.",
+      "d": "Como la capacidad de resolver conflictos con rapidez."
+    },
+    "CorrectOption": "c"
+  }
+]
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+  
+
+  
