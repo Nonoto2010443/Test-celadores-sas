@@ -94,6 +94,31 @@ class UserStats(BaseModel):
     total_en_blanco: int
     tiempo_promedio_minutos: float
 
+# Subscription Models
+class CreateCheckoutRequest(BaseModel):
+    """Request to create a checkout session"""
+    origin_url: str = Field(..., description="Frontend origin URL")
+
+class PaymentTransaction(BaseModel):
+    """Payment transaction record"""
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    user_id: str
+    user_email: str
+    session_id: str
+    amount: float
+    currency: str
+    payment_status: str  # initiated, paid, failed, expired
+    subscription_status: str  # active, inactive, cancelled
+    created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    updated_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    metadata: Optional[Dict[str, str]] = None
+
+# Subscription configuration
+MONTHLY_SUBSCRIPTION_PRICE = 9.99  # EUR per month
+SUBSCRIPTION_CURRENCY = "eur"
+
+# Initialize Stripe (will be done in endpoints with base_url)
+
 # Helper function to generate questions with AI
 async def generate_questions_with_ai(num_questions: int = 7, tema_tipo: str = None) -> List[Question]:
     """Generate exam questions using OpenAI via EmergentIntegrations"""
