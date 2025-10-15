@@ -67,7 +67,7 @@ def procesar_pregunta_json(pregunta_json, tema, origen):
         'respuesta_correcta': respuesta_index,
         'examen_origen': f'Test JSON - {origen}',
         'tema': tema,
-        'numero_pregunta': pregunta_json['Id'],
+        'numero_pregunta': pregunta_id,
         'fecha_importacion': datetime.utcnow()
     }
 
