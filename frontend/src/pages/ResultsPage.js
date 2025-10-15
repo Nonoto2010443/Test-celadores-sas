@@ -171,39 +171,6 @@ const ResultsPage = () => {
                       }`}
                       data-testid={`question-review-${index}`}
                     >
-                      {/* Header con resultado */}
-                      <div className="flex items-center justify-between mb-4 pb-3 border-b-2">
-                        <div className="flex items-center gap-3">
-                          {isUnanswered ? (
-                            <>
-                              <div className="w-10 h-10 rounded-full bg-slate-300 flex items-center justify-center">
-                                <span className="text-slate-700 font-bold text-lg">?</span>
-                              </div>
-                              <div>
-                                <p className="font-bold text-slate-700">Pregunta {index + 1}</p>
-                                <p className="text-sm text-slate-600">Sin responder</p>
-                              </div>
-                            </>
-                          ) : isCorrect ? (
-                            <>
-                              <CheckCircle2 className="h-10 w-10 text-green-600" />
-                              <div>
-                                <p className="font-bold text-green-700">Pregunta {index + 1} - ¡CORRECTA!</p>
-                                <p className="text-sm text-green-600">Has acertado la respuesta</p>
-                              </div>
-                            </>
-                          ) : (
-                            <>
-                              <XCircle className="h-10 w-10 text-red-600" />
-                              <div>
-                                <p className="font-bold text-red-700">Pregunta {index + 1} - INCORRECTA</p>
-                                <p className="text-sm text-red-600">Tu respuesta no es correcta</p>
-                              </div>
-                            </>
-                          )}
-                        </div>
-                      </div>
-
                       {/* Pregunta */}
                       <p className="font-semibold text-lg text-slate-900 mb-4">{pregunta.texto}</p>
                       
