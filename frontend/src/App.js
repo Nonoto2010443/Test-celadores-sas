@@ -1,19 +1,48 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import '@/App.css';
-import Home from '@/pages/Home';
-import ExamPage from '@/pages/ExamPage';
-import ResultsPage from '@/pages/ResultsPage';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { AuthProvider } from './contexts/AuthContext';
+import ProtectedRoute from './components/ProtectedRoute';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Dashboard from './pages/Dashboard';
+import ExamPage from './pages/ExamPage';
+import ResultsPage from './pages/ResultsPage';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/exam/:examId" element={<ExamPage />} />
-          <Route path="/results/:resultId" element={<ResultsPage />} />
-        </Routes>
+        <AuthProvider>
+          <Routes>
+            {/* Public routes */}
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            
+            {/* Protected routes */}
+            <Route path="/dashboard" element={
+              <ProtectedRoute>
+                <Dashboard />
+              </ProtectedRoute>
+            } />
+            <Route path="/exam" element={
+              <ProtectedRoute>
+                <ExamPage />
+              </ProtectedRoute>
+            } />
+            <Route path="/results/:resultId" element={
+              <ProtectedRoute>
+                <ResultsPage />
+              </ProtectedRoute>
+            } />
+            
+            {/* Redirect root to dashboard if authenticated, otherwise to login */}
+            <Route path="/" element={<Navigate to="/dashboard" replace />} />
+            
+            {/* Catch all - redirect to dashboard */}
+            <Route path="*" element={<Navigate to="/dashboard" replace />} />
+          </Routes>
+        </AuthProvider>
       </BrowserRouter>
     </div>
   );
