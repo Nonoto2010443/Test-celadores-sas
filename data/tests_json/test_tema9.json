@@ -1,0 +1,4919 @@
+[
+  {
+    "Id": 1,
+    "Question": "❓FFM.-¿Qué término define a cualquier dato que ayuda a conocer o mejorar el estado físico y la salud de una persona?",
+    "Options": {
+      "A": "Documentación clínica",
+      "B": "Historial clínico",
+      "C": "Información clínica",
+      "D": "Ninguna es correcta"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 2,
+    "Question": "❓FFM.-El conjunto de documentos que contienen los datos, valoraciones e informaciones de cualquier índole sobre la situación y la evolución clínica de un paciente a lo largo del proceso asistencial.",
+    "Options": {
+      "A": "Documentación clínica",
+      "B": "Historial clínico",
+      "C": "Información clínica",
+      "D": "Hª.Clinica "
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 3,
+    "Question": "❓FFM.-El soporte de cualquier tipo o clase que contiene un conjunto de datos e informaciones de carácter asistencial.",
+    "Options": {
+      "A": "Hª.Clinica ",
+      "B": "Información clínica",
+      "C": "Documentación clínica",
+      "D": "Historial clínico"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 4,
+    "Question": "❓FFM.-Deben establecer mecanismos que garanticen la autenticidad del contenido de la Hª.Clinica  y de los cambios operados en ella, así como la posibilidad de su reproducción futura.",
+    "Options": {
+      "A": "Los centros sanitarios",
+      "B": "Los servicios sanitarios",
+      "C": "Las administraciones sanitarias",
+      "D": "Comunidades autónomas"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 5,
+    "Question": "❓FFM.-Según la Ley 41/2002,el consentimiento informado se prestará:",
+    "Options": {
+      "A": "En toda actuación en el ámbito de la salud del paciente.",
+      "B": "Sólo en los casos de intervención quirúrgica.",
+      "C": "Sólo en los casos de aplicación de procedimientos que supongan riesgo o un inconveniente de notoria y previsible repercusión negativa sobre la salud del paciente.",
+      "D": "Sólo en los casos de intervención quirúrgica, procedimientos diagnósticos y terapéuticos invasores."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 6,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿cuál es el término correcto para el documento en el que una persona mayor de edad puede dejar por escrito sus deseos sobre futuros tratamientos médicos y el destino de su cuerpo tras el fallecimiento?",
+    "Options": {
+      "A": "Documento de voluntad anticipada.",
+      "B": "Documento de instrucciones previas.",
+      "C": "Testamento vital.",
+      "D": "Todas correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 7,
+    "Question": "❓FFM.-Según la Ley 41/2002,los centros sanitarios tienen la Ob. de conservar la documentación clínica durante un tiempo adecuado como mínimo de:",
+    "Options": {
+      "A": "Cinco años contados desde la fecha del alta de cada proceso asistencial.",
+      "B": "Cinco años contados desde la fecha de la primera visita médica de cada proceso asistencial.",
+      "C": "10 años contados desde la fecha de alta de carácter asistencial.",
+      "D": "10 años contados desde la fecha de la primera visita médica de cada profesor asistencial."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 8,
+    "Question": "❓FFM.-De acuerdo con el art.10 de la Ley 41/2002,el facultativo proporcionará al paciente antes de recabar su consentimiento escrito la información básica siguiente. Indica la incorrecta:",
+    "Options": {
+      "A": "Las consecuencias relevantes o de importancia que la intervención origina con seguridad.",
+      "B": "Los riesgos relacionados con las circunstancias personales o profesionales del paciente.",
+      "C": "Los riesgos imprOb. ables en condiciones normales, conforme a la experiencia y al estado de la ciencia o directamente relacionados con el tipo de intervención.",
+      "D": "Las contraindicaciones."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 9,
+    "Question": "❓FFM.-Ley básica reguladora de la autonomía del paciente y de Dº s y Ob. s.en materia de información y documentación clínica:",
+    "Options": {
+      "A": "14/2002 de 14 de noviembre.",
+      "B": "41/2002 de 14 de noviembre.",
+      "C": "41/2002 de 16 de noviembre.",
+      "D": "14/2006 de 14 de noviembre."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 10,
+    "Question": "❓FFM.-La Hª.Clinica  deberá realizarse bajo criterios de:",
+    "Options": {
+      "A": "Autonomía.",
+      "B": "Claridad y gestión.",
+      "C": "Unidad y autonomía.",
+      "D": "Unidad e integración."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 11,
+    "Question": "❓FFM.-Tienen libre acceso a la Hª.Clinica  del paciente de un centro asistencial:",
+    "Options": {
+      "A": "Los profesionales asistenciales y de gestión y servicios del centro.",
+      "B": "Los profesionales asistenciales del centro.",
+      "C": "Los profesionales asistenciales del centro implicados en el diagnóstico y tratamiento del enfermo.",
+      "D": "El personal asistencial, investigador y docente del centro."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 12,
+    "Question": "❓FFM.-No serán aplicadas las instrucciones previas:",
+    "Options": {
+      "A": "a) Que no se hayan formalizado ante notario.",
+      "B": "b) Que incorporen actuaciones previstas en el ordenamiento jurídico.",
+      "C": "c) Que incorporen previsiones contrarias a la buena práctica clínica.",
+      "D": "d) Que se correspondan exactamente con el supuesto de hecho previsto por el sujeto en el momento de emitirlas."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 13,
+    "Question": "❓FFM.- Según el art.20 del Estatuto de Autonomía de Andalucía:",
+    "Options": {
+      "A": "a) El Dº a declarar la voluntad vital anticipada, que deberá respetarse en los términos que establezca la Ley.",
+      "B": "b) Todas las personas tienen Dº a recibir un adecuado tratamiento del dolor y cuidados paliativos integrales y a la plena dignidad en el proceso de su muerte.",
+      "C": "c) A y b son ciertas.",
+      "D": "d) El Estatuto de Autonomía no dice nada al respecto."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 14,
+    "Question": "❓FFM.-Conforme el art.6 de la Ley 41/2002,la titularidad del Dº a la información epidemiológica corresponde a:",
+    "Options": {
+      "A": "a) El paciente.",
+      "B": "b) El equipo asistencial del doctor Simón.",
+      "C": "c) El ciudadano.",
+      "D": "d) Los medios de comunicación."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 15,
+    "Question": "❓FFM.-El consentimiento del paciente según el art.8 de la Ley 41/2002:",
+    "Options": {
+      "A": "A) Será verbal por regla general y escrito exclusivamente cuando se trate de una intervención quirúrgica.",
+      "B": "B) Será indistintamente verbal o escrito salvo que se trate de procedimientos diagnósticos y terapéuticos.",
+      "C": "C) Será escrito por regla general.",
+      "D": "D) Será verbal por regla general."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 16,
+    "Question": "❓FFM.-¿En cuál de los siguientes casos se otorgará el consentimiento por representación?",
+    "Options": {
+      "A": "A) Cuando el paciente no sea capaz de tomar decisiones.",
+      "B": "B) Cuando exista riesgo inmediato grave para la integridad física del enfermo.",
+      "C": "C) Cuando exista riesgo para la salud pública a causa de razones sanitarias establecidas por la ley.",
+      "D": "D) Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 17,
+    "Question": "❓FFM.-¿A partir de qué edad debe un menor, que no es capaz de comprender una intervención médica, ser consultado sobre su opinión antes de que su representante legal dé el consentimiento?",
+    "Options": {
+      "A": "A) Catorce años cumplidos.",
+      "B": "B) Dieciséis años cumplidos.",
+      "C": "C) Diecisiete años cumplidos y moto.",
+      "D": "D) Doce años cumplidos."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 18,
+    "Question": "❓FFM.-Sólo puede acceder a los datos de la Hª.Clinica  relacionados con sus propias funciones:",
+    "Options": {
+      "A": "a) El personal facultativo.",
+      "B": "b) El personal sanitario debidamente acreditado.",
+      "C": "c) El personal de administración y gestión.",
+      "D": "d) Todos ellos."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 19,
+    "Question": "❓FFM.-La Hª.Clinica  es un instrumento destinado fundamentalmente a:",
+    "Options": {
+      "A": "a) Cumplir la legalidad sociosanitaria.",
+      "B": "b) Realización de los fines clínico-estadísticos.",
+      "C": "c) Fines judiciales, epidemiológicos, de salud pública, de investigación o de docencia.",
+      "D": "d) Garantizar una asistencia sanitaria adecuada al paciente."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 20,
+    "Question": "❓FFM.-No forma parte del contenido mínimo de la Hª.Clinica :",
+    "Options": {
+      "A": "a) La anamnesis.",
+      "B": "b) La zoonosis.",
+      "C": "c) La autorización de ingreso.",
+      "D": "d) La documentación relativa a la hoja clínico-estadística."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 21,
+    "Question": "❓FFM.-¿Cuál de las siguientes afirmaciones es falsa?",
+    "Options": {
+      "A": "a) Los usuarios establecerán los mecanismos que garanticen la autenticidad del contenido de la historia.",
+      "B": "b) Cada centro archivará las historias clínicas de sus pacientes.",
+      "C": "c) En las historias clínicas no sólo se identifica a los médicos sino también a los otros profesionales.",
+      "D": "d) Todas son ciertas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 22,
+    "Question": "❓FFM.-Conforme el art.13 de la Ley 41/2002 los usuarios:",
+    "Options": {
+      "A": "a) Pueden elegir médico en atención primaria pero no en especializada.",
+      "B": "b) Pueden elegir médico en atención especializada pero no en primaria.",
+      "C": "c) Pueden elegir médico en atención primaria y especializada pero no centro.",
+      "D": "d) Ninguna es correcta."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 23,
+    "Question": "❓FFM.-Los pacientes y usuarios del sistema andaluz de salud tendrán Dº a:",
+    "Options": {
+      "A": "a) Acceder a todas las prestaciones del sistema.",
+      "B": "b) A libre elección de médico y centro sanitario.",
+      "C": "c) La información sobre los servicios y prestaciones del sistema, así como de los Dº s que les asisten.",
+      "D": "d) Todas las respuestas son ciertas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 24,
+    "Question": "❓FFM.-La renuncia del paciente a recibir información:",
+    "Options": {
+      "A": "No se reconoce por la ley.",
+      "B": "Está limitada por el interés de la salud del propio paciente.",
+      "C": "No está limitada por el interés de la salud de terceros.",
+      "D": "Ninguna de la anteriores es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 25,
+    "Question": "❓FFM.-La ley 41/2002,establece que como regla general el consentimiento se manifestará en forma:",
+    "Options": {
+      "A": "Documental.",
+      "B": "Ante testigos.",
+      "C": "Escrita.",
+      "D": "Verbal."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 26,
+    "Question": "❓FFM.-El consentimiento informado se prestará por escrito en los siguientes casos:",
+    "Options": {
+      "A": "a) Intervención quirúrgica.",
+      "B": "b) Procedimientos diagnósticos y terapéuticos invasores.",
+      "C": "c) En general, aplicación de procedimientos que suponen riesgos o inconvenientes de notoria y previsible repercusión negativa sobre la salud del paciente.",
+      "D": "d) En todos los casos anteriores."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 27,
+    "Question": "❓FFM.-Si un paciente no es capaz de dar su consentimiento informado y carece de representante legal, ¿quién debe dar el consentimiento por él?",
+    "Options": {
+      "A": "a) El consentimiento lo prestarán las personas vinculadas a él por razones familiares o de hecho.",
+      "B": "b) El consentimiento no se prestará.",
+      "C": "c) Tendrán en ese mismo acto que nombrar representante legal.",
+      "D": "d) El médico es quien de forma personal lo decida."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 28,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿a qué principio fundamental corresponde la directriz de respetar la dignidad, autonomía e intimidad de las personas al manejar su información clínica?",
+    "Options": {
+      "A": "a) Su ámbito de aplicación.",
+      "B": "b) Uno de sus principios básicos.",
+      "C": "c) Un criterio de participación.",
+      "D": "d) Un Dº de participación."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 29,
+    "Question": "❓FFM.-¿Qué aspecto de la Ley 41/2002 está definido por la regulación de los Dº s y Ob. s.de pacientes, usuarios, profesionales y centros sanitarios, en lo referente a la autonomía del paciente y la información clínica?",
+    "Options": {
+      "A": "a) Su ámbito de aplicación.",
+      "B": "b) Uno de sus principios básicos.",
+      "C": "c) Un criterio de participación.",
+      "D": "d) Un valor superior."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 30,
+    "Question": "❓FFM.-Conforme la Ley 41/2002 ¿puede negarse un paciente al tratamiento?",
+    "Options": {
+      "A": "a) No, no tiene Dº .",
+      "B": "b) No, excepto que lo haga por escrito.",
+      "C": "c) Sí, en todo caso.",
+      "D": "d) Sí, salvo en los casos determinados por la ley."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 31,
+    "Question": "❓FFM.-Conforme la Ley 41/2002 la declaración escrita de un médico que da fe del estado de salud de una persona en un determinado momento es:",
+    "Options": {
+      "A": "a) Un documento clínico.",
+      "B": "b) Una Hª.Clinica .",
+      "C": "c) Un certificado médico.",
+      "D": "d) Un servicio sanitario."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 32,
+    "Question": "❓FFM.-Según la Ley 41/2002,la persona que utiliza los servicios sanitarios de educación y promoción de la salud, de prevención de enfermedades y de información sanitaria es:",
+    "Options": {
+      "A": "a) Ciudadano.",
+      "B": "b) Paciente.",
+      "C": "c) Usuario.",
+      "D": "d) Una persona rara."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 33,
+    "Question": "❓FFM.-Según el art.2 de la Ley 41/2002 ¿Qué orientará toda la actividad encaminada a obtener, utilizar, archivar, custodiar y transmitir la información y la documentación clínica?",
+    "Options": {
+      "A": "a) La dignidad de la persona humana.",
+      "B": "b) El respeto a la autonomía de su voluntad.",
+      "C": "c) El respeto a su intimidad.",
+      "D": "d) Todas las respuestas son ciertas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 34,
+    "Question": "❓FFM.-Las instrucciones previas podrán revocarse:",
+    "Options": {
+      "A": "a) En los casos que marca la ley exclusivamente.",
+      "B": "b) Libremente en cualquier momento dejando constancia por escrito.",
+      "C": "c) Libremente en cualquier momento de forma verbal o escrita.",
+      "D": "d) Ninguna de las respuestas anteriores es cierta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 35,
+    "Question": "❓FFM.- La propiedad de la Hª.Clinica  corresponde a:",
+    "Options": {
+      "A": "a) Al médico que realiza la actuación sanitaria.",
+      "B": "b) Al médico que realiza la atención sanitaria cuando éste trabaja por cuenta ajena.",
+      "C": "c) A la Administración sanitaria o entidad titular del centro sanitario.",
+      "D": "d) Ninguna respuesta es correcta."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 36,
+    "Question": "❓FFM.-Los profesionales sanitarios, además de las Ob. s.señaladas en materia de información clínica, tienen el deber de:",
+    "Options": {
+      "A": "a) Los profesionales deben documentar los procedimientos clínicos en los que participan.",
+      "B": "b) Los profesionales también deben documentar lo requerido por las autoridades sanitarias para investigación y epidemiología.",
+      "C": "c) A y b son ciertas.",
+      "D": "d) Ninguna de las respuestas es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 37,
+    "Question": "❓FFM.-¿Qué rango normativo tiene la disposición legal 183/2004, de 30 de enero, que regula la tarjeta sanitaria individual?",
+    "Options": {
+      "A": "Decreto",
+      "B": "Decreto ley",
+      "C": "Real decreto",
+      "D": "Esta ley no existe"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 38,
+    "Question": "❓FFM.-¿Qué derecho fundamental de la Ley 41/2002 se manifiesta al reconocer legalmente los deseos expresados en un documento de instrucciones previas?",
+    "Options": {
+      "A": "A la información sanitaria.",
+      "B": "A la segunda opinión.",
+      "C": "A la autonomía del paciente.",
+      "D": "A la información post-mortem."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 39,
+    "Question": "❓FFM.-Indique la proposición incorrecta en relación con los requisitos del consentimiento:",
+    "Options": {
+      "A": "a) Debe ser libre.",
+      "B": "b) Debe ser voluntario.",
+      "C": "c) La persona que lo presta debe tener capacidad para conocer, comprender y querer el alcance de su decisión.",
+      "D": "d) La decisión de consentir debe anteceder a una información adecuada."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 40,
+    "Question": "❓FFM.-Según establece la Ley 41/2002,,, el paciente o usuario tiene Dº a decidir libremente entre las opciones clínicas disponibles después de recibir información:",
+    "Options": {
+      "A": "Completa.",
+      "B": "Escrita.",
+      "C": "Adecuada.",
+      "D": "Documental."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 41,
+    "Question": "❓FFM.-Uno de los fundamentos éticos del consentimiento informado es el principio de autonomía. En aplicación del mismo el profesional sanitario tiene el deber de:",
+    "Options": {
+      "A": "Actuar sin discriminación.",
+      "B": "Evitar el mal del paciente.",
+      "C": "Hacer el bien del paciente.",
+      "D": "Respetar la libre determinación del paciente."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 42,
+    "Question": "❓FFM.-El paciente tiene Dº a revocar libremente su consentimiento:",
+    "Options": {
+      "A": "Hasta la entrada en quirófano.",
+      "B": "En cualquier momento.",
+      "C": "En la visita médica anterior a la realización del procedimiento.",
+      "D": "Sólo en procedimientos de alto riesgo."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 43,
+    "Question": "❓FFM.-Señale la respuesta correcta:",
+    "Options": {
+      "A": "a) La Tarjeta Sanitaria es el documento que identifica individualmente a los usuarios ante el SSPA.",
+      "B": "b) Cada persona, independientemente de su edad, debe disponer de su tarjeta sanitaria individual.",
+      "C": "c) Es importante que los niños tengan su propia tarjeta, desde el nacimiento.",
+      "D": "d) Todas las respuestas anteriores son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 44,
+    "Question": "❓FFM.-La tarjeta sanitaria individual con soporte informático será emitida por:",
+    "Options": {
+      "A": "a) Las administraciones sanitarias autonómicas.",
+      "B": "b) El instituto Nacional de gestión sanitaria.",
+      "C": "c) Ministerio de sanidad, servicios sociales e igualdad.",
+      "D": "d) Son correctas la a) y b)."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 45,
+    "Question": "❓FFM.-La solicitud de asignación de médico de familia puede denegarse:",
+    "Options": {
+      "A": "Cuando no sea conveniente la asignación de más usuarios a un determinado médico.",
+      "B": "Cuando existan razones económicas que lo desaconsejen.",
+      "C": "Cuando no sea conveniente para la salud del paciente.",
+      "D": "No puede denegarse en ningún caso."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 46,
+    "Question": "❓FFM.-La renuncia del paciente a recibir información está limitada:",
+    "Options": {
+      "A": "Por el interés de la salud del paciente o de terceros.",
+      "B": "Por el interés de la salud de la colectividad.",
+      "C": "Por las exigencias terapéuticas del caso.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 47,
+    "Question": "❓FFM.-La gestión de la Hª.Clinica  por los centros con pacientes hospitalizados se realizará a través de:",
+    "Options": {
+      "A": "Cada una de las unidades asistenciales.",
+      "B": "La unidad de admisión y documentación clínica.",
+      "C": "La dirección del centro sanitario.",
+      "D": "Indistintamente por cualquiera de los anteriores."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 48,
+    "Question": "❓FFM.-Según la Ley 41/2002 todo dato, cualquiera que sea su forma, clase o tipo que permite adquirir o mejorar conocimientos sobre el estado físico y la salud de una persona es:",
+    "Options": {
+      "A": "a) Información clínica.",
+      "B": "b) Informe de alta médica.",
+      "C": "c) Hª.Clinica .",
+      "D": "d) Documentación sanitaria."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 49,
+    "Question": "❓FFM.-El documento emitido por el médico responsable en un centro sanitario al finalizar cada proceso asistencial de un paciente es (según Ley 41/2002):",
+    "Options": {
+      "A": "a) Hª.Clinica .",
+      "B": "b) Documentación Sanitaria.",
+      "C": "c) Información Clínica.",
+      "D": "d) Informe de Alta Médica."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 50,
+    "Question": "❓FFM.-La Ley 41/2002 dice sobre el consentimiento informado que corresponde a:",
+    "Options": {
+      "A": "a) El usuario.",
+      "B": "b) El paciente.",
+      "C": "c) El tutor legal supuesto.",
+      "D": "d) Ninguno de ellos."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 51,
+    "Question": "❓FFM.-El soporte de cualquier tipo o clase que contiene un conjunto de datos e informaciones de carácter asistencial es según la Ley 41/2002:",
+    "Options": {
+      "A": "a) Un certificado médico.",
+      "B": "b) Una Hª.Clinica .",
+      "C": "c) Documentación clínica.",
+      "D": "d) Información clínica."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 52,
+    "Question": "❓FFM.-T9 OPE Toda persona tiene Dº a que se respete el carácter confidencial de los datos referentes a su salud, y a que nadie pueda acceder a ellos sin previa autorización amparada por la Ley:",
+    "Options": {
+      "A": "Siempre.",
+      "B": "Nunca.",
+      "C": "Cuando lo solicite por escrito.",
+      "D": "Sólo si se trata de un menor de edad."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 53,
+    "Question": "❓FFM.-El Dº de acceso del paciente a la Hª.Clinica :",
+    "Options": {
+      "A": "a) Puede ejercerse también por representación debidamente acreditada.",
+      "B": "b) Debe ejercerse por representación debidamente acreditada.",
+      "C": "c) El paciente no tiene Dº de acceso a la Hª.Clinica .",
+      "D": "d) Ninguna de las respuestas es cierta."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 54,
+    "Question": "❓FFM.-La Ley 41/2002 del 14 de noviembre, básica reguladora de la autonomía del paciente y de Dº y Ob. s.en materia de información y documentación clínica, recoge el Dº a la información asistencial en el:",
+    "Options": {
+      "A": "art.6.",
+      "B": "art.4.",
+      "C": "art.3.",
+      "D": "art.2."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 55,
+    "Question": "❓FFM.-La Ley 41/2002 de catorce de noviembre, básica reguladora de la autonomía del paciente y de Dº y Ob. s.en materia de información y documentación clínica, recoge el Dº a la intimidad en el:",
+    "Options": {
+      "A": "art.siete.",
+      "B": "art.seis.",
+      "C": "art.cuatro.",
+      "D": "art.dos."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 56,
+    "Question": "❓FFM.-En el anverso impreso en la tarjeta sanitaria no aparece:",
+    "Options": {
+      "A": "Código de identificación de la administración sanitaria emisora de la tarjeta.",
+      "B": "Modalidad de la prestación farmacéutica.",
+      "C": "Código de identificación personal asignado por la administración sanitaria emisora de la tarjeta.",
+      "D": "El rótulo 'Sistema Nacional de Salud de España'."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 57,
+    "Question": "❓FFM.-La presencia en los centros de cartelería con la carta de Dº s y deberes de los usuarios del sistema sanitario público de Andalucía, se debe a:",
+    "Options": {
+      "A": "Un compromiso social de la organización sanitaria.",
+      "B": "Un método homologado de identificación corporativa.",
+      "C": "A un mandato legal.",
+      "D": "Todas las respuestas anteriores son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 58,
+    "Question": "❓FFM.-Los centros sanitarios tienen la Ob. de conservar la documentación clínica durante un tiempo como mínimo, desde la fecha del alta de cada proceso asistencial de:",
+    "Options": {
+      "A": "Tres años.",
+      "B": "Cinco años.",
+      "C": "Diez años.",
+      "D": "Indefinidamente."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 59,
+    "Question": "❓FFM.-La Hª.Clinica  incorporará la información que se considere trascendental sobre los procesos asistenciales del paciente:",
+    "Options": {
+      "A": "En el ámbito de la atención primaria.",
+      "B": "En el ámbito de la atención especializada.",
+      "C": "En ninguno de los anteriores.",
+      "D": "Tanto en el ámbito de la atención primaria como en el de la especializada."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 60,
+    "Question": "❓FFM.-Respecto a la Hª.Clinica , señale la respuesta correcta:",
+    "Options": {
+      "A": "El paciente tiene el Dº de acceso a la documentación de la Hª.Clinica .",
+      "B": "El paciente puede obtener copia de los datos que figuran en ella.",
+      "C": "Los centros sanitarios regularán el procedimiento que garantice la Ob. servancia de estos Dº s.",
+      "D": "Todas las respuestas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 61,
+    "Question": "❓FFM.-En la legislación sanitaria española, el consentimiento escrito del paciente:",
+    "Options": {
+      "A": "Es una exigencia legal.",
+      "B": "Es conveniente.",
+      "C": "No es necesario.",
+      "D": "Es Ob. ligatorio en determinados casos."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 62,
+    "Question": "❓FFM.-Según el art.9 de la Ley General Sanitaria, los poderes públicos deberán informar a los usuarios de:",
+    "Options": {
+      "A": "Los servicios del sistema sanitario público, o vinculados a él.",
+      "B": "De sus Dº s.",
+      "C": "De sus deberes.",
+      "D": "De todo lo anterior."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 63,
+    "Question": "❓FFM.-El conjunto de los documentos relativos a los procesos asistenciales de cada paciente, con la identificación de los médicos y los demás profesionales que han intervenido en ellos, hace referencia a:",
+    "Options": {
+      "A": "Hª.Clinica .",
+      "B": "Instrumentos de atención sanitaria.",
+      "C": "Circuitos de comunicación.",
+      "D": "Patrones de salud."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 64,
+    "Question": "❓FFM.-El consentimiento informado:",
+    "Options": {
+      "A": "Tiene que ser escrito.",
+      "B": "Puede verse limitado.",
+      "C": "Por su naturaleza, es limitado.",
+      "D": "No hay norma estatal que lo regule."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 65,
+    "Question": "❓FFM.-La persona que requiere asistencia sanitaria y está sometida a cuidados profesionales para el mantenimiento o recuperación de su salud, se denomina:",
+    "Options": {
+      "A": "Paciente.",
+      "B": "Enfermo.",
+      "C": "Cliente.",
+      "D": "Usuario."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 66,
+    "Question": "❓FFM.-Uno de estos Dº s no se contempla en la Ley 41/2002:",
+    "Options": {
+      "A": "El Dº a la información asistencial.",
+      "B": "El Dº a la gratuidad de la prestación asistencial.",
+      "C": "El Dº a la información Epidemiológica.",
+      "D": "El Dº a la intimidad."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 67,
+    "Question": "❓FFM.-¿Cuál es el término que designa el conjunto completo y glOb. al de todos los datos, valoraciones e informes sobre la salud y los procesos asistenciales de un paciente?",
+    "Options": {
+      "A": "Hª.Clinica .",
+      "B": "Informe médico.",
+      "C": "Documentación clínica.",
+      "D": "Información clínica."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 68,
+    "Question": "❓FFM.-En caso de la no aceptación del tratamiento prescrito, la dirección del centro, a propuesta del médico responsable, el paciente recibirá el alta forzosa cuando:",
+    "Options": {
+      "A": "Siempre.",
+      "B": "Cuando no firme el alta voluntaria.",
+      "C": "Cuando no firme el alta voluntaria, no exista tratamiento alternativo, aunque sea paliativo.",
+      "D": "En ningún caso el paciente podrá recibir el alta forzosa."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 69,
+    "Question": "❓FFM.-El consentimiento informado es:",
+    "Options": {
+      "A": "La autorización del médico para aplicar un tratamiento.",
+      "B": "El formulario previo a cualquier actuación sanitaria.",
+      "C": "La expresión de conformidad del médico para aplicar el tratamiento según criterio profesional.",
+      "D": "La conformidad del paciente para que tenga lugar una actuación que afecte a su salud."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 70,
+    "Question": "❓FFM.-El consentimiento informado debe contener como mínimo información sobre:",
+    "Options": {
+      "A": "La finalidad y naturaleza de la intervención, riesgos y consecuencias más frecuentes.",
+      "B": "Naturaleza de la intervención y riesgos.",
+      "C": "Finalidad, riesgos y consecuencias.",
+      "D": "Finalidad y riesgos."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 71,
+    "Question": "❓FFM.-Son fines fundamentales de la Hª.Clinica , conforme a la Ley 41/2002:",
+    "Options": {
+      "A": "Garantizar una asistencia adecuada al paciente.",
+      "B": "La investigación.",
+      "C": "La docencia.",
+      "D": "Todas las respuestas anteriores son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 72,
+    "Question": "❓FFM.-La conformidad del paciente a que se refiere el consentimiento informado será:",
+    "Options": {
+      "A": "Libre, voluntaria y por escrito.",
+      "B": "Libre y voluntaria.",
+      "C": "Voluntaria e inconsciente.",
+      "D": "Meticulosa, libre y voluntaria."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 73,
+    "Question": "❓FFM.-El titular del Dº a la información asistencial es:",
+    "Options": {
+      "A": "El paciente.",
+      "B": "El paciente y sus familiares.",
+      "C": "El heredero legítimo del paciente.",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 74,
+    "Question": "❓FFM.-Ha de constar siempre por escrito:",
+    "Options": {
+      "A": "La información al paciente.",
+      "B": "El consentimiento informado.",
+      "C": "La aceptación del tratamiento.",
+      "D": "La negativa al tratamiento."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 75,
+    "Question": "❓FFM.-El Dº a la información asistencial como se proporcionará como regla general:",
+    "Options": {
+      "A": "Verbalmente, dejando constancia en la Hª.Clinica .",
+      "B": "Por escrito, dejando constancia en la Hª.Clinica .",
+      "C": "Por escrito, sin ser necesario dejar constancia en la Hª.Clinica .",
+      "D": "Por escrito o verbalmente, dejando constancia en la Hª.Clinica ."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 76,
+    "Question": "❓FFM.-El contenido mínimo de la Hª.Clinica  incluye:",
+    "Options": {
+      "A": "El informe de urgencias.",
+      "B": "La hoja de interconsulta.",
+      "C": "El informe de anatomía patológica.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 77,
+    "Question": "❓FFM.-¿Reconoce el Estatuto de Autonomía para Andalucía el Dº a declarar la voluntad vital anticipada?",
+    "Options": {
+      "A": "Sí, pero lo condiciona al desarrollo de una ley orgánica.",
+      "B": "No lo reconoce.",
+      "C": "Sí, y ésta deberá respetarse, en los términos que establezca la ley.",
+      "D": "No, solo reconoce el Dº a recibir un tratamiento del dolor y cuidados paliativos integrales."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 78,
+    "Question": "❓FFM.-¿Cuál es la definición legal de un certificado médico?",
+    "Options": {
+      "A": "Declaración verbal de un médico sobre el estado de salud de una persona.",
+      "B": "Declaración escrita de un médico sobre el estado de salud de una persona.",
+      "C": "Declaración verbal o escrita de un médico sobre el estado de salud de una persona.",
+      "D": "Todas son incorrectas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 79,
+    "Question": "❓FFM.-El Dº del paciente a no ser informado:",
+    "Options": {
+      "A": "Solo podrá ejercitarse si el paciente designa un familiar u otra persona para darle la información.",
+      "B": "Podrá restringirse en cualquier momento.",
+      "C": "Podrá restringirse cuando sea estrictamente necesario en beneficio del paciente.",
+      "D": "No está reconocido por la ley."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 80,
+    "Question": "❓FFM.-La Hª.Clinica  deberá realizarse bajo criterios de:",
+    "Options": {
+      "A": "Claridad y gestión.",
+      "B": "Unidad e integración.",
+      "C": "Autonomía.",
+      "D": "Garantía de acceso en soporte informático."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 81,
+    "Question": "❓FFM.-La Ley 41/2002,,, establece que como norma general, el consentimiento se manifestará en forma:",
+    "Options": {
+      "A": "Verbal.",
+      "B": "Escrita.",
+      "C": "Ante testigos.",
+      "D": "Documental."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 82,
+    "Question": "❓FFM.-La Ley 41/2002,de 14 de noviembre, tiene por objeto, según el art.1, la regulación de los Dº s y Ob. s.de:",
+    "Options": {
+      "A": "Usuarios.",
+      "B": "Profesionales.",
+      "C": "Pacientes.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 83,
+    "Question": "❓FFM.-Forman parte del contenido mínimo de la Hª.Clinica  (señale la incorrecta):",
+    "Options": {
+      "A": "El consentimiento informado.",
+      "B": "La anamnesis y la Hª.Clinica .",
+      "C": "Los informes de exploraciones complementarias.",
+      "D": "El informe de hemodinámica."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 84,
+    "Question": "❓FFM.-¿Qué entidad es responsable de aprOb. ar las normativas para el archivo y protección de las historias clínicas en los centros sanitarios?",
+    "Options": {
+      "A": "El Ministerio de Sanidad y Consumo.",
+      "B": "Las Comunidades Autónomas.",
+      "C": "Los servicios de salud.",
+      "D": "Los centros sanitarios."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 85,
+    "Question": "❓FFM.-¿Quién garantiza al paciente el cumplimiento de su Dº a la información?",
+    "Options": {
+      "A": "El médico responsable.",
+      "B": "Los profesionales que le atienden durante el proceso asistencial.",
+      "C": "La Constitución Española.",
+      "D": "Las respuestas A y B son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 86,
+    "Question": "❓FFM.-Durante cuánto tiempo se debe conservar la Hª.Clinica :",
+    "Options": {
+      "A": "Tiene un máximo de garantía de 5 años desde que finaliza el proceso asistencial.",
+      "B": "Durante 2 años desde la fecha de alta.",
+      "C": "Durante el tiempo adecuado a cada caso y, como mínimo, 5 años desde la fecha de alta.",
+      "D": "Durante 10 años."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 87,
+    "Question": "❓FFM.-El informe de alta se regirá por:",
+    "Options": {
+      "A": "La Orden del ministerio de Sanidad de 6 de septiembre de 1984.",
+      "B": "Por el art.20 de la presente ley (41/2002) y por la Ley General de Sanidad.",
+      "C": "Por el art.20 de esta ley y por la Orden del ministerio de Sanidad de 6 de septiembre de 1984.",
+      "D": "Por la normativa de la CCAA."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 88,
+    "Question": "❓FFM.-Según la ley 41/2002,se entiende por documentación clínica:",
+    "Options": {
+      "A": "El conjunto de documentos que contienen informaciones de cualquier índole sobre la situación de un paciente.",
+      "B": "El soporte de cualquier tipo/clase que contiene un conjunto de datos e informaciones de carácter asistencial.",
+      "C": "La declaración escrita del estado de salud de un paciente en un determinado momento.",
+      "D": "Todas son falsas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 89,
+    "Question": "❓FFM.-Respecto a la ley 41/2002 de 14 de noviembre, es correcto:",
+    "Options": {
+      "A": "Entró en vigor al día siguiente de su publicación en el BOE.",
+      "B": "No es una norma básica.",
+      "C": "Tiene el carácter de norma básica del Estado.",
+      "D": "Se rige por la Ley 30/1992 de Régimen jurídico de las Administraciones Públicas y Procedimiento administrativo Común."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 90,
+    "Question": "❓FFM.-La custodia de las historias clínicas será responsabilidad de:",
+    "Options": {
+      "A": "Los servicios médicos.",
+      "B": "Los profesionales sanitarios.",
+      "C": "La Unidad de Admisión y Documentación Clínica.",
+      "D": "La Dirección del Centro Sanitario."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 91,
+    "Question": "❓FFM.-La Ley 41/2002,,, establece que, como regla general, el consentimiento se manifiesta en forma:",
+    "Options": {
+      "A": "Verbal.",
+      "B": "Escrita.",
+      "C": "Documental.",
+      "D": "Ante testigos."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 92,
+    "Question": "❓FFM.-Según la Ley 41/2002,el paciente tiene Dº a recibir un informe de alta:",
+    "Options": {
+      "A": "Solo si ha existido ingreso hospitalario.",
+      "B": "A la finalización del proceso asistencial.",
+      "C": "En cuyo contenido mínimo habrán de figurar entre otros datos de información sanitaria epidemiológica.",
+      "D": "Previa solicitud."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 93,
+    "Question": "❓FFM.-En la legislación sanitaria española, el consentimiento escrito del paciente:",
+    "Options": {
+      "A": "Es una exigencia legal.",
+      "B": "Es conveniente.",
+      "C": "Es Ob. ligatorio en determinados supuestos.",
+      "D": "No es necesario."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 94,
+    "Question": "❓FFM.-¿En qué soporte dice la Ley que se debe de archivar la Hª.Clinica  del paciente?",
+    "Options": {
+      "A": "A. En papel, de manera que queden garantizadas su seguridad, su correcta conservación y la recuperación de la información.",
+      "B": "B. En medio audiovisual, de manera que queden garantizadas su seguridad, correcta conservación y la recuperación de la información.",
+      "C": "A nivel informático, de manera que queden garantizadas su seguridad, su correcta conservación y la recuperación de la información.",
+      "D": "Son ciertas A, B y C."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 95,
+    "Question": "❓FFM.-Los centros sanitarios tienen la Ob. de conservar la documentación clínica y custodiar las historias clínicas bajo la responsabilidad de:",
+    "Options": {
+      "A": "El Gerente del centro.",
+      "B": "La dirección del centro.",
+      "C": "El Ministerio de Sanidad.",
+      "D": "El encargado del archivo del centro."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 96,
+    "Question": "❓FFM.-El acceso a la Hª.Clinica  con fines asistenciales corresponde a:",
+    "Options": {
+      "A": "A. Los tribunales.",
+      "B": "B. Los profesionales asistenciales del centro que realizan el diagnóstico o el tratamiento del paciente.",
+      "C": "C. Los profesionales no asistenciales del centro que realizan el diagnóstico o el tratamiento del paciente.",
+      "D": "D. Los profesionales asistenciales y los no asistenciales del centro que realicen el diagnóstico o el tratamiento del paciente."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 97,
+    "Question": "❓FFM.-¿Cuántos Capt. posee la Ley 41/2002,de 14 de noviembre, Básica Reguladora de la Autonomía del Paciente y de Dº s y Ob. s.en materia de información y documentación clínica?",
+    "Options": {
+      "A": "A. 4.",
+      "B": "B. 6.",
+      "C": "C. 8.",
+      "D": "D. 10."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 98,
+    "Question": "❓FFM.-¿Cuántos art.s posee la Ley 41/2002,de 14 de noviembre, básica reguladora de la Autonomía del Paciente y Dº s y Ob. s.en materia de información y documentación clínica?",
+    "Options": {
+      "A": "A. 15.",
+      "B": "B. 23.",
+      "C": "C. 37.",
+      "D": "D. 58."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 99,
+    "Question": "❓FFM.-¿De qué trata el Capítulo III de la Ley 41/2002?",
+    "Options": {
+      "A": "A. El Dº de información sanitaria.",
+      "B": "B. El Dº a la intimidad.",
+      "C": "C. La Hª.Clinica .",
+      "D": "D. Principios generales."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 100,
+    "Question": "❓FFM.-SEGÚN EL art.17 sobre CONSERVACIÓN DE LA DOCUMENTACIÓN CLÍNICA DE LA LEY 41/2002:",
+    "Options": {
+      "A": "a) Los centros sanitarios tienen Ob. de conservar la documentación clínica en el soporte original.",
+      "B": "b) Los centros sanitarios tienen Ob. de conservar la documentación clínica, como mínimo, tres años contados desde la fecha del alta de cada proceso asistencial.",
+      "C": "c) Los centros sanitarios tienen Ob. de conservar la documentación clínica, como mínimo, cuatro años contados desde la fecha del alta de cada proceso asistencial.",
+      "D": "d) Los centros sanitarios tienen Ob. de conservar la documentación clínica, aunque no necesariamente en el soporte original."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 101,
+    "Question": "❓FFM.-La madre, el padre o la persona representante legal de las personas menores de edad podrán acceder a la Hª.Clinica  de éstas:",
+    "Options": {
+      "A": "A) En todo caso.",
+      "B": "B) Cuando se trate de menores de 16 años.",
+      "C": "C) En todo caso, salvo en los supuestos de riesgo vital.",
+      "D": "D) Ninguna es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 102,
+    "Question": "❓FFM.-De conformidad con la Ley 5/2003, la declaración de voluntad vital anticipada podrá ser emitida:",
+    "Options": {
+      "A": "A) Solamente por las personas mayores de edad.",
+      "B": "B) Por las personas mayores y menores de edad, indistintamente.",
+      "C": "C) Por las personas mayores de edad y menores de edad si estos cuentan con autorización del padre, madre o tutor.",
+      "D": "D) Por personas mayores de edad y menores emancipados."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 103,
+    "Question": "❓FFM.-La Ob. permanente de silencio que contrae el profesional sanitario respecto de todo lo sabido e intuido de un paciente en el transcurso de su relación profesional constituye:",
+    "Options": {
+      "A": "El deber de custodia.",
+      "B": "El secreto profesional.",
+      "C": "La cláusula de conciencia.",
+      "D": "La Ob. jeción de conciencia."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 104,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿cuál es el término que define a la persona que requiere asistencia sanitaria para mantener o recuperar su salud?",
+    "Options": {
+      "A": "A) paciente.",
+      "B": "B) usuario.",
+      "C": "C) enfermo.",
+      "D": "D) asegurado protegido."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 105,
+    "Question": "❓FFM.-Si un paciente desea que determinada información personal quede entre un profesional y él:",
+    "Options": {
+      "A": "Toda la información del paciente debe figurar en la Hª.Clinica .",
+      "B": "Toda la información del paciente es compartida por todos los médicos.",
+      "C": "Debe respetarse su criterio siempre que no afecte a valoraciones clínicas.",
+      "D": "El paciente no podrá pedir ese trato de su información personal."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 106,
+    "Question": "❓FFM.-Cualquier profesional sanitario que trabaja con pacientes tiene acceso y es conocedor de información relacionada con su proceso. Mantener el compromiso de silencio se denomina:",
+    "Options": {
+      "A": "Ob. jeción de conciencia.",
+      "B": "Deber de custodia.",
+      "C": "Secreto profesional.",
+      "D": "No es Ob. ligatorio mantener silencio."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 107,
+    "Question": "❓FFM.-Un ciudadano le solicita al celador información sobre la declaración de voluntad vital anticipada, según se establece en la Ley 5/2003 es un requisito:",
+    "Options": {
+      "A": "Que conste por escrito siempre.",
+      "B": "Que siempre sea emitida por una persona mayor de edad.",
+      "C": "Que no se modifique hasta que no haya transcurrido un año desde la fecha de emisión inicial.",
+      "D": "Que se inscriba en un registro público."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 108,
+    "Question": "❓FFM.-Según la Ley 41/2002 en caso de que el paciente ingresado en el hospital no acepte el tratamiento se le propondrá que firme el alta voluntaria y si no la firma la dirección del centro:",
+    "Options": {
+      "A": "Puede disponer el alta forzosa.",
+      "B": "Firmará en su nombre el alta voluntaria.",
+      "C": "Mantendrá el ingreso por un periodo mínimo de 5 días.",
+      "D": "No está reconocida la negativa al tratamiento de los pacientes."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 109,
+    "Question": "❓FFM.-Es titular del Dº a la información clínica:",
+    "Options": {
+      "A": "Las personas vinculadas al paciente.",
+      "B": "El paciente y sus familiares.",
+      "C": "El paciente y sus familiares hasta segundo grado de consanguinidad.",
+      "D": "El paciente."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 110,
+    "Question": "❓FFM.-La conformidad del paciente a que se refiere la Ley 41/2002 sobre el consentimiento informado cumplirá los requisitos de:",
+    "Options": {
+      "A": "Voluntaria y comprensible.",
+      "B": "Libre y comprensible.",
+      "C": "Voluntaria y libre.",
+      "D": "Comprensible y consciente."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 111,
+    "Question": "❓FFM.-La regulación del régimen , se encuentra en:",
+    "Options": {
+      "A": "La ley 41/2002 de 14 de noviembre.",
+      "B": "La ley 41/2002 del 14 de diciembre.",
+      "C": "El decreto 41/2002 del 14 de noviembre.",
+      "D": "La ley 41/2001 de 14 de noviembre."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 112,
+    "Question": "❓FFM.-El capítulo II de la norma que regula la ley , se refiere a:",
+    "Options": {
+      "A": "Principios generales.",
+      "B": "Dº  a la intimidad.",
+      "C": "Dº  de la información sanitaria.",
+      "D": "El respeto de la autonomía del paciente."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 113,
+    "Question": "❓FFM.-El capítulo cuarto de la norma que regula la ley , se refiere a:",
+    "Options": {
+      "A": "Principios generales.",
+      "B": "La Hª.Clinica .",
+      "C": "El Dº a la intimidad.",
+      "D": "El respeto a la autonomía del paciente."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 114,
+    "Question": "❓FFM.-El capítulo VI de la norma que regula la ley , se refiere a:",
+    "Options": {
+      "A": "El Dº a la intimidad.",
+      "B": "El informe de alta y otra documentación clínica.",
+      "C": "El respeto de la autonomía del paciente.",
+      "D": "La Hª.Clinica ."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 115,
+    "Question": "❓FFM.-Según la ley , y Dº s y Ob. s.en materia de información y documentación clínica, será preciso el consentimiento del paciente por escrito en el caso de:",
+    "Options": {
+      "A": "Procedimientos terapéuticos.",
+      "B": "Procedimientos diagnósticos y terapéuticos invasores.",
+      "C": "La aplicación de procedimientos que suponen repercusión sobre la salud del paciente.",
+      "D": "Todas las respuestas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 116,
+    "Question": "❓FFM.-Según la ley ,, las historias clínicas se archivarán:",
+    "Options": {
+      "A": "En el registro Nacional dependiente del ministerio de sanidad y consumo.",
+      "B": "En el registro específicamente creado al efecto en la comunidad autónoma.",
+      "C": "En cada centro sanitario.",
+      "D": "En el archivo general de hospitales."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 117,
+    "Question": "❓FFM.-La persona que requiere asistencia sanitaria y está sometida a cuidados profesionales para la salud, se denomina:",
+    "Options": {
+      "A": "Enfermo.",
+      "B": "Cliente.",
+      "C": "Paciente.",
+      "D": "Usuario."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 118,
+    "Question": "❓FFM.-No forma parte del contenido mínimo de la Hª.Clinica :",
+    "Options": {
+      "A": "A. La autorización al ingreso.",
+      "B": "B. La gráfica de constantes.",
+      "C": "C. Las órdenes y médicas.",
+      "D": "D. Todas son incorrectas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 119,
+    "Question": "❓FFM.-LA LEY 41/2002,DE 14 DE NOVIEMBRE, BÁSICA REGULADORA DE LA AUTONOMÍA DEL PACIENTE, ¿DEDICA UN art.AL CONSENTIMIENTO INFORMADO?",
+    "Options": {
+      "A": "a) No, no dedica ningún art.completo.",
+      "B": "b) No, nada tiene que ver la autonomía del paciente con el consentimiento informado.",
+      "C": "c) Sí.",
+      "D": "d) Sí, pero sólo referido al consentimiento escrito."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 120,
+    "Question": "❓FFM.-SEGÚN EL art.3 DE LA LEY 41/2002 DE 14 DE NOVIEMBRE, LA PERSONA QUE REQUIERE ASISTENCIA SANITARIA Y ESTÁ SOMETIDA A CUIDADOS PROFESIONALES PARA EL MANTENIMIENTO O RECUPERACIÓN DE SU SALUD, SE DENOMINA:",
+    "Options": {
+      "A": "a) Paciente.",
+      "B": "b) Enfermo.",
+      "C": "c) Cliente.",
+      "D": "d) Usuario."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 121,
+    "Question": "❓FFM.-En relación con los niveles en los que se estructura los fundamentos éticos del consentimiento informado, cuáles son de Obligado cumplimiento:",
+    "Options": {
+      "A": "A. La no maleficencia.",
+      "B": "B. La beneficencia.",
+      "C": "C. La justicia.",
+      "D": "D. A y C son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 122,
+    "Question": "❓FFM.-¿Cuál es el Dº de respeto a la intimidad según la ley 41/2002?",
+    "Options": {
+      "A": "art.6.",
+      "B": "art.7.",
+      "C": "art.9.",
+      "D": "art.20."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 123,
+    "Question": "❓FFM.-LA LEY 41/2002,, ESTABLECE QUE EL CONSENTIMIENTO INFORMADO ES:",
+    "Options": {
+      "A": "a) La autorización del médico para aplicar un tratamiento.",
+      "B": "b) El formulario previo a cualquier actuación sanitaria.",
+      "C": "c) La expresión de conformidad del médico para aplicar el tratamiento según su criterio profesional.",
+      "D": "d) La conformidad del paciente para que tenga lugar una actuación que afecte a su salud."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 124,
+    "Question": "❓FFM.-¿CUÁL DE LAS SIGUIENTES SITUACIONES NO SE CONSIDERA EXCEPCIÓN A LA EXIGENCIA DEL CONSENTIMIENTO INFORMADO?",
+    "Options": {
+      "A": "a) Cuando la no intervención suponga un riesgo para la salud pública.",
+      "B": "b) Cuando el paciente manifiesta su voluntad de no ser informado.",
+      "C": "c) Cuando la urgencia no permita demoras por la posibilidad de ocasionar lesiones irreversibles.",
+      "D": "d) Todos los anteriores."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 125,
+    "Question": "❓FFM.-¿EN QUÉ AÑO SE APROb. Ó LA LEY BÁSICA REGULADORA DE LA AUTONOMÍA DEL PACIENTE Y DE Dº S Y Ob. s.EN MATERIA DE INFORMACIÓN Y DOCUMENTACIÓN CLÍNICA?",
+    "Options": {
+      "A": "a) 1986.",
+      "B": "b) 2007.",
+      "C": "c) 1992.",
+      "D": "d) 2002."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 126,
+    "Question": "❓FFM.-LA LEY 41/2002,DE 14 DE NOVIEMBRE, INDICA QUE LA CONFORMIDAD DEL PACIENTE A QUE SE REFIERE EL CONSENTIMIENTO INFORMADO SERÁ:",
+    "Options": {
+      "A": "a) Libre, voluntaria y por escrito.",
+      "B": "b) Libre y voluntaria.",
+      "C": "c) Voluntaria e inconsciente.",
+      "D": "d) Meticulosa, libre y voluntaria."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 127,
+    "Question": "❓FFM.-El paciente tiene Dº a que los centros sanitarios establezcan un mecanismo de custodia activa de las historias clínicas, dicha custodia permitirá:",
+    "Options": {
+      "A": "A. La recogida.",
+      "B": "B. La integración.",
+      "C": "C. La recuperación.",
+      "D": "D. Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 128,
+    "Question": "❓FFM.-En relación con los fundamentos éticos del consentimiento informado, el principio que exige que todas las personas sean tratadas con el mismo respeto y consideración en los órdenes físico y psíquico:",
+    "Options": {
+      "A": "A. Justicia.",
+      "B": "B. Beneficencia.",
+      "C": "C. No maleficencia.",
+      "D": "D. Maleficencia."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 129,
+    "Question": "❓FFM.-En relación con las características del consentimiento informado, señala la incorrecta:",
+    "Options": {
+      "A": "a. La información será comprensible, continuada y razonable.",
+      "B": "b. La información será Ob. jetiva, específica y adecuada al procedimientos.",
+      "C": "c. La información será siempre verbal.",
+      "D": "d. Todas son correctas."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 130,
+    "Question": "❓FFM.-Según el art.11 de la ley 41/2002,relativo a las instrucciones previas:",
+    "Options": {
+      "A": "Estas deberán constar siempre por escrito.",
+      "B": "Estas podrán revocarse libremente en cualquier momento y en cualquier forma.",
+      "C": "Ésta serán aplicadas siempre, con la única excepción de que sean contrarias al orden jurídico.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 131,
+    "Question": "❓FFM.-De acuerdo con la ley 16/2003, el acceso de los ciudadanos a las prestaciones de la atención sanitaria que proporciona el sistema nacional de salud se facilitará a través de:",
+    "Options": {
+      "A": "La tarjeta sanitaria familiar.",
+      "B": "La tarjeta sanitaria individual.",
+      "C": "La tarjeta sanitaria de la comunidad autónoma.",
+      "D": "La tarjeta sanitaria europea."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 132,
+    "Question": "❓FFM.-Según el anexo del RD 183/2004, ¿en qué línea del anverso de la tarjeta sanitaria constará el código de identificación personal asignado por la administración sanitaria que emite la tarjeta?",
+    "Options": {
+      "A": "2ª Línea de la franja superior.",
+      "B": "2ª Línea de la franja inferior.",
+      "C": "1ª Línea de la franja superior.",
+      "D": "1ª Línea de la franja inferior."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 133,
+    "Question": "❓FFM.-Según su art.1, el real decreto 183/2004 por el que se regula la tarjeta sanitaria individual tiene por objeto la regulación de:",
+    "Options": {
+      "A": "Los datos básicos comunes que de forma normalizada deberá incorporar la tarjeta.",
+      "B": "La base de datos de pOb. lación protegida de dicho sistema.",
+      "C": "La misión y calidad de la tarjeta sanitaria individual.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 134,
+    "Question": "❓FFM.-Según el real decreto 183/2004, no es uno de los datos básicos a incluir en el anverso de la tarjeta sanitaria:",
+    "Options": {
+      "A": "Código de identificación de la administración sanitaria emisora de la tarjeta.",
+      "B": "Número de la seguridad social del titular de la tarjeta.",
+      "C": "Nombre y apellidos del titular de la tarjeta.",
+      "D": "Código de identificación personal asignado por la administración sanitaria emisora de la tarjeta."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 135,
+    "Question": "❓FFM.-Según el art.3 de la ley 41/2002,la declaración escrita de un médico que da fe del estado de salud de una persona en un determinado momento se denomina:",
+    "Options": {
+      "A": "Certificado médico.",
+      "B": "Expediente sanitario.",
+      "C": "Certificado Sanitario.",
+      "D": "Expediente médico."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 136,
+    "Question": "❓FFM.-Según el art.2.2 de la ley 41/2002,el consentimiento del paciente, que debe obtenerse después de que haya recibido una información adecuada, se hará:",
+    "Options": {
+      "A": "Por escrito en los supuestos previstos en la ley.",
+      "B": "Verbalmente en los supuestos previstos en la ley.",
+      "C": "Siempre verbalmente.",
+      "D": "Siempre por escrito."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 137,
+    "Question": "❓FFM.-En relación con la tarjeta sanitaria europea señale la respuesta incorrecta:",
+    "Options": {
+      "A": "No cubre los gastos si se viaja con la finalidad expresa de recibir tratamiento médico.",
+      "B": "Garantiza la gratuidad del servicio.",
+      "C": "No cubre la asistencia sanitaria privada.",
+      "D": "Las tarjetas son emitidas por la oficina de la seguridad social de su país."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 138,
+    "Question": "❓FFM.-El certificado provisional sustitutorio (CPS) de la tarjeta sanitaria europea se emite:",
+    "Options": {
+      "A": "Por 30 días como máximo desde su fecha de inicio.",
+      "B": "60 días como máximo desde su fecha de inicio.",
+      "C": "90 días como máximo desde su fecha de inicio.",
+      "D": "120 días como máximo desde su fecha de inicio."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 139,
+    "Question": "❓FFM.-Instrumento destinado fundamentalmente a garantizar una asistencia adecuada al paciente:",
+    "Options": {
+      "A": "Documentación sanitaria.",
+      "B": "Información clínica.",
+      "C": "Hª.Clinica .",
+      "D": "Ninguna correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 140,
+    "Question": "❓FFM.-El código de identificación personal del Sistema Nacional de Salud:",
+    "Options": {
+      "A": "Tendrá carácter irrepetible.",
+      "B": "Será único a lo largo de la vida de cada persona.",
+      "C": "A y B correctas.",
+      "D": "Ninguna respuesta es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 141,
+    "Question": "❓FFM.-Tipo de Hª.Clinica  que está enfocada a la promoción de la salud:",
+    "Options": {
+      "A": "Hª.Clinica  en atención primaria.",
+      "B": "Hª.Clinica  integrada.",
+      "C": "Hª.Clinica  hospitalaria.",
+      "D": "Hª.Clinica  informatizada."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 142,
+    "Question": "❓FFM.-El facultativo proporcionará al paciente, antes de recabar su consentimiento escrito, cierta información básica, pero no la siguiente:",
+    "Options": {
+      "A": "A. Las consecuencias relevantes o de importancia que la intervención origina con seguridad.",
+      "B": "B. Los riesgos relacionados con las circunstancias personales y profesionales del paciente.",
+      "C": "C. La capacitación de los profesionales implicados en la actuación.",
+      "D": "D. Los riesgos prOb. ables en condiciones normales, conforme a la experiencia y el estado de la ciencia."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 143,
+    "Question": "❓FFM.-El sistema de intercambio de información entre la administraciones sanitarias se denomina:",
+    "Options": {
+      "A": "Base de datos de población protegida del SNS.",
+      "B": "Código de identificación personal del SNS.",
+      "C": "Consejo interterritorial del SNS.",
+      "D": "Plan de explotación estadística."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 144,
+    "Question": "❓FFM.-En caso de no aceptar el tratamiento prescrito, se propondrá al paciente la firma de alta voluntaria. Si no la firmara, se podrá disponer:",
+    "Options": {
+      "A": "El alta de oficio.",
+      "B": "El alta legal.",
+      "C": "El alta forzosa.",
+      "D": "El alta administrativa."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 145,
+    "Question": "❓FFM.-El concepto de declaración voluntad vital anticipada que expresa la ley 5/2003 de 9 de octubre, no es acorde a uno de estos anunciados:",
+    "Options": {
+      "A": "A. Expresa las opciones e instrucciones que deben respetarse en la asistencia sanitaria que reciban en el caso de que concurra circunstancias clínicas en las cuales no pueda expresar personalmente su voluntad.",
+      "B": "B. Debe ser emitida consciente y libremente.",
+      "C": "C. Debe ser emitida por una persona capaz.",
+      "D": "D. Es facultativo que sea incorporada al registro de voluntades vitales anticipadas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 146,
+    "Question": "❓FFM.-¿Cuál de los siguientes elementos, según el artículo 15 de la Ley 41/2002,no está considerado como contenido mínimo de la Hª.Clinica ?",
+    "Options": {
+      "A": "El informe clínico de alta.",
+      "B": "La evolución.",
+      "C": "Las órdenes médicas.",
+      "D": "La hoja de interconsulta."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 147,
+    "Question": "❓FFM.-LA LEY , FUE APROBADA MEDIANTE:",
+    "Options": {
+      "A": "a) Ley Orgánica 3/1986, 14 de abril.",
+      "B": "b) Ley 44/2003, 21 de noviembre.",
+      "C": "c) Ley 21/2001, 27 de diciembre.",
+      "D": "d) Ley 41/2002,14 de noviembre."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 148,
+    "Question": "❓FFM.-EL CAPÍTULO 1 DE LA LEY 41/2002,DE 14 DE NOVIEMBRE, BÁSICA REGULADORA DE LA AUTONOMÍA DEL PACIENTE Y DE Dº S Y Ob. s.EN MATERIA DE INFORMACIÓN Y DOCUMENTACIÓN CLÍNICA SE DENOMINA:",
+    "Options": {
+      "A": "a) Ámbito de aplicación.",
+      "B": "b) Los Dº s del paciente.",
+      "C": "c) Ninguna de las otras respuestas es correcta.",
+      "D": "d) Principios generales."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 149,
+    "Question": "❓FFM.-¿QUÉ ÓRGANO ACREDITARÁ SERVICIOS DE REFERENCIA A LOS QUE PODRÁN ACCEDER TODOS LOS USUARIOS DEL SISTEMA NACIONAL DE SALUD UNA VEZ SUPERADAS LAS POSIBILIDADES DE DIAGNÓSTICO Y TRATAMIENTO DE LOS SERVICIOS ESPECIALIZADOS DE LA COMUNIDAD AUTÓNOMA DONDE RESIDEN?",
+    "Options": {
+      "A": "a) El Consejo de Ministros.",
+      "B": "b) El Senado.",
+      "C": "c) El Ministerio de Sanidad y Política Social.",
+      "D": "d) El Congreso de los Diputados."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 150,
+    "Question": "❓FFM.-La base de datos de la pOb. lación protegida del sistema Nacional de salud es responsabilidad de:",
+    "Options": {
+      "A": "El Ministerio competente en materia de Sanidad.",
+      "B": "Las Administraciones sanitarias emisoras de la tarjeta sanitaria individual.",
+      "C": "El consejo interterritorial del sistema Nacional de salud.",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 151,
+    "Question": "❓FFM.-¿Qué capítulo de la ley , y Dº s y Ob. s.en materia de información y documentación clínica se refiere al Dº de información sanitaria?",
+    "Options": {
+      "A": "No existe tal capítulo.",
+      "B": "El capítulo II.",
+      "C": "El capítulo III.",
+      "D": "El capítulo IV."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 152,
+    "Question": "❓FFM.-Los fundamentos éticos se estructurarán en dos niveles, el primer nivel de obligado cumplimiento hace referencia a:",
+    "Options": {
+      "A": "Maleficencia y justicia.",
+      "B": "Beneficencia y justicia.",
+      "C": "Beneficencia y autonomía.",
+      "D": "No maleficencia y justicia."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 153,
+    "Question": "❓FFM.-¿Qué normativa legal es la responsable de regular la tarjeta sanitaria individual, incluyendo su emisión y los datos básicos que debe contener?",
+    "Options": {
+      "A": "a. La Ley 41/2002,de 14 de noviembre.",
+      "B": "b. La Ley Orgánica 3/2018, de 5 de diciembre.",
+      "C": "c. El Real Decreto 183/2004, de 30 de enero.",
+      "D": "d. La Ley 14/1986, de 25 de abril."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 154,
+    "Question": "❓FFM.-¿Quién es el titular del Dº a la información en el ámbito sanitario?",
+    "Options": {
+      "A": "a. El ciudadano.",
+      "B": "b. El médico de atención primaria.",
+      "C": "c. El paciente.",
+      "D": "d. Los servicios de gestión de los centros sanitarios."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 155,
+    "Question": "❓FFM.-¿Qué organización es la encargada de desarrollar la base de datos para el intercambio de información básica de los asegurados del SNS?",
+    "Options": {
+      "A": "a. El Ministerio de Sanidad.",
+      "B": "b. El Consejo Interterritorial de Salud.",
+      "C": "c. Las Comunidades Autónomas.",
+      "D": "d. El INSALUD."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 156,
+    "Question": "❓FFM.-¿Puede limitarse el Dº a la información sanitaria de los pacientes?",
+    "Options": {
+      "A": "a. No, en ningún caso.",
+      "B": "b. No, salvo justificación legal.",
+      "C": "c. Sí, en cualquier caso.",
+      "D": "d. Sí, por la existencia acreditada de un estado de necesidad terapéutica."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 157,
+    "Question": "❓FFM.-La tarjeta sanitaria individual atenderá a los criterios establecidos con carácter general:",
+    "Options": {
+      "A": "a. En el Consejo Interterritorial de Salud.",
+      "B": "b. En el Ministerio de Sanidad.",
+      "C": "c. En la Unión Europea.",
+      "D": "d. En el INGESA."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 158,
+    "Question": "❓FFM.-¿Tiene el paciente o usuario Dº a negarse al tratamiento?",
+    "Options": {
+      "A": "a. Sí, en cualquier caso.",
+      "B": "b. No, en ningún caso.",
+      "C": "c. Sí, excepto en los casos determinados en la ley.",
+      "D": "d. Ninguna de las respuestas anteriores es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 159,
+    "Question": "❓FFM.-¿Tienen los pacientes Dº a conocer, con motivo de cualquier actuación en el ámbito de su salud, toda la información disponible sobre la misma?",
+    "Options": {
+      "A": "a. No, puesto que la Ley establece unas excepciones.",
+      "B": "b. Sí.",
+      "C": "c. Sí, pues otra cosa sería inconstitucional.",
+      "D": "d. Ninguna de las respuestas anteriores es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 160,
+    "Question": "❓FFM.-¿Cuál de los siguientes es un principio básico de la Ley 41/2002?",
+    "Options": {
+      "A": "a. La dignidad de la persona humana.",
+      "B": "b. Toda actuación en el ámbito de la sanidad requiere, con carácter general, el previo consentimiento de los pacientes o usuarios.",
+      "C": "c. El paciente o usuario tiene Dº a decidir libremente, después de recibir la información adecuada, entre las opciones clínicas disponibles.",
+      "D": "d. Todas las respuestas anteriores son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 161,
+    "Question": "❓FFM.-La Hª.Clinica  se llevará con criterios de:",
+    "Options": {
+      "A": "a. Unidad e integración.",
+      "B": "b. Publicidad y generalidad.",
+      "C": "c. Uniformidad y transparencia.",
+      "D": "d. Gestión y claridad."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 162,
+    "Question": "❓FFM.-La práctica de ensayos clínicos y la práctica de técnicas de reproducción humana asistida se rigen por lo establecido:",
+    "Options": {
+      "A": "a. Con carácter general en la normativa sobre la mayoría de edad y por los convenios internacionales suscritos por España en la materia.",
+      "B": "b. Con carácter especial en la normativa sobre la mayoría de edad y por la Ley GENERAL DE SANIDAD.",
+      "C": "c. Por lo establecido en la propia Ley 41/2002,de 14 de noviembre y en el Código Penal.",
+      "D": "d. Con carácter general en la normativa sobre la mayoría de edad y por las disposiciones especiales de aplicación."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 163,
+    "Question": "❓FFM.-De acuerdo con la Ley 41/2002,de 14 de noviembre, ¿quién regulará el procedimiento para que quede constancia del acceso a la Hª.Clinica  y de su uso?",
+    "Options": {
+      "A": "a. El Estado.",
+      "B": "b. Las Comunidades Autónomas.",
+      "C": "c. El propio Hospital.",
+      "D": "d. Todas las respuestas anteriores son correctas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 164,
+    "Question": "❓FFM.-¿Cuál de los siguientes contenidos no figurará en la Hª.Clinica  de acuerdo con la Ley 41/2002,de 14 de noviembre?",
+    "Options": {
+      "A": "a. La evolución del paciente.",
+      "B": "b. El informe de urgencia del paciente.",
+      "C": "c. Las órdenes médicas.",
+      "D": "d. La baja laboral."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 165,
+    "Question": "❓FFM.-Los datos referentes a la salud de las personas son considerados por la Ley 41/2002,de 14 de noviembre como:",
+    "Options": {
+      "A": "a. Confidenciales.",
+      "B": "b. Públicos o personales, dependiendo de los casos.",
+      "C": "c. Públicos.",
+      "D": "d. Secretos."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 166,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿a qué derecho tienen acceso los pacientes en la atención sanitaria para elegir a su médico y a su centro de atención?:",
+    "Options": {
+      "A": "A. Únicamente médico.",
+      "B": "b. Solamente centro.",
+      "C": "c. Médico y centro.",
+      "D": "d. La Ley 41/2002,de 14 de noviembre, no regula el Dº de elección del paciente."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 167,
+    "Question": "❓FFM.-Los dispositivos que las tarjetas incorporen para almacenar la información básica y las aplicaciones que la traten deberán permitir:",
+    "Options": {
+      "A": "a. Que la lectura de los datos sea técnicamente posible en todo el territorio del Estado.",
+      "B": "b. La identificación de los datos por parte del usuario de la misma.",
+      "C": "c. El tratamiento informático de la tarjeta.",
+      "D": "d. La generación de diversos códigos de lectura."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 168,
+    "Question": "❓FFM.-Según el Artículo 57 de la Ley 16/2003, ¿cuál es la función principal de la tarjeta sanitaria individual para facilitar el acceso a las prestaciones del SNS?",
+    "Options": {
+      "A": "a. Documento acreditativo de la identidad del usuario.",
+      "B": "b. Documento esencial.",
+      "C": "c. Documento sanitario.",
+      "D": "d. Documento administrativo."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 169,
+    "Question": "❓FFM.-¿Qué ley regula la tarjeta sanitaria individual en su Art 57?",
+    "Options": {
+      "A": "a. Ley 41/2002 14 noviembre, básica reguladora de la autonomía del paciente.",
+      "B": "b. Ley 16/2003 28 mayo, cohesión y calidad del SNS.",
+      "C": "c. Ley 14/86 25 abril LGS.",
+      "D": "d. Ley 30/1992, 26 noviembre régimen jurídico de la administraciones públicas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 170,
+    "Question": "❓FFM.-La unidad asistencial con organización propia, dotada de los recursos técnicos y del personal cualificado para llevar a cabo actividades sanitarias:",
+    "Options": {
+      "A": "a. Zona básica de salud.",
+      "B": "b. Servicio sanitario.",
+      "C": "c. Centro sanitario.",
+      "D": "d. Unidad clínica."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 171,
+    "Question": "❓FFM.-El conjunto organizado de profesionales, instalaciones y medios técnicos que realiza actividades y presta servicios para cuidar la salud de los pacientes y usuarios.",
+    "Options": {
+      "A": "a. Centro de salud.",
+      "B": "b. Unidad clínica.",
+      "C": "c. Centro sanitario.",
+      "D": "d. Centro asistencial."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 172,
+    "Question": "❓FFM.-Todo paciente o usuario tiene Dº a negarse al tratamiento, excepto en los casos determinados en la Ley. Su negativa al tratamiento:",
+    "Options": {
+      "A": "a. Constará por escrito.",
+      "B": "b. Constará verbalmente.",
+      "C": "c. Las respuestas a y b son correctas.",
+      "D": "d. Constará por escrito y verbalmente."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 173,
+    "Question": "❓FFM.-La estructura de la ley 41/2002 de 14 de noviembre  es:",
+    "Options": {
+      "A": "a. 25 art.s ordenados en 6 Capt. 6 D.A., 1 transitoria y 1 derogatoria.",
+      "B": "b. 23 art.s ordenados en 6 Capt. 6 D.A., 1 transitoria y 1 derogatoria.",
+      "C": "c. 23 art.s ordenados en 6 Capt. 1 disposición adicional, 6 transitorias y 1 derogatoria.",
+      "D": "d. 25 art.s ordenados en 6 Capt. 6 D.A., 6 transitorias y 1 derogatoria."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 174,
+    "Question": "❓FFM.-Para la solicitud online a través de Internet de la tarjeta sanitaria, ¿cuáles son sus requisitos?",
+    "Options": {
+      "A": "a. Solo puede hacerse si se ha perdido, rOb. ado, deteriorado o no recibido.",
+      "B": "b. Puede hacerse si se ha perdido, rOb. ado, deteriorado o no recibida.",
+      "C": "c. Únicamente puede hacerse si se ha perdido, rOb. ado, deteriorado o no recibido.",
+      "D": "d. Exclusivamente puede hacerse si se ha perdido, rOb. ado, deteriorado o no recibida."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 175,
+    "Question": "❓FFM.-La ley 41/2002 tiene carácter de:",
+    "Options": {
+      "A": "a. Normativa legislativa.",
+      "B": "b. Reguladora ,.",
+      "C": "c. Normativa básica.",
+      "D": "d. Normativa ,."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 176,
+    "Question": "❓FFM.-¿Qué capítulo de la ley 41/2002 regula el Dº a la intimidad?",
+    "Options": {
+      "A": "a. II.",
+      "B": "b. III.",
+      "C": "c. IV.",
+      "D": "d. V."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 177,
+    "Question": "❓FFM.-El Dº a la intimidad regulado en la ley 41/2002 tiene el carácter de:",
+    "Options": {
+      "A": "a. Confidencial.",
+      "B": "b. Secreto.",
+      "C": "c. Regulado por la normativa vigente.",
+      "D": "d. Sumario."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 178,
+    "Question": "❓FFM.-El titular del Dº a la información asistencial recae en:",
+    "Options": {
+      "A": "a. El usuario.",
+      "B": "b. El paciente.",
+      "C": "c. El médico encargado de suministrar dicha información.",
+      "D": "d. Las respuestas a y b son realmente ciertas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 179,
+    "Question": "❓FFM.-También serán informadas del Dº a la información asistencial las personas que sean vinculadas al paciente, por razones familiares o de hecho, en la medida que el paciente lo exprese de manera:",
+    "Options": {
+      "A": "a. Significativa o tácita.",
+      "B": "b. AprOb. ada y tácita.",
+      "C": "c. Reconocida o tácita.",
+      "D": "d. Expresa o tácita."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 180,
+    "Question": "❓FFM.-¿Cuál no es un deber de los profesionales sanitarios conforme la ley 41/2002 de 14 de noviembre?",
+    "Options": {
+      "A": "a. Prestar correctamente sus técnicas.",
+      "B": "b. Respetar decisiones adoptadas libre y voluntariamente por el paciente.",
+      "C": "c. Realizar la creación, mantenimiento de una documentación clínica ordenada y secuencial del proceso.",
+      "D": "d. Guardar reserva debida de quién elabore, tenga acceso a información y documentación clínica."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 181,
+    "Question": "❓FFM.-Según el artículo 18 de la Ley 41/2002,¿cuál de las siguientes opciones describe un deber de los profesionales sanitarios en materia de documentación?",
+    "Options": {
+      "A": "a. Cumplimentar solo la documentación que ellos consideren relevante.",
+      "B": "b. No cooperar en la creación de la documentación clínica de los pacientes.",
+      "C": "c. Cooperar únicamente en la documentación asistencial.",
+      "D": "d. Cumplimentar la documentación para fines de investigación médica y epidemiología, si es requerida por las autoridades sanitarias."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 182,
+    "Question": "❓FFM.-Tienen la Ob. de conservar la documentación clínica y custodiar las historias clínicas bajo la responsabilidad de la dirección del centro:",
+    "Options": {
+      "A": "a. Las administraciones sanitarias.",
+      "B": "b. Los centros de salud.",
+      "C": "c. Los centros sanitarios.",
+      "D": "d. Ninguna es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 183,
+    "Question": "❓FFM.-¿Qué aspectos de los siguientes no se regulan en las historias clínicas según la ley 41/2002?",
+    "Options": {
+      "A": "a. Archivo.",
+      "B": "b. Usos.",
+      "C": "c. Conservación y custodia.",
+      "D": "d. Dº s del titular."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 184,
+    "Question": "❓FFM.-Han de aplicar las medidas técnicas y organizativas adecuadas para archivar y proteger las historias clínicas y evitar su destrucción o su perdida accidental:",
+    "Options": {
+      "A": "a. Los centros sanitarios.",
+      "B": "b. Centros de salud.",
+      "C": "c. Las administraciones sanitarias.",
+      "D": "d. Ninguna es correcta."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 185,
+    "Question": "❓FFM.-En la conservación de la Hª.Clinica , las medidas de seguridad para la documentación se aplicarán según la legislación de conservación de ficheros que contienen datos de carácter:",
+    "Options": {
+      "A": "a. Profesional.",
+      "B": "b. Profesionales y de los usuarios.",
+      "C": "c. Personal.",
+      "D": "d. Las respuestas a, b y c son correctas."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 186,
+    "Question": "❓FFM.-Es de obligado cumplimiento respecto a los fundamentos éticos:",
+    "Options": {
+      "A": "a. Beneficencia y autonomía.",
+      "B": "b. No maleficencia y justicia.",
+      "C": "c. Son correctas las respuestas a y b.",
+      "D": "d. Ninguna es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 187,
+    "Question": "❓FFM.-Los fundamentos éticos se estructuran en cuantos niveles:",
+    "Options": {
+      "A": "a. 1.",
+      "B": "b. 2.",
+      "C": "c. 3.",
+      "D": "d. 4."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 188,
+    "Question": "❓FFM.-El segundo nivel de los fundamentos éticos no es de Obligado cumplimiento si la ley no lo menciona:",
+    "Options": {
+      "A": "a. Éticamente.",
+      "B": "b. Explícitamente.",
+      "C": "c. Delegante.",
+      "D": "d. Autónomamente."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 189,
+    "Question": "❓FFM.-Formarán parte del contenido mínimo de la Hª.Clinica  cuando se trate de procesos de hospitalización o se disponga expresamente:",
+    "Options": {
+      "A": "a. La documentación relativa a la hoja clínica estadística.",
+      "B": "b. La evolución.",
+      "C": "c. La hoja de interconsulta.",
+      "D": "d. El consentimiento informado."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 190,
+    "Question": "❓FFM.-Los profesionales sanitarios no tienen el deber ético de:",
+    "Options": {
+      "A": "a. Actuar con justicia y sin discriminación.",
+      "B": "b. Buscar el bienestar común.",
+      "C": "c. Respetar su autonomía, su voluntad y decisiones.",
+      "D": "d. Las respuestas a y b son ciertas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 191,
+    "Question": "❓FFM.-La ley 41/2002 es Obligatoria:",
+    "Options": {
+      "A": "a. En las comunidades autónomas.",
+      "B": "b. En el estado.",
+      "C": "c. En el ámbito del estado y de las comunidades autónomas.",
+      "D": "d. En el ámbito del estado."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 192,
+    "Question": "❓FFM.-Según la Ley 41/2002,de 14 de noviembre, el consentimiento informado se regula en qué capítulo:",
+    "Options": {
+      "A": "a. Capítulo V.",
+      "B": "b. Capítulo II.",
+      "C": "c. Capítulo VI.",
+      "D": "d. Capítulo IV."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 193,
+    "Question": "❓FFM.-La voluntad expresada anticipadamente en el documento de instrucciones previas no habrá de ser cumplida cuando:",
+    "Options": {
+      "A": "a. Sean contrarias al ordenamiento jurídico.",
+      "B": "b. Sean contrarias a la buena práctica profesiona.",
+      "C": "c. No se correspondan con lo supuesto de hecho que el interesado haya previsto en el momento de manifestarlas.",
+      "D": "d. Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 194,
+    "Question": "❓FFM.-En el ámbito de la Comunidad Autónoma de Andalucía rige la ley 5/2003 de 9 de octubre en la que se denomina a las instrucciones previas previstas en la ley 41/2002 como:",
+    "Options": {
+      "A": "a. Declaración de voluntad vital.",
+      "B": "b. Acción de voluntad vital anticipada.",
+      "C": "c. Declaración de voluntad vital anticipada.",
+      "D": "d. El muerto al hoyo y el vivo al bollo."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 195,
+    "Question": "❓FFM.-La información previa al consentimiento será:",
+    "Options": {
+      "A": "a. Comprensible, continuada, razonable y suficiente.",
+      "B": "b. Ob. jetiva, específica y adecuada al procedimiento.",
+      "C": "c. Habitualmente verbal.",
+      "D": "d. Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 196,
+    "Question": "❓FFM.-El consentimiento puede manifestarse:",
+    "Options": {
+      "A": "a. En forma expresa, tácita o explícita.",
+      "B": "b. En forma verbal o escrita.",
+      "C": "c. En forma expresa, tácita o implícita.",
+      "D": "d. Las respuestas b y c son ciertas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 197,
+    "Question": "❓FFM.-El documento de consentimiento informado debe contener:",
+    "Options": {
+      "A": "a. Preámbulo, cuerpo y desenlace.",
+      "B": "b. Preámbulo, cuerpo y aportación.",
+      "C": "c. Preámbulo, cuerpo y aceptación.",
+      "D": "d. Ninguna es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 198,
+    "Question": "❓FFM.-Los pacientes y usuarios del sistema andaluz de salud tendrán Dº a:",
+    "Options": {
+      "A": "a) Acceder a todas las prestaciones del sistema.",
+      "B": "b) A libre elección de médico y de centro sanitario.",
+      "C": "c) La información a los servicios y prestaciones del sistema, así como de los Dº s que les asisten.",
+      "D": "d) Todas las respuestas son ciertas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 199,
+    "Question": "❓FFM.- Señale la respuesta incorrecta. El facultativo proporcionará al paciente, antes de recabar su consentimiento escrito, la información básica siguiente:",
+    "Options": {
+      "A": "a) Las consecuencias relevantes o de importancia que la intervención origina con seguridad.",
+      "B": "b) Los riesgos relacionados con las circunstancias personales o profesionales del paciente.",
+      "C": "c) Los riesgos prOb. ables en condiciones anormales, conforme a la experiencia y al estado de la ciencia o indirectamente relacionados con el tipo de intervención.",
+      "D": "d) Las contraindicaciones."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 200,
+    "Question": "❓FFM.- Tal y como establece la Ley 41/2002,en caso de que el paciente no acepte el tratamiento se le propondrá que firme el alta voluntaria y si no la firma la dirección del centro:",
+    "Options": {
+      "A": "a) Puede disponer el alta forzosa.",
+      "B": "b) No está reconocida la negativa al tratamiento por parte de los pacientes.",
+      "C": "c) Mantendrá el ingreso por período mínimo de cinco días naturales.",
+      "D": "d) Firmará en su nombre el alta involuntaria."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 201,
+    "Question": "❓FFM.- El acceso a la Hª.Clinica  con fines judiciales, epidemiológicos, de salud pública, de investigación o de docencia, se rige por lo dispuesto en:",
+    "Options": {
+      "A": "a) Ley 55/2003 de 16 de diciembre.",
+      "B": "b) La Ley 14/1986 de 25 de abril, General de Sanidad.",
+      "C": "c) Las normas de aplicación en cada caso.",
+      "D": "d) Las respuestas b y c son ciertas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 202,
+    "Question": "❓FFM.-Según el Art. 11 de la Ley 41/2002,¿cuál define mejor el Documento de Voluntades Previas?",
+    "Options": {
+      "A": "a) Una persona adulta y libre acepta tratamientos, y esa decisión es irreversible.",
+      "B": "b) Una persona adulta pide tratamientos contrarios a la ley o a la buena práctica profesional.",
+      "C": "c) Una persona adulta, capaz y libre, manifiesta anticipadamente su voluntad sobre los cuidados y tratamiento de su salud.",
+      "D": "d) Una persona de 16 años lo presta para que le sea aplicado un tratamiento."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 203,
+    "Question": "❓FFM.-¿Qué ley es la que regula la autonomía del paciente en el ámbito estatal?",
+    "Options": {
+      "A": "a. Ley 41/2002.",
+      "B": "b. Ley 13/2006.",
+      "C": "c. Ley 23/2005.",
+      "D": "d. Ley 14/1986."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 204,
+    "Question": "❓FFM.-¿Qué ley es la que regula la autonomía del paciente en el ámbito de la comunidad Autónoma de Andalucía?",
+    "Options": {
+      "A": "a. Lsa 15/1999.",
+      "B": "b. Lgs 14/1986.",
+      "C": "c. Ley 41/2002.",
+      "D": "d. Ley 26/2003."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 205,
+    "Question": "❓FFM.-Em el consentimiento informado,su conformidad será:",
+    "Options": {
+      "A": "a. Libre y voluntaria.",
+      "B": "b. Voluntaria y consciente.",
+      "C": "c. Consciente y libre.",
+      "D": "d. Libre, voluntaria y consciente."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 206,
+    "Question": "❓FFM.-El consentimiento informado su conformidad será libre, voluntaria y consciente, donde un paciente manifiesta en pleno uso de sus facultades después recibir:",
+    "Options": {
+      "A": "a. Información completa y veraz.",
+      "B": "b. Información complementaria y formal.",
+      "C": "c. Información adecuada y suficiente.",
+      "D": "d. Información adecuada."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 207,
+    "Question": "❓FFM.-En la libre elección de los procesos y decisiones relativas en torno a la salud; la facultad del paciente, usuario u optar libre y voluntariamente entre:",
+    "Options": {
+      "A": "a. Varias alternativas.",
+      "B": "b. Dos o más alternativas.",
+      "C": "c. Las alternativas necesarias.",
+      "D": "d. Todas las respuestas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 208,
+    "Question": "❓FFM.-¿Qué Dº regula el capítulo 2 de la Ley 41/2002?",
+    "Options": {
+      "A": "a. Dº de acceso a la Hª.Clinica .",
+      "B": "b. Dº a la intimidad.",
+      "C": "c. Dº a la información sanitaria.",
+      "D": "d. Dº a la información para la elección de médico y centro."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 209,
+    "Question": "❓FFM.-Según la ley 41/2002,¿quién tiene el carácter de interlocutor principal en todo lo referente a la información durante el proceso asistencial del paciente?",
+    "Options": {
+      "A": "a. El director médico.",
+      "B": "b. El jefe clínico de la unidad asistencial.",
+      "C": "c. El médico responsable.",
+      "D": "d. Los profesionales que le atienden durante el proceso asistencial."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 210,
+    "Question": "❓FFM.-¿Qué art.de la Ley 41/2002 regula el Dº a la intimidad?",
+    "Options": {
+      "A": "a. art.6.",
+      "B": "b. art.7.",
+      "C": "c. art.8.",
+      "D": "d. art.9."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 211,
+    "Question": "❓FFM.-¿Cuánto tiempo tienen los centros sanitarios Ob. de conservar la documentación clínica según la ley 41/2002?",
+    "Options": {
+      "A": "a. Durante el tiempo adecuado a cada caso y como mínimo 4 años contados desde la fecha del alta de cada proceso asistencial.",
+      "B": "b. Durante el tiempo adecuado a cada caso atendiendo a la patología determinado por la comisión de historias clínicas.",
+      "C": "c. Durante el tiempo adecuado a cada caso y como mínimo cinco años contados desde la fecha de alta de cada proceso asistencial.",
+      "D": "d. Durante un mínimo de 5 años desde el fallecimiento del paciente."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 212,
+    "Question": "❓FFM.-La persona que requiere asistencia sanitaria y está sometida a cuidado profesionales para el mantenimiento o recuperación de su salud, es la definición según la ley 41/2002 de:",
+    "Options": {
+      "A": "a. Paciente.",
+      "B": "b. Usuario.",
+      "C": "c. Enfermo.",
+      "D": "d. Asegurado protegido."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 213,
+    "Question": "❓FFM.-De entre las definiciones legales que enumera la ley 41/2002,¿cuál es y la que define correctamente el término usuario?",
+    "Options": {
+      "A": "A. La persona que utiliza los servicios sanitarios de Educación y Promoción de la salud, de prevención de enfermedades, y de información sanitaria.",
+      "B": "B. Toda aquella persona que promueve los medios sanitarios adecuada y racionalmente.",
+      "C": "C. La persona que requiere los servicios que han sido puestos a su disposición por las autoridades sanitarias.",
+      "D": "D. Toda aquella persona que solicita asistencia sanitaria y está sometida cuidados profesionales para el mantenimiento o recuperación de su salud."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 214,
+    "Question": "❓FFM.-¿Qué parte del documento de consentimiento informado escrito contiene la información sobre procesos alternativos para llevar a cabo el diagnóstico o el tratamiento?",
+    "Options": {
+      "A": "a. El preámbulo.",
+      "B": "b. La afectación.",
+      "C": "c. El reverso.",
+      "D": "d. El cuerpo."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 215,
+    "Question": "❓FFM.-¿Cuál es la ley básica reguladora de la autonomía del paciente y de Dº s y Ob. s.en materia de información y documentación clínica?",
+    "Options": {
+      "A": "a. 42/2002.",
+      "B": "b. 43/2002.",
+      "C": "c. 45/2002.",
+      "D": "d. 41/2002."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 216,
+    "Question": "❓FFM.-Indique la respuesta incorrecta en relación con los requisitos del consentimiento informado:",
+    "Options": {
+      "A": "a) Debe ser libre.",
+      "B": "b) Debe ser voluntario.",
+      "C": "c) La decisión de consentir debe anteceder a una información adecuada.",
+      "D": "d) La persona que lo presta debe tener capacidad para conocer, comprender y querer el alcance de su decisión."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 217,
+    "Question": "❓FFM.-¿Cómo se denomina el conjunto organizado de profesionales, instalaciones y medios técnicos que realiza actividades y presta servicios para cuidar la salud de los pacientes y usuarios en la Ley 41/2002?",
+    "Options": {
+      "A": "a. Centro sanitario.",
+      "B": "b. Certificado medico.",
+      "C": "c. Servicio sanitario.",
+      "D": "d. Ninguna respuesta es cierta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 218,
+    "Question": "❓FFM.-El reconocimiento legal de que se respeten los deseos expresados anteriormente en el documento de instrucciones previas es una manifestación del Dº :",
+    "Options": {
+      "A": "a. A la información sanitaria.",
+      "B": "b. A la autonomía del paciente.",
+      "C": "c. A Dº de decisión personal recogido en la constitución.",
+      "D": "d. A la segunda opinión."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 219,
+    "Question": "❓FFM.-¿Cuál es el fin principal de la Hª.Clinica ?",
+    "Options": {
+      "A": "a. Recuperación de datos y actuaciones sobre el paciente.",
+      "B": "b. Conjuntar los datos asistenciales del paciente.",
+      "C": "c. Facilitar asistencia sanitaria.",
+      "D": "d. EnglOb. ar totalidad de documentos de uso clínico."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 220,
+    "Question": "❓FFM.-¿Cuál de los siguientes no es contenido mínimo de la Hª.Clinica ?",
+    "Options": {
+      "A": "a. Autorización de ingreso.",
+      "B": "b. Órdenes médicas.",
+      "C": "c. Informe de anestesia.",
+      "D": "d. Informe clínico de baja."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 221,
+    "Question": "❓FFM.-¿En qué capítulo de la ley 41/2002 se desarrolla el consentimiento informado?",
+    "Options": {
+      "A": "a. II.",
+      "B": "b. III.",
+      "C": "c. IV.",
+      "D": "d. V."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 222,
+    "Question": "❓FFM.-¿En qué parte del consentimiento informado el usuario manifiesta que ha sido informado por el facultativo, que ha entendido lo que le ha dicho y que consiente acogerse a la actuación médica propuesta?",
+    "Options": {
+      "A": "A. Cuerpo.",
+      "B": "B. Aceptación.",
+      "C": "C. Preámbulo.",
+      "D": "D. Final."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 223,
+    "Question": "❓FFM.-Tarjetas sanitarias individuales deberán adaptarse, su caso a normalización que pueda establecerse para el conjunto de las administraciones públicas en:",
+    "Options": {
+      "A": "a. La Unión Europea.",
+      "B": "b. El conjunto del SNS.",
+      "C": "c. El conjunto del SNS y el seno de la Unión Europea.",
+      "D": "d. El seno de la Unión Europea."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 224,
+    "Question": "❓FFM.-¿Qué Dº regula el capítulo II de la ley 41/2002 ?",
+    "Options": {
+      "A": "a. Dº de acceso a la Hª.Clinica .",
+      "B": "b. Dº a la intimidad.",
+      "C": "c. Dº a la información para la elección de médico.",
+      "D": "d. Dº a la información sanitaria."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 225,
+    "Question": "❓FFM.-¿En qué capítulo de la ley 41/2002 se regula la Hª.Clinica ?",
+    "Options": {
+      "A": "A. Capítulo V.",
+      "B": "B. Capítulo IV.",
+      "C": "C. Capítulo VI.",
+      "D": "D. Capítulo I."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 226,
+    "Question": "❓FFM.-¿Cuál de las siguientes expresiones es más correcta en relación con garantizar el cumplimiento del Dº a la información al paciente?",
+    "Options": {
+      "A": "A) El médico responsable del paciente.",
+      "B": "B) Los profesionales que le atiendan durante el proceso asistencial o le apliquen una técnica o un procedimiento concreto.",
+      "C": "C) La dirección del centro.",
+      "D": "D) El jefe clínico del servicio asistencial en que se atiende al paciente."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 227,
+    "Question": "❓FFM.-¿Cuál es la ley básica reguladora de la autonomía del paciente y de Dº s y Ob. s.en materia de información y documentación clínica?",
+    "Options": {
+      "A": "a. Ley 14/2001 de 14 de noviembre.",
+      "B": "b. Ley 41/2002 de 14 de noviembre.",
+      "C": "c. Ley 30/2010 de 9 de junio.",
+      "D": "d. Ley 33/2010 de 9 de junio."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 228,
+    "Question": "❓FFM.-¿A qué principio bioético se refiere el requisito de obtener el consentimiento previo del paciente antes de cualquier acto sanitario, según la Ley 41/2002?",
+    "Options": {
+      "A": "a. El principio de autonomía.",
+      "B": "b. El principio de beneficencia.",
+      "C": "c. El principio de justicia distributiva.",
+      "D": "d. El principio de no maleficencia."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 229,
+    "Question": "❓FFM.-Según la ley 41/2002 en su art.17, ¿sobre quién recae la responsabilidad de custodiar las historias clínicas en los centros sanitarios?",
+    "Options": {
+      "A": "a. La unidad de atención al profesional.",
+      "B": "b. La unidad de admisión y documentación clínica.",
+      "C": "c. El archivo de historias clínicas.",
+      "D": "d. La dirección del centro sanitario."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 230,
+    "Question": "❓FFM.-Según la ley 41/2002,¿a quién corresponde la gestión de la Hª.Clinica  en los centros sanitarios con pacientes hospitalizados?",
+    "Options": {
+      "A": "a. A la unidad de atención al profesional.",
+      "B": "b. A la unidad de admisión y documentación clínica.",
+      "C": "c. Al archivo de historias clínicas.",
+      "D": "d. Al director del centro sanitario."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 231,
+    "Question": "❓FFM.-¿Cómo se conoce al Convenio del Consejo de Europa que sirve de base a la Ley 41/2002 y que entró en vigor en España en el año 2000?",
+    "Options": {
+      "A": "a. El convenio de Roma.",
+      "B": "b. El convenio de Ámsterdam.",
+      "C": "c. El convenio de Maastricht.",
+      "D": "d. El convenio de Oviedo."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 232,
+    "Question": "❓FFM.-¿Qué principios, según la Ley 41/2002,deben guiar el manejo de la información y documentación clínica?",
+    "Options": {
+      "A": "a. La dignidad de la persona humana.",
+      "B": "b. El respeto a la autonomía personal, que posibilita a cada persona tomar decisiones voluntarias.",
+      "C": "c. El respeto a la intimidad de la persona.",
+      "D": "d. Todas las respuestas anteriores son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 233,
+    "Question": "❓FFM.-Según la ley 41/2002 de autonomía asistencial, ¿quién tiene Dº a la información asistencial?",
+    "Options": {
+      "A": "a. El paciente salvo que exprese su Dº a no ser informado.",
+      "B": "b. Los familiares del paciente en cualquier caso.",
+      "C": "c. Las personas vinculadas al paciente por razones de hecho en cualquier caso.",
+      "D": "d. Todas las respuestas anteriores son ciertas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 234,
+    "Question": "❓FFM.-Según la ley 41/2002,¿qué actuaciones requieren del consentimiento previo de la persona como paciente o usuario?",
+    "Options": {
+      "A": "a) Sólo las actuaciones o exploraciones invasivas dolorosa o molestas para el paciente o usuario.",
+      "B": "b) Exclusivamente la actuaciones que tenga riesgo para el paciente o usuario.",
+      "C": "c) Específicamente sólo la actuaciones en el contexto de una investigación en la que participe el paciente o que se lleven a cabo para su objetivo docente.",
+      "D": "d) Todas las actuaciones en el ámbito de la sanidad o de la salud del paciente o usuario."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 235,
+    "Question": "❓FFM.-La renuncia del paciente a recibir información:",
+    "Options": {
+      "A": "a. No se reconoce por la ley.",
+      "B": "b. Está limitada por el interés de la salud del propio paciente.",
+      "C": "c. No está limitada por el interés de la salud de terceros.",
+      "D": "d. Ninguna es cierta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 236,
+    "Question": "❓FFM.-La ley 41/2002,,, establece que, como regla general, el consentimiento se manifestará en forma:",
+    "Options": {
+      "A": "a. Verbal.",
+      "B": "b. Escrita.",
+      "C": "c. Ante testigos.",
+      "D": "d. Documental."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 237,
+    "Question": "❓FFM.-La solicitud de la Tarjeta Sanitaria de las personas residentes en Andalucía puede efectuarse:",
+    "Options": {
+      "A": "a. De forma presencial.",
+      "B": "b. A través de internet.",
+      "C": "c. A través de un abogado.",
+      "D": "d. Las respuestas a y b son verdaderas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 238,
+    "Question": "❓FFM.-Supone la Ob. de hacer el bien tal y como cada uno lo entiende procurando siempre minimizar los riesgos previsibles:",
+    "Options": {
+      "A": "a. Autonomía.",
+      "B": "b. No maleficencia.",
+      "C": "c. Beneficencia.",
+      "D": "d. Justicia."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 239,
+    "Question": "❓FFM.-Principio que exige que todas las personas sean tratadas con el mismo respeto y consideración en los órdenes físicos y psíquico:",
+    "Options": {
+      "A": "a. Beneficencia.",
+      "B": "b. Autonomía.",
+      "C": "c. No maleficencia.",
+      "D": "d. Justicia."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 240,
+    "Question": "❓FFM.-Defiende la necesidad de considerar a todos los seres humanos capaces de tomar decisiones por sí mismos en relación a todo lo que le afecta a su modo de vida:",
+    "Options": {
+      "A": "a. Independencia.",
+      "B": "b. Autonomía.",
+      "C": "c. Justicia.",
+      "D": "d. Va a su bola."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 241,
+    "Question": "❓FFM.-Exige que todas las personas sean tratadas con el mismo respeto y consideración en el orden social:",
+    "Options": {
+      "A": "a. Equidad.",
+      "B": "b. Igualdad.",
+      "C": "c. Justicia.",
+      "D": "d. Todas son correctas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 242,
+    "Question": "❓FFM.-Señala la correcta respecto a la tarjeta sanitaria de Andalucía:",
+    "Options": {
+      "A": "a. Identifica individualmente a los usuarios ante el SSPA.",
+      "B": "b. Sirve para facilitar el acceso a la Hª.Clinica  electrónica en determinados casos.",
+      "C": "c. Sirve para prescribir mediante receta electrónica y retirar los medicamentos en la farmacia.",
+      "D": "d. Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 243,
+    "Question": "❓FFM.-La réplica de la tarjeta sanitaria se enviará por correo postal a la dirección que conste en el sistema en un plazo de:",
+    "Options": {
+      "A": "a. 5 días.",
+      "B": "b. 15 días.",
+      "C": "c. 10 días.",
+      "D": "d. 15 días aproximadamente."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 244,
+    "Question": "❓FFM.-La tarjeta sanitaria europea se solicita:",
+    "Options": {
+      "A": "a. Físicamente o por internet al Instituto Nacional de seguridad social.",
+      "B": "b. Por internet al Instituto Nacional de seguridad social.",
+      "C": "c. Por Internet a la Junta de Andalucía.",
+      "D": "d. Físicamente por Internet a la Junta de Andalucía."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 245,
+    "Question": "❓FFM.-Según la Ley 41/2002,de 14 de noviembre, los centros sanitarios tienen la Ob. de conservar la documentación clínica durante el tiempo adecuado a cada caso, y como mínimo:",
+    "Options": {
+      "A": "a. Cinco años contados desde la fecha del alta de cada proceso asistencial.",
+      "B": "b. Cinco años contados desde la fecha de la primera visita médica de cada proceso asistencial.",
+      "C": "c. Diez años contados desde la fecha del alta de cada proceso asistencial.",
+      "D": "d. Diez años contados desde la fecha de la primera visita médica de cada proceso asistencial."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 246,
+    "Question": "❓FFM.-La tarjeta sanitaria individual puede solicitarse en ClicSalud+, por:",
+    "Options": {
+      "A": "a. Nunca. Siempre debe hacerse en persona en el centro de salud.",
+      "B": "b. Sólo en el caso de que el usuario disponga de firma digital autorizada.",
+      "C": "c. Siempre, incluidos menores o discapacitados (autorizados por su representante).",
+      "D": "d. Aquellas personas que ya son usuarios registrados en la Base de Datos de Usuarios (BDU) de Andalucía, pero no tienen la tarjeta física."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 247,
+    "Question": "❓FFM.-Los ciudadanos tienen frente a la administración:",
+    "Options": {
+      "A": "A) Dº s sanitarios a tener información detallado de la técnica clínica aplicada a su familiar.",
+      "B": "B) Dº a cancelar todos los datos clínicos recogidos en la Hª.Clinica .",
+      "C": "C) Dº a acceder a los archivos y registros de la administración, con los límites legalmente establecidos.",
+      "D": "D) Dº a ser tratado con deferencia con razón de edad y sexo."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 248,
+    "Question": "❓FFM.-Según el art.9 de la Ley General Sanitaria, los poderes públicos deberán informar a los usuarios de:",
+    "Options": {
+      "A": "a) Los servicios del sistema sanitario público, o vinculados a él.",
+      "B": "b) De sus Dº s.",
+      "C": "c) De sus deberes.",
+      "D": "d) De todo lo anterior."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 249,
+    "Question": "❓FFM.-Cada centro archivará las historias clínicas de sus pacientes, cualquiera que sea el soporte papel, audiovisual, informático o de otro tipo en el que consten, de manera que queden garantizadas:",
+    "Options": {
+      "A": "a. Su seguridad.",
+      "B": "b. Su correcta conservación.",
+      "C": "c. La recuperación de la información.",
+      "D": "d. Todas las respuestas son verdaderamente correctas y ciertas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 250,
+    "Question": "❓FFM.-Todo paciente o usuario tiene Dº a que se le faciliten los certificados acreditativos de su estado de salud. Éstos serán gratuitos cuando:",
+    "Options": {
+      "A": "a. En ningún caso.",
+      "B": "b. Así lo establezca una disposición legal o reglamentaria.",
+      "C": "c. En todo caso.",
+      "D": "d. Cuando lo diga el médico responsable."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 251,
+    "Question": "❓FFM.-¿Cuántos art.s tienen la Ley 43/2002 de 14 de Noviembre?",
+    "Options": {
+      "A": "a. 24.",
+      "B": "b. 23.",
+      "C": "c. 26.",
+      "D": "d. 30."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 252,
+    "Question": "❓FFM.-El Facultativo podrá realizar intervenciones clínicas indispensables a favor de la salud del paciente sin el consentimiento del mismo cuando:",
+    "Options": {
+      "A": "a. Exista riesgo para la salud pública a causa de razones sanitarias establecidas por la Ley.",
+      "B": "b. Cuando los familiares así lo determinen.",
+      "C": "c. Existen riesgo inmediato grave para su integridad física o psíquica y no sea posible su autorización.",
+      "D": "d. Las respuestas a y c son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 253,
+    "Question": "❓FFM.-El paciente tiene derecho de acceso y copia de los documentos de su Hª.Clinica , con la excepción de:",
+    "Options": {
+      "A": "a. Acceso y copia de todos los documentos sin excepción.",
+      "B": "b. Copia de todos los documentos, excepto anotaciones subjetivas del profesional.",
+      "C": "c. Acceso total a la historia, pero copia solo del alta de urgencias.",
+      "D": "d. Acceso y copia, excepto datos de terceras personas (por interés terapéutico) y anotaciones subjetivas del profesional."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 254,
+    "Question": "❓FFM.-¿Cómo se llama el soporte que contiene un conjunto de datos e informaciones de carácter asistencial?",
+    "Options": {
+      "A": "a. Informe de alta médica.",
+      "B": "b. Hª.Clinica .",
+      "C": "c. Información clínica.",
+      "D": "d. Documentación clínica."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 255,
+    "Question": "❓FFM.-¿Cuál de los siguientes contenidos sólo será exigible en la cumplimentación de la Hª.Clinica  cuando se trate de procesos de hospitalización o así se disponga?",
+    "Options": {
+      "A": "a. La anamnesis y la exploración física.",
+      "B": "b. El informe de anestesia.",
+      "C": "c. Los informes de exploraciones complementarias.",
+      "D": "d. Las órdenes médicas."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 256,
+    "Question": "❓FFM.-Tienen Dº a la Hª.Clinica  del paciente de un centro asistencial:",
+    "Options": {
+      "A": "a. Los profesionales asistenciales del centro.",
+      "B": "b. El personal asistencial, investigador y docente del centro.",
+      "C": "c. Los profesionales asistenciales del centro implicados en el diagnóstico y tratamiento del enfermo.",
+      "D": "d. Los profesionales asistenciales y de gestión y servicios del centro."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 257,
+    "Question": "❓FFM.-¿Cómo tiene la Ob. los centros sanitarios de conservar la documentación clínica?",
+    "Options": {
+      "A": "a. En el soporte original.",
+      "B": "b. Como mínimo 3 años contados desde la fecha de alta de cada proceso asistencial.",
+      "C": "c. Como mínimo 4 años contados desde la fecha de alta de cada proceso asistencial.",
+      "D": "d. Ob. de conservación aunque no necesariamente en el soporte original."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 258,
+    "Question": "❓FFM.-¿Cuál es el derecho del paciente a la Hª.Clinica , según la Ley 41/2002?",
+    "Options": {
+      "A": "a. Siempre por escrito.",
+      "B": "b. Como norma general se proporcionará verbalmente.",
+      "C": "c. De manera comprensible y adecuada y solamente la dará el personal médico responsable del paciente.",
+      "D": "d. De manera escueta y resumida."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 259,
+    "Question": "❓FFM.-Entre el contenido mínimo del informe de alta no figura:",
+    "Options": {
+      "A": "A. El resumen del historial clínico del paciente.",
+      "B": "B. La actividad asistencial prestada.",
+      "C": "C. El consentimiento informado.",
+      "D": "D. El diagnóstico."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 260,
+    "Question": "❓FFM.-En Andalucía, la declaración de voluntad vital anticipada deberá inscribirse en:",
+    "Options": {
+      "A": "a. En algunos de los registros del sistema sanitario privado de Andalucía.",
+      "B": "b. El registro de voluntades vitales anticipadas de Andalucía.",
+      "C": "c. El registro de primeras voluntades anticipadas.",
+      "D": "d. En todas las anteriores respuestas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 261,
+    "Question": "❓FFM.-Es un principio de las unidades de gestión clínica:",
+    "Options": {
+      "A": "A) La continuidad asistencial.",
+      "B": "B) La información y transparencia.",
+      "C": "C) La confidencialidad e intimidad del paciente.",
+      "D": "D) Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 262,
+    "Question": "❓FFM.-Según la ley 41/2002,el paciente tiene Dº a recibir un informe de alta:",
+    "Options": {
+      "A": "a. Solo si ha habido ingreso hospitalario.",
+      "B": "b. Previa solicitud.",
+      "C": "c. Al finalizar el proceso asistencial.",
+      "D": "d. Ninguna de las anteriores es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 263,
+    "Question": "❓FFM.-Los usuarios del sistema sanitario público deberán ser informados de sus Dº s y deberes por:",
+    "Options": {
+      "A": "a. Médico de guardia.",
+      "B": "b. Celador conductor.",
+      "C": "c. Los poderes públicos.",
+      "D": "d. El director del centro."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 264,
+    "Question": "❓FFM.-El Artículo 1 de la Ley 41/2002,que establece el objeto de la misma, indica que la ley tiene por objeto:",
+    "Options": {
+      "A": "A) Los Dº s de los profesionales únicamente.",
+      "B": "B) Los Dº s/Ob. s.de pacientes, usuarios, profesionales, centros y servicios sanitarios.",
+      "C": "C) Las Ob. s.de los pacientes en centros públicos.",
+      "D": "D) La estructura organizativa de los servicios sanitarios."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 265,
+    "Question": "❓FFM.-La ley 41/2002 de 14 de noviembre, en su art.2 NO menciona el principio de:",
+    "Options": {
+      "A": "A) Dignidad de la persona humana.",
+      "B": "B) Respeto a la autonomía de la voluntad.",
+      "C": "C) Confidencialidad de los datos socio-económicos.",
+      "D": "D) Respeto a la intimidad."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 266,
+    "Question": "❓FFM.-Según el Artículo 2 de la Ley 41/2002,¿cuál es el requisito fundamental para cualquier actuación sanitaria?",
+    "Options": {
+      "A": "A) La firma de un contrato con el paciente.",
+      "B": "B) La autorización escrita de un familiar directo.",
+      "C": "C) El consentimiento previo del paciente o usuario.",
+      "D": "D) La aprobación del Comité de Ética del hospital."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 267,
+    "Question": "❓FFM.-La ley 41/2002,en el art.2 menciona que todo paciente o usuario tiene Dº a:",
+    "Options": {
+      "A": "A) A recibir tratamiento sin necesidad de información previa.",
+      "B": "B) A negarse al tratamiento, excepto en los casos determinados en la Ley.",
+      "C": "C) A elegir a su médico sin restricciones.",
+      "D": "D) A solicitar la Hª.Clinica  de otro paciente."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 268,
+    "Question": "❓FFM.-La ley 41/2002,en su art.2 nos dice que los pacientes o usuarios respecto a su estado físico o salud deben:",
+    "Options": {
+      "A": "A) Facilitar los datos sobre su estado de salud de manera leal y verdadera.",
+      "B": "B) Informar únicamente si lo consideran necesario.",
+      "C": "C) Proporcionar información solo a petición de un tribunal.",
+      "D": "D) Guardar toda la información de su estado de salud en un registro personal."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 269,
+    "Question": "❓FFM.-La ley 41/2002,en el art.2.5 dice que el profesional que interviene en la actividad asistencial está obligado a:",
+    "Options": {
+      "A": "A) Actuar solo bajo la supervisión de otro profesional.",
+      "B": "B) Cumplir los deberes de información y documentación clínica.",
+      "C": "C) Informar únicamente a los superiores.",
+      "D": "D) Compartir toda la información con otros pacientes."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 270,
+    "Question": "❓FFM.-La ley 41/2002,según el art.2.7, ¿qué deben hacer las personas que elaboren o tengan acceso a la documentación clínica?",
+    "Options": {
+      "A": "A) Compartirla con otros profesionales sin restricción.",
+      "B": "B) Guardar la reserva debida.",
+      "C": "C) Publicarla en los registros públicos con la debida confidencialidad.",
+      "D": "D) Mantener el secreto profesional y destruirla después de cada intervención."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 271,
+    "Question": "❓FFM.-La ley 41/2002 de 14 de noviembre, , corresponde al 'Centro sanitario' según el art.3:",
+    "Options": {
+      "A": "A) El documento emitido por un médico que resume el estado de salud de una persona.",
+      "B": "B) La unidad asistencial con organización propia.",
+      "C": "C) El conjunto organizado de profesionales, instalaciones y medios técnicos para cuidar la salud de los pacientes y usuarios.",
+      "D": "D) El grupo de profesionales responsables de una intervención del tipo que sea."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 272,
+    "Question": "❓FFM.-La ley 41/2002 de 14 de noviembre, el Consentimiento informado según el art.3, es:",
+    "Options": {
+      "A": "A) La conformidad de un paciente para recibir tratamiento sin necesidad de información.",
+      "B": "B) La conformidad libre, voluntaria y consciente de un paciente , después de recibir la información adecuada.",
+      "C": "C) El documento que autoriza al médico a tomar decisiones por el paciente.",
+      "D": "D) La aceptación tácita de cualquier tratamiento médico por parte del paciente."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 273,
+    "Question": "❓FFM.-La ley 41/2002,dice, que el documento que contiene los datos, valoraciones e informaciones sobre la situación y la evolución clínica de un paciente, es:",
+    "Options": {
+      "A": "A) El certificado médico.",
+      "B": "B) La documentación clínica.",
+      "C": "C) El informe de alta médica.",
+      "D": "D) La Hª.Clinica ."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 274,
+    "Question": "❓FFM.-La ley 41/2002,dice que es el documento que emite el médico responsable al finalizar el proceso asistencial de un paciente.",
+    "Options": {
+      "A": "A) El certificado médico.",
+      "B": "B) El consentimiento informado.",
+      "C": "C) El informe de alta médica.",
+      "D": "D) La Hª.Clinica ."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 275,
+    "Question": "❓FFM.-La ley 41/2002,dice que el paciente en relación con la 'Libre elección' tiene el Dº ,a:",
+    "Options": {
+      "A": "A) Elegir entre dos o más alternativas asistenciales o entre varios facultativos o centros asistenciales.",
+      "B": "B) Escoger el tratamiento más caro sin importar la opinión médica.",
+      "C": "C) Solicitar el alta médica en cualquier momento.",
+      "D": "D) A y C son correctas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 276,
+    "Question": "❓FFM.-La ley 41/2002,dice que es el 'Médico responsable'.",
+    "Options": {
+      "A": "A) El profesional encargado de coordinar la información y la asistencia sanitaria del paciente.",
+      "B": "B) El médico que decide el alta médica del paciente.",
+      "C": "C) El jefe del departamento de un centro sanitario.",
+      "D": "D) El médico que realiza la intervención quirúrgica."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 277,
+    "Question": "❓FFM.-La ley 41/2002,dice que se considera parte de la 'Documentación clínica'.",
+    "Options": {
+      "A": "A) Las acreditaciones de los profesionales que atienden al paciente.",
+      "B": "B) El registro de pacientes y profesionales de un hospital.",
+      "C": "C) El informe de alta médica.",
+      "D": "D) Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 278,
+    "Question": "❓FFM.-La ley 41/2002,dice que todo paciente antes de recibir una actuación médica, según el art.2, debe:",
+    "Options": {
+      "A": "A) Firmar un documento de confidencialidad.",
+      "B": "B) Decidir entre las opciones clínicas disponibles después de recibir información adecuada.",
+      "C": "C) Solicitar una segunda opinión.",
+      "D": "D) A y B son correctas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 279,
+    "Question": "❓FFM.-La ley 41/2002,dice que según el art.4, ¿qué Dº tienen los pacientes en relación con la información sobre su salud?",
+    "Options": {
+      "A": "A) A recibir únicamente la información que soliciten.",
+      "B": "B) A conocer toda la información disponible sobre su salud, salvo excepciones previstas por la Ley.",
+      "C": "C) A ser informados solo si lo consideran necesario.",
+      "D": "D) A recibir información únicamente en formato escrito."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 280,
+    "Question": "❓FFM.-La ley 41/2002,dice que según el art.4, ¿cómo se debe proporcionar la información al paciente generalmente?",
+    "Options": {
+      "A": "A) Siempre por escrito y en términos técnicos.",
+      "B": "B) Verbalmente y dejando constancia en la Hª.Clinica .",
+      "C": "C) Exclusivamente mediante comunicación electrónica dejando constancia en la Hª.Clinica .",
+      "D": "D) Solo en presencia de un familiar."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 281,
+    "Question": "❓FFM.-La ley 41/2002,dice que según el art.4, ¿qué características debe tener la información clínica proporcionada al paciente?",
+    "Options": {
+      "A": "A) Ser breve y directa, sin detalles adicionales.",
+      "B": "B) Ser comprensible, adecuada a sus necesidades y verdadera.",
+      "C": "C) Ser técnica y exhaustiva, sin considerar la capacidad de comprensión del paciente.",
+      "D": "D) Ser únicamente la mínima necesaria para evitar sobrecargar al paciente."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 282,
+    "Question": "❓FFM.-La ley 41/2002,dice que según el art.4, garantiza el cumplimiento del Dº a la información del paciente:",
+    "Options": {
+      "A": "A) El director del hospital.",
+      "B": "B) Cualquier médico que visite al paciente ocasionalmente.",
+      "C": "C) El personal administrativo del centro sanitario.",
+      "D": "D) El médico responsable del paciente."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 283,
+    "Question": "❓FFM.-La ley 41/2002,dice que según el art.5, ¿quién es el titular del Dº a la información asistencial?",
+    "Options": {
+      "A": "A) El médico tratante.",
+      "B": "B) El representante legal del paciente.",
+      "C": "C) El paciente.",
+      "D": "D) Las personas vinculadas al paciente por razones familiares en cualquier caso."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 284,
+    "Question": "❓FFM.-La ley 41/2002,dice que en caso de incapacidad del paciente, ¿qué se debe hacer según el art.5.2?",
+    "Options": {
+      "A": "A) Informar únicamente a las personas vinculadas al paciente.",
+      "B": "B) No proporcionar ninguna información hasta que recupere su capacidad.",
+      "C": "C) Informar tanto al paciente como a su representante legal, adecuándose a las posibilidades de comprensión del paciente.",
+      "D": "D) Ninguna es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 285,
+    "Question": "❓FFM.-La ley 41/2002,dice que según el art.5, ¿qué sucede si el paciente no puede entender la información debido a su estado físico o psíquico?",
+    "Options": {
+      "A": "A) No se le proporciona ninguna información.",
+      "B": "B) La información se da solo al médico responsable.",
+      "C": "C) La información se comunicará a las personas vinculadas al paciente en cualquier manera legal.",
+      "D": "D) Ninguna es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 286,
+    "Question": "❓FFM.-La ley 41/2002,dice que la 'necesidad terapéutica' es según el art.5:",
+    "Options": {
+      "A": "A) La necesidad de administrar un tratamiento experimental sin informar al paciente.",
+      "B": "B) La Ob. del paciente de someterse a tratamiento sin previo aviso.",
+      "C": "C) La situación en la que el paciente debe recibir información únicamente en términos generales.",
+      "D": "D) Ninguna es correcta."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 287,
+    "Question": "❓FFM.-La ley 41/2002,dice que el médico si decide no informar al paciente debido a una necesidad terapéutica deberá:",
+    "Options": {
+      "A": "A) Dejar constancia razonada en la Hª.Clinica .",
+      "B": "B) Informar únicamente al director del hospital.",
+      "C": "C) Comunicar su decisión a las personas vinculadas al paciente por razones familiares o de hecho.",
+      "D": "D) A y C son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 288,
+    "Question": "❓FFM.-La ley 41/2002,dice que según el art.6, ¿qué Dº tienen los ciudadanos respecto a la información epidemiológica?",
+    "Options": {
+      "A": "A) A recibir información solo si afecta directamente a su salud individual.",
+      "B": "B) A conocer los prOb. lemas sanitarios de la colectividad si implica un riesgo para la salud general.",
+      "C": "C) A obtener informes detallados sobre cualquier prOb. lema sanitario glOb. al.",
+      "D": "D) Ninguna es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 289,
+    "Question": "❓FFM.-La ley 41/2002,dice que según el art.7, ¿qué Dº tiene toda persona en relación con sus datos de salud?",
+    "Options": {
+      "A": "A) A permitir el acceso libre a sus datos por parte de cualquier profesional de la salud.",
+      "B": "B) A que se respete el carácter confidencial de sus datos de salud y a que nadie pueda compartirlos.",
+      "C": "C) A compartir sus datos de salud con cualquier persona que lo solicite.",
+      "D": "D) Ninguna es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 290,
+    "Question": "❓FFM.-La ley 41/2002,dice que los centros sanitarios para garantizar el Dº a la intimidad de los pacientes, según el art.7, deben:",
+    "Options": {
+      "A": "A) Publicar los datos de los pacientes en un informe mensual.",
+      "B": "B) Permitir que cualquier empleado acceda a los datos sin restricciones.",
+      "C": "C) Adoptar medidas oportunas y elaborar normas y procedimientos protocolizados que garanticen el acceso legal a los datos.",
+      "D": "D) Ninguna es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 291,
+    "Question": "❓FFM.-La ley 41/2002,dice que es necesaria para que alguien pueda acceder a los datos de salud de una persona:",
+    "Options": {
+      "A": "A) Una autorización verbal del paciente.",
+      "B": "B) Una autorización escrita por parte del paciente.",
+      "C": "C) Una autorización previa amparada por la Ley.",
+      "D": "D) Todas son correctas."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 292,
+    "Question": "❓FFM.-La ley 41/2002,que según el art.8, ¿qué necesita toda actuación en el ámbito de la salud de un paciente?",
+    "Options": {
+      "A": "A) Autorización judicial.",
+      "B": "B) Consentimiento libre y voluntario del paciente.",
+      "C": "C) AprOb. ación de un médico.",
+      "D": "D) Aval de un representante legal."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 293,
+    "Question": "❓FFM.-La ley 41/2002,dice que el consentimiento informado, según el art.8, se prestará por escrito en caso de:",
+    "Options": {
+      "A": "A) Consulta general.",
+      "B": "B) Revisión de historial médico.",
+      "C": "C) Consulta psicológica.",
+      "D": "D) Intervención quirúrgica."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 294,
+    "Question": "❓FFM.-La ley 41/2002,dice que el paciente en relación con los procedimientos docentes o de investigación tiene Dº a:",
+    "Options": {
+      "A": "A) A revocar su consentimiento en cualquier momento.",
+      "B": "B) A no ser informado sobre dichos procedimientos.",
+      "C": "C) A ser incluido automáticamente en ellos.",
+      "D": "D) A recibir un incentivo económico."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 295,
+    "Question": "❓FFM.-La ley 41/2002,dice que una vez otorgado su consentimiento, el paciente:",
+    "Options": {
+      "A": "A) No puede modificarlo.",
+      "B": "B) Puede revocarlo libremente por escrito en cualquier momento.",
+      "C": "C) Solo puede revocarlo después de 24 horas.",
+      "D": "D) Necesita la aprOb. ación del médico para revocarlo."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 296,
+    "Question": "❓FFM.-La ley 41/2002,dice que según el art.9, ¿cuándo pueden los facultativos intervenir sin consentimiento del paciente?",
+    "Options": {
+      "A": "A) En cualquier momento.",
+      "B": "B) Cuando hay riesgo para la salud pública en determinadas circunstancias.",
+      "C": "C) Solo si el paciente lo permite.",
+      "D": "D) Nunca."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 297,
+    "Question": "❓FFM.-La ley 41/2002,dice que en caso de incapacidad del paciente, ¿quién otorga el consentimiento informado?",
+    "Options": {
+      "A": "A) Nadie, se prescinde del consentimiento.",
+      "B": "B) El médico responsable únicamente.",
+      "C": "C) El representante legal o personas vinculadas por razones familiares o de hecho.",
+      "D": "D) Cualquier persona mayor de edad."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 298,
+    "Question": "❓FFM.-La ley 41/2002,según el art.10, ¿qué tipo de información debe proporcionar el facultativo al paciente antes de obtener su consentimiento por escrito?",
+    "Options": {
+      "A": "A) La lista completa de tratamientos disponibles.",
+      "B": "B) Las consecuencias relevantes, riesgos prOb. ables y contraindicaciones.",
+      "C": "C) Solo las contraindicaciones.",
+      "D": "D) Los horarios del centro de salud."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 299,
+    "Question": "❓FFM.-La ley 41/2002,dice que permite a una persona expresar su voluntad anticipada respecto a cuidados y tratamientos de salud:",
+    "Options": {
+      "A": "A) Certificado médico.",
+      "B": "B) Testamento.",
+      "C": "C) Documento de instrucciones previas.",
+      "D": "D) Receta médica."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 300,
+    "Question": "❓FFM.-La ley 41/2002,dice que si las instrucciones previas son contrarias al ordenamiento jurídico:",
+    "Options": {
+      "A": "A) Se aplican de todos modos.",
+      "B": "B) Se desestiman y no se aplican.",
+      "C": "C) El médico decide si las aplica.",
+      "D": "D) Deben ser aprOb. adas por un tribunal."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 301,
+    "Question": "❓FFM.-La ley 41/2002,dice que según el art.11.4, ¿cómo pueden ser revocadas las instrucciones previas?",
+    "Options": {
+      "A": "A) No pueden ser revocadas.",
+      "B": "B) Mediante una solicitud verbal.",
+      "C": "C) De forma libre y por escrito en cualquier momento.",
+      "D": "D) Solo por orden judicial."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 302,
+    "Question": "❓FFM.-La ley 41/2002,dice que los pacientes y usuarios del Sistema Nacional de Salud según el art.12.1 tienen Dº a:",
+    "Options": {
+      "A": "A) A elegir cualquier tratamiento sin restricciones.",
+      "B": "B) A no ser informados sobre los servicios sanitarios.",
+      "C": "C) A recibir tratamiento prioritario en todos los casos.",
+      "D": "D) A recibir información sobre los servicios y unidades asistenciales disponibles."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 303,
+    "Question": "❓FFM.-La ley 41/2002,dice que cada servicio de salud para garantizar el cumplimiento del art.12, deberán:",
+    "Options": {
+      "A": "A) Hacer siempre menos que su compañero de trabajo para que eso ganen lo mismo.",
+      "B": "B) Publicar anuncios en medios de comunicación.",
+      "C": "C) Regular los procedimientos y sistemas adecuados.",
+      "D": "D) Solo informar a los pacientes cuando lo soliciten."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 304,
+    "Question": "❓FFM.-La ley 41/2002,dice que debe constar en la Hª.Clinica  del paciente en relación con las instrucciones previas:",
+    "Options": {
+      "A": "A) Solo el nombre del representante legal.",
+      "B": "B) Las anotaciones relacionadas con las instrucciones previas y su razonamiento.",
+      "C": "C) Nada, no es necesario anotarlo (es que se me ha perdido el boli).",
+      "D": "D) La aprOb. ación del médico responsable."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 305,
+    "Question": "❓FFM.-Quienes tienen acceso a la información y documentación clínica, están obligados a:",
+    "Options": {
+      "A": "a. A guardarla en el archivo indicado para ello.",
+      "B": "b. La reserva debida.",
+      "C": "c. Custodiarla, aunque la documentación clínica es propiedad del facultativo.",
+      "D": "d. Entregarla al celador conductor para su custodia."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 306,
+    "Question": "❓FFM.-La información del consentimiento informado no precisa incluir:",
+    "Options": {
+      "A": "a. Riesgos frecuentes.",
+      "B": "b. Beneficios que se esperan alcanzar.",
+      "C": "c. Consecuencias previsibles de la realización del procedimiento.",
+      "D": "d. Bibliografía del procedimiento."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 307,
+    "Question": "❓FFM.-¿Cuál es el ámbito de aplicación de la Ley 41/2002?",
+    "Options": {
+      "A": "a. Los profesionales sanitarios y pacientes.",
+      "B": "b. Los usuarios del sistema.",
+      "C": "c. Los centros y servicios sanitarios.",
+      "D": "d. Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 308,
+    "Question": "❓FFM.-¿Qué capítulo desarrolla el informe de alta y otra documentación clínica la Ley 41/2002?",
+    "Options": {
+      "A": "A. El Capítulo III.",
+      "B": "B. El Capítulo IV.",
+      "C": "C. El Capítulo V.",
+      "D": "D. El Capítulo VI."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 309,
+    "Question": "❓FFM.-¿A qué edad se alcanza la mayoría de edad a tenor del contenido del art.10 de la C.E?",
+    "Options": {
+      "A": "a. A los 18.",
+      "B": "b. A los 18, pero se establece en el art.15.",
+      "C": "c. A los 18 pero no se regula en el art.10.",
+      "D": "d. A los 18 pero se regula en el art.18."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 310,
+    "Question": "❓FFM.-EN RELACIÓN CON LOS USOS DE LA Hª.Clinica  REGULADOS EN EL art.16 DE LA LEY 41/2002,SEÑALE LA RESPUESTA CORRECTA:",
+    "Options": {
+      "A": "a) La Hª.Clinica  es un instrumento destinado fundamentalmente a garantizar una asistencia adecuada al paciente.",
+      "B": "b) Cada Comunidad Autónoma establecerá los métodos que posibiliten en todo momento el acceso a la Hª.Clinica  de cada paciente por los profesionales que le asisten.",
+      "C": "c) Cada centro sanitario regulará el procedimiento para que quede constancia del acceso a la Hª.Clinica  y su uso.",
+      "D": "d) Todas las respuestas son verdaderamente ciertas y correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 311,
+    "Question": "❓FFM.-El registro de Voluntades Vitales Anticipadas de Andalucía se encuentra adscrito a:",
+    "Options": {
+      "A": "a. El Consejo Interterritorial del Sistema Nacional de Salud.",
+      "B": "b. La Consejería competente en materia de Salud.",
+      "C": "c. El Servicio Andaluz de Salud.",
+      "D": "d. La Consejería de Justicia e Interior."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 312,
+    "Question": "❓FFM.-El consentimiento informado,reconoce a los/as pacientes el Dº a decidir sobre su salud. ¿Cuál de estas afirmaciones no es correcta?",
+    "Options": {
+      "A": "a. Se Ob. tiene libremente sin intimidación ni influencia indebida.",
+      "B": "b. Si se realiza básicamente a través de intercambio verbal y por escrito en algunos procesos.",
+      "C": "c. Debe de proporcionar a la persona información adecuada accesible y comprensible en una forma y en un lenguaje que esté entendida.",
+      "D": "d. Puede ocultar alguna información a la persona con el pretexto de evitar el conocimiento de efectos negativos para los resultados del tratamiento."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 313,
+    "Question": "❓FFM.-Según la Ley 41/2002,el facultativo proporcionará al paciente, antes de recabar su consentimiento escrito, la información básica relativa a:",
+    "Options": {
+      "A": "a. Las consecuencias relevantes o de importancia que la intervención origina con seguridad.",
+      "B": "b. Los riesgos previsibles que solo afectan a los familiares del paciente.",
+      "C": "c. Los riesgos improbables y las consecuencias raras de la intervención.",
+      "D": "d. Únicamente el nombre del profesional que realizará el procedimiento."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 314,
+    "Question": "❓FFM.-Quienes tienen acceso a la información y documentación clínica están obligados a:",
+    "Options": {
+      "A": "a. Guardarla en el archivo indicado para ello.",
+      "B": "b. Guardar la reserva debida.",
+      "C": "c. Custodiarla, aunque la documentación clínica es propiedad del facultativo.",
+      "D": "d. Entregarla al celador conductor para su custodia."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 315,
+    "Question": "❓FFM.-¿En qué caso el consentimiento ha de ser prestado por el paciente de forma escrita?",
+    "Options": {
+      "A": "a. Para realizarse un cultivo de orina.",
+      "B": "b. En los procedimientos diagnósticos y terapéuticos invasores.",
+      "C": "c. Para recibir medicamentos de uso hospitalario.",
+      "D": "d. Para vacunarse de la gripe."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 316,
+    "Question": "❓FFM.-¿Quién es el titular primario del derecho a la información clínica:",
+    "Options": {
+      "A": "a. Los pacientes y sus familiares más vinculados a ellos.",
+      "B": "b. El paciente.",
+      "C": "c. Los familiares del paciente y su representante legal en su caso.",
+      "D": "d. Las personas más cercanas al paciente vinculadas con este por razones de hecho o de Dº ."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 317,
+    "Question": "❓FFM.-En una situación de urgencia con riesgo de lesión irreversible, ¿a qué no tiene derecho el paciente?",
+    "Options": {
+      "A": "a. A negarse a la intervención sanitaria, porque se trata de una lesión irreversible.",
+      "B": "b. A estar acompañado por un familiar en todo momento,siempre que la circunstancia clínica lo permitan.",
+      "C": "c. A que quede constancia escrita o en soporte técnico adecuado de su proceso.",
+      "D": "d. A que se extienda un certificado acreditativo de su estado de salud."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 318,
+    "Question": "❓FFM.-Diga, ¿cuál de las siguientes afirmaciones es cierta a la luz de la ley 41/2002 ?",
+    "Options": {
+      "A": "a. El Dº a la información epidemiológica no se contempla en ella.",
+      "B": "b. El paciente enfermo mental está exento de dar el consentimiento informado.",
+      "C": "c. El paciente incapaz no es preciso darle la información sanitaria.",
+      "D": "d. El Dº a la información sanitaria de los pacientes puede limitarse por la existencia acreditada de un estado de necesidad terapéutica."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 319,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿cómo se denomina el documento donde una persona capaz y mayor de edad manifiesta anticipadamente su voluntad sobre los tratamientos de salud y el destino de su cuerpo tras el fallecimiento?",
+    "Options": {
+      "A": "a. De instrucciones previas.",
+      "B": "b. De voluntad anticipada.",
+      "C": "c. De voluntad condicionante.",
+      "D": "d. De voluntades previas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 320,
+    "Question": "❓FFM.-El capítulo primero de la ley 41/2002 que regula la autonomía del paciente y Dº s y Ob. s.en materia de información y documentación clínica se refiere a:",
+    "Options": {
+      "A": "a. El Dº de la información sanitaria.",
+      "B": "b. El Dº a la intimidad.",
+      "C": "c. El respeto de la autonomía del paciente.",
+      "D": "d. Principios generales."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 321,
+    "Question": "❓FFM.-El capítulo III de la ley , y Dº s y Ob. s.en materia de información y documentación clínica se refiere a:",
+    "Options": {
+      "A": "a. El Dº a la información.",
+      "B": "b. El Dº a la intimidad.",
+      "C": "c. El respeto de la autonomía del paciente.",
+      "D": "d. La Hª.Clinica ."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 322,
+    "Question": "❓FFM.-En el capítulo cuarto de la ley , y Dº s y Ob. s.en materia de información y documentación clínica se refiere a:",
+    "Options": {
+      "A": "a. El Dº de información sanitaria.",
+      "B": "b. El Dº a la intimidad.",
+      "C": "c. El respeto a la autonomía del paciente.",
+      "D": "d. La Hª.Clinica ."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 323,
+    "Question": "❓FFM.-El capítulo V de la ley , y Dº s y Ob. s.en materia de información y documentación clínica:",
+    "Options": {
+      "A": "a. El Dº a la intimidad.",
+      "B": "b. El respeto de la autonomía del paciente.",
+      "C": "c. La Hª.Clinica .",
+      "D": "d. El informe de alta y otra documentación clínica."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 324,
+    "Question": "❓FFM.-Según la Ley 41/2002 sobre la autonomía del paciente y la documentación clínica, ¿cuál de las siguientes afirmaciones sobre el consentimiento del paciente es la correcta?:",
+    "Options": {
+      "A": "a. Debe ser forzado y voluntario del afectado.",
+      "B": "b. Por regla general es escrito.",
+      "C": "c. En caso de intervención quirúrgica debe ser verbal.",
+      "D": "d. El paciente puede revocar libremente por escrito su consentimiento en cualquier momento."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 325,
+    "Question": "❓FFM.-Según la ley 41/2002,y Dº s y Ob. s.en materia de información y documentación, la renuncia del paciente a recibir información:",
+    "Options": {
+      "A": "a. No tiene límites.",
+      "B": "b. Solo está limitada por el interés de la salud de terceros.",
+      "C": "c. Está limitada cuando así lo disponga unilateralmente el facultativo que lo asiste a su criterio.",
+      "D": "d. Entre otras, está limitada por interés de la salud del propio paciente."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 326,
+    "Question": "❓FFM.-En caso de que el consentimiento lo dé el representante legal del menor, es preciso haber escuchado su opinión si tiene:",
+    "Options": {
+      "A": "a. 10 años.",
+      "B": "b. 12 años.",
+      "C": "c. 13 años.",
+      "D": "d. 14 años."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 327,
+    "Question": "❓FFM.-Según la ley 41/2002,se rigen por lo establecido con carácter general sobre la mayoría de edad y por las disposiciones especiales de aplicación:",
+    "Options": {
+      "A": "a. La interrupción del tratamiento farmacológico.",
+      "B": "b. La práctica de ensayos clínicos.",
+      "C": "c. Las prácticas forenses con cadáveres.",
+      "D": "d. Ninguna respuesta es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 328,
+    "Question": "❓FFM.-¿Qué órgano regulará el procedimiento adecuado para que, llegado el caso, se garantice el cumplimiento de las instrucciones previas de cada persona, que deberán constar siempre por escrito?",
+    "Options": {
+      "A": "a. Cada servicio de salud.",
+      "B": "b. Cada centro.",
+      "C": "c. Las comunidades autónomas.",
+      "D": "d. Las administraciones sanitarias."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 329,
+    "Question": "❓FFM.-En la ley 41/2002,¿qué se comprende dentro de la Hª.Clinica  según el art.14.1?",
+    "Options": {
+      "A": "A) El conjunto de documentos relativos a los procesos asistenciales de cada paciente.",
+      "B": "B) Solamente los informes médicos y de enfermería.",
+      "C": "C) Exclusivamente los documentos en soporte papel.",
+      "D": "D) Los registros de ingresos hospitalarios únicamente."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 330,
+    "Question": "❓FFM.-En la ley 41/2002,¿cuál es el fin principal de la Hª.Clinica  según el art.15.2?",
+    "Options": {
+      "A": "A) Garantizar la confidencialidad del paciente.",
+      "B": "B) Proveer datos para fines judiciales.",
+      "C": "C) Cumplir con las normativas de salud pública.",
+      "D": "D) Facilitar la asistencia sanitaria."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 331,
+    "Question": "❓FFM.-En la ley 41/2002,según el art.16.5, ¿quiénes tienen acceso a la Hª.Clinica  con fines de inspección, evaluación, acreditación y planificación?",
+    "Options": {
+      "A": "A) El personal sanitario debidamente acreditado.",
+      "B": "B) Los familiares del paciente.",
+      "C": "C) Los administrativos del centro sanitario.",
+      "D": "D) Cualquier profesional de salud."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 332,
+    "Question": "❓FFM.-En la ley 41/2002,¿cuál es el período mínimo de conservación de la documentación clínica, según el art.17.1?",
+    "Options": {
+      "A": "A) Dos años desde la fecha del alta de cada proceso asistencial.",
+      "B": "B) Tres años desde la última consulta.",
+      "C": "C) Diez años desde la primera visita del paciente.",
+      "D": "D) Cinco años desde la fecha del alta de cada proceso asistencial."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 333,
+    "Question": "❓FFM.-En la ley 41/2002,¿qué Dº tiene el paciente respecto a la custodia de su Hª.Clinica,según el art.19?",
+    "Options": {
+      "A": "A) Dº a un mecanismo de custodia activa y diligente de su Hª.Clinica .",
+      "B": "B) Dº a modificar los datos de la Hª.Clinica .",
+      "C": "C) Dº a destruir su Hª.Clinica  en cualquier momento.",
+      "D": "D) Dº a la propiedad de la Hª.Clinica ."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 334,
+    "Question": "❓FFM.-En la ley 41/2002,¿qué elementos son parte del contenido mínimo de la Hª.Clinica,según el art.15?",
+    "Options": {
+      "A": "A) El informe de radiología.",
+      "B": "B) Los informes de servicio social.",
+      "C": "C) La anamnesis y la exploración física.",
+      "D": "D) El historial de visitas del paciente."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 335,
+    "Question": "❓FFM.-En la ley 41/2002,según el art.14.2, ¿qué deben garantizar los centros en relación con la Hª.Clinica ?",
+    "Options": {
+      "A": "A) Su digitalización en un formato único.",
+      "B": "B) Su seguridad, correcta conservación y recuperación de la información.",
+      "C": "C) La firma electrónica de todos los documentos.",
+      "D": "D) La accesibilidad a través de internet."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 336,
+    "Question": "❓FFM.-En la ley 41/2002,¿quién aprueba las disposiciones necesarias para que los centros sanitarios protejan las historias clínicas, según el art.14.4?",
+    "Options": {
+      "A": "A) El Consejo General del Poder Judicial.",
+      "B": "B) El Ministerio de Sanidad.",
+      "C": "C) La Administración Central.",
+      "D": "D) Las Comunidades Autónomas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 337,
+    "Question": "❓FFM.-En la ley 41/2002,¿qué información debe preservarse separada de los datos clínico-asistenciales según el art.16.3?",
+    "Options": {
+      "A": "A) Los datos de identificación personal del paciente.",
+      "B": "B) Los datos de contacto del paciente.",
+      "C": "C) Los informes de atención de emergencia.",
+      "D": "D) Los registros de tratamiento farmacológico."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 338,
+    "Question": "❓FFM.-En la ley 41/2002,según el art.17.4, ¿dónde se llevarán las historias clínicas en los centros con pacientes hospitalizados?",
+    "Options": {
+      "A": "A) A través de la unidad de admisión y documentación clínica.",
+      "B": "B) En formato papel únicamente.",
+      "C": "C) En una base de datos accesible a todos los médicos.",
+      "D": "D) A través del archivo digitalizado del paciente."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 339,
+    "Question": "❓FFM.-En la ley 41/2002,según el art.20, ¿quién tiene Dº a recibir un informe de alta al finalizar el proceso asistencial?",
+    "Options": {
+      "A": "A) El personal médico del centro.",
+      "B": "B) Solo el paciente.",
+      "C": "C) Solo los familiares directos.",
+      "D": "D) Todo paciente, familiar o persona vinculada al paciente."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 340,
+    "Question": "❓FFM.-En la ley 41/2002,¿qué determinan las Administraciones sanitarias autonómicas sobre los informes de alta, según el art.20?",
+    "Options": {
+      "A": "A) Las características, requisitos y condiciones de los informes de alta.",
+      "B": "B) La forma de presentación del informe.",
+      "C": "C) El coste asociado a la emisión del informe.",
+      "D": "D) La firma necesaria en el informe."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 341,
+    "Question": "❓FFM.-En la ley 41/2002,¿qué sucede si un paciente no acepta el tratamiento prescrito según el art.21.1?",
+    "Options": {
+      "A": "A) Se le dará automáticamente el alta voluntaria.",
+      "B": "B) Se le ofrecerán tratamientos alternativos únicamente.",
+      "C": "C) Se propondrá la firma del alta voluntaria o, si no la firma, se podrá disponer el alta forzosa.",
+      "D": "D) Se le trasladará a otro centro sanitario."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 342,
+    "Question": "❓FFM.-En la ley 41/2002,según el art.21.2, ¿qué debe hacer la dirección del centro si un paciente se niega a aceptar el alta?",
+    "Options": {
+      "A": "A) Permitir que el paciente continúe.",
+      "B": "B) Rechazar el alta sin más trámites.",
+      "C": "C) Realizar una nueva evaluación médica.",
+      "D": "D) Poner el caso en conocimiento del juez para que confirme o revoque la decisión."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 343,
+    "Question": "❓FFM.-En la ley 41/2002,¿qué Dº tiene todo paciente o usuario según el art.22?",
+    "Options": {
+      "A": "A) Elegir el tipo de informe clínico.",
+      "B": "B) Solicitar tratamientos gratuitos.",
+      "C": "C) Recibir certificados acreditativos de su estado de salud.",
+      "D": "D) obtener atención médica en cualquier momento."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 344,
+    "Question": "❓FFM.-En la ley 41/2002,¿bajo qué condiciones serán gratuitos los certificados acreditativos del estado de salud, según el art.22?",
+    "Options": {
+      "A": "A) Cuando se soliciten por la vía electrónica ya que el papel es caro y se debe pagar aparte.",
+      "B": "B) Cuando así lo establezca una disposición legal o reglamentaria.",
+      "C": "C) Solo para pacientes de bajos ingresos que lo acrediten.",
+      "D": "D) Cuando se requieran para fines judiciales."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 345,
+    "Question": "❓FFM.-En la ley 41/2002,¿qué Ob. tienen los profesionales sanitarios en relación con la documentación asistencial, según el art.23?",
+    "Options": {
+      "A": "A) Realizar una revisión anual de toda la documentación.",
+      "B": "B) Cumplimentar protocolos, registros, informes, estadísticas y otra documentación asistencial o administrativa relacionada con los procesos clínicos.",
+      "C": "C) Archivar toda la documentación en formato papel.",
+      "D": "D) A y B son correctas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 346,
+    "Question": "❓FFM.-En la ley 41/2002,¿qué tipo de documentación deben cumplimentar los profesionales sanitarios además de la información clínica, según el art.23?",
+    "Options": {
+      "A": "A) Documentos financieros del centro.",
+      "B": "B) Planes de formación del personal sanitario.",
+      "C": "C) Registros de asistencia al personal del centro.",
+      "D": "D) Protocolos, registros, informes, estadísticas y demás documentación asistencial o administrativa."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 347,
+    "Question": "❓FFM.-En la ley 41/2002,¿qué tipo de documentación se incluye en los deberes de los profesionales sanitarios mencionados en el art.23?",
+    "Options": {
+      "A": "A) Documentación relacionada con la gestión del centro.",
+      "B": "B) Documentación relacionada con la investigación médica y la información epidemiológica.",
+      "C": "C) Documentos personales del paciente.",
+      "D": "D) Registros de formación continua del personal."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 348,
+    "Question": "❓FFM.-En la ley 41/2002,según el art.21.1, ¿qué debe documentarse si el paciente no acepta tratamientos alternativos ofrecidos?",
+    "Options": {
+      "A": "A) La solicitud de un nuevo diagnóstico.",
+      "B": "B) Las circunstancias relacionadas con la negativa del paciente.",
+      "C": "C) Los detalles de la alta voluntaria firmada.",
+      "D": "D) El motivo de la falta de aceptación del tratamiento."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 349,
+    "Question": "❓FFM.-En la ley 41/2002,en su art.9.5 nos dice que NO se rigen por lo establecido con carácter general sobre la mayoría de edad y por las disposiciones especiales de aplicación:",
+    "Options": {
+      "A": "A) La práctica de ensayos clínicos.",
+      "B": "B) La práctica de técnicas de reproducción humana asistida.",
+      "C": "C) La práctica de medicina predictiva.",
+      "D": "D) A y B son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 350,
+    "Question": "❓FFM.-¿Qué órgano archivará las historias clínicas de sus pacientes, cualquiera que sea el soporte, de manera que se garantice su seguridad, correcta conservación y recuperación de la información?",
+    "Options": {
+      "A": "a. Cada servicio de salud.",
+      "B": "b. Cada centro.",
+      "C": "c. Las autoridades sanitarias.",
+      "D": "d. Las administraciones sanitarias."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 351,
+    "Question": "❓FFM.-¿Quiénes o qué órganos establecerán los mecanismos para garantizar la autenticidad del contenido de la Hª.Clinica  y de los cambios operados y posibilidad de reproducción futura?",
+    "Options": {
+      "A": "a. Cada centro.",
+      "B": "b. Cada servicio de salud.",
+      "C": "c. Las comunidades autónomas.",
+      "D": "d. Las administraciones sanitarias."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 352,
+    "Question": "❓FFM.-¿De cuándo es la ley básica reguladora de la autonomía del paciente y de Dº s y Ob. s.en materia de información y documentación pública?",
+    "Options": {
+      "A": "a. Ley 41/2012 de 14 de noviembre.",
+      "B": "b. Ley 41/2002 de 12 de noviembre.",
+      "C": "c. Ley 41/2012 de 12 de noviembre.",
+      "D": "d. Ley 41/2002 de 14 de noviembre."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 353,
+    "Question": "❓FFM.-Conjunto organizado de profesionales, instalaciones y medios técnicos que realiza actividades y presta servicios para cuidar la salud de los pacientes y usuarios.",
+    "Options": {
+      "A": "a. Servicio sanitario integral.",
+      "B": "b. Centro sanitario integral.",
+      "C": "c. Área de salud metropolitana.",
+      "D": "d. Centro sanitario."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 354,
+    "Question": "❓FFM.-La unidad asistencial con organización propia, dotada de los recursos técnicos y del personal cualificado para llevar a cabo actividades sanitarias.",
+    "Options": {
+      "A": "a. Servicio sanitario.",
+      "B": "b. Servicio sanitario integral.",
+      "C": "c. Servicio sanitario primario.",
+      "D": "d. Servicio sanitario Metropolitano."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 355,
+    "Question": "❓FFM.-Soporte de cualquier tipo o clase que contiene un conjunto de datos e informaciones de carácter asistencial.",
+    "Options": {
+      "A": "a. Documentación de clínicos.",
+      "B": "b. Documentación clínica primaria.",
+      "C": "c. Documentación clínica secundaria.",
+      "D": "d. Documentación clínica."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 356,
+    "Question": "❓FFM.-El conjunto de documentos que contienen los datos, valoraciones e informaciones de cualquier índole sobre la situación y la evolución clínica de un paciente a lo largo del proceso asistencial.",
+    "Options": {
+      "A": "a. Hª.Clinica  de profesionales.",
+      "B": "b. Hª.Clinica  de usuarios del sistema.",
+      "C": "c. Hª.Clinica .",
+      "D": "d. Hª.Clinica  básica."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 357,
+    "Question": "❓FFM.-¿Cómo se denomina todo dato que permite adquirir o ampliar conocimientos sobre el estado físico o la salud de una persona?",
+    "Options": {
+      "A": "a. Información reservada.",
+      "B": "b. Información clínica.",
+      "C": "c. Documentación sanitaria",
+      "D": "d. Historial médico"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 358,
+    "Question": "❓FFM.-¿Quiénes o qué órganos aprobarán las disposiciones necesarias para que los centros sanitarios puedan adoptar las medidas técnicas y organizativas adecuadas?",
+    "Options": {
+      "A": "a. Cada centro.",
+      "B": "b. Cada servicio de salud.",
+      "C": "c. Las comunidades autónomas.",
+      "D": "d. Las autoridades sanitarias."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 359,
+    "Question": "❓FFM.-¿Quiénes o qué órganos aprobarán las disposiciones necesarias para que los centros sanitarios puedan adoptar las medidas técnicas y organizativas adecuadas?",
+    "Options": {
+      "A": "a. Cada centro.",
+      "B": "b. Cada servicio de salud.",
+      "C": "c. Las comunidades autónomas.",
+      "D": "d. Las autoridades sanitarias."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 360,
+    "Question": "❓FFM.-¿Qué órganos o quiénes serán los responsables de la cumplimentación de la Hª.Clinica  en los aspectos relacionados con la asistencia directa al paciente?",
+    "Options": {
+      "A": "a. El personal sanitario.",
+      "B": "b. Los profesionales que intervengan.",
+      "C": "c. La dirección del centro correspondiente.",
+      "D": "d. El equipo de atención del centro correspondiente."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 361,
+    "Question": "❓FFM.-¿Cuál es la ley básica reguladora de la autonomía del paciente y de Dº s y Ob. s.en materia de información y documentos clínica?",
+    "Options": {
+      "A": "a. Ley 41/2012 14 noviembre.",
+      "B": "b. Ley 41/2002 13 noviembre.",
+      "C": "c. Ley 41/2002 14 noviembre.",
+      "D": "d. Ley 41/2012 13 noviembre."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 362,
+    "Question": "❓FFM.-¿Respecto a la pregunta anterior cuántos art.s tiene dicha ley?",
+    "Options": {
+      "A": "a. 25 art.s.",
+      "B": "b. 23 art.s.",
+      "C": "c. 21 art.s.",
+      "D": "d. 44 art.s."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 363,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿cómo se denomina el soporte (documento, archivo informático, etc.) que contiene el conjunto de datos e informaciones de carácter asistencial de un paciente?",
+    "Options": {
+      "A": "a. Información clínica.",
+      "B": "b. Historial médico",
+      "C": "c. Expediente sanitario",
+      "D": "d. Documentación clínica"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 364,
+    "Question": "❓FFM.-La persona que utiliza los servicios sanitarios de educación y promoción de la salud, de prevención de enfermedades y de información sanitaria es un:",
+    "Options": {
+      "A": "a. Profesional",
+      "B": "b. Paciente",
+      "C": "c. Usuario",
+      "D": "d. Ciudadano"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 365,
+    "Question": "❓FFM.-¿En qué casos se exige la manifestación por escrito del consentimiento?",
+    "Options": {
+      "A": "a. Intervención no quirúrgica.",
+      "B": "b. Procedimientos diagnósticos y terapéuticos no invasores.",
+      "C": "c. Radiografías.",
+      "D": "d. Ninguna respuesta es correcta."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 366,
+    "Question": "❓FFM.-¿Cuál de las siguientes opciones no es una causa legal que limite el derecho de un paciente a renunciar a recibir información?",
+    "Options": {
+      "A": "a. El interés de la salud del propio.",
+      "B": "b. El interés de la salud de terceros.",
+      "C": "c. El mandato judicial en contra de esta renuncia.",
+      "D": "d. Ninguna respuesta es correcta."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 367,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿cuál es la obligación de los centros sanitarios respecto a la conservación de la documentación clínica?",
+    "Options": {
+      "A": "a. Conservarla siempre en el soporte original, por un mínimo de cinco años desde antes del alta.",
+      "B": "b. Conservarla por un mínimo de tres años, sin importar si es en el soporte original.",
+      "C": "c. Conservarla por un mínimo de cinco años desde la fecha del alta, sin necesidad de que sea en el soporte original.",
+      "D": "d. No existe un tiempo mínimo establecido por la ley."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 368,
+    "Question": "❓FFM.-Según el art.17 ley 41/2002,señala el órgano responsable de integrar en un solo archivo las historias clínicas,es:",
+    "Options": {
+      "A": "a. El servicio de admisión y documentación clínica.",
+      "B": "b. El servicio de información y atención al usuario.",
+      "C": "c. La dirección de gestión y servicios generales del sector.",
+      "D": "d. La comisión técnico asistencial de atención especializada."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 369,
+    "Question": "❓FFM.-¿Cuál es la finalidad principal de la Hª.Clinica , según el art.15 de la ley 41/2002?",
+    "Options": {
+      "A": "a. Facilitar al personal médico el cumplimiento de sus Ob. ligaciones.",
+      "B": "b. Mantener la máxima integración posible de la documentación clínica.",
+      "C": "c. Permitir al personal que ejerza funciones de inspección, evaluación, acreditación, y la comprOb. ación de la calidad de la asistencia.",
+      "D": "d. Todas son respuestas incorrectas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 370,
+    "Question": "❓FFM.-Según el art.12 de la ley 41/2002,señale entre las siguientes respuestas que recogen diferentes Dº s y garantías de los usuarios, cuál de ellas pertenece al ámbito de la mera información:",
+    "Options": {
+      "A": "a. Presentación de una queja.",
+      "B": "b. Firma de alta voluntaria.",
+      "C": "c. Carta de Dº s y deberes de los usuarios del sistema de salud.",
+      "D": "d. Declaración de voluntades anticipadas."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 371,
+    "Question": "❓FFM.-Según el art.18 de la ley 41/2002,el Dº de acceso del paciente a la Hª.Clinica ,¿puede ejercerse por representación debidamente acreditada?",
+    "Options": {
+      "A": "a. Sí.",
+      "B": "b. Solo en caso de fallecimiento.",
+      "C": "c. Siempre que no haya terceros afectados.",
+      "D": "d. No."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 372,
+    "Question": "❓FFM.-Según el art.15 de la ley 41/2002,la Hª.Clinica incorporará obligatoriamente:",
+    "Options": {
+      "A": "a. Toda la información sobre los procesos asistenciales del paciente.",
+      "B": "b. La información que se considere trascendental para el conocimiento veraz y actualizado del estado de salud del paciente.",
+      "C": "c. El informe clínico de alta.",
+      "D": "d. La anamnesis y la exploración física."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 373,
+    "Question": "❓FFM.-Según el art.3 de la ley 41/2002,la definición de usuario es:",
+    "Options": {
+      "A": "a. La persona que requiere asistencia sanitaria y está sometida a cuidados profesionales para el mantenimiento o recuperación de su salud.",
+      "B": "b. La persona que hace uso de los centros sanitarios y la red pública.",
+      "C": "c. La persona que hace al menos una estancia en un hospital.",
+      "D": "d. Ninguna de las respuestas es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 374,
+    "Question": "❓FFM.-¿Quién es el titular del Dº a la información asistencial?",
+    "Options": {
+      "A": "a. El facultativo, en todos los casos.",
+      "B": "b. El paciente.",
+      "C": "c. Todo aquel que tenga el tiempo cotizado suficientemente.",
+      "D": "d. Cualquier trabajador del ámbito sanitario que previamente lo solicite."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 375,
+    "Question": "❓FFM.-Según el art.2 de la ley 41/2002,el paciente o usuario tiene el Dº a decidir libremente entre las opciones clínicas disponibles después de recibir:",
+    "Options": {
+      "A": "a. Información completa.",
+      "B": "b. Información adecuada.",
+      "C": "c. Información documental.",
+      "D": "d. Información escrita."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 376,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿a qué derecho se refiere la confidencialidad de los datos de salud del paciente y la prohibición de acceder a ellos sin autorización previa?",
+    "Options": {
+      "A": "a. Dº de información.",
+      "B": "b. Dº asistencial.",
+      "C": "c. Dº a la intimidad.",
+      "D": "d. Dº a la formación."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 377,
+    "Question": "❓FFM.-Según el art.2 de la ley 41/2002,la negativa al tratamiento debe ser:",
+    "Options": {
+      "A": "a. De forma escrita.",
+      "B": "b. De forma verbal.",
+      "C": "c. De forma documental.",
+      "D": "d. Ante testigos."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 378,
+    "Question": "❓FFM.-Según la Ley 41/2002,si un paciente no acepta el tratamiento y tampoco el alta forzosa, ¿quién debe ser informado para tomar una decisión?",
+    "Options": {
+      "A": "a. El consejero de sanidad.",
+      "B": "b. El juez para que confirme o revoque la decisión.",
+      "C": "c. Lo pondrá en conocimiento del director gerente del servicio andaluz.",
+      "D": "d. La agencia de derechos del paciente."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 379,
+    "Question": "❓FFM.-¿Cuál es el objeto de la Ley 41/2002,según su Artículo 1?:",
+    "Options": {
+      "A": "a. Provisión de servicios de asistencia sanitaria.",
+      "B": "b. Información del usuario en el acceso a la documentación pública.",
+      "C": "c. Formación continuada del profesional.",
+      "D": "d. Autonomía del paciente y de información y documentación clínica."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 380,
+    "Question": "❓FFM.-Según el Art. 11 de la Ley 41/2002,¿cómo se denomina el documento en que una persona capaz manifiesta anticipadamente su voluntad sobre los cuidados de salud y el destino de su cuerpo tras el fallecimiento?",
+    "Options": {
+      "A": "a. Testamento vital.",
+      "B": "b. Instrucciones previas.",
+      "C": "c. Últimas voluntades.",
+      "D": "d. Consentimiento informado."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 381,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿cuál de las siguientes afirmaciones sobre las obligaciones del profesional sanitario es la correcta?",
+    "Options": {
+      "A": "a. Su única obligación es la correcta prestación de sus técnicas, ya que la documentación e información son tareas administrativas.",
+      "B": "b. Su única obligación es prestar la atención sanitaria de forma técnica, dejando los deberes de información y documentación a otros profesionales.",
+      "C": "c. Debe asegurar la correcta prestación de sus técnicas y, además, cumplir con los deberes de información, documentación y respetar las decisiones libres del paciente.",
+      "D": "d. Su obligación principal es la de imponer el tratamiento que considere más adecuado, independientemente de la voluntad del paciente, para garantizar el mejor resultado clínico."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 382,
+    "Question": "❓FFM.-Los centros sanitarios facilitarán el acceso a la Hª.Clinica  de los pacientes fallecidos:",
+    "Options": {
+      "A": "a. A las personas vinculadas a él por razones es familiares.",
+      "B": "b. A las personas vinculadas a él por razones es de hecho.",
+      "C": "c. A un tercero motivado por un riesgo para su salud con las debidas limitaciones.",
+      "D": "d. Todas las respuestas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 383,
+    "Question": "❓FFM.-Con respecto al consentimiento informado libre y voluntario del afectado, ¿puede revocar libremente por escrito su consentimiento en cualquier momento?",
+    "Options": {
+      "A": "a. Falso.",
+      "B": "b. Verdadero.",
+      "C": "c. Verdadero, pero es necesario hacerlo por escrito.",
+      "D": "d. Verdadero, en cualquier momento no sería posible."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 384,
+    "Question": "❓FFM.-La declaración escrita de un médico que da fe del estado de salud de una persona de un determinado momento es la definición de:",
+    "Options": {
+      "A": "a. Hª.Clinica .",
+      "B": "b. Documentación clínica.",
+      "C": "c. Información clínica.",
+      "D": "d. Certificado medico."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 385,
+    "Question": "❓FFM.-Los profesionales sanitarios, además de las Ob. s.señaladas en materia de información clínica:",
+    "Options": {
+      "A": "a. Tienen el deber de cumplimentar los protocolos, registros, informes, estadísticas y demás documentación asistencial o administrativa.",
+      "B": "b. También los que se requieran los centros o servicios de salud competentes y las autoridades sanitarias, comprendidos los relacionados con la investigación médica y la información epidemiológica.",
+      "C": "c. Tienen el deber de cumplimentar los protocolos, registros, informes, estadísticas y solo la documentación asistencial administrativa.",
+      "D": "d. Las respuestas a y b son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 386,
+    "Question": "❓FFM.-¿Qué organismo establecerá los mecanismos que garanticen la autenticidad del contenido de la Hª.Clinica  y de los cambios operados en ella, así como la posibilidad de su reproducción futura?",
+    "Options": {
+      "A": "a. Cada centro sanitario.",
+      "B": "b. Las comunidades autónomas.",
+      "C": "c. Las administraciones sanitarias.",
+      "D": "d. Ninguna respuesta es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 387,
+    "Question": "❓FFM.-La tarjeta sanitaria individual, está regulada por:",
+    "Options": {
+      "A": "a. Ley 41/2002 de 14 de noviembre.",
+      "B": "b. Decreto 208/2015 de 14 de julio.",
+      "C": "c. Decreto 197/2007 del 03 de julio.",
+      "D": "d. Real decreto 183/2004 de 30 de enero."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 388,
+    "Question": "❓FFM.-La tarjeta sanitaria sirve para: (Indica la incorrecta)",
+    "Options": {
+      "A": "a. Para facilitar el acceso a la Hª.Clinica  electrónica.",
+      "B": "b. Para retirar los medicamentos en la farmacia.",
+      "C": "c. Para recibir atención médica.",
+      "D": "d. Para prescribir mediante receta electrónica."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 389,
+    "Question": "❓FFM.-¿Qué órgano establecerá los métodos que posibiliten en todo momento el acceso a la Hª.Clinica  de cada paciente por los profesionales que le asisten?",
+    "Options": {
+      "A": "a. Cada unidad de gestión clínica.",
+      "B": "b. Cada centro.",
+      "C": "c. El director médico.",
+      "D": "d. Ninguna de las respuestas es verdaderamente cierta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 390,
+    "Question": "❓FFM.-A los efectos de la ley 41/2002 se entiende por información clínica:",
+    "Options": {
+      "A": "a. El documento emitido por un médico responsable al finalizar cada proceso asistencial de un paciente.",
+      "B": "b. El soporte de cualquier tipo que contiene un conjunto de datos e informaciones de carácter asistencial.",
+      "C": "c. Todo dato que permite ampliar conocimientos sobre el estado físico y la salud de una persona.",
+      "D": "d. El conjunto de documentos que contienen informaciones de cualquier índole sobre la situación."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 391,
+    "Question": "❓FFM.-¿En cuál de los siguientes supuestos se otorga el consentimiento por representación?",
+    "Options": {
+      "A": "a. Cuando el paciente está incapacitado legalmente.",
+      "B": "b. Cuando el paciente mayor de edad no sea capaz intelectual ni emocionalmente de comprender el alcance de la intervención.",
+      "C": "c. Cuando el paciente aún siendo capaz de tomar decisiones a criterio del médico responsable de la asistencia, considere que no es suficiente adulto como para entender su situación.",
+      "D": "d. Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 392,
+    "Question": "❓FFM.-La ley 41/2002,establece la Ob. de obtener el consentimiento libre y voluntario del paciente:",
+    "Options": {
+      "A": "a. Sólo en los casos de intervención quirúrgica.",
+      "B": "b. Sólo en caso de procedimiento diagnóstico y terapéutico invasores.",
+      "C": "c. Sólo en casos de procedimientos que supongan riesgos o inconvenientes de previsibles de percusión.",
+      "D": "d. Para toda actuación en el ámbito de la salud de un paciente."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 393,
+    "Question": "❓FFM.-La ley 41/2002 establece la Ob. de conservar la documentación clínica, como mínimo:",
+    "Options": {
+      "A": "a. 20 años contados desde la fecha de alta de cada proceso asistencial.",
+      "B": "b. 15 años contados desde la fecha de alta de cada proceso asistencial.",
+      "C": "c. Diez años contados desde la fecha de alta de cada proceso asistencial.",
+      "D": "d. Cinco años contados desde la fecha de alta de cada proceso asistencial."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 394,
+    "Question": "❓FFM.-Persona que requiere asistencia y está sometida a cuidados profesionales para el mantenimiento o recuperación de la salud:",
+    "Options": {
+      "A": "a. Paciente.",
+      "B": "b. Usuario.",
+      "C": "c. Profesional.",
+      "D": "d. Ninguna respuesta es correcta."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 395,
+    "Question": "❓FFM.-La persona que utiliza los servicios sanitarios de educación y promoción de la salud, de prevención de enfermedades y de información sanitaria:",
+    "Options": {
+      "A": "a. Paciente.",
+      "B": "b. Usuario.",
+      "C": "c. Deambulante.",
+      "D": "d. Ninguna es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 396,
+    "Question": "❓FFM.-Toda persona paciente o usuaria tiene Dº a que se le faciliten los certificados acreditativos de su estado de salud.",
+    "Options": {
+      "A": "a. Que serán gratuitos en todo caso.",
+      "B": "b. Que serán gratuitos cuando así lo establezca una disposición legal o reglamentaria.",
+      "C": "c. Que serán gratuitos únicamente cuando así lo establezca una disposición legal.",
+      "D": "d. Que serán gratuitos cuando así lo decida la dirección gerencia de cada uno de los centros asistenciales."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 397,
+    "Question": "❓FFM.-Es un dato básico que debe estar incluido en el anverso de la tarjeta sanitaria.",
+    "Options": {
+      "A": "a. El Código de identificación de la administración sanitaria emisora de la tarjeta.",
+      "B": "b. El rótulo del área de salud.",
+      "C": "c. El Código de identificación institucional asignado al titular por la admon emisora de la tarjeta.",
+      "D": "d. La fecha de nacimiento del titular de la tarjeta."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 398,
+    "Question": "❓FFM.-¿Cómo se denomina el código individual asignado a cada usuario por el Sistema Nacional de Salud (SNS), según el Real Decreto 183/2004?",
+    "Options": {
+      "A": "a. Código sanitario individual.",
+      "B": "b. Código de identificación personal del sistema nacional de salud.",
+      "C": "c. Número de afiliación a la seguridad social.",
+      "D": "d. Código de identificación sanitario."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 399,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿quién o qué órgano establecerá los métodos que posibiliten en todo momento el acceso a la Hª.Clinica  de cada paciente por los profesionales que le asistan?",
+    "Options": {
+      "A": "a. Cada centro.",
+      "B": "b. Las comunidades autónomas.",
+      "C": "c. Cada servicio de salud.",
+      "D": "d. Los órganos colegiados capacitados de cada servicio de salud."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 400,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿quiénes o qué órganos regularán el procedimiento para que quede constancia del acceso a la Hª.Clinica  y su uso?",
+    "Options": {
+      "A": "a. Las áreas de salud.",
+      "B": "b. Los servicios de salud.",
+      "C": "c. Las comunidades autónomas.",
+      "D": "d. Los órganos legislativos competentes de los servicios de salud."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 401,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿quiénes o qué órganos tienen la Ob. de conservar la documentación clínica en condiciones que garanticen su correcto mantenimiento y seguridad?",
+    "Options": {
+      "A": "a. Los servicios sanitarios.",
+      "B": "b. Las administraciones sanitarias.",
+      "C": "c. Las autoridades sanitarias.",
+      "D": "d. Los centros sanitarios."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 402,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿quiénes o qué órganos tienen el deber de cooperar en la creación y el mantenimiento de una documentación clínica ordenada y secuencial?",
+    "Options": {
+      "A": "a. Los centros sanitarios.",
+      "B": "b. Los servicios sanitarios.",
+      "C": "c. Los profesionales sanitarios.",
+      "D": "d. Ninguna respuesta es verdaderamente correcta ni cierta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 403,
+    "Question": "❓FFM.-Según la Ley 41/2002,¿quién o qué órgano se ocupa de la gestión de la Hª.Clinica  por los centros con pacientes hospitalizados?",
+    "Options": {
+      "A": "a. Dirección de gestión y servicios.",
+      "B": "b. Unidad de admisión y documentación clínica.",
+      "C": "c. Unidad de atención al paciente.",
+      "D": "d. Dirección gerencia del centro."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 404,
+    "Question": "❓FFM.-Forman parte del contenido mínimo de la Hª.Clinica , todas salvo:",
+    "Options": {
+      "A": "a. El consentimiento informado.",
+      "B": "b. La anamnesis.",
+      "C": "c. Los informes de exploraciones complementarias.",
+      "D": "d. El informe de hemodinámica."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 405,
+    "Question": "❓FFM.-Toda actuación en el ámbito de la salud de un paciente necesita el consentimiento libre y voluntario del afectado, este consentimiento:",
+    "Options": {
+      "A": "a. Se prestará por escrito en cualquier caso.",
+      "B": "b. Será verbal por regla general.",
+      "C": "c. Será escrito por regla general.",
+      "D": "d. Cada servicio de salud dispondrá al respecto."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 406,
+    "Question": "❓FFM.-La Ob. tención, el archivo, la custodia y transmisión de la información y documentación clínica, se orientarán hacia:",
+    "Options": {
+      "A": "a. El respeto a la intimidad de la persona.",
+      "B": "b. El respeto a la autonomía de la persona.",
+      "C": "c. La dignidad de la persona.",
+      "D": "d. Todas las respuestas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 407,
+    "Question": "❓FFM.-Se otorgará el consentimiento por representación:",
+    "Options": {
+      "A": "a. Cuando el usuario este incapacitado legalmente.",
+      "B": "b. Cuando el paciente, a criterio del médico responsable de la asistencia, no sea capaz de tomar decisiones.",
+      "C": "c. Las respuestas a y b son incorrectas.",
+      "D": "d. Las respuestas a y b son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 408,
+    "Question": "❓FFM.-La unidad asistencial con organización propia dotada de los recursos técnicos y del personal cualificado para llevar a cabo actividades sanitarias es el concepto de:",
+    "Options": {
+      "A": "a. Centro sanitario.",
+      "B": "b. Servicio sanitario.",
+      "C": "c. Servicio asistencial.",
+      "D": "d. Centro asistencial sanitario."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 409,
+    "Question": "❓FFM.-El conjunto organizado de profesionales, instalaciones y medios técnicos que realiza actividades y presta servicios para cuidar la salud de los pacientes y usuarios es:",
+    "Options": {
+      "A": "a. Centro sanitario integral.",
+      "B": "b. Unidad clínica.",
+      "C": "c. Servicio sanitario.",
+      "D": "d. Centro sanitario."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 410,
+    "Question": "❓FFM.-Toda actuación realizada con fines preventivos, diagnósticos, terapéuticos, rehabilitadores o de investigación:",
+    "Options": {
+      "A": "a. Libre voluntades.",
+      "B": "b. Libre elección.",
+      "C": "c. Intervención en el ámbito de la sanidad.",
+      "D": "d. Consentimiento informado."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 411,
+    "Question": "❓FFM.-¿En cuántos niveles se estructuran los fundamentos éticos?",
+    "Options": {
+      "A": "a. Cinco.",
+      "B": "b. Tres.",
+      "C": "c. Cuatro.",
+      "D": "d. Dos."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 412,
+    "Question": "❓FFM.-Los profesionales sanitarios tienen el deber ético de: Señale la incorrecta.",
+    "Options": {
+      "A": "a. Evitar el mal.",
+      "B": "b. Buscar el bien de los sanitarios.",
+      "C": "c. Actuar con justicia y sin discriminar.",
+      "D": "d. Respetar su autonomía, su voluntad y sus decisiones."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 413,
+    "Question": "❓FFM.-En caso de incapacidad del paciente, ¿recibirá éste información asistencial?",
+    "Options": {
+      "A": "a. En ningún caso.",
+      "B": "b. Por medio de su representante legal.",
+      "C": "c. De modo adecuado a sus posibilidades de comprensión.",
+      "D": "d. Las respuestas b y c son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 414,
+    "Question": "❓FFM.-¿De cuántas partes consta el consentimiento informado?",
+    "Options": {
+      "A": "A. 2.",
+      "B": "B. 3.",
+      "C": "C. 4.",
+      "D": "D. 1."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 415,
+    "Question": "❓FFM.-¿A quién compete la custodia de la documentación clínica?",
+    "Options": {
+      "A": "A. La unidad de admisión y documentación clínica.",
+      "B": "B. A la Dirección del centro sanitario.",
+      "C": "C. A los profesionales sanitarios.",
+      "D": "D. Ninguna es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 416,
+    "Question": "❓FFM.-¿Qué capítulo de la ley 41/2002,regula el informe de alta y otra documentación clínica?",
+    "Options": {
+      "A": "A. Capítulo V.",
+      "B": "B. Capítulo VI.",
+      "C": "C. Capítulo IV.",
+      "D": "D. Capítulo III."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 417,
+    "Question": "❓FFM.-¿Quién regula el procedimiento para que quede constancia del acceso a la Hª.Clinica  y su correspondiente uso?",
+    "Options": {
+      "A": "a. La administración y gestión de los servicios sanitarios.",
+      "B": "b. El Estado.",
+      "C": "c. Las comunidades autónomas.",
+      "D": "d. Los centros de salud."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 418,
+    "Question": "❓FFM.-¿Qué Dº regula el capítulo II de la ley 41/2002 de la autonomía del paciente?",
+    "Options": {
+      "A": "a. Dº a la intimidad.",
+      "B": "b. Dº a la información sanitaria.",
+      "C": "c. Dº de acceso a la Hª.Clinica .",
+      "D": "d. Dº a la información para elección de médico y centro."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 419,
+    "Question": "❓FFM.-¿A quién corresponde la custodia de la Hª.Clinica ?",
+    "Options": {
+      "A": "a. A la dirección del centro.",
+      "B": "b. A la dirección del servicio.",
+      "C": "c. A la dirección del SAS.",
+      "D": "d. A la coordinación del centro."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 420,
+    "Question": "❓FFM.-De acuerdo al art.16 de la Ley 41/2002,el personal que accede a los datos de la Hª.Clinica  en el ejercicio de sus funciones, ¿a qué queda sujeto?",
+    "Options": {
+      "A": "a. Al deber de secreto.",
+      "B": "b. Al deber de confidencialidad.",
+      "C": "c. Al código deontológico.",
+      "D": "d. Las respuestas a y b son incorrectas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 421,
+    "Question": "❓FFM.-De acuerdo al art.15 de la Ley 41/2002,¿cuál de los siguientes no será exigible en la cumplimentación de la Hª.Clinica  cuando se trate de procesos de hospitalización o así se disponga?",
+    "Options": {
+      "A": "a. La autorización de ingreso.",
+      "B": "b. El informe de anestesia.",
+      "C": "c. La anamnesis y la exploración física.",
+      "D": "d. El informe de anatomía patológica."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 422,
+    "Question": "❓FFM.-Según la Ley 41/2002, ¿a qué se refiere la NECESIDAD TERAPÉUTICA que permite limitar el derecho del paciente a la información?",
+    "Options": {
+      "A": "A. La facultad del médico para actuar profesionalmente informando previamente al paciente.",
+      "B": "B. La facultad del médico para actuar profesionalmente sin informar antes al paciente.",
+      "C": "C. La facultad del médico para actuar profesionalmente informando previamente al paciente y familiares.",
+      "D": "D. La facultad del médico para actuar profesionalmente sin informar antes al paciente y familiares."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 423,
+    "Question": "❓FFM.-Según Ley 41/2002,¿quién tendrá el Dº a recibir del centro o servicio sanitario una vez finalizado el proceso asistencial un informe de alta con los contenidos mínimos que determina el art.3?",
+    "Options": {
+      "A": "a. El paciente.",
+      "B": "b. El paciente o familiares allegados a él.",
+      "C": "c. Todo paciente, familiar o persona vinculada a él.",
+      "D": "d. El paciente o quien el paciente designe expresamente."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 424,
+    "Question": "❓FFM.-La tarjeta sanitaria individual se regula mediante:",
+    "Options": {
+      "A": "a. Real Decreto 183/2004 de 30 de enero.",
+      "B": "b. Decreto 183/2004 de 30 de enero.",
+      "C": "c. Ley 16/2003 de 28 de mayo.",
+      "D": "d. Las respuestas b y c son correctas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 425,
+    "Question": "❓FFM.-La documentación clínica se conservará:",
+    "Options": {
+      "A": "a. Cuando existan razones de investigación.",
+      "B": "b. Cuando existan razones de organización y funcionamiento del SNS.",
+      "C": "c. Cuando existan razones epidemiológicas.",
+      "D": "d. Todas las respuestas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 426,
+    "Question": "❓FFM.-El consentimiento informado se podrá revocar:",
+    "Options": {
+      "A": "A. Por el paciente o personas vinculadas a él por razones familiares o de hecho, de forma verbal y en cualquier momento.",
+      "B": "B. Por el paciente, generalmente de forma verbal y en cualquier momento.",
+      "C": "C. Por el paciente, por escrito y en cualquier momento.",
+      "D": "D. Por el paciente o personas vinculadas a él por razones familiares o de hecho, por escrito y en cualquier momento."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 427,
+    "Question": "❓FFM.-Los centros asistenciales tienen la Ob. de conservar y custodiar las historias clínicas bajo la responsabilidad de:",
+    "Options": {
+      "A": "a. El gerente del centro.",
+      "B": "b. La dirección del centro.",
+      "C": "c. El encargado del archivo del centro.",
+      "D": "d. La unidad de admisión y documentación clínica."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 428,
+    "Question": "❓FFM.-En el caso de que el paciente no acepte el tratamiento se le propondrá que firme el alta voluntaria y si no la firma la dirección del centro:",
+    "Options": {
+      "A": "a. Puede disponer el alta forzosa.",
+      "B": "b. Mantendrá el ingreso por un período máximo de 5 días naturales.",
+      "C": "c. No está reconocida la negativa al tratamiento de los pacientes.",
+      "D": "d. Firmará en su nombre el alta involuntaria."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 429,
+    "Question": "❓FFM.-La ley , establece la Ob. ligatoriedad de obtener el consentimiento informado del paciente:",
+    "Options": {
+      "A": "a. Solo en los casos de intervención quirúrgica.",
+      "B": "b. Para toda actuación en el ámbito de la salud.",
+      "C": "c. La ley no establece esta situación.",
+      "D": "d. Solo en los casos de aplicación de procedimientos que supongan grandes riesgos para la salud."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 430,
+    "Question": "❓FFM.-Los fundamentos éticos se estructuran en:",
+    "Options": {
+      "A": "a. 2 niveles.",
+      "B": "b. 3 niveles.",
+      "C": "c. 4 niveles.",
+      "D": "d. 1 nivel."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 431,
+    "Question": "❓FFM.-¿La BENEFICENCIA es de obligado cumplimiento?",
+    "Options": {
+      "A": "a. Sí.",
+      "B": "b. No.",
+      "C": "c. Sí, si la ley lo menciona explícitamente.",
+      "D": "d. Ninguna es del todo correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 432,
+    "Question": "❓FFM.-El consentimiento puede manifestarse en forma:",
+    "Options": {
+      "A": "a. Expresa, tácita o implícita, verbal o descrita.",
+      "B": "b. Expresa, tácita o explícita, verbal o escrita.",
+      "C": "c. Expresa, tácita o explícita, verbal o descrita.",
+      "D": "d. Expresa, tácita o implícita, adverbial o escrita."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 433,
+    "Question": "❓FFM.-De conformidad con el art.2.2 de la ley 14/2002, el consentimiento que debe obtenerse después de que el paciente reciba información adecuada, se hará:",
+    "Options": {
+      "A": "a. De forma verbal siempre.",
+      "B": "b. Por escrito en todo caso.",
+      "C": "c. De forma verbal aunque sea un procedimiento invasivo.",
+      "D": "d. Por escrito en los supuestos previstos por la ley."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 434,
+    "Question": "❓FFM.-Los pacientes tiene Dº a conocer con motivo de cualquier actuación en el ámbito de su salud:",
+    "Options": {
+      "A": "a. Toda la información disponible sobre la misma.",
+      "B": "b. Toda la información disponible sobre la misma sin excepciones.",
+      "C": "c. Toda la información disponible sobre la misma salvando los supuestos exceptuados por la ley.",
+      "D": "d. Ninguna respuesta es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 435,
+    "Question": "❓FFM.-Cuando se trate de menores no incapaces ni incapacitados, no cabe prestar el consentimiento por representación:",
+    "Options": {
+      "A": "a. En cualquier caso.",
+      "B": "b. Si están emancipados.",
+      "C": "c. Si tiene doce años cumplidos.",
+      "D": "d. Todas las respuestas son correctas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 436,
+    "Question": "❓FFM.-¿De cuántas D.A. consta la ley 41/2002?",
+    "Options": {
+      "A": "A. 7.",
+      "B": "B. 6.",
+      "C": "C. 5.",
+      "D": "D. 4."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 437,
+    "Question": "❓FFM.-¿Cuál es el objeto principal de la presente Ley?",
+    "Options": {
+      "A": "a) Regular la relación entre centros sanitarios y el gOb. ierno.",
+      "B": "b) Regular los Dº s y Ob. s.de pacientes, usuarios y profesionales sanitarios.",
+      "C": "c) Garantizar la calidad de los centros sanitarios privados.",
+      "D": "d) Controlar los precios de los tratamientos sanitarios."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 438,
+    "Question": "❓FFM.-¿Qué Dº tiene el paciente después de recibir información adecuada?",
+    "Options": {
+      "A": "a) No tiene Dº a tomar decisiones.",
+      "B": "b) Decidir junto con su médico.",
+      "C": "c) Decidir libremente entre las opciones clínicas disponibles.",
+      "D": "d) Solo puede aceptar el tratamiento propuesto."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 439,
+    "Question": "❓FFM.-¿Qué Ob. tienen los profesionales asistenciales respecto a las decisiones del paciente?",
+    "Options": {
+      "A": "a) Informar y ejecutar sus propias decisiones.",
+      "B": "b) Consultar con otros médicos antes de aceptar las decisiones del paciente.",
+      "C": "c) Respetar las decisiones adoptadas libremente por el paciente.",
+      "D": "d) Solo actuar si el paciente está de acuerdo con todos los tratamientos."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 440,
+    "Question": "❓FFM.-¿Qué debe constar por escrito cuando un paciente se niega a recibir tratamiento?",
+    "Options": {
+      "A": "a) Una certificación médica.",
+      "B": "b) El consentimiento del médico.",
+      "C": "c) Su negativa al tratamiento.",
+      "D": "d) Un documento del hospital."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 441,
+    "Question": "❓FFM.-¿Qué Dº tiene el paciente en relación con la información sobre su salud?",
+    "Options": {
+      "A": "a) Conocer toda la información disponible sobre su salud.",
+      "B": "b) No recibir información si el médico lo decide.",
+      "C": "c) Solo ser informado de los riesgos de los procedimientos.",
+      "D": "d) Ser informado solo por escrito."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 442,
+    "Question": "❓FFM.-¿Qué debe incluir como mínimo la información proporcionada al paciente?",
+    "Options": {
+      "A": "a) Las recomendaciones generales del médico.",
+      "B": "b) La finalidad, naturaleza, riesgos y consecuencias de cada intervención.",
+      "C": "c) Los costos asociados al tratamiento.",
+      "D": "d) Información sobre otros pacientes con el mismo diagnóstico."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 443,
+    "Question": "❓FFM.-¿Qué garantiza el médico responsable del paciente?",
+    "Options": {
+      "A": "a) Que el paciente reciba el mejor tratamiento posible.",
+      "B": "b) El cumplimiento del Dº a la información del paciente.",
+      "C": "c) Que el paciente no sea informado si así lo desea.",
+      "D": "d) La calidad del servicio asistencial."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 444,
+    "Question": "❓FFM.-¿En qué casos puede el Dº a la información del paciente ser limitado?",
+    "Options": {
+      "A": "a) Si el médico no tiene tiempo de informar.",
+      "B": "b) En caso de estado de necesidad terapéutica.",
+      "C": "c) Si el paciente lo solicita.",
+      "D": "d) En cualquier intervención quirúrgica."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 445,
+    "Question": "❓FFM.-¿Qué ocurre si el paciente no puede entender la información debido a su estado físico o psíquico?",
+    "Options": {
+      "A": "a) No se le proporciona ninguna información.",
+      "B": "b) El médico decide si informar o no.",
+      "C": "c) La información se comunica a las personas vinculadas a él por razones familiares o de hecho.",
+      "D": "d) Se pospone la intervención."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 446,
+    "Question": "❓FFM.-L41/2002.- Cuando existe riesgo para la salud pública a causa de razones sanitarias establecidas por la Ley, los facultativos podrán llevar a cabo las intervenciones clínicas indispensables en favor de la salud del paciente sin su consentimiento:",
+    "Options": {
+      "A": "Comunicando a la autoridad judicial en el plazo máximo de 48 horas sin necesidad de internamiento.",
+      "B": "Siempre disponiendo internamiento Ob. ligatorio y comunicando a la autoridad judicial en un máximo de 24 horas.",
+      "C": "Puede disponer el internamiento Ob. ligatorio y comunicando a la autoridad judicial en un máximo de 12 horas.",
+      "D": "En ningún caso."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 447,
+    "Question": "❓FFM.-La tarjeta sanitaria europea (TSE) tiene:",
+    "Options": {
+      "A": "Hasta 5 años de validez y tarda 4 días en llegar a tu domicilio por correo postal.",
+      "B": "Hasta 4 años de validez y tarda 15 días en llegar a tu domicilio por correo postal.",
+      "C": "Hasta 2 años de validez y tarda 5 días en llegar a tu domicilio por correo postal.",
+      "D": "Hasta 4 años de validez y tarda 5 días en llegar a tu domicilio por correo postal."
+    },
+    "CorrectOption": "D"
+  }
+]
