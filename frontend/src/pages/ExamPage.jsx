@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { Button } from '@/components/ui/button';
-import { Card } from '@/components/ui/card';
-import { Clock, AlertCircle } from 'lucide-react';
+import './ExamPage.css';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8001';
 const API = `${BACKEND_URL}/api`;
 
 const ExamPage = () => {
-  const { examId } = useParams();
   const navigate = useNavigate();
   const [exam, setExam] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -19,8 +16,8 @@ const ExamPage = () => {
   const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
-    fetchExam();
-  }, [examId]);
+    generateExam();
+  }, []);
 
   useEffect(() => {
     if (!exam) return;
@@ -39,9 +36,10 @@ const ExamPage = () => {
     return () => clearInterval(timer);
   }, [exam]);
 
-  const fetchExam = async () => {
+  const generateExam = async () => {
     try {
-      const response = await axios.get(`${API}/exam/${examId}`);
+      setLoading(true);
+      const response = await axios.post(`${API}/exam/generate`);
       setExam(response.data);
       // Initialize answers object
       const initialAnswers = {};
@@ -50,9 +48,9 @@ const ExamPage = () => {
       });
       setAnswers(initialAnswers);
     } catch (error) {
-      console.error('Error fetching exam:', error);
-      alert('Error al cargar el examen');
-      navigate('/');
+      console.error('Error generating exam:', error);
+      alert('Error al generar el examen');
+      navigate('/dashboard');
     } finally {
       setLoading(false);
     }
@@ -69,7 +67,7 @@ const ExamPage = () => {
     if (submitting) return;
 
     const unansweredCount = Object.values(answers).filter((a) => a === null).length;
-    if (unansweredCount > 0) {
+    if (unansweredCount > 0 && timeRemaining > 0) {
       const confirm = window.confirm(
         `Tienes ${unansweredCount} preguntas sin responder. ¿Estás seguro de enviar el examen?`
       );
@@ -86,7 +84,7 @@ const ExamPage = () => {
       const timeUsed = 5400 - timeRemaining;
 
       const response = await axios.post(`${API}/exam/submit`, {
-        exam_id: examId,
+        exam_id: exam.id,
         respuestas,
         tiempo_empleado_segundos: timeUsed,
       });
