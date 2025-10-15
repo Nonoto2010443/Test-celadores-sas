@@ -424,30 +424,20 @@ async def submit_exam(exam: ExamSubmit):
         else:
             incorrectas += 1
     
-    # Generate justifications for incorrect and blank answers using AI
-    logging.info("🤖 Generando justificaciones educativas...")
+    # Generate simple justifications for all questions
     questions_with_justifications = []
     
     for i, pregunta in enumerate(exam.preguntas):
-        respuesta_usuario = exam.respuestas_usuario[i]
-        
-        # Generate justification only for incorrect or blank answers
-        if respuesta_usuario is None or respuesta_usuario != pregunta.respuesta_correcta:
-            # Generate AI justification
-            justification = await generate_justification(pregunta)
-            # Update question with new justification
-            updated_pregunta = Question(
-                texto=pregunta.texto,
-                opciones=pregunta.opciones,
-                respuesta_correcta=pregunta.respuesta_correcta,
-                justificacion=justification
-            )
-            questions_with_justifications.append(updated_pregunta)
-        else:
-            # Keep original for correct answers
-            questions_with_justifications.append(pregunta)
-    
-    logging.info(f"✅ Justificaciones generadas para respuestas incorrectas/en blanco")
+        # Generate simple justification
+        justification = generate_justification_simple(pregunta)
+        # Update question with justification
+        updated_pregunta = Question(
+            texto=pregunta.texto,
+            opciones=pregunta.opciones,
+            respuesta_correcta=pregunta.respuesta_correcta,
+            justificacion=justification
+        )
+        questions_with_justifications.append(updated_pregunta)
     
     # Official scoring for 50 questions = 100 points
     # Each correct = 2 points, each incorrect = -0.5 points
