@@ -171,6 +171,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema18.json',
             'tema': 18,
             'nombre': 'Tema 18 - Plan de autoprotección y emergencias'
+        },
+        {
+            'archivo': 'test_tema19.json',
+            'tema': 19,
+            'nombre': 'Tema 19 - Política Ambiental del SAS y gestión de residuos'
         }
     ]
     
