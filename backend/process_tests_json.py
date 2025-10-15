@@ -121,6 +121,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema8.json',
             'tema': 8,
             'nombre': 'Tema 8 - Estatuto Marco del personal estatutario'
+        },
+        {
+            'archivo': 'test_tema9.json',
+            'tema': 9,
+            'nombre': 'Tema 9 - Autonomía del paciente y documentación clínica'
         }
     ]
     
