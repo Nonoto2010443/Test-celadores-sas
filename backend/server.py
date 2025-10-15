@@ -397,60 +397,13 @@ async def generate_exam():
         raise HTTPException(status_code=500, detail=f"Error al generar examen: {str(e)}")
 
 
-async def generate_justification(pregunta: Question) -> str:
-    """Generate a useful justification for a question using AI"""
-    api_key = os.environ.get('EMERGENT_LLM_KEY')
+async def generate_justification_simple(pregunta: Question) -> str:
+    """Generate a simple justification without AI to avoid delays"""
+    correct_letter = chr(65 + pregunta.respuesta_correcta)  # 0->A, 1->B, etc.
+    correct_option = pregunta.opciones[pregunta.respuesta_correcta]
     
-    try:
-        chat = LlmChat(
-            api_key=api_key,
-            session_id=str(uuid.uuid4()),
-            system_message="""Eres un experto en oposiciones de celadores del SAS.
-
-TU MISIÓN: Proporcionar justificaciones breves y educativas para las respuestas correctas.
-
-REGLAS:
-1. Justificación de 1-2 líneas máximo
-2. Citar el artículo o ley específica cuando sea posible
-3. Explicación clara y directa
-4. Lenguaje formal pero comprensible
-5. Enfocada en por qué esa es la respuesta correcta
-
-FORMATO:
-"Según el art. X de [Ley], [explicación breve]. La respuesta correcta es [letra] porque [razón]."
-
-O si no hay artículo específico:
-"La respuesta correcta es [letra] porque [explicación basada en el temario oficial]."
-"""
-        ).with_model("openai", "gpt-4o-mini")
-        
-        # Get correct option letter
-        correct_letter = chr(65 + pregunta.respuesta_correcta)  # 0->A, 1->B, etc.
-        
-        prompt = f"""Genera una justificación breve para esta pregunta de oposición de celadores:
-
-PREGUNTA: {pregunta.texto}
-
-OPCIONES:
-A) {pregunta.opciones[0]}
-B) {pregunta.opciones[1]}
-C) {pregunta.opciones[2]}
-D) {pregunta.opciones[3]}
-
-RESPUESTA CORRECTA: {correct_letter}) {pregunta.opciones[pregunta.respuesta_correcta]}
-
-Proporciona una justificación educativa de máximo 2 líneas que explique por qué esta es la respuesta correcta. Si conoces el artículo o ley, cítalo."""
-        
-        user_message = UserMessage(text=prompt)
-        response = await chat.send_message(user_message)
-        
-        return response.strip()
-        
-    except Exception as e:
-        logging.error(f"Error generando justificación: {e}")
-        # Fallback to simple justification
-        correct_letter = chr(65 + pregunta.respuesta_correcta)
-        return f"La respuesta correcta es {correct_letter}. {pregunta.opciones[pregunta.respuesta_correcta]}"
+    # Simple but clear justification
+    return f"La respuesta correcta es la opción {correct_letter}: {correct_option}"
 
 
 @api_router.post("/exams/submit", response_model=ExamResult)
