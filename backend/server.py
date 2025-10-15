@@ -403,7 +403,7 @@ Requisitos:
 # API Routes
 @api_router.get("/")
 async def root():
-
+    return {"status": "ok", "message": "SAS Celadores API"}
 
 async def generate_justification_with_ai(pregunta: str, opciones: List[str], respuesta_correcta: int) -> str:
     """Generate detailed justification for a question using Google Gemini AI"""
