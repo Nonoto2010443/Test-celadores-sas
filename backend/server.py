@@ -184,7 +184,7 @@ async def generate_ai_questions(count: int = 15) -> List[Question]:
 TU MISIÓN: Crear preguntas IDÉNTICAS en estilo, dificultad y formato a los exámenes oficiales reales del SAS.
 
 CARACTERÍSTICAS DE LOS EXÁMENES OFICIALES SAS:
-1. Formato estricto: "❓ FFM T{tema_num} [pregunta precisa]"
+1. Formato estricto: "❓ FFM.- [pregunta precisa]"
 2. Preguntas basadas en legislación REAL y vigente
 3. Referencias a artículos específicos (art. X, Ley Y)
 4. Opciones claras y diferenciadas
