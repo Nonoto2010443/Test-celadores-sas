@@ -131,6 +131,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema10.json',
             'tema': 10,
             'nombre': 'Tema 10 - Tecnologías de la información en el SAS'
+        },
+        {
+            'archivo': 'test_tema11.json',
+            'tema': 11,
+            'nombre': 'Tema 11 - Visión general del Celador como profesional sanitario'
         }
     ]
     
