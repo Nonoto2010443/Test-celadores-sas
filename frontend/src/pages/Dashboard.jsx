@@ -98,6 +98,43 @@ const Dashboard = () => {
       </header>
 
       <main className="dashboard-main">
+        {/* Subscription Status */}
+        <section className="subscription-section">
+          {subscriptionStatus === 'active' ? (
+            <div className="subscription-card active">
+              <div className="subscription-info">
+                <span className="subscription-icon">✓</span>
+                <div>
+                  <h3>Suscripción Activa</h3>
+                  <p>Tienes acceso completo a todos los exámenes</p>
+                </div>
+              </div>
+              <button 
+                onClick={() => window.alert('Portal de gestión de Stripe próximamente')}
+                className="manage-subscription-btn"
+              >
+                Gestionar Suscripción
+              </button>
+            </div>
+          ) : (
+            <div className="subscription-card inactive">
+              <div className="subscription-info">
+                <span className="subscription-icon">⚠️</span>
+                <div>
+                  <h3>Sin Suscripción Activa</h3>
+                  <p>Necesitas una suscripción para realizar exámenes</p>
+                </div>
+              </div>
+              <button 
+                onClick={() => navigate('/pricing')}
+                className="subscribe-now-btn"
+              >
+                Ver Planes - 10€/mes
+              </button>
+            </div>
+          )}
+        </section>
+
         {/* Stats Cards */}
         <section className="stats-section">
           <h2>Estadísticas Generales</h2>
