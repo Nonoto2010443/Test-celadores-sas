@@ -157,7 +157,7 @@ async def procesar_y_guardar_examenes():
         # Combinar preguntas con respuestas correctas - Examen DI
         for pregunta in preguntas_di:
             num = pregunta['numero']
-            if num in respuestas_di and len(pregunta['opciones']) == 4:
+            if num in respuestas_di and len(pregunta['opciones']) >= 3:
                 respuesta_letra = respuestas_di[num]
                 respuesta_index = ord(respuesta_letra) - ord('A')
                 
