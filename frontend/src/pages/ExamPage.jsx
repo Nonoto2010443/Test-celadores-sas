@@ -109,10 +109,10 @@ const ExamPage = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <div className="spinner mx-auto mb-4" />
-          <p className="text-white text-lg">Cargando examen...</p>
+      <div className="exam-loading">
+        <div className="loading-content">
+          <div className="spinner"></div>
+          <p>Generando examen...</p>
         </div>
       </div>
     );
@@ -123,69 +123,55 @@ const ExamPage = () => {
   const question = exam.preguntas[currentQuestion];
 
   return (
-    <div className="min-h-screen py-8 px-4">
-      <div className="max-w-4xl mx-auto">
+    <div className="exam-container">
+      <div className="exam-content">
         {/* Header with Timer */}
-        <Card className="bg-white/95 backdrop-blur-sm shadow-xl rounded-2xl p-6 mb-6">
-          <div className="flex items-center justify-between flex-wrap gap-4">
-            <div>
-              <h2 className="text-2xl font-bold text-gray-800">Examen de Celadores SAS</h2>
-              <p className="text-gray-600">
-                Pregunta {currentQuestion + 1} de {exam.preguntas.length} | Respondidas: {getAnsweredCount()}
-              </p>
-            </div>
-            <div className="flex items-center gap-4">
-              <div className="text-center">
-                <div className={`flex items-center gap-2 px-4 py-2 rounded-lg ${timeRemaining < 600 ? 'bg-red-100 text-red-700' : 'bg-blue-100 text-blue-700'}`}>
-                  <Clock className="w-5 h-5" />
-                  <span className="font-mono text-xl font-bold">{formatTime(timeRemaining)}</span>
-                </div>
-              </div>
+        <div className="exam-header">
+          <div className="header-info">
+            <h2>Examen de Celadores SAS</h2>
+            <p>
+              Pregunta {currentQuestion + 1} de {exam.preguntas.length} | Respondidas: {getAnsweredCount()}
+            </p>
+          </div>
+          <div className="timer-container">
+            <div className={`timer ${timeRemaining < 600 ? 'timer-warning' : ''}`}>
+              <span className="timer-icon">⏱️</span>
+              <span className="timer-text">{formatTime(timeRemaining)}</span>
             </div>
           </div>
           {timeRemaining < 600 && (
-            <div className="mt-4 flex items-center gap-2 text-red-600 bg-red-50 p-3 rounded-lg">
-              <AlertCircle className="w-5 h-5" />
-              <span className="text-sm font-semibold">¡Quedan menos de 10 minutos!</span>
+            <div className="time-warning">
+              ⚠️ ¡Quedan menos de 10 minutos!
             </div>
           )}
-        </Card>
+        </div>
 
         {/* Question Card */}
-        <Card className="bg-white/95 backdrop-blur-sm shadow-xl rounded-2xl p-8 mb-6">
-          <div className="mb-6">
+        <div className="question-card">
+          <div className="question-header">
             {question.tema && (
-              <span className="inline-block bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-semibold mb-4">
-                {question.tema}
-              </span>
+              <span className="question-tema">{question.tema}</span>
             )}
-            <h3 className="text-xl font-bold text-gray-800 leading-relaxed">
+            <h3 className="question-text">
               {currentQuestion + 1}. {question.pregunta}
             </h3>
           </div>
 
           {/* Options */}
-          <div className="space-y-3">
+          <div className="options-container">
             {question.opciones.map((opcion, index) => {
               const isSelected = answers[question.id] === index;
               return (
                 <button
                   key={index}
-                  data-testid={`option-${index}`}
                   onClick={() => handleAnswerSelect(question.id, index)}
-                  className={`w-full text-left p-4 rounded-xl border-2 transition-all ${
-                    isSelected
-                      ? 'border-blue-500 bg-blue-50 shadow-md'
-                      : 'border-gray-200 hover:border-blue-300 hover:bg-gray-50'
-                  }`}
+                  className={`option-button ${isSelected ? 'selected' : ''}`}
                 >
-                  <div className="flex items-start gap-3">
-                    <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 mt-0.5 ${
-                      isSelected ? 'border-blue-500 bg-blue-500' : 'border-gray-300'
-                    }`}>
-                      {isSelected && <div className="w-3 h-3 bg-white rounded-full" />}
+                  <div className="option-content">
+                    <div className={`option-radio ${isSelected ? 'selected' : ''}`}>
+                      {isSelected && <div className="radio-dot" />}
                     </div>
-                    <span className="text-gray-800 leading-relaxed">
+                    <span className="option-text">
                       <strong>{String.fromCharCode(65 + index)}.</strong> {opcion}
                     </span>
                   </div>
@@ -193,43 +179,42 @@ const ExamPage = () => {
               );
             })}
           </div>
-        </Card>
+        </div>
 
         {/* Navigation */}
-        <div className="flex items-center justify-between gap-4">
-          <Button
+        <div className="exam-navigation">
+          <button
             onClick={() => setCurrentQuestion((prev) => Math.max(0, prev - 1))}
             disabled={currentQuestion === 0}
-            className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-xl disabled:opacity-50"
+            className="nav-button prev-button"
           >
             ← Anterior
-          </Button>
+          </button>
 
-          <div className="flex gap-2">
+          <div className="nav-actions">
             {currentQuestion < exam.preguntas.length - 1 ? (
-              <Button
+              <button
                 onClick={() => setCurrentQuestion((prev) => prev + 1)}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl"
+                className="nav-button next-button"
               >
                 Siguiente →
-              </Button>
+              </button>
             ) : (
-              <Button
+              <button
                 onClick={handleSubmitExam}
                 disabled={submitting}
-                data-testid="submit-exam-button"
-                className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-xl disabled:opacity-50"
+                className="nav-button submit-button"
               >
                 {submitting ? 'Enviando...' : 'Finalizar Examen'}
-              </Button>
+              </button>
             )}
           </div>
         </div>
 
         {/* Question Navigator */}
-        <Card className="bg-white/95 backdrop-blur-sm shadow-xl rounded-2xl p-6 mt-6">
-          <h4 className="font-bold text-gray-800 mb-4">Navegador de Preguntas</h4>
-          <div className="grid grid-cols-10 gap-2">
+        <div className="question-navigator">
+          <h4>Navegador de Preguntas</h4>
+          <div className="navigator-grid">
             {exam.preguntas.map((q, index) => {
               const isAnswered = answers[q.id] !== null;
               const isCurrent = index === currentQuestion;
@@ -237,34 +222,28 @@ const ExamPage = () => {
                 <button
                   key={q.id}
                   onClick={() => setCurrentQuestion(index)}
-                  className={`w-10 h-10 rounded-lg font-semibold transition-all ${
-                    isCurrent
-                      ? 'bg-blue-600 text-white shadow-lg scale-110'
-                      : isAnswered
-                      ? 'bg-green-100 text-green-700 hover:bg-green-200'
-                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                  }`}
+                  className={`navigator-item ${isCurrent ? 'current' : ''} ${isAnswered ? 'answered' : ''}`}
                 >
                   {index + 1}
                 </button>
               );
             })}
           </div>
-          <div className="flex items-center gap-6 mt-4 text-sm">
-            <div className="flex items-center gap-2">
-              <div className="w-4 h-4 bg-green-100 border-2 border-green-500 rounded" />
-              <span className="text-gray-600">Respondida</span>
+          <div className="navigator-legend">
+            <div className="legend-item">
+              <div className="legend-box answered" />
+              <span>Respondida</span>
             </div>
-            <div className="flex items-center gap-2">
-              <div className="w-4 h-4 bg-gray-100 border-2 border-gray-300 rounded" />
-              <span className="text-gray-600">Sin responder</span>
+            <div className="legend-item">
+              <div className="legend-box unanswered" />
+              <span>Sin responder</span>
             </div>
-            <div className="flex items-center gap-2">
-              <div className="w-4 h-4 bg-blue-600 rounded" />
-              <span className="text-gray-600">Actual</span>
+            <div className="legend-item">
+              <div className="legend-box current" />
+              <span>Actual</span>
             </div>
           </div>
-        </Card>
+        </div>
       </div>
     </div>
   );
