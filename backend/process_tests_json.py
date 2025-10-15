@@ -136,6 +136,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema11.json',
             'tema': 11,
             'nombre': 'Tema 11 - Visión general del Celador como profesional sanitario'
+        },
+        {
+            'archivo': 'test_tema12.json',
+            'tema': 12,
+            'nombre': 'Tema 12 - Habilidades sociales y comunicación'
         }
     ]
     
