@@ -20,27 +20,21 @@ DB_NAME = os.environ.get("DB_NAME", "test_database")
 client = AsyncIOMotorClient(MONGO_URL)
 db = client[DB_NAME]
 
-# Comprehensive abbreviation mapping (except SAS which should remain)
+# Comprehensive abbreviation mapping with OFFICIAL LAW FORMATS (except SAS which should remain)
 ABBREVIATIONS = {
     # Leyes principales - PROTECCIÓN DE DATOS (PRIORIDAD)
-    r'\bLOPDPGDD\b': 'Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales',
-    r'\bLOPDGDD\b': 'Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales',
+    r'\bLOPDPGDD\b': 'Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales',
+    r'\bLOPDGDD\b': 'Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales',
     r'\bLOPD\b': 'Ley Orgánica de Protección de Datos',
     
-    # Otras leyes principales
-    r'\bLSA\b': 'Ley de Salud de Andalucía',
-    r'\bLPRL\b': 'Ley de Prevención de Riesgos Laborales',
-    r'\bLOUA\b': 'Ley de Ordenación Urbanística de Andalucía',
-    r'\bLRJAP\b': 'Ley de Régimen Jurídico de las Administraciones Públicas',
-    r'\bLRJSP\b': 'Ley del Régimen Jurídico del Sector Público',
-    r'\bLPAC\b': 'Ley del Procedimiento Administrativo Común',
-    r'\bEBAP\b': 'Estatuto Básico del Empleado Público',
-    r'\bEBEP\b': 'Estatuto Básico del Empleado Público',
-    r'\bEM\b': 'Estatuto Marco',
-    r'\bEMPNS\b': 'Estatuto Marco del Personal Estatutario de los Servicios de Salud',
-    r'\bLGS\b': 'Ley General de Sanidad',
-    r'\bLGSP\b': 'Ley General de Salud Pública',
-    r'\bLAC\b': 'Ley de Autonomía del Paciente',
+    # Otras leyes principales - FORMATO OFICIAL
+    r'\bLSA\b': 'Ley 2/1998, de 15 de junio, de Salud de Andalucía',
+    r'\bLPRL\b': 'Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales',
+    r'\bLGS\b': 'Ley 14/1986, de 25 de abril, General de Sanidad',
+    r'\bEBAP\b': 'Ley 7/2007, de 12 de abril, del Estatuto Básico del Empleado Público',
+    r'\bEBEP\b': 'Ley 7/2007, de 12 de abril, del Estatuto Básico del Empleado Público',
+    r'\bEM\b': 'Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud',
+    r'\bEMPNS\b': 'Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud',
     r'\bLSSI\b': 'Ley de Servicios de la Sociedad de la Información',
     
     # Documentos oficiales
