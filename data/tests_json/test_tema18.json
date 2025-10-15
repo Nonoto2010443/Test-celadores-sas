@@ -1,0 +1,5634 @@
+[
+  {
+    "Id": 1,
+    "Question": "❓FFM.-¿Cuál es el objetivo principal de un plan de emergencia contra incendios?",
+    "Options": {
+      "a": "Cumplir con la normativa legal vigente.",
+      "b": "Minimizar los daños y pérdidas humanas y materiales en una emergencia.",
+      "c": "Asegurar el entrenamiento de todo el personal en el uso de extintores.",
+      "d": "Controlar con rapidez la emergencia para reducir sus consecuencias."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 2,
+    "Question": "❓FFM.-¿Cuál de las siguientes es una acción prioritaria durante una emergencia contra incendios?",
+    "Options": {
+      "a": "Rescatar a las personas atrapadas.",
+      "b": "Apagar el fuego a toda costa.",
+      "c": "Salvar los bienes materiales de la empresa.",
+      "d": "Asistir a los heridos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 3,
+    "Question": "❓FFM.-¿Qué tipo de señal se utiliza para indicar material inflamable?",
+    "Options": {
+      "a": "Triangular, fondo amarillo y bordes negros.",
+      "b": "Rectangular, fondo rojo y pictograma blanco.",
+      "c": "Circular, fondo azul y pictograma blanco.",
+      "d": "Cuadrada, fondo verde y pictograma blanco."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 4,
+    "Question": "❓FFM.-¿Cuál es el propósito de la señalización de prohibición en las áreas de riesgo?",
+    "Options": {
+      "a": "Advertir sobre posibles daños.",
+      "b": "Restringir el acceso a personas no autorizadas.",
+      "c": "Facilitar el acceso a bomberos.",
+      "d": "Señalar el lugar para asistencia médica."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 5,
+    "Question": "❓FFM.-¿Qué deben hacer las personas asignadas al manejo de extintores?",
+    "Options": {
+      "a": "Saber a quién llamar en caso de una emergencia.",
+      "b": "Conocer la ubicación de las salidas de emergencia.",
+      "c": "Estar entrenadas en su uso correcto y seguro.",
+      "d": "Informar a los demás sobre la situación."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 6,
+    "Question": "❓FFM.-¿Qué acción se debe tomar en caso de una gran emergencia?",
+    "Options": {
+      "a": "Avisar a ayudas externas como los bomberos.",
+      "b": "Realizar simulacros adicionales.",
+      "c": "Limitar el acceso de trabajadores al área.",
+      "d": "Hacer una evaluación económica de las pérdidas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 7,
+    "Question": "❓FFM.-¿Cuál es la prioridad cuando se detecta un conato de incendio?",
+    "Options": {
+      "a": "Intentar extinguirlo con medios propios.",
+      "b": "Iniciar la evacuación de todo el personal.",
+      "c": "Avisar a los medios de comunicación.",
+      "d": "Apagar los sistemas de seguridad."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 8,
+    "Question": "❓FFM.-¿Qué acción se recomienda al identificar una señal de alarma de incendio?",
+    "Options": {
+      "a": "Contactar con la policía.",
+      "b": "Continuar las actividades y esperar instrucciones.",
+      "c": "Iniciar una evacuación ordenada.",
+      "d": "Activar todas las alarmas de emergencia."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 9,
+    "Question": "❓FFM.-¿Por qué es fundamental el tiempo de reacción en una emergencia?",
+    "Options": {
+      "a": "Permite planificar la intervención.",
+      "b": "Porque el control se complica con el tiempo de retardo.",
+      "c": "Facilita la llegada de personal externo.",
+      "d": "Permite evaluar los daños de la emergencia."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 10,
+    "Question": "❓FFM.-¿Cuál de las siguientes NO es una función mínima exigida en un plan contra incendios?",
+    "Options": {
+      "a": "Avisar a los bomberos.",
+      "b": "Evacuar personas afectadas.",
+      "c": "Extinguir conatos de incendio.",
+      "d": "Reaprovisionar los extintores."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 11,
+    "Question": "❓FFM.-¿Cuál es una de las variables críticas para decidir las acciones en caso de emergencia?",
+    "Options": {
+      "a": "El número de ascensores.",
+      "b": "El horario laboral.",
+      "c": "El costo de los materiales dañados.",
+      "d": "La gravedad de la emergencia."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 12,
+    "Question": "❓FFM.-¿Qué acción debe priorizarse si los medios propios no son suficientes para un incendio?",
+    "Options": {
+      "a": "Solicitar ayuda externa.",
+      "b": "Informar a los trabajadores.",
+      "c": "Esperar instrucciones del supervisor.",
+      "d": "Restringir el acceso a los curiosos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 13,
+    "Question": "❓FFM.-¿Cuál es una de las funciones de la señalización de emergencia?",
+    "Options": {
+      "a": "Guiar la salida y evacuación de personas.",
+      "b": "Mostrar las áreas de descanso.",
+      "c": "Indicar los equipos de ventilación.",
+      "d": "Proveer información general de la empresa."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 14,
+    "Question": "❓FFM.-¿Qué se busca al establecer una estructura orgánica en los planes de emergencia?",
+    "Options": {
+      "a": "Reducir los costos de implementación.",
+      "b": "Optimizar el uso de materiales de oficina.",
+      "c": "Asignar responsabilidades claras y jerarquizadas.",
+      "d": "Facilitar la salida de clientes."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 15,
+    "Question": "❓FFM.-¿Qué se debe hacer antes de diseñar un proceso de emergencia específico?",
+    "Options": {
+      "a": "Realizar una evacuación.",
+      "b": "Evaluar los medios técnicos y humanos disponibles.",
+      "c": "Contactar a proveedores externos.",
+      "d": "Establecer las vías de acceso."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 16,
+    "Question": "❓FFM.-¿Cuál es uno de los componentes necesarios en un plan de emergencia contra incendios para la seguridad?",
+    "Options": {
+      "a": "Un sistema de alarma que active el cierre de puertas.",
+      "b": "Señalización de los caminos de evacuación.",
+      "c": "Extintores en áreas de descanso.",
+      "d": "Monitoreo constante de bomberos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 17,
+    "Question": "❓FFM.-¿Qué función tiene el personal encargado de la información a bomberos?",
+    "Options": {
+      "a": "Orientarles sobre la estructura del edificio y ubicación del incendio.",
+      "b": "Controlar la evacuación de las personas.",
+      "c": "Asegurar la activación de las alarmas.",
+      "d": "Dar aviso a otros cuerpos de seguridad."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 18,
+    "Question": "❓FFM.-¿Qué debe hacer la empresa para garantizar la efectividad de su plan de emergencia?",
+    "Options": {
+      "a": "Contratar un equipo de bomberos internos.",
+      "b": "Asegurarse de que todo el personal sepa apagar incendios.",
+      "c": "Realizar simulacros periódicos.",
+      "d": "Asignar a una persona para gestionar todos los incendios."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 19,
+    "Question": "❓FFM.-¿Qué elemento es fundamental en los accesos de emergencia?",
+    "Options": {
+      "a": "Puertas de acero macizo.",
+      "b": "Espacio para que los vehículos de bomberos estacionen.",
+      "c": "Ventilación cruzada.",
+      "d": "Señalización y despeje de caminos de evacuación."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 20,
+    "Question": "❓FFM.-¿Qué acción debe realizarse al detectar un incendio grave?",
+    "Options": {
+      "a": "Avisar inmediatamente a los bomberos.",
+      "b": "Aislar la zona afectada.",
+      "c": "Evaluar el costo de los daños.",
+      "d": "Apagar los sistemas de ventilación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 21,
+    "Question": "❓FFM.-¿Qué debe incluir el aviso a bomberos en caso de incendio?",
+    "Options": {
+      "a": "La lista de ocupantes del edificio.",
+      "b": "Información sobre la ubicación y naturaleza del incendio.",
+      "c": "El tiempo estimado de evacuación.",
+      "d": "Los nombres de los responsables de seguridad."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 22,
+    "Question": "❓FFM.-¿Cuál es una variable importante para decidir acciones en caso de riesgo?",
+    "Options": {
+      "a": "El tipo de edificio.",
+      "b": "La ubicación del jefe de seguridad.",
+      "c": "La cantidad de puertas de acceso.",
+      "d": "El número de cámaras de seguridad activas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 23,
+    "Question": "❓FFM.-¿Cuál es la prioridad en un conato de incendio?",
+    "Options": {
+      "a": "Llamar a los servicios de limpieza.",
+      "b": "Informar a la prensa sobre el incidente.",
+      "c": "Apagar los sistemas de ventilación.",
+      "d": "Intentar extinguirlo con medios propios."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 24,
+    "Question": "❓FFM.-¿Qué tipo de ocupación se considera invaluable en términos de evacuación?",
+    "Options": {
+      "a": "Hospitales y cárceles.",
+      "b": "Oficinas.",
+      "c": "Zonas industriales.",
+      "d": "Edificios públicos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 25,
+    "Question": "❓FFM.-¿Qué se debe hacer si el incendio ocurre en una zona de difícil acceso?",
+    "Options": {
+      "a": "Instalar una alarma sonora.",
+      "b": "Notificar a los vecinos que puedan verse afectados.",
+      "c": "Llamar a la policía local.",
+      "d": "Verificar el sistema de electricidad."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 26,
+    "Question": "❓FFM.-¿Cuál de las siguientes acciones no es prioritaria en un plan básico contra incendios?",
+    "Options": {
+      "a": "Avisar a los bomberos.",
+      "b": "Informar al personal encargado de la seguridad.",
+      "c": "Asegurar la protección de los archivos de la empresa.",
+      "d": "Evacuar a las personas afectadas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 27,
+    "Question": "❓FFM.-¿Qué debe verificarse en los caminos de evacuación?",
+    "Options": {
+      "a": "Que estén libres de humo y llamas por tiempo suficiente.",
+      "b": "Que tengan equipo de primeros auxilios en cada punto.",
+      "c": "Que sean accesibles solo para el personal autorizado.",
+      "d": "Que estén bien iluminados en todo momento."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 28,
+    "Question": "❓FFM.-¿Qué permite la detección temprana en un plan de incendios?",
+    "Options": {
+      "a": "Activar protocolos de seguridad.",
+      "b": "Iniciar las acciones de evacuación y extinción rápidamente.",
+      "c": "Revisar el sistema de cámaras de seguridad.",
+      "d": "Llamar a la brigada interna de limpieza."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 29,
+    "Question": "❓FFM.-¿Qué equipo es esencial en una empresa con riesgo de incendio?",
+    "Options": {
+      "a": "Luces de emergencia en todas las áreas.",
+      "b": "Detectores de movimiento en las entradas.",
+      "c": "Ascensores de alta velocidad.",
+      "d": "Extintores en número y tipo adecuado."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 30,
+    "Question": "❓FFM.-¿Cuál es la mejor manera de reducir el tiempo de respuesta en una emergencia?",
+    "Options": {
+      "a": "Incrementar el número de simulacros de evacuación.",
+      "b": "Instalar cámaras en todas las áreas de riesgo.",
+      "c": "Aumentar la seguridad en las zonas de entrada y salida.",
+      "d": "Formar y adiestrar al personal sobre sus responsabilidades."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 31,
+    "Question": "❓FFM.-¿Qué acción debería incluirse en un plan de emergencia si hay una gran cantidad de personas en el edificio?",
+    "Options": {
+      "a": "Revisar periódicamente el equipo contra incendios.",
+      "b": "Mantener un conteo actualizado de personas.",
+      "c": "Realizar evacuaciones y asegurarse de que todos conocen las rutas.",
+      "d": "Controlar las entradas y salidas de manera estricta."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 32,
+    "Question": "❓FFM.-¿Cuál es uno de los objetivos principales de la organización contra incendios en una empresa?",
+    "Options": {
+      "a": "Reducir la cantidad de personal en el área de riesgo.",
+      "b": "Minimizar el número de emergencias contra incendios.",
+      "c": "Aumentar el inventario de extintores.",
+      "d": "Promover simulacros externos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 33,
+    "Question": "❓FFM.-¿Qué tipo de señalización se utiliza para advertir sobre materiales inflamables?",
+    "Options": {
+      "a": "Rectangular con fondo azul.",
+      "b": "Cuadrada con borde rojo.",
+      "c": "Triangular con fondo amarillo y borde negro.",
+      "d": "Redonda con fondo blanco y pictograma verde."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 34,
+    "Question": "❓FFM.-¿Qué elemento es esencial para la evacuación segura de personas?",
+    "Options": {
+      "a": "Acceso despejado a caminos de evacuación.",
+      "b": "Personal de vigilancia constante en las salidas.",
+      "c": "Extintores en todas las habitaciones.",
+      "d": "Alarmas de movimiento en todas las áreas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 35,
+    "Question": "❓FFM.-¿Cuál es una acción clave en la recepción de ayudas externas durante una emergencia?",
+    "Options": {
+      "a": "Revisar el inventario de extintores.",
+      "b": "Entrenar al personal en primeros auxilios.",
+      "c": "Informar a los bomberos sobre la situación y el edificio.",
+      "d": "Alertar a los vecinos cercanos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 36,
+    "Question": "❓FFM.-¿Qué función básica debe cumplir el sistema de alarma en caso de incendio?",
+    "Options": {
+      "a": "Activar el cierre de puertas automáticas.",
+      "b": "Avisar a todas las personas para que evacúen.",
+      "c": "Controlar el sistema de ventilación.",
+      "d": "Monitorear el nivel de humo en el edificio."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 37,
+    "Question": "❓FFM.-¿Qué variable puede influir en el tipo de ocupación y en las medidas a tomar en caso de incendio?",
+    "Options": {
+      "a": "La cantidad de personas en el edificio.",
+      "b": "La velocidad del viento.",
+      "c": "La disponibilidad de agua potable.",
+      "d": "La frecuencia de uso de las salidas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 38,
+    "Question": "❓FFM.-¿Qué acción es adecuada cuando hay un conato de incendio en una empresa pequeña?",
+    "Options": {
+      "a": "Intentar extinguirlo y evacuar si no se controla.",
+      "b": "Solicitar apoyo de todos los empleados.",
+      "c": "Activar el sistema de aire acondicionado.",
+      "d": "Informar a la prensa."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 39,
+    "Question": "❓FFM.-¿Qué prioridad debe tener el reaprovisionamiento de material contra incendios?",
+    "Options": {
+      "a": "Activar sistemas de aire acondicionado en áreas de riesgo.",
+      "b": "Colocar mangueras en áreas de descanso.",
+      "c": "Instalar alarmas en zonas con poca circulación.",
+      "d": "Mantener extintores en número adecuado y ubicaciones estratégicas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 40,
+    "Question": "❓FFM.-¿Qué tipo de ayuda externa puede ser clave para gestionar un incendio?",
+    "Options": {
+      "a": "Vigilantes de seguridad.",
+      "b": "Personal de limpieza.",
+      "c": "Dotación de bomberos.",
+      "d": "Policías locales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 41,
+    "Question": "❓FFM.-¿Qué acción puede realizarse en una empresa con pocos recursos humanos en la noche?",
+    "Options": {
+      "a": "Encender las alarmas de forma automática.",
+      "b": "Limitar las funciones a intentos de extinción y avisos.",
+      "c": "Realizar una evacuación total.",
+      "d": "Llamar a todos los empleados de la empresa."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 42,
+    "Question": "❓FFM.-¿Qué debe incluir un plan de emergencia para proteger la vida de los ocupantes?",
+    "Options": {
+      "a": "Una alarma general de evacuación.",
+      "b": "Acceso a un sistema de monitoreo 24/7.",
+      "c": "Inventario de materiales de oficina.",
+      "d": "Luz intermitente en todas las oficinas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 43,
+    "Question": "❓FFM.-¿Cuál es el propósito de contar con una estructura orgánica y decisoria en el plan de emergencia?",
+    "Options": {
+      "a": "Aumentar los costos de seguridad.",
+      "b": "Incrementar la visibilidad en las áreas de riesgo.",
+      "c": "Agilizar la limpieza del área afectada.",
+      "d": "Establecer líneas claras de responsabilidad."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 44,
+    "Question": "❓FFM.-¿Qué señala una señal de obligación en el contexto de seguridad contra incendios?",
+    "Options": {
+      "a": "Advertencia de peligro inminente.",
+      "b": "Ubicación de equipo de primeros auxilios.",
+      "c": "Requisitos de protección obligatoria.",
+      "d": "Instrucciones para visitantes externos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 45,
+    "Question": "❓FFM.-¿Qué acción debe llevarse a cabo cuando se detecta un incendio en un lugar de difícil acceso?",
+    "Options": {
+      "a": "Avisar a los vecinos cercanos.",
+      "b": "Bloquear las salidas de emergencia.",
+      "c": "Llamar a los encargados de limpieza.",
+      "d": "Controlar el acceso a la zona."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 46,
+    "Question": "❓FFM.-¿Qué tipo de señal se utiliza para equipos de lucha contra incendios?",
+    "Options": {
+      "a": "Cuadrada con borde negro y fondo blanco.",
+      "b": "Triangular con fondo amarillo.",
+      "c": "Circular con fondo azul.",
+      "d": "Forma rectangular o cuadrada, fondo rojo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 47,
+    "Question": "❓FFM.-¿Qué función prioritaria debe cubrir un plan de emergencia en caso de no controlar un conato de incendio?",
+    "Options": {
+      "a": "Avisar a bomberos y evacuar a las personas.",
+      "b": "Encender todas las luces del edificio.",
+      "c": "Informar al personal administrativo.",
+      "d": "Cerrar las salidas de emergencia."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 48,
+    "Question": "❓FFM.-¿Qué establece el Real Decreto 524/2023, de 20 de junio, en relación con el Real Decreto 393/2007?",
+    "Options": {
+      "a": "Que el Real Decreto 393/2007 sigue aplicándose indefinidamente.",
+      "b": "Que el Real Decreto 393/2007 ha sido sustituido inmediatamente sin excepciones.",
+      "c": "Que el Real Decreto 393/2007 sigue aplicándose hasta que se apruebe un nuevo instrumento de planificación.",
+      "d": "Que el Real Decreto 393/2007 solo sigue vigente para edificios industriales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 49,
+    "Question": "❓FFM.-¿Cuál es uno de los factores que puede dificultar la evacuación en lugares de pública concurrencia?",
+    "Options": {
+      "a": "La gran accesibilidad de estos lugares.",
+      "b": "La presencia de señales luminosas claras.",
+      "c": "La densidad de ocupación.",
+      "d": "El bajo nivel de ocupación."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 50,
+    "Question": "❓FFM.-¿Qué documento recopila las medidas de prevención y protección en un plan de emergencia?",
+    "Options": {
+      "a": "El Plan de Emergencia.",
+      "b": "La Guía de Autoprotección.",
+      "c": "El Manual de Seguridad.",
+      "d": "La Orden de Actuación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 51,
+    "Question": "❓FFM.-¿Cuál es una de las funciones de los Equipos de Primera Intervención (EPI) en un plan de emergencia?",
+    "Options": {
+      "a": "Elaborar simulacros de incendio.",
+      "b": "Coordinar a los Equipos de Segunda Intervención.",
+      "c": "Desarrollar el manual de autoprotección.",
+      "d": "Combatir conatos de incendio con extintores portátiles."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 52,
+    "Question": "❓FFM.-¿En qué tipo de edificios o actividades es técnicamente exigible un plan de emergencia sin reglamentación específica?",
+    "Options": {
+      "a": "Solo en hospitales.",
+      "b": "En instalaciones sin riesgo significativo.",
+      "c": "En viviendas particulares.",
+      "d": "Ninguna es correcta."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 53,
+    "Question": "❓FFM.-¿Cuál es la función principal del Equipo de Segunda Intervención en caso de emergencia?",
+    "Options": {
+      "a": "Hacer evacuaciones en planta.",
+      "b": "Combatir incendios con equipos avanzados como mangueras y sistemas fijos.",
+      "c": "Verificar la seguridad del edificio.",
+      "d": "Realizar simulacros de emergencias."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 54,
+    "Question": "❓FFM.-¿Qué documento proporciona instrucciones para la elaboración de un plan de emergencia contra incendios y evacuación?",
+    "Options": {
+      "a": "La Norma Básica de Autoprotección aprobada por el Real Decreto 393/2007.",
+      "b": "El Manual de Seguridad Integral.",
+      "c": "La Guía de Rescate Rápido.",
+      "d": "El Reglamento de Edificaciones Públicas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 55,
+    "Question": "❓FFM.-¿Qué se incluye en el Documento 3 del Manual de Autoprotección?",
+    "Options": {
+      "a": "La lista de Equipos de Rescate.",
+      "b": "El inventario de personal administrativo.",
+      "c": "Las actuaciones a realizar en caso de emergencia.",
+      "d": "Los protocolos de limpieza."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 56,
+    "Question": "❓FFM.-¿Qué justifica la necesidad de formar Equipos de Segunda Intervención en un edificio?",
+    "Options": {
+      "a": "La presencia de grandes riesgos de incendio en el edificio.",
+      "b": "La necesidad de asistencia médica.",
+      "c": "La presencia de equipos de limpieza.",
+      "d": "La alta cantidad de ventanas en el edificio."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 57,
+    "Question": "❓FFM.-¿Qué se busca con la identificación y análisis de riesgos en un plan de emergencia?",
+    "Options": {
+      "a": "Incrementar los costos del plan.",
+      "b": "Eliminar los equipos de prevención.",
+      "c": "Determinar la infraestructura de medios necesarios.",
+      "d": "Reducir el tamaño del edificio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 58,
+    "Question": "❓FFM.-¿Qué determina el anexo II de la Norma Básica de Autoprotección?",
+    "Options": {
+      "a": "La frecuencia de los simulacros.",
+      "b": "La estructura de los equipos de limpieza.",
+      "c": "La capacitación del personal de limpieza.",
+      "d": "El contenido mínimo de un plan de autoprotección."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 59,
+    "Question": "❓FFM.-¿Qué responsabilidad tiene el titular de una actividad según la Norma Básica de Autoprotección?",
+    "Options": {
+      "a": "Colaborar con autoridades en protección civil.",
+      "b": "Designar empleados de limpieza en su equipo.",
+      "c": "Realizar inspecciones diarias de salidas de emergencia.",
+      "d": "Contactar a una empresa de seguridad privada."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 60,
+    "Question": "❓FFM.-¿En qué condiciones debe presentarse el Plan de Autoprotección según la Norma Básica de Autoprotección?",
+    "Options": {
+      "a": "Solo cuando hay un cambio en la actividad.",
+      "b": "Al órgano de la Administración Pública competente para otorgar la licencia.",
+      "c": "Cuando lo solicite el personal del edificio.",
+      "d": "Únicamente durante emergencias."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 61,
+    "Question": "❓FFM.-¿Qué determina la densidad de ocupación en un edificio en caso de emergencia?",
+    "Options": {
+      "a": "La dificultad para el movimiento y la percepción de señales.",
+      "b": "La cantidad de personal de limpieza necesario.",
+      "c": "La facilidad de evacuación.",
+      "d": "La cantidad de equipo de oficina."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 62,
+    "Question": "❓FFM.-¿Qué tipo de personas ocupan generalmente edificios de pública concurrencia?",
+    "Options": {
+      "a": "Personal exclusivo del edificio.",
+      "b": "Residentes frecuentes.",
+      "c": "Personas foráneas y no familiarizadas con el lugar.",
+      "d": "Equipos especializados en emergencias."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 63,
+    "Question": "❓FFM.-¿Qué tipo de formación deben tener los miembros del Equipo de Primera Intervención?",
+    "Options": {
+      "a": "Sobre primeros auxilios exclusivamente.",
+      "b": "En métodos de extinción y uso de extintores portátiles.",
+      "c": "Solo en evacuación de edificios.",
+      "d": "En limpieza y mantenimiento de equipos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 64,
+    "Question": "❓FFM.-¿Qué aspectos incluyen los medios materiales y técnicos en un plan de emergencia?",
+    "Options": {
+      "a": "Exclusivamente el equipo de oficina.",
+      "b": "Equipos de detección, alarma y extinción.",
+      "c": "Manuales de limpieza y mantenimiento.",
+      "d": "Planos decorativos del edificio."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 65,
+    "Question": "❓FFM.-¿Cuál es el objetivo principal de un plan de autoprotección?",
+    "Options": {
+      "a": "Aumentar la productividad en el lugar de trabajo.",
+      "b": "Proteger a las personas y los bienes ante situaciones de emergencia.",
+      "c": "Mejorar la limpieza del edificio.",
+      "d": "Gestionar el personal de mantenimiento."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 66,
+    "Question": "❓FFM.-¿Qué debe incluir el Plan de Autoprotección en cuanto a los recursos humanos?",
+    "Options": {
+      "a": "El inventario de bienes materiales.",
+      "b": "La lista de visitantes autorizados.",
+      "c": "Los horarios de atención al público.",
+      "d": "La designación de los equipos de intervención."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 67,
+    "Question": "❓FFM.-¿Qué documento regula la autoprotección en actividades que pueden presentar emergencias?",
+    "Options": {
+      "a": "El Real Decreto 393/2007.",
+      "b": "La Guía de Seguridad Vial.",
+      "c": "La Ordenanza Municipal de Seguridad.",
+      "d": "El Reglamento de Edificación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 68,
+    "Question": "❓FFM.-¿Qué indica el Documento 1 del Manual de Autoprotección?",
+    "Options": {
+      "a": "La identificación de los riesgos específicos.",
+      "b": "La ubicación de los extintores.",
+      "c": "El nombre de los supervisores de limpieza.",
+      "d": "Los horarios de apertura del edificio."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 69,
+    "Question": "❓FFM.-¿Quién es responsable de activar el Plan de Emergencia?",
+    "Options": {
+      "a": "El jefe de mantenimiento.",
+      "b": "Los visitantes del edificio.",
+      "c": "El equipo de limpieza.",
+      "d": "El director o responsable de la actividad."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 70,
+    "Question": "❓FFM.-¿Qué tipo de formación debe recibir el personal encargado de la autoprotección?",
+    "Options": {
+      "a": "Solo formación administrativa.",
+      "b": "Formación en prevención de riesgos y primeros auxilios.",
+      "c": "Capacitación en contabilidad.",
+      "d": "Solo formación en limpieza de emergencias."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 71,
+    "Question": "❓FFM.-¿Qué acción deben tomar los Equipos de Primera Intervención durante un incendio?",
+    "Options": {
+      "a": "Abandonar el edificio primero.",
+      "b": "Esperar a que lleguen los bomberos sin intervenir.",
+      "c": "Usar extintores portátiles para intentar sofocar el fuego.",
+      "d": "Supervisar el trabajo del equipo de limpieza."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 72,
+    "Question": "❓FFM.-¿Cuál es la función de los simulacros en el plan de emergencia?",
+    "Options": {
+      "a": "Evaluar la limpieza del edificio.",
+      "b": "Reducir el presupuesto de emergencias.",
+      "c": "Comprobar la eficacia de las medidas y tiempos de respuesta.",
+      "d": "Aumentar el número de evacuaciones anuales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 73,
+    "Question": "❓FFM.-¿Qué equipos deben intervenir primero en caso de conato de incendio?",
+    "Options": {
+      "a": "Equipos de Rescate Avanzado.",
+      "b": "Equipos de Evacuación y Apoyo.",
+      "c": "Equipos de Primera Intervención.",
+      "d": "Equipos de Limpieza y Orden."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 74,
+    "Question": "❓FFM.-¿Qué propósito tiene la Norma Básica de Autoprotección?",
+    "Options": {
+      "a": "Proporcionar manuales de mantenimiento.",
+      "b": "Establecer los requisitos para gestionar emergencias en actividades con riesgo.",
+      "c": "Definir los procedimientos de limpieza en emergencias.",
+      "d": "Crear registros de visitantes."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 75,
+    "Question": "❓FFM.-¿Qué documento organiza los procedimientos y medidas preventivas en un edificio?",
+    "Options": {
+      "a": "El reglamento de construcción.",
+      "b": "El plan de limpieza anual.",
+      "c": "El Manual de Autoprotección.",
+      "d": "El inventario de equipos de oficina."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 76,
+    "Question": "❓FFM.-¿Qué función cumplen las alarmas en un plan de autoprotección?",
+    "Options": {
+      "a": "Alertar a las personas y activar los protocolos de emergencia.",
+      "b": "Garantizar la protección del mobiliario.",
+      "c": "Asegurar el cumplimiento de los horarios de trabajo.",
+      "d": "Mejorar la estética del edificio."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 77,
+    "Question": "❓FFM.-¿Cuál es la función de los Equipos de Evacuación en un plan de emergencia?",
+    "Options": {
+      "a": "Combatir el incendio en su origen.",
+      "b": "Monitorear el uso de extintores.",
+      "c": "Ayudar en la evacuación segura de las personas.",
+      "d": "Desarrollar informes de evacuación anual."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 78,
+    "Question": "❓FFM.-¿Cuál es el objetivo de las medidas de prevención en un plan de autoprotección?",
+    "Options": {
+      "a": "Incrementar el número de simulacros.",
+      "b": "Limitar el acceso al edificio.",
+      "c": "Mejorar la decoración del edificio.",
+      "d": "Minimizar la probabilidad de que ocurra un incidente."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 79,
+    "Question": "❓FFM.-¿Qué acción es prioritaria en una situación de emergencia según el plan de autoprotección?",
+    "Options": {
+      "a": "Evaluar el daño material.",
+      "b": "Mantener la calma sin realizar ninguna acción.",
+      "c": "Proteger y evacuar a las personas.",
+      "d": "Revisar la agenda de reuniones."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 80,
+    "Question": "❓FFM.-¿Qué deben hacer los trabajadores al escuchar la alarma de incendio?",
+    "Options": {
+      "a": "Permanecer en sus lugares.",
+      "b": "Seguir las instrucciones del personal encargado de la evacuación.",
+      "c": "Apagar el sistema eléctrico.",
+      "d": "Esperar a que termine el sonido de la alarma."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 81,
+    "Question": "❓FFM.-¿Qué actividad realiza el Equipo de Primera Intervención?",
+    "Options": {
+      "a": "Combate los conatos de incendio.",
+      "b": "Supervisa la evacuación de los visitantes.",
+      "c": "Organiza el mobiliario tras la emergencia.",
+      "d": "Revisa el estado del sistema de calefacción."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 82,
+    "Question": "❓FFM.-¿Cuál de las siguientes acciones NO corresponde a un plan de autoprotección?",
+    "Options": {
+      "a": "Prevenir riesgos.",
+      "b": "Formar al personal en seguridad.",
+      "c": "Revisar las políticas de limpieza del edificio.",
+      "d": "Realizar simulacros de emergencia."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 83,
+    "Question": "❓FFM.-¿Qué información proporciona el Documento 3 en el Manual de Autoprotección?",
+    "Options": {
+      "a": "La distribución y señalización de las vías de evacuación.",
+      "b": "Las especificaciones de diseño del edificio.",
+      "c": "La lista de equipos de mantenimiento.",
+      "d": "Las políticas de uso de equipos electrónicos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 84,
+    "Question": "❓FFM.-¿Quiénes deben participar en los simulacros de emergencia?",
+    "Options": {
+      "a": "Solo el equipo de seguridad.",
+      "b": "Todo el personal y los visitantes presentes.",
+      "c": "Únicamente los directivos del edificio.",
+      "d": "Los servicios de mantenimiento."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 85,
+    "Question": "❓FFM.-¿Qué deben hacer los trabajadores en caso de encontrarse en un lugar con humo?",
+    "Options": {
+      "a": "Correr hacia la salida más próxima.",
+      "b": "Agacharse y cubrirse la nariz y la boca.",
+      "c": "Activar manualmente las alarmas.",
+      "d": "Permanecer de pie y gritar por ayuda."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 86,
+    "Question": "❓FFM.-¿Qué documento detalla la ubicación de los equipos de protección en un edificio?",
+    "Options": {
+      "a": "El Reglamento de Equipos Portátiles.",
+      "b": "El informe anual de actividades.",
+      "c": "El Manual de Autoprotección.",
+      "d": "El Registro de Mantenimiento de Instalaciones."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 87,
+    "Question": "❓FFM.-¿Cuál es la primera acción a realizar al descubrir un conato de incendio?",
+    "Options": {
+      "a": "Activar la alarma de incendio.",
+      "b": "Llamar a los bomberos sin hacer otra acción.",
+      "c": "Avisar al equipo de limpieza.",
+      "d": "Continuar con las actividades normales."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 88,
+    "Question": "❓FFM.-¿Qué tipo de señalización se usa para indicar las salidas de emergencia?",
+    "Options": {
+      "a": "Señalización informativa.",
+      "b": "Señalización de control.",
+      "c": "Señalización de precaución.",
+      "d": "Señalización de evacuación."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 89,
+    "Question": "❓FFM.-¿Qué deben hacer los Equipos de Segunda Intervención en una emergencia?",
+    "Options": {
+      "a": "Colaborar con los bomberos y personal especializado.",
+      "b": "Hacer un inventario de los materiales dañados.",
+      "c": "Organizar el regreso a las oficinas.",
+      "d": "Inspeccionar el sistema de ventilación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 90,
+    "Question": "❓FFM.-¿Quiénes deben realizar la inspección y el mantenimiento de los equipos contra incendios?",
+    "Options": {
+      "a": "El equipo administrativo del edificio.",
+      "b": "Personal especializado y autorizado.",
+      "c": "Los visitantes de las instalaciones.",
+      "d": "Los mismos trabajadores del edificio."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 91,
+    "Question": "❓FFM.-¿Qué recurso es indispensable en un plan de autoprotección para detectar riesgos tempranamente?",
+    "Options": {
+      "a": "Manuales de limpieza y mantenimiento.",
+      "b": "Material de oficina adicional.",
+      "c": "Sistemas de alarma y detección.",
+      "d": "Planos decorativos del edificio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 92,
+    "Question": "❓FFM.-¿Qué deben hacer los responsables del plan de autoprotección después de una emergencia?",
+    "Options": {
+      "a": "Reiniciar las actividades inmediatamente.",
+      "b": "Informar solo a los equipos de limpieza.",
+      "c": "Ignorar el incidente y continuar sin cambios.",
+      "d": "Evaluar el desarrollo del plan y realizar mejoras."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 93,
+    "Question": "❓FFM.-¿Qué objetivo tiene la capacitación de los trabajadores en el uso de extintores?",
+    "Options": {
+      "a": "Saber actuar ante conatos de incendio en sus áreas.",
+      "b": "Realizar informes de seguridad semanalmente.",
+      "c": "Detectar problemas estructurales en el edificio.",
+      "d": "Aprender sobre el mantenimiento de maquinaria pesada."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 94,
+    "Question": "❓FFM.-¿Qué rol juega el personal de seguridad en una emergencia?",
+    "Options": {
+      "a": "Realizar inventarios de pérdidas.",
+      "b": "Reubicar el mobiliario dañado.",
+      "c": "Coordinar la evacuación y controlar el acceso a las zonas afectadas.",
+      "d": "Organizar el cronograma de limpieza posterior."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 95,
+    "Question": "❓FFM.-¿Qué documento establece el marco orgánico y funcional para la autoprotección en una instalación?",
+    "Options": {
+      "a": "Plan de actuación en emergencias.",
+      "b": "Plan de autoprotección.",
+      "c": "Plan de seguridad laboral.",
+      "d": "Plan de evacuación."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 96,
+    "Question": "❓FFM.-¿Cuál de las siguientes funciones se asigna al director del Plan de Actuación en Emergencias?",
+    "Options": {
+      "a": "Redactar el plan de autoprotección.",
+      "b": "Evaluar el plan cada tres años.",
+      "c": "Gestionar la capacitación teórica del personal.",
+      "d": "Activar el plan de acuerdo con lo establecido en el mismo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 97,
+    "Question": "❓FFM.-¿Qué se incluye en el programa de mantenimiento de instalaciones del Plan de Autoprotección?",
+    "Options": {
+      "a": "Inventario y evaluación de riesgos.",
+      "b": "Identificación de emergencias.",
+      "c": "Verificación de medios y sistemas de protección.",
+      "d": "Descripción de la actividad."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 98,
+    "Question": "❓FFM.-¿Cuál es la periodicidad mínima para realizar simulacros de emergencia?",
+    "Options": {
+      "a": "Cada seis meses.",
+      "b": "Cada dos años.",
+      "c": "Al menos una vez al año.",
+      "d": "Según la normativa del titular."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 99,
+    "Question": "❓FFM.-¿Cuál de las siguientes afirmaciones describe correctamente el concepto de ocupación en un edificio?",
+    "Options": {
+      "a": "Es el número fijo de personas por normativa.",
+      "b": "Depende de las actividades y densidades específicas.",
+      "c": "Siempre equivale al aforo máximo.",
+      "d": "Es el cálculo de la altura de evacuación."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 100,
+    "Question": "❓FFM.-¿Qué criterio mínimo debe cumplirse en la elaboración del Plan de Autoprotección?",
+    "Options": {
+      "a": "Ser firmado solo por el director de emergencias.",
+      "b": "Elaborarse cada seis meses.",
+      "c": "Redactarse sin considerar los riesgos específicos.",
+      "d": "Ser firmado por un técnico competente y el titular de la actividad."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 101,
+    "Question": "❓FFM.-¿Qué se incluye en el apartado 'Anexos' del Plan de Autoprotección?",
+    "Options": {
+      "a": "La descripción del medio físico de la actividad.",
+      "b": "El programa de mantenimiento de instalaciones.",
+      "c": "Directorio de comunicación y formularios.",
+      "d": "Identificación y clasificación de emergencias."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 102,
+    "Question": "❓FFM.-¿Qué responsabilidad tiene el órgano competente en materia de protección civil?",
+    "Options": {
+      "a": "Redactar los planes de autoprotección.",
+      "b": "Vigilar la capacidad operativa de los planes de autoprotección.",
+      "c": "Entrenar al personal de autoprotección.",
+      "d": "Realizar los simulacros de emergencia."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 103,
+    "Question": "❓FFM.-¿Qué procedimiento es esencial en una emergencia para proteger y socorrer?",
+    "Options": {
+      "a": "Evacuación.",
+      "b": "Mantenimiento.",
+      "c": "Confinamiento.",
+      "d": "Intervención."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 104,
+    "Question": "❓FFM.-¿Qué situación describe la acción de permanecer en un lugar protegido durante una emergencia?",
+    "Options": {
+      "a": "Confinamiento.",
+      "b": "Alerta.",
+      "c": "Intervención.",
+      "d": "Rehabilitación."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 105,
+    "Question": "❓FFM.-¿Qué mecanismo se activa para alertar sobre una emergencia?",
+    "Options": {
+      "a": "Confinamiento.",
+      "b": "Rehabilitación.",
+      "c": "Alarma.",
+      "d": "Ocupación."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 106,
+    "Question": "❓FFM.-¿Cuál es uno de los objetivos principales de realizar simulacros de emergencia?",
+    "Options": {
+      "a": "Revisar el inventario de recursos.",
+      "b": "Verificar la eficacia organizativa y de respuesta.",
+      "c": "Identificar el responsable del plan.",
+      "d": "Definir los recursos económicos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 107,
+    "Question": "❓FFM.-¿Qué debe hacer el director del Plan de Actuación en Emergencias al activarlo?",
+    "Options": {
+      "a": "Emitir un certificado.",
+      "b": "Firmar el plan.",
+      "c": "Notificar a Protección Civil y reducir consecuencias.",
+      "d": "Formar al personal."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 108,
+    "Question": "❓FFM.-¿Qué se entiende por 'efecto dominó' en el contexto de autoprotección?",
+    "Options": {
+      "a": "Acción en cadena de fenómenos peligrosos.",
+      "b": "Evacuación planificada.",
+      "c": "Protocolo de activación de alarmas.",
+      "d": "Estructura organizativa jerarquizada."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 109,
+    "Question": "❓FFM.-¿Qué aspecto debe cumplir un Plan de Autoprotección para asegurar su eficacia a largo plazo?",
+    "Options": {
+      "a": "Revisarse al menos cada tres años.",
+      "b": "Incluir únicamente un director del plan.",
+      "c": "Estar redactado por cualquier miembro del personal.",
+      "d": "Exigir permisos semanales."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 110,
+    "Question": "❓FFM.-¿Qué procedimiento de actuación en emergencia permite alertar a las personas afectadas?",
+    "Options": {
+      "a": "Refugio.",
+      "b": "Rehabilitación.",
+      "c": "Intervención.",
+      "d": "Alerta."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 111,
+    "Question": "❓FFM.-¿Cuál es el objetivo principal del Plan de Autoprotección?",
+    "Options": {
+      "a": "Proteger el medio ambiente.",
+      "b": "Controlar el acceso a las instalaciones.",
+      "c": "Prevenir y controlar los riesgos sobre las personas y los bienes.",
+      "d": "Mejorar la calidad del aire."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 112,
+    "Question": "❓FFM.-¿Qué elemento se incluye en el contenido del Plan de Autoprotección?",
+    "Options": {
+      "a": "La evaluación psicológica del personal.",
+      "b": "El análisis de las actividades recreativas.",
+      "c": "La identificación y evaluación de riesgos.",
+      "d": "La descripción de los servicios de limpieza."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 113,
+    "Question": "❓FFM.-¿Qué documento establece el marco orgánico y funcional para un centro con el fin de prevenir riesgos?",
+    "Options": {
+      "a": "Plan de evacuación.",
+      "b": "Plan de Autoprotección.",
+      "c": "Informe de seguridad.",
+      "d": "Programa de mantenimiento."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 114,
+    "Question": "❓FFM.-¿Quién es responsable de la activación del Plan de Actuación en Emergencias?",
+    "Options": {
+      "a": "El titular de la actividad.",
+      "b": "El equipo de primeros auxilios.",
+      "c": "El director del Plan de Actuación en Emergencias.",
+      "d": "Los visitantes del establecimiento."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 115,
+    "Question": "❓FFM.-¿Cuál de los siguientes es un procedimiento básico en el Plan de Actuación en Emergencias?",
+    "Options": {
+      "a": "La detección y alerta.",
+      "b": "La planificación de ventas.",
+      "c": "El análisis de los costes.",
+      "d": "La selección de personal."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 116,
+    "Question": "❓FFM.-¿Cómo debe estar redactado el Plan de Autoprotección?",
+    "Options": {
+      "a": "En lenguaje sencillo para el público en general.",
+      "b": "Por un técnico competente capacitado en autoprotección.",
+      "c": "Por el personal de mantenimiento.",
+      "d": "Con términos especializados en biología."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 117,
+    "Question": "❓FFM.-¿Qué criterio es fundamental en la implantación del Plan de Autoprotección?",
+    "Options": {
+      "a": "La formación teórica y práctica del personal.",
+      "b": "La creación de un sistema de auditoría interna.",
+      "c": "La mejora de las instalaciones de recreo.",
+      "d": "La automatización de todos los procedimientos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 118,
+    "Question": "❓FFM.-¿Qué procedimiento se incluye en el Plan de Actuación en Emergencias?",
+    "Options": {
+      "a": "La valoración de impactos ambientales.",
+      "b": "La revisión de gastos.",
+      "c": "El análisis de mercados.",
+      "d": "La evacuación y/o confinamiento."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 119,
+    "Question": "❓FFM.-¿Qué órgano asegura la coordinación entre los Planes de Autoprotección y los de Protección Civil?",
+    "Options": {
+      "a": "Los órganos competentes en materia de protección civil.",
+      "b": "El departamento de salud y seguridad laboral.",
+      "c": "La administración pública local.",
+      "d": "El equipo de primeros auxilios."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 120,
+    "Question": "❓FFM.-¿Qué se incluye en los anexos del Plan de Autoprotección?",
+    "Options": {
+      "a": "El presupuesto anual de la empresa.",
+      "b": "La lista de personal en cada área.",
+      "c": "El horario de funcionamiento del centro.",
+      "d": "Los formularios para la gestión de emergencias."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 121,
+    "Question": "❓FFM.-¿Qué criterio debe observarse para el mantenimiento de la eficacia del Plan de Autoprotección?",
+    "Options": {
+      "a": "La revisión de documentos legales.",
+      "b": "La actualización de la página web de la empresa.",
+      "c": "La realización periódica de simulacros de emergencia.",
+      "d": "La contratación de más personal administrativo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 122,
+    "Question": "❓FFM.-¿Cuál es el mínimo de años que deben pasar para revisar el Plan de Autoprotección?",
+    "Options": {
+      "a": "Tres años.",
+      "b": "Cinco años.",
+      "c": "Siete años.",
+      "d": "Un año."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 123,
+    "Question": "❓FFM.-¿Qué se garantiza al designar una persona como responsable del Plan de Autoprotección?",
+    "Options": {
+      "a": "El control del inventario de productos.",
+      "b": "La seguridad en la red de internet.",
+      "c": "La asignación de turnos del personal.",
+      "d": "La gestión de las acciones de prevención y control de riesgos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 124,
+    "Question": "❓FFM.-¿Qué incluye el programa de mantenimiento del Plan de Autoprotección?",
+    "Options": {
+      "a": "El control de accesos.",
+      "b": "El mantenimiento de instalaciones.",
+      "c": "La mejora del sistema de transporte público.",
+      "d": "La supervisión del personal de limpieza."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 125,
+    "Question": "❓FFM.-¿Qué objetivo tienen los simulacros de emergencia?",
+    "Options": {
+      "a": "Incrementar los beneficios financieros.",
+      "b": "Reducir el tiempo de descanso del personal.",
+      "c": "Evaluar la eficacia de la organización de respuesta.",
+      "d": "Reemplazar al personal no capacitado."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 126,
+    "Question": "❓FFM.-¿Cuál es uno de los conceptos definidos en la Norma Básica de Autoprotección?",
+    "Options": {
+      "a": "El cálculo de beneficios anuales.",
+      "b": "La contratación de personal nuevo.",
+      "c": "El diseño arquitectónico de edificios.",
+      "d": "La altura de evacuación."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 127,
+    "Question": "❓FFM.-¿Cuál es el objetivo principal del Plan de Autoprotección?",
+    "Options": {
+      "a": "Controlar los recursos económicos de una actividad.",
+      "b": "Definir las normas de conducta del personal.",
+      "c": "Prevenir y controlar los riesgos y dar respuesta a emergencias.",
+      "d": "Establecer un programa de visitas a la actividad."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 128,
+    "Question": "❓FFM.-¿Qué apartado del Plan de Autoprotección incluye la descripción detallada del lugar de la actividad?",
+    "Options": {
+      "a": "Identificación del responsable del Plan.",
+      "b": "Inventario de medidas de protección.",
+      "c": "Identificación de titulares y emplazamiento.",
+      "d": "Integración con otros planes de nivel superior."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 129,
+    "Question": "❓FFM.-¿Qué contiene el inventario en el Plan de Autoprotección?",
+    "Options": {
+      "a": "Un análisis y evaluación de riesgos.",
+      "b": "Un resumen financiero de los riesgos.",
+      "c": "Un listado de personas de contacto.",
+      "d": "Un programa de visitas de supervisión."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 130,
+    "Question": "❓FFM.-¿Quién debe designar a la persona responsable de la gestión de prevención y control de riesgos?",
+    "Options": {
+      "a": "La entidad de protección civil.",
+      "b": "El equipo de emergencias externo.",
+      "c": "El titular de la actividad.",
+      "d": "El personal de mantenimiento."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 131,
+    "Question": "❓FFM.-¿Qué medida de protección incluye el Plan para proteger a las personas en caso de emergencia?",
+    "Options": {
+      "a": "Identificación de las zonas de esparcimiento.",
+      "b": "Evacuación y/o confinamiento.",
+      "c": "Control de acceso de visitantes.",
+      "d": "Prohibición de uso de herramientas peligrosas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 132,
+    "Question": "❓FFM.-¿Qué programa se incluye en el Plan para asegurar que los medios de autoprotección estén operativos?",
+    "Options": {
+      "a": "Programa de mantenimiento de instalaciones.",
+      "b": "Programa de entrenamiento para el personal.",
+      "c": "Inventario de recursos externos.",
+      "d": "Programa de control de acceso."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 133,
+    "Question": "❓FFM.-¿Qué establece el Plan de Actuación ante emergencias?",
+    "Options": {
+      "a": "Identificación de recursos económicos.",
+      "b": "Descripción de las actividades cotidianas.",
+      "c": "Normas de conducta en situaciones ordinarias.",
+      "d": "Procedimientos de actuación en caso de emergencias."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 134,
+    "Question": "❓FFM.-¿Qué incluye el anexo sobre comunicación en el Plan de Autoprotección?",
+    "Options": {
+      "a": "La lista de medios de transporte cercanos.",
+      "b": "Directorio de comunicación con teléfonos de ayuda.",
+      "c": "El listado de suministros de emergencia.",
+      "d": "La política de recursos humanos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 135,
+    "Question": "❓FFM.-¿Qué responsabilidad tiene el director del Plan de Actuación en Emergencias?",
+    "Options": {
+      "a": "Activar el plan y notificar a Protección Civil.",
+      "b": "Coordinar los suministros en el lugar de trabajo.",
+      "c": "Redactar los informes de auditoría anuales.",
+      "d": "Establecer la política de vacaciones del personal."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 136,
+    "Question": "❓FFM.-¿Qué aspecto debe detallar el Plan de Actuación en Emergencias?",
+    "Options": {
+      "a": "Las posibles situaciones de emergencia y sus procedimientos de actuación.",
+      "b": "La capacidad máxima de visitantes por área.",
+      "c": "El inventario de suministros en cada planta.",
+      "d": "El horario de supervisión del personal de seguridad."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 137,
+    "Question": "❓FFM.-¿Qué aspecto no debe faltar en los simulacros de emergencia?",
+    "Options": {
+      "a": "Verificación de la velocidad de respuesta.",
+      "b": "Identificación de los visitantes en emergencia.",
+      "c": "Revisión de la política de incentivos.",
+      "d": "Comprobación de la capacitación del personal."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 138,
+    "Question": "❓FFM.-¿Qué se debe asegurar en la realización de simulacros según el Plan?",
+    "Options": {
+      "a": "Realizar una encuesta de satisfacción del simulacro.",
+      "b": "Revisar los contratos laborales de los participantes.",
+      "c": "Comprobar la eficacia de los procedimientos.",
+      "d": "Evaluar la experiencia previa del personal."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 139,
+    "Question": "❓FFM.-¿Con qué frecuencia mínima deben realizarse simulacros de emergencia en el Plan?",
+    "Options": {
+      "a": "Al menos una vez al año.",
+      "b": "Cada seis meses.",
+      "c": "Una vez cada cinco años.",
+      "d": "Solo en caso de incidentes previos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 140,
+    "Question": "❓FFM.-¿Qué criterio se sigue para designar al responsable del Plan de Actuación en Emergencias?",
+    "Options": {
+      "a": "Su formación en relaciones públicas.",
+      "b": "Su experiencia en marketing.",
+      "c": "Su capacidad de gestión y autoridad.",
+      "d": "Su historial de empleo en la empresa."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 141,
+    "Question": "❓FFM.-¿Cuál es uno de los criterios para el mantenimiento de la eficacia del Plan de Autoprotección?",
+    "Options": {
+      "a": "Designación de nuevos responsables anuales.",
+      "b": "Establecimiento de programas de formación continua.",
+      "c": "Realización de una inspección semanal.",
+      "d": "Contratación de personal externo para emergencias."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 142,
+    "Question": "❓FFM.-¿Qué aspecto debe incluir la actualización del Plan de Autoprotección?",
+    "Options": {
+      "a": "Revisión de los informes económicos de la actividad.",
+      "b": "Evaluación de los proveedores de servicios.",
+      "c": "Realización de simulacros de emergencia.",
+      "d": "Planificación de eventos corporativos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 143,
+    "Question": "❓FFM.-¿Qué clasificación se hace de los medios técnicos de protección?",
+    "Options": {
+      "a": "En medidas reactivas y proactivas.",
+      "b": "En sistemas de prevención y combate.",
+      "c": "En medidas activas y pasivas.",
+      "d": "En sistemas manuales y automáticos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 144,
+    "Question": "❓FFM.-¿Qué función cumplen las medidas pasivas de protección contra incendios?",
+    "Options": {
+      "a": "Facilitan la evacuación y ralentizan el fuego.",
+      "b": "Extinguen el incendio directamente.",
+      "c": "Permiten la activación de alarmas.",
+      "d": "Realizan mantenimiento de los sistemas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 145,
+    "Question": "❓FFM.-¿Cuál es el propósito del Real Decreto 513/2017?",
+    "Options": {
+      "a": "Asegurar la disponibilidad de sistemas manuales de extinción.",
+      "b": "Regular el diseño, mantenimiento e inspección de equipos de protección contra incendios.",
+      "c": "Proveer un marco para el uso de detectores de humo.",
+      "d": "Crear estándares de calidad para construcción de edificios."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 146,
+    "Question": "❓FFM.-¿Qué normativa europea deben cumplir los equipos de protección activa contra incendios?",
+    "Options": {
+      "a": "Las normas de la Unión Europea y la Ley de Industria.",
+      "b": "Las normas específicas de cada comunidad autónoma.",
+      "c": "La normativa específica de cada empresa.",
+      "d": "Las normas de seguridad laboral aplicables a nivel nacional."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 147,
+    "Question": "❓FFM.-¿Cuál de las siguientes opciones describe la protección activa contra incendios?",
+    "Options": {
+      "a": "Uso de paredes ignífugas.",
+      "b": "Iluminación de emergencia.",
+      "c": "Construcción de escaleras de evacuación.",
+      "d": "Detección y extinción de incendios."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 148,
+    "Question": "❓FFM.-¿Qué implica el marcado CE en los productos de protección contra incendios?",
+    "Options": {
+      "a": "Que el producto ha sido probado en ensayos nacionales.",
+      "b": "Que el producto tiene una garantía de diez años.",
+      "c": "Que cumple con las regulaciones locales de la comunidad autónoma.",
+      "d": "Que el producto cumple con los requisitos de la legislación comunitaria."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 149,
+    "Question": "❓FFM.-¿Qué deben cumplir los organismos habilitados para la evaluación técnica?",
+    "Options": {
+      "a": "Disponer de un equipo de control de incendios.",
+      "b": "Mantener oficinas en todas las comunidades autónomas.",
+      "c": "Actuar con imparcialidad, experiencia y tener sistemas de calidad.",
+      "d": "Ofrecer formación en prevención de incendios."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 150,
+    "Question": "❓FFM.-¿Qué actividad realiza una empresa instaladora según el reglamento?",
+    "Options": {
+      "a": "Instala equipos y señalizaciones para evacuación.",
+      "b": "Supervisa la producción de dispositivos de detección.",
+      "c": "Realiza mantenimiento de equipos de extinción.",
+      "d": "Evalúa los materiales de construcción en los edificios."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 151,
+    "Question": "❓FFM.-¿Qué norma regula el diseño y uso de sistemas de detección de incendios?",
+    "Options": {
+      "a": "UNE-EN 54-5.",
+      "b": "UNE 23007-14.",
+      "c": "UNE-EN 60849.",
+      "d": "UNE-EN 54-23."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 152,
+    "Question": "❓FFM.-¿A qué altura deben estar situados los pulsadores de alarma?",
+    "Options": {
+      "a": "Entre 120 cm y 150 cm.",
+      "b": "Entre 70 cm y 90 cm.",
+      "c": "Exactamente a 100 cm.",
+      "d": "Entre 80 cm y 120 cm."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 153,
+    "Question": "❓FFM.-¿Qué norma deben cumplir los detectores con fuente de alimentación autónoma?",
+    "Options": {
+      "a": "UNE-EN 54-4.",
+      "b": "UNE-EN 14604.",
+      "c": "UNE 23500.",
+      "d": "UNE-EN 54-7."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 154,
+    "Question": "❓FFM.-¿Qué tipo de detector se utiliza para identificar partículas invisibles en el aire?",
+    "Options": {
+      "a": "Térmico.",
+      "b": "Termovelocímetro.",
+      "c": "De llama.",
+      "d": "Iónico."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 155,
+    "Question": "❓FFM.-¿Qué norma debe cumplir el sistema de abastecimiento de agua contra incendios?",
+    "Options": {
+      "a": "UNE-EN 54-13.",
+      "b": "UNE-EN 54-21.",
+      "c": "UNE-EN 60849.",
+      "d": "UNE 23500."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 156,
+    "Question": "❓FFM.-¿Qué establece la norma UNE-EN 54-23?",
+    "Options": {
+      "a": "Las especificaciones para dispositivos visuales de alarma.",
+      "b": "La altura a la que deben instalarse los detectores de humo.",
+      "c": "La cantidad de detectores por área.",
+      "d": "Los procedimientos de mantenimiento de equipos visuales."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 157,
+    "Question": "❓FFM.-¿Cuál es la función de los termovelocímetros en detección de incendios?",
+    "Options": {
+      "a": "Detectar humo invisible.",
+      "b": "Controlar la calidad del aire.",
+      "c": "Emitir señales auditivas de alarma.",
+      "d": "Detectar un rápido aumento de temperatura."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 158,
+    "Question": "❓FFM.-¿Qué criterio deben cumplir los dispositivos acústicos de alarma?",
+    "Options": {
+      "a": "Ser compatibles con cualquier sistema de detección.",
+      "b": "Estar situados en todas las entradas del edificio.",
+      "c": "Ser perceptibles en cada sector de detección.",
+      "d": "Cumplir con las normas UNE 23007-14."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 159,
+    "Question": "❓FFM.-¿Cuál es la función principal de las medidas activas de protección contra incendios?",
+    "Options": {
+      "a": "Evitar que el fuego llegue a áreas adyacentes.",
+      "b": "Detectar y extinguir incendios.",
+      "c": "Mejorar la ventilación en caso de humo.",
+      "d": "Reducir la temperatura en la zona afectada."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 160,
+    "Question": "❓FFM.-¿Qué norma UNE especifica la compatibilidad de componentes en sistemas de alarma de incendio?",
+    "Options": {
+      "a": "UNE-EN 54-11.",
+      "b": "UNE-EN 54-13.",
+      "c": "UNE 23500.",
+      "d": "UNE-EN 54-7."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 161,
+    "Question": "❓FFM.-¿Qué tipo de dispositivo para la activación de alarmas debe colocarse manualmente?",
+    "Options": {
+      "a": "Pulsadores de alarma.",
+      "b": "Detectores de calor.",
+      "c": "Detectores de humo.",
+      "d": "Altavoces de alarma."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 162,
+    "Question": "❓FFM.-¿Cuál es el objetivo de los dispositivos visuales de alarma de incendio?",
+    "Options": {
+      "a": "Emitir sonidos para alertar a los ocupantes.",
+      "b": "Apagar el fuego automáticamente.",
+      "c": "Reducir el humo en las áreas afectadas.",
+      "d": "Proveer una señal visual para alertar del incendio."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 163,
+    "Question": "❓FFM.-¿Cuál de estos detectores es adecuado para detectar fuego en combustiones invisibles?",
+    "Options": {
+      "a": "Iónico.",
+      "b": "Térmico.",
+      "c": "Termovelocímetro.",
+      "d": "De llama."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 164,
+    "Question": "❓FFM.-¿Qué sistema regula la presión y el caudal de agua necesarios en caso de incendio?",
+    "Options": {
+      "a": "Sistema de detección y alarma.",
+      "b": "Sistema de abastecimiento de agua contra incendios.",
+      "c": "Sistema de ventilación.",
+      "d": "Sistema anti-intrusión."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 165,
+    "Question": "❓FFM.-¿Cuál de los siguientes sistemas tiene prioridad en una situación de incendio al transmitir señales?",
+    "Options": {
+      "a": "Sistemas de protección contra incendios.",
+      "b": "Sistemas de iluminación de emergencia.",
+      "c": "Sistemas de comunicación laboral.",
+      "d": "Sistemas de vigilancia."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 166,
+    "Question": "❓FFM.-¿Qué norma UNE regula los detectores de humo puntuales en protección contra incendios?",
+    "Options": {
+      "a": "UNE-EN 54-4.",
+      "b": "UNE-EN 54-16.",
+      "c": "UNE-EN 54-7.",
+      "d": "UNE 23500."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 167,
+    "Question": "❓FFM.-¿Quién es responsable de realizar las evaluaciones de los equipos de protección contra incendios?",
+    "Options": {
+      "a": "Las empresas instaladoras.",
+      "b": "Los organismos habilitados para la evaluación técnica.",
+      "c": "Las aseguradoras.",
+      "d": "Los fabricantes."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 168,
+    "Question": "❓FFM.-¿Qué elemento es esencial para el suministro de alimentación de los sistemas de detección de incendios?",
+    "Options": {
+      "a": "Detectores de humo.",
+      "b": "Altavoces de emergencia.",
+      "c": "Sirenas visuales.",
+      "d": "Equipo de suministro de alimentación (E.S.A.)."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 169,
+    "Question": "❓FFM.-¿Qué tipo de detector de incendio responde a un rápido aumento de temperatura?",
+    "Options": {
+      "a": "Detector de humo.",
+      "b": "Detector iónico.",
+      "c": "Detector de llama.",
+      "d": "Termovelocímetro."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 170,
+    "Question": "❓FFM.-¿Qué norma UNE deben cumplir los sistemas electroacústicos para servicios de emergencia?",
+    "Options": {
+      "a": "UNE-EN 54-1.",
+      "b": "UNE-EN 60849.",
+      "c": "UNE-EN 54-16.",
+      "d": "UNE-EN 54-23."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 171,
+    "Question": "❓FFM.-¿Qué acción realiza una empresa mantenedora en protección contra incendios?",
+    "Options": {
+      "a": "Realiza el mantenimiento de equipos de protección activa.",
+      "b": "Instala los sistemas de protección contra incendios.",
+      "c": "Supervisa el diseño de los sistemas.",
+      "d": "Realiza inspecciones de fábrica."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 172,
+    "Question": "❓FFM.-¿Qué norma regula los dispositivos para la activación automática de alarma de incendio?",
+    "Options": {
+      "a": "UNE-EN 54-5.",
+      "b": "UNE-EN 54-21.",
+      "c": "UNE-EN 54-3.",
+      "d": "UNE-EN 54-24."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 173,
+    "Question": "❓FFM.-¿Qué define el concepto de 'Evaluación técnica' en protección contra incendios?",
+    "Options": {
+      "a": "La instalación de sistemas en el edificio.",
+      "b": "La valoración y seguimiento de los productos de protección contra incendios.",
+      "c": "El diseño de sistemas de detección de humo.",
+      "d": "La gestión de control de alarma de incendios."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 174,
+    "Question": "❓FFM.-¿Dónde se deben colocar los pulsadores de alarma respecto al origen de evacuación?",
+    "Options": {
+      "a": "A una distancia máxima de 10 metros.",
+      "b": "En cada esquina del edificio.",
+      "c": "A una distancia máxima de 25 metros.",
+      "d": "En la entrada principal únicamente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 175,
+    "Question": "❓FFM.-¿Qué tipo de marcado deben llevar los hidrantes de columna?",
+    "Options": {
+      "a": "UNE-EN 14339.",
+      "b": "UNE-EN 14384.",
+      "c": "UNE-EN 3-7.",
+      "d": "UNE 23400."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 176,
+    "Question": "❓FFM.-¿Qué valor debe alcanzar el mSt requerido para los hidrantes de tipo C?",
+    "Options": {
+      "a": "100 N-m.",
+      "b": "500 N-m.",
+      "c": "200 N-m.",
+      "d": "250 N-m."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 177,
+    "Question": "❓FFM.-¿Qué presión mínima debe cumplir un hidrante de columna con PFA?",
+    "Options": {
+      "a": "1600 kPa.",
+      "b": "1000 kPa.",
+      "c": "1500 kPa.",
+      "d": "1800 kPa."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 178,
+    "Question": "❓FFM.-¿Qué coeficiente de flujo Kv debe tener un hidrante de columna con dos salidas de 70 DN?",
+    "Options": {
+      "a": "80.",
+      "b": "100.",
+      "c": "150.",
+      "d": "120."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 179,
+    "Question": "❓FFM.-¿Qué norma debe cumplir el racor de un sistema de hidrantes antes de su fabricación?",
+    "Options": {
+      "a": "UNE 23400.",
+      "b": "UNE-EN 14384.",
+      "c": "UNE 23091.",
+      "d": "UNE-EN 1866-1."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 180,
+    "Question": "❓FFM.-¿Cuál debe ser el caudal mínimo que suministre un hidrante en zonas urbanas?",
+    "Options": {
+      "a": "300 l/min.",
+      "b": "100 l/min.",
+      "c": "500 l/min.",
+      "d": "250 l/min."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 181,
+    "Question": "❓FFM.-¿A qué presión mínima debe trabajar un hidrante en una zona urbana donde se llenen camiones?",
+    "Options": {
+      "a": "100 kPa.",
+      "b": "200 kPa.",
+      "c": "150 kPa.",
+      "d": "300 kPa."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 182,
+    "Question": "❓FFM.-¿A qué distancia máxima puede situarse un hidrante de un edificio en zonas urbanas?",
+    "Options": {
+      "a": "50 m.",
+      "b": "80 m.",
+      "c": "100 m.",
+      "d": "120 m."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 183,
+    "Question": "❓FFM.-¿Dónde debe colocarse un extintor para asegurar su visibilidad?",
+    "Options": {
+      "a": "En un lugar bajo.",
+      "b": "Próximo a las salidas de evacuación.",
+      "c": "Dentro de un armario sin señalización.",
+      "d": "Detrás de puertas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 184,
+    "Question": "❓FFM.-¿Qué diámetro deben tener las mangueras semirrígidas en las BIE?",
+    "Options": {
+      "a": "30 mm.",
+      "b": "40 mm.",
+      "c": "25 mm.",
+      "d": "20 mm."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 185,
+    "Question": "❓FFM.-¿Cuál es la separación máxima entre dos BIE en un espacio protegido?",
+    "Options": {
+      "a": "25 m.",
+      "b": "60 m.",
+      "c": "50 m.",
+      "d": "40 m."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 186,
+    "Question": "❓FFM.-¿Cuál es la longitud máxima permitida para las mangueras de las BIE con manguera plana?",
+    "Options": {
+      "a": "20 m.",
+      "b": "25 m.",
+      "c": "15 m.",
+      "d": "30 m."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 187,
+    "Question": "❓FFM.-¿Qué debe mantenerse libre alrededor de cada BIE?",
+    "Options": {
+      "a": "Un pasillo de salida.",
+      "b": "Un espacio para estacionamiento.",
+      "c": "Una zona libre de obstáculos.",
+      "d": "Un armario adicional."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 188,
+    "Question": "❓FFM.-¿Qué tipo de marcado CE debe llevar una BIE con manguera semirrígida?",
+    "Options": {
+      "a": "UNE-EN 14339.",
+      "b": "UNE-EN 671-2.",
+      "c": "UNE-EN 3-7.",
+      "d": "UNE-EN 671-1."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 189,
+    "Question": "❓FFM.-¿Cuál debe ser la presión dinámica mínima en las BIE de alta presión?",
+    "Options": {
+      "a": "3.450 kPa.",
+      "b": "1.500 kPa.",
+      "c": "3.000 kPa.",
+      "d": "2.000 kPa."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 190,
+    "Question": "❓FFM.-¿Qué tipo de hidrante debe tener el marcado CE conforme a la norma UNE-EN 14384?",
+    "Options": {
+      "a": "Hidrantes de columna.",
+      "b": "Hidrantes subterráneos.",
+      "c": "Hidrantes de salida única.",
+      "d": "Hidrantes de emergencia."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 191,
+    "Question": "❓FFM.-¿Cuál es el requisito de marcado para los hidrantes subterráneos?",
+    "Options": {
+      "a": "Deben llevar el marcado UNE-EN 14384.",
+      "b": "Deben llevar el marcado UNE-EN 14339.",
+      "c": "No requieren marcado CE.",
+      "d": "Deben tener una marca de inspección anual."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 192,
+    "Question": "❓FFM.-¿Qué tipo de hidrantes de columna se permite en zonas con riesgo de heladas?",
+    "Options": {
+      "a": "Tipo A.",
+      "b": "Tipo B.",
+      "c": "Tipo C.",
+      "d": "Tipo D."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 193,
+    "Question": "❓FFM.-¿Qué mSt mínimo es necesario para los hidrantes de columna tipo C?",
+    "Options": {
+      "a": "250 N-m.",
+      "b": "1600 kPa.",
+      "c": "180 N-m.",
+      "d": "1500 kPa."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 194,
+    "Question": "❓FFM.-¿Cuál es el PFA mínimo para los hidrantes subterráneos?",
+    "Options": {
+      "a": "250 N-m.",
+      "b": "500 kPa.",
+      "c": "2000 kPa.",
+      "d": "1600 kPa."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 195,
+    "Question": "❓FFM.-¿Cuál es el Kv mínimo de un hidrante con una salida de 45?",
+    "Options": {
+      "a": "60.",
+      "b": "80.",
+      "c": "33.",
+      "d": "150."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 196,
+    "Question": "❓FFM.-¿Qué norma regula los requisitos para racores en hidrantes?",
+    "Options": {
+      "a": "UNE-EN 14339.",
+      "b": "UNE 23400.",
+      "c": "UNE 23091.",
+      "d": "UNE-EN 14384."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 197,
+    "Question": "❓FFM.-¿Cuál es la distancia máxima permitida a un hidrante en zonas urbanas?",
+    "Options": {
+      "a": "40 metros.",
+      "b": "60 metros.",
+      "c": "80 metros.",
+      "d": "100 metros."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 198,
+    "Question": "❓FFM.-¿Dónde debe colocarse al menos un hidrante en un edificio?",
+    "Options": {
+      "a": "En la entrada.",
+      "b": "En la parte trasera.",
+      "c": "En el sótano.",
+      "d": "En el techo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 199,
+    "Question": "❓FFM.-¿Cuál es la distancia permitida entre un hidrante y el límite exterior del edificio protegido?",
+    "Options": {
+      "a": "Menos de 100 metros.",
+      "b": "Entre 5 y 15 metros.",
+      "c": "Exactamente 10 metros.",
+      "d": "Más de 20 metros."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 200,
+    "Question": "❓FFM.-¿Qué debe hacerse con la válvula de drenaje si el nivel de agua subterránea la supera?",
+    "Options": {
+      "a": "No requiere acción.",
+      "b": "Taponarla.",
+      "c": "Mover el hidrante a otro lugar.",
+      "d": "Elevar el hidrante."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 201,
+    "Question": "❓FFM.-¿Cuál es el caudal mínimo que debe suministrar cada boca de hidrante?",
+    "Options": {
+      "a": "200 l/min.",
+      "b": "300 l/min.",
+      "c": "500 l/min.",
+      "d": "1000 l/min."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 202,
+    "Question": "❓FFM.-¿Cuál es la presión mínima en la boca de salida del hidrante para zonas no urbanas?",
+    "Options": {
+      "a": "1 kPa.",
+      "b": "100 kPa.",
+      "c": "1000 kPa.",
+      "d": "500 kPa."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 203,
+    "Question": "❓FFM.-¿Qué norma deben cumplir los extintores portátiles para su certificación?",
+    "Options": {
+      "a": "UNE-EN 3-7.",
+      "b": "UNE-EN 671-1.",
+      "c": "UNE-EN 14339.",
+      "d": "UNE 23400."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 204,
+    "Question": "❓FFM.-¿Dónde debe colocarse la señalización de un extintor dentro de un armario?",
+    "Options": {
+      "a": "Dentro del armario.",
+      "b": "En la parte inferior.",
+      "c": "En la superficie del armario.",
+      "d": "Junto al armario."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 205,
+    "Question": "❓FFM.-¿Cuál es el tipo de manguera que se admite para las BIE con manguera plana?",
+    "Options": {
+      "a": "Diámetro interior de 30 mm.",
+      "b": "Diámetro interior de 25 mm.",
+      "c": "Diámetro interior de 45 mm.",
+      "d": "Diámetro interior de 35 mm."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 206,
+    "Question": "❓FFM.-¿Cuál es la presión mínima en la red de BIE durante una hora?",
+    "Options": {
+      "a": "300 kPa.",
+      "b": "500 kPa.",
+      "c": "450 kPa.",
+      "d": "600 kPa."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 207,
+    "Question": "❓FFM.-¿Dónde debe situarse la toma de agua de un sistema de columna seca?",
+    "Options": {
+      "a": "En el interior del edificio.",
+      "b": "En el sótano del edificio.",
+      "c": "En fachada o en una zona accesible al Servicio Contra Incendios.",
+      "d": "A nivel de la azotea del edificio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 208,
+    "Question": "❓FFM.-¿Qué diámetro deben tener los racores de la conexión siamesa de la toma de agua en sistemas de columna seca?",
+    "Options": {
+      "a": "25 mm.",
+      "b": "45 mm.",
+      "c": "70 mm.",
+      "d": "90 mm."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 209,
+    "Question": "❓FFM.-¿Dónde deben colocarse las bocas de salida de la columna seca en los edificios?",
+    "Options": {
+      "a": "En las zonas comunes de cada planta.",
+      "b": "En las escaleras o en vestíbulos previos a ellas.",
+      "c": "En el interior de cada vivienda.",
+      "d": "En el techo de cada planta."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 210,
+    "Question": "❓FFM.-¿Cuál es la altura de instalación para las bocas de salida y la toma exterior de un sistema de columna seca?",
+    "Options": {
+      "a": "1,20 m.",
+      "b": "0,75 m.",
+      "c": "1,50 m.",
+      "d": "0,90 m."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 211,
+    "Question": "❓FFM.-¿Qué tipo de válvula se utiliza en los sistemas de columna seca?",
+    "Options": {
+      "a": "Válvula de bola.",
+      "b": "Válvula de retención.",
+      "c": "Válvula de compuerta.",
+      "d": "Válvula de presión."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 212,
+    "Question": "❓FFM.-¿Cuál es la presión mínima a la que se debe someter un sistema de columna seca antes de su puesta en servicio, para columnas de hasta 30 metros?",
+    "Options": {
+      "a": "1000 kPa.",
+      "b": "1200 kPa.",
+      "c": "1470 kPa.",
+      "d": "2000 kPa."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 213,
+    "Question": "❓FFM.-¿Qué norma deben cumplir los racores de los sistemas de columna seca?",
+    "Options": {
+      "a": "UNE 23400.",
+      "b": "UNE-EN 12259.",
+      "c": "UNE 23501.",
+      "d": "UNE-EN 12845."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 214,
+    "Question": "❓FFM.-¿Cada cuántas plantas se instalará una válvula de seccionamiento en los sistemas de columna seca ascendentes?",
+    "Options": {
+      "a": "Cada tres plantas.",
+      "b": "Cada cuatro plantas.",
+      "c": "Cada cinco plantas.",
+      "d": "En todas las plantas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 215,
+    "Question": "❓FFM.-¿Qué debe indicar la señalización del sistema de columna seca en los edificios?",
+    "Options": {
+      "a": "Uso exclusivo de mantenimiento.",
+      "b": "Uso exclusivo de bomberos.",
+      "c": "Uso para todos los empleados.",
+      "d": "Uso exclusivo para evacuación."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 216,
+    "Question": "❓FFM.-¿Qué sistema utiliza una red de tuberías, boquillas y un puesto de control?",
+    "Options": {
+      "a": "Sistema de columna seca.",
+      "b": "Sistema de extinción por polvo.",
+      "c": "Sistema de extinción por rociadores automáticos.",
+      "d": "Sistema de aerosoles."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 217,
+    "Question": "❓FFM.-¿Qué norma regula el diseño y las condiciones de instalación de los sistemas de rociadores automáticos?",
+    "Options": {
+      "a": "UNE-EN 12845.",
+      "b": "UNE 23400.",
+      "c": "UNE 23505.",
+      "d": "UNE-CEN/TS 14972."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 218,
+    "Question": "❓FFM.-¿Cuál es el medio de transporte del polvo en los sistemas fijos de extinción por polvo?",
+    "Options": {
+      "a": "Agua a presión.",
+      "b": "Gas licuado.",
+      "c": "Aire comprimido.",
+      "d": "Gas a presión."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 219,
+    "Question": "❓FFM.-¿En qué casos es obligatorio un sistema de prealarma en los sistemas de extinción por polvo?",
+    "Options": {
+      "a": "Cuando el polvo es inflamable.",
+      "b": "Cuando la presión es baja.",
+      "c": "Cuando el personal necesita evacuar antes de la descarga.",
+      "d": "Cuando no hay personal presente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 220,
+    "Question": "❓FFM.-¿Qué norma deben cumplir los sistemas fijos de extinción por espuma física?",
+    "Options": {
+      "a": "UNE-EN 13565-2.",
+      "b": "UNE 23400.",
+      "c": "UNE-EN 1568-4.",
+      "d": "UNE 23501."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 221,
+    "Question": "❓FFM.-¿Qué componente es imprescindible en los sistemas de extinción por agua nebulizada?",
+    "Options": {
+      "a": "Botellas de gas propulsor.",
+      "b": "Boquillas de nebulización.",
+      "c": "Tuberías de gas comprimido.",
+      "d": "Polvo químico."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 222,
+    "Question": "❓FFM.-¿Qué característica deben tener los generadores de aerosol para ser aptos en sistemas fijos de extinción?",
+    "Options": {
+      "a": "Conformidad con el Real Decreto 513/2017.",
+      "b": "Marcado CE obligatorio.",
+      "c": "Aprobación de la UNE 12845.",
+      "d": "Certificación internacional."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 223,
+    "Question": "❓FFM.-¿Qué función cumple la válvula antirretorno en la toma de agua de la columna seca?",
+    "Options": {
+      "a": "Evitar el exceso de presión en la tubería.",
+      "b": "Impedir el retroceso de agua hacia el suministro.",
+      "c": "Reducir el caudal del agua.",
+      "d": "Facilitar la purga de aire."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 224,
+    "Question": "❓FFM.-¿Qué característica deben cumplir las conexiones siamesas en las columnas secas?",
+    "Options": {
+      "a": "Tener un diámetro de 30 mm.",
+      "b": "Ser de acero inoxidable.",
+      "c": "Incluir llaves y racores.",
+      "d": "Contar con un sistema de purga automática."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 225,
+    "Question": "❓FFM.-¿A qué altura deben estar instaladas las salidas de las columnas secas?",
+    "Options": {
+      "a": "A 1,5 m del suelo.",
+      "b": "A 1 m del suelo.",
+      "c": "A 0,9 m del suelo.",
+      "d": "A 0,8 m del suelo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 226,
+    "Question": "❓FFM.-¿Cuántos metros como máximo debe haber entre columnas secas en un edificio?",
+    "Options": {
+      "a": "30 m.",
+      "b": "45 m.",
+      "c": "75 m.",
+      "d": "60 m."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 227,
+    "Question": "❓FFM.-¿Cuál es el diámetro de la tubería de acero galvanizado en un sistema de columna seca?",
+    "Options": {
+      "a": "DN70.",
+      "b": "DN60.",
+      "c": "DN100.",
+      "d": "DN80."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 228,
+    "Question": "❓FFM.-¿Cuántas plantas deben pasar entre válvulas de seccionamiento en sistemas ascendentes hasta la octava planta?",
+    "Options": {
+      "a": "Cada tres plantas.",
+      "b": "Cada cuatro plantas.",
+      "c": "Cada dos plantas.",
+      "d": "Cada planta."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 229,
+    "Question": "❓FFM.-¿En qué lugares específicos deben estar las bocas de salida de la columna seca?",
+    "Options": {
+      "a": "En el techo de cada planta.",
+      "b": "En áreas comunes.",
+      "c": "En recintos de escaleras o vestíbulos previos.",
+      "d": "En el exterior del edificio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 230,
+    "Question": "❓FFM.-¿Qué característica deben cumplir las válvulas utilizadas en los sistemas de columna seca?",
+    "Options": {
+      "a": "Ser de tipo compuerta.",
+      "b": "Tener palanca de accionamiento.",
+      "c": "Contar con un sistema de cierre automático.",
+      "d": "Ser de plástico reforzado."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 231,
+    "Question": "❓FFM.-¿Qué se debe garantizar en la zona de la toma de fachada de la columna seca?",
+    "Options": {
+      "a": "Que esté libre de obstáculos.",
+      "b": "Que esté al nivel de la acera.",
+      "c": "Que esté en una sala exclusiva.",
+      "d": "Que esté en un área subterránea."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 232,
+    "Question": "❓FFM.-¿Con qué marcado deben contar los componentes de los sistemas de extinción por rociadores automáticos?",
+    "Options": {
+      "a": "Marca UNE-23500.",
+      "b": "Marcado CE.",
+      "c": "Marca ISO-9001.",
+      "d": "Marca UNE-EN 1568."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 233,
+    "Question": "❓FFM.-¿Qué norma deben seguir los sistemas de extinción por agua nebulizada?",
+    "Options": {
+      "a": "UNE-EN 12845.",
+      "b": "UNE-23500.",
+      "c": "UNE-CEN/TS 14972.",
+      "d": "UNE-EN 1568."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 234,
+    "Question": "❓FFM.-¿Qué sistemas de extinción requieren un tanque de espumógeno?",
+    "Options": {
+      "a": "Sistemas de extinción por aerosoles.",
+      "b": "Sistemas de columna seca.",
+      "c": "Sistemas de extinción por espuma física.",
+      "d": "Sistemas de extinción por polvo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 235,
+    "Question": "❓FFM.-¿Qué tipo de boquillas utiliza un sistema de extinción por polvo?",
+    "Options": {
+      "a": "Boquillas de presión.",
+      "b": "Boquillas de aspersión.",
+      "c": "Boquillas de nebulización.",
+      "d": "Boquillas de descarga."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 236,
+    "Question": "❓FFM.-¿Qué tipo de gas se utiliza en los sistemas de extinción por agentes extintores gaseosos?",
+    "Options": {
+      "a": "Gas inflamable.",
+      "b": "Gas refrigerante.",
+      "c": "Gas a presión.",
+      "d": "Gas de baja densidad."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 237,
+    "Question": "❓FFM.-¿En qué lugar deben instalarse los dispositivos de accionamiento de los sistemas de extinción por agentes extintores gaseosos?",
+    "Options": {
+      "a": "En un lugar accesible.",
+      "b": "En áreas de acceso restringido.",
+      "c": "En el sótano del edificio.",
+      "d": "En el exterior del edificio."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 238,
+    "Question": "❓FFM.-¿Qué mecanismo incluye el sistema de extinción por polvo para asegurar la evacuación antes de la descarga?",
+    "Options": {
+      "a": "Sistema de cierre automático.",
+      "b": "Retardo en su acción y prealarma.",
+      "c": "Válvula de sobrepresión.",
+      "d": "Sistema de ventilación."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 239,
+    "Question": "❓FFM.-¿Qué norma regula los espumógenos de alta, media y baja expansión en sistemas de extinción por espuma física?",
+    "Options": {
+      "a": "UNE-EN 13565-2.",
+      "b": "UNE 23500.",
+      "c": "UNE-EN 12259.",
+      "d": "UNE-EN 1568."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 240,
+    "Question": "❓FFM.-¿Qué componente es fundamental en los sistemas de extinción por aerosoles condensados?",
+    "Options": {
+      "a": "Tuberías de cobre.",
+      "b": "Válvulas de presión.",
+      "c": "Generadores de aerosol.",
+      "d": "Tanque de espumógeno."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 241,
+    "Question": "❓FFM.-¿Qué tipo de agua se utiliza en los sistemas de extinción por agua nebulizada?",
+    "Options": {
+      "a": "Agua desmineralizada.",
+      "b": "Agua a alta presión.",
+      "c": "Agua ionizada.",
+      "d": "Agua de baja presión."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 242,
+    "Question": "❓FFM.-¿Qué tipo de manguera se utiliza en las bocas de incendio equipadas (BIE)?",
+    "Options": {
+      "a": "Manguera semirrígida.",
+      "b": "Manguera rígida.",
+      "c": "Manguera de alta presión.",
+      "d": "Manguera flexible."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 243,
+    "Question": "❓FFM.-¿Cuál es la función principal de los sistemas de control de calor y humo en caso de incendio?",
+    "Options": {
+      "a": "Evitar el crecimiento del fuego en áreas específicas.",
+      "b": "Limitar los efectos del calor y el humo para facilitar la evacuación.",
+      "c": "Controlar la temperatura de las áreas no afectadas.",
+      "d": "Activar automáticamente los extintores en el área del incendio."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 244,
+    "Question": "❓FFM.-¿Qué tipo de estrategia de control de humo se aplica especialmente en edificios de techo alto?",
+    "Options": {
+      "a": "Ventilación horizontal.",
+      "b": "Extracción de humos.",
+      "c": "Flotabilidad de los gases calientes.",
+      "d": "Ventilación natural y mecánica combinada."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 245,
+    "Question": "❓FFM.-¿Qué sistemas se utilizan para mantener áreas libres de humo mediante presurización?",
+    "Options": {
+      "a": "Sistemas de control de humos y calor por presión diferencial.",
+      "b": "Sistemas de ventilación natural.",
+      "c": "Sistemas de extracción mecánica.",
+      "d": "Sistemas de flotabilidad de los gases calientes."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 246,
+    "Question": "❓FFM.-¿Qué estrategia de control de humo es común en túneles y aparcamientos?",
+    "Options": {
+      "a": "Flotabilidad de los gases calientes.",
+      "b": "Ventilación horizontal.",
+      "c": "Presurización diferencial.",
+      "d": "Uso de aireadores mecánicos únicamente."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 247,
+    "Question": "❓FFM.-¿Qué elemento es necesario en sistemas de control de humos basados en flotabilidad?",
+    "Options": {
+      "a": "Manómetros indicadores de presión.",
+      "b": "Aberturas de admisión de aire limpio o ventiladores.",
+      "c": "Aireadores naturales o mecánicos.",
+      "d": "Extintores de alta capacidad."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 248,
+    "Question": "❓FFM.-¿Cuál es la función de los sistemas de ventilación para extracción de humos durante un incendio?",
+    "Options": {
+      "a": "Controlar la flotabilidad de los gases.",
+      "b": "Distribuir oxígeno en el área afectada.",
+      "c": "Mantener el área en baja temperatura.",
+      "d": "Extraer el humo generado durante y/o después del incendio."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 249,
+    "Question": "❓FFM.-¿Qué tipo de sistema puede utilizar normas reconocidas por el Ministerio de Economía, Industria y Competitividad hasta que entren en vigor las normas UNE-EN?",
+    "Options": {
+      "a": "Sistemas de flotabilidad de gases calientes.",
+      "b": "Sistemas de presión diferencial.",
+      "c": "Sistemas de ventilación horizontal.",
+      "d": "Sistemas de aireación natural y mecánica."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 250,
+    "Question": "❓FFM.-¿Cuál es la norma que regula los sistemas de control de humos en edificios de una planta o multiplanta con atrios?",
+    "Options": {
+      "a": "UNE 23584.",
+      "b": "UNE 23582.",
+      "c": "UNE-EN 1869.",
+      "d": "Reglamento Electrotécnico de Baja Tensión."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 251,
+    "Question": "❓FFM.-¿Qué propiedades deben cumplir las mantas ignífugas antes de su fabricación o importación?",
+    "Options": {
+      "a": "Cumplir con las especificaciones del Reglamento de Protección Civil.",
+      "b": "Justificar el cumplimiento de la norma UNE-EN 1869.",
+      "c": "Ser probadas en instalaciones de baja tensión.",
+      "d": "Ser aprobadas por el Ministerio de Interior."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 252,
+    "Question": "❓FFM.-¿Cuál es el tiempo máximo de caducidad permitido para las mantas ignífugas?",
+    "Options": {
+      "a": "10 años.",
+      "b": "No tienen límite de caducidad.",
+      "c": "15 años.",
+      "d": "20 años."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 253,
+    "Question": "❓FFM.-¿Qué debe permitir el alumbrado de emergencia en caso de fallo del alumbrado normal?",
+    "Options": {
+      "a": "Solo la iluminación en las zonas de evacuación.",
+      "b": "Iluminar exclusivamente las salidas de emergencia.",
+      "c": "Asegurar la iluminación de locales y accesos para evacuar la zona.",
+      "d": "Identificar únicamente los equipos contra incendios."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 254,
+    "Question": "❓FFM.-¿Qué normativa regula las instalaciones de alumbrado de emergencia en España?",
+    "Options": {
+      "a": "Norma UNE-EN 1869.",
+      "b": "Reglamento Electrotécnico de Baja Tensión.",
+      "c": "Real Decreto 842/2002.",
+      "d": "UNE 23585."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 255,
+    "Question": "❓FFM.-¿Cuál es el primer elemento usado en los primeros minutos de un fuego?",
+    "Options": {
+      "a": "Extintor.",
+      "b": "Sistema de alarma contra incendios.",
+      "c": "Manta ignífuga.",
+      "d": "Sistema de ventilación de emergencia."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 256,
+    "Question": "❓FFM.-¿Qué indica la numeración en el código de eficacia de un extintor?",
+    "Options": {
+      "a": "El peso del extintor.",
+      "b": "El tipo de gas utilizado.",
+      "c": "El tamaño del fuego que puede controlar.",
+      "d": "El volumen de agente extintor."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 257,
+    "Question": "❓FFM.-¿Qué extintores de presión permanente utilizan gas propelente como nitrógeno para impulsar el agente extintor?",
+    "Options": {
+      "a": "Extintores de agua.",
+      "b": "Extintores de espuma.",
+      "c": "Extintores de CO2.",
+      "d": "Extintores de halones y polvo seco."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 258,
+    "Question": "❓FFM.-¿Cuál es la diferencia principal entre un extintor de presión permanente y uno de presión no permanente?",
+    "Options": {
+      "a": "El tipo de agente extintor.",
+      "b": "La capacidad de extinguir fuegos.",
+      "c": "El uso de un botellín presurizado en el de presión no permanente.",
+      "d": "La presencia de manómetro en el de presión no permanente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 259,
+    "Question": "❓FFM.-¿Qué característica deben tener los sistemas de detección en un sistema de extinción por agentes extintores gaseosos?",
+    "Options": {
+      "a": "Ser resistentes a bajas temperaturas.",
+      "b": "Ser automáticos y manuales.",
+      "c": "Tener sensores de humedad.",
+      "d": "Estar conectados a una toma de agua."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 260,
+    "Question": "❓FFM.-¿Cuál es la función principal de las bocas de incendio equipadas (BIE)?",
+    "Options": {
+      "a": "Almacenar agua de reserva.",
+      "b": "Evacuar el humo.",
+      "c": "Suministrar agua para combatir incendios.",
+      "d": "Controlar la temperatura."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 261,
+    "Question": "❓FFM.-¿Cuál es el diámetro recomendado para las mangueras de las bocas de incendio equipadas (BIE)?",
+    "Options": {
+      "a": "30 mm.",
+      "b": "25 mm.",
+      "c": "45 mm.",
+      "d": "20 mm."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 262,
+    "Question": "❓FFM.-¿Dónde se deben ubicar las bocas de incendio equipadas (BIE) en un edificio?",
+    "Options": {
+      "a": "En zonas de difícil acceso.",
+      "b": "En salidas de emergencia y pasillos.",
+      "c": "En sótanos únicamente.",
+      "d": "En áreas privadas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 263,
+    "Question": "❓FFM.-¿Cuál es la presión de funcionamiento recomendada para las BIE de 25 mm?",
+    "Options": {
+      "a": "6 bares.",
+      "b": "2 bares.",
+      "c": "4 bares.",
+      "d": "8 bares."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 264,
+    "Question": "❓FFM.-¿Qué tipo de válvula utilizan las bocas de incendio equipadas (BIE)?",
+    "Options": {
+      "a": "Válvula de esfera.",
+      "b": "Válvula de compuerta.",
+      "c": "Válvula de mariposa.",
+      "d": "Válvula de retención."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 265,
+    "Question": "❓FFM.-¿Qué longitud estándar tienen las mangueras en las bocas de incendio equipadas (BIE)?",
+    "Options": {
+      "a": "15 m.",
+      "b": "10 m.",
+      "c": "20 m.",
+      "d": "25 m."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 266,
+    "Question": "❓FFM.-¿Cada cuánto tiempo se deben inspeccionar las bocas de incendio equipadas (BIE)?",
+    "Options": {
+      "a": "Cada 6 meses.",
+      "b": "Cada 3 meses.",
+      "c": "Cada año.",
+      "d": "Cada 2 años."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 267,
+    "Question": "❓FFM.-¿Qué normativa regula las bocas de incendio equipadas (BIE)?",
+    "Options": {
+      "a": "UNE-EN 1568.",
+      "b": "UNE-EN 671-1.",
+      "c": "UNE-EN 12845.",
+      "d": "UNE-23500."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 268,
+    "Question": "❓FFM.-¿En qué situaciones se recomienda instalar un sistema de columna seca?",
+    "Options": {
+      "a": "En sótanos con ventilación.",
+      "b": "En edificios de una sola planta.",
+      "c": "En áreas abiertas al aire libre.",
+      "d": "En edificios de gran altura."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 269,
+    "Question": "❓FFM.-¿Cuántos puntos de conexión debe tener la toma de fachada de una columna seca?",
+    "Options": {
+      "a": "Uno.",
+      "b": "Tres.",
+      "c": "Cuatro.",
+      "d": "Dos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 270,
+    "Question": "❓FFM.-¿Qué tipo de extintor es adecuado para fuegos de tipo A?",
+    "Options": {
+      "a": "Extintor de espuma.",
+      "b": "Extintor de dióxido de carbono.",
+      "c": "Extintor de polvo.",
+      "d": "Extintor de agua."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 271,
+    "Question": "❓FFM.-¿Cuál es el color identificativo de los extintores de polvo?",
+    "Options": {
+      "a": "Azul.",
+      "b": "Verde.",
+      "c": "Rojo.",
+      "d": "Amarillo."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 272,
+    "Question": "❓FFM.-¿Qué factor determina el tipo de agente extintor a utilizar en un incendio?",
+    "Options": {
+      "a": "La altura del edificio.",
+      "b": "El tipo de combustible involucrado.",
+      "c": "El clima de la zona.",
+      "d": "La temperatura del agua disponible."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 273,
+    "Question": "❓FFM.-¿Qué norma regula la instalación de sistemas de extinción de incendios automáticos de rociadores?",
+    "Options": {
+      "a": "UNE-EN 12845.",
+      "b": "UNE-23500.",
+      "c": "UNE-EN 1568.",
+      "d": "UNE-EN 671-2."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 274,
+    "Question": "❓FFM.-¿Qué función cumple el sistema de presión diferencial en una escalera de evacuación?",
+    "Options": {
+      "a": "Mejorar la visibilidad.",
+      "b": "Aumentar el caudal de aire.",
+      "c": "Reducir el nivel de ruido.",
+      "d": "Controlar el humo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 275,
+    "Question": "❓FFM.-¿Cuál es el componente clave de los sistemas de extinción de incendios de rociadores automáticos?",
+    "Options": {
+      "a": "Tuberías de cobre.",
+      "b": "Rociadores.",
+      "c": "Generadores de aerosol.",
+      "d": "Extintores de mano."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 276,
+    "Question": "❓FFM.-¿Qué sistema se utiliza para proteger equipos eléctricos en caso de incendio?",
+    "Options": {
+      "a": "Sistema de agua nebulizada.",
+      "b": "Sistema de rociadores automáticos.",
+      "c": "Sistema de extintores de espuma.",
+      "d": "Sistema de agentes extintores gaseosos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 277,
+    "Question": "❓FFM.-¿Cuál es el agente extintor más común en sistemas de rociadores automáticos?",
+    "Options": {
+      "a": "Espuma.",
+      "b": "Dióxido de carbono.",
+      "c": "Polvo químico.",
+      "d": "Agua."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 278,
+    "Question": "❓FFM.-¿Qué tipo de fuego combate eficazmente un extintor de CO2?",
+    "Options": {
+      "a": "Fuegos de tipo C.",
+      "b": "Fuegos de tipo A.",
+      "c": "Fuegos de tipo B.",
+      "d": "Fuegos de tipo D."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 279,
+    "Question": "❓FFM.-¿Qué norma regula la instalación de sistemas de control de humos en edificios de una planta o multiplanta con atrios?",
+    "Options": {
+      "a": "UNE 23584.",
+      "b": "UNE 23585.",
+      "c": "Reglamento Electrotécnico de Baja Tensión.",
+      "d": "UNE-EN 1869."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 280,
+    "Question": "❓FFM.-¿Cuál es el objetivo principal de los sistemas de ventilación horizontal en túneles?",
+    "Options": {
+      "a": "Facilitar la evacuación de gases por presurización.",
+      "b": "Controlar la temperatura del ambiente.",
+      "c": "Limitar la propagación del humo en espacios de baja altura.",
+      "d": "Reducir el nivel de ruido."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 281,
+    "Question": "❓FFM.-¿Cuál es una característica distintiva de los extintores de presión no permanente?",
+    "Options": {
+      "a": "Utilizan un disco de seguridad tarado a alta presión.",
+      "b": "El agente extintor está en fase gaseosa únicamente.",
+      "c": "No tienen un botellín de gas impulsor.",
+      "d": "Funcionan únicamente con aire."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 282,
+    "Question": "❓FFM.-¿Qué característica asegura la accesibilidad de las mantas ignífugas?",
+    "Options": {
+      "a": "Están situadas a una altura superior.",
+      "b": "Se colocan en lugares de alta visibilidad y accesibilidad.",
+      "c": "Se almacenan dentro de contenedores cerrados.",
+      "d": "Son difíciles de localizar."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 283,
+    "Question": "❓FFM.-¿En qué tipo de edificio se suelen aplicar sistemas de control de humos por presurización diferencial?",
+    "Options": {
+      "a": "Túneles y aparcamientos subterráneos.",
+      "b": "Vías de evacuación en edificios.",
+      "c": "Espacios con techos altos.",
+      "d": "Oficinas pequeñas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 284,
+    "Question": "❓FFM.-¿Cuál es una medida de seguridad en el diseño de los extintores de presión no permanente?",
+    "Options": {
+      "a": "Incorporan una válvula de seguridad tarada.",
+      "b": "Usan un manómetro roscado en la parte superior.",
+      "c": "Se llenan únicamente con aire comprimido.",
+      "d": "Se utilizan en ambientes de baja presión."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 285,
+    "Question": "❓FFM.-¿Qué sistema de control de humo utiliza aireadores naturales para evacuar los gases de combustión?",
+    "Options": {
+      "a": "Presurización diferencial.",
+      "b": "Extracción por ventilación horizontal.",
+      "c": "Uso de ventiladores mecánicos.",
+      "d": "Flotabilidad de los gases calientes."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 286,
+    "Question": "❓FFM.-¿Qué normativa europea puede aplicarse para el diseño de sistemas de ventilación horizontal en edificios?",
+    "Options": {
+      "a": "Real Decreto 842/2002.",
+      "b": "Normas UNE-EN reconocidas por el Ministerio de Economía.",
+      "c": "NTP 666.",
+      "d": "ITC-BT-28."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 287,
+    "Question": "❓FFM.-¿Qué finalidad tiene la instalación de alumbrado de emergencia?",
+    "Options": {
+      "a": "Ofrecer iluminación decorativa en salidas de emergencia.",
+      "b": "Asegurar la iluminación solo en áreas administrativas.",
+      "c": "Proporcionar visibilidad en caso de fallo del alumbrado normal.",
+      "d": "Ahorrar energía en edificios grandes."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 288,
+    "Question": "❓FFM.-¿Qué indica la norma UNE-EN 1869 en relación a las mantas ignífugas?",
+    "Options": {
+      "a": "La obligación de señalización en su lugar de almacenamiento.",
+      "b": "Las instrucciones para uso y mantenimiento.",
+      "c": "Los requerimientos para el almacenamiento en lugares fríos.",
+      "d": "El uso de materiales sintéticos en su fabricación."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 289,
+    "Question": "❓FFM.-¿Cuál es una característica de los sistemas de ventilación mecánica para evacuación de humos?",
+    "Options": {
+      "a": "Funcionan solo durante un incendio.",
+      "b": "No requieren diseño específico.",
+      "c": "Operan durante o después de un incendio.",
+      "d": "Usan exclusivamente aireadores naturales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 290,
+    "Question": "❓FFM.-¿Qué se necesita para que un extintor sea eficaz en su actuación?",
+    "Options": {
+      "a": "Ser de gran tamaño.",
+      "b": "Tener una masa mayor a 20 kg.",
+      "c": "Usar el agente extintor adecuado y un mantenimiento óptimo.",
+      "d": "Poseer un cilindro adicional de gas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 291,
+    "Question": "❓FFM.-¿Qué representa la primera modalidad de extintores de presión permanente?",
+    "Options": {
+      "a": "Los que funcionan con nitrógeno como agente extintor.",
+      "b": "Los extintores con hidrocarburos halogenados.",
+      "c": "Los extintores con manómetros de presión.",
+      "d": "Aquellos en que el agente proporciona su propia presión, como los de CO2."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 292,
+    "Question": "❓FFM.-¿Dónde deben ubicarse las mantas ignífugas para asegurar su eficacia?",
+    "Options": {
+      "a": "En lugares difíciles de ver para protegerlas del calor.",
+      "b": "Cercanas a las áreas con mayor riesgo de fuego.",
+      "c": "Al lado de salidas de emergencia.",
+      "d": "En contenedores cerrados."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 293,
+    "Question": "❓FFM.-¿Qué documento de referencia deben seguir los extintores portátiles en su selección?",
+    "Options": {
+      "a": "La NTP 666.",
+      "b": "El Protocolo de Montreal.",
+      "c": "Real Decreto 842/2002.",
+      "d": "UNE 23584."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 294,
+    "Question": "❓FFM.-¿Qué tipo de agente impulsor se utiliza en los extintores de presión no permanente?",
+    "Options": {
+      "a": "Aire a presión.",
+      "b": "Oxígeno.",
+      "c": "Gases inertes como nitrógeno o CO2.",
+      "d": "Aireadores naturales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 295,
+    "Question": "❓FFM.-¿Cuál es un ejemplo de extintor de presión permanente?",
+    "Options": {
+      "a": "Extintor con hidrocarburos halogenados en fase líquida y gaseosa.",
+      "b": "Extintor que utiliza solo aire comprimido.",
+      "c": "Extintor sin cilindro de gas impulsor.",
+      "d": "Extintor de presión atmosférica."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 296,
+    "Question": "❓FFM.-¿Qué es obligatorio indicar en las mantas ignífugas según su normativa?",
+    "Options": {
+      "a": "Instrucciones de almacenamiento en frío.",
+      "b": "Su tamaño.",
+      "c": "Métodos de reparación del material.",
+      "d": "La caducidad de las mismas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 297,
+    "Question": "❓FFM.-¿En qué caso se debe emplear el sistema de ventilación horizontal para control de humos?",
+    "Options": {
+      "a": "Edificios con estructuras de gran altura.",
+      "b": "Espacios de alta esbeltez.",
+      "c": "Edificios como túneles o aparcamientos.",
+      "d": "Áreas subterráneas únicamente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 298,
+    "Question": "❓FFM.-¿Cuál es el método adecuado para mantener una vía de evacuación libre de humo durante un incendio?",
+    "Options": {
+      "a": "Ventilación horizontal.",
+      "b": "Flotabilidad de los gases calientes.",
+      "c": "Presurización diferencial.",
+      "d": "Ventilación natural únicamente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 299,
+    "Question": "❓FFM.-¿Qué tipo de sistema es adecuado para extraer los humos generados durante un incendio?",
+    "Options": {
+      "a": "Ventilación horizontal.",
+      "b": "Extracción de humos.",
+      "c": "Flotabilidad de los gases calientes.",
+      "d": "Presurización diferencial."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 300,
+    "Question": "❓FFM.-¿Cuál de los siguientes sistemas controla la propagación de humo entre espacios dentro de un edificio?",
+    "Options": {
+      "a": "Ventilación horizontal.",
+      "b": "Flotabilidad de los gases calientes.",
+      "c": "Presurización diferencial.",
+      "d": "Extracción de humos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 301,
+    "Question": "❓FFM.-¿Qué estrategia de control de humos se aplica en edificios con techos altos?",
+    "Options": {
+      "a": "Extracción de humos.",
+      "b": "Presurización diferencial.",
+      "c": "Ventilación horizontal.",
+      "d": "Flotabilidad de los gases calientes."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 302,
+    "Question": "❓FFM.-¿Qué factor es importante al dimensionar un sistema de ventilación para evacuación de humos?",
+    "Options": {
+      "a": "La capacidad de extracción del sistema.",
+      "b": "La resistencia del material del edificio.",
+      "c": "La ubicación de las salidas de emergencia.",
+      "d": "La presencia de sistemas automáticos de incendio."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 303,
+    "Question": "❓FFM.-¿Qué tipo de extintores están sujetos a una presión atmosférica?",
+    "Options": {
+      "a": "Extintores de presión permanente.",
+      "b": "Extintores de presión no permanente.",
+      "c": "Extintores de gas inerte.",
+      "d": "Extintores de alta presión."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 304,
+    "Question": "❓FFM.-¿Qué tipo de agente extintor se recomienda evitar por sus efectos negativos en la capa de ozono?",
+    "Options": {
+      "a": "El nitrógeno.",
+      "b": "El anhídrido carbónico.",
+      "c": "Los halones.",
+      "d": "Los hidrocarburos halogenados."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 305,
+    "Question": "❓FFM.-¿Qué debe incluir el envase de las mantas ignífugas para su adecuado mantenimiento?",
+    "Options": {
+      "a": "Instrucciones para la instalación del sistema de control de humos.",
+      "b": "Planos del edificio con las rutas de evacuación.",
+      "c": "Manual de uso en situaciones de emergencia.",
+      "d": "Instrucciones de mantenimiento y caducidad."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 306,
+    "Question": "❓FFM.-¿Qué debe garantizar un sistema de alumbrado de emergencia?",
+    "Options": {
+      "a": "La seguridad en las zonas de acceso a los servicios de extinción.",
+      "b": "La iluminación en las zonas de evacuación hasta las salidas.",
+      "c": "La visibilidad del equipo de protección personal.",
+      "d": "La señalización de las zonas de fuego."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 307,
+    "Question": "❓FFM.-¿Qué elemento es esencial para extinguir pequeños fuegos por sofocación?",
+    "Options": {
+      "a": "Una manta ignífuga.",
+      "b": "Un extintor de presión permanente.",
+      "c": "Un sistema de ventilación horizontal.",
+      "d": "Un sistema de presurización diferencial."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 308,
+    "Question": "❓FFM.-¿Cuál es la principal función de los sistemas de control de humos y calor en un incendio?",
+    "Options": {
+      "a": "Proveer un sistema de ventilación automática.",
+      "b": "Limitar los efectos del calor y los humos.",
+      "c": "Extinguir los incendios de forma inmediata.",
+      "d": "Aumentar la temperatura de los humos para facilitar su salida."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 309,
+    "Question": "❓FFM.-¿Qué sistema de control de humos es adecuado para espacios con reducida esbeltez?",
+    "Options": {
+      "a": "Flotabilidad de los gases calientes.",
+      "b": "Presurización diferencial.",
+      "c": "Ventilación horizontal.",
+      "d": "Extracción de humos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 310,
+    "Question": "❓FFM.-¿Qué estrategia de control de humos se utiliza en edificios de una planta o multiplanta con atrios?",
+    "Options": {
+      "a": "Ventilación horizontal.",
+      "b": "Extracción de humos.",
+      "c": "Presurización diferencial.",
+      "d": "Flotabilidad de los gases calientes."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 311,
+    "Question": "❓FFM.-¿Qué característica tienen los extintores de presión permanente?",
+    "Options": {
+      "a": "Su agente extintor tiene su propia presión de impulsión.",
+      "b": "Están siempre presurizados con gas inerte.",
+      "c": "Son adecuados solo para incendios en espacios pequeños.",
+      "d": "No requieren mantenimiento frecuente."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 312,
+    "Question": "❓FFM.-¿En qué parte de un extintor de presión no permanente se encuentra la válvula de seguridad?",
+    "Options": {
+      "a": "En la parte inferior del recipiente.",
+      "b": "En la parte superior del recipiente.",
+      "c": "En el tubo de salida.",
+      "d": "En el manómetro del extintor."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 313,
+    "Question": "❓FFM.-¿Qué factor determina el tamaño del fuego al elegir un extintor portátil?",
+    "Options": {
+      "a": "El tipo de agente extintor que contiene el extintor.",
+      "b": "La capacidad del recipiente del extintor.",
+      "c": "La eficacia del extintor según el código correspondiente.",
+      "d": "El diseño del sistema de ventilación del edificio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 314,
+    "Question": "❓FFM.-¿Qué aspecto de las mantas ignífugas debe verificarse antes de su fabricación o importación?",
+    "Options": {
+      "a": "La caducidad del producto.",
+      "b": "Su resistencia al calor.",
+      "c": "El tipo de material utilizado.",
+      "d": "La compatibilidad con otros sistemas de extinción."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 315,
+    "Question": "❓FFM.-¿Qué tipo de material se utiliza principalmente para las mantas ignífugas?",
+    "Options": {
+      "a": "Material flexible.",
+      "b": "Material metálico.",
+      "c": "Material plástico.",
+      "d": "Material sólido."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 316,
+    "Question": "❓FFM.-¿Qué tipo de sistema de control de humos se recomienda cuando se han utilizado sistemas de supresión de incendios?",
+    "Options": {
+      "a": "Flotabilidad de los gases calientes.",
+      "b": "Ventilación horizontal.",
+      "c": "Extracción de humos.",
+      "d": "Presurización diferencial."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 317,
+    "Question": "❓FFM.-¿Cuál es la duración aproximada de un extintor portátil durante su uso?",
+    "Options": {
+      "a": "5 a 15 segundos.",
+      "b": "8 a 60 segundos.",
+      "c": "2 a 10 minutos.",
+      "d": "30 a 90 segundos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 318,
+    "Question": "❓FFM.-¿Qué se debe hacer antes de utilizar un extintor portátil?",
+    "Options": {
+      "a": "Realizar una descarga completa de prueba.",
+      "b": "Usarlo inmediatamente en la dirección del fuego.",
+      "c": "Dirigir el chorro a las llamas en movimientos circulares.",
+      "d": "Haber recibido formación práctica en su uso."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 319,
+    "Question": "❓FFM.-¿Qué riesgo puede implicar un extintor en condiciones de emergencia?",
+    "Options": {
+      "a": "Ruido excesivo.",
+      "b": "Reducción de visibilidad.",
+      "c": "Proyección inesperada de fluidos.",
+      "d": "Daños estructurales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 320,
+    "Question": "❓FFM.-¿Qué medida debe tomarse al extinguir un incendio de líquidos?",
+    "Options": {
+      "a": "Realizar un barrido superficial para evitar el derrame del líquido.",
+      "b": "Dirigir el chorro directamente al centro de las llamas.",
+      "c": "Aplicar el agente extintor en un punto fijo.",
+      "d": "Hacer una descarga de prueba hacia el fuego."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 321,
+    "Question": "❓FFM.-¿Qué se debe hacer con la manguera antes de usar el extintor si está presente?",
+    "Options": {
+      "a": "Dejarla en el suelo.",
+      "b": "Asirla por la boquilla para evitar salidas incontroladas.",
+      "c": "Quitarla del extintor.",
+      "d": "Sostenerla por el extremo opuesto a la boquilla."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 322,
+    "Question": "❓FFM.-¿Qué precaución se debe tener con un extintor de CO2?",
+    "Options": {
+      "a": "Utilizar guantes aislantes.",
+      "b": "Dirigir la boquilla hacia personas para ver si funciona.",
+      "c": "Sostener la boquilla por la parte aislada.",
+      "d": "Aplicarlo sin distinción en cualquier material."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 323,
+    "Question": "❓FFM.-¿Qué procedimiento es esencial antes de presionar la palanca de un extintor?",
+    "Options": {
+      "a": "Retirar el pasador de seguridad tirando de su anilla.",
+      "b": "Agitar el extintor para activar el agente.",
+      "c": "Conectar el extintor a una fuente de electricidad.",
+      "d": "Apretar la boquilla."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 324,
+    "Question": "❓FFM.-¿Cuál es la distancia mínima recomendada para acercarse al fuego con el extintor?",
+    "Options": {
+      "a": "0,5 metros.",
+      "b": "1 metro.",
+      "c": "2 metros.",
+      "d": "5 metros."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 325,
+    "Question": "❓FFM.-¿Qué acción se debe realizar si se usa un extintor en espacios abiertos?",
+    "Options": {
+      "a": "Dirigirse contra el viento.",
+      "b": "Ignorar la dirección del viento.",
+      "c": "Acercarse en la dirección opuesta al viento.",
+      "d": "Acercarse en la dirección del viento."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 326,
+    "Question": "❓FFM.-¿Qué puede causar una proximidad excesiva al fuego con un extintor?",
+    "Options": {
+      "a": "Mayor efectividad en la extinción del fuego.",
+      "b": "Mayor alcance del agente extintor.",
+      "c": "Posibilidad de quemaduras y daños en la piel.",
+      "d": "Una descarga controlada."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 327,
+    "Question": "❓FFM.-¿Cuál es la primera acción al usar un extintor portátil?",
+    "Options": {
+      "a": "Descolgar el extintor asiéndolo por la maneta.",
+      "b": "Presionar la palanca de descarga.",
+      "c": "Agitar el extintor.",
+      "d": "Comprobar la presión del gas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 328,
+    "Question": "❓FFM.-¿Qué se debe hacer con un extintor portátil si está en malas condiciones?",
+    "Options": {
+      "a": "Utilizarlo solo en emergencias graves.",
+      "b": "Intentar arreglarlo rápidamente.",
+      "c": "No utilizarlo y buscar otro.",
+      "d": "Usarlo con cuidado."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 329,
+    "Question": "❓FFM.-¿Qué se debe verificar al usar un extintor con válvula de seguridad?",
+    "Options": {
+      "a": "Que esté cerrado firmemente.",
+      "b": "Que la válvula esté desgastada.",
+      "c": "Que la válvula tenga presión suficiente.",
+      "d": "Que esté en posición sin riesgo para el usuario."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 330,
+    "Question": "❓FFM.-¿Cuál es la función de una pequeña descarga de comprobación?",
+    "Options": {
+      "a": "Asegurar el alcance del agente.",
+      "b": "Medir la temperatura del fuego.",
+      "c": "Verificar la salida del agente extintor.",
+      "d": "Determinar la duración de uso del extintor."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 331,
+    "Question": "❓FFM.-¿Qué se debe evitar en incendios de líquidos al usar un extintor?",
+    "Options": {
+      "a": "Alejarse del fuego lentamente.",
+      "b": "Derramar el líquido por la presión de impulsión.",
+      "c": "Aplicar el agente extintor desde la base.",
+      "d": "Usar el extintor sin agitar."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 332,
+    "Question": "❓FFM.-¿Qué formación adicional se recomienda para el usuario de un extintor?",
+    "Options": {
+      "a": "Conocimientos avanzados en extinción de incendios.",
+      "b": "Dominio de técnicas de rescate.",
+      "c": "Certificación en primeros auxilios.",
+      "d": "Cursillo práctico en uso del extintor."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 333,
+    "Question": "❓FFM.-¿Qué se recomienda para garantizar el uso eficaz de un extintor portátil?",
+    "Options": {
+      "a": "Formación previa en conocimientos básicos y práctica en su uso.",
+      "b": "Consultar el manual en el momento de emergencia.",
+      "c": "Supervisión de un experto en incendios.",
+      "d": "Mantener el extintor en posición horizontal."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 334,
+    "Question": "❓FFM.-¿Cuál es el objetivo principal de un plan de evacuación en centros sanitarios?",
+    "Options": {
+      "a": "Facilitar la localización de equipos médicos.",
+      "b": "Gestionar emergencias menores.",
+      "c": "Garantizar la seguridad de personas en caso de emergencia.",
+      "d": "Permitir el acceso a los bomberos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 335,
+    "Question": "❓FFM.-¿Dónde se deben establecer los puntos de encuentro en un centro sanitario?",
+    "Options": {
+      "a": "Dentro del edificio, en la planta baja.",
+      "b": "Fuera del edificio, en áreas seguras.",
+      "c": "En la entrada principal.",
+      "d": "En los estacionamientos de personal."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 336,
+    "Question": "❓FFM.-¿Qué es necesario para llevar a cabo una evacuación escalonada en centros sanitarios?",
+    "Options": {
+      "a": "Control de acceso en todas las entradas.",
+      "b": "Control de acceso en todas las entradas.",
+      "c": "Priorizar la evacuación de empleados.",
+      "d": "Determinar áreas más cercanas al peligro."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 337,
+    "Question": "❓FFM.-¿Cuál de las siguientes opciones es fundamental en un plan de evacuación?",
+    "Options": {
+      "a": "Diseño de rutas de evacuación con obstáculos controlados.",
+      "b": "Espacios pequeños para optimizar el flujo.",
+      "c": "Instalación de alarmas sonoras únicamente.",
+      "d": "Señalización de rutas de evacuación claramente visibles."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 338,
+    "Question": "❓FFM.-¿Qué debe hacer un responsable de planta en una evacuación?",
+    "Options": {
+      "a": "Priorizar la evacuación del personal administrativo.",
+      "b": "Liderar la evacuación en su área asignada.",
+      "c": "Bloquear las salidas tras la evacuación.",
+      "d": "Apagar cualquier dispositivo electrónico."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 339,
+    "Question": "❓FFM.-¿Qué debe hacer el usuario con el extintor antes de acercarse al fuego?",
+    "Options": {
+      "a": "Colocarlo en posición horizontal.",
+      "b": "Realizar una descarga prolongada.",
+      "c": "Asegurar que la manguera está bien colocada.",
+      "d": "Realizar una pequeña descarga de prueba."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 340,
+    "Question": "❓FFM.-¿En qué dirección debe acercarse al fuego el usuario al aire libre?",
+    "Options": {
+      "a": "En la dirección del viento.",
+      "b": "En contra de la dirección del viento.",
+      "c": "En cualquier dirección.",
+      "d": "Desde un ángulo perpendicular."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 341,
+    "Question": "❓FFM.-¿Cómo se debe proyectar el agente extintor en incendios de líquidos?",
+    "Options": {
+      "a": "Directamente a la llama central.",
+      "b": "Con una proyección intermitente.",
+      "c": "De manera vertical y concentrada.",
+      "d": "Superficialmente con un barrido horizontal."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 342,
+    "Question": "❓FFM.-¿Qué se debe comprobar antes de accionar un extintor de CO2?",
+    "Options": {
+      "a": "Que la manguera está en la posición superior.",
+      "b": "Que la boquilla esté dirigida a la base de la llama.",
+      "c": "Que la boquilla se agarre por su parte aislada.",
+      "d": "Que el pasador esté cerrado."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 343,
+    "Question": "❓FFM.-¿Cuál es la principal función del sistema de alarma en un plan de evacuación?",
+    "Options": {
+      "a": "Advertir a personas fuera del edificio.",
+      "b": "Emitir señales visuales en lugares sin personas.",
+      "c": "Notificar de forma audible en todo el centro.",
+      "d": "Desactivar automáticamente los equipos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 344,
+    "Question": "❓FFM.-¿Para qué se utilizan las zonas de refugio en un plan de evacuación?",
+    "Options": {
+      "a": "Para almacenar equipos de emergencia.",
+      "b": "Para dar un lugar seguro a personas con movilidad reducida.",
+      "c": "Para realizar el conteo de evacuados.",
+      "d": "Para estacionar vehículos de emergencia."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 345,
+    "Question": "❓FFM.-¿Qué se debe hacer para verificar la funcionalidad del extintor al inicio?",
+    "Options": {
+      "a": "Comprobar el peso del extintor.",
+      "b": "Apretar la boquilla sin realizar ninguna descarga.",
+      "c": "Realizar una pequeña descarga de comprobación.",
+      "d": "Verificar el color de la válvula."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 346,
+    "Question": "❓FFM.-¿Qué medida se debe tomar tras cada simulacro de evacuación?",
+    "Options": {
+      "a": "Revisar únicamente las rutas de salida.",
+      "b": "Iniciar otro simulacro inmediatamente.",
+      "c": "Cambiar los puntos de encuentro.",
+      "d": "Evaluar posibles fallos o áreas de mejora."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 347,
+    "Question": "❓FFM.-¿Cuál es la duración aproximada de un extintor portátil al ser utilizado en una emergencia?",
+    "Options": {
+      "a": "Entre 5 y 45 segundos.",
+      "b": "Entre 8 y 60 segundos.",
+      "c": "Entre 15 y 75 segundos.",
+      "d": "Entre 10 y 50 segundos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 348,
+    "Question": "❓FFM.-¿Qué se debe hacer antes de usar un extintor de CO2 para evitar accidentes?",
+    "Options": {
+      "a": "Agitarlo antes de usar.",
+      "b": "Comprobar su temperatura.",
+      "c": "Agarrar la boquilla por la parte aislada.",
+      "d": "Apuntar al fuego desde más de un metro."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 349,
+    "Question": "❓FFM.-¿Cuál es una de las precauciones generales al usar un extintor portátil?",
+    "Options": {
+      "a": "Evitar el uso en espacios abiertos.",
+      "b": "Considerar la posible toxicidad del agente extintor.",
+      "c": "Dirigirlo hacia personas en riesgo.",
+      "d": "No usarlo en temperaturas frías."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 350,
+    "Question": "❓FFM.-¿Qué se debe hacer después de descolgar el extintor para comenzar su uso?",
+    "Options": {
+      "a": "Ponerlo en el suelo en posición vertical.",
+      "b": "Probar el chorro en el aire.",
+      "c": "Quitar el seguro.",
+      "d": "Verificar la presión del extintor."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 351,
+    "Question": "❓FFM.-En caso de un incendio de líquidos, ¿cómo debe dirigirse el chorro del extintor?",
+    "Options": {
+      "a": "Haciendo un barrido desde arriba.",
+      "b": "Proyectándolo superficialmente.",
+      "c": "Dirigiéndolo hacia las llamas de manera directa.",
+      "d": "Haciendo un barrido en sentido inverso."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 352,
+    "Question": "❓FFM.-¿Qué se recomienda hacer antes de usar un extintor portátil por primera vez?",
+    "Options": {
+      "a": "Leer el manual de instrucciones.",
+      "b": "Revisar la fecha de fabricación.",
+      "c": "Recibir un cursillo práctico.",
+      "d": "Verificar la cantidad de agente extintor."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 353,
+    "Question": "❓FFM.-¿Qué se debe hacer con el pasador de seguridad antes de usar el extintor?",
+    "Options": {
+      "a": "Sujetarlo firmemente.",
+      "b": "Comprobar su posición.",
+      "c": "Ignorarlo si está en posición segura.",
+      "d": "Retirarlo tirando de la anilla."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 354,
+    "Question": "❓FFM.-¿Cuál es la distancia recomendada para acercarse al fuego al usar un extintor?",
+    "Options": {
+      "a": "Unos 30 centímetros.",
+      "b": "Un metro y medio.",
+      "c": "Aproximadamente un metro.",
+      "d": "No menos de dos metros."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 355,
+    "Question": "❓FFM.-¿Cuál es el propósito de realizar una pequeña descarga de comprobación?",
+    "Options": {
+      "a": "Confirmar la salida del agente extintor.",
+      "b": "Probar el alcance del chorro.",
+      "c": "Asegurarse de que el pasador esté en posición.",
+      "d": "Despresurizar el extintor."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 356,
+    "Question": "❓FFM.-En caso de que haya viento, ¿cómo debe aproximarse la persona que utiliza el extintor?",
+    "Options": {
+      "a": "En dirección opuesta al viento.",
+      "b": "En dirección del viento.",
+      "c": "A la misma altura del fuego.",
+      "d": "En perpendicular al fuego."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 357,
+    "Question": "❓FFM.-¿Qué se debe evitar al proyectar el agente extintor en incendios de líquidos?",
+    "Options": {
+      "a": "Provocar el derrame del líquido.",
+      "b": "Dirigir el chorro en la base.",
+      "c": "Realizar un movimiento rápido.",
+      "d": "Dispersar el líquido."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 358,
+    "Question": "❓FFM.-¿Por qué es importante asir la boquilla de la manguera al usar un extintor con manguera?",
+    "Options": {
+      "a": "Para proteger al usuario del calor.",
+      "b": "Para sostener el extintor en caso de caída.",
+      "c": "Para liberar presión adicional.",
+      "d": "Para evitar salida incontrolada del agente."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 359,
+    "Question": "❓FFM.-¿Qué peligro representa un mal estado de la válvula de seguridad de un extintor?",
+    "Options": {
+      "a": "Riesgo de no liberar el agente extintor.",
+      "b": "Desprendimiento de agentes tóxicos.",
+      "c": "Proyección de fluidos inesperados.",
+      "d": "Incapacidad de detener el fuego."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 360,
+    "Question": "❓FFM.-¿Cuál es una precaución clave al usar un extintor en proximidad al fuego?",
+    "Options": {
+      "a": "Dirigirlo siempre desde el suelo.",
+      "b": "Aumentar la distancia progresivamente.",
+      "c": "Apuntar siempre hacia el humo.",
+      "d": "Evitar quemaduras por proximidad excesiva."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 361,
+    "Question": "❓FFM.-¿Qué información aparece en la etiqueta de un extintor?",
+    "Options": {
+      "a": "Modo de empleo y precauciones.",
+      "b": "Cantidad de agente restante.",
+      "c": "Año de fabricación.",
+      "d": "Listado de sustancias combustibles."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 362,
+    "Question": "❓FFM.-¿Cuál de los siguientes es un riesgo asociado al uso de un extintor sin formación previa?",
+    "Options": {
+      "a": "Riesgo de mojarse.",
+      "b": "Mayor duración de uso.",
+      "c": "Posibilidad de uso incorrecto.",
+      "d": "Reducción de efectividad."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 363,
+    "Question": "❓FFM.-¿Cuál es el objetivo principal del plan de emergencia de un centro de trabajo?",
+    "Options": {
+      "a": "Proteger únicamente las instalaciones.",
+      "b": "Minimizar las consecuencias de las emergencias.",
+      "c": "Proteger a las personas y las instalaciones.",
+      "d": "Permitir el uso de ascensores en emergencias."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 364,
+    "Question": "❓FFM.-¿Qué longitud máxima deben tener los recorridos de evacuación para ser considerados adecuados?",
+    "Options": {
+      "a": "30 m.",
+      "b": "100 m.",
+      "c": "25 m.",
+      "d": "50 m."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 365,
+    "Question": "❓FFM.-¿Cuál es la pendiente máxima permitida para rampas con longitud menor de 3 m?",
+    "Options": {
+      "a": "12 %.",
+      "b": "10 %.",
+      "c": "15 %.",
+      "d": "8 %."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 366,
+    "Question": "❓FFM.-¿Qué espacio mínimo debe considerarse por persona en un espacio exterior seguro?",
+    "Options": {
+      "a": "1 m².",
+      "b": "0,5 m².",
+      "c": "1,5 m².",
+      "d": "0,3 m²."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 367,
+    "Question": "❓FFM.-¿Cuál de los siguientes elementos NO se considera para la altura de evacuación?",
+    "Options": {
+      "a": "Escaleras de emergencia.",
+      "b": "Rampas con parada automática.",
+      "c": "Ascensores.",
+      "d": "Pasillos de evacuación."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 368,
+    "Question": "❓FFM.-¿Qué debe hacerse al activarse la señal de evacuación?",
+    "Options": {
+      "a": "Salir inmediatamente sin comprobar las vías de evacuación.",
+      "b": "Comprobar que las vías de evacuación están practicables.",
+      "c": "Permitir el uso de los ascensores.",
+      "d": "Recoger objetos personales antes de salir."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 369,
+    "Question": "❓FFM.-¿Cuál es la función del espacio exterior seguro en la evacuación?",
+    "Options": {
+      "a": "Proporcionar un lugar seguro para los ocupantes.",
+      "b": "Servir como almacenamiento de objetos personales.",
+      "c": "Facilitar el uso de rampas mecánicas.",
+      "d": "Actuar como sector de incendio."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 370,
+    "Question": "❓FFM.-¿Qué se recomienda en caso de evacuación en una zona hospitalaria?",
+    "Options": {
+      "a": "Evacuar inmediatamente sin comunicación previa.",
+      "b": "Tranquilizar y guiar a las personas.",
+      "c": "Permitir el uso de ascensores.",
+      "d": "Permitir que se recojan objetos personales."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 371,
+    "Question": "❓FFM.-¿Cuál es el mínimo de salidas que debe tener un recinto con ocupación mayor de 100 personas?",
+    "Options": {
+      "a": "Ninguna, basta con una salida principal.",
+      "b": "Solo una salida si hay escaleras.",
+      "c": "Tres salidas.",
+      "d": "Dos salidas."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 372,
+    "Question": "❓FFM.-¿Qué debe evitarse durante la evacuación en caso de incendio?",
+    "Options": {
+      "a": "Ayudar a las personas impedidas.",
+      "b": "El uso de ascensores.",
+      "c": "Guía a las personas hacia las salidas.",
+      "d": "Notificar al Jefe de Emergencia."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 373,
+    "Question": "❓FFM.-¿Cuál es la función principal de un pasillo protegido?",
+    "Options": {
+      "a": "Ser una ruta alternativa para el personal administrativo.",
+      "b": "Almacenar equipos de emergencia.",
+      "c": "Servir como ruta segura hacia una salida.",
+      "d": "Facilitar el uso de ascensores en emergencias."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 374,
+    "Question": "❓FFM.-¿Qué se requiere para que una planta disponga de una única salida?",
+    "Options": {
+      "a": "Que tenga una ocupación menor de 100 personas.",
+      "b": "Que su altura de evacuación sea superior a 50 m.",
+      "c": "Que no haya pasillos protegidos.",
+      "d": "Que haya menos de dos recorridos alternativos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 375,
+    "Question": "❓FFM.-¿Qué medida de actuación se debe recordar en una evacuación hospitalaria?",
+    "Options": {
+      "a": "Priorizar la evacuación de todo el personal.",
+      "b": "Priorizar el interés colectivo frente al individual.",
+      "c": "Evitar el uso de vías preestablecidas.",
+      "d": "Permitir que cada persona decida su ruta de evacuación."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 376,
+    "Question": "❓FFM.-¿Qué debe incluir un plan de evacuación hospitalario?",
+    "Options": {
+      "a": "Normas generales para el personal y definición de prioridades.",
+      "b": "Solo instrucciones para los pacientes.",
+      "c": "Información sobre ascensores.",
+      "d": "Únicamente directrices para la unidad de cuidados intensivos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 377,
+    "Question": "❓FFM.-¿Qué unidades deben contar con sistemáticas especiales de evacuación en un hospital?",
+    "Options": {
+      "a": "Cuidados intensivos y quirófanos.",
+      "b": "Áreas administrativas.",
+      "c": "Cafetería y sala de espera.",
+      "d": "Almacén de equipos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 378,
+    "Question": "❓FFM.-¿Qué debe verificarse una vez en el exterior después de una evacuación?",
+    "Options": {
+      "a": "Que todos los ascensores funcionan.",
+      "b": "Que los equipos están seguros.",
+      "c": "Que todas las zonas asignadas han sido evacuadas.",
+      "d": "Que los pacientes tienen sus pertenencias."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 379,
+    "Question": "❓FFM.-¿Qué debe hacer el personal al comenzar una evacuación en caso de incendio?",
+    "Options": {
+      "a": "Recoger sus objetos personales.",
+      "b": "Mantener la calma y guiar a los ocupantes.",
+      "c": "Usar el ascensor para evacuar más rápido.",
+      "d": "Notificar el inicio de la evacuación a todos los servicios."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 380,
+    "Question": "❓FFM.-¿Qué elemento se considera parte del recorrido de evacuación?",
+    "Options": {
+      "a": "Pasillos.",
+      "b": "Ascensores.",
+      "c": "Almacenes.",
+      "d": "Despachos."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 381,
+    "Question": "❓FFM.-¿Qué debe evitarse al evacuar en un incendio?",
+    "Options": {
+      "a": "Recoger objetos personales.",
+      "b": "Guiar a las personas hacia la salida.",
+      "c": "Mantener la calma.",
+      "d": "Ayudar a personas impedidas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 382,
+    "Question": "❓FFM.-¿A qué distancia de la fachada se debe excluir una franja en un espacio exterior seguro?",
+    "Options": {
+      "a": "15 metros.",
+      "b": "20 metros.",
+      "c": "5 metros.",
+      "d": "30 metros."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 383,
+    "Question": "❓FFM.-¿Qué espacios deben contar con sistemáticas de evacuación específicas en hospitales?",
+    "Options": {
+      "a": "Consultas de urgencias.",
+      "b": "Unidades de cuidados intensivos y quirófanos.",
+      "c": "Almacenes de suministros médicos.",
+      "d": "Salas de espera."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 384,
+    "Question": "❓FFM.-¿Cuál es el área mínima que debe disponer una persona asignada a un recorrido de evacuación?",
+    "Options": {
+      "a": "0,5 m².",
+      "b": "1,0 m².",
+      "c": "0,2 m².",
+      "d": "2,0 m²."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 385,
+    "Question": "❓FFM.-¿Qué pendiente máxima debe tener una rampa con longitud menor de 10 m?",
+    "Options": {
+      "a": "5 %.",
+      "b": "12 %.",
+      "c": "10 %.",
+      "d": "8 %."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 386,
+    "Question": "❓FFM.-¿Qué función cumple el espacio exterior seguro en una evacuación?",
+    "Options": {
+      "a": "Proporciona un lugar de seguridad para los ocupantes.",
+      "b": "Permite almacenar equipos de emergencia.",
+      "c": "Sirve de acceso rápido al edificio.",
+      "d": "Facilita el uso de ascensores."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 387,
+    "Question": "❓FFM.-¿Cuántas salidas puede tener una planta que cumpla con los requisitos establecidos?",
+    "Options": {
+      "a": "Tres salidas.",
+      "b": "Una salida.",
+      "c": "Cuatro salidas.",
+      "d": "Sin límite de salidas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 388,
+    "Question": "❓FFM.-¿Qué debe hacerse si una vía de evacuación no es practicable?",
+    "Options": {
+      "a": "Usarla de todas formas.",
+      "b": "Ignorarla y continuar la evacuación.",
+      "c": "Intentar desbloquearla sin ayuda.",
+      "d": "Notificarlo al Jefe de Emergencia."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 389,
+    "Question": "❓FFM.-¿Qué espacios pueden constituir un sector de incendio?",
+    "Options": {
+      "a": "Solo plantas bajas.",
+      "b": "Solo los pasillos protegidos.",
+      "c": "Cualquier espacio cerrado con elementos constructivos separadores.",
+      "d": "Solo las áreas administrativas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 390,
+    "Question": "❓FFM.-¿Cuál es la altura máxima permitida para una planta con una única salida?",
+    "Options": {
+      "a": "28 m.",
+      "b": "50 m.",
+      "c": "15 m.",
+      "d": "10 m."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 391,
+    "Question": "❓FFM.-¿Qué se debe verificar tras la evacuación completa de una zona?",
+    "Options": {
+      "a": "Que todos los equipos están seguros.",
+      "b": "Que todas las pertenencias fueron recogidas.",
+      "c": "Que los ascensores funcionen.",
+      "d": "Que no haya personas en el área."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 392,
+    "Question": "❓FFM.-¿Qué establece la NTP sobre el cálculo de tiempos de evacuación?",
+    "Options": {
+      "a": "No es necesario en un centro de trabajo.",
+      "b": "Solo aplica a hospitales.",
+      "c": "Debe ser adecuado para una evacuación eficiente.",
+      "d": "Solo es relevante para edificios residenciales."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 393,
+    "Question": "❓FFM.-¿Qué no se permite al realizar una evacuación en hospitales?",
+    "Options": {
+      "a": "Usar ascensores.",
+      "b": "Ayudar a los pacientes críticos.",
+      "c": "Tranquilizar a los ocupantes.",
+      "d": "Seguir rutas preestablecidas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 394,
+    "Question": "❓FFM.-¿Qué distancia máxima debe tener el recorrido de evacuación hasta llegar a una salida alternativa?",
+    "Options": {
+      "a": "10 m.",
+      "b": "40 m.",
+      "c": "25 m.",
+      "d": "50 m."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 395,
+    "Question": "❓FFM.-¿Cuál es la pendiente máxima para una rampa de menos de 3 m de longitud?",
+    "Options": {
+      "a": "10 %.",
+      "b": "8 %.",
+      "c": "12 %.",
+      "d": "15 %."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 396,
+    "Question": "❓FFM.-¿Qué principio se debe priorizar en la evacuación hospitalaria en caso de desastre?",
+    "Options": {
+      "a": "Asegurar bienes materiales.",
+      "b": "Priorizar el interés individual.",
+      "c": "Dejar la evacuación a cada unidad.",
+      "d": "Primar el interés colectivo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 397,
+    "Question": "❓FFM.-¿Qué característica debe cumplir la puerta de salida de un edificio?",
+    "Options": {
+      "a": "Permitir el paso a un espacio exterior seguro.",
+      "b": "Tener una sola salida directa.",
+      "c": "Conducir al ascensor.",
+      "d": "Estar siempre cerrada."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 398,
+    "Question": "❓FFM.-¿Cómo deben ser las evacuaciones en las áreas críticas de un hospital?",
+    "Options": {
+      "a": "Realizadas solo en caso extremo.",
+      "b": "Ordenadas y en vías preestablecidas.",
+      "c": "Con prioridad para el personal.",
+      "d": "Sin consideración de prioridad."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 399,
+    "Question": "❓FFM.-¿Qué debe evitarse en los recorridos de evacuación para más de 50 personas?",
+    "Options": {
+      "a": "Recorridos de más de 2 m en altura ascendente.",
+      "b": "Recorridos en línea recta.",
+      "c": "El uso de rampas.",
+      "d": "Distancias mayores a 10 m."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 400,
+    "Question": "❓FFM.-¿Cuánto espacio exterior seguro debe haber disponible por persona?",
+    "Options": {
+      "a": "1 m².",
+      "b": "0,8 m².",
+      "c": "0,5 m².",
+      "d": "2 m²."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 401,
+    "Question": "❓FFM.-¿Qué debe hacer el personal de emergencia una vez en el exterior tras una evacuación?",
+    "Options": {
+      "a": "Entrar de nuevo al edificio.",
+      "b": "Informar al Jefe de Emergencia sobre la situación.",
+      "c": "Esperar instrucciones en silencio.",
+      "d": "Reorganizar los objetos dejados atrás."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 402,
+    "Question": "❓FFM.-¿Cuál es el tamaño máximo de un hueco en el centro de una escalera de evacuación permitida?",
+    "Options": {
+      "a": "2 m².",
+      "b": "5 m².",
+      "c": "3 m².",
+      "d": "1,3 m²."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 403,
+    "Question": "❓FFM.-¿Qué distancia máxima debe recorrer una persona hasta encontrar dos salidas alternativas en un hospital?",
+    "Options": {
+      "a": "50 m.",
+      "b": "100 m.",
+      "c": "25 m.",
+      "d": "75 m."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 404,
+    "Question": "❓FFM.-¿Qué norma de actuación es fundamental en la evacuación de hospitales?",
+    "Options": {
+      "a": "Priorizar los objetos personales.",
+      "b": "Primar el interés colectivo sobre el individual.",
+      "c": "Evitar evacuar pacientes críticos.",
+      "d": "Usar siempre el ascensor."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 405,
+    "Question": "❓FFM.-¿Qué tipo de hospital es menos probable de evacuar completamente?",
+    "Options": {
+      "a": "Hospitales pediátricos.",
+      "b": "Un hospital general.",
+      "c": "Hospitales psiquiátricos.",
+      "d": "Centros de rehabilitación."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 406,
+    "Question": "❓FFM.-¿Qué parámetro debe cumplirse para que un espacio se considere un sector de incendio?",
+    "Options": {
+      "a": "Estar cerrado y separado por elementos constructivos.",
+      "b": "Contar con al menos dos salidas.",
+      "c": "Tener un mínimo de 50 m².",
+      "d": "Tener un acceso directo al exterior."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 407,
+    "Question": "❓FFM.-¿Qué longitud máxima puede tener una rampa si su pendiente es del 8 %?",
+    "Options": {
+      "a": "3 m.",
+      "b": "5 m.",
+      "c": "Más de 10 m.",
+      "d": "Menos de 5 m."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 408,
+    "Question": "❓FFM.-¿Cómo se considera la evacuación de un hospital en casos de emergencia?",
+    "Options": {
+      "a": "Sencilla.",
+      "b": "Opcional.",
+      "c": "Difícil pero posible en algunas zonas.",
+      "d": "Innecesaria."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 409,
+    "Question": "❓FFM.-¿Qué acción no se permite durante la evacuación?",
+    "Options": {
+      "a": "Mantener la calma.",
+      "b": "Verificar cada área.",
+      "c": "Guiar a los ocupantes.",
+      "d": "Usar ascensores."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 410,
+    "Question": "❓FFM.-¿Qué función cumple el jefe de emergencia en el proceso de evacuación?",
+    "Options": {
+      "a": "Dirigir solo a los visitantes.",
+      "b": "Coordinar y recibir reportes del personal.",
+      "c": "Permitir el uso de ascensores.",
+      "d": "Asegurarse de que el personal recupere sus pertenencias."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 411,
+    "Question": "❓FFM.-¿Qué medida de seguridad es fundamental en el área externa segura?",
+    "Options": {
+      "a": "Tener al menos 0,5 m² por persona.",
+      "b": "Estar a una distancia de 15 metros de la fachada.",
+      "c": "Incluir rampas de acceso.",
+      "d": "Ser de acceso exclusivo para personal de seguridad."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 412,
+    "Question": "❓FFM.-¿Qué se requiere para que un hospital esté preparado para una posible evacuación?",
+    "Options": {
+      "a": "Contar con sistemáticas de evacuación preestablecidas.",
+      "b": "Tener puertas automáticas en cada área.",
+      "c": "Evitar la evacuación bajo cualquier circunstancia.",
+      "d": "Disponer de más de una rampa por área."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 413,
+    "Question": "❓FFM.-¿Qué debe evitarse al comenzar una evacuación en un centro hospitalario?",
+    "Options": {
+      "a": "Apagar las luces.",
+      "b": "Mantener la calma.",
+      "c": "Usar el ascensor.",
+      "d": "Eliminar obstáculos en las puertas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 414,
+    "Question": "❓FFM.-¿Qué actitud se recomienda al realizar la evacuación?",
+    "Options": {
+      "a": "Mantener la calma y evitar alarmar a otros.",
+      "b": "Gritar para llamar la atención.",
+      "c": "Agitar los brazos.",
+      "d": "Llevar objetos personales."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 415,
+    "Question": "❓FFM.-¿Qué debe hacerse si un objeto personal se cae durante la evacuación?",
+    "Options": {
+      "a": "Recogerlo.",
+      "b": "Pedir ayuda para recogerlo.",
+      "c": "Dejarlo y no intentar recuperarlo.",
+      "d": "Colocarlo en un sitio seguro."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 416,
+    "Question": "❓FFM.-¿Qué acción es fundamental para minimizar la inhalación de gases tóxicos en una zona con humo?",
+    "Options": {
+      "a": "Cubrirse la boca con las manos.",
+      "b": "Caminar rápido hacia la salida.",
+      "c": "Gatear y mantenerse a ras del suelo.",
+      "d": "Respirar por la boca."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 417,
+    "Question": "❓FFM.-¿Qué debe hacer el personal al terminar la evacuación en una zona segura?",
+    "Options": {
+      "a": "Volver a su puesto para asegurar el área.",
+      "b": "Mantener el orden y la tranquilidad.",
+      "c": "Verificar su equipo personal.",
+      "d": "Pedir instrucciones para regresar."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 418,
+    "Question": "❓FFM.-¿Qué debe hacer una persona atrapada en una habitación llena de humo?",
+    "Options": {
+      "a": "Humedecer una tela y tapar las rendijas de la puerta.",
+      "b": "Cerrar la ventana.",
+      "c": "Mantenerse de pie.",
+      "d": "Abrir todas las puertas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 419,
+    "Question": "❓FFM.-¿Qué acción debe evitarse para asegurar la disponibilidad de comunicación en una emergencia?",
+    "Options": {
+      "a": "Usar el interfono.",
+      "b": "Llamar al Jefe de Emergencia.",
+      "c": "Ocupar la línea telefónica.",
+      "d": "Mantener el teléfono a la mano."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 420,
+    "Question": "❓FFM.-¿Qué es importante hacer en caso de tener que salir por una puerta con fuego cerca?",
+    "Options": {
+      "a": "Salir lo más rápido posible.",
+      "b": "Mojar la puerta para enfriarla.",
+      "c": "Empujar la puerta con fuerza.",
+      "d": "Cerrar la puerta detrás de uno."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 421,
+    "Question": "❓FFM.-¿Cuál es la causa de la mayoría de las muertes en incendios?",
+    "Options": {
+      "a": "Falta de aire.",
+      "b": "Inhalación de humo.",
+      "c": "Caídas al evacuar.",
+      "d": "Quemaduras directas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 422,
+    "Question": "❓FFM.-¿Qué método de traslado se recomienda en una evacuación en horizontal?",
+    "Options": {
+      "a": "Sillas de ruedas.",
+      "b": "A pie.",
+      "c": "Cama del paciente.",
+      "d": "En camillas portátiles."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 423,
+    "Question": "❓FFM.-¿Cómo deben actuar los equipos de emergencia al usar extintores en un incendio?",
+    "Options": {
+      "a": "En parejas para mayor seguridad.",
+      "b": "Solo un miembro debe acercarse.",
+      "c": "Actuar individualmente.",
+      "d": "Usar el extintor de mayor tamaño."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 424,
+    "Question": "❓FFM.-¿Qué debe hacerse si el incendio está controlado?",
+    "Options": {
+      "a": "Retirarse inmediatamente del lugar.",
+      "b": "Apagar completamente el equipo eléctrico.",
+      "c": "Comunicarlo al Jefe de Emergencia.",
+      "d": "Desconectar las alarmas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 425,
+    "Question": "❓FFM.-¿Qué es lo primero que se debe evacuar en un hospital?",
+    "Options": {
+      "a": "Los documentos importantes.",
+      "b": "Los objetos personales.",
+      "c": "Los enfermos.",
+      "d": "Las pertenencias de valor."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 426,
+    "Question": "❓FFM.-¿En qué posición se deben colocar los objetos para evitar inhalación de gases en caso de fuego?",
+    "Options": {
+      "a": "En el suelo.",
+      "b": "En las ventanas.",
+      "c": "En la puerta.",
+      "d": "No se deben llevar."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 427,
+    "Question": "❓FFM.-¿Cómo se debe realizar la identificación de pacientes antes de una evacuación?",
+    "Options": {
+      "a": "Mediante brazalete o pegatina con datos básicos.",
+      "b": "Con un cartel en la cama.",
+      "c": "Verbalmente con los médicos.",
+      "d": "Con un expediente completo."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 428,
+    "Question": "❓FFM.-¿Qué método se utiliza si no es posible evacuar mediante sillas o camas?",
+    "Options": {
+      "a": "Traslado vertical sin uso de camas o sillas.",
+      "b": "Cargar al paciente a mano.",
+      "c": "Llamar a personal externo.",
+      "d": "Llevar al paciente en una silla de ruedas."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 429,
+    "Question": "❓FFM.-¿Cuál es la recomendación en caso de humo denso en el área de evacuación?",
+    "Options": {
+      "a": "Taparse con la ropa.",
+      "b": "Salir lo antes posible sin importar el humo.",
+      "c": "Caminar en línea recta.",
+      "d": "Esperar en el interior y cubrirse con una manta húmeda."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 430,
+    "Question": "❓FFM.-¿Cuál es el orden correcto de evacuación de pacientes?",
+    "Options": {
+      "a": "Enfermos impedidos primero.",
+      "b": "Todos los encamados primero.",
+      "c": "Pacientes que puedan moverse, luego encamados.",
+      "d": "Niños primero, luego adultos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 431,
+    "Question": "❓FFM.-¿Qué debe incluirse en una pulsera de identificación de un paciente?",
+    "Options": {
+      "a": "Color de piel.",
+      "b": "Número de cama y filiación.",
+      "c": "Número de teléfono.",
+      "d": "Firma del paciente."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 432,
+    "Question": "❓FFM.-¿Qué acción es recomendada si el humo ha inundado un área?",
+    "Options": {
+      "a": "Gatear a ras del suelo.",
+      "b": "Caminar hacia la salida.",
+      "c": "Respirar profundo para aguantar.",
+      "d": "Correr lo más rápido posible."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 433,
+    "Question": "❓FFM.-¿Qué debe hacer el personal al abandonar una zona con fuego incontrolable?",
+    "Options": {
+      "a": "Apagar todas las luces.",
+      "b": "Mantener las puertas abiertas.",
+      "c": "Llevar consigo objetos personales.",
+      "d": "Cerrar las puertas al salir."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 434,
+    "Question": "❓FFM.-¿Cuál es la acción correcta si se queda atrapado en una habitación durante un incendio?",
+    "Options": {
+      "a": "Salir por cualquier medio posible.",
+      "b": "Mojar la puerta para enfriarla y bloquear las rendijas.",
+      "c": "Dejar todas las puertas abiertas.",
+      "d": "Mantenerse de pie junto a la puerta."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 435,
+    "Question": "❓FFM.-¿Qué debe evitarse cuando el humo llena una habitación?",
+    "Options": {
+      "a": "Cubrirse la boca.",
+      "b": "Usar telas de algodón.",
+      "c": "Utilizar fibras sintéticas.",
+      "d": "Agacharse."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 436,
+    "Question": "❓FFM.-¿Cuál es el procedimiento si el incendio no se puede controlar?",
+    "Options": {
+      "a": "Continuar intentando apagarlo.",
+      "b": "Evacuar la zona y cerrar las puertas.",
+      "c": "Abandonar todo sin cerrar.",
+      "d": "Esperar instrucciones en el lugar."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 437,
+    "Question": "❓FFM.-¿Cuál es la recomendación general sobre la línea telefónica durante una emergencia?",
+    "Options": {
+      "a": "Mantenerla ocupada en todo momento.",
+      "b": "Usarla solo para avisos personales.",
+      "c": "Dejarla libre para comunicaciones esenciales.",
+      "d": "Desconectarla para evitar llamadas."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 438,
+    "Question": "❓FFM.-¿Qué se recomienda hacer con las puertas y ventanas al iniciar una evacuación?",
+    "Options": {
+      "a": "Dejarlas abiertas.",
+      "b": "Cerrar solo las ventanas.",
+      "c": "Cerrarlas para limitar el avance del fuego y el humo.",
+      "d": "Dejar una ventana abierta para ventilación."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 439,
+    "Question": "❓FFM.-¿Qué prioridad se sigue al evacuar un hospital en caso de emergencia?",
+    "Options": {
+      "a": "Primero evacuar a los pacientes y luego los bienes materiales.",
+      "b": "Primero evacuar los bienes materiales.",
+      "c": "Evacuar solo a los pacientes que puedan caminar.",
+      "d": "Comenzar por evacuar las áreas de personal."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 440,
+    "Question": "❓FFM.-¿Qué deben hacer los trabajadores en sus puestos de trabajo durante una emergencia?",
+    "Options": {
+      "a": "Abandonar el lugar de inmediato.",
+      "b": "Mantenerse en calma y esperar órdenes.",
+      "c": "Gritar para advertir a otros.",
+      "d": "Permanecer en su lugar hasta recibir instrucciones."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 441,
+    "Question": "❓FFM.-¿Qué objeto puede ser útil para bloquear el humo si se queda atrapado en una habitación?",
+    "Options": {
+      "a": "Toallas o trapos húmedos.",
+      "b": "Cortinas de plástico.",
+      "c": "Pañuelos de papel.",
+      "d": "Piezas de madera."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 442,
+    "Question": "❓FFM.-¿Qué es recomendable llevar al momento de evacuar una zona en emergencia?",
+    "Options": {
+      "a": "Documentos personales.",
+      "b": "Objetos de valor.",
+      "c": "Nada, solo la identificación es relevante.",
+      "d": "Equipos electrónicos."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 443,
+    "Question": "❓FFM.-¿Por qué se recomienda no usar el ascensor en una evacuación?",
+    "Options": {
+      "a": "Porque es más lento.",
+      "b": "Porque puede quedarse atrapado o llevar a zonas peligrosas.",
+      "c": "Porque no es necesario.",
+      "d": "Porque los pacientes no pueden usarlo."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 444,
+    "Question": "❓FFM.-¿Cuál es el orden de prioridad al evacuar a los pacientes encamados?",
+    "Options": {
+      "a": "Primero los que están más alejados de la salida.",
+      "b": "Primero los más cercanos a la salida.",
+      "c": "Todos a la vez.",
+      "d": "No hay prioridad específica."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 445,
+    "Question": "❓FFM.-¿Cuál de los siguientes grupos es responsable de trasladar enfermos en una evacuación?",
+    "Options": {
+      "a": "Únicamente los médicos.",
+      "b": "Solo el personal de seguridad.",
+      "c": "El personal de la unidad y el designado por el Comité de Catástrofes.",
+      "d": "Personal administrativo únicamente."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 446,
+    "Question": "❓FFM.-¿Qué actitud es fundamental durante la evacuación para evitar accidentes?",
+    "Options": {
+      "a": "Mantener la calma y evitar situaciones alarmistas.",
+      "b": "Correr hacia las salidas.",
+      "c": "Dar órdenes sin escuchar al responsable.",
+      "d": "Llevar consigo a los familiares."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 447,
+    "Question": "❓FFM.-¿Qué se debe hacer al encontrarse con una puerta caliente durante un incendio?",
+    "Options": {
+      "a": "Mojarla para enfriarla.",
+      "b": "Empujarla con fuerza para abrirla.",
+      "c": "Esperar a que se enfríe.",
+      "d": "Dejarla tal cual y continuar."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 448,
+    "Question": "❓FFM.-¿Cuál es la primera prioridad de evacuación en una emergencia hospitalaria?",
+    "Options": {
+      "a": "Documentación.",
+      "b": "Material médico.",
+      "c": "Bienes materiales.",
+      "d": "Pacientes."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 449,
+    "Question": "❓FFM.-¿Cómo se recomienda actuar en un incendio si no se tiene un equipo de protección adecuado?",
+    "Options": {
+      "a": "Agacharse y gatear hacia una salida segura.",
+      "b": "Correr rápidamente.",
+      "c": "Subirse a una mesa.",
+      "d": "Gritar para pedir ayuda."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 450,
+    "Question": "❓FFM.-¿Qué información debe contener la identificación de un paciente evacuado?",
+    "Options": {
+      "a": "Solo su nombre y edad.",
+      "b": "Número de cama, unidad de origen, filiación, diagnóstico y tratamiento.",
+      "c": "Su teléfono de contacto.",
+      "d": "Nombre de su doctor."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 451,
+    "Question": "❓FFM.-¿Qué se debe hacer si un incendio se controla pero no se apaga completamente?",
+    "Options": {
+      "a": "Informar al jefe de Emergencia y no abandonar el lugar.",
+      "b": "Abandonar el lugar de inmediato.",
+      "c": "Apagar los extintores.",
+      "d": "Retirar los objetos del área."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 452,
+    "Question": "❓FFM.-¿Quién debe decidir el método de traslado de los enfermos en una evacuación?",
+    "Options": {
+      "a": "Personal administrativo.",
+      "b": "Familiares de los pacientes.",
+      "c": "El facultativo responsable de la unidad.",
+      "d": "Los propios pacientes."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 453,
+    "Question": "❓FFM.-¿Qué se debe hacer con los enchufes al evacuar una zona en caso de emergencia?",
+    "Options": {
+      "a": "Dejar todos los aparatos encendidos.",
+      "b": "Llevar los aparatos consigo.",
+      "c": "Apagar las luces.",
+      "d": "Desconectar los enchufes para evitar cortocircuitos."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 454,
+    "Question": "❓FFM.-¿Qué medida se recomienda si una persona siente nerviosismo durante la evacuación?",
+    "Options": {
+      "a": "Ignorarla.",
+      "b": "Evitar el contacto con otras personas.",
+      "c": "Promover la ayuda mutua y calmar a la persona.",
+      "d": "Alejarla de los demás."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 455,
+    "Question": "❓FFM.-¿Qué elemento no debe olvidarse durante una evacuación hospitalaria?",
+    "Options": {
+      "a": "Medicamentos.",
+      "b": "Archivos personales.",
+      "c": "Documentos de personal.",
+      "d": "La identificación de los pacientes."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 456,
+    "Question": "❓FFM.-¿Qué debe hacer una persona atrapada si no puede abrir una puerta?",
+    "Options": {
+      "a": "Golpearla fuertemente.",
+      "b": "Romper las ventanas.",
+      "c": "Gritar para pedir ayuda.",
+      "d": "Bloquear la puerta con objetos mojados."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 457,
+    "Question": "❓FFM.-¿Qué tipo de traslado se realiza generalmente durante una evacuación?",
+    "Options": {
+      "a": "Traslado horizontal en la cama del enfermo.",
+      "b": "Traslado vertical con sillas.",
+      "c": "Traslado horizontal en camillas.",
+      "d": "Traslado vertical por el ascensor."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 458,
+    "Question": "❓FFM.-¿Cuál es la causa probable de muerte en un incendio?",
+    "Options": {
+      "a": "Falta de oxígeno.",
+      "b": "Quemaduras severas.",
+      "c": "Inhalación de humos tóxicos.",
+      "d": "Deshidratación."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 459,
+    "Question": "❓FFM.-¿Qué se debe evitar al evacuar pacientes?",
+    "Options": {
+      "a": "Mantener la calma.",
+      "b": "Utilizar el ascensor.",
+      "c": "Pedir ayuda.",
+      "d": "Identificar a los pacientes."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 460,
+    "Question": "❓FFM.-¿Qué debe incluir el plan de evacuación de un hospital?",
+    "Options": {
+      "a": "Solo un mapa.",
+      "b": "Instrucciones, señalización y asignación de roles.",
+      "c": "Documentos administrativos.",
+      "d": "Las normas internas de cada planta."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 461,
+    "Question": "❓FFM.-¿Cuál es una función de los celadores en la evacuación?",
+    "Options": {
+      "a": "Coordinar el plan de evacuación.",
+      "b": "Informar al personal médico.",
+      "c": "Ayudar en el traslado de los pacientes y en la seguridad.",
+      "d": "Informar a la administración."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 462,
+    "Question": "❓FFM.-¿Qué se debe hacer si el humo está bloqueando una salida?",
+    "Options": {
+      "a": "Buscar otra salida sin humo.",
+      "b": "Agacharse y gatear hasta la salida.",
+      "c": "Gritar para pedir ayuda.",
+      "d": "Cubrirse los ojos y seguir adelante."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 463,
+    "Question": "❓FFM.-¿Qué recurso técnico permite alertar sobre la presencia de humo en el centro sanitario?",
+    "Options": {
+      "a": "Extintores portátiles.",
+      "b": "Sistemas de detección de humo.",
+      "c": "Escaleras de emergencia.",
+      "d": "Equipos de socorro externos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 464,
+    "Question": "❓FFM.-¿Qué tipo de emergencia requiere el apoyo de medios externos para ser controlada?",
+    "Options": {
+      "a": "Conato de emergencia.",
+      "b": "Emergencia parcial.",
+      "c": "Emergencia general.",
+      "d": "Emergencia interna."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 465,
+    "Question": "❓FFM.-¿Cuál es la función principal de los planes de emergencia en un centro sanitario?",
+    "Options": {
+      "a": "Capacitar al personal para evacuación.",
+      "b": "Optimizar los recursos para controlar emergencias.",
+      "c": "Crear inventarios de equipos médicos.",
+      "d": "Proteger los archivos médicos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 466,
+    "Question": "❓FFM.-¿Cuál de las siguientes es una medida de protección en caso de accidente?",
+    "Options": {
+      "a": "Prevenir daños.",
+      "b": "Neutralizar la emergencia.",
+      "c": "Reparar las instalaciones dañadas.",
+      "d": "Reemplazar los recursos dañados."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 467,
+    "Question": "❓FFM.-¿Cómo se clasifica una emergencia que se puede controlar rápidamente con medios del sector afectado?",
+    "Options": {
+      "a": "Conato de emergencia.",
+      "b": "Emergencia parcial.",
+      "c": "Emergencia general.",
+      "d": "Emergencia externa."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 468,
+    "Question": "❓FFM.-¿Qué tipo de sistema está destinado específicamente para ayudar en la evacuación?",
+    "Options": {
+      "a": "Sistemas de detección.",
+      "b": "Sistemas de alarma.",
+      "c": "Medios de evacuación.",
+      "d": "Medios de extinción."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 469,
+    "Question": "❓FFM.-¿Qué método de traslado de enfermos es ideal cuando hay mucho humo?",
+    "Options": {
+      "a": "Levantamiento.",
+      "b": "Colchón.",
+      "c": "Silla de ruedas.",
+      "d": "Arrastre directo."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 470,
+    "Question": "❓FFM.-¿Qué método de arrastre es seguro y confortable pero requiere gran esfuerzo?",
+    "Options": {
+      "a": "Por levantamiento.",
+      "b": "Por arrastre con colchón.",
+      "c": "Por arrastre directo.",
+      "d": "Por arrastre con silla."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 471,
+    "Question": "❓FFM.-¿Qué emergencia en un centro sanitario puede requerir la movilización de todos los recursos del establecimiento?",
+    "Options": {
+      "a": "Conato de emergencia.",
+      "b": "Emergencia parcial.",
+      "c": "Emergencia general.",
+      "d": "Emergencia menor."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 472,
+    "Question": "❓FFM.-¿Qué deben hacer los celadores en caso de recibir una alerta?",
+    "Options": {
+      "a": "Informar al personal administrativo.",
+      "b": "Dirigirse al lugar de la emergencia con el equipo necesario.",
+      "c": "Revisar el sistema de detección de humo.",
+      "d": "Cerrar las puertas de todos los almacenes."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 473,
+    "Question": "❓FFM.-¿Qué actividad de los celadores está incluida en los planes de emergencia?",
+    "Options": {
+      "a": "Cerrar ventanas y puertas de almacenes.",
+      "b": "Acompañar al personal médico en la evacuación.",
+      "c": "Asegurar el suministro de agua.",
+      "d": "Realizar el mantenimiento de extintores."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 474,
+    "Question": "❓FFM.-¿Qué debe hacer una persona que detecta una emergencia en el centro?",
+    "Options": {
+      "a": "Evacuar el área inmediatamente.",
+      "b": "Ignorar la situación si no es grave.",
+      "c": "Activar la alarma o informar a la centralita.",
+      "d": "Avisar a los pacientes."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 475,
+    "Question": "❓FFM.-¿Cuál es la prioridad en una emergencia parcial en un centro sanitario?",
+    "Options": {
+      "a": "Evacuación del sector afectado hasta una zona segura.",
+      "b": "Evacuación total del edificio.",
+      "c": "Reubicar pacientes en otras camas.",
+      "d": "Apagar todas las luces."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 476,
+    "Question": "❓FFM.-¿Cuál es un medio de extinción que se utiliza en un establecimiento sanitario?",
+    "Options": {
+      "a": "Detectores de humo.",
+      "b": "Bocas de incendio.",
+      "c": "Señalización de salidas.",
+      "d": "Sistemas de alarmas."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 477,
+    "Question": "❓FFM.-¿Qué medida intenta evitar la aparición de situaciones no deseadas?",
+    "Options": {
+      "a": "Protección.",
+      "b": "Alarma.",
+      "c": "Reparación.",
+      "d": "Prevención."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 478,
+    "Question": "❓FFM.-¿Qué debe hacer el celador encargado de un montacamas en caso de emergencia?",
+    "Options": {
+      "a": "Usarlo desde el interior para la evacuación.",
+      "b": "Detener el montacamas en cada planta.",
+      "c": "Apagar el montacamas.",
+      "d": "Ayudar en las salidas de emergencia."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 479,
+    "Question": "❓FFM.-¿Cuál de estos es un recurso técnico de emergencia en un centro sanitario?",
+    "Options": {
+      "a": "Equipos de protección personal.",
+      "b": "Sistemas de control de acceso.",
+      "c": "Sistemas de alarma.",
+      "d": "Cámaras de seguridad."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 480,
+    "Question": "❓FFM.-¿Cuál es el objetivo de un plan de autoprotección?",
+    "Options": {
+      "a": "Ampliar las vías de evacuación.",
+      "b": "Mantener inventarios actualizados.",
+      "c": "Mejorar la estructura del edificio.",
+      "d": "Reducir la probabilidad de emergencias."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 481,
+    "Question": "❓FFM.-¿Qué deben hacer los celadores en una emergencia?",
+    "Options": {
+      "a": "Controlar a los pacientes.",
+      "b": "Coordinarse bajo instrucciones del jefe de intervención.",
+      "c": "Verificar el funcionamiento de los sistemas de seguridad.",
+      "d": "Desactivar los sistemas de alarma."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 482,
+    "Question": "❓FFM.-¿Qué tipo de emergencia puede limitarse a un solo sector?",
+    "Options": {
+      "a": "Emergencia general.",
+      "b": "Conato de emergencia.",
+      "c": "Emergencia parcial.",
+      "d": "Incendio de pequeño alcance."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 483,
+    "Question": "❓FFM.-¿Qué debe hacerse con el montacargas de cocina en una emergencia?",
+    "Options": {
+      "a": "Apagarlo.",
+      "b": "Usarlo solo para los equipos de intervención.",
+      "c": "Utilizarlo para evacuar pacientes.",
+      "d": "Reubicarlo en otro sector."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 484,
+    "Question": "❓FFM.-¿Qué elemento técnico permite informar sobre una emergencia?",
+    "Options": {
+      "a": "Vías de evacuación.",
+      "b": "Extintores portátiles.",
+      "c": "Sistema de alarma.",
+      "d": "Ascensores."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 485,
+    "Question": "❓FFM.-¿Qué emergencia requiere la actuación del personal y recursos externos?",
+    "Options": {
+      "a": "Emergencia general.",
+      "b": "Emergencia parcial.",
+      "c": "Conato de emergencia.",
+      "d": "Incidente menor."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 486,
+    "Question": "❓FFM.-¿Qué medida busca reparar los daños tras un accidente?",
+    "Options": {
+      "a": "Protección.",
+      "b": "Reparación.",
+      "c": "Alarma.",
+      "d": "Prevención."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 487,
+    "Question": "❓FFM.-¿Quién es responsable de informar y acompañar a los equipos externos en una emergencia?",
+    "Options": {
+      "a": "Una persona asignada en la entrada.",
+      "b": "El jefe de intervención.",
+      "c": "El personal de limpieza.",
+      "d": "Los pacientes."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 488,
+    "Question": "❓FFM.-¿Qué acción debe realizar el celador en un accidente donde haya pacientes heridos?",
+    "Options": {
+      "a": "Alertar a los servicios de emergencia.",
+      "b": "Trasladar solo los heridos fuera del centro.",
+      "c": "Realizar primeros auxilios sin esperar ayuda.",
+      "d": "Cerrar todas las puertas del centro."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 489,
+    "Question": "❓FFM.-¿Cuál es la primera medida que se debe tomar en caso de un incendio?",
+    "Options": {
+      "a": "Comenzar a extinguir el fuego.",
+      "b": "Activar la alarma de incendio.",
+      "c": "Dirigir a los pacientes hacia el lugar del incendio.",
+      "d": "Llamar a la policía."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 490,
+    "Question": "❓FFM.-¿Qué tipo de emergencia se gestiona completamente con los recursos disponibles dentro del centro?",
+    "Options": {
+      "a": "Conato de emergencia.",
+      "b": "Emergencia externa.",
+      "c": "Emergencia general.",
+      "d": "Emergencia parcial."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 491,
+    "Question": "❓FFM.-¿Qué debe hacer el celador durante la evacuación de los pacientes?",
+    "Options": {
+      "a": "Esperar instrucciones del personal médico.",
+      "b": "Evitar el uso de ascensores.",
+      "c": "Llevar a todos los pacientes a las salas de seguridad.",
+      "d": "Asegurarse de que los pacientes lleguen a las salidas seguras."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 492,
+    "Question": "❓FFM.-¿Cuál de las siguientes acciones se realiza en una emergencia externa?",
+    "Options": {
+      "a": "Evacuación parcial de los pacientes.",
+      "b": "Uso exclusivo de los recursos internos.",
+      "c": "Se solicitan los servicios de emergencias externas.",
+      "d": "Se detiene toda actividad en el centro."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 493,
+    "Question": "❓FFM.-¿Qué equipo técnico es utilizado para controlar incendios en un centro sanitario?",
+    "Options": {
+      "a": "Extintores portátiles.",
+      "b": "Luces led en todo el recinto.",
+      "c": "Cámaras de seguridad.",
+      "d": "Sistemas de aire acondicionado."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 494,
+    "Question": "❓FFM.-¿Qué debe hacer el celador al ver una señal de alarma por humo?",
+    "Options": {
+      "a": "Apagar las luces del edificio.",
+      "b": "Dirigirse a la zona afectada para verificar la situación.",
+      "c": "Realizar evacuaciones inmediatamente.",
+      "d": "Evitar acercarse a la zona afectada."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 495,
+    "Question": "❓FFM.-¿Qué aspecto debe ser tenido en cuenta en los planes de evacuación de un centro sanitario?",
+    "Options": {
+      "a": "Reemplazar equipos dañados por el fuego.",
+      "b": "La reubicación de recursos médicos.",
+      "c": "La seguridad de los pacientes y personal durante la evacuación.",
+      "d": "La supervisión de la estructura del edificio."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 496,
+    "Question": "❓FFM.-¿Qué es lo primero que debe hacer el celador al entrar a un área de riesgo durante una emergencia?",
+    "Options": {
+      "a": "Comenzar la extinción del fuego.",
+      "b": "Iniciar la evacuación inmediatamente.",
+      "c": "Apagar los sistemas eléctricos del área.",
+      "d": "Evaluar la situación y esperar instrucciones."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 497,
+    "Question": "❓FFM.-¿Qué medio de evacuación se debe utilizar en un incendio en un edificio de varios pisos?",
+    "Options": {
+      "a": "Ascensores.",
+      "b": "Escaleras de emergencia.",
+      "c": "Montacargas.",
+      "d": "Deslizadores."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 498,
+    "Question": "❓FFM.-¿Qué tipo de emergencia requiere la participación del personal médico y de los equipos de socorro externos?",
+    "Options": {
+      "a": "Emergencia parcial.",
+      "b": "Emergencia interna.",
+      "c": "Emergencia general.",
+      "d": "Conato de emergencia."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 499,
+    "Question": "❓FFM.-¿Cómo deben ser las rutas de evacuación en un centro sanitario?",
+    "Options": {
+      "a": "Ser claras, accesibles y señalizadas.",
+      "b": "Estar llenas de obstáculos para guiar a las personas.",
+      "c": "Ser modificadas según la cantidad de personas.",
+      "d": "Ser abiertas a todas las áreas del centro."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 500,
+    "Question": "❓FFM.-¿Qué recurso es indispensable para el correcto funcionamiento de un sistema de evacuación?",
+    "Options": {
+      "a": "Cámaras de seguridad.",
+      "b": "Extintores y bocas de incendio.",
+      "c": "Sillas de ruedas.",
+      "d": "Generadores eléctricos."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 501,
+    "Question": "❓FFM.-¿Cuál es el objetivo de las señales de emergencia en un centro sanitario?",
+    "Options": {
+      "a": "Indicar las zonas de descanso.",
+      "b": "Mostrar las zonas de atención primaria.",
+      "c": "Guiar a los pacientes a las consultas médicas.",
+      "d": "Dirigir a las personas hacia las salidas seguras."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 502,
+    "Question": "❓FFM.-¿Cómo se debe actuar cuando un paciente está en una zona de riesgo durante un incendio?",
+    "Options": {
+      "a": "Trasladar al paciente a una zona segura.",
+      "b": "Esperar a que el fuego se apague solo.",
+      "c": "Ponerle a salvo y dejarlo solo.",
+      "d": "No moverlo hasta que los bomberos lleguen."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 503,
+    "Question": "❓FFM.-¿Qué medida puede reducir los riesgos de propagación del fuego en un centro sanitario?",
+    "Options": {
+      "a": "Usar extintores manuales.",
+      "b": "Cerrar las puertas cortafuegos.",
+      "c": "Reubicar los pacientes a otras plantas.",
+      "d": "Evitar el uso de agua para apagar el fuego."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 504,
+    "Question": "❓FFM.-¿Qué se debe hacer después de una evacuación de emergencia?",
+    "Options": {
+      "a": "Reabrir las áreas evacuadas.",
+      "b": "Ignorar los equipos de emergencia hasta que se pueda.",
+      "c": "Revisar si todos los pacientes y personal están fuera de peligro.",
+      "d": "Iniciar la limpieza del lugar afectado."
+    },
+    "CorrectOption": "c"
+  },
+  {
+    "Id": 505,
+    "Question": "❓FFM.-¿Qué tipo de emergencia es gestionada sin recursos externos, solo con medios internos?",
+    "Options": {
+      "a": "Emergencia parcial.",
+      "b": "Conato de emergencia.",
+      "c": "Emergencia general.",
+      "d": "Emergencia a gran escala."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 506,
+    "Question": "❓FFM.-¿Qué acción se realiza si se detecta un escape de gas en el centro?",
+    "Options": {
+      "a": "Cerrar la válvula de gas y evacuar el área.",
+      "b": "Apagar todos los equipos electrónicos.",
+      "c": "Utilizar agua para disipar el gas.",
+      "d": "Aislar la zona sin evacuarla."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 507,
+    "Question": "❓FFM.-¿Qué recursos se deben utilizar cuando hay pacientes con movilidad reducida durante una emergencia?",
+    "Options": {
+      "a": "Sillas comunes.",
+      "b": "Sillas de evacuación.",
+      "c": "Camas tradicionales.",
+      "d": "Colchones móviles."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 508,
+    "Question": "❓FFM.-¿Qué se debe hacer si una persona se encuentra atrapada en un incendio?",
+    "Options": {
+      "a": "Llamar a su familia.",
+      "b": "Esperar a que la persona se desplace por su cuenta.",
+      "c": "Intentar sacarla sin ayuda.",
+      "d": "Solicitar ayuda externa inmediatamente."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 509,
+    "Question": "❓FFM.-¿Cuál de las siguientes acciones se debe realizar en un accidente con exposición a materiales peligrosos?",
+    "Options": {
+      "a": "Evacuar la zona y solicitar ayuda especializada.",
+      "b": "Extinguir el fuego con agua.",
+      "c": "Proteger el fuego con equipos de protección personal.",
+      "d": "Abandonar inmediatamente la zona sin informar."
+    },
+    "CorrectOption": "a"
+  },
+  {
+    "Id": 510,
+    "Question": "❓FFM.-¿Qué tipo de señalización es obligatoria en las rutas de evacuación?",
+    "Options": {
+      "a": "Señales de advertencia sobre el riesgo biológico.",
+      "b": "Señales de emergencia que indiquen las salidas.",
+      "c": "Indicaciones de horarios de visitas.",
+      "d": "Señales de información general."
+    },
+    "CorrectOption": "b"
+  },
+  {
+    "Id": 511,
+    "Question": "❓FFM.-¿Qué debe hacer el celador si se produce una alerta de incendio durante el turno de noche?",
+    "Options": {
+      "a": "Ignorarla y seguir trabajando.",
+      "b": "Esperar instrucciones del personal médico.",
+      "c": "Llamar a los bomberos sin verificar.",
+      "d": "Verificar si la alarma es real y activar el protocolo adecuado."
+    },
+    "CorrectOption": "d"
+  },
+  {
+    "Id": 512,
+    "Question": "❓FFM.-¿Cómo se debe coordinar la evacuación de los pacientes en una emergencia?",
+    "Options": {
+      "a": "Cada celador actúa de forma independiente.",
+      "b": "Siguiendo las instrucciones del responsable de emergencia.",
+      "c": "Evacuando a todos los pacientes al mismo tiempo.",
+      "d": "Dejando a los pacientes decidir el lugar donde ir."
+    },
+    "CorrectOption": "b"
+  }
+]
