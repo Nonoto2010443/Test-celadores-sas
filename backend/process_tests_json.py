@@ -111,6 +111,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema6.json',
             'tema': 6,
             'nombre': 'Tema 6 - Prevención de Riesgos Laborales'
+        },
+        {
+            'archivo': 'test_tema7.json',
+            'tema': 7,
+            'nombre': 'Tema 7 - Igualdad de género y violencia de género'
         }
     ]
     
