@@ -506,9 +506,13 @@ async def submit_exam(submission: SubmitExamRequest, current_user: TokenData = D
         raise HTTPException(status_code=500, detail=str(e))
 
 @api_router.get("/results/{result_id}", response_model=ExamResult)
-async def get_result(result_id: str):
-    """Get exam result by ID"""
-    result = await db.exam_results.find_one({"id": result_id}, {"_id": 0})
+async def get_result(result_id: str, current_user: TokenData = Depends(get_current_user)):
+    """Get exam result by ID (only if it belongs to current user)"""
+    user = await db.users.find_one({"email": current_user.email}, {"_id": 0})
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+    
+    result = await db.exam_results.find_one({"id": result_id, "user_id": user['id']}, {"_id": 0})
     
     if not result:
         raise HTTPException(status_code=404, detail="Result not found")
@@ -519,9 +523,87 @@ async def get_result(result_id: str):
     
     return result
 
+@api_router.get("/results/history/me")
+async def get_my_history(current_user: TokenData = Depends(get_current_user)):
+    """Get current user's exam history"""
+    try:
+        user = await db.users.find_one({"email": current_user.email}, {"_id": 0})
+        if not user:
+            raise HTTPException(status_code=404, detail="User not found")
+        
+        results = await db.exam_results.find(
+            {"user_id": user['id']}, 
+            {"_id": 0}
+        ).sort("fecha_completado", -1).to_list(100)
+        
+        # Convert ISO strings back to datetime objects
+        for result in results:
+            if isinstance(result['fecha_completado'], str):
+                result['fecha_completado'] = datetime.fromisoformat(result['fecha_completado'])
+        
+        return {"total": len(results), "resultados": results}
+        
+    except Exception as e:
+        logger.error(f"Error in get_my_history: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/results/stats/me", response_model=UserStats)
+async def get_my_stats(current_user: TokenData = Depends(get_current_user)):
+    """Get current user's statistics"""
+    try:
+        user = await db.users.find_one({"email": current_user.email}, {"_id": 0})
+        if not user:
+            raise HTTPException(status_code=404, detail="User not found")
+        
+        results = await db.exam_results.find(
+            {"user_id": user['id']}, 
+            {"_id": 0}
+        ).to_list(1000)
+        
+        if not results:
+            return UserStats(
+                total_examenes=0,
+                promedio_puntuacion=0.0,
+                mejor_puntuacion=0.0,
+                peor_puntuacion=0.0,
+                total_correctas=0,
+                total_incorrectas=0,
+                total_en_blanco=0,
+                tiempo_promedio_minutos=0.0
+            )
+        
+        # Calculate statistics
+        total_examenes = len(results)
+        puntuaciones = [r['puntuacion'] for r in results]
+        promedio_puntuacion = sum(puntuaciones) / total_examenes
+        mejor_puntuacion = max(puntuaciones)
+        peor_puntuacion = min(puntuaciones)
+        
+        total_correctas = sum(r['correctas'] for r in results)
+        total_incorrectas = sum(r['incorrectas'] for r in results)
+        total_en_blanco = sum(r['en_blanco'] for r in results)
+        
+        tiempos_minutos = [r['tiempo_empleado_segundos'] / 60 for r in results]
+        tiempo_promedio_minutos = sum(tiempos_minutos) / total_examenes
+        
+        return UserStats(
+            total_examenes=total_examenes,
+            promedio_puntuacion=round(promedio_puntuacion, 2),
+            mejor_puntuacion=mejor_puntuacion,
+            peor_puntuacion=peor_puntuacion,
+            total_correctas=total_correctas,
+            total_incorrectas=total_incorrectas,
+            total_en_blanco=total_en_blanco,
+            tiempo_promedio_minutos=round(tiempo_promedio_minutos, 2)
+        )
+        
+    except Exception as e:
+        logger.error(f"Error in get_my_stats: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @api_router.get("/results/history/all", response_model=List[ExamResult])
 async def get_all_results():
-    """Get all exam results"""
+    """Get all exam results (DEPRECATED - use /results/history/me instead)"""
     results = await db.exam_results.find({}, {"_id": 0}).sort("fecha_completado", -1).to_list(100)
     
     # Convert ISO strings back to datetime objects
