@@ -393,7 +393,6 @@ async def generate_new_exam(current_user: TokenData = Depends(get_current_user))
         
         # Filtrar solo preguntas con opciones válidas
         especifico_bd = [q for q in especifico_bd_raw if len(q.get('opciones', [])) >= 2][:30]
-        especifico_bd = await especifico_bd_cursor.to_list(30)
         
         # Generar 5 preguntas de IA del temario específico
         especifico_ai = await generate_questions_with_ai(5, "especifico")
