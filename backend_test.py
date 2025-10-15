@@ -1552,28 +1552,28 @@ def main():
     # Combine all generated exams
     generated_exams.extend(additional_exams)
     
-    # 5. Test Exam Submission
+    # 6. Test Exam Submission
     print("\n📤 Testing Exam Submission...")
     submit_results, submitted_results = test_exam_submission(generated_exams)
     all_results.results.extend(submit_results.results)
     all_results.passed += submit_results.passed
     all_results.failed += submit_results.failed
     
-    # 6. Test User Exam History
+    # 7. Test User Exam History
     print("\n📊 Testing User Exam History...")
     history_results = test_user_exam_history(authenticated_users)
     all_results.results.extend(history_results.results)
     all_results.passed += history_results.passed
     all_results.failed += history_results.failed
     
-    # 7. Test User Statistics
+    # 8. Test User Statistics
     print("\n📈 Testing User Statistics...")
     stats_results = test_user_statistics(authenticated_users)
     all_results.results.extend(stats_results.results)
     all_results.passed += stats_results.passed
     all_results.failed += stats_results.failed
     
-    # 8. Test Protected Results Access
+    # 9. Test Protected Results Access
     print("\n🔒 Testing Protected Results Access...")
     access_results = test_protected_results_access(submitted_results, authenticated_users)
     all_results.results.extend(access_results.results)
