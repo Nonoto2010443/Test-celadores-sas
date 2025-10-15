@@ -44,7 +44,7 @@ def procesar_pregunta_json(pregunta_json, tema, origen):
         opciones.append(texto_limpio.strip())
     
     # Obtener índice de respuesta correcta
-    respuesta_letra = pregunta_json['CorrectOption']
+    respuesta_letra = pregunta_json['CorrectOption'].upper()
     respuesta_index = ord(respuesta_letra) - ord('A')
     
     # Limpiar pregunta (remover emoji y prefijos)
