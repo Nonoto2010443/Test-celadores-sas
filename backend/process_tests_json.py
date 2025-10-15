@@ -91,6 +91,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema2.json',
             'tema': 2,
             'nombre': 'Tema 2 - Estatuto de Autonomía de Andalucía'
+        },
+        {
+            'archivo': 'test_tema3.json',
+            'tema': 3,
+            'nombre': 'Tema 3 - Organización Sanitaria (Ley General de Sanidad)'
         }
     ]
     
