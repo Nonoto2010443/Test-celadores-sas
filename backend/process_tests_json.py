@@ -116,6 +116,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema7.json',
             'tema': 7,
             'nombre': 'Tema 7 - Igualdad de género y violencia de género'
+        },
+        {
+            'archivo': 'test_tema8.json',
+            'tema': 8,
+            'nombre': 'Tema 8 - Estatuto Marco del personal estatutario'
         }
     ]
     
