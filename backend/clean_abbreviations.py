@@ -8,10 +8,13 @@ import re
 
 # Diccionario de abreviaturas y sus reemplazos
 ABBREVIATION_REPLACEMENTS = {
-    # Leyes y normativas
+    # Leyes y normativas (con límites de palabra más precisos)
     r'\bLTPPA\b': 'Ley de Transparencia Pública de Andalucía',
     r'\bLTPA\b': 'Ley de Transparencia Pública de Andalucía',
+    r'SegúnLTPA': 'Según la Ley de Transparencia Pública de Andalucía',
+    r'laLTPA': 'la Ley de Transparencia Pública de Andalucía',
     r'\bLPRL\b': 'Ley de Prevención de Riesgos Laborales',
+    r'lPRL': 'la Ley de Prevención de Riesgos Laborales',
     r'\bLOPD\b': 'Ley Orgánica de Protección de Datos',
     r'\bLOPDGDD\b': 'Ley Orgánica de Protección de Datos y Garantía de Derechos Digitales',
     r'\bLSSI\b': 'Ley de Servicios de la Sociedad de la Información',
@@ -19,17 +22,18 @@ ABBREVIATION_REPLACEMENTS = {
     r'\bLRJS\b': 'Ley Reguladora de la Jurisdicción Social',
     r'\bLET\b': 'Ley del Estatuto de los Trabajadores',
     
-    # Estatutos
+    # Estatutos (más específico para evitar false positives)
     r'\bEMPNS\b': 'Estatuto Marco del Personal No Sanitario',
-    r'\bEM\b': 'Estatuto Marco',
-    r'\bE\.M\.\b': 'Estatuto Marco',
-    r'\bEA\b': 'Estatuto de Autonomía',
-    r'\bE\.A\.\b': 'Estatuto de Autonomía',
+    r'\bEM(?=\s*[,.:;\s]|$)': 'Estatuto Marco',  # EM seguido de puntuación o espacio
+    r'^Em\s': 'En el ',  # Em al inicio de frase
+    r'\bE\.M\.': 'Estatuto Marco',
+    r'\bEA(?=\s*[,.:;\s]|$)': 'Estatuto de Autonomía',
+    r'\bE\.A\.': 'Estatuto de Autonomía',
     
     # Organismos y entidades
-    r'\bJ\.A\.\b': 'Junta de Andalucía',
-    r'\bJ\.A\b': 'Junta de Andalucía',
-    r'\bCE\b': 'Constitución Española',
+    r'\bJ\.A\.': 'Junta de Andalucía',
+    r'\bJ\.A(?=\s|$)': 'Junta de Andalucía',
+    r'\bCE(?=\s*[,.:;\s]|$)': 'Constitución Española',
     r'\bBOE\b': 'Boletín Oficial del Estado',
     r'\bBOJA\b': 'Boletín Oficial de la Junta de Andalucía',
     r'\bSNS\b': 'Sistema Nacional de Salud',
@@ -37,19 +41,19 @@ ABBREVIATION_REPLACEMENTS = {
     r'\bINSS\b': 'Instituto Nacional de la Seguridad Social',
     
     # Personal y puestos
-    r'\bPer\.\s*Est\.\b': 'Personal Estatutario',
+    r'\bPer\.\s*Est\.': 'Personal Estatutario',
     r'\bPer\.\s*Est\b': 'Personal Estatutario',
-    r'\bP\.E\.\b': 'Personal Estatutario',
-    r'\bP\.L\.\b': 'Personal Laboral',
-    r'\bPer\.\s*Lab\.\b': 'Personal Laboral',
+    r'\bP\.E\.': 'Personal Estatutario',
+    r'\bP\.L\.': 'Personal Laboral',
+    r'\bPer\.\s*Lab\.': 'Personal Laboral',
     
     # Otros términos comunes
-    r'\bRD\b': 'Real Decreto',
-    r'\bR\.D\.\b': 'Real Decreto',
-    r'\bCC\.AA\.\b': 'Comunidades Autónomas',
+    r'\bRD(?=\s*[,.:;\s]|$)': 'Real Decreto',
+    r'\bR\.D\.': 'Real Decreto',
+    r'\bCC\.AA\.': 'Comunidades Autónomas',
     r'\bCCAA\b': 'Comunidades Autónomas',
-    r'\bAP\b': 'Atención Primaria',
-    r'\bA\.P\.\b': 'Atención Primaria',
+    r'\bAP(?=\s*[,.:;\s]|$)': 'Atención Primaria',
+    r'\bA\.P\.': 'Atención Primaria',
     r'\bUCI\b': 'Unidad de Cuidados Intensivos',
 }
 
