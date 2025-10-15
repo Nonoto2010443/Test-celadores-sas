@@ -479,7 +479,7 @@ async def submit_exam(submission: SubmitExamRequest, current_user: TokenData = D
         # Calculate final score: +2 for correct, -0.5 for incorrect, 0 for blank
         puntuacion = (correctas * 2) + (incorrectas * -0.5)
         
-        # Create result
+        # Create result with user_id
         result = ExamResult(
             exam_id=submission.exam_id,
             respuestas=submission.respuestas,
@@ -490,9 +490,11 @@ async def submit_exam(submission: SubmitExamRequest, current_user: TokenData = D
             tiempo_empleado_segundos=submission.tiempo_empleado_segundos
         )
         
-        # Save result to database
+        # Save result to database with user association
         result_dict = result.model_dump()
         result_dict['fecha_completado'] = result_dict['fecha_completado'].isoformat()
+        result_dict['user_id'] = user['id']  # Associate with user
+        result_dict['user_email'] = user['email']
         
         await db.exam_results.insert_one(result_dict)
         
