@@ -397,6 +397,62 @@ async def generate_exam():
         raise HTTPException(status_code=500, detail=f"Error al generar examen: {str(e)}")
 
 
+async def generate_justification(pregunta: Question) -> str:
+    """Generate a useful justification for a question using AI"""
+    api_key = os.environ.get('EMERGENT_LLM_KEY')
+    
+    try:
+        chat = LlmChat(
+            api_key=api_key,
+            session_id=str(uuid.uuid4()),
+            system_message="""Eres un experto en oposiciones de celadores del SAS.
+
+TU MISIÓN: Proporcionar justificaciones breves y educativas para las respuestas correctas.
+
+REGLAS:
+1. Justificación de 1-2 líneas máximo
+2. Citar el artículo o ley específica cuando sea posible
+3. Explicación clara y directa
+4. Lenguaje formal pero comprensible
+5. Enfocada en por qué esa es la respuesta correcta
+
+FORMATO:
+"Según el art. X de [Ley], [explicación breve]. La respuesta correcta es [letra] porque [razón]."
+
+O si no hay artículo específico:
+"La respuesta correcta es [letra] porque [explicación basada en el temario oficial]."
+"""
+        ).with_model("openai", "gpt-4o-mini")
+        
+        # Get correct option letter
+        correct_letter = chr(65 + pregunta.respuesta_correcta)  # 0->A, 1->B, etc.
+        
+        prompt = f"""Genera una justificación breve para esta pregunta de oposición de celadores:
+
+PREGUNTA: {pregunta.texto}
+
+OPCIONES:
+A) {pregunta.opciones[0]}
+B) {pregunta.opciones[1]}
+C) {pregunta.opciones[2]}
+D) {pregunta.opciones[3]}
+
+RESPUESTA CORRECTA: {correct_letter}) {pregunta.opciones[pregunta.respuesta_correcta]}
+
+Proporciona una justificación educativa de máximo 2 líneas que explique por qué esta es la respuesta correcta. Si conoces el artículo o ley, cítalo."""
+        
+        user_message = UserMessage(text=prompt)
+        response = await chat.send_message(user_message)
+        
+        return response.strip()
+        
+    except Exception as e:
+        logging.error(f"Error generando justificación: {e}")
+        # Fallback to simple justification
+        correct_letter = chr(65 + pregunta.respuesta_correcta)
+        return f"La respuesta correcta es {correct_letter}. {pregunta.opciones[pregunta.respuesta_correcta]}"
+
+
 @api_router.post("/exams/submit", response_model=ExamResult)
 async def submit_exam(exam: ExamSubmit):
     """Submit an exam and save results with official scoring system"""
@@ -415,6 +471,31 @@ async def submit_exam(exam: ExamSubmit):
         else:
             incorrectas += 1
     
+    # Generate justifications for incorrect and blank answers using AI
+    logging.info("🤖 Generando justificaciones educativas...")
+    questions_with_justifications = []
+    
+    for i, pregunta in enumerate(exam.preguntas):
+        respuesta_usuario = exam.respuestas_usuario[i]
+        
+        # Generate justification only for incorrect or blank answers
+        if respuesta_usuario is None or respuesta_usuario != pregunta.respuesta_correcta:
+            # Generate AI justification
+            justification = await generate_justification(pregunta)
+            # Update question with new justification
+            updated_pregunta = Question(
+                texto=pregunta.texto,
+                opciones=pregunta.opciones,
+                respuesta_correcta=pregunta.respuesta_correcta,
+                justificacion=justification
+            )
+            questions_with_justifications.append(updated_pregunta)
+        else:
+            # Keep original for correct answers
+            questions_with_justifications.append(pregunta)
+    
+    logging.info(f"✅ Justificaciones generadas para respuestas incorrectas/en blanco")
+    
     # Official scoring for 50 questions = 100 points
     # Each correct = 2 points, each incorrect = -0.5 points
     puntuacion_sobre_100 = (correctas * 2.0) - (incorrectas * 0.5)
@@ -426,7 +507,7 @@ async def submit_exam(exam: ExamSubmit):
     puntuacion_oficial = correctas - (incorrectas * 0.25)
     
     result = ExamResult(
-        preguntas=exam.preguntas,
+        preguntas=questions_with_justifications,
         respuestas_usuario=exam.respuestas_usuario,
         correctas=correctas,
         incorrectas=incorrectas,
