@@ -448,7 +448,7 @@ def test_get_current_user(authenticated_users):
     return results
 
 def test_protected_exam_generation(authenticated_users):
-    """Test protected exam generation endpoint"""
+    """Test protected exam generation endpoint with database quality checks"""
     results = TestResults()
     
     if not authenticated_users:
@@ -461,7 +461,7 @@ def test_protected_exam_generation(authenticated_users):
     
     generated_exams = []
     
-    # Test 1: Valid authentication
+    # Test 1: Valid authentication with database quality checks
     for i, (token, user_data) in enumerate(authenticated_users[:1]):  # Test with first user only
         try:
             auth_headers = {
@@ -480,42 +480,174 @@ def test_protected_exam_generation(authenticated_users):
                 expected_fields = ["id", "preguntas", "fecha_creacion", "duracion_segundos"]
                 
                 if all(field in data for field in expected_fields):
-                    if len(data["preguntas"]) == 50:  # Should have 50 questions
-                        generated_exams.append((data["id"], token, user_data))
+                    questions = data["preguntas"]
+                    
+                    # Basic exam structure test
+                    if len(questions) == 50:
+                        generated_exams.append((data["id"], token, user_data, questions))
                         results.add_result(
-                            f"Exam Generation {i+1}",
+                            f"Exam Generation - Basic Structure",
                             True,
                             f"Successfully generated exam with 50 questions for {user_data['nombre']}"
                         )
+                        
+                        # DATABASE QUALITY TESTS
+                        
+                        # Test 2: Check for duplicate options (option text == question text)
+                        duplicate_issues = []
+                        for idx, q in enumerate(questions):
+                            pregunta_text = q.get('pregunta', '').strip()
+                            opciones = q.get('opciones', [])
+                            
+                            for opt_idx, opcion in enumerate(opciones):
+                                if isinstance(opcion, str) and opcion.strip() == pregunta_text:
+                                    duplicate_issues.append(f"Question {idx+1}: Option {opt_idx+1} identical to question")
+                        
+                        if not duplicate_issues:
+                            results.add_result(
+                                "Database Quality - No Duplicate Options",
+                                True,
+                                "No questions found with options identical to question text"
+                            )
+                        else:
+                            results.add_result(
+                                "Database Quality - No Duplicate Options",
+                                False,
+                                f"Found {len(duplicate_issues)} duplicate option issues",
+                                "; ".join(duplicate_issues[:5])  # Show first 5 issues
+                            )
+                        
+                        # Test 3: Check all questions have exactly 4 options
+                        option_count_issues = []
+                        for idx, q in enumerate(questions):
+                            opciones = q.get('opciones', [])
+                            if len(opciones) != 4:
+                                option_count_issues.append(f"Question {idx+1}: {len(opciones)} options")
+                        
+                        if not option_count_issues:
+                            results.add_result(
+                                "Database Quality - 4 Options Per Question",
+                                True,
+                                "All questions have exactly 4 options"
+                            )
+                        else:
+                            results.add_result(
+                                "Database Quality - 4 Options Per Question",
+                                False,
+                                f"Found {len(option_count_issues)} questions with incorrect option count",
+                                "; ".join(option_count_issues[:5])
+                            )
+                        
+                        # Test 4: Check for expanded abbreviations (no LSA, LPRL, EBAP, etc.)
+                        abbreviation_issues = []
+                        forbidden_abbrevs = ['LSA', 'LPRL', 'EBAP', 'LOPD', 'EM', 'EA', 'EMPNS']
+                        
+                        for idx, q in enumerate(questions):
+                            pregunta_text = q.get('pregunta', '')
+                            opciones = q.get('opciones', [])
+                            
+                            # Check question text
+                            for abbrev in forbidden_abbrevs:
+                                if abbrev in pregunta_text:
+                                    abbreviation_issues.append(f"Question {idx+1}: Contains '{abbrev}' in question text")
+                            
+                            # Check options
+                            for opt_idx, opcion in enumerate(opciones):
+                                if isinstance(opcion, str):
+                                    for abbrev in forbidden_abbrevs:
+                                        if abbrev in opcion:
+                                            abbreviation_issues.append(f"Question {idx+1}, Option {opt_idx+1}: Contains '{abbrev}'")
+                        
+                        if not abbreviation_issues:
+                            results.add_result(
+                                "Database Quality - Expanded Abbreviations",
+                                True,
+                                "No forbidden abbreviations found (LSA, LPRL, EBAP, etc.)"
+                            )
+                        else:
+                            results.add_result(
+                                "Database Quality - Expanded Abbreviations",
+                                False,
+                                f"Found {len(abbreviation_issues)} abbreviation issues",
+                                "; ".join(abbreviation_issues[:5])
+                            )
+                        
+                        # Test 5: Check for option labels (A), B), C), D)) in option text
+                        label_issues = []
+                        label_patterns = ['A)', 'B)', 'C)', 'D)', 'a)', 'b)', 'c)', 'd)']
+                        
+                        for idx, q in enumerate(questions):
+                            opciones = q.get('opciones', [])
+                            for opt_idx, opcion in enumerate(opciones):
+                                if isinstance(opcion, str):
+                                    for pattern in label_patterns:
+                                        if opcion.strip().startswith(pattern):
+                                            label_issues.append(f"Question {idx+1}, Option {opt_idx+1}: Starts with '{pattern}'")
+                        
+                        if not label_issues:
+                            results.add_result(
+                                "Database Quality - No Option Labels",
+                                True,
+                                "No option labels (A), B), C), D)) found in option text"
+                            )
+                        else:
+                            results.add_result(
+                                "Database Quality - No Option Labels",
+                                False,
+                                f"Found {len(label_issues)} option label issues",
+                                "; ".join(label_issues[:5])
+                            )
+                        
+                        # Test 6: Check question prefix consistency
+                        prefix_issues = []
+                        for idx, q in enumerate(questions):
+                            pregunta_text = q.get('pregunta', '')
+                            if not pregunta_text.startswith('❓FFM.- '):
+                                prefix_issues.append(f"Question {idx+1}: Missing '❓FFM.- ' prefix")
+                        
+                        if not prefix_issues:
+                            results.add_result(
+                                "Database Quality - Question Prefix",
+                                True,
+                                "All questions have correct '❓FFM.- ' prefix"
+                            )
+                        else:
+                            results.add_result(
+                                "Database Quality - Question Prefix",
+                                False,
+                                f"Found {len(prefix_issues)} questions with missing prefix",
+                                "; ".join(prefix_issues[:5])
+                            )
+                            
                     else:
                         results.add_result(
-                            f"Exam Generation {i+1}",
+                            f"Exam Generation - Basic Structure",
                             False,
-                            f"Expected 50 questions, got {len(data['preguntas'])}",
+                            f"Expected 50 questions, got {len(questions)}",
                             response.text
                         )
                 else:
                     results.add_result(
-                        f"Exam Generation {i+1}",
+                        f"Exam Generation - Basic Structure",
                         False,
                         "Missing required fields in response",
                         f"Expected: {expected_fields}, Got: {list(data.keys())}"
                     )
             else:
                 results.add_result(
-                    f"Exam Generation {i+1}",
+                    f"Exam Generation - Basic Structure",
                     False,
                     f"Exam generation failed with status {response.status_code}",
                     response.text
                 )
         except Exception as e:
             results.add_result(
-                f"Exam Generation {i+1}",
+                f"Exam Generation - Basic Structure",
                 False,
                 f"Request failed: {str(e)}"
             )
     
-    # Test 2: Without authentication
+    # Test 7: Without authentication
     try:
         response = requests.post(
             f"{BASE_URL}/exam/generate",
