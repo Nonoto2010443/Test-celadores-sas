@@ -561,6 +561,7 @@ def test_protected_exam_generation(authenticated_users):
                                 True,
                                 "All questions have exactly 4 options"
                             )
+                            print(f"   ✅ All {len(questions)} questions have exactly 4 options")
                         else:
                             results.add_result(
                                 "Database Quality - 4 Options Per Question",
@@ -568,6 +569,7 @@ def test_protected_exam_generation(authenticated_users):
                                 f"Found {len(option_count_issues)} questions with incorrect option count",
                                 "; ".join(option_count_issues[:5])
                             )
+                            print(f"   ❌ Found {len(option_count_issues)} questions with incorrect option count")
                         
                         # Test 4: Check for expanded abbreviations (no LSA, LPRL, EBAP, etc.)
                         abbreviation_issues = []
