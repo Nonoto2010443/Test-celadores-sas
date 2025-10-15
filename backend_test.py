@@ -63,6 +63,34 @@ def test_api_connection():
     except Exception as e:
         return False, f"Connection failed: {str(e)}"
 
+def activate_user_subscription(email):
+    """Directly activate subscription for a test user via database"""
+    try:
+        import pymongo
+        from pymongo import MongoClient
+        
+        # Connect to MongoDB (using same connection as backend)
+        client = MongoClient("mongodb://localhost:27017")
+        db = client["test_database"]
+        
+        # Update user to have active subscription
+        result = db.users.update_one(
+            {"email": email},
+            {
+                "$set": {
+                    "subscription_status": "active",
+                    "subscription_start_date": datetime.now().isoformat()
+                }
+            }
+        )
+        
+        client.close()
+        return result.modified_count > 0
+        
+    except Exception as e:
+        print(f"Warning: Could not activate subscription for {email}: {e}")
+        return False
+
 def test_user_registration():
     """Test user registration endpoint"""
     results = TestResults()
