@@ -120,6 +120,14 @@ class PaymentTransaction(BaseModel):
 MONTHLY_SUBSCRIPTION_PRICE = 9.99  # EUR per month
 SUBSCRIPTION_CURRENCY = "eur"
 
+# Password Reset Models
+class ForgotPasswordRequest(BaseModel):
+    email: EmailStr
+
+class ResetPasswordRequest(BaseModel):
+    token: str
+    new_password: str
+
 # Initialize Stripe (will be done in endpoints with base_url)
 
 # Helper function to check subscription status
