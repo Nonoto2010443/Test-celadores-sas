@@ -75,19 +75,31 @@ class SubmitExamRequest(BaseModel):
     tiempo_empleado_segundos: int
 
 # Helper function to generate questions with AI
-async def generate_questions_with_ai(num_questions: int = 50) -> List[Question]:
+async def generate_questions_with_ai(num_questions: int = 7, tema_tipo: str = None) -> List[Question]:
     """Generate exam questions using OpenAI via EmergentIntegrations"""
     try:
         llm_key = os.environ.get('EMERGENT_LLM_KEY')
         if not llm_key:
             raise ValueError("EMERGENT_LLM_KEY not found in environment")
         
+        # Determinar temas según el tipo
+        if tema_tipo == "comun":
+            temas_rango = "Temas 1-10 (Temario Común)"
+        elif tema_tipo == "especifico":
+            temas_rango = "Temas 11-19 (Temario Específico)"
+        else:
+            temas_rango = "Todos los temas (1-19)"
+        
         # Initialize LLM chat
         chat = LlmChat(
             api_key=llm_key,
             session_id=str(uuid.uuid4()),
-            system_message="""Eres un experto en crear preguntas tipo test para oposiciones de Celadores del Servicio Andaluz de Salud (SAS).
-Tu tarea es generar preguntas realistas y precisas basadas en el temario oficial que incluye:
+            system_message=f"""Eres un experto en crear preguntas tipo test para oposiciones de Celadores del Servicio Andaluz de Salud (SAS).
+Tu tarea es generar preguntas realistas y precisas de nivel básico basadas en el temario oficial.
+
+IMPORTANTE: Genera preguntas SOLO de {temas_rango}.
+
+Temario oficial que incluye:
 
 TEMARIO COMÚN (Temas 1-10):
 1. La Constitución Española de 1978
