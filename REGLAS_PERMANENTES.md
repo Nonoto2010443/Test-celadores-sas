@@ -75,12 +75,12 @@
 **OBLIGATORIO - NO MODIFICAR:**
 
 - **30%** Temario Común (T1-T10) = 15 preguntas
-  - De BD: 13 preguntas
-  - De IA: 2 preguntas
+  - De BD: 14 preguntas (distribuidas equitativamente entre T1-T10)
+  - De IA: 1 pregunta
 
 - **70%** Temario Específico (T11-T19) = 35 preguntas
-  - De BD: 30 preguntas
-  - De IA: 5 preguntas
+  - De BD: 33 preguntas (distribuidas equitativamente entre T11-T19)
+  - De IA: 1 pregunta
 
 ### 2.3 Total del Examen
 - **Total:** 50 preguntas
