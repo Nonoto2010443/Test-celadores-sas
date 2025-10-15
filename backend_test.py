@@ -518,6 +518,7 @@ def test_protected_exam_generation(authenticated_users):
                             True,
                             f"Successfully generated exam with 50 questions for {user_data['nombre']}"
                         )
+                        print(f"   📊 Generated exam with {len(questions)} questions")
                         
                         # DATABASE QUALITY TESTS
                         
