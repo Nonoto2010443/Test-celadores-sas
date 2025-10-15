@@ -80,3 +80,7 @@ agenthub/agents/youtube/db
 android-sdk/ temario_especifico_t11-t19.pdf
 temario_especifico_t11-t19.pdf
 data/temario/temario_especifico_t11-t19.pdf
+-e 
+# Environment files
+*.env
+*.env.*
