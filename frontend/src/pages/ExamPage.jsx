@@ -39,9 +39,9 @@ const ExamPage = () => {
   const generateExam = async () => {
     try {
       setLoading(true);
-      // Set a longer timeout for exam generation (60 seconds)
+      // Set a longer timeout for exam generation (90 seconds)
       const response = await axios.post(`${API}/exam/generate`, {}, {
-        timeout: 60000  // 60 seconds
+        timeout: 90000  // 90 seconds
       });
       setExam(response.data);
       // Initialize answers object
