@@ -86,6 +86,11 @@ async def procesar_tests_json():
             'archivo': 'test_defensor_del_pueblo.json',
             'tema': 1,
             'nombre': 'Tema 1 - Defensor del Pueblo'
+        },
+        {
+            'archivo': 'test_tema2.json',
+            'tema': 2,
+            'nombre': 'Tema 2 - Estatuto de Autonomía de Andalucía'
         }
     ]
     
