@@ -488,8 +488,8 @@ backend:
 
 metadata:
   created_by: "main_agent"
-  version: "3.1"
-  test_sequence: 2
+  version: "3.2"
+  test_sequence: 3
   run_ui: false
 
 test_plan:
