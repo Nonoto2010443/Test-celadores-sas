@@ -86,7 +86,7 @@ const StatsPage = () => {
             Volver al Inicio
           </Button>
           <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">Estadísticas</h1>
-          <p className="text-slate-600">Analiza tu progreso con el sistema de puntuación oficial</p>
+          <p className="text-slate-600">Analiza tu progreso con el sistema de puntuación sobre 100</p>
         </div>
 
         {/* Stats Grid */}
