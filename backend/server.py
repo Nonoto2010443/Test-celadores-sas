@@ -102,11 +102,11 @@ async def load_official_questions_to_db():
                 correct_map = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'a': 0, 'b': 1, 'c': 2, 'd': 3}
                 correct_idx = correct_map.get(q['CorrectOption'], 0)
                 
-                # Ensure question starts with ❓ FFM or ❓KFM format
+                # Ensure question starts with ❓ FFM.- format
                 texto = q['Question']
                 if not texto.startswith('❓'):
-                    # Try to extract tema number and format properly
-                    texto = f"❓ FFM T{tema_num} {texto}"
+                    # Add standard FFM prefix
+                    texto = f"❓ FFM.- {texto}"
                 
                 question_doc = {
                     "id": str(q.get('Id', uuid.uuid4())),
