@@ -227,12 +227,68 @@ async def get_tema_by_number(numero: int):
 
 @api_router.post("/exam/generate", response_model=Exam)
 async def generate_new_exam():
-    """Generate a new exam with 50 AI-generated questions"""
+    """Generate a new exam with 50 questions following specific rules:
+    - 30% from Common Topics (T1-T10) = 15 questions
+    - 70% from Specific Topics (T11-T19) = 35 questions
+    - 85% from Database = 43 questions
+    - 15% from AI = 7 questions
+    """
     try:
-        logger.info("Generating new exam...")
-        questions = await generate_questions_with_ai(50)
+        logger.info("Generating new exam with specific distribution...")
         
-        exam = Exam(preguntas=questions)
+        all_questions = []
+        
+        # 1. TEMARIO COMÚN (30% = 15 preguntas)
+        # De BD: 13 preguntas, IA: 2 preguntas
+        logger.info("Selecting common topic questions...")
+        comun_bd_cursor = db.preguntas_oficiales.aggregate([
+            {"$match": {"tema": {"$in": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}}},
+            {"$sample": {"size": 13}}
+        ])
+        comun_bd = await comun_bd_cursor.to_list(13)
+        
+        # Generar 2 preguntas de IA del temario común
+        comun_ai = await generate_questions_with_ai(2, "comun")
+        
+        # 2. TEMARIO ESPECÍFICO (70% = 35 preguntas)
+        # De BD: 30 preguntas, IA: 5 preguntas
+        logger.info("Selecting specific topic questions...")
+        especifico_bd_cursor = db.preguntas_oficiales.aggregate([
+            {"$match": {"tema": {"$in": [11, 12, 13, 14, 15, 16, 17, 18, 19]}}},
+            {"$sample": {"size": 30}}
+        ])
+        especifico_bd = await especifico_bd_cursor.to_list(30)
+        
+        # Generar 5 preguntas de IA del temario específico
+        especifico_ai = await generate_questions_with_ai(5, "especifico")
+        
+        # 3. Convertir preguntas de BD al formato Question
+        for pregunta_bd in comun_bd + especifico_bd:
+            # Asegurar que la pregunta tenga el prefijo correcto
+            pregunta_texto = pregunta_bd['pregunta']
+            if not pregunta_texto.startswith("❓FFM.- "):
+                pregunta_texto = f"❓FFM.- {pregunta_texto}"
+            
+            question = Question(
+                pregunta=pregunta_texto,
+                opciones=pregunta_bd['opciones'],
+                respuesta_correcta=pregunta_bd['respuesta_correcta'],
+                explicacion=pregunta_bd.get('explicacion', 'Consulta el temario oficial del SAS.'),
+                tema=f"Tema {pregunta_bd.get('tema', '?')}" if pregunta_bd.get('tema') else None
+            )
+            all_questions.append(question)
+        
+        # 4. Agregar preguntas de IA
+        all_questions.extend(comun_ai)
+        all_questions.extend(especifico_ai)
+        
+        # 5. Mezclar aleatoriamente
+        import random
+        random.shuffle(all_questions)
+        
+        logger.info(f"Exam composed: {len(all_questions)} questions (43 from DB, 7 from AI)")
+        
+        exam = Exam(preguntas=all_questions)
         
         # Save exam to database
         exam_dict = exam.model_dump()
@@ -245,6 +301,8 @@ async def generate_new_exam():
         
     except Exception as e:
         logger.error(f"Error in generate_new_exam: {e}")
+        import traceback
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
 
 @api_router.get("/exam/{exam_id}", response_model=Exam)
