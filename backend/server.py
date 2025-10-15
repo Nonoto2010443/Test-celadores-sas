@@ -188,6 +188,23 @@ Requisitos:
 async def root():
     return {"message": "API del Examen de Celadores SAS"}
 
+@api_router.get("/temario/list")
+async def get_temario_list():
+    """Get list of all 19 temas"""
+    temas = await db.temario.find(
+        {}, 
+        {"_id": 0, "numero": 1, "titulo": 1, "tipo": 1, "paginas_totales": 1}
+    ).sort("numero", 1).to_list(100)
+    return {"total": len(temas), "temas": temas}
+
+@api_router.get("/temario/{numero}")
+async def get_tema_by_number(numero: int):
+    """Get specific tema by number"""
+    tema = await db.temario.find_one({"numero": numero}, {"_id": 0})
+    if not tema:
+        raise HTTPException(status_code=404, detail=f"Tema {numero} not found")
+    return tema
+
 @api_router.post("/exam/generate", response_model=Exam)
 async def generate_new_exam():
     """Generate a new exam with 50 AI-generated questions"""
