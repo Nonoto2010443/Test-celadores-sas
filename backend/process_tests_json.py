@@ -166,6 +166,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema17.json',
             'tema': 17,
             'nombre': 'Tema 17 - Prevención de riesgos laborales específica de Celadores'
+        },
+        {
+            'archivo': 'test_tema18.json',
+            'tema': 18,
+            'nombre': 'Tema 18 - Plan de autoprotección y emergencias'
         }
     ]
     
