@@ -242,7 +242,7 @@ ERRORES A EVITAR:
 FORMATO JSON (sin markdown, sin comentarios):
 {{"preguntas":[
   {{
-    "texto":"❓ FFM.- Según el art. [número] de [Ley específica], [pregunta precisa]",
+    "texto":"❓ FFM.- Según el art. [número] de [Ley específica], [pregunta precisa]:",
     "opciones":[
       "Opción A técnicamente precisa",
       "Opción B técnicamente precisa",
