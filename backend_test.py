@@ -1063,7 +1063,7 @@ def test_user_statistics(authenticated_users):
     return results
 
 def test_protected_results_access(submitted_results, authenticated_users):
-    """Test protected results access endpoint"""
+    """Test protected results access endpoint with data quality verification"""
     results = TestResults()
     
     if not submitted_results:
@@ -1074,7 +1074,7 @@ def test_protected_results_access(submitted_results, authenticated_users):
         )
         return results
     
-    # Test 1: User can access their own result
+    # Test 1: User can access their own result with data quality checks
     for i, (result_id, token, user_data) in enumerate(submitted_results):
         try:
             auth_headers = {
@@ -1094,27 +1094,83 @@ def test_protected_results_access(submitted_results, authenticated_users):
                 
                 if all(field in data for field in expected_fields):
                     results.add_result(
-                        f"Own Result Access {i+1}",
+                        f"Results Access - Basic {i+1}",
                         True,
                         f"Successfully accessed own result for {user_data['nombre']}"
                     )
+                    
+                    # Get the associated exam to check question/option quality in results context
+                    try:
+                        exam_response = requests.get(
+                            f"{BASE_URL}/exam/{data['exam_id']}",
+                            headers=auth_headers,
+                            timeout=10
+                        )
+                        
+                        if exam_response.status_code == 200:
+                            exam_data = exam_response.json()
+                            questions = exam_data.get('preguntas', [])
+                            
+                            # Verify results display with clean data
+                            quality_issues = []
+                            
+                            for idx, q in enumerate(questions):
+                                pregunta_text = q.get('pregunta', '')
+                                opciones = q.get('opciones', [])
+                                
+                                # Check for any remaining quality issues in the context of results
+                                if any(opcion.strip() == pregunta_text.strip() for opcion in opciones if isinstance(opcion, str)):
+                                    quality_issues.append(f"Q{idx+1}: Option identical to question")
+                                
+                                # Check for abbreviations in results context
+                                forbidden_abbrevs = ['LSA', 'LPRL', 'EBAP', 'LOPD']
+                                for abbrev in forbidden_abbrevs:
+                                    if abbrev in pregunta_text or any(abbrev in str(opt) for opt in opciones):
+                                        quality_issues.append(f"Q{idx+1}: Contains abbreviation '{abbrev}'")
+                            
+                            if not quality_issues:
+                                results.add_result(
+                                    f"Results Data Quality {i+1}",
+                                    True,
+                                    "Results display clean question/option data without quality issues"
+                                )
+                            else:
+                                results.add_result(
+                                    f"Results Data Quality {i+1}",
+                                    False,
+                                    f"Found {len(quality_issues)} data quality issues in results",
+                                    "; ".join(quality_issues[:3])
+                                )
+                        else:
+                            results.add_result(
+                                f"Results Data Quality {i+1}",
+                                False,
+                                f"Could not retrieve exam data for quality check: {exam_response.status_code}"
+                            )
+                    except Exception as e:
+                        results.add_result(
+                            f"Results Data Quality {i+1}",
+                            False,
+                            f"Error checking exam data quality: {str(e)}"
+                        )
+                        
                 else:
                     results.add_result(
-                        f"Own Result Access {i+1}",
+                        f"Results Access - Basic {i+1}",
                         False,
                         "Missing required fields in response",
                         f"Expected: {expected_fields}, Got: {list(data.keys())}"
                     )
             else:
                 results.add_result(
-                    f"Own Result Access {i+1}",
+                    f"Results Access - Basic {i+1}",
                     False,
                     f"Result access failed with status {response.status_code}",
                     response.text
                 )
         except Exception as e:
             results.add_result(
-                f"Own Result Access {i+1}",
+                f"Results Access - Basic {i+1}",
                 False,
                 f"Request failed: {str(e)}"
             )
