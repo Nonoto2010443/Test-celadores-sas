@@ -538,6 +538,7 @@ def test_protected_exam_generation(authenticated_users):
                                 True,
                                 "No questions found with options identical to question text"
                             )
+                            print(f"   ✅ No duplicate options found (checked {len(questions)} questions)")
                         else:
                             results.add_result(
                                 "Database Quality - No Duplicate Options",
@@ -545,6 +546,7 @@ def test_protected_exam_generation(authenticated_users):
                                 f"Found {len(duplicate_issues)} duplicate option issues",
                                 "; ".join(duplicate_issues[:5])  # Show first 5 issues
                             )
+                            print(f"   ❌ Found {len(duplicate_issues)} duplicate option issues")
                         
                         # Test 3: Check all questions have exactly 4 options
                         option_count_issues = []
