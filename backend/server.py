@@ -497,7 +497,10 @@ async def submit_exam(submission: SubmitExamRequest, current_user: TokenData = D
                 incorrectas += 1
         
         # Calculate final score: +2 for correct, -0.5 for incorrect, 0 for blank
+        # Sistema oficial SAS: cada correcta = 100/50 = 2 puntos, cada incorrecta = -1/4 * 2 = -0.5 puntos
         puntuacion = (correctas * 2) + (incorrectas * -0.5)
+        # La puntuación mínima es 0 (no puede ser negativa)
+        puntuacion = max(0, puntuacion)
         
         # Create result with user_id
         result = ExamResult(
