@@ -199,15 +199,16 @@ TEMAS FRECUENTES EN EXÁMENES OFICIALES:
 
 REGLAS ORTOGRÁFICAS Y DE NOMENCLATURA (CRÍTICAS):
 ❌ NUNCA usar abreviaturas:
-   - NO: "Per. Est.", "EMPE", "EM"
-   - SÍ: "Personal Estatutario", "Estatuto Marco del Personal Estatutario"
+   - NO: "Per. Est.", "EMPE", "EM", "Est. Per. No Sanit."
+   - SÍ: "Personal Estatutario", "Estatuto Marco del Personal Estatutario", "Estatuto del Personal No Sanitario"
 ❌ NUNCA usar abreviaturas de leyes:
-   - NO: "CE", "LOLS", "LOSC"
-   - SÍ: "Constitución Española", "Ley Orgánica de Libertad Sindical"
+   - NO: "CE", "LOLS", "LOSC", "EAA"
+   - SÍ: "Constitución Española", "Ley Orgánica de Libertad Sindical", "Estatuto de Autonomía de Andalucía"
 ❌ NUNCA errores ortográficos o gramaticales
 ❌ NUNCA abreviar nombres de organismos:
    - NO: "SAS", "SNS"
    - SÍ: "Servicio Andaluz de Salud", "Sistema Nacional de Salud"
+✅ SIEMPRE terminar la pregunta con dos puntos (:) cuando sea apropiado
 
 ERRORES A EVITAR:
 ❌ Preguntas genéricas o teóricas
