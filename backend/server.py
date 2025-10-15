@@ -291,7 +291,7 @@ async def register(user_data: UserCreate):
                 detail="Email already registered"
             )
         
-        # Create new user
+        # Create new user with subscription fields
         user_id = str(uuid.uuid4())
         user = {
             "id": user_id,
@@ -299,7 +299,9 @@ async def register(user_data: UserCreate):
             "password_hash": get_password_hash(user_data.password),
             "nombre": user_data.nombre,
             "created_at": datetime.now(timezone.utc).isoformat(),
-            "last_login": datetime.now(timezone.utc).isoformat()
+            "last_login": datetime.now(timezone.utc).isoformat(),
+            "stripe_customer_id": None,  # Will be set when user subscribes
+            "subscription_status": "inactive"  # Default to inactive
         }
         
         await db.users.insert_one(user)
