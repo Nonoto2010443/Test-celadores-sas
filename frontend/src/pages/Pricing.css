@@ -1,0 +1,242 @@
+.pricing-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-content {
+  max-width: 600px;
+  width: 100%;
+}
+
+.pricing-header {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.pricing-header h1 {
+  font-size: 2.5rem;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+
+.pricing-header h2 {
+  font-size: 1.8rem;
+  margin: 0 0 20px 0;
+  font-weight: 600;
+}
+
+.pricing-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  margin: 0;
+}
+
+.pricing-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.pricing-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
+.pricing-price {
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+
+.currency {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #667eea;
+  margin-top: 10px;
+}
+
+.amount {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #667eea;
+  line-height: 1;
+}
+
+.period {
+  font-size: 1.5rem;
+  color: #666;
+  margin-top: 30px;
+}
+
+.pricing-features {
+  margin-bottom: 40px;
+}
+
+.pricing-features h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin: 0 0 20px 0;
+}
+
+.pricing-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pricing-features li:last-child {
+  border-bottom: none;
+}
+
+.check-icon {
+  width: 24px;
+  height: 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.pricing-features li span:last-child {
+  flex: 1;
+  color: #333;
+  line-height: 1.5;
+}
+
+.error-message {
+  background-color: #fee;
+  color: #c33;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #fcc;
+  font-size: 0.9rem;
+}
+
+.subscribe-button {
+  width: 100%;
+  padding: 18px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.subscribe-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+
+.subscribe-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.pricing-note {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.back-button {
+  width: 100%;
+  max-width: 600px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid white;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+
+.back-button:hover {
+  background: white;
+  color: #667eea;
+}
+
+.pricing-footer {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+.pricing-footer p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.pricing-footer a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.pricing-footer a:hover {
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pricing-header h1 {
+    font-size: 2rem;
+  }
+
+  .pricing-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .pricing-card {
+    padding: 30px 20px;
+  }
+
+  .amount {
+    font-size: 4rem;
+  }
+
+  .subscribe-button {
+    font-size: 1.1rem;
+    padding: 16px;
+  }
+}
