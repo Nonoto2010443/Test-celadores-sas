@@ -6,7 +6,7 @@
       "A": "Derecho de conocerla y el deber a usarla",
       "B": "Derecho a usarla y deber de conocerla.",
       "C": "Derecho y deber de conocer",
-	  "D": "Derecho y deber de usarlo"
+      "D": "Derecho y deber de usarlo"
     },
     "CorrectOption": "B"
   },
@@ -3865,4 +3865,3 @@
     "CorrectOption": "A"
   }
 ]
-``` 
