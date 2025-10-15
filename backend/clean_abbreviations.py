@@ -96,10 +96,11 @@ async def clean_abbreviations():
         
         # Limpiar explicación
         original_explicacion = question.get('explicacion', '')
-        cleaned_explicacion = original_explicacion
+        cleaned_explicacion = original_explicacion if original_explicacion else ''
         
-        for pattern, replacement in ABBREVIATION_REPLACEMENTS.items():
-            cleaned_explicacion = re.sub(pattern, replacement, cleaned_explicacion)
+        if cleaned_explicacion:  # Solo limpiar si existe
+            for pattern, replacement in ABBREVIATION_REPLACEMENTS.items():
+                cleaned_explicacion = re.sub(pattern, replacement, cleaned_explicacion)
         
         # Verificar si hubo cambios
         if (cleaned_pregunta != original_pregunta or 
