@@ -13,10 +13,12 @@ const Dashboard = () => {
   const [stats, setStats] = useState(null);
   const [history, setHistory] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [subscriptionStatus, setSubscriptionStatus] = useState(null);
   const API_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8001';
 
   useEffect(() => {
     loadDashboardData();
+    loadSubscriptionStatus();
   }, []);
 
   const loadDashboardData = async () => {
@@ -38,7 +40,23 @@ const Dashboard = () => {
     }
   };
 
+  const loadSubscriptionStatus = async () => {
+    try {
+      const response = await axios.get(`${API_URL}/api/subscription/status`);
+      setSubscriptionStatus(response.data.subscription_status);
+    } catch (error) {
+      console.error('Error loading subscription:', error);
+    }
+  };
+
   const handleNewExam = () => {
+    // Check subscription before allowing exam
+    if (subscriptionStatus !== 'active') {
+      if (window.confirm('Necesitas una suscripción activa para realizar exámenes. ¿Deseas ver los planes de suscripción?')) {
+        navigate('/pricing');
+      }
+      return;
+    }
     navigate('/exam');
   };
 
