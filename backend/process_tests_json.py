@@ -176,6 +176,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema19.json',
             'tema': 19,
             'nombre': 'Tema 19 - Política Ambiental del SAS y gestión de residuos'
+        },
+        {
+            'archivo': 'recopilatorio_comun_500.json',
+            'tema': None,
+            'nombre': 'Recopilatorio Común 500 - Temario Común General'
         }
     ]
     
