@@ -1018,8 +1018,33 @@ async def generate_new_exam(current_user: TokenData = Depends(require_active_sub
             valid_questions = [q for q in tema_questions if len(q.get('opciones', [])) >= 4][:count]
             especifico_bd.extend(valid_questions)
         
-        # Generar 1-2 preguntas de IA del temario específico
-        especifico_ai = await generate_questions_with_ai(1, "especifico")
+        # Generar 1-2 preguntas de IA del temario específico (seleccionar de pre-generadas)
+        especifico_ai_cursor = db.preguntas_ia.aggregate([
+            {"$match": {"tipo_temario": "especifico"}},
+            {"$sample": {"size": 3}}  # Get 3 to ensure we have at least 1 valid
+        ])
+        especifico_ai_raw = await especifico_ai_cursor.to_list(3)
+        
+        # Mark as used
+        for ai_q in especifico_ai_raw[:1]:
+            await db.preguntas_ia.update_one(
+                {"_id": ai_q["_id"]},
+                {
+                    "$inc": {"used_count": 1},
+                    "$set": {"last_used": datetime.now(timezone.utc).isoformat()}
+                }
+            )
+        
+        # Convert to Question format
+        especifico_ai = []
+        for ai_q in especifico_ai_raw[:1]:
+            especifico_ai.append(Question(
+                pregunta=ai_q['pregunta'],
+                opciones=ai_q['opciones'],
+                respuesta_correcta=ai_q['respuesta_correcta'],
+                explicacion=ai_q.get('explicacion', 'Pregunta generada por IA.'),
+                tema=ai_q.get('tema', 'General')
+            ))
         
         # 3. Convertir preguntas de BD al formato Question
         for pregunta_bd in comun_bd + especifico_bd:
