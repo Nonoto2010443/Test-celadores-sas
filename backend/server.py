@@ -1145,7 +1145,7 @@ async def generate_new_exam(current_user: TokenData = Depends(require_active_sub
             logger.error(f"CRITICAL: Exam has {len(all_questions)} questions instead of 50")
         
         # Log composition
-        db_count = len([q for q in all_questions if 'Consulta el temario oficial del SAS' in q.explicacion])
+        db_count = len([q for q in all_questions if q.explicacion and 'Consulta el temario oficial del SAS' in q.explicacion])
         ai_count = len(all_questions) - db_count
         logger.info(f"Exam composed: {len(all_questions)} questions ({db_count} from DB [{db_count/50*100:.1f}%], {ai_count} from AI [{ai_count/50*100:.1f}%])")
         
