@@ -101,6 +101,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema4.json',
             'tema': 4,
             'nombre': 'Tema 4 - Organización Sanitaria II (SAS y Áreas de Gestión)'
+        },
+        {
+            'archivo': 'test_tema5.json',
+            'tema': 5,
+            'nombre': 'Tema 5 - LOPD y Transparencia Pública'
         }
     ]
     
