@@ -132,16 +132,24 @@ Las preguntas deben ser claras, precisas y del nivel de dificultad de una oposic
         # Create prompt for generating questions
         prompt = f"""Genera exactamente {num_questions} preguntas tipo test para el examen de Celadores del SAS.
 
-IMPORTANTE: Responde ÚNICAMENTE con un objeto JSON válido, sin texto adicional antes o después.
+REGLAS ESTRICTAS:
+1. TODAS las preguntas deben comenzar con el prefijo: "❓FFM.- "
+2. Nivel de dificultad: BÁSICO
+3. Gramática y ortografía PERFECTAS
+4. NO uses abreviaturas confusas
+5. Imita el estilo de exámenes oficiales del SAS
+6. SOLO preguntas de {temas_rango}
 
-El formato debe ser exactamente así:
+IMPORTANTE: Responde ÚNICAMENTE con un objeto JSON válido, sin texto adicional.
+
+Formato JSON exacto:
 {{
   "preguntas": [
     {{
-      "pregunta": "Texto de la pregunta",
-      "opciones": ["Opción A", "Opción B", "Opción C", "Opción D"],
+      "pregunta": "❓FFM.- Texto de la pregunta completa y clara",
+      "opciones": ["Opción A completa", "Opción B completa", "Opción C completa", "Opción D completa"],
       "respuesta_correcta": 0,
-      "explicacion": "Breve explicación de por qué es correcta",
+      "explicacion": "Justificación detallada citando el artículo o ley correspondiente",
       "tema": "Nombre del tema"
     }}
   ]
@@ -150,10 +158,10 @@ El formato debe ser exactamente así:
 Requisitos:
 - Exactamente {num_questions} preguntas
 - 4 opciones por pregunta (índices 0-3)
-- respuesta_correcta debe ser el índice (0, 1, 2 o 3)
-- Distribuye las preguntas entre todos los 19 temas
-- Preguntas realistas y del nivel de oposición
-- Solo devuelve el JSON, nada más"""
+- respuesta_correcta es el índice (0, 1, 2 o 3)
+- Explicación basada en legislación o temario oficial
+- Todas las preguntas comienzan con "❓FFM.- "
+- Solo JSON, nada más"""
 
         user_message = UserMessage(text=prompt)
         response = await chat.send_message(user_message)
