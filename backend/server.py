@@ -117,7 +117,7 @@ class PaymentTransaction(BaseModel):
     metadata: Optional[Dict[str, str]] = None
 
 # Subscription configuration
-MONTHLY_SUBSCRIPTION_PRICE = 9.99  # EUR per month
+MONTHLY_SUBSCRIPTION_PRICE = 10.00  # EUR per month
 SUBSCRIPTION_CURRENCY = "eur"
 
 # Password Reset Models
