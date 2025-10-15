@@ -8,8 +8,24 @@
 
 ## 1. PROHIBICIÓN ESTRICTA DE ABREVIATURAS
 
-### 1.1 Regla General
-**TODAS las leyes, normativas y documentos oficiales DEBEN escribirse con su nombre completo.**
+### 1.1 Regla General - FORMATO OFICIAL OBLIGATORIO
+**TODAS las leyes, normativas y documentos oficiales DEBEN escribirse con su número, fecha y nombre completo oficial.**
+
+### 1.2 Formato Oficial Requerido
+
+✅ **FORMATO CORRECTO (OBLIGATORIO):**
+- **Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales**
+- **Ley 14/1986, de 25 de abril, General de Sanidad**
+- **Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales**
+- **Constitución Española de 1978**
+- **Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía**
+- **Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud**
+- **Ley 7/2007, de 12 de abril, del Estatuto Básico del Empleado Público**
+
+❌ **FORMATO INCORRECTO (PROHIBIDO):**
+- "Ley de Prevención de Riesgos Laborales" (sin número ni fecha)
+- "Ley General de Sanidad" (sin número ni fecha)
+- Nombres sin formato oficial completo
 
 ### 1.2 Única Excepción Permitida
 ✅ **SAS** (Servicio Andaluz de Salud) - ÚNICA abreviatura permitida en toda la aplicación
