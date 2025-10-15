@@ -66,7 +66,7 @@ const HomePage = () => {
                 <Award className="h-6 w-6 text-purple-600" />
               </div>
               <CardTitle className="text-xl">Sistema de Puntuación</CardTitle>
-              <CardDescription>Puntuación oficial SAS</CardDescription>
+              <CardDescription>Puntuación sobre 100 puntos</CardDescription>
             </CardHeader>
             <CardContent>
               <div className="space-y-2 text-sm">
