@@ -391,9 +391,19 @@ async def generate_new_exam(current_user: TokenData = Depends(get_current_user))
             if not pregunta_texto.startswith("❓FFM.- "):
                 pregunta_texto = f"❓FFM.- {pregunta_texto}"
             
+            # Asegurarse de que opciones es una lista válida
+            opciones = pregunta_bd.get('opciones', [])
+            if not isinstance(opciones, list):
+                logger.error(f"opciones is not a list: {type(opciones)}")
+                opciones = []
+            
+            if len(opciones) < 2:
+                logger.error(f"Question has insufficient options: {len(opciones)} - {pregunta_texto[:50]}")
+                continue  # Skip this question if it doesn't have enough options
+            
             question = Question(
                 pregunta=pregunta_texto,
-                opciones=pregunta_bd['opciones'],
+                opciones=opciones,
                 respuesta_correcta=pregunta_bd['respuesta_correcta'],
                 explicacion=pregunta_bd.get('explicacion', 'Consulta el temario oficial del SAS.'),
                 tema=f"Tema {pregunta_bd.get('tema', '?')}" if pregunta_bd.get('tema') else None

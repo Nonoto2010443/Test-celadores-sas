@@ -97,3 +97,4 @@ data/temario/temario_especifico_t11-t19.pdf
 *.env
 *.env.*
 frontend/node_modules/.cache/default-development/1.pack
+frontend/node_modules/.cache/default-development/0.pack
