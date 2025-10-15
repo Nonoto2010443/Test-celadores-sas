@@ -78,8 +78,8 @@ def extraer_preguntas_cuadernillo(pdf_path):
                     opciones_actuales = []
                     continue
                 
-                # Detectar opciones (a), b), c), d)
-                match_opcion = re.match(r'^([a-d])\)\s*(.+)', linea, re.IGNORECASE)
+                # Detectar opciones A), B), C), D)
+                match_opcion = re.match(r'^([A-D])\)\s+(.+)', linea)
                 if match_opcion and pregunta_actual:
                     opciones_actuales.append(match_opcion.group(2).strip())
                     continue
