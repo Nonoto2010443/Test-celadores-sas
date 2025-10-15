@@ -472,20 +472,44 @@ async def submit_exam(exam: ExamSubmit):
         else:
             incorrectas += 1
     
-    # Generate simple justifications for all questions
+    # Generate educational justifications with AI (in parallel for speed)
+    logging.info("🤖 Generando justificaciones educativas con IA...")
+    
+    # Generate justifications only for incorrect/blank answers to save time
     questions_with_justifications = []
+    tasks = []
     
     for i, pregunta in enumerate(exam.preguntas):
-        # Generate simple justification
-        justification = generate_justification_simple(pregunta)
-        # Update question with justification
+        respuesta_usuario = exam.respuestas_usuario[i]
+        
+        # Generate AI justification only for incorrect or blank answers
+        if respuesta_usuario is None or respuesta_usuario != pregunta.respuesta_correcta:
+            tasks.append((i, generate_justification_with_ai(pregunta)))
+        else:
+            # For correct answers, use simple justification
+            correct_letter = chr(65 + pregunta.respuesta_correcta)
+            tasks.append((i, None))  # Will use simple message
+    
+    # Execute AI calls in parallel
+    justifications = {}
+    for i, task in tasks:
+        if task is not None:
+            justifications[i] = await task
+        else:
+            correct_letter = chr(65 + exam.preguntas[i].respuesta_correcta)
+            justifications[i] = f"¡Correcto! La opción {correct_letter} es la respuesta adecuada."
+    
+    # Build questions with justifications
+    for i, pregunta in enumerate(exam.preguntas):
         updated_pregunta = Question(
             texto=pregunta.texto,
             opciones=pregunta.opciones,
             respuesta_correcta=pregunta.respuesta_correcta,
-            justificacion=justification
+            justificacion=justifications[i]
         )
         questions_with_justifications.append(updated_pregunta)
+    
+    logging.info(f"✅ Justificaciones educativas generadas")
     
     # Official scoring for 50 questions = 100 points
     # Each correct = 2 points, each incorrect = -0.5 points
