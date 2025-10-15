@@ -1116,10 +1116,29 @@ async def generate_new_exam(current_user: TokenData = Depends(require_active_sub
         # Verify we have exactly 50
         if len(all_questions) < 50:
             logger.error(f"Failed to generate 50 questions, only have {len(all_questions)}")
-            # Generate remaining with AI
+            # Get remaining from AI pool
             remaining = 50 - len(all_questions)
-            extra = await generate_questions_with_ai(remaining, None)
-            all_questions.extend(extra)
+            
+            extra_cursor = db.preguntas_ia.aggregate([
+                {"$sample": {"size": remaining * 2}}
+            ])
+            extra_raw = await extra_cursor.to_list(remaining * 2)
+            
+            for ai_q in extra_raw[:remaining]:
+                await db.preguntas_ia.update_one(
+                    {"_id": ai_q["_id"]},
+                    {
+                        "$inc": {"used_count": 1},
+                        "$set": {"last_used": datetime.now(timezone.utc).isoformat()}
+                    }
+                )
+                all_questions.append(Question(
+                    pregunta=ai_q['pregunta'],
+                    opciones=ai_q['opciones'],
+                    respuesta_correcta=ai_q['respuesta_correcta'],
+                    explicacion=ai_q.get('explicacion', 'Pregunta generada por IA.'),
+                    tema=ai_q.get('tema', 'General')
+                ))
         
         # Final verification
         if len(all_questions) != 50:
