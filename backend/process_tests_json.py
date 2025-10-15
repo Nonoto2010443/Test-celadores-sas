@@ -126,6 +126,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema9.json',
             'tema': 9,
             'nombre': 'Tema 9 - Autonomía del paciente y documentación clínica'
+        },
+        {
+            'archivo': 'test_tema10.json',
+            'tema': 10,
+            'nombre': 'Tema 10 - Tecnologías de la información en el SAS'
         }
     ]
     
