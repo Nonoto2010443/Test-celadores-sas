@@ -625,6 +625,7 @@ def test_protected_exam_generation(authenticated_users):
                                 True,
                                 "No option labels (A), B), C), D)) found in option text"
                             )
+                            print(f"   ✅ No option labels (A), B), C), D)) found in option text")
                         else:
                             results.add_result(
                                 "Database Quality - No Option Labels",
@@ -632,6 +633,7 @@ def test_protected_exam_generation(authenticated_users):
                                 f"Found {len(label_issues)} option label issues",
                                 "; ".join(label_issues[:5])
                             )
+                            print(f"   ❌ Found {len(label_issues)} option label issues")
                         
                         # Test 6: Check question prefix consistency
                         prefix_issues = []
