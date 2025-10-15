@@ -82,6 +82,17 @@ class SubmitExamRequest(BaseModel):
     respuestas: List[Answer]
     tiempo_empleado_segundos: int
 
+class UserStats(BaseModel):
+    """Statistics for user dashboard"""
+    total_examenes: int
+    promedio_puntuacion: float
+    mejor_puntuacion: float
+    peor_puntuacion: float
+    total_correctas: int
+    total_incorrectas: int
+    total_en_blanco: int
+    tiempo_promedio_minutos: float
+
 # Helper function to generate questions with AI
 async def generate_questions_with_ai(num_questions: int = 7, tema_tipo: str = None) -> List[Question]:
     """Generate exam questions using OpenAI via EmergentIntegrations"""
