@@ -17,8 +17,8 @@ def extraer_preguntas_2025(pdf_path, nombre_examen):
     try:
         with pdfplumber.open(pdf_path) as pdf:
             texto_completo = ""
-            # Leer todas las páginas
-            for page in pdf.pages:
+            # Leer todas las páginas excepto las primeras de instrucciones
+            for page in pdf.pages[3:]:  # Saltar portada e instrucciones
                 texto = page.extract_text()
                 if texto:
                     texto_completo += texto + "\n"
@@ -29,9 +29,9 @@ def extraer_preguntas_2025(pdf_path, nombre_examen):
             while i < len(lineas):
                 linea = lineas[i].strip()
                 
-                # Detectar pregunta: número + punto/paréntesis + texto
-                match = re.match(r'^(\d+)[.\)]\s+(.+)$', linea)
-                if match:
+                # Detectar pregunta: solo número seguido de espacio
+                match = re.match(r'^(\d+)\s+(.+)$', linea)
+                if match and not re.match(r'^[A-D]\)', linea):
                     num_pregunta = int(match.group(1))
                     texto_pregunta = match.group(2)
                     
