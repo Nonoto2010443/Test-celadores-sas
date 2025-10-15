@@ -22,7 +22,12 @@ db = client[DB_NAME]
 
 # Comprehensive abbreviation mapping (except SAS which should remain)
 ABBREVIATIONS = {
-    # Leyes principales
+    # Leyes principales - PROTECCIÓN DE DATOS (PRIORIDAD)
+    r'\bLOPDPGDD\b': 'Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales',
+    r'\bLOPDGDD\b': 'Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales',
+    r'\bLOPD\b': 'Ley Orgánica de Protección de Datos',
+    
+    # Otras leyes principales
     r'\bLSA\b': 'Ley de Salud de Andalucía',
     r'\bLPRL\b': 'Ley de Prevención de Riesgos Laborales',
     r'\bLOUA\b': 'Ley de Ordenación Urbanística de Andalucía',
@@ -31,10 +36,11 @@ ABBREVIATIONS = {
     r'\bLPAC\b': 'Ley del Procedimiento Administrativo Común',
     r'\bEBAP\b': 'Estatuto Básico del Empleado Público',
     r'\bEBEP\b': 'Estatuto Básico del Empleado Público',
+    r'\bEM\b': 'Estatuto Marco',
+    r'\bEMPNS\b': 'Estatuto Marco del Personal Estatutario de los Servicios de Salud',
     r'\bLGS\b': 'Ley General de Sanidad',
     r'\bLGSP\b': 'Ley General de Salud Pública',
     r'\bLAC\b': 'Ley de Autonomía del Paciente',
-    r'\bLOPD\b': 'Ley Orgánica de Protección de Datos',
     r'\bLSSI\b': 'Ley de Servicios de la Sociedad de la Información',
     
     # Documentos oficiales
