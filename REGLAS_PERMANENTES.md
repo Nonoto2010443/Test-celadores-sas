@@ -66,6 +66,17 @@
 ## 2. COMPOSICIÓN DEL EXAMEN
 
 ### 2.1 Distribución por Origen de las Preguntas
+
+
+### 2.4 Distribución Equitativa por Temas
+**OBLIGATORIO:**
+
+- Las preguntas de la base de datos DEBEN distribuirse equitativamente entre todos los temas disponibles
+- **NO** concentrar preguntas en pocos temas
+- Ejemplo INCORRECTO: ❌ 10 preguntas del Tema 12, 8 del Tema 5, 0 del Tema 3
+- Ejemplo CORRECTO: ✅ 1-2 preguntas de cada tema común (T1-T10), 3-4 preguntas de cada tema específico (T11-T19)
+- El algoritmo de selección usa distribución por tema antes de mezclar aleatoriamente
+
 **OBLIGATORIO - ACTUALIZADO:**
 
 - **95%** de las preguntas DEBEN provenir de la base de datos (47-48 preguntas de 50)
