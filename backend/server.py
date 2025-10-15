@@ -366,24 +366,33 @@ async def generate_new_exam(current_user: TokenData = Depends(get_current_user))
         all_questions = []
         
         # 1. TEMARIO COMÚN (30% = 15 preguntas)
-        # De BD: 13 preguntas, IA: 2 preguntas
+        # De BD: intentar obtener 13 preguntas válidas, IA: 2 preguntas
         logger.info("Selecting common topic questions...")
+        # Obtener más preguntas de las necesarias para compensar las que tienen opciones vacías
         comun_bd_cursor = db.preguntas_oficiales.aggregate([
             {"$match": {"tema": {"$in": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}}},
-            {"$sample": {"size": 13}}
+            {"$sample": {"size": 50}}  # Obtener más para filtrar
         ])
-        comun_bd = await comun_bd_cursor.to_list(13)
+        comun_bd_raw = await comun_bd_cursor.to_list(50)
+        
+        # Filtrar solo preguntas con opciones válidas
+        comun_bd = [q for q in comun_bd_raw if len(q.get('opciones', [])) >= 2][:13]
         
         # Generar 2 preguntas de IA del temario común
         comun_ai = await generate_questions_with_ai(2, "comun")
         
         # 2. TEMARIO ESPECÍFICO (70% = 35 preguntas)
-        # De BD: 30 preguntas, IA: 5 preguntas
+        # De BD: intentar obtener 30 preguntas válidas, IA: 5 preguntas
         logger.info("Selecting specific topic questions...")
+        # Obtener más preguntas de las necesarias para compensar las que tienen opciones vacías
         especifico_bd_cursor = db.preguntas_oficiales.aggregate([
             {"$match": {"tema": {"$in": [11, 12, 13, 14, 15, 16, 17, 18, 19]}}},
-            {"$sample": {"size": 30}}
+            {"$sample": {"size": 100}}  # Obtener más para filtrar
         ])
+        especifico_bd_raw = await especifico_bd_cursor.to_list(100)
+        
+        # Filtrar solo preguntas con opciones válidas
+        especifico_bd = [q for q in especifico_bd_raw if len(q.get('opciones', [])) >= 2][:30]
         especifico_bd = await especifico_bd_cursor.to_list(30)
         
         # Generar 5 preguntas de IA del temario específico
