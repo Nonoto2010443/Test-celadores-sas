@@ -442,9 +442,14 @@ async def get_exam(exam_id: str):
     return exam
 
 @api_router.post("/exam/submit", response_model=ExamResult)
-async def submit_exam(submission: SubmitExamRequest):
-    """Submit exam answers and calculate score"""
+async def submit_exam(submission: SubmitExamRequest, current_user: TokenData = Depends(get_current_user)):
+    """Submit exam answers and calculate score. Saves to user's history."""
     try:
+        # Get user
+        user = await db.users.find_one({"email": current_user.email}, {"_id": 0})
+        if not user:
+            raise HTTPException(status_code=404, detail="User not found")
+        
         # Get the exam
         exam = await db.exams.find_one({"id": submission.exam_id}, {"_id": 0})
         
