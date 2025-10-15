@@ -403,6 +403,66 @@ Requisitos:
 # API Routes
 @api_router.get("/")
 async def root():
+
+
+async def generate_justification_with_ai(pregunta: str, opciones: List[str], respuesta_correcta: int) -> str:
+    """Generate detailed justification for a question using Google Gemini AI"""
+    try:
+        llm_key = os.environ.get('EMERGENT_LLM_KEY')
+        if not llm_key:
+            logger.warning("EMERGENT_LLM_KEY not found, returning default justification")
+            return "Consulta el temario oficial del SAS."
+        
+        # Prepare options text
+        opciones_texto = "\n".join([f"  {chr(65+i)}) {opt}" for i, opt in enumerate(opciones)])
+        opcion_correcta_letra = chr(65 + respuesta_correcta)
+        opcion_correcta_texto = opciones[respuesta_correcta]
+        
+        # Initialize Gemini chat
+        chat = LlmChat(
+            api_key=llm_key,
+            session_id=str(uuid.uuid4()),
+            system_message="""Eres un experto profesor del temario de Celadores del Servicio Andaluz de Salud (SAS). 
+Tu objetivo es ayudar a los alumnos a comprender profundamente cada pregunta del examen.
+
+Debes proporcionar explicaciones claras, educativas y profesionales que:
+- Expliquen por qué la respuesta correcta es correcta
+- Aclaren por qué las otras opciones son incorrectas
+- Hagan referencia a las leyes, artículos o conceptos relevantes del temario
+- Usen un tono profesional pero accesible
+- Sean concisas pero completas (3-5 líneas máximo)
+
+IMPORTANTE: Responde SIEMPRE en español."""
+        ).with_model("gemini", "gemini-2.0-flash")
+        
+        # Create prompt for justification
+        prompt = f"""Pregunta del examen de Celadores del SAS:
+
+{pregunta}
+
+Opciones:
+{opciones_texto}
+
+La respuesta correcta es: {opcion_correcta_letra}) {opcion_correcta_texto}
+
+Por favor, proporciona una explicación clara y educativa de por qué esta es la respuesta correcta y por qué las demás opciones son incorrectas. Basa tu razonamiento en el temario oficial de Celadores del SAS, las leyes relevantes, y las funciones y responsabilidades de un Celador.
+
+Formato de respuesta: Un solo párrafo de 3-5 líneas, directo y profesional."""
+
+        user_message = UserMessage(text=prompt)
+        response = await chat.send_message(user_message)
+        
+        # Clean and return response
+        justification = response.strip()
+        
+        logger.info(f"Generated justification for question: {pregunta[:50]}...")
+        return justification
+        
+    except Exception as e:
+        logger.error(f"Error generating justification with AI: {e}")
+        # Fallback to default justification
+        return "Consulta el temario oficial del SAS para obtener más información sobre esta pregunta."
+
     return {"message": "API del Examen de Celadores SAS"}
 
 # ============ AUTHENTICATION ROUTES ============
