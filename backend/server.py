@@ -1078,9 +1078,32 @@ async def generate_new_exam(current_user: TokenData = Depends(require_active_sub
         
         # 5. Verificar que tenemos suficientes preguntas
         if len(all_questions) < 50:
-            logger.warning(f"Only {len(all_questions)} valid questions, need 50. Generating more AI questions...")
+            logger.warning(f"Only {len(all_questions)} valid questions, need 50. Using more AI questions...")
             needed = 50 - len(all_questions)
-            extra_ai = await generate_questions_with_ai(needed, None)
+            
+            # Get extra AI questions from pool
+            extra_ai_cursor = db.preguntas_ia.aggregate([
+                {"$sample": {"size": needed * 2}}  # Get extra to ensure enough valid ones
+            ])
+            extra_ai_raw = await extra_ai_cursor.to_list(needed * 2)
+            
+            extra_ai = []
+            for ai_q in extra_ai_raw[:needed]:
+                await db.preguntas_ia.update_one(
+                    {"_id": ai_q["_id"]},
+                    {
+                        "$inc": {"used_count": 1},
+                        "$set": {"last_used": datetime.now(timezone.utc).isoformat()}
+                    }
+                )
+                extra_ai.append(Question(
+                    pregunta=ai_q['pregunta'],
+                    opciones=ai_q['opciones'],
+                    respuesta_correcta=ai_q['respuesta_correcta'],
+                    explicacion=ai_q.get('explicacion', 'Pregunta generada por IA.'),
+                    tema=ai_q.get('tema', 'General')
+                ))
+            
             all_questions.extend(extra_ai)
         
         # 6. Mezclar aleatoriamente
