@@ -43,6 +43,21 @@
 
 #### Documentos Oficiales
 - ❌ **BOE** → ✅ **Boletín Oficial del Estado**
+
+
+### 1.5 Calidad Gramatical y Ortográfica
+**OBLIGATORIO:**
+
+Todas las preguntas, opciones y justificaciones DEBEN estar libres de errores gramaticales y ortográficos.
+
+**Errores Corregidos:**
+- ❌ **"AutonomíaA"** → ✅ **"Autonomía"** (160 instancias corregidas)
+- ❌ **Dobles espacios** → ✅ **Espacio simple** (177 instancias corregidas)
+- ❌ **Espacios antes de puntuación** → ✅ **Puntuación correcta**
+- ❌ **Puntos dobles (..)** → ✅ **Punto simple (.)**
+
+**Total Correcciones:** 789 preguntas actualizadas con 1,145 errores corregidos
+
 - ❌ **BOJA** → ✅ **Boletín Oficial de la Junta de Andalucía**
 - ❌ **RD** → ✅ **Real Decreto**
 - ❌ **RDL** → ✅ **Real Decreto-Ley**
