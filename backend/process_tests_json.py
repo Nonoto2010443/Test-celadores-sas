@@ -161,6 +161,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema16.json',
             'tema': 16,
             'nombre': 'Tema 16 - Manual de Estilo del SAS'
+        },
+        {
+            'archivo': 'test_tema17.json',
+            'tema': 17,
+            'nombre': 'Tema 17 - Prevención de riesgos laborales específica de Celadores'
         }
     ]
     
