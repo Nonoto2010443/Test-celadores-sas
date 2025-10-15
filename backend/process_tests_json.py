@@ -106,6 +106,11 @@ async def procesar_tests_json():
             'archivo': 'test_tema5.json',
             'tema': 5,
             'nombre': 'Tema 5 - LOPD y Transparencia Pública'
+        },
+        {
+            'archivo': 'test_tema6.json',
+            'tema': 6,
+            'nombre': 'Tema 6 - Prevención de Riesgos Laborales'
         }
     ]
     
