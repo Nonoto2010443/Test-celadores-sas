@@ -227,6 +227,107 @@ Requisitos:
 async def root():
     return {"message": "API del Examen de Celadores SAS"}
 
+# ============ AUTHENTICATION ROUTES ============
+
+@api_router.post("/auth/register", response_model=Token, status_code=status.HTTP_201_CREATED)
+async def register(user_data: UserCreate):
+    """Register a new user"""
+    try:
+        # Check if user already exists
+        existing_user = await db.users.find_one({"email": user_data.email})
+        if existing_user:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Email already registered"
+            )
+        
+        # Create new user
+        user_id = str(uuid.uuid4())
+        user = {
+            "id": user_id,
+            "email": user_data.email,
+            "password_hash": get_password_hash(user_data.password),
+            "nombre": user_data.nombre,
+            "created_at": datetime.now(timezone.utc).isoformat(),
+            "last_login": datetime.now(timezone.utc).isoformat()
+        }
+        
+        await db.users.insert_one(user)
+        
+        # Create access token
+        access_token = create_access_token(data={"sub": user_data.email})
+        
+        logger.info(f"New user registered: {user_data.email}")
+        return Token(access_token=access_token, token_type="bearer")
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error in register: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.post("/auth/login", response_model=Token)
+async def login(credentials: UserLogin):
+    """Login user and return JWT token"""
+    try:
+        # Find user
+        user = await db.users.find_one({"email": credentials.email})
+        
+        if not user or not verify_password(credentials.password, user["password_hash"]):
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail="Incorrect email or password"
+            )
+        
+        # Update last login
+        await db.users.update_one(
+            {"email": credentials.email},
+            {"$set": {"last_login": datetime.now(timezone.utc).isoformat()}}
+        )
+        
+        # Create access token
+        access_token = create_access_token(data={"sub": credentials.email})
+        
+        logger.info(f"User logged in: {credentials.email}")
+        return Token(access_token=access_token, token_type="bearer")
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error in login: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/auth/me", response_model=User)
+async def get_me(current_user: TokenData = Depends(get_current_user)):
+    """Get current user information"""
+    try:
+        user = await db.users.find_one({"email": current_user.email}, {"_id": 0, "password_hash": 0})
+        
+        if not user:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail="User not found"
+            )
+        
+        # Convert ISO string to datetime if needed
+        if isinstance(user['created_at'], str):
+            user['created_at'] = datetime.fromisoformat(user['created_at'])
+        
+        return User(**user)
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error in get_me: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.post("/auth/logout")
+async def logout():
+    """Logout user (client should remove token)"""
+    return {"message": "Logged out successfully"}
+
+# ============ TEMARIO ROUTES (PUBLIC) ============
+
 @api_router.get("/temario/list")
 async def get_temario_list():
     """Get list of all 19 temas"""
