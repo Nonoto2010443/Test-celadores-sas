@@ -17,7 +17,7 @@ def get_authenticated_user():
     """Get an authenticated user for testing"""
     # Register a test user
     user_data = {
-        "email": f"rules.test.{datetime.now().strftime('%Y%m%d%H%M%S')}@sas.test",
+        "email": f"rules.test.{datetime.now().strftime('%Y%m%d%H%M%S')}@hospital.com",
         "password": "RulesTest2025!",
         "nombre": "Rules Test User"
     }
