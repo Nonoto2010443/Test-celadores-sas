@@ -597,6 +597,7 @@ def test_protected_exam_generation(authenticated_users):
                                 True,
                                 "No forbidden abbreviations found (LSA, LPRL, EBAP, etc.)"
                             )
+                            print(f"   ✅ No forbidden abbreviations found (checked for LSA, LPRL, EBAP, LOPD, EM, EA, EMPNS)")
                         else:
                             results.add_result(
                                 "Database Quality - Expanded Abbreviations",
@@ -604,6 +605,7 @@ def test_protected_exam_generation(authenticated_users):
                                 f"Found {len(abbreviation_issues)} abbreviation issues",
                                 "; ".join(abbreviation_issues[:5])
                             )
+                            print(f"   ❌ Found {len(abbreviation_issues)} abbreviation issues")
                         
                         # Test 5: Check for option labels (A), B), C), D)) in option text
                         label_issues = []
