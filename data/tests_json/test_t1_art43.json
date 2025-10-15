@@ -1,0 +1,112 @@
+[
+  {
+    "Id": 1,
+    "Question": "❓ FFM T1 CE ¿A quién reconoce el Artículo 43 de la Constitución Española el derecho a la protección de la salud?",
+    "Options": {
+      "A": "Únicamente a los ciudadanos españoles.",
+      "B": "A todos los residentes legales.",
+      "C": "A todos, sin distinción.",
+      "D": "Solo a los trabajadores activos."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 2,
+    "Question": "❓ FFM T1 CE Según el Artículo 43.2, los poderes públicos deben tutelar la sanidad pública a través de:",
+    "Options": {
+      "A": "Decretos gubernamentales.",
+      "B": "Acuerdos con empresas privadas.",
+      "C": "Medidas preventivas y las prestaciones y servicios necesarios.",
+      "D": "Impuestos especiales al tabaco y alcohol."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 3,
+    "Question": "❓ FFM T1 CE El Artículo 43.2 establece que los poderes públicos fomentarán la:",
+    "Options": {
+      "A": "Innovación tecnológica en el sector sanitario.",
+      "B": "Educación sanitaria, la educación física y el deporte.",
+      "C": "Sanidad privada como complemento a la pública.",
+      "D": "Regulación de los precios de los medicamentos."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 4,
+    "Question": "❓ FFM T1 CE ¿Qué tipo de norma jurídica se requiere para establecer los derechos y deberes sobre la sanidad, según el Artículo 43.3?",
+    "Options": {
+      "A": "Una Ley orgánica.",
+      "B": "Un Real Decreto.",
+      "C": "Una Orden Ministerial.",
+      "D": "Una Ley ordinaria."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 5,
+    "Question": "❓ FFM T1 CE El Artículo 43 se encuentra dentro de qué Título de la Constitución Española?",
+    "Options": {
+      "A": "Título I, 'De los derechos y deberes fundamentales'.",
+      "B": "Título II, 'De la Corona'.",
+      "C": "Título III, 'De las Cortes Generales'.",
+      "D": "Título IV, 'Del Gobierno y de la Administración'."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 6,
+    "Question": "❓ FFM T1 CE Como 'principio rector de la política social y económica' (Capítulo III), el Artículo 43 es directamente aplicable:",
+    "Options": {
+      "A": "Sí, es un derecho fundamental que puede invocarse directamente ante los tribunales.",
+      "B": "No, es un principio que inspira la legislación y la actuación de los poderes públicos.",
+      "C": "Sí, siempre que una ley posterior así lo establezca.",
+      "D": "Únicamente en el ámbito de la sanidad pública."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 7,
+    "Question": "❓ FFM T1 CE ¿Qué se entiende por 'tutelar' la sanidad pública según el Artículo 43?",
+    "Options": {
+      "A": "Permitir que el sector privado gestione todos los servicios.",
+      "B": "Proteger, organizar y garantizar el funcionamiento del sistema sanitario.",
+      "C": "Supervisar la salud individual de cada ciudadano.",
+      "D": "Asignar la responsabilidad exclusivamente a las Comunidades Autónomas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 8,
+    "Question": "❓ FFM T1 CE La regulación del derecho a la salud por ley debe establecer:",
+    "Options": {
+      "A": "Solo los deberes de los profesionales sanitarios.",
+      "B": "Solamente los derechos de los ciudadanos.",
+      "C": "Los derechos y deberes de todos.",
+      "D": "Únicamente los deberes de los poderes públicos."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 9,
+    "Question": "❓ FFM T1 CE El fomento de la educación física y el deporte por los poderes públicos, según el Artículo 43, tiene como fin:",
+    "Options": {
+      "A": "Reducir la inversión en sanidad.",
+      "B": "Aumentar el número de atletas de élite.",
+      "C": "Promover hábitos saludables en la población.",
+      "D": "Fomentar la sanidad privada."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 10,
+    "Question": "❓ FFM T1 CE ¿En qué Capítulo del Título I se enmarca el Artículo 43 de la Constitución Española?",
+    "Options": {
+      "A": "Capítulo I: 'De los españoles y los extranjeros'.",
+      "B": "Capítulo II: 'Derechos y libertades'.",
+      "C": "Capítulo III: 'De los principios rectores de la política social y económica'.",
+      "D": "Capítulo IV: 'De las garantías de las libertades y derechos fundamentales'."
+    },
+    "CorrectOption": "C"
+  }
+]

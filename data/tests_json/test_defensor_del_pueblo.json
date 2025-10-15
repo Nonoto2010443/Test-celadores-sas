@@ -1,0 +1,13 @@
+[
+    {
+        "Id": 1,
+        "Question": "❓- ¿En qué artículo de la Constitución Española se encuentra regulada la figura del Defensor del Pueblo?",
+        "Options": {
+            "A": "A. Artículo 53",
+            "B": "B. Artículo 54",
+            "C": "C. Artículo 62",
+            "D": "D. Artículo 102"
+        },
+        "CorrectOption": "B"
+    }
+]

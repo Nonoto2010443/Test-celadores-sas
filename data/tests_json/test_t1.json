@@ -1,0 +1,3868 @@
+[
+  {
+    "Id": 1,
+    "Question": "❓FFM.-CE Todos los españoles, respecto al castellano, tienen el:",
+    "Options": {
+      "A": "Derecho de conocerla y el deber a usarla",
+      "B": "Derecho a usarla y deber de conocerla.",
+      "C": "Derecho y deber de conocer",
+	  "D": "Derecho y deber de usarlo"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 2,
+    "Question": "❓FFM.-Una vez declarado el estado de excepción, no se puede suspender el derecho/libertad de:",
+    "Options": {
+      "A": "Huelga.",
+      "B": "Enseñanza.",
+      "C": "Adopción de medidas de conflicto colectivo.",
+      "D": "Libertad de circulación."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 3,
+    "Question": "❓FFM.-La C.E., en su Título Preliminar, art. 1, reconoce que la soberanía nacional reside en:",
+    "Options": {
+      "A": "La Corona.",
+      "B": "Los partidos políticos.",
+      "C": "El pueblo.",
+      "D": "Las Cortes Generales."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 4,
+    "Question": "❓FFM.-La adecuada utilización del ocio se une por nuestra C.E. al derecho de:",
+    "Options": {
+      "A": "La salud.",
+      "B": "Un medio ambiente adecuado.",
+      "C": "La juventud a la participación libre y eficaz en el desarrollo político, social, económico y cultural.",
+      "D": "Trabajar."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 5,
+    "Question": "❓FFM.-La educación tendrá por objeto el pleno desarrollo de la personalidad humana en el respeto a:",
+    "Options": {
+      "A": "Los principios democráticos de convivencia.",
+      "B": "Los derechos fundamentales.",
+      "C": "Las libertades fundamentales.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 6,
+    "Question": "❓FFM.-Los derechos y deberes fundamentales vienen recogidos en la CE en:",
+    "Options": {
+      "A": "Título II.",
+      "B": "Título I, arts. del 10 al 55.",
+      "C": "Título I, arts. 10 al 29.",
+      "D": "Título Preliminar."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 7,
+    "Question": "❓FFM.-El derecho a la libertad de expresión e información está en el art.:",
+    "Options": {
+      "A": "21",
+      "B": "20",
+      "C": "22",
+      "D": "Ninguno."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 8,
+    "Question": "❓FFM.-El derecho de sufragio se reconoce en:",
+    "Options": {
+      "A": "Art. 21.",
+      "B": "Art. 20.",
+      "C": "Art. 23.",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 9,
+    "Question": "❓FFM.-El principio de legalidad penal (irretroactividad) se recoge en el art.:",
+    "Options": {
+      "A": "21",
+      "B": "24",
+      "C": "26",
+      "D": "25"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 10,
+    "Question": "❓FFM.-La privación de libertad es una suspensión de derechos y libertades que se recoge en el art.:",
+    "Options": {
+      "A": "50",
+      "B": "54",
+      "C": "52",
+      "D": "Ninguno es correcta."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 11,
+    "Question": "❓FFM.-En el art. 41 de la CE:",
+    "Options": {
+      "A": "Las Cortes Generales mantendrán un régimen público de Seguridad Social para todos los ciudadanos.",
+      "B": "Los poderes públicos mantendrán un régimen público de Seguridad Social para todos los ciudadanos.",
+      "C": "Los políticos mantendrán un régimen público de Seguridad Social para todos los ciudadanos.",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 12,
+    "Question": "❓FFM.-art. 35 de la C.E.:",
+    "Options": {
+      "A": "Todos los españoles tienen el derecho de trabajar y el deber al trabajo.",
+      "B": "Todos los españoles tienen el deber de trabajar y el derecho al trabajo.",
+      "C": "El derecho y el deber de trabajar es lo mismo.",
+      "D": "Ninguna es cierta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 13,
+    "Question": "❓FFM.-Según la C.E., las asociaciones solo podrán ser disueltas o suspendidas:",
+    "Options": {
+      "A": "En virtud de resolución judicial no motivada.",
+      "B": "En virtud de resolución judicial motivada.",
+      "C": "Por decisión del Tribunal Constitucional.",
+      "D": "Por decisión del Ministerio de Justicia e Interior."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 14,
+    "Question": "❓FFM.-El estado de alarma será declarado por:",
+    "Options": {
+      "A": "Mayoría simple del Congreso.",
+      "B": "El Gobierno.",
+      "C": "Mayoría absoluta del Congreso.",
+      "D": "Mayoría absoluta de las Cortes."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 15,
+    "Question": "❓FFM.-¿QUÉ ÓRGANO ELIGE AL DEFENSOR DEL PUEBLO?",
+    "Options": {
+      "A": "Las Cortes Constitucionales.",
+      "B": "Las Cortes Generales.",
+      "C": "Las Cortes Judiciales.",
+      "D": "Ninguna de las anteriores."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 16,
+    "Question": "❓FFM.-La C.E. en su Título preliminar art. 1 reconoce que la soberanía nacional reside en:",
+    "Options": {
+      "A": "La Corona.",
+      "B": "Los partidos políticos.",
+      "C": "El pueblo.",
+      "D": "Las Cortes Generales."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 17,
+    "Question": "❓FFM.-Para proceder con carácter general a la suspensión de determinados derechos fundamentales es preciso la declaración del estado de:",
+    "Options": {
+      "A": "Alarma y excepción.",
+      "B": "Sitio y excepción.",
+      "C": "Alarma y sitio.",
+      "D": "Excepción, alarma y sitio."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 18,
+    "Question": "❓FFM.-En la C.E. no se recoge:",
+    "Options": {
+      "A": "El proporcionar y tutelar el acceso a la cultura.",
+      "B": "El derecho a la autodeterminación de las Comunidades Autónomas.",
+      "C": "El derecho a la educación.",
+      "D": "El derecho a sindicarse libremente."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 19,
+    "Question": "❓FFM.-El Título Preliminar de la C.E. establece que España es un estado:",
+    "Options": {
+      "A": "Plural de derecho.",
+      "B": "Democrático del pueblo.",
+      "C": "Social y democrático de derecho.",
+      "D": "Popular y democrático de derecho."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 20,
+    "Question": "❓FFM.-El derecho a la protección de la salud se reconoce en el art. 43 del Título I de la C.E. de 1978, ¿en qué capítulo?",
+    "Options": {
+      "A": "Cuarto.",
+      "B": "Primero.",
+      "C": "Tercero.",
+      "D": "Segundo."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 21,
+    "Question": "❓FFM.-El Defensor del Pueblo dará cuenta de su actividad a:",
+    "Options": {
+      "A": "El Rey.",
+      "B": "El Gobierno.",
+      "C": "Las Cortes Generales.",
+      "D": "Al Tribunal Constitucional."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 22,
+    "Question": "❓FFM.-Para poder prorrogar el estado de alarma, es preciso:",
+    "Options": {
+      "A": "Nuevo decreto del Gobierno.",
+      "B": "Autorización del Congreso de los Diputados.",
+      "C": "Autorización del Senado.",
+      "D": "Autorización de las Cortes Generales."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 23,
+    "Question": "❓FFM.-La C.E. recoge:",
+    "Options": {
+      "A": "Las competencias de las Comunidades Autónomas en el art. 148.",
+      "B": "La reforma de los Estatutos de Autonomía en el art. 149.",
+      "C": "Las competencias exclusivas del Estado en el art. 1.",
+      "D": "Todas las respuestas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 24,
+    "Question": "❓FFM.-El uso de la informática se limitará por ley para:",
+    "Options": {
+      "A": "Garantizar el honor y la intimidad de los ciudadanos.",
+      "B": "Proteger la difusión de las ideas y opiniones.",
+      "C": "Regular la participación en los asuntos políticos.",
+      "D": "Reconocer y proteger la libertad de cátedra."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 25,
+    "Question": "❓FFM.-La CE, en relación con la sanidad, atribuye a las CCAA competencias en materia de:",
+    "Options": {
+      "A": "Sanidad exterior.",
+      "B": "Sanidad e higiene.",
+      "C": "Bases y coordinación general de la sanidad.",
+      "D": "Legislación sobre productos farmacéuticos."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 26,
+    "Question": "❓FFM.-La CE fue ratificada:",
+    "Options": {
+      "A": "31 de octubre de 1978.",
+      "B": "6 de diciembre de 1978.",
+      "C": "27 de diciembre de 1978.",
+      "D": "29 de diciembre de 1978."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 27,
+    "Question": "❓FFM.-La garantía de asistencia y prestación sociales suficientes ante situaciones de necesidad, especialmente en caso de desempleo, está recogida en:",
+    "Options": {
+      "A": "La Ley General de Sanidad, art. 142.",
+      "B": "La C.E., art. 41.",
+      "C": "La Ley General de Sanidad, art. 42.",
+      "D": "La C.E., art. 141."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 28,
+    "Question": "❓FFM.-De acuerdo con la C.E., fomentar la educación sanitaria, la educación física y el deporte, le corresponde a:",
+    "Options": {
+      "A": "Al Gobierno.",
+      "B": "A las Cortes Generales.",
+      "C": "A los centros educativos.",
+      "D": "Todas son falsas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 29,
+    "Question": "❓FFM.-La institución del Defensor del Pueblo se regula:",
+    "Options": {
+      "A": "Mediante una Ley Ordinaria.",
+      "B": "Mediante un Decreto-ley.",
+      "C": "Mediante un Decreto Legislativo.",
+      "D": "Todas son falsas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 30,
+    "Question": "❓FFM.-En su art. 20 la C.E. reconoce y protege el derecho:",
+    "Options": {
+      "A": "A la gestión autónoma de los centros docentes.",
+      "B": "A la producción artesanal e industrial.",
+      "C": "A la libertad de cátedra.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 31,
+    "Question": "❓FFM.-La justicia en nuestra CE, emana del pueblo y se administrará en nombre de:",
+    "Options": {
+      "A": "El Gobierno.",
+      "B": "El Rey.",
+      "C": "El Defensor del Pueblo.",
+      "D": "El Congreso de los Diputados."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 32,
+    "Question": "❓FFM.-En el art. 2 de nuestra CE, esta se fundamenta en la disoluble unidad de la nación española, patria común e indivisible de todos los españoles:",
+    "Options": {
+      "A": "Verdadero.",
+      "B": "Falso."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 33,
+    "Question": "❓FFM.-La bandera y enseñas propias de las Comunidades Autónomas, estas se utilizarán:",
+    "Options": {
+      "A": "En Ayuntamientos junto con la del municipio.",
+      "B": "Junto a la española en edificios públicos y actos oficiales.",
+      "C": "Solo en actos oficiales junto a la española.",
+      "D": "Junto con la española en edificios públicos."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 34,
+    "Question": "❓FFM.-¿Quién elige al Presidente del Gobierno?",
+    "Options": {
+      "A": "Las Cortes Generales.",
+      "B": "El Congreso de los Diputados.",
+      "C": "El Rey.",
+      "D": "El Senado."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 35,
+    "Question": "❓FFM.-Tenemos el deber todos de contribuir al sistema tributario justo:",
+    "Options": {
+      "A": "De forma proporcional.",
+      "B": "De forma igualitaria.",
+      "C": "De forma escalonada.",
+      "D": "De todas las formas, todas son correctas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 36,
+    "Question": "❓FFM.-El derecho a vivienda digna y adecuada:",
+    "Options": {
+      "A": "Es un derecho fundamental.",
+      "B": "Está recogido en el art. 47.",
+      "C": "Ninguna es correcta.",
+      "D": "Tiene el nivel de protección medio."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 37,
+    "Question": "❓FFM.-El art. 1.2 establece que la soberanía nacional reside en el pueblo español del que emanan los poderes del:",
+    "Options": {
+      "A": "Gobierno.",
+      "B": "Poder Judicial.",
+      "C": "Cortes Generales.",
+      "D": "Estado."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 38,
+    "Question": "❓FFM.-Los valores superiores y principios inspiradores en la C.E. se encuentran recogidos:",
+    "Options": {
+      "A": "En el Título I.",
+      "B": "En la Sección Primera del Título I.",
+      "C": "En el Preámbulo.",
+      "D": "En el Título Preliminar."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 39,
+    "Question": "❓FFM.-El derecho de libertad de cátedra viene recogido en el:",
+    "Options": {
+      "A": "Art. 27, libertad de enseñanza.",
+      "B": "Art. 27, derecho a la educación.",
+      "C": "Art. 20, libertad de expresión.",
+      "D": "Son correctas A y B."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 40,
+    "Question": "❓FFM.-Según la CE, el sistema fiscal o tributario debe inspirarse en los principios de:",
+    "Options": {
+      "A": "Equidad e igualdad.",
+      "B": "Igualdad y progresividad.",
+      "C": "Igualdad y proporcionalidad.",
+      "D": "Equidad y proporcionalidad."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 41,
+    "Question": "❓FFM.-Los españoles pueden elegir su residencia:",
+    "Options": {
+      "A": "Libremente.",
+      "B": "Previa autorización judicial.",
+      "C": "Previa autorización gubernamental.",
+      "D": "Previa autorización municipal."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 42,
+    "Question": "❓FFM.-Según la CE todos contribuirán al sostenimiento de los gastos públicos mediante un sistema tributario justo inspirado en los principios de:",
+    "Options": {
+      "A": "Solidaridad y progresividad.",
+      "B": "Igualdad y progresividad.",
+      "C": "Igualdad y capacidad.",
+      "D": "Legalidad e igualdad."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 43,
+    "Question": "❓FFM.-Según establece el art. 11 de la vigente C.E.:",
+    "Options": {
+      "A": "En ningún caso se puede perder la nacionalidad española.",
+      "B": "Ningún español de origen podrá ser privado de su nacionalidad.",
+      "C": "Todo español podrá ser privado de su nacionalidad.",
+      "D": "Cualquier español podrá ser privado de su nacionalidad de acuerdo con lo establecido."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 44,
+    "Question": "❓FFM.-Según la C.E., en su art. 137, el Estado se organiza territorialmente en:",
+    "Options": {
+      "A": "Municipios, pueblos y Comunidades Autónomas.",
+      "B": "Aldeas, pueblos y Comunidades Autónomas.",
+      "C": "Comarcas y provincias.",
+      "D": "Municipios, provincias y Comunidades Autónomas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 45,
+    "Question": "❓FFM.-El principio en virtud del cual el ciudadano está amparado por una legislación no sujeta a continuos vaivenes es el de:",
+    "Options": {
+      "A": "Legalidad.",
+      "B": "Publicidad normativa.",
+      "C": "Seguridad jurídica.",
+      "D": "Jerarquía normativa."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 46,
+    "Question": "❓FFM.-EN LA C.E., EL SECRETO DE LAS COMUNICACIONES Y EN ESPECIAL, DE LAS POSTALES, TELEGRÁFICAS Y TELEFÓNICAS:",
+    "Options": {
+      "A": "Se garantiza en todos los casos.",
+      "B": "Se reconoce a los españoles.",
+      "C": "Se garantiza, salvo resolución judicial.",
+      "D": "Se garantiza, salvo resolución administrativa."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 47,
+    "Question": "❓FFM.-¿EN QUÉ TÍTULO DE LA C.E. SE RECONOCE EL DERECHO A LA PROTECCIÓN DE LA SALUD?",
+    "Options": {
+      "A": "En el Título VI.",
+      "B": "En el Título III.",
+      "C": "En el Título I.",
+      "D": "En el Título IX."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 48,
+    "Question": "❓FFM.-Los partidos políticos según la C.E., señale la respuesta correcta:",
+    "Options": {
+      "A": "Expresan el pluralismo político.",
+      "B": "Son instrumento fundamental para la participación política.",
+      "C": "Concurren a la formación y manifestación de la voluntad popular.",
+      "D": "Todas las respuestas anteriores son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 49,
+    "Question": "❓FFM.-Las Fuerzas Armadas tienen como misión:",
+    "Options": {
+      "A": "Defender el ordenamiento constitucional de España.",
+      "B": "Defender la integridad territorial de España.",
+      "C": "Garantizar la soberanía e independencia de España.",
+      "D": "Todas las respuestas anteriores son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 50,
+    "Question": "❓FFM.-Respecto a adquirir, conservar y perder la nacionalidad:",
+    "Options": {
+      "A": "Se acuerda por ley.",
+      "B": "Ningún español de origen puede ser privado.",
+      "C": "Todas son correctas.",
+      "D": "Se regula por el Código Civil de 1889."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 51,
+    "Question": "❓FFM.-El Título Preliminar define el Estado como un estado:",
+    "Options": {
+      "A": "Social y democrático.",
+      "B": "Social y democrático de derecho.",
+      "C": "Social y democrático de derecho cuya jefatura tiene carácter monárquico.",
+      "D": "A la C le añades que tiene una estructura autonómica."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 52,
+    "Question": "❓FFM.-En la CE, la pena de muerte queda abolida en el:",
+    "Options": {
+      "A": "Art. 13.",
+      "B": "Art. 14.",
+      "C": "Abo... ¿qué?",
+      "D": "Art. 15."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 53,
+    "Question": "❓FFM.-El derecho a la protección de la salud se:",
+    "Options": {
+      "A": "Garantiza en el art. 43.",
+      "B": "Reconoce en el art. 43.",
+      "C": "A y B son correctas.",
+      "D": "Protege en el art. 43."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 54,
+    "Question": "❓FFM.-Según la C.E., la educación básica en España es:",
+    "Options": {
+      "A": "Obligatoria.",
+      "B": "Voluntaria.",
+      "C": "Gratuita.",
+      "D": "Las respuestas A y C son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 55,
+    "Question": "❓FFM.-Según el art. 6 de la C.E. de 1978, el pluralismo político se expresa en:",
+    "Options": {
+      "A": "Los sindicatos.",
+      "B": "Los partidos políticos.",
+      "C": "En el Gobierno y la Administración.",
+      "D": "El Gobierno."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 56,
+    "Question": "❓FFM.-Según el art. 9, la C.E. garantiza, señale la respuesta incorrecta:",
+    "Options": {
+      "A": "El principio de legalidad.",
+      "B": "La publicidad de las normas.",
+      "C": "Retroactividad de las disposiciones sancionadoras no favorables.",
+      "D": "La seguridad jurídica."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 57,
+    "Question": "❓FFM.-El Título I de la C.E. trata de los derechos y deberes fundamentales, ¿en qué capítulo del mismo habla de los principios rectores de la política social y económica?",
+    "Options": {
+      "A": "Capítulo Segundo, Sección 1ª.",
+      "B": "Capítulo Segundo, Sección 2ª.",
+      "C": "Capítulo Cuarto.",
+      "D": "Capítulo Tercero."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 58,
+    "Question": "❓FFM.-Al Defensor del Pueblo podrá dirigirse cualquier ciudadano (persona física o jurídica), mayor o menor de edad, español o extranjero, incapacitado o no. Esta petición recibe el nombre de:",
+    "Options": {
+      "A": "Denuncia.",
+      "B": "Llamada.",
+      "C": "Petición.",
+      "D": "Queja."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 59,
+    "Question": "❓FFM.-El Derecho a la Protección de la Salud está recogido en la C.E. de 1978:",
+    "Options": {
+      "A": "En el art. 42.",
+      "B": "En el art. 43.",
+      "C": "No está recogido en la C.E..",
+      "D": "En el art. 42, pero solo para los españoles de origen."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 60,
+    "Question": "❓FFM.-Los derechos y deberes fundamentales de los ciudadanos vienen recogidos en la C.E. en su:",
+    "Options": {
+      "A": "Art. 10.",
+      "B": "Título I."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 61,
+    "Question": "❓FFM.-En la C.E., el secreto de las comunicaciones y, en especial de las postales, telegráficas y telefónicas:",
+    "Options": {
+      "A": "Se garantiza en todos los casos.",
+      "B": "Se reconoce a los españoles.",
+      "C": "Se garantiza, salvo resolución judicial.",
+      "D": "Se garantiza, salvo resolución administrativa."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 62,
+    "Question": "❓FFM.-La C.E., expresa en el art. 18.4, que el uso de la informática se limitará por ley para:",
+    "Options": {
+      "A": "Garantizar el honor y la intimidad de los ciudadanos.",
+      "B": "Proteger la difusión de las ideas y opiniones.",
+      "C": "Regular la participación en los asuntos públicos.",
+      "D": "Reconocer y proteger la libertad de cátedra."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 63,
+    "Question": "❓FFM.-La C.E., en relación con la sanidad, atribuye a las Comunidades Autónomas competencias en materia de:",
+    "Options": {
+      "A": "Sanidad exterior.",
+      "B": "Sanidad e higiene.",
+      "C": "Bases y coordinación general de sanidad.",
+      "D": "Legislación sobre productos farmacéuticos."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 64,
+    "Question": "❓FFM.-De acuerdo con lo establecido en el art. 21 de la C.E. de 1978, 'el derecho de reunión' precisa de:",
+    "Options": {
+      "A": "Comunicación prevista en la C.E. según el caso.",
+      "B": "Comunicación previa a la autoridad, en el caso de manifestaciones.",
+      "C": "Autorización previa de la autoridad, en el caso de manifestaciones.",
+      "D": "Autorización previa, para el caso de reuniones en lugares de tránsito público."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 65,
+    "Question": "❓FFM.-Respecto a la garantía de la 'libertad ideológica y religiosa', el art. 16.1 de la C.E. de 1978, dispone que:",
+    "Options": {
+      "A": "No tienen ninguna limitación.",
+      "B": "Tienen limitación, en cuanto a su manifestación, en lo relativo al orden público.",
+      "C": "Tiene limitación en cuanto a su ejercicio protegido por la Ley.",
+      "D": "Ninguna confesión tendrá carácter estatal."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 66,
+    "Question": "❓FFM.-El art. 43 de la C.E. de 1978 establece que compete a los poderes públicos organizar y tutelar la salud pública a través:",
+    "Options": {
+      "A": "...de organizaciones asistenciales.",
+      "B": "...de fundaciones sanitarias públicas.",
+      "C": "...de hospitales públicos de referencia.",
+      "D": "...de medidas preventivas y de las prestaciones y servicios necesarios."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 67,
+    "Question": "❓FFM.-Según el art. 54 de la C.E., el Defensor del Pueblo:",
+    "Options": {
+      "A": "Es un órgano del Gobierno encargado de la defensa de los derechos de los ciudadanos.",
+      "B": "Es un órgano del Poder Judicial encargado de la defensa de los derechos de los ciudadanos.",
+      "C": "Es un alto comisionado de las Cortes Generales.",
+      "D": "Se regula su función mediante ley ordinaria."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 68,
+    "Question": "❓FFM.-Respecto del funcionamiento regular de las instituciones, el Rey:",
+    "Options": {
+      "A": "Arbitra y modera las mismas.",
+      "B": "Modera y dirige las mismas.",
+      "C": "Modera y pacifica las mismas.",
+      "D": "Impulsa y modera las mismas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 69,
+    "Question": "❓FFM.-Respecto del Estado, el Rey es símbolo de su:",
+    "Options": {
+      "A": "Unidad e integridad.",
+      "B": "Unidad y permanencia.",
+      "C": "Independencia y soberanía.",
+      "D": "Integridad y soberanía."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 70,
+    "Question": "❓FFM.-Respecto de los trabajadores españoles en el extranjero, el Estado velará especialmente por la salvaguardia de sus derechos:",
+    "Options": {
+      "A": "Económicos.",
+      "B": "Sociales.",
+      "C": "Económicos y sociales.",
+      "D": "Políticos."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 71,
+    "Question": "❓FFM.-Todos los españoles tienen derecho a disfrutar de una vivienda:",
+    "Options": {
+      "A": "Digna y adecuada.",
+      "B": "Suficiente y adecuada.",
+      "C": "Digna y suficiente.",
+      "D": "Suficiente y económica."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 72,
+    "Question": "❓FFM.-La CE reconoce expresamente el derecho a la protección de la salud constituyendo:",
+    "Options": {
+      "A": "Solo un valor declarativo o programático.",
+      "B": "Un derecho fundamental.",
+      "C": "Un derecho constitucional.",
+      "D": "Un principio de política social y económica."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 73,
+    "Question": "❓FFM.-De conformidad con el art. 100 de la C.E. de 1978, los ministros del Gobierno de la nación serán nombrados y separados por:",
+    "Options": {
+      "A": "El Presidente del Gobierno.",
+      "B": "El Presidente del Congreso.",
+      "C": "El Presidente del Senado.",
+      "D": "El Rey."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 74,
+    "Question": "❓FFM.-El derecho a la vida se plasma en la C.E.:",
+    "Options": {
+      "A": "En el art. 17.",
+      "B": "En el art. 16.",
+      "C": "En el art. 15.",
+      "D": "En el art. 14."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 75,
+    "Question": "❓FFM.-Según la C.E., los españoles:",
+    "Options": {
+      "A": "Tienen derecho a elegir su residencia dentro del Estado Español y a la libre circulación.",
+      "B": "Tienen derecho a elegir libremente su residencia dentro del Estado Español y a circular por él.",
+      "C": "Tienen derecho a elegir su residencia y a la libre circulación.",
+      "D": "Tienen derecho a elegir libremente su residencia y a circular por el territorio Nacional."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 76,
+    "Question": "❓FFM.-Las disposiciones del Gobierno que contengan legislación delegada recibirán el título de:",
+    "Options": {
+      "A": "Decretos-leyes.",
+      "B": "Decretos Legislativos.",
+      "C": "Órdenes ministeriales."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 77,
+    "Question": "❓FFM.-Según la C.E. al Rey le corresponde: (Señale la respuesta correcta)",
+    "Options": {
+      "A": "Nombrar y separar a los miembros del Gobierno, a propuesta de su Presidente.",
+      "B": "Convocar a referéndum en los casos previstos en la C.E..",
+      "C": "Sancionar y promulgar las leyes.",
+      "D": "Todas las respuestas anteriores son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 78,
+    "Question": "❓FFM.-Los principios básicos que inspiran a la CE vienen recogidos en:",
+    "Options": {
+      "A": "Preámbulo y el Título Preliminar.",
+      "B": "En toda la C.E..",
+      "C": "En el Título Preliminar.",
+      "D": "En el preámbulo, Título Preliminar y disposición final."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 79,
+    "Question": "❓FFM.-Las Fuerzas Armadas se regulan en el art.:",
+    "Options": {
+      "A": "9",
+      "B": "10",
+      "C": "12",
+      "D": "8"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 80,
+    "Question": "❓FFM.-La Nacionalidad española se adquiere, se conserva y se pierde de acuerdo con lo establecido en la ley, se recoge en el art.:",
+    "Options": {
+      "A": "12",
+      "B": "11",
+      "C": "13",
+      "D": "Ninguna de las anteriores."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 81,
+    "Question": "❓FFM.-La garantía de la libertad ideológica, religiosa y de culto, se refleja en el art.:",
+    "Options": {
+      "A": "16",
+      "B": "17",
+      "C": "18",
+      "D": "20"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 82,
+    "Question": "❓FFM.-Que la enseñanza básica es obligatoria y gratuita, se recoge en el art.:",
+    "Options": {
+      "A": "27",
+      "B": "26",
+      "C": "25",
+      "D": "32"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 83,
+    "Question": "❓FFM.-El art. 28 habla sobre:",
+    "Options": {
+      "A": "Todos los españoles tendrán derecho a la petición individual y por escrito.",
+      "B": "Los españoles tienen el derecho y deber de defender a España.",
+      "C": "La libre sindicación.",
+      "D": "Ninguna de las anteriores."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 84,
+    "Question": "❓FFM.-Todos los españoles contribuirán al sostenimiento de los gastos públicos, se recoge en el art.:",
+    "Options": {
+      "A": "31",
+      "B": "32",
+      "C": "33",
+      "D": "45"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 85,
+    "Question": "❓FFM.-La garantía del derecho a la negociación colectiva laboral, se recoge en el art.:",
+    "Options": {
+      "A": "34",
+      "B": "35",
+      "C": "36",
+      "D": "37"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 86,
+    "Question": "❓FFM.-De acuerdo a la CE, señale cuál de los siguientes derechos puede ser objeto de recurso de amparo:",
+    "Options": {
+      "A": "El derecho a la propiedad privada.",
+      "B": "El derecho de participación política.",
+      "C": "El derecho a la negociación colectiva.",
+      "D": "El derecho al trabajo."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 87,
+    "Question": "❓FFM.-El Título III de la C.E. trata sobre:",
+    "Options": {
+      "A": "De las Cortes Generales.",
+      "B": "De la Corona.",
+      "C": "Del Gobierno y la Administración.",
+      "D": "Ninguna de las anteriores."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 88,
+    "Question": "❓FFM.-La Organización Territorial del Estado se regula en el título:",
+    "Options": {
+      "A": "IX",
+      "B": "X",
+      "C": "VIII",
+      "D": "XI"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 89,
+    "Question": "❓FFM.-La palabra 'nacionalidades' en la C.E.:",
+    "Options": {
+      "A": "Únicamente aparece en el Preámbulo de la misma.",
+      "B": "No es mencionada en ningún art. de la misma.",
+      "C": "Aparece definida en el Título VIII dedicado a la Organización Territorial del Estado.",
+      "D": "Únicamente aparece en el Título Preliminar de la misma."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 90,
+    "Question": "❓FFM.-Las asociaciones:",
+    "Options": {
+      "A": "Deberán solicitar previamente la legalización a los tribunales de la justicia ordinaria.",
+      "B": "Podrán ser disueltas por orden gubernativa del Ministerio del Interior.",
+      "C": "Deberán constar en un registro a los meros efectos de publicidad.",
+      "D": "No deberán constar en registro alguno."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 91,
+    "Question": "❓FFM.-La C.E. reconoce el derecho de los españoles a circular libremente en el territorio Nacional:",
+    "Options": {
+      "A": "En todo caso y sin excepciones.",
+      "B": "Salvo que se disponga lo contrario por Ley Orgánica.",
+      "C": "Salvo que se disponga lo contrario en los respectivos Estatutos de Autonomía.",
+      "D": "Todas las respuestas anteriores son incorrectas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 92,
+    "Question": "❓FFM.-Los actos del Rey serán refrendados:",
+    "Options": {
+      "A": "Por el propio Rey.",
+      "B": "Por el Presidente del Gobierno.",
+      "C": "Por el Presidente del Congreso.",
+      "D": "Por el Presidente del Senado."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 93,
+    "Question": "❓FFM.-El art. 37.2 de la C.E. reconoce el derecho a la negociación colectiva a:",
+    "Options": {
+      "A": "Los colegios profesionales.",
+      "B": "Los representantes de los trabajadores y empresarios.",
+      "C": "Los representantes de los funcionarios públicos de la Administración.",
+      "D": "Solo se puede ejercer de manera individual."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 94,
+    "Question": "❓FFM.-Las Comunidades Autónomas se regulan en la CE en:",
+    "Options": {
+      "A": "Título VII, capítulo II.",
+      "B": "Título VIII, capítulo II.",
+      "C": "Título VII, capítulo III.",
+      "D": "Título VIII, capítulo III."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 95,
+    "Question": "❓FFM.-Los derechos y deberes fundamentales los regula la parte:",
+    "Options": {
+      "A": "Orgánica.",
+      "B": "Física.",
+      "C": "Dogmática.",
+      "D": "La liga de la justicia."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 96,
+    "Question": "❓FFM.-Según la C.E., el Estado es:",
+    "Options": {
+      "A": "Apolítico.",
+      "B": "Aconfesional.",
+      "C": "De bienestar social.",
+      "D": "Federal."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 97,
+    "Question": "❓FFM.-El derecho de acceso a las funciones y cargos públicos debe hacerse, según el art. 23 de la C.E., con arreglo al principio de:",
+    "Options": {
+      "A": "Mérito.",
+      "B": "Capacidad.",
+      "C": "Igualdad.",
+      "D": "Las respuestas a) y b) son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 98,
+    "Question": "❓FFM.-Según el art. 43 de la C.E. los poderes públicos facilitarán:",
+    "Options": {
+      "A": "La educación sanitaria.",
+      "B": "La educación física y el deporte.",
+      "C": "La adecuada utilización del ocio.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 99,
+    "Question": "❓FFM.-La C.E. contempla la protección integral de los hijos y su igualdad ante la ley con independencia de su filiación como:",
+    "Options": {
+      "A": "Uno de los derechos fundamentales de la Sección 1ª del Capítulo 2 del Título I.",
+      "B": "Uno de los derechos y deberes de los ciudadanos de la Sección 2 del Capítulo 2 del Título I.",
+      "C": "Uno de los principios rectores de la política social y económica.",
+      "D": "Ninguna de las anteriores."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 100,
+    "Question": "❓FFM.-En relación con la protección de la salud, es competencia de la CE:",
+    "Options": {
+      "A": "Control y organización interna de los hospitales públicos.",
+      "B": "Velar por la salud.",
+      "C": "Promover la salud.",
+      "D": "Organización y tutela de la salud pública."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 101,
+    "Question": "❓FFM.-El Título VIII de la CE 'DE LA ORGANIZACIÓN TERRITORIAL DEL ESTADO' ESTABLECE COMO PRINCIPIOS GENERALES:",
+    "Options": {
+      "A": "Autonomía, solidaridad, igualdad y libre circulación.",
+      "B": "Autonomía, solidaridad e igualdad.",
+      "C": "Autonomía, unidad, solidaridad y libre circulación.",
+      "D": "Autonomía, equidad, unidad y solidaridad."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 102,
+    "Question": "❓FFM.-Los poderes públicos promueven la distribución de la renta y políticas de empleo en el art.:",
+    "Options": {
+      "A": "40, teniendo una protección máxima.",
+      "B": "41, teniendo una protección mínima.",
+      "C": "40, teniendo una protección mínima.",
+      "D": "41, teniendo una protección media."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 103,
+    "Question": "❓FFM.-La tutela judicial efectiva se reconoce en:",
+    "Options": {
+      "A": "Art. 23 de la CE.",
+      "B": "Art. 24 de la CE.",
+      "C": "Art. 25 de la CE.",
+      "D": "Art. 26 de la CE."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 104,
+    "Question": "❓FFM.-¿Cuál es la rúbrica de la Sección Primera del Capítulo II del Título I de la CE?",
+    "Options": {
+      "A": "Derechos y libertades.",
+      "B": "De los derechos fundamentales y de las libertades públicas.",
+      "C": "De los derechos y deberes fundamentales.",
+      "D": "De los españoles y los extranjeros."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 105,
+    "Question": "❓FFM.-De acuerdo con la C.E., señale cuál de los siguientes derechos puede ser objeto de recurso de amparo:",
+    "Options": {
+      "A": "El derecho a la negociación colectiva.",
+      "B": "El derecho al trabajo.",
+      "C": "El derecho a la propiedad privada.",
+      "D": "El derecho de participación política."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 106,
+    "Question": "❓FFM.-El art. 14 de la C.E. declara:",
+    "Options": {
+      "A": "La mayoría de edad a los 18 años.",
+      "B": "La libertad religiosa.",
+      "C": "El derecho a la vida.",
+      "D": "La igualdad ante la Ley."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 107,
+    "Question": "❓FFM.-El derecho de reunión, según el art. 21 de la C.E., no requerirá autorización previa:",
+    "Options": {
+      "A": "En ningún caso.",
+      "B": "Cuando no sea pacífico.",
+      "C": "Cuando se desarrolle en lugares de tránsito público.",
+      "D": "Siempre requerirá autorización de la autoridad gubernativa."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 108,
+    "Question": "❓FFM.-La justicia, según nuestra C.E., es un/una:",
+    "Options": {
+      "A": "Principio de nuestro ordenamiento jurídico.",
+      "B": "Valor superior del anterior.",
+      "C": "Manifestación del Estado democrático.",
+      "D": "Todo lo anterior."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 109,
+    "Question": "❓FFM.-No es posible interponer recurso de amparo contra la violación del derecho de:",
+    "Options": {
+      "A": "Educación.",
+      "B": "Asociación.",
+      "C": "Fundación.",
+      "D": "Reunión."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 110,
+    "Question": "❓FFM.-La asistencia de los padres a los hijos habidos fuera del matrimonio:",
+    "Options": {
+      "A": "Se condiciona a la no existencia de hijos matrimoniales.",
+      "B": "Se deja a la libre voluntad de los primeros.",
+      "C": "Es obligatoria en el caso de que sean menores de edad.",
+      "D": "Queda supeditada a su adopción por los primeros."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 111,
+    "Question": "❓ FFM T1 OPE.- LA CONSTITUCIÓN ESPAÑOLA ESTABLECE QUE LA LENGUA ESPAÑOLA OFICIAL DEL ESTADO ES:",
+    "Options": {
+      "A": "a) Tanto el español como el catalán, el euskera y el gallego.",
+      "B": "b) Solo el español, el catalán y el euskera.",
+      "C": "c) Solo el español.",
+      "D": "d) El castellano."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 112,
+    "Question": "❓ FFM T1 OPE.- Los derechos y libertades reconocidos en el Capítulo Segundo del Título I de la C.E., vinculan:",
+    "Options": {
+      "A": "A todos los poderes públicos.",
+      "B": "Exclusivamente al poder judicial.",
+      "C": "Exclusivamente a las Cortes Generales.",
+      "D": "Solo vinculan a la Corona."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 113,
+    "Question": "❓ FFM T1 OPE.- Es un principio rector de la política social y económica del art. 39 de la C.E.:",
+    "Options": {
+      "A": "El derecho a la negociación colectiva.",
+      "B": "La libertad de empresa.",
+      "C": "El deber de trabajar y el derecho al trabajo.",
+      "D": "La protección social, económica y jurídica de la familia."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 114,
+    "Question": "❓ FFM T1 OPE.- La potestad legislativa del Estado español, según el art. 66 de la CE:",
+    "Options": {
+      "A": "Recae en el Gobierno.",
+      "B": "Recae en los tribunales de justicia.",
+      "C": "Recae en las Cortes Generales.",
+      "D": "Recae en el Consejo de Estado."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 115,
+    "Question": "❓FFM.-Con respecto a la vivienda digna y adecuada, el art. 47 de la CE dice que los poderes públicos:",
+    "Options": {
+      "A": "Promoverán las normas pertinentes de utilización.",
+      "B": "Garantizan el derecho.",
+      "C": "Fomentarán su desarrollo.",
+      "D": "Dictarán las normas de desarrollo."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 116,
+    "Question": "❓FFM.-Según la CE, el nivel medio de protección será aplicado a:",
+    "Options": {
+      "A": "Sección segunda del capítulo primero del Título I de la CE.",
+      "B": "Sección primera del capítulo segundo del Título I de la CE.",
+      "C": "Sección tercera del capítulo primero del Título I de la CE.",
+      "D": "Sección segunda del capítulo segundo del Título I de la CE."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 117,
+    "Question": "❓FFM.-En la C.E. se reconoce el derecho a la protección de la salud en el art.:",
+    "Options": {
+      "A": "41",
+      "B": "43",
+      "C": "42",
+      "D": "40"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 118,
+    "Question": "❓FFM.-¿Qué art. nos hace mención al derecho a contraer matrimonio con plena igualdad jurídica?",
+    "Options": {
+      "A": "Art. 30.",
+      "B": "Art. 32.",
+      "C": "Art. 32.1.",
+      "D": "Art. 32.2."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 119,
+    "Question": "❓FFM.-Las Cortes españolas representan al pueblo español y están constituidas por:",
+    "Options": {
+      "A": "El Congreso de los Diputados.",
+      "B": "El Senado.",
+      "C": "El Congreso de los Diputados y el Senado.",
+      "D": "El Parlamento."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 120,
+    "Question": "❓FFM.-Según el art. 141 de la C.E., cualquier alteración de los límites provinciales deberá ser aprobada:",
+    "Options": {
+      "A": "Por las Cortes Generales mediante Ley Ordinaria.",
+      "B": "Por las Cortes Generales mediante Decreto-Ley.",
+      "C": "Por las Cortes Generales mediante Ley Orgánica.",
+      "D": "Ninguna de las respuestas anteriores es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 121,
+    "Question": "❓FFM.-El art. 12 de la C.E. establece:",
+    "Options": {
+      "A": "La garantía de las libertades públicas de los extranjeros en España.",
+      "B": "La libertad ideológica y de culto.",
+      "C": "La mayoría de edad de los españoles.",
+      "D": "El derecho de asilo."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 122,
+    "Question": "❓FFM.-¿QUIÉN APROBÓ LA CE?",
+    "Options": {
+      "A": "El Rey.",
+      "B": "El pueblo español.",
+      "C": "Las Cortes Generales.",
+      "D": "El Congreso de los Diputados."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 123,
+    "Question": "❓FFM.-Las materias sobre las que el Estado tiene competencia exclusiva se regulan:",
+    "Options": {
+      "A": "En el art. 148 de la C.E..",
+      "B": "En el art. 149 de la C.E..",
+      "C": "No se regulan en la C.E..",
+      "D": "No hay ninguna competencia que sea exclusiva del Estado."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 124,
+    "Question": "❓FFM.-Para aprobar, modificar o derogar una Ley Orgánica, se necesita en una votación final sobre el conjunto del proyecto:",
+    "Options": {
+      "A": "La mayoría absoluta del Senado.",
+      "B": "La mayoría absoluta del Congreso.",
+      "C": "La mayoría simple del Congreso.",
+      "D": "La mayoría simple del Senado."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 125,
+    "Question": "❓FFM.-La C.E. NO garantiza:",
+    "Options": {
+      "A": "La irretroactividad de las disposiciones sancionadoras favorables.",
+      "B": "La seguridad jurídica.",
+      "C": "La publicidad de las normas.",
+      "D": "La interdicción de la arbitrariedad de los poderes públicos."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 126,
+    "Question": "❓FFM.-No es un estado excepcional del que se haga referencia en el art. 55 de la C.E. el de:",
+    "Options": {
+      "A": "Alarma.",
+      "B": "Excepción.",
+      "C": "Sitio.",
+      "D": "Se hace referencia a todos ellos citándoseles expresamente en el mencionado art."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 127,
+    "Question": "❓FFM.-Conforme al art. 38 de la C.E. la libertad de empresa se da en el marco de una economía:",
+    "Options": {
+      "A": "Mixta.",
+      "B": "Planificada.",
+      "C": "De mercado.",
+      "D": "Liberal."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 128,
+    "Question": "❓FFM.-Además de la lengua oficial del Estado español, ¿son también oficiales las otras lenguas españolas?",
+    "Options": {
+      "A": "No, tendrán la consideración de dialectos.",
+      "B": "Sí, en todo el territorio español.",
+      "C": "Sí, en las respectivas Comunidades Autónomas.",
+      "D": "Sí, en los respectivos territorios históricos."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 129,
+    "Question": "❓FFM.-La riqueza de las distintas modalidades lingüísticas de España es:",
+    "Options": {
+      "A": "Un patrimonio cultural.",
+      "B": "Un bien cultural.",
+      "C": "Un patrimonio histórico y cultural.",
+      "D": "Un bien protegible."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 130,
+    "Question": "❓FFM.-Los símbolos de las Comunidades Autónomas se reconocen:",
+    "Options": {
+      "A": "En la C.E..",
+      "B": "En las leyes orgánicas.",
+      "C": "En los respectivos Estatutos de Autonomía.",
+      "D": "En sus propias leyes."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 131,
+    "Question": "❓FFM.-Señala la correcta:",
+    "Options": {
+      "A": "Los poderes públicos están sujetos a la C.E. y al resto del ordenamiento jurídico.",
+      "B": "Los ciudadanos están sujetos a la C.E. y al resto del ordenamiento jurídico.",
+      "C": "Los ciudadanos y los poderes públicos están sujetos a la CE y al resto del ordenamiento jurídico."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 132,
+    "Question": "❓FFM.-Según establece el art. 9 de la C.E., ¿a quién corresponde promover las condiciones para que la libertad y la igualdad del individuo y de los grupos en que se integran sean reales y efectivas?",
+    "Options": {
+      "A": "A los poderes públicos.",
+      "B": "A los poderes económicos.",
+      "C": "A los poderes sociales.",
+      "D": "A los poderes políticos."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 133,
+    "Question": "❓FFM.-Los términos en que los ciudadanos de otros países y los apátridas podrán gozar del derecho de asilo en España serán establecidos, según determina el apartado cuarto del art. 13 de la C.E.:",
+    "Options": {
+      "A": "Por Ley.",
+      "B": "De acuerdo a las Resoluciones establecidas por la ONU.",
+      "C": "De acuerdo a lo que fijen los tratados de la Unión Europea.",
+      "D": "De acuerdo con los Tratados de la OMS."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 134,
+    "Question": "❓FFM.-El art. 18.3 de la C.E. garantiza el secreto de las comunicaciones y, en especial, de las postales, telegráficas y telefónicas, salvo:",
+    "Options": {
+      "A": "Cuando una Ley Orgánica así lo establezca.",
+      "B": "Cuando una Ley Ordinaria así lo establezca.",
+      "C": "Cuando un Reglamento así lo establezca.",
+      "D": "Resolución judicial."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 135,
+    "Question": "❓FFM.-En el Título Preliminar de la C.E. se establece que España es un Estado:",
+    "Options": {
+      "A": "Plural de derecho.",
+      "B": "Democrático del pueblo.",
+      "C": "Social y democrático de derecho.",
+      "D": "Popular y democrático de derecho."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 136,
+    "Question": "❓FFM.-El art. 12 de la C.E. establece la mayoría de edad a:",
+    "Options": {
+      "A": "Los 18 años.",
+      "B": "Los 16 años.",
+      "C": "Los 21 años.",
+      "D": "No lo establece la C.E.."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 137,
+    "Question": "❓FFM.-Según el art. 68 de la C.E., la circunscripción electoral es:",
+    "Options": {
+      "A": "La provincia.",
+      "B": "El municipio en sentido estricto.",
+      "C": "El municipio; en caso de agrupaciones de población inferiores al municipio se entenderá adheridas al mismo.",
+      "D": "La comarca."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 138,
+    "Question": "❓FFM.-Es fundamento del orden político y de la paz social recogido en el art. 10 de la C.E.:",
+    "Options": {
+      "A": "La dignidad de las Instituciones.",
+      "B": "Los derechos de la ciudadanía.",
+      "C": "El respeto a los derechos especiales.",
+      "D": "El libre desarrollo de la personalidad."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 139,
+    "Question": "❓FFM.-El alcance confiscatorio:",
+    "Options": {
+      "A": "Queda expresamente prohibido del sistema tributario determinado por la C.E..",
+      "B": "Es materia que queda constitucionalmente situada en el ámbito de la expropiación forzosa.",
+      "C": "Constituye una consecuencia constitucional de la función social de la propiedad.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 140,
+    "Question": "❓FFM.-Los proyectos de reforma constitucional serán sometidos a referéndum:",
+    "Options": {
+      "A": "Si así lo solicitan una décima parte de los miembros del Congreso o del Senado.",
+      "B": "Si así lo solicitan conjuntamente una décima parte de los miembros del Congreso y del Senado.",
+      "C": "Siempre.",
+      "D": "Únicamente si se trata de una reforma que afecte a la Corona."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 141,
+    "Question": "❓FFM.-Contra las sentencias del Tribunal Constitucional:",
+    "Options": {
+      "A": "Solo cabe recurso ante el Tribunal Supremo.",
+      "B": "No cabe recurso alguno.",
+      "C": "Sólo cabe el recurso de amparo por violación de derechos fundamentales.",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 142,
+    "Question": "❓FFM.-¿Dónde se encuentran regulados los derechos y deberes fundamentales de los ciudadanos en la CE?",
+    "Options": {
+      "A": "En el Título I.",
+      "B": "En el Título II.",
+      "C": "En el Título III.",
+      "D": "En el Título IV."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 143,
+    "Question": "❓FFM.-¿Cuándo fue publicada la CE en el BOE?",
+    "Options": {
+      "A": "El 29 de diciembre de 1978.",
+      "B": "El 27 de diciembre de 1978.",
+      "C": "El 6 de diciembre de 1978.",
+      "D": "El 31 de octubre de 1978."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 144,
+    "Question": "❓FFM.-Las normas relativas a los derechos fundamentales y a las libertades que la C.E. reconoce se interpretarán de conformidad:",
+    "Options": {
+      "A": "Con la Declaración Universal de Derechos Humanos.",
+      "B": "Con los tratados internacionales sobre derechos fundamentales y libertades ratificados por España.",
+      "C": "Con los acuerdos internacionales sobre los derechos fundamentales y libertades ratificados por España.",
+      "D": "Todas las respuestas anteriores son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 145,
+    "Question": "❓FFM.-El art. 27 de nuestra C.E. establece el Derecho a:",
+    "Options": {
+      "A": "La libertad sindical y a la huelga.",
+      "B": "Derecho de petición.",
+      "C": "Derecho de reunión.",
+      "D": "Derecho a la educación."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 146,
+    "Question": "❓FFM.-El tratado de extradición se regula en el art.:",
+    "Options": {
+      "A": "13",
+      "B": "15",
+      "C": "C y B son correctas.",
+      "D": "Ninguna de las anteriores."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 147,
+    "Question": "❓FFM.-El derecho de reunión pacífica y sin armas, se recoge en el art.:",
+    "Options": {
+      "A": "23",
+      "B": "21",
+      "C": "24",
+      "D": "Ninguna de las anteriores."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 148,
+    "Question": "❓FFM.-El art. 28 habla sobre:",
+    "Options": {
+      "A": "Todos los españoles tendrán derecho a la petición individual y por escrito.",
+      "B": "Los españoles tienen el derecho y deber de defender a España.",
+      "C": "La libre sindicación.",
+      "D": "Ninguna de las anteriores."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 149,
+    "Question": "❓FFM.-Según la CE, la Administración Pública sirve con objetividad los intereses generales y actúa de acuerdo, entre otros, con los siguientes principios:",
+    "Options": {
+      "A": "Eficacia, jerarquía y eficiencia.",
+      "B": "Eficacia, concentración y descentralización.",
+      "C": "Jerarquía y coordinación.",
+      "D": "Centralización, eficacia y unidad de actuación."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 150,
+    "Question": "❓FFM.-La CE garantiza el derecho a la autonomía de:",
+    "Options": {
+      "A": "País, nacionalidades y regiones.",
+      "B": "Naciones y países.",
+      "C": "Nacionalidades y regiones.",
+      "D": "Regiones y provincias."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 151,
+    "Question": "❓FFM.-Los estados de alarma, excepción y sitio están regulados en:",
+    "Options": {
+      "A": "En el art. 115 de la CE.",
+      "B": "La Ley 2/1979, de 3 de octubre.",
+      "C": "La Ley Orgánica 4/1981, de 1 de junio.",
+      "D": "El art. 55 de la CE."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 152,
+    "Question": "❓FFM.-La C.E. está compuesta por:",
+    "Options": {
+      "A": "168 arts.",
+      "B": "Cuatro Disposiciones Adicionales y nueve Disposiciones Transitorias.",
+      "C": "Un Preámbulo y doce Títulos.",
+      "D": "Un Preámbulo y doce Títulos, Cuatro Disposiciones Adicionales y nueve Disposiciones Transitorias."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 153,
+    "Question": "❓FFM.-¿Cuál de los siguientes principios está contemplado en el art. 9.3 de la CE?",
+    "Options": {
+      "A": "La responsabilidad de los poderes públicos.",
+      "B": "Libertad.",
+      "C": "El pluralismo político.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 154,
+    "Question": "❓FFM.-El recurso de amparo está previsto:",
+    "Options": {
+      "A": "Solo para la protección de los derechos comprendidos en los arts. 14 a 29.",
+      "B": "Para la protección de todos los derechos fundamentales, el de igualdad y el derecho a la objeción de conciencia.",
+      "C": "Para la protección de los derechos regulados en el Capítulo II del Título Primero.",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 155,
+    "Question": "❓FFM.-Indique cuál de las siguientes no es una función constitucional de los partidos políticos:",
+    "Options": {
+      "A": "Expresar el pluralismo político.",
+      "B": "Concurrir a la formación y manifestación de la voluntad popular.",
+      "C": "Ser instrumento fundamental para la participación política.",
+      "D": "Contribuir a la defensa y promoción de los intereses económicos y sociales que les son propios."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 156,
+    "Question": "❓FFM.-El estado de sitio será declarado:",
+    "Options": {
+      "A": "Por mayoría simple del Congreso a propuesta del Gobierno.",
+      "B": "Por mayoría absoluta de las Cortes a propuesta exclusiva del Gobierno.",
+      "C": "Por el Gobierno previa autorización del Congreso.",
+      "D": "Por mayoría absoluta del Congreso a propuesta del Gobierno."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 157,
+    "Question": "❓FFM.-El derecho al trabajo en nuestra C.E. de 1978:",
+    "Options": {
+      "A": "Es un derecho constitucional y fundamental.",
+      "B": "Es un derecho y una obligación de los españoles.",
+      "C": "Es un derecho fundamental y un deber para los españoles."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 158,
+    "Question": "❓FFM.-Según el art. 162 de la C.E., ¿quién está legitimado, entre otros, para interponer el Recurso de Inconstitucionalidad?",
+    "Options": {
+      "A": "El Defensor del Pueblo.",
+      "B": "Toda persona natural que invoque un interés legítimo.",
+      "C": "El Ministerio Fiscal.",
+      "D": "Toda persona jurídica que invoque un interés legítimo."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 159,
+    "Question": "❓FFM.-¿Qué arts. abarca el capítulo de los principios rectores de la CE?",
+    "Options": {
+      "A": "38 al 52",
+      "B": "38 al 53",
+      "C": "39 al 52",
+      "D": "39 al 53"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 160,
+    "Question": "❓FFM.-La reforma del ART. 13.2, ¿cuándo fue sancionada?",
+    "Options": {
+      "A": "26 de agosto de 1990.",
+      "B": "27 de agosto de 1992.",
+      "C": "26 de agosto de 1992.",
+      "D": "27 de agosto de 1990."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 161,
+    "Question": "❓FFM.-¿Cuántas fechas clave tenemos en nuestra CE?",
+    "Options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 162,
+    "Question": "❓FFM.-¿Qué día se aprobó el texto constitucional por las Cortes Generales?",
+    "Options": {
+      "A": "6 de diciembre de 1978.",
+      "B": "27 de diciembre de 1978.",
+      "C": "29 de diciembre de 1978.",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 163,
+    "Question": "❓FFM.-¿Cuáles son los años de reforma de la CE?",
+    "Options": {
+      "A": "1991, 2011 y 2024.",
+      "B": "1992, 2011 y 2024.",
+      "C": "1991, 2010 y 2024.",
+      "D": "1992, 2010 y 2024."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 164,
+    "Question": "❓FFM.-¿Qué título de la CE regula la Corona?",
+    "Options": {
+      "A": "Título III.",
+      "B": "Título IV.",
+      "C": "Título II.",
+      "D": "Título V."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 165,
+    "Question": "❓FFM.-Respecto a la reforma de la CE en 2011, ¿qué art. fue sustituido?",
+    "Options": {
+      "A": "132",
+      "B": "135",
+      "C": "136",
+      "D": "134"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 166,
+    "Question": "❓FFM.-¿Qué art. de la CE regula el derecho a la vida y a la integridad física y moral?",
+    "Options": {
+      "A": "14",
+      "B": "15",
+      "C": "16",
+      "D": "Ninguna respuesta es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 167,
+    "Question": "❓FFM.-¿Cuáles son los derechos FUNDAMENTALES que se reconocen en nuestra C.E.?",
+    "Options": {
+      "A": "Los incluidos en la sección primera del capítulo segundo del título primero.",
+      "B": "Los incluidos en la sección segunda del capítulo segundo del título primero.",
+      "C": "Los incluidos en la sección primera del capítulo segundo del título segundo.",
+      "D": "Los incluidos en la sección segunda."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 168,
+    "Question": "❓FFM.-¿En qué condiciones tienen derecho a acceder los ciudadanos a las funciones y cargos públicos, según la C.E.?",
+    "Options": {
+      "A": "De capacidad.",
+      "B": "De mérito.",
+      "C": "De igualdad.",
+      "D": "De igualdad, de mérito y de capacidad."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 169,
+    "Question": "❓FFM.-¿Cuál no es una característica de la CE?",
+    "Options": {
+      "A": "Rígida.",
+      "B": "Abierta.",
+      "C": "Democrática.",
+      "D": "Todas son características."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 170,
+    "Question": "❓FFM.-En una crisis sanitaria, ¿se podrán restringir algunos derechos y libertades?",
+    "Options": {
+      "A": "Según el art. 55, sí, en el estado de alarma.",
+      "B": "Según el art. 55, se restringen algunos y se limitan otros en el estado de alarma.",
+      "C": "Ninguno, porque no se aplican restricciones, solo limitaciones.",
+      "D": "Ninguna respuesta es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 171,
+    "Question": "❓FFM.-¿Qué art. de la CE recoge la mayoría de edad a los 18?",
+    "Options": {
+      "A": "Art. 12.",
+      "B": "Art. 14.",
+      "C": "Art. 18.",
+      "D": "Art. 21."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 172,
+    "Question": "❓FFM.-Conforme a la terminología propia de la C.E., el Defensor del Pueblo es:",
+    "Options": {
+      "A": "Elegido por las Cortes Generales.",
+      "B": "Nombrado por las Cortes Generales.",
+      "C": "Designado por las Cortes Generales.",
+      "D": "Propuesto por las Cortes Generales por mayoría de tres quintas partes de cada una de las Cámaras."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 173,
+    "Question": "❓FFM.-¿Cuál de los siguientes derechos no es susceptible de suspensión individual conforme el art. 55.2 de la C.E. y según los supuestos previstos en dicha norma?",
+    "Options": {
+      "A": "El plazo de detención preventiva.",
+      "B": "La inviolabilidad del domicilio.",
+      "C": "El derecho de huelga.",
+      "D": "El secreto de las comunicaciones postales y telegráficas."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 174,
+    "Question": "❓FFM.-La C.E. se fundamenta en la indisoluble unidad de la Nación. ¿Qué art. lo dice?",
+    "Options": {
+      "A": "Art. 1.",
+      "B": "Art. 2.",
+      "C": "Art. 3.",
+      "D": "Art. 4."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 175,
+    "Question": "❓FFM.-¿En qué apartado de la C.E. aparecen regulados los derechos fundamentales y libertades públicas?",
+    "Options": {
+      "A": "En el capítulo 3 del Título I.",
+      "B": "Sección 2, capítulo 2 del Título I.",
+      "C": "En el capítulo 4 del Título I.",
+      "D": "Sección 1, capítulo 2 del Título I."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 176,
+    "Question": "❓FFM.-¿Qué regula el Título IX de la C.E.?",
+    "Options": {
+      "A": "La Corona.",
+      "B": "Las Cortes Generales.",
+      "C": "La reforma constitucional.",
+      "D": "El Tribunal Constitucional."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 177,
+    "Question": "❓FFM.-¿Cuántos arts. tiene la CE?",
+    "Options": {
+      "A": "167",
+      "B": "168",
+      "C": "169",
+      "D": "170"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 178,
+    "Question": "❓FFM.-¿Cuántas disposiciones adicionales tiene la CE?",
+    "Options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "9"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 179,
+    "Question": "❓FFM.-¿Cuál es el título de la CE que regula Economía y Hacienda?",
+    "Options": {
+      "A": "V.",
+      "B": "VI.",
+      "C": "VII.",
+      "D": "VIII."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 180,
+    "Question": "❓FFM.-La jefatura del Estado tiene CARÁCTER:",
+    "Options": {
+      "A": "Presidencial.",
+      "B": "Provincial.",
+      "C": "Autonomista.",
+      "D": "Monárquico."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 181,
+    "Question": "❓FFM.-¿Cuál es la ley suprema dentro del ordenamiento jurídico?",
+    "Options": {
+      "A": "El proceso administrativo común.",
+      "B": "El proceso administrativo judicial.",
+      "C": "La ley del proceso administrativo judicial.",
+      "D": "La C.E. de 1978."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 182,
+    "Question": "❓FFM.-¿Qué nombre recibe el Título I de la CE?",
+    "Options": {
+      "A": "De los derechos y deberes fundamentales.",
+      "B": "De la Corona.",
+      "C": "De las Cortes Generales.",
+      "D": "Del Gobierno y de la Administración."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 183,
+    "Question": "❓FFM.-¿Qué art. de la C.E. establece que los poderes públicos promoverán las condiciones para la participación libre y eficaz de la juventud en el desarrollo político, social, económico y cultural?",
+    "Options": {
+      "A": "Art. 36.",
+      "B": "Art. 46.",
+      "C": "Art. 48.",
+      "D": "Ninguna respuesta es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 184,
+    "Question": "❓FFM.-Compete a los poderes públicos organizar y tutelar la sanidad pública a través de:",
+    "Options": {
+      "A": "Organizaciones asistenciales.",
+      "B": "Fundaciones sanitarias públicas.",
+      "C": "Hospitales públicos de referencia.",
+      "D": "Medidas preventivas y de las prestaciones y servicios necesarios."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 185,
+    "Question": "❓FFM.-Las cláusulas que definen la CE son:",
+    "Options": {
+      "A": "Estado de derecho.",
+      "B": "Estado social.",
+      "C": "Estado democrático.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 186,
+    "Question": "❓FFM.-¿En qué art. de la CE se garantiza el derecho a la propiedad privada y a la herencia?",
+    "Options": {
+      "A": "Art. 32.",
+      "B": "Art. 33.",
+      "C": "Art. 34.",
+      "D": "No se garantiza."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 187,
+    "Question": "❓FFM.-El Poder Judicial se encuentra regulado por:",
+    "Options": {
+      "A": "El Título IV de la C.E..",
+      "B": "El Título V de la C.E..",
+      "C": "El Título VI de la C.E..",
+      "D": "La Ley Orgánica del Tribunal Constitucional."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 188,
+    "Question": "❓FFM.-¿Dónde viene recogido que las actuaciones públicas sanitarias estarán orientadas a la protección de salud?",
+    "Options": {
+      "A": "En la C.E..",
+      "B": "En el Estatuto de Autonomía.",
+      "C": "En el Estatuto Marco.",
+      "D": "En la Ley General de Sanidad."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 189,
+    "Question": "❓FFM.-¿Cuál de los siguientes es un derecho fundamental según la C.E. del 78?",
+    "Options": {
+      "A": "Derecho a la objeción de conciencia.",
+      "B": "Derecho a la vivienda.",
+      "C": "Derecho a la negociación colectiva laboral.",
+      "D": "Libertad de sindicación."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 190,
+    "Question": "❓FFM.-¿Cuál de los siguientes derechos NO es un derecho fundamental según la C.E. del 78?",
+    "Options": {
+      "A": "Derecho a la tutela efectiva de jueces y tribunales.",
+      "B": "Derecho de acceso a la cultura.",
+      "C": "Libertad de enseñanza.",
+      "D": "Derecho a la educación."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 191,
+    "Question": "❓FFM.-¿Cuál de los siguientes derechos es susceptible de recurso de amparo, según la C.E. del 78?",
+    "Options": {
+      "A": "Derecho de participación en asuntos públicos.",
+      "B": "Derecho a la protección a la salud.",
+      "C": "Derecho a la propiedad privada.",
+      "D": "Derecho a la vivienda."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 192,
+    "Question": "❓FFM.-¿Cuál de los siguientes derechos se regulará por ley orgánica según la C.E. del 78?",
+    "Options": {
+      "A": "Derecho de fundación.",
+      "B": "Derecho a un medio ambiente adecuado.",
+      "C": "Derecho de asociación.",
+      "D": "Derecho a la protección de la salud."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 193,
+    "Question": "❓FFM.-¿Cuál de los siguientes derechos NO se regulará por ley orgánica, sino por una ley ordinaria según la C.E. del 78?",
+    "Options": {
+      "A": "Derecho a la libertad personal y a la seguridad.",
+      "B": "Derecho a la propiedad privada y a la herencia.",
+      "C": "Derecho a la educación.",
+      "D": "Derecho a la libertad ideológica y religiosa."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 194,
+    "Question": "❓FFM.-¿En cuál de los siguientes derechos NO cabría un recurso de inconstitucionalidad, según la C.E. del 78?",
+    "Options": {
+      "A": "Derecho a la protección de la salud.",
+      "B": "Derecho a la libertad personal y a la seguridad.",
+      "C": "Derecho de petición.",
+      "D": "Derecho de asociación."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 195,
+    "Question": "❓FFM.-¿En qué título se recoge dentro de la CE, ECONOMÍA y HACIENDA?",
+    "Options": {
+      "A": "II.",
+      "B": "V.",
+      "C": "VI.",
+      "D": "VII."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 196,
+    "Question": "❓FFM.-¿En qué título de la C.E. se recogen los principios generales de la misma?",
+    "Options": {
+      "A": "Título Preliminar.",
+      "B": "Título I.",
+      "C": "Título II.",
+      "D": "Título VII."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 197,
+    "Question": "❓FFM.-¿En quién recae la titularidad de los poderes del Estado?",
+    "Options": {
+      "A": "Cortes Generales.",
+      "B": "Gobierno.",
+      "C": "El pueblo español.",
+      "D": "Consejo de Ministros."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 198,
+    "Question": "❓FFM.-La democracia representativa reside en el pueblo español por:",
+    "Options": {
+      "A": "Legislación.",
+      "B": "Representación.",
+      "C": "Delegación.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 199,
+    "Question": "❓FFM.-¿Cuál no es un valor superior del ordenamiento jurídico?",
+    "Options": {
+      "A": "Libertad.",
+      "B": "Justicia.",
+      "C": "Igualdad.",
+      "D": "Pluralismo sindical."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 200,
+    "Question": "❓FFM.-La tutela de las libertades y derechos ante los tribunales ordinarios mediante un procedimiento basado en los principios de preferencia y sumariedad:",
+    "Options": {
+      "A": "No comprende el art. 14 de la C.E. pues el mismo queda fuera de la Sección Primera del capítulo 2 del Título I de la C.E..",
+      "B": "Todas las respuestas son correctas.",
+      "C": "Puede producirse simultáneamente a la interposición del recurso de amparo ante el Tribunal Constitucional.",
+      "D": "Puede ser ejercida por cualquier ciudadano."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 201,
+    "Question": "❓FFM.-¿Qué partes contiene la C.E.?",
+    "Options": {
+      "A": "Preámbulo y desarrollo.",
+      "B": "Preámbulo, parte dogmática y parte orgánica.",
+      "C": "Parte dogmática y parte orgánica.",
+      "D": "Preámbulo y parte dogmática."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 202,
+    "Question": "❓FFM.-¿Por quién fue sancionada la C.E.?",
+    "Options": {
+      "A": "Por las Cortes Generales el 31 de octubre de 1978.",
+      "B": "Por el Pueblo el 6 de diciembre de 1978.",
+      "C": "Por el Rey el 27 de diciembre de 1978.",
+      "D": "Por el Rey el 29 de diciembre de 1978."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 203,
+    "Question": "❓FFM.-¿Cuál de los siguientes derechos tienen todas las garantías de máxima protección según nuestra Carta Magna?",
+    "Options": {
+      "A": "Derecho a la conservación del patrimonio artístico.",
+      "B": "Derecho a huelga.",
+      "C": "Derecho a la negociación colectiva laboral.",
+      "D": "Las respuestas b y c son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 204,
+    "Question": "❓FFM.-¿Cuál de los siguientes derechos tiene un nivel medio de protección según la C.E.?",
+    "Options": {
+      "A": "Derecho a la protección de la salud.",
+      "B": "Derecho de acceso a la cultura.",
+      "C": "Derecho de petición.",
+      "D": "Derecho al matrimonio."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 205,
+    "Question": "❓FFM.-¿Es legal según nuestra C.E. censurar ciertos medios de comunicación si no conviene a la opinión pública?",
+    "Options": {
+      "A": "Sí.",
+      "B": "No.",
+      "C": "Si son medios de propaganda, sí.",
+      "D": "Según el Gobierno que toque."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 206,
+    "Question": "❓FFM.-Los Tribunales de Honor en el ámbito de la Administración civil y de las organizaciones profesionales, según nuestra C.E.:",
+    "Options": {
+      "A": "Están prohibidos, al igual que los tribunales de excepción.",
+      "B": "Están permitidos.",
+      "C": "Están autorizados solo en instituciones públicas.",
+      "D": "Todas son falsas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 207,
+    "Question": "❓FFM.-¿La CE reconoce y garantiza la libertad de cátedra?",
+    "Options": {
+      "A": "Sí.",
+      "B": "No.",
+      "C": "Solo en universidades públicas.",
+      "D": "Solo en universidades privadas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 208,
+    "Question": "❓FFM.-¿En qué art. de la C.E. establece que la Lengua Española oficial del Estado es el castellano?",
+    "Options": {
+      "A": "En el art. 2.",
+      "B": "En el art. 3.",
+      "C": "En el art. 4.",
+      "D": "En el art. 5."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 209,
+    "Question": "❓FFM.-¿Cómo deberán ser la estructura interna y el funcionamiento de los partidos políticos?",
+    "Options": {
+      "A": "Sociales.",
+      "B": "Democráticos.",
+      "C": "Igualitarios.",
+      "D": "Las respuestas a y b son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 210,
+    "Question": "❓FFM.-¿Qué ley orgánica es la que desarrolla la figura del Defensor del Pueblo?",
+    "Options": {
+      "A": "2/1981",
+      "B": "3/1981",
+      "C": "4/1981",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 211,
+    "Question": "❓FFM.-La dignidad de una persona es un valor:",
+    "Options": {
+      "A": "Completo.",
+      "B": "Inherente.",
+      "C": "Garantizado.",
+      "D": "Expuesto."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 212,
+    "Question": "❓FFM.-La dignidad de una persona es:",
+    "Options": {
+      "A": "Garantizada.",
+      "B": "Permanente.",
+      "C": "Completa.",
+      "D": "Irrenunciable."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 213,
+    "Question": "❓FFM.-El principio de publicidad de las normas de la CE establece:",
+    "Options": {
+      "A": "Las leyes deben de publicarse en el BOE dos días después de su aprobación.",
+      "B": "Las leyes deben de ser publicadas íntegramente de forma que sus destinatarios conozcan su existencia.",
+      "C": "Todas son correctas.",
+      "D": "Las leyes deben de ser publicadas íntegramente de forma que sus destinatarios conozcan su existencia y contenido."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 214,
+    "Question": "❓FFM.-Solo se establece la irretroactividad frente a:",
+    "Options": {
+      "A": "Disposiciones sancionadoras irrenunciables.",
+      "B": "Disposiciones sancionadoras renunciables.",
+      "C": "Disposiciones sancionadoras favorables restrictivas de derechos fundamentales.",
+      "D": "Disposiciones sancionadoras no favorables o restrictivas de derechos individuales."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 215,
+    "Question": "❓FFM.-¿Qué art. establece la garantía de que nadie podrá ser obligado a declarar sobre su ideología, religión o creencias?",
+    "Options": {
+      "A": "16",
+      "B": "19",
+      "C": "22",
+      "D": "38"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 216,
+    "Question": "❓FFM.-¿En cuántos capítulos se divide el Título I de la CE?",
+    "Options": {
+      "A": "6",
+      "B": "4",
+      "C": "5",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 217,
+    "Question": "❓FFM.-De acuerdo con el art. 1 de la C.E. de 1978, ¿cuál de los siguientes no aparece como valor superior del ordenamiento jurídico español?",
+    "Options": {
+      "A": "La justicia.",
+      "B": "La libertad.",
+      "C": "La solidaridad.",
+      "D": "El pluralismo político."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 218,
+    "Question": "❓FFM.-¿Qué art. de la CE reconoce y garantiza el derecho a la autonomía de las nacionalidades y regiones que la integran y la solidaridad entre todas ellas?",
+    "Options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 219,
+    "Question": "❓FFM.-¿Qué art. de nuestra C.E tiene una protección mínima?",
+    "Options": {
+      "A": "28",
+      "B": "38",
+      "C": "40",
+      "D": "41"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 220,
+    "Question": "❓FFM.-¿Qué art. de la CE es el que regula la figura del Defensor del Pueblo español?",
+    "Options": {
+      "A": "52",
+      "B": "53",
+      "C": "54",
+      "D": "53.3"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 221,
+    "Question": "❓FFM.-Tribunales de Honor, ¿los prohíbe la C.E.?",
+    "Options": {
+      "A": "Sí.",
+      "B": "En el ámbito de la Administración civil.",
+      "C": "En el ámbito de la Administración civil y de las organizaciones profesionales.",
+      "D": "Ninguna de las opciones anteriores es correcta."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 222,
+    "Question": "❓FFM.-¿A través de quién se dirigirá el Defensor del Pueblo a las Cortes Generales?",
+    "Options": {
+      "A": "Presidente del Congreso.",
+      "B": "Presidentes del Congreso y del Senado.",
+      "C": "Presidente del Senado.",
+      "D": "Cualquier español mayor de edad que se encuentre en pleno ejercicio de sus derechos."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 223,
+    "Question": "❓FFM.-¿Cuándo entró en vigor la CE?",
+    "Options": {
+      "A": "El 31 de octubre de 1978.",
+      "B": "El 6 de diciembre de 1978.",
+      "C": "El 27 de diciembre de 1978.",
+      "D": "El 29 de diciembre de 1978."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 224,
+    "Question": "❓FFM.-¿Cuántas disposiciones transitorias tiene la CE?",
+    "Options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "7"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 225,
+    "Question": "❓FFM.-Respecto a los principios de organización del ordenamiento jurídico, los poderes públicos responderán por los daños causados en el ejercicio de su actuación:",
+    "Options": {
+      "A": "Principio de seguridad jurídica.",
+      "B": "Principio de responsabilidad de los poderes públicos.",
+      "C": "Principio de legalidad.",
+      "D": "Principio de publicidad de las normas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 226,
+    "Question": "❓FFM.-Los poderes públicos GARANTIZARÁN la protección a la tercera edad y las pensiones mediante:",
+    "Options": {
+      "A": "Alto nivel de protección.",
+      "B": "Pensiones adecuadas.",
+      "C": "Planes integrales específicos.",
+      "D": "Pensiones adecuadas, periódicamente actualizadas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 227,
+    "Question": "❓FFM.-¿Qué capítulo del Título I lleva por rúbrica DE LAS GARANTÍAS DE LAS LIBERTADES Y DERECHOS FUNDAMENTALES?",
+    "Options": {
+      "A": "III",
+      "B": "IV",
+      "C": "V",
+      "D": "VI"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 228,
+    "Question": "❓FFM.-¿Qué ART. de la CE regula el Defensor del Pueblo?",
+    "Options": {
+      "A": "51",
+      "B": "52",
+      "C": "53",
+      "D": "54"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 229,
+    "Question": "❓FFM.-¿Qué ley regula al Defensor del Pueblo?",
+    "Options": {
+      "A": "Ley 3/1981, del 6 de abril.",
+      "B": "Ley Orgánica 4/1981, 8 de abril.",
+      "C": "Ley 4/1981, 8 de abril.",
+      "D": "Ley Orgánica 3/1981, del 6 de abril."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 230,
+    "Question": "❓FFM.-¿Puede una persona renunciar a su dignidad?",
+    "Options": {
+      "A": "Sí, es renunciable.",
+      "B": "Sí, mediante disposición debidamente cumplimentada y registrada.",
+      "C": "No, es irrenunciable.",
+      "D": "Sí, por renuncia debidamente registrada."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 231,
+    "Question": "❓FFM.-Según el art. 10 de la CE la dignidad de la persona tiene valor:",
+    "Options": {
+      "A": "Coherente.",
+      "B": "Protegido.",
+      "C": "Reconocido.",
+      "D": "Inherente."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 232,
+    "Question": "❓FFM.-¿Cuál es el art. más corto de la CE?",
+    "Options": {
+      "A": "3",
+      "B": "24",
+      "C": "37",
+      "D": "5"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 233,
+    "Question": "❓FFM.-¿Se puede recurrir la resolución del Defensor del Pueblo?",
+    "Options": {
+      "A": "Sí.",
+      "B": "No.",
+      "C": "Depende de lo que resuelva.",
+      "D": "Las respuestas a y c son correctas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 234,
+    "Question": "❓FFM.-Según lo dispuesto en el art. 103 de la CE, ¿cuál de los siguientes no es un principio de actuación de la Administración Pública?",
+    "Options": {
+      "A": "Jerarquía.",
+      "B": "Economía.",
+      "C": "Descentralización.",
+      "D": "Eficacia."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 235,
+    "Question": "❓FFM.-Según la CE, ¿cuántos miembros del Tribunal Constitucional son propuestos por el Gobierno?",
+    "Options": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "1"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 236,
+    "Question": "❓FFM.-¿Qué art. de la CE recopila las materias que pueden ser asumidas por las CCAA rápidamente?",
+    "Options": {
+      "A": "Art. 147.",
+      "B": "Art. 148.",
+      "C": "Art. 149.",
+      "D": "Art. 150."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 237,
+    "Question": "❓FFM.-¿Qué art. de la CE reconoce el derecho de asociación?",
+    "Options": {
+      "A": "Art. 20.",
+      "B": "Art. 22.",
+      "C": "Art. 15.",
+      "D": "Art. 21."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 238,
+    "Question": "❓FFM.-Según la CE, la justicia será gratuita cuando así lo disponga:",
+    "Options": {
+      "A": "El Gobierno.",
+      "B": "El Parlamento.",
+      "C": "La Ley.",
+      "D": "Todas son incorrectas."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 239,
+    "Question": "❓FFM.-¿Qué art. abre el Título II de la CE?",
+    "Options": {
+      "A": "El art. 55.",
+      "B": "El art. 54.",
+      "C": "El art. 58.",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 240,
+    "Question": "❓FFM.-¿Qué órgano es el competente para conocer un recurso de amparo por violación de derechos y libertades reconocidos en el artículo 14 de la C.E.?",
+    "Options": {
+      "A": "El Tribunal Supremo.",
+      "B": "El Tribunal Constitucional.",
+      "C": "El Defensor del Pueblo.",
+      "D": "Las respuestas b y c son correctas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 241,
+    "Question": "❓FFM.-¿Quién nombra al Presidente del Tribunal Supremo?",
+    "Options": {
+      "A": "El Presidente del Gobierno.",
+      "B": "El Rey.",
+      "C": "El Consejo General del Poder Judicial.",
+      "D": "El Presidente del Congreso."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 242,
+    "Question": "❓FFM.-¿En qué Título de la C.E. de 1978 aparece regulado el Tribunal Constitucional?",
+    "Options": {
+      "A": "En el Título X.",
+      "B": "En el Título V.",
+      "C": "En el Título IX.",
+      "D": "En el Título VI."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 243,
+    "Question": "❓FFM.-¿Cómo se puede reformar la C.E.?",
+    "Options": {
+      "A": "Por mayoría de los 3/5 (tres quintos) del Congreso de los Diputados.",
+      "B": "Por mayoría de los 3/5 (tres quintos) del Congreso y del Senado.",
+      "C": "Por mayoría de los 2/3 (dos tercios) del Congreso.",
+      "D": "Por mayoría de los 2/3 (dos tercios) del Senado."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 244,
+    "Question": "❓FFM.-El plazo de duración de la detención preventiva será:",
+    "Options": {
+      "A": "De 72 horas como mínimo.",
+      "B": "De 72 horas siempre.",
+      "C": "Depende de lo que determine la autoridad gubernativa.",
+      "D": "De 72 horas como máximo."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 245,
+    "Question": "❓FFM.-¿En qué art. de la C.E. contiene el derecho de toda persona a la libertad y seguridad?",
+    "Options": {
+      "A": "15",
+      "B": "18",
+      "C": "17",
+      "D": "20"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 246,
+    "Question": "❓FFM.-¿Cuántos miembros del Tribunal Constitucional designa el Gobierno?",
+    "Options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 247,
+    "Question": "❓FFM.-¿Qué Órgano es el competente para conocer un recurso de amparo por violación de derechos y libertades reconocidos en el art. 14 de la C.E.?",
+    "Options": {
+      "A": "El Tribunal Supremo.",
+      "B": "El Tribunal Constitucional.",
+      "C": "El Defensor del Pueblo.",
+      "D": "Ninguna de las respuestas anteriores es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 248,
+    "Question": "❓FFM.-¿Contempla la CE la suspensión de derechos y libertades?",
+    "Options": {
+      "A": "Sí, en el Título I, Capítulo IV.",
+      "B": "Nunca.",
+      "C": "Sí, en el Título I, Capítulo V.",
+      "D": "Sí, ninguna de las respuestas anteriores es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 249,
+    "Question": "❓FFM.-Indique cuál de los siguientes derechos reconocidos en la Constitución Española de 1978 no es susceptible de amparo ante el Tribunal Constitucional:",
+    "Options": {
+      "A": "El derecho a la igualdad.",
+      "B": "El derecho a la libertad y la seguridad.",
+      "C": "El derecho a la objeción de conciencia.",
+      "D": "El derecho a la propiedad privada."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 250,
+    "Question": "❓FFM.-¿En qué art. de la Constitución se reconoce la regulación al derecho al secreto profesional?",
+    "Options": {
+      "A": "Art. 19.",
+      "B": "Art. 24.",
+      "C": "Art. 20.",
+      "D": "Art. 27."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 251,
+    "Question": "❓FFM.-La capacidad de las Comunidades Autónomas de asumir competencias en materia de seguridad e higiene, viene recogida en la Constitución en su art.:",
+    "Options": {
+      "A": "143",
+      "B": "146",
+      "C": "148",
+      "D": "155"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 252,
+    "Question": "❓FFM.-Señale la respuesta correcta:",
+    "Options": {
+      "A": "La C.E. proclama únicamente el principio de igualdad formal.",
+      "B": "La C.E. proclama únicamente el principio de igualdad material.",
+      "C": "La C.E. proclama tanto el principio de igualdad formal como el de igualdad material.",
+      "D": "La C.E. simplemente proclama el principio de igualdad, sin que quepa hacer distinción."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 253,
+    "Question": "❓FFM.-¿Cómo se titula el capítulo tercero del Título I de la C.E.?",
+    "Options": {
+      "A": "De los principios rectores de la política social y económica.",
+      "B": "De las garantías de las libertades y derechos fundamentales.",
+      "C": "Derechos y libertades.",
+      "D": "De los españoles y los extranjeros."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 254,
+    "Question": "❓FFM.-Según el artículo 39 de la CE (señale la falsa): 'Los poderes públicos, aseguran la protección..... de la familia'",
+    "Options": {
+      "A": "Cultural.",
+      "B": "Social.",
+      "C": "Económica.",
+      "D": "Jurídica."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 255,
+    "Question": "❓FFM.-Los poderes públicos, según nuestra C.E:",
+    "Options": {
+      "A": "Velarán por la seguridad e higiene en el hogar.",
+      "B": "Fomentarán una política que garantice la formación y readaptación profesionales.",
+      "C": "Procurarán el descanso necesario, mediante la limitación de la jornada de descanso.",
+      "D": "Garantizarán el descanso necesario mediante las vacaciones periódicas no retribuidas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 256,
+    "Question": "❓FFM.-Los poderes públicos, según nuestra C.E (indica la respuesta correcta):",
+    "Options": {
+      "A": "Mantendrán un régimen público de Seguridad Social para todos los ciudadanos.",
+      "B": "Garantizará la asistencia y prestaciones sociales suficientes ante situaciones de necesidad, especialmente en caso de discapacidad.",
+      "C": "Mantendrán un régimen público de Seguridad Social para todos los españoles.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 257,
+    "Question": "❓FFM.-¿En qué fecha fue aprobada la C.E. por las Cortes Generales?",
+    "Options": {
+      "A": "El 31 de octubre de 1976.",
+      "B": "El 29 de diciembre de 1978.",
+      "C": "El 27 de diciembre de 1978.",
+      "D": "Ninguna de las anteriores."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 258,
+    "Question": "❓FFM.-La C.E. fue aprobada el:",
+    "Options": {
+      "A": "El 31 de octubre de 1978.",
+      "B": "El 30 de octubre de 1978.",
+      "C": "El 6 de diciembre de 1978.",
+      "D": "El 27 de diciembre de 1978."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 259,
+    "Question": "❓FFM.-El castellano es la lengua oficial del Estado, se recoge en el art.:",
+    "Options": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "D": "9"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 260,
+    "Question": "❓FFM.-La C.E. establece en su art. 5 que la capital del Estado es:",
+    "Options": {
+      "A": "La Comunidad Autónoma de Madrid.",
+      "B": "Madrid.",
+      "C": "La Villa de Madrid.",
+      "D": "Ninguna respuesta es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 261,
+    "Question": "❓FFM.-Respecto a los principios de la organización del ordenamiento jurídico, ¿cuál es el que supone que toda norma aprobada debe de ser aplicada?",
+    "Options": {
+      "A": "Principio de seguridad jurídica.",
+      "B": "Principio de responsabilidad de los poderes públicos.",
+      "C": "Principio de publicidad de las normas.",
+      "D": "Principio de legalidad."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 262,
+    "Question": "❓FFM.-De acuerdo con la CE, señale cuál de los siguientes derechos puede ser objeto de recurso de amparo:",
+    "Options": {
+      "A": "El derecho al trabajo.",
+      "B": "El derecho a la negociación colectiva.",
+      "C": "El derecho de participación política.",
+      "D": "El derecho a la propiedad privada."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 263,
+    "Question": "❓FFM.-¿En qué fecha se ratifica por referéndum la C.E.?",
+    "Options": {
+      "A": "31 de octubre de 1978.",
+      "B": "29 de diciembre de 1978.",
+      "C": "6 de diciembre de 1978.",
+      "D": "27 de diciembre de 1978."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 264,
+    "Question": "❓FFM.-¿Cómo se llama la sección primera del capítulo II del Título I?",
+    "Options": {
+      "A": "De los españoles y extranjeros.",
+      "B": "Derechos y libertades.",
+      "C": "Derechos fundamentales y libertades públicas.",
+      "D": "Derechos y deberes ciudadanos."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 265,
+    "Question": "❓FFM.-Según el art. 17.4 de la C.E., ¿cuál es el plazo máximo de duración de la prisión provisional?",
+    "Options": {
+      "A": "24 horas.",
+      "B": "48 horas.",
+      "C": "72 horas.",
+      "D": "Se determinará por Ley."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 266,
+    "Question": "❓FFM.-¿Quién elige al Defensor del Pueblo?",
+    "Options": {
+      "A": "El Gobierno.",
+      "B": "El Congreso de los Diputados.",
+      "C": "Las Cortes Generales.",
+      "D": "El Senado."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 267,
+    "Question": "❓FFM.-Indica el año en el que se creó la vigente C.E.:",
+    "Options": {
+      "A": "1976",
+      "B": "1977",
+      "C": "1978",
+      "D": "1979"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 268,
+    "Question": "❓FFM.-La C.E. tiene varias características, y entre ellas:",
+    "Options": {
+      "A": "Es extensa.",
+      "B": "Es rígida.",
+      "C": "Es escrita.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 269,
+    "Question": "❓FFM.-Señala la frase incorrecta respecto al art. 27 de la C.E., referente al derecho a la educación:",
+    "Options": {
+      "A": "Todos tienen el derecho a la educación.",
+      "B": "Se reconoce la libertad de enseñanza.",
+      "C": "Se reconoce la libertad de cátedra.",
+      "D": "La enseñanza básica es obligatoria y gratuita."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 270,
+    "Question": "❓FFM.-En la CE, la enseñanza:",
+    "Options": {
+      "A": "Se reconoce como un derecho y un deber de todos los españoles por el (art. 40 CE) destinado a la protección a la familia.",
+      "B": "Se reconoce como un derecho, recogido en el art. 27 de la C.E.",
+      "C": "Es gratuita siempre que sea obligatoria y básica.",
+      "D": "Se reconoce a las personas físicas y jurídicas el derecho a recibir educación.",
+      "E": "Todas son correctas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 271,
+    "Question": "❓FFM.-Según la Sección 1.ª del Capítulo II 'derechos y libertades', la regulación legal de la cláusula de conciencia y el secreto profesional, ¿con qué derecho se encuentra relacionado?",
+    "Options": {
+      "A": "Con el derecho a la vida y a la integridad física y moral.",
+      "B": "Con ninguno de los contenidos en esa sección.",
+      "C": "Con el derecho a comunicar libremente información veraz.",
+      "D": "Con el derecho a la libertad de expresión."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 272,
+    "Question": "❓FFM.-Todas las personas tienen derecho a:",
+    "Options": {
+      "A": "La vida.",
+      "B": "La integridad física.",
+      "C": "La integridad moral.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 273,
+    "Question": "❓FFM.-¿Queda abolida la pena de muerte en la C.E.?",
+    "Options": {
+      "A": "Sí.",
+      "B": "No.",
+      "C": "Sí, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra.",
+      "D": "Sí, salvo lo que pueda disponer una ley orgánica para tiempos de guerra."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 274,
+    "Question": "❓FFM.-A efectos de extradición, los actos de terrorismo:",
+    "Options": {
+      "A": "Se equiparan a delitos contra la humanidad.",
+      "B": "Tienen un tratamiento específico.",
+      "C": "No se consideran como delitos políticos.",
+      "D": "Se equiparan a delitos políticos."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 275,
+    "Question": "❓FFM.-La inviolabilidad del domicilio supone que (señale la opción más correcta):",
+    "Options": {
+      "A": "Ninguna entrada podrá hacerse en él sin el consentimiento del titular o resolución judicial.",
+      "B": "Ninguna entrada podrá hacerse en él sin consentimiento del titular, salvo en caso de flagrante delito.",
+      "C": "Las fuerzas y cuerpos de seguridad del estado pueden entrar en tu domicilio, sin autorización.",
+      "D": "Ninguna entrada podrá hacerse en él, sin consentimiento del titular o resolución judicial, salvo en caso de flagrante delito."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 276,
+    "Question": "❓FFM.-¿Con qué derecho se relaciona la regulación legal de la cláusula de conciencia y secreto profesional?",
+    "Options": {
+      "A": "Con el de comunicar libremente información veraz.",
+      "B": "Con el de comunicar o recibir libremente información veraz por cualquier medio de difusión.",
+      "C": "Con el de comunicar o recibir libremente información veraz.",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 277,
+    "Question": "❓FFM.-En el ejercicio de sus derechos e intereses legítimos, todas las personas tienen derecho a obtener tutela efectiva de:",
+    "Options": {
+      "A": "Jueces.",
+      "B": "Tribunales.",
+      "C": "Jueces y tribunales.",
+      "D": "Jueces, magistrados, juzgados y tribunales."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 278,
+    "Question": "❓FFM.-¿Qué característica es predicable de la CE de 1978?",
+    "Options": {
+      "A": "Es una C.E. rígida.",
+      "B": "Es una C.E. consensuada.",
+      "C": "Es una C.E. extensa y popular.",
+      "D": "Todas las respuestas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 279,
+    "Question": "❓FFM.-Los valores superiores del ordenamiento jurídico de la CE son:",
+    "Options": {
+      "A": "El pluralismo político.",
+      "B": "La jerarquía normativa.",
+      "C": "La equidad.",
+      "D": "La publicidad normativa."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 280,
+    "Question": "❓FFM.-Art. 1 CE, España se constituye en un estado social y democrático de derecho. ¿Cuál de los siguientes valores no se considera superior de nuestro ordenamiento jurídico?",
+    "Options": {
+      "A": "La tutela judicial.",
+      "B": "La legalidad.",
+      "C": "La libertad.",
+      "D": "La justicia."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 281,
+    "Question": "❓FFM.-¿Cuál de los siguientes no es una clase de recurso, de los recursos o procedimientos judiciales que pueden seguirse ante el Tribunal de Justicia de la Unión Europea?",
+    "Options": {
+      "A": "Recurso de casación.",
+      "B": "Recurso de amparo.",
+      "C": "Recurso de reexamen.",
+      "D": "La cuestión prejudicial."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 282,
+    "Question": "❓ FFM T1 OPE.- Según la C.E. son valores del ordenamiento jurídico:",
+    "Options": {
+      "A": "La libertad y la justicia.",
+      "B": "La libertad, la justicia, la igualdad y el pluralismo político.",
+      "C": "La libertad y la pluralidad política.",
+      "D": "La igualdad y la integración social."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 283,
+    "Question": "❓ FFM T1 OPE.- Según el art. 43.3 de la C.E. los poderes públicos:",
+    "Options": {
+      "A": "Fomentarán la educación sanitaria y la promoción de la salud y la educación física y el deporte.",
+      "B": "Fomentarán la educación sanitaria, la educación física y el deporte. Asimismo, facilitarán la adecuada utilización del ocio.",
+      "C": "Organizarán y tutelarán la educación sanitaria, la educación física y el deporte.",
+      "D": "Promoverán la ciencia y la investigación científica en beneficio del interés general."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 284,
+    "Question": "❓ FFM T1 OPE.- De acuerdo con el art. 9.3 de la C.E. se garantizan, entre otros, el siguiente principio:",
+    "Options": {
+      "A": "Jerarquía reglamentaria.",
+      "B": "Interdicción de la discrecionalidad de los poderes públicos.",
+      "C": "Seguridad jurídica.",
+      "D": "Irretroactividad de todas las disposiciones sancionadoras."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 285,
+    "Question": "❓ FFM T1 OPE.- El Título I de la C.E. se titula:",
+    "Options": {
+      "A": "De las competencias del Estado.",
+      "B": "Del Congreso de los Diputados.",
+      "C": "De los derechos y deberes fundamentales.",
+      "D": "El Derecho a la protección de la salud."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 286,
+    "Question": "❓ FFM T1 OPE.- Respecto a la libertad sindical de los ciudadanos, recogido en la C.E., ¿cuál de las siguientes afirmaciones es FALSA?",
+    "Options": {
+      "A": "La ley podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados.",
+      "B": "La libertad sindical comprende el derecho a fundar sindicatos y a afiliarse al de su elección.",
+      "C": "Nadie podrá ser obligado a afiliarse a un sindicato.",
+      "D": "Viene regulado en el art. 27 de la CE."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 287,
+    "Question": "❓ FFM T1 OPE.- Según el art. 44 de la C.E. los poderes públicos:",
+    "Options": {
+      "A": "Promoverán y tutelarán el acceso a la cultura, a la que todos tienen derecho.",
+      "B": "Promoverán la educación sanitaria, la promoción de la salud y la práctica de la educación física.",
+      "C": "Velarán por la utilización racional de todos los recursos naturales.",
+      "D": "Promoverán la información y la educación de los consumidores y usuarios."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 288,
+    "Question": "❓FFM.-Art. que referencia a las Fuerzas Armadas en el Título Preliminar:",
+    "Options": {
+      "A": "8",
+      "B": "7",
+      "C": "0",
+      "D": "4"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 289,
+    "Question": "❓FFM.-Art. del Título Preliminar que indica que los partidos políticos expresan el pluralismo político:",
+    "Options": {
+      "A": "7",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 290,
+    "Question": "❓FFM.-El derecho y deber al trabajo se refleja en el art. de nuestra C.E.:",
+    "Options": {
+      "A": "35",
+      "B": "37",
+      "C": "36",
+      "D": "38"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 291,
+    "Question": "❓FFM.-El art. 39 de la C.E. trata:",
+    "Options": {
+      "A": "Del derecho de la familia a ser protegida social, económica y jurídicamente por los poderes públicos.",
+      "B": "Del derecho a la negociación colectiva.",
+      "C": "Del derecho de fundación.",
+      "D": "Del derecho a la Seguridad Social para todos los ciudadanos."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 292,
+    "Question": "❓FFM.-Según la C.E. los derechos a la formación, a la seguridad e higiene en el trabajo o al descanso necesario, se recogen en:",
+    "Options": {
+      "A": "Art. 41.",
+      "B": "Art. 40.",
+      "C": "Art. 39.",
+      "D": "Art. 43."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 293,
+    "Question": "❓ FFM T1 OPE.- En el art. 43 de la C.E.:",
+    "Options": {
+      "A": "Se reconoce el derecho a la protección de la salud y a disfrutar de un medio ambiente adecuado.",
+      "B": "Se reconoce el derecho a la protección de la salud y establece que los poderes públicos...",
+      "C": "...facilitarán la adecuada utilización del ocio.",
+      "D": "El art. reconoce el derecho a la protección de la salud y a una muerte digna."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 294,
+    "Question": "❓ FFM T1 OPE.- Respecto a la libertad sindical de los ciudadanos, recogido en la C.E., ¿cuál de las siguientes afirmaciones es FALSA?",
+    "Options": {
+      "A": "La ley podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados.",
+      "B": "La libertad sindical comprende el derecho a fundar sindicatos y a afiliarse al de su elección.",
+      "C": "Nadie podrá ser obligado a afiliarse a un sindicato.",
+      "D": "Viene regulado en el art. 27 de la CE."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 295,
+    "Question": "❓FFM.-El derecho a la protección de la salud se:",
+    "Options": {
+      "A": "Garantiza en el art. 43.",
+      "B": "Reconoce en el art. 43.",
+      "C": "A y B son correctas.",
+      "D": "Protege en el art. 43."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 296,
+    "Question": "❓FFM.-¿En cuántos capítulos se divide el Título I de la CE?",
+    "Options": {
+      "A": "6",
+      "B": "4",
+      "C": "5",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 297,
+    "Question": "❓FFM.-¿A través de quién se dirigirá el Defensor del Pueblo a las Cortes Generales?",
+    "Options": {
+      "A": "Presidente del Congreso.",
+      "B": "Presidentes del Congreso y del Senado.",
+      "C": "Presidente del Senado.",
+      "D": "Cualquier español mayor de edad que se encuentre en pleno ejercicio de sus derechos."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 298,
+    "Question": "❓FFM.-Respecto al nivel de protección media:",
+    "Options": {
+      "A": "Pueden ser regulados por Decreto Legislativo y Ley Orgánica.",
+      "B": "Abarca los arts. desde el 30 al 38.",
+      "C": "Abarca la Sección 2ª del CAP 1º del Título I.",
+      "D": "B y C son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 299,
+    "Question": "❓FFM.-¿Qué tipo de recurso se puede interponer en el nivel medio de protección?",
+    "Options": {
+      "A": "Preferentes.",
+      "B": "De amparo, pero solo para el art. 30.2.",
+      "C": "De inconstitucionalidad.",
+      "D": "B y C son correctas."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 300,
+    "Question": "❓FFM.-¿Se puede recurrir la resolución del Defensor del Pueblo?",
+    "Options": {
+      "A": "Sí.",
+      "B": "No.",
+      "C": "Depende de lo que resuelva.",
+      "D": "A y C son correctas."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 301,
+    "Question": "❓FFM.-¿En qué fecha se ratifica por referéndum la C.E.?",
+    "Options": {
+      "A": "31 de octubre de 1978.",
+      "B": "29 de diciembre de 1978.",
+      "C": "6 de diciembre de 1978.",
+      "D": "27 de diciembre de 1978."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 302,
+    "Question": "❓FFM.-¿Cómo se llama la sección primera del capítulo II del Título I?",
+    "Options": {
+      "A": "De los españoles y extranjeros.",
+      "B": "Derechos y libertades.",
+      "C": "Derechos fundamentales y libertades públicas.",
+      "D": "Derechos y deberes de los ciudadanos."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 303,
+    "Question": "❓FFM.-En la C.E. se reconoce el derecho a la protección de la salud en el art.:",
+    "Options": {
+      "A": "41",
+      "B": "43",
+      "C": "42",
+      "D": "40"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 304,
+    "Question": "❓FFM.-El Capítulo Segundo del Título I es:",
+    "Options": {
+      "A": "Derechos y libertades.",
+      "B": "De los derechos y deberes de los ciudadanos.",
+      "C": "De los derechos fundamentales y de las libertades públicas.",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 305,
+    "Question": "❓FFM.-Se reconoce el derecho de asociación en el artículo:",
+    "Options": {
+      "A": "21",
+      "B": "22",
+      "C": "20",
+      "D": "19"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 306,
+    "Question": "❓FFM.-Se prohíben los Tribunales de Honor en el ámbito de la Administración civil y de las organizaciones profesionales en el artículo:",
+    "Options": {
+      "A": "25",
+      "B": "24",
+      "C": "27",
+      "D": "26"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 307,
+    "Question": "❓FFM.-Todos contribuirán al sostenimiento de los gastos públicos de acuerdo con su capacidad económica mediante un sistema tributario justo inspirado en los principios de igualdad y progresividad que, en ningún caso, tendrá alcance confiscatorio.",
+    "Options": {
+      "A": "Art. 25.",
+      "B": "Art. 29.",
+      "C": "Art. 31.",
+      "D": "Art. 40."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 308,
+    "Question": "❓FFM.-Los poderes públicos aseguran la protección social, económica y jurídica de la familia en el art.:",
+    "Options": {
+      "A": "30",
+      "B": "31",
+      "C": "41",
+      "D": "39"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 309,
+    "Question": "❓FFM.-El texto de la C.E. se aprobó por ambas cámaras el:",
+    "Options": {
+      "A": "31 de octubre de 1978.",
+      "B": "6 de diciembre de 1978.",
+      "C": "27 de diciembre de 1978.",
+      "D": "29 de diciembre de 1978."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 310,
+    "Question": "❓FFM.-La capital del Estado según el art. 5 es:",
+    "Options": {
+      "A": "Madrid.",
+      "B": "Sevilla.",
+      "C": "Madridejos.",
+      "D": "La Villa de Madrid."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 311,
+    "Question": "❓FFM.-Según el art. 49, los poderes públicos impulsarán las políticas que garanticen:",
+    "Options": {
+      "A": "La plena autonomía social de las personas con discapacidad.",
+      "B": "La inclusión laboral de las personas con discapacidad, en entornos universalmente accesibles.",
+      "C": "Las dos anteriores son correctas.",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 312,
+    "Question": "❓FFM.-Fecha de la última reforma de la CE:",
+    "Options": {
+      "A": "15 de febrero de 2024.",
+      "B": "27 de agosto de 1992.",
+      "C": "27 de septiembre de 2011.",
+      "D": "15 de marzo de 2023."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 313,
+    "Question": "❓FFM.-Según el art. 49 CE, las personas con discapacidad ejercen los derechos previstos en este Título en condiciones de:",
+    "Options": {
+      "A": "Mérito, capacidad e igualdad.",
+      "B": "Libertad e igualdad reales y efectivas.",
+      "C": "Libertad e igualdad formales y eficaces.",
+      "D": "Libertad, igualdad y mérito."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 314,
+    "Question": "❓FFM.-Los ciudadanos y los poderes públicos están sujetos a la C.E. y al resto del ordenamiento jurídico:",
+    "Options": {
+      "A": "Art. 9.1",
+      "B": "Art. 1",
+      "C": "Art. 2",
+      "D": "Art. 3"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 315,
+    "Question": "❓FFM.-Regulará las bases de la organización militar conforme a los principios de la presente C.E.:",
+    "Options": {
+      "A": "Una Ley Ordinaria.",
+      "B": "Una Ley Orgánica.",
+      "C": "Una Ley Europea.",
+      "D": "Un Reglamento."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 316,
+    "Question": "❓FFM.-Los Estatutos podrán reconocer banderas y enseñas propias de las Comunidades Autónomas. Estas se utilizarán junto a la bandera de España en sus edificios públicos y en sus actos oficiales:",
+    "Options": {
+      "A": "Art. 4.1",
+      "B": "Art. 3.2",
+      "C": "Art. 4.3",
+      "D": "Art. 4.2"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 317,
+    "Question": "❓FFM.-Según el art. 2 CE, la C.E. se fundamenta en la indisoluble unidad de la Nación española, patria común e indivisible de todos los españoles, y reconoce y garantiza el derecho a:",
+    "Options": {
+      "A": "A la autonomía de las comunidades y zonas que la integran.",
+      "B": "A la solidaridad entre provincias.",
+      "C": "El derecho independiente de las nacionalidades y regiones que la integran.",
+      "D": "La autonomía de las nacionalidades y regiones que la integran y la solidaridad entre todas ellas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 318,
+    "Question": "❓FFM.-La capacidad de las Comunidades Autónomas de asumir competencias en materia de Sanidad e Higiene, viene recogida en la C.E. en su art.:",
+    "Options": {
+      "A": "149",
+      "B": "155",
+      "C": "122",
+      "D": "148"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 319,
+    "Question": "❓FFM.-Es un principio rector de la política social y económica según el art. 39 de la C.E.:",
+    "Options": {
+      "A": "La libertad de empresa.",
+      "B": "El derecho a la negociación colectiva.",
+      "C": "La protección social, económica y jurídica de la familia.",
+      "D": "El deber de trabajar y el derecho al trabajo."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 320,
+    "Question": "❓FFM.-Contra las sentencias del Tribunal Constitucional:",
+    "Options": {
+      "A": "No cabe recurso alguno.",
+      "B": "Sólo cabe recurso ante el Tribunal Supremo.",
+      "C": "Sólo cabe recurso de amparo por violación de derechos fundamentales.",
+      "D": "Puedes interponer un recurso contencioso-administrativo."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 321,
+    "Question": "❓FFM.-El derecho a disfrutar de un medio ambiente adecuado y a la calidad de vida:",
+    "Options": {
+      "A": "Es una libertad fundamental.",
+      "B": "Es un derecho fundamental.",
+      "C": "Es un principio rector de la política social y económica.",
+      "D": "Es un derecho y una libertad individual."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 322,
+    "Question": "❓FFM.-Los miembros del Tribunal Constitucional son nombrados por:",
+    "Options": {
+      "A": "El Gobierno de España.",
+      "B": "Los poderes públicos.",
+      "C": "El Rey.",
+      "D": "Las Cortes Generales."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 323,
+    "Question": "❓FFM.-¿Cuántos miembros del Tribunal Constitucional son propuestos por el Gobierno?",
+    "Options": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "2"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 324,
+    "Question": "❓FFM.-La C.E. de 1978 a lo largo de su vigencia se reformó en tres ocasiones: ¿Qué arts. se modificaron?",
+    "Options": {
+      "A": "El 13.1, el 135 y el 49.",
+      "B": "El 13.1, el 135 y el 40.",
+      "C": "El 13.2, el 135 y el 49.",
+      "D": "El 155, el 122 y el 29."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 325,
+    "Question": "❓FFM.-En el supuesto de catástrofes, calamidades o desgracias públicas, se podrá declarar:",
+    "Options": {
+      "A": "Estado de alarma.",
+      "B": "Estado de excepción.",
+      "C": "Estado de sitio.",
+      "D": "Estado de emergencia."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 326,
+    "Question": "❓FFM.-El nombramiento del Defensor del Pueblo necesita:",
+    "Options": {
+      "A": "Mayoría absoluta en el Congreso y en el Senado.",
+      "B": "Mayoría simple en el Congreso y en el Senado.",
+      "C": "Mayoría de 3/5 en el Congreso y en el Senado.",
+      "D": "Mayoría de 3/5 en el Congreso y absoluta en el Senado."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 327,
+    "Question": "❓FFM.-La C.E. de 1978 prevé su modificación mediante los procedimientos de reforma de la C.E. establecidos en su Título X:",
+    "Options": {
+      "A": "Conocido como procedimiento agravado, y previsto para las reformas...",
+      "B": "...de más relevancia, está descrito en el art. 168.2.",
+      "C": "Conocido como procedimiento ordinario, está descrito en el art. 167.1.",
+      "D": "C y A y B son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 328,
+    "Question": "❓FFM.-Según el art. 123.2 de la C.E., el Presidente del Tribunal Supremo será nombrado por:",
+    "Options": {
+      "A": "El Presidente, a propuesta del Consejo General del Poder Judicial, en la forma que determine la ley.",
+      "B": "El Rey, a propuesta del Consejo General del Poder Judicial, en la forma que determine la ley.",
+      "C": "El Consejo General del Poder Judicial, en la forma que determine la ley.",
+      "D": "Trump, con su dinero, nombra lo que le sale de la punta del..."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 329,
+    "Question": "❓FFM.-¿Qué día entró en vigor esta norma suprema del ordenamiento jurídico español?",
+    "Options": {
+      "A": "El 29 de diciembre de 1978.",
+      "B": "El 7 de diciembre de 1978.",
+      "C": "El 1 de enero de 1979.",
+      "D": "El mismo día 6 de diciembre de 1978."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 330,
+    "Question": "❓FFM.-Según la C.E. de 1978, ¿a quién compete organizar y tutelar la salud pública, a través de medidas preventivas y de las prestaciones y servicios necesarios?",
+    "Options": {
+      "A": "Al sector sanitario privado.",
+      "B": "A la Administración Pública.",
+      "C": "A los poderes públicos.",
+      "D": "Al Rey y al Gobierno."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 331,
+    "Question": "❓FFM.-Según la CE, compete a los poderes públicos organizar y tutelar la salud pública a través de medidas preventivas y de las prestaciones y servicios necesarios. La ley establecerá los derechos y deberes de todos al respecto.",
+    "Options": {
+      "A": "Art. 43.1",
+      "B": "Art. 43.3",
+      "C": "Art. 43.4",
+      "D": "Art. 43.2"
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 332,
+    "Question": "❓FFM.-Según la CE, los poderes públicos facilitarán la adecuada utilización del ocio.",
+    "Options": {
+      "A": "Art. 43",
+      "B": "Art. 22",
+      "C": "Art. 143",
+      "D": "Art. 148"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 333,
+    "Question": "❓FFM.-Según la CE, nadie puede ser condenado o sancionado por acciones u omisiones que en el momento de producirse no constituyan delito, falta o infracción administrativa, según la legislación vigente en aquel momento:",
+    "Options": {
+      "A": "Art. 29",
+      "B": "Art. 25",
+      "C": "Art. 24",
+      "D": "Art. 9"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 334,
+    "Question": "❓FFM.-Nadie podrá ser obligado a declarar sobre su ideología, religión o creencias, según la CE en su:",
+    "Options": {
+      "A": "Art. 15",
+      "B": "Art. 16",
+      "C": "Art. 20",
+      "D": "Art. 22"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 335,
+    "Question": "❓FFM.-Según la CE, la ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos.",
+    "Options": {
+      "A": "Art. 18.1 de la CE",
+      "B": "Art. 18.4 de la CE",
+      "C": "Art. 18.2 de la CE",
+      "D": "Art. 18.3 de la CE"
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 336,
+    "Question": "❓FFM.-El Título I, Sección 2.ª 'De los derechos y deberes de los ciudadanos', incluye los arts. de la CE que van:",
+    "Options": {
+      "A": "Desde el 30 al 38.",
+      "B": "Desde el 15 al 29.",
+      "C": "Desde el 39 al 55.",
+      "D": "Desde el 1 al 9."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 337,
+    "Question": "❓FFM.-No pertenece al CAPÍTULO TERCERO del Título I de la CE, 'De los principios rectores de la política social y económica', el art.:",
+    "Options": {
+      "A": "40",
+      "B": "39",
+      "C": "38",
+      "D": "52"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 338,
+    "Question": "❓FFM.-El Rey es el Jefe del Estado que arbitra y modera el funcionamiento regular de las instituciones, asume la más alta representación del Estado español en las relaciones internacionales, especialmente con las naciones de su comunidad histórica.",
+    "Options": {
+      "A": "TÍTULO II De la Corona, art. 57.",
+      "B": "TÍTULO III De la Corona, art. 58.",
+      "C": "TÍTULO II De la Corona, art. 56.",
+      "D": "TÍTULO III De la Corona, art. 55."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 339,
+    "Question": "❓FFM.-Art. 62 CE, el mando supremo de las Fuerzas Armadas es:",
+    "Options": {
+      "A": "El Presidente del Gobierno.",
+      "B": "El General de las Fuerzas Armadas.",
+      "C": "El Rey.",
+      "D": "El mayor cargo de la Legión Española."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 340,
+    "Question": "❓FFM.-Según el art. 117.1, la justicia emana del pueblo y se administra:",
+    "Options": {
+      "A": "En nombre del Rey.",
+      "B": "Por Jueces y Magistrados integrantes del poder judicial.",
+      "C": "Las dos anteriores son correctas.",
+      "D": "Por jueces integrantes del poder judicial."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 341,
+    "Question": "❓FFM.-Según el art. 104 CE, las Fuerzas y Cuerpos de seguridad, tendrán como misión proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana,",
+    "Options": {
+      "A": "bajo la dependencia del Gobierno.",
+      "B": "bajo la dependencia del Rey.",
+      "C": "bajo la dependencia de las Cortes Generales.",
+      "D": "bajo la dependencia del alto cargo de las fuerzas armadas."
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 342,
+    "Question": "❓FFM.-Según la CE en su art. 91, el Rey sancionará las leyes aprobadas por las Cortes Generales, y las promulgará y ordenará su inmediata publicación,",
+    "Options": {
+      "A": "en el plazo de doce días.",
+      "B": "en el plazo de quince días.",
+      "C": "en el plazo de diez días.",
+      "D": "en el plazo de dos meses."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 343,
+    "Question": "❓FFM.-Según la CE en su art. 86.1, en caso de extraordinaria y urgente necesidad, el Gobierno podrá dictar disposiciones legislativas provisionales:",
+    "Options": {
+      "A": "Que tomarán la forma de Decretos Legislativos.",
+      "B": "Que podrán afectar al ordenamiento de las instituciones básicas del Estado.",
+      "C": "Que no podrán afectar a los derechos, deberes y libertades de los ciudadanos regulados en el Título I.",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 344,
+    "Question": "❓FFM.-Según la CE en su art. 81.1, son leyes orgánicas:",
+    "Options": {
+      "A": "Las relativas al desarrollo de los derechos fundamentales y de las libertades públicas.",
+      "B": "Las que aprueben los Estatutos de Autonomía y el régimen electoral general.",
+      "C": "Las demás previstas en la C.E..",
+      "D": "Todas son correctas."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 345,
+    "Question": "❓FFM.-Art. 68.1 de la CE:",
+    "Options": {
+      "A": "El Congreso se compone de .... elegidos por sufragio universal, libre, igual, directo y secreto, en los términos que establezca la ley.",
+      "B": "El Congreso se compone de un mínimo de 200 y un máximo de 400 Diputados.",
+      "C": "El Congreso se compone de un mínimo de 100 y un máximo de 300 Diputados.",
+      "D": "El Congreso se compone de un mínimo de 300 y un máximo de 400 Diputados."
+    },
+    "CorrectOption": "D"
+  },
+  {
+    "Id": 346,
+    "Question": "❓FFM.-En la CE el Poder Judicial se encuentra desarrollado en el:",
+    "Options": {
+      "A": "TÍTULO V",
+      "B": "TÍTULO IV",
+      "C": "TÍTULO VI",
+      "D": "TÍTULO II"
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 347,
+    "Question": "❓FFM.-Según la CE en su art. 85, las disposiciones del Gobierno que contengan legislación delegada recibirán el título de:",
+    "Options": {
+      "A": "Decreto-ley.",
+      "B": "Decretos Legislativos.",
+      "C": "Ley de bases.",
+      "D": "Ninguna es correcta."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 348,
+    "Question": "❓FFM.-Según el art. 122 de la C.E., El Consejo General del Poder Judicial estará integrado por el Presidente del Tribunal Supremo, que lo presidirá, y por:",
+    "Options": {
+      "A": "15 miembros nombrados por el Rey por un período de cinco años.",
+      "B": "20 miembros nombrados por el Rey por un período de cinco años.",
+      "C": "12 miembros nombrados por el Rey por un período de cinco años.",
+      "D": "10 miembros nombrados por el Rey por un período de cinco años."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 349,
+    "Question": "❓FFM.-Según el art. 86 de la C.E., Los Decretos-Leyes deberán ser inmediatamente sometidos a debate y votación de totalidad al Congreso de los Diputados en el plazo de:",
+    "Options": {
+      "A": "Los 20 días siguientes a su promulgación.",
+      "B": "Los 10 días siguientes a su promulgación.",
+      "C": "Los 30 días siguientes a su promulgación.",
+      "D": "Los 15 días siguientes a su promulgación."
+    },
+    "CorrectOption": "C"
+  },
+  {
+    "Id": 350,
+    "Question": "❓FFM.-Según la CE, todas las Administraciones Públicas adecuarán sus actuaciones al principio de estabilidad presupuestaria por el art.:",
+    "Options": {
+      "A": "135",
+      "B": "134",
+      "C": "133",
+      "D": "155"
+    },
+    "CorrectOption": "A"
+  },
+  {
+    "Id": 351,
+    "Question": "❓FFM.-¿Cómo se elige a los Senadores en las provincias insulares?",
+    "Options": {
+      "A": "Cada isla o agrupación de ellas elige dos Senadores.",
+      "B": "Cada isla o agrupación de ellas elige un Senador.",
+      "C": "Cada isla o agrupación de ellas elige cuatro Senadores.",
+      "D": "Cada provincia elige dos Senadores."
+    },
+    "CorrectOption": "B"
+  },
+  {
+    "Id": 352,
+    "Question": "❓FFM.-La ley electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que NO comprenderán en todo caso a:",
+    "Options": {
+      "A": "Miembros del Gobierno.",
+      "B": "Miembros de Juntas Electorales.",
+      "C": "Policía en activo."
+    },
+    "CorrectOption": "A"
+  }
+]
+``` 
