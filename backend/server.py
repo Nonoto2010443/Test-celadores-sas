@@ -841,28 +841,44 @@ async def generate_new_exam(current_user: TokenData = Depends(require_active_sub
     """Generate a new exam with 50 questions following specific rules:
     - 30% from Common Topics (T1-T10) = 15 questions
     - 70% from Specific Topics (T11-T19) = 35 questions
-    - 85% from Database = 43 questions
-    - 15% from AI = 7 questions
+    - 95% from Database = 47-48 questions
+    - 5% from AI = 2-3 questions
+    - DISTRIBUTION: Questions evenly distributed across ALL available topics
     
     Requires authentication and active subscription.
     """
     try:
-        logger.info("Generating new exam with specific distribution...")
+        logger.info("Generating new exam with 95% DB / 5% AI distribution...")
         
         all_questions = []
         
         # 1. TEMARIO COMÚN (30% = 15 preguntas)
-        # De BD: intentar obtener 13 preguntas válidas, IA: 2 preguntas
-        logger.info("Selecting common topic questions...")
-        # Obtener más preguntas de las necesarias para compensar las que tienen opciones vacías
-        comun_bd_cursor = db.preguntas_oficiales.aggregate([
-            {"$match": {"tema": {"$in": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}}},
-            {"$sample": {"size": 50}}  # Obtener más para filtrar
-        ])
-        comun_bd_raw = await comun_bd_cursor.to_list(50)
+        # De BD: 14 preguntas (distribuidas equitativamente entre T1-T10), IA: 1 pregunta
+        logger.info("Selecting common topic questions with even distribution...")
         
-        # Filtrar solo preguntas con opciones válidas
-        comun_bd = [q for q in comun_bd_raw if len(q.get('opciones', [])) >= 2][:13]
+        # Obtener preguntas distribuidas equitativamente por tema
+        comun_bd = []
+        temas_comun = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        questions_per_tema = 14 // len(temas_comun)  # ~1-2 por tema
+        remainder = 14 % len(temas_comun)
+        
+        for tema_num in temas_comun:
+            # Calcular cuántas preguntas obtener de este tema
+            count = questions_per_tema
+            if remainder > 0:
+                count += 1
+                remainder -= 1
+            
+            # Obtener preguntas de este tema específico
+            tema_cursor = db.preguntas_oficiales.aggregate([
+                {"$match": {"tema": tema_num}},
+                {"$sample": {"size": count * 3}}  # Obtener más para filtrar
+            ])
+            tema_questions = await tema_cursor.to_list(count * 3)
+            
+            # Filtrar válidas y tomar las necesarias
+            valid_questions = [q for q in tema_questions if len(q.get('opciones', [])) >= 4][:count]
+            comun_bd.extend(valid_questions)
         
         # Generar 2 preguntas de IA del temario común
         comun_ai = await generate_questions_with_ai(2, "comun")
