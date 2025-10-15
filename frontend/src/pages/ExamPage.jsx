@@ -39,7 +39,10 @@ const ExamPage = () => {
   const generateExam = async () => {
     try {
       setLoading(true);
-      const response = await axios.post(`${API}/exam/generate`);
+      // Set a longer timeout for exam generation (60 seconds)
+      const response = await axios.post(`${API}/exam/generate`, {}, {
+        timeout: 60000  // 60 seconds
+      });
       setExam(response.data);
       // Initialize answers object
       const initialAnswers = {};
@@ -49,7 +52,11 @@ const ExamPage = () => {
       setAnswers(initialAnswers);
     } catch (error) {
       console.error('Error generating exam:', error);
-      alert('Error al generar el examen');
+      if (error.code === 'ECONNABORTED') {
+        alert('El examen está tardando demasiado en generarse. Por favor, intenta de nuevo.');
+      } else {
+        alert('Error al generar el examen');
+      }
       navigate('/dashboard');
     } finally {
       setLoading(false);
