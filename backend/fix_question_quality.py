@@ -86,6 +86,8 @@ def clean_text_for_comparison(text):
         return ""
     # Remove FFM prefix if present
     cleaned = re.sub(r'^❓?FFM\.?-?\s*', '', text.strip(), flags=re.IGNORECASE)
+    # Remove option labels (A), B), C), D) at the beginning
+    cleaned = re.sub(r'^[A-D]\)\s*', '', cleaned, flags=re.IGNORECASE)
     # Normalize spaces
     cleaned = ' '.join(cleaned.split())
     # Remove trailing question marks and periods for comparison
