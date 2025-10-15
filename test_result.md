@@ -102,7 +102,126 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Convert the SAS Celadores exam preparation application into a multi-user platform with authentication, user dashboard, exam history tracking, and statistics. Implement JWT-based authentication with email/password, user registration, login, logout, and password recovery via email (SendGrid). Create a personalized dashboard for each user showing exam history, statistics (average score, best score, total exams, etc.), and progress charts. All exam results must be associated with the authenticated user."
+user_problem_statement: "Sistema completo de autenticación con recuperación de contraseña para la plataforma de preparación de oposiciones SAS Celadores. Incluye registro, login, logout y recuperación de contraseña vía email con SendGrid."
+
+backend:
+  - task: "Password Recovery - Forgot Password Endpoint"
+    implemented: true
+    working: "NA"
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Implemented POST /api/auth/forgot-password endpoint. Generates secure token, stores in password_reset_tokens collection with 24h expiration, sends email via SendGrid with reset link."
+
+  - task: "Password Recovery - Reset Password Endpoint"
+    implemented: true
+    working: "NA"
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Implemented POST /api/auth/reset-password endpoint. Validates token, checks expiration, updates user password with bcrypt hash, marks token as used."
+
+  - task: "SendGrid Email Integration"
+    implemented: true
+    working: "NA"
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Integrated SendGrid with credentials provided. Created send_password_reset_email helper function. Sends professional HTML emails with reset links. Sender: verbatim15@hotmail.es"
+
+  - task: "Password Reset Token Storage"
+    implemented: true
+    working: "NA"
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Created password_reset_tokens collection schema with fields: token, user_id, user_email, created_at, expires_at (24h), used (boolean)."
+
+frontend:
+  - task: "Forgot Password Page"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/pages/ForgotPassword.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Created forgot password page with email input form. Calls /api/auth/forgot-password endpoint. Shows success message after submission. Styled with Auth.css."
+
+  - task: "Reset Password Page"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/pages/ResetPassword.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Created reset password page that extracts token from URL query params. Validates passwords match, minimum 6 characters. Calls /api/auth/reset-password endpoint. Auto-redirects to login on success."
+
+  - task: "Login Page - Forgot Password Link"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/pages/Login.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added 'Olvidaste tu contraseña?' link to login page that navigates to /forgot-password route."
+
+  - task: "App Routing - Password Recovery Routes"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/App.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added public routes /forgot-password and /reset-password to App.js routing configuration."
+
+metadata:
+  created_by: "main_agent"
+  version: "3.0"
+  test_sequence: 0
+  run_ui: false
+
+test_plan:
+  current_focus:
+    - "Password Recovery - Forgot Password Endpoint"
+    - "Password Recovery - Reset Password Endpoint"
+    - "SendGrid Email Integration"
+    - "Forgot Password Page"
+    - "Reset Password Page"
+  stuck_tasks: []
+  test_all: false
+  test_priority: "high_first"
+
+agent_communication:
+  - agent: "main"
+    message: "Completed full authentication system with password recovery. Backend: forgot-password and reset-password endpoints with SendGrid integration. Frontend: ForgotPassword and ResetPassword pages with proper routing. System uses secure tokens with 24h expiration. All components ready for testing. User provided SendGrid credentials: API key and sender email (verbatim15@hotmail.es)."
 
 backend:
   - task: "JWT Authentication System"
