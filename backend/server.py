@@ -880,24 +880,38 @@ async def generate_new_exam(current_user: TokenData = Depends(require_active_sub
             valid_questions = [q for q in tema_questions if len(q.get('opciones', [])) >= 4][:count]
             comun_bd.extend(valid_questions)
         
-        # Generar 2 preguntas de IA del temario común
-        comun_ai = await generate_questions_with_ai(2, "comun")
+        # Generar 1 pregunta de IA del temario común
+        comun_ai = await generate_questions_with_ai(1, "comun")
         
         # 2. TEMARIO ESPECÍFICO (70% = 35 preguntas)
-        # De BD: intentar obtener 30 preguntas válidas, IA: 5 preguntas
-        logger.info("Selecting specific topic questions...")
-        # Obtener más preguntas de las necesarias para compensar las que tienen opciones vacías
-        especifico_bd_cursor = db.preguntas_oficiales.aggregate([
-            {"$match": {"tema": {"$in": [11, 12, 13, 14, 15, 16, 17, 18, 19]}}},
-            {"$sample": {"size": 100}}  # Obtener más para filtrar
-        ])
-        especifico_bd_raw = await especifico_bd_cursor.to_list(100)
+        # De BD: 33-34 preguntas (distribuidas equitativamente entre T11-T19), IA: 1-2 preguntas
+        logger.info("Selecting specific topic questions with even distribution...")
         
-        # Filtrar solo preguntas con opciones válidas
-        especifico_bd = [q for q in especifico_bd_raw if len(q.get('opciones', [])) >= 2][:30]
+        especifico_bd = []
+        temas_especifico = [11, 12, 13, 14, 15, 16, 17, 18, 19]
+        questions_per_tema_esp = 33 // len(temas_especifico)  # ~3-4 por tema
+        remainder_esp = 33 % len(temas_especifico)
         
-        # Generar 5 preguntas de IA del temario específico
-        especifico_ai = await generate_questions_with_ai(5, "especifico")
+        for tema_num in temas_especifico:
+            # Calcular cuántas preguntas obtener de este tema
+            count = questions_per_tema_esp
+            if remainder_esp > 0:
+                count += 1
+                remainder_esp -= 1
+            
+            # Obtener preguntas de este tema específico
+            tema_cursor = db.preguntas_oficiales.aggregate([
+                {"$match": {"tema": tema_num}},
+                {"$sample": {"size": count * 3}}  # Obtener más para filtrar
+            ])
+            tema_questions = await tema_cursor.to_list(count * 3)
+            
+            # Filtrar válidas y tomar las necesarias
+            valid_questions = [q for q in tema_questions if len(q.get('opciones', [])) >= 4][:count]
+            especifico_bd.extend(valid_questions)
+        
+        # Generar 1-2 preguntas de IA del temario específico
+        especifico_ai = await generate_questions_with_ai(1, "especifico")
         
         # 3. Convertir preguntas de BD al formato Question
         for pregunta_bd in comun_bd + especifico_bd:
