@@ -291,10 +291,30 @@ REGLAS OBLIGATORIAS:
 4. Estilo: Imitar exámenes oficiales del SAS
 5. Cobertura: SOLO preguntas de {temas_rango}
 
-REGLA CRÍTICA - PROHIBICIÓN DE ABREVIATURAS:
+REGLA CRÍTICA - PROHIBICIÓN ESTRICTA DE ABREVIATURAS:
 ✓ SAS (Servicio Andaluz de Salud) - ÚNICA abreviatura permitida
-✗ NO usar: EM, EA, EMPNS, LPRL, LOPD (ni ninguna otra abreviatura)
-✓ SIEMPRE escribir nombres completos: Estatuto Marco, Ley de Prevención de Riesgos Laborales, Ley Orgánica de Protección de Datos, etc.
+
+✗ PROHIBIDO USAR ESTAS ABREVIATURAS:
+   - LOPDPGDD, LOPDGDD, LOPD
+   - EM, EMPNS
+   - EA, EAA
+   - LPRL, PRL
+   - EBAP, EBEP
+   - LGS, LSA
+   - BOE, BOJA
+   - CE (excepto en contexto "Comunidad Europea")
+   - RD, RDL
+   - Y CUALQUIER OTRA ABREVIATURA de leyes o normativas
+
+✓ SIEMPRE USAR NOMBRES COMPLETOS:
+   - "Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales" (NO LOPDPGDD)
+   - "Estatuto Marco del Personal Estatutario" (NO EM o EMPNS)
+   - "Estatuto de Autonomía de Andalucía" (NO EA o EAA)
+   - "Ley de Prevención de Riesgos Laborales" (NO LPRL)
+   - "Estatuto Básico del Empleado Público" (NO EBAP o EBEP)
+   - "Ley General de Sanidad" (NO LGS)
+   - "Constitución Española" (NO CE)
+   - Etc.
 
 FORMATO DE RESPUESTA:
 Responde ÚNICAMENTE con JSON válido (sin texto adicional, sin markdown).
