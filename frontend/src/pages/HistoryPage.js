@@ -130,7 +130,7 @@ const HistoryPage = () => {
                             <div className="flex items-center gap-1">
                               <Award className="h-4 w-4" />
                               <span className={getScoreColor(puntuacionSobre100)}>
-                                {puntuacionOficial.toFixed(2)} pts
+                                {puntuacionSobre100.toFixed(2)} pts
                               </span>
                             </div>
                           </div>
