@@ -48,15 +48,15 @@ const ResultsPage = () => {
   };
 
   const getScoreColor = (score) => {
-    if (score >= 80) return 'text-green-600';
-    if (score >= 50) return 'text-yellow-600';
+    if (score >= 65) return 'text-green-600';
+    if (score >= 40) return 'text-yellow-600';
     return 'text-red-600';
   };
 
   const getScoreMessage = (score) => {
-    if (score >= 80) return '¡Excelente trabajo!';
-    if (score >= 50) return 'Buen intento, sigue practicando';
-    return 'Necesitas más preparación';
+    if (score >= 65) return '¡Enhorabuena! Has superado el examen con éxito';
+    if (score >= 40) return 'Necesitas más preparación. ¡No te rindas!';
+    return 'Necesitas más preparación. ¡Sigue estudiando!';
   };
 
   if (loading) {
