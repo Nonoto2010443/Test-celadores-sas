@@ -1511,9 +1511,9 @@ def test_capitalization_after_question_mark(authenticated_users):
     print("Exception: '¿art.' can remain lowercase")
     print("="*60)
     
-    # Generate 2 exams to test formatting consistency
-    for exam_num in range(2):
-        print(f"\n📝 Generating Exam {exam_num + 1}/2 for formatting verification...")
+    # Generate 5 exams for comprehensive capitalization testing (as requested)
+    for exam_num in range(5):
+        print(f"\n📝 Generating Exam {exam_num + 1}/5 for capitalization verification...")
         
         try:
             token, user_data = authenticated_users[0]
