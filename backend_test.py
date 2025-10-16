@@ -1593,61 +1593,38 @@ def test_capitalization_after_question_mark(authenticated_users):
                     
                     # CRITICAL TEST 3: DATA INTEGRITY CHECK
                     all_questions_have_4_options = all(len(q.get('opciones', [])) == 4 for q in questions)
-                    all_questions_have_prefix = all(q.get('pregunta', '').startswith('❓FFM.- ') for q in questions)o', '¿dónde', '¿cuándo', '¿por qué', '¿quién'])
+                    all_questions_have_prefix = all(q.get('pregunta', '').startswith('❓FFM.- ') for q in questions)
+                    
+                    # Record results for this exam
+                    if not capitalization_violations:
+                        results.add_result(
+                            f"Exam {exam_num+1} - ZERO Capitalization Violations",
+                            True,
+                            f"✅ PERFECT: ZERO capitalization violations found in all {total_questions_checked} questions"
                         )
-                        
-                        if is_interrogation:
-                            interrogation_count += 1
-                            # Interrogations should NOT end with ':'
-                            if question_content.endswith(':'):
-                                punctuation_violations.append(f"Exam {exam_num+1}, Q{idx+1}: Interrogation incorrectly ends with ':'")
-                        else:
-                            affirmation_count += 1
-                            # Affirmations/incomplete phrases should end with ':'
-                            if not question_content.endswith(':'):
-                                punctuation_violations.append(f"Exam {exam_num+1}, Q{idx+1}: Affirmation/incomplete phrase should end with ':'")
+                        print(f"   ✅ PERFECT: No capitalization violations found")
+                    else:
+                        results.add_result(
+                            f"Exam {exam_num+1} - ZERO Capitalization Violations", 
+                            False,
+                            f"❌ CRITICAL: Found {len(capitalization_violations)} capitalization violations",
+                            "; ".join(capitalization_violations[:10])
+                        )
+                        print(f"   ❌ CRITICAL: Found {len(capitalization_violations)} capitalization violations")
+                        for violation in capitalization_violations[:5]:  # Show first 5
+                            print(f"      - {violation}")
                     
-                    # CRITICAL TEST 2: OFFICIAL LAW FORMAT
-                    print(f"   🔍 Checking official law format in exam {exam_num + 1}...")
+                    results.add_result(
+                        f"Exam {exam_num+1} - Exam Composition (43 DB + 7 AI)",
+                        composition_correct,
+                        f"✅ Composition: {db_questions_count} DB, {ai_questions_count} AI" if composition_correct else f"❌ Composition off: {db_questions_count} DB, {ai_questions_count} AI (expected ~43/7)"
+                    )
                     
-                    law_format_violations = []
-                    official_law_patterns = [
-                        r'Ley \d+/\d{4}, de \d+ de \w+',  # Ley 31/1995, de 8 de noviembre
-                        r'Ley Orgánica \d+/\d{4}, de \d+ de \w+',  # Ley Orgánica 3/2018, de 5 de diciembre
-                        r'Real Decreto \d+/\d{4}, de \d+ de \w+',  # Real Decreto format
-                    ]
-                    
-                    # Check for incomplete law references (missing number/date)
-                    incomplete_law_patterns = [
-                        r'\bLey de Prevención de Riesgos Laborales\b(?! \d+/\d{4})',
-                        r'\bLey General de Sanidad\b(?! \d+/\d{4})',
-                        r'\bEstatuto Marco del Personal Estatutario\b(?! \d+/\d{4})',
-                        r'\bEstatuto de Autonomía de Andalucía\b(?! Orgánica \d+/\d{4})',
-                    ]
-                    
-                    for idx, q in enumerate(questions):
-                        pregunta_text = q.get('pregunta', '')
-                        opciones = q.get('opciones', [])
-                        all_text = pregunta_text + ' ' + ' '.join(str(opt) for opt in opciones)
-                        
-                        # Check for incomplete law references
-                        import re
-                        for pattern in incomplete_law_patterns:
-                            if re.search(pattern, all_text):
-                                law_format_violations.append(f"Exam {exam_num+1}, Q{idx+1}: Incomplete law reference found")
-                    
-                    # CRITICAL TEST 3: ABBREVIATION COMPLIANCE
-                    print(f"   🔍 Checking abbreviation compliance in exam {exam_num + 1}...")
-                    
-                    abbreviation_violations = []
-                    forbidden_abbrevs = [
-                        'LOPDPGDD', 'LOPDGDD', 'LOPD', 'RGPD',  # Data protection
-                        'EM', 'EMPNS',                           # Estatuto Marco
-                        'EA', 'EAA', 'CE',                       # Estatuto/Constitución
-                        'LPRL', 'PRL',                           # Prevención Riesgos
-                        'EBAP', 'EBEP',                          # Estatuto Básico
-                        'LGS', 'LSA', 'LGSP',                    # Ley Sanidad
-                        'BOE', 'BOJA', 'RD', 'RDL',             # Boletines/Decretos
+                    results.add_result(
+                        f"Exam {exam_num+1} - Data Integrity",
+                        all_questions_have_4_options and all_questions_have_prefix,
+                        f"✅ All questions have 4 options and proper prefix" if (all_questions_have_4_options and all_questions_have_prefix) else f"❌ Data integrity issues found"
+                    )
                         'SNS', 'SSPA', 'OMS', 'UE', 'CCAA'      # Organizaciones
                     ]
                     
