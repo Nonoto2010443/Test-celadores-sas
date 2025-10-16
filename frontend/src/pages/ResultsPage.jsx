@@ -312,7 +312,13 @@ const ResultsPage = () => {
                       <div className="mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded">
                         <p className="text-sm text-gray-700">
                           <strong className="text-blue-700">Justificación:</strong>{' '}
-                          {question.explicacion || 'Consulta el temario oficial del SAS para más detalles sobre esta pregunta.'}
+                          {loadingJustifications[question.id] ? (
+                            <span className="text-gray-500">Cargando explicación...</span>
+                          ) : (
+                            justifications[question.id] || 
+                            question.explicacion || 
+                            'Consulta el temario oficial del SAS para más detalles sobre esta pregunta.'
+                          )}
                         </p>
                       </div>
                     </div>
