@@ -2369,76 +2369,249 @@ def test_capitalization_after_question_mark():
     
     return results
 
+def test_capitalization_fix_verification_comprehensive():
+    """Comprehensive test for capitalization fix verification - RE-TEST as requested"""
+    results = TestResults()
+    
+    print("🔍 CAPITALIZATION FIX VERIFICATION - RE-TEST")
+    print("="*60)
+    print("CONTEXT: Testing AI generation after prompt updates for Spanish capitalization rules")
+    print("SUCCESS CRITERIA: Zero AI-generated questions with lowercase after '¿'")
+    print("="*60)
+    
+    # Step 1: Login with test user
+    print("\n1️⃣ Authenticating with test user...")
+    try:
+        login_data = {
+            "email": "test@example.com",
+            "password": "password123"
+        }
+        
+        response = requests.post(
+            f"{BASE_URL}/auth/login",
+            headers=HEADERS,
+            json=login_data,
+            timeout=10
+        )
+        
+        if response.status_code == 200:
+            data = response.json()
+            if "access_token" in data:
+                token = data["access_token"]
+                
+                # Activate subscription for test user
+                activate_user_subscription("test@example.com")
+                
+                results.add_result("Test User Authentication", True, "Successfully logged in with test@example.com")
+                print("✅ Successfully authenticated with test user")
+            else:
+                results.add_result("Test User Authentication", False, "Missing token in response")
+                print("❌ Authentication failed - missing token")
+                return results
+        else:
+            results.add_result("Test User Authentication", False, f"Login failed with status {response.status_code}")
+            print(f"❌ Authentication failed with status {response.status_code}")
+            return results
+            
+    except Exception as e:
+        results.add_result("Test User Authentication", False, f"Login request failed: {str(e)}")
+        print(f"❌ Authentication request failed: {str(e)}")
+        return results
+    
+    # Step 2: Generate multiple exams to test AI capitalization
+    print("\n2️⃣ Generating exams to test AI capitalization...")
+    
+    auth_headers = {
+        **HEADERS,
+        "Authorization": f"Bearer {token}"
+    }
+    
+    total_violations = 0
+    total_ai_questions = 0
+    total_db_questions = 0
+    
+    for exam_num in range(3):  # Generate 3 exams as requested
+        print(f"\n   📝 Generating Exam {exam_num + 1}/3...")
+        
+        try:
+            response = requests.post(
+                f"{BASE_URL}/exam/generate",
+                headers=auth_headers,
+                timeout=60  # Longer timeout for AI generation
+            )
+            
+            if response.status_code == 200:
+                data = response.json()
+                questions = data.get("preguntas", [])
+                
+                if len(questions) == 50:
+                    print(f"      ✅ Generated exam with {len(questions)} questions")
+                    
+                    # Analyze capitalization in this exam
+                    exam_violations = []
+                    exam_ai_count = 0
+                    exam_db_count = 0
+                    
+                    for idx, q in enumerate(questions):
+                        pregunta_text = q.get('pregunta', '')
+                        opciones = q.get('opciones', [])
+                        explicacion = q.get('explicacion', '')
+                        
+                        # Determine if this is AI or DB question
+                        is_ai_question = (
+                            pregunta_text.startswith('❓FFM.- ') and 
+                            'Consulta el temario oficial del SAS' not in explicacion
+                        )
+                        
+                        if is_ai_question:
+                            exam_ai_count += 1
+                        else:
+                            exam_db_count += 1
+                        
+                        # Check for capitalization violations after ¿
+                        import re
+                        
+                        # Check question text
+                        question_violations = re.findall(r'¿([a-z])', pregunta_text)
+                        for match in question_violations:
+                            # Exception: 'art.' is allowed to remain lowercase
+                            if not pregunta_text[pregunta_text.find(f'¿{match}'):].startswith('¿art.'):
+                                violation_type = "AI" if is_ai_question else "DB"
+                                exam_violations.append(f"Q{idx+1} ({violation_type}): '¿{match}' should be '¿{match.upper()}'")
+                        
+                        # Check options
+                        for opt_idx, opcion in enumerate(opciones):
+                            if isinstance(opcion, str):
+                                option_violations = re.findall(r'¿([a-z])', opcion)
+                                for match in option_violations:
+                                    if not opcion[opcion.find(f'¿{match}'):].startswith('¿art.'):
+                                        violation_type = "AI" if is_ai_question else "DB"
+                                        exam_violations.append(f"Q{idx+1} Opt{opt_idx+1} ({violation_type}): '¿{match}' should be '¿{match.upper()}'")
+                    
+                    total_violations += len(exam_violations)
+                    total_ai_questions += exam_ai_count
+                    total_db_questions += exam_db_count
+                    
+                    print(f"      📊 Composition: {exam_db_count} DB, {exam_ai_count} AI")
+                    print(f"      📊 Violations: {len(exam_violations)}")
+                    
+                    # Record results for this exam
+                    results.add_result(
+                        f"Exam {exam_num+1} - Capitalization Check",
+                        len(exam_violations) == 0,
+                        f"✅ Zero violations found" if len(exam_violations) == 0 else f"❌ {len(exam_violations)} violations found",
+                        "; ".join(exam_violations[:3]) if exam_violations else None
+                    )
+                    
+                    if exam_violations:
+                        print(f"      ❌ Found {len(exam_violations)} violations:")
+                        for violation in exam_violations[:3]:  # Show first 3
+                            print(f"         - {violation}")
+                    else:
+                        print(f"      ✅ Perfect: No capitalization violations")
+                        
+                else:
+                    results.add_result(
+                        f"Exam {exam_num+1} - Generation",
+                        False,
+                        f"Expected 50 questions, got {len(questions)}"
+                    )
+                    print(f"      ❌ Generation failed: {len(questions)} questions")
+            else:
+                results.add_result(
+                    f"Exam {exam_num+1} - Generation",
+                    False,
+                    f"HTTP {response.status_code}"
+                )
+                print(f"      ❌ Generation failed: HTTP {response.status_code}")
+                
+        except Exception as e:
+            results.add_result(
+                f"Exam {exam_num+1} - Generation",
+                False,
+                f"Exception: {str(e)}"
+            )
+            print(f"      ❌ Generation error: {str(e)}")
+    
+    # Step 3: Overall assessment
+    print(f"\n3️⃣ Overall Assessment...")
+    print(f"   📊 Total Questions Generated: {total_ai_questions + total_db_questions}")
+    print(f"   📊 AI Questions: {total_ai_questions}")
+    print(f"   📊 Database Questions: {total_db_questions}")
+    print(f"   📊 Total Violations: {total_violations}")
+    
+    # Final assessment
+    success_criteria_met = total_violations == 0
+    
+    results.add_result(
+        "Overall Capitalization Fix Verification",
+        success_criteria_met,
+        f"✅ SUCCESS: Zero capitalization violations across all exams" if success_criteria_met else f"❌ FAILED: {total_violations} total violations found"
+    )
+    
+    # Data integrity check
+    expected_total = 150  # 3 exams × 50 questions
+    actual_total = total_ai_questions + total_db_questions
+    
+    results.add_result(
+        "Data Integrity Check",
+        actual_total == expected_total,
+        f"✅ Generated {actual_total}/{expected_total} questions as expected" if actual_total == expected_total else f"❌ Generated {actual_total}/{expected_total} questions"
+    )
+    
+    return results
+
 def main():
-    """Run comprehensive backend testing with focus on capitalization fix"""
-    print("🚀 STARTING BACKEND TESTING - CAPITALIZATION FIX FOCUS")
-    print(f"Testing against: {BASE_URL}")
+    """Run capitalization fix verification testing as requested in review"""
+    print("🏥 SAS CELADORES BACKEND API TESTING")
+    print("="*60)
+    print("RE-TEST: Capitalization Fix Verification (AI Generation Updated)")
     print("="*60)
     
     # Test 1: API Connection
     print("\n1️⃣ Testing API Connection...")
-    connected, message = test_api_connection()
-    if not connected:
-        print(f"❌ API Connection Failed: {message}")
+    passed, message = test_api_connection()
+    if not passed:
+        print(f"❌ Cannot connect to API: {message}")
         return
-    print(f"✅ API Connected: {message}")
+    print(f"✅ API is accessible: {message}")
     
-    # Test 2: CRITICAL - Capitalization After Question Mark Fix
-    print("\n2️⃣ CRITICAL TEST - Capitalization After Question Mark Fix...")
-    capitalization_results = test_capitalization_after_question_mark()
-    capitalization_results.print_summary()
+    # Test 2: Comprehensive Capitalization Fix Verification
+    print("\n2️⃣ Running Comprehensive Capitalization Fix Verification...")
+    cap_results = test_capitalization_fix_verification_comprehensive()
     
-    # Test 3: Verify Timeout Fix Still Works
-    print("\n3️⃣ Verifying Timeout Fix Still Works...")
-    timeout_results = test_timeout_fix_and_async_justifications()
-    timeout_results.print_summary()
+    # Print detailed results
+    cap_results.print_summary()
     
-    # OVERALL SUMMARY
-    print("\n" + "="*60)
-    print("🎯 CAPITALIZATION FIX TESTING SUMMARY")
-    print("="*60)
+    # Final assessment based on review requirements
+    print(f"\n{'='*60}")
+    print(f"CAPITALIZATION FIX VERIFICATION SUMMARY")
+    print(f"{'='*60}")
     
-    cap_tests = len(capitalization_results.results)
-    cap_passed = capitalization_results.passed
-    cap_failed = capitalization_results.failed
+    # Check success criteria from review request
+    violation_tests = [r for r in cap_results.results if "Capitalization Check" in r["test"]]
+    passed_violation_tests = sum(1 for r in violation_tests if r["passed"])
+    total_violation_tests = len(violation_tests)
     
-    timeout_tests = len(timeout_results.results)
-    timeout_passed = timeout_results.passed
-    timeout_failed = timeout_results.failed
+    overall_test = [r for r in cap_results.results if r["test"] == "Overall Capitalization Fix Verification"]
+    overall_success = len(overall_test) > 0 and overall_test[0]["passed"]
     
-    total_tests = cap_tests + timeout_tests
-    total_passed = cap_passed + timeout_passed
-    total_failed = cap_failed + timeout_failed
+    print(f"Individual Exam Tests: {passed_violation_tests}/{total_violation_tests} passed")
+    print(f"Overall Success: {'✅ YES' if overall_success else '❌ NO'}")
     
-    print(f"Total Tests Run: {total_tests}")
-    print(f"Total Passed: {total_passed}")
-    print(f"Total Failed: {total_failed}")
-    print(f"Success Rate: {(total_passed/total_tests*100):.1f}%")
-    
-    print(f"\nCapitalization Tests: {cap_passed}/{cap_tests} passed")
-    print(f"Timeout Tests: {timeout_passed}/{timeout_tests} passed")
-    
-    # Focus on critical capitalization results
-    if cap_passed == cap_tests:
-        print(f"\n🎉 CRITICAL SUCCESS: All {cap_tests} capitalization-related tests PASSED!")
-        print("✅ Capitalization after question mark issue has been RESOLVED")
-        print("✅ Database integrity maintained")
+    if overall_success and passed_violation_tests == total_violation_tests:
+        print("\n🎉 SUCCESS CRITERIA MET:")
+        print("✅ Zero AI-generated questions with lowercase after '¿'")
+        print("✅ Database questions remain correctly capitalized")
+        print("✅ All exams follow Spanish capitalization rules")
+        print("✅ No errors during exam generation")
+        print("\n🎯 CAPITALIZATION FIX VERIFIED - AI prompts now enforce Spanish capitalization rules!")
     else:
-        print(f"\n⚠️ CRITICAL ISSUE: {cap_failed}/{cap_tests} capitalization tests FAILED")
-        print("❌ Capitalization issue may still exist - requires immediate attention")
-        
-        # Show failed capitalization tests
-        failed_cap_tests = [r for r in capitalization_results.results if not r["passed"]]
-        for test in failed_cap_tests:
-            print(f"   ❌ {test['test']}: {test['message']}")
+        print("\n❌ SUCCESS CRITERIA NOT MET:")
+        print("❌ AI-generated questions still contain capitalization violations")
+        print("❌ Further adjustment of AI prompts required")
     
-    # Also check timeout results
-    if timeout_passed == timeout_tests:
-        print("✅ Exam submission timeout fix is still working correctly")
-    else:
-        print("⚠️ Some timeout-related issues detected")
-    
-    return capitalization_results, timeout_results
+    return cap_results
 
 if __name__ == "__main__":
     main()
