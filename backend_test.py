@@ -1838,7 +1838,7 @@ def main():
     all_results.passed += stats_results.passed
     all_results.failed += stats_results.failed
     
-    # 9. Test Protected Results Access
+    # 10. Test Protected Results Access
     print("\n🔒 Testing Protected Results Access...")
     access_results = test_protected_results_access(submitted_results, authenticated_users)
     all_results.results.extend(access_results.results)
