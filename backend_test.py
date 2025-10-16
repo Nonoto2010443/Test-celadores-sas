@@ -1719,15 +1719,6 @@ def test_capitalization_after_question_mark(authenticated_users):
         print(f"⚠️  Manual review required for remaining issues")
     
     return results, generated_exams
-                    
-                    results.add_result(
-                        f"Exam {exam_num+1} - Official Law Format",
-                        len(law_format_violations) == 0,
-                        f"✅ All law references use official format with number and date" if not law_format_violations else f"❌ {len(law_format_violations)} incomplete law references found",
-                        "; ".join(law_format_violations[:5]) if law_format_violations else None
-                    )
-                    
-                    results.add_result(
                         f"Exam {exam_num+1} - Abbreviation Compliance",
                         len(abbreviation_violations) == 0,
                         f"✅ Only 'art.' and 'SAS' abbreviations found" if not abbreviation_violations else f"❌ {len(abbreviation_violations)} forbidden abbreviations found",
