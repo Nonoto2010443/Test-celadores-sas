@@ -150,7 +150,7 @@ Prevención de Riesgos Laborales, ¿cuál sería la definición de
 
 ## 🌐 ACCESO PARA PRUEBAS
 
-**URL:** https://celadores-sas-exam.preview.emergentagent.com
+**URL:** https://healthcare-tests.preview.emergentagent.com
 
 **Qué Verificar:**
 1. ✅ Formato oficial de leyes en preguntas

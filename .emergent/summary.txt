@@ -1,118 +1,71 @@
 <analysis>
-The previous AI engineer successfully initiated a full-stack SAS Celadores exam preparation application, progressing from zero functionality to a robust MVP. Initially, the focus was on data ingestion, processing 1,564 pages of syllabus PDFs and 16,510 exam questions from various formats into MongoDB. A significant part of the work involved debugging parsing issues and ensuring data consistency.
-
-Subsequently, the development shifted to core application features. This included implementing a multi-user system with JWT authentication (registration, login, logout), password recovery via SendGrid (requiring extensive debugging related to API key permissions and email deliverability to Hotmail), and a personal student dashboard displaying exam history and progress.
-
-Key challenges involved ensuring correct exam generation logic (30% common/70% specific topics, 85% DB/15% AI questions), fixing issues where questions appeared without options due to database inconsistencies, and enforcing strict abbreviation rules for AI-generated and existing database questions. The engineer also integrated a Stripe subscription system for a 10€/month paywall, including checkout sessions, webhooks, and UI for pricing and subscription management, which was successfully implemented and tested. The work concluded with the user reporting a specific bug where an exam option was identical to its question, indicating a data quality issue requiring immediate attention.
+The AI engineer successfully enhanced the Preparación Oposiciones SAS - Celadores application from its MVP state. Key early efforts focused on resolving critical timeouts by refactoring real-time AI justification generation into an asynchronous process and introducing a password visibility toggle. Concurrently, extensive database cleanup and formatting were undertaken based on user feedback, applying strict rules for punctuation, capitalization, official law citations, and a definitive abbreviation policy. This involved creating and debugging numerous scripts to retroactively fix existing data, repairing missing question options for certain topics, and updating AI prompts to align with new content generation guidelines. The process demonstrated iterative problem-solving for regex issues and text processing edge cases, leading to a more robust and polished application. The immediate next steps involve resolving remaining visual formatting and specific grammatical rules.
 </analysis>
 
 <product_requirements>
-The application, Preparación Oposiciones SAS - Celadores, aims to provide an exam preparation platform.
-1.  **Home Screen**: Displays Examen de Celadores, features (50 questions, 90 minutes, scoring), and a Comenzar Nuevo Examen button.
-2.  **Exam Logic**:
-    *   **Timer**: 90-minute countdown.
-    *   **Questions**: 50 multiple-choice questions (4 options, single correct).
-    *   **Composition**: 30% from Common Topics (T1-T10), 70% from Specific Topics (T11-T19).
-    *   **Origin**: 85% from MongoDB, 15% AI-generated (OpenAI, based on syllabus and SAS style).
-3.  **Question Format & Quality**:
-    *   **Prefix**: All questions must start with ❓FFM.-.
-    *   **Quality**: Perfect grammar, spelling, no confusing abbreviations (except SAS).
-    *   **Style**: Basic difficulty, imitate official SAS exam style.
-4.  **Results Screen**:
-    *   **Review**: Review all questions, identify correct/incorrect.
-    *   **Justification**: Display correct answer and brief justification (syllabus/legislation).
-    *   **Scoring**: Total score out of 100: +2 points correct, -0.5 points incorrect, 0 points blank. Minimum score is 0. Success message for >=65 points.
-5.  **Multi-user System**:
-    *   **Authentication**: Register, Login, Logout (JWT). Password recovery via email (SendGrid).
-    *   **User-specific Data**: Exam results (score, date, answers) associated with user ID in a  MongoDB collection.
-    *   **Dashboard**: Personal dashboard with exam history (date, score), progress tracking, and access to new exams.
-6.  **Stripe Subscription**:
-    *   **Paywall**: 10€/month subscription required for exam access.
-    *   **User Model**:  and  fields (, , ).
-    *   **Backend Endpoints**:  (10€/month),  (for ,  events).
-    *   **Protected Routes**:  checks .
-    *   **Frontend**: Pricing page (10€/month), Manage Subscription button on dashboard (links to Stripe Customer Portal), content blocking with link to pricing.
-
-**Current State of Product Content**:
-*   **Syllabus**: 1,564 pages (19 topics) processed and stored as metadata in MongoDB.
-*   **Questions**: 16,510 test questions extracted, processed, and stored in MongoDB. All abbreviations, except SAS, have been removed from these questions.
+The Preparación Oposiciones SAS - Celadores application is an exam platform designed for civil servant preparation. Key features include:
+1.  **Exam Generation**: 50 MCQs (4 options, single correct) within 90 minutes. Composition: 95% DB/5% pre-generated AI questions, equitably distributed across topics.
+2.  **Question & Option Formatting**:  prefix once, bold question numbers, purple topic banner (only for topics), specific punctuation (colon for affirmations, no colon for interrogations), correct capitalization (start of sentence/after , no full-uppercase), corrected grammar, full official law names,  and  as sole abbreviations, options starting with capital letters (no repeated , ), and inclusive language ().
+3.  **Results**: Review, detailed AI-generated justifications (concise, one paragraph, source references  or ), scoring, and pass criteria.
+4.  **User Management**: Register, Login, Logout (JWT), password recovery (SendGrid), user dashboard, and password visibility toggle.
+5.  **Monetization**: Stripe subscription for exam access.
+**Current State**: 16,510 questions processed. All questions/options cleaned according to formatting rules. Timeout issue fixed with async justifications. Temas 14-19 questions repaired. Login password issue resolved.
 </product_requirements>
 
 <key_technical_concepts>
--   **Full-stack Application**: React frontend (Vite), FastAPI backend, MongoDB database.
--   **Asynchronous Programming**: FastAPI with / and Motor.
--   **Data Processing**: PDF/JSON parsing, text cleaning.
--   **LLM Integration**: OpenAI via  for AI question generation.
--   **Authentication**: JWT for user sessions, ,  for password hashing.
--   **Email Service**: SendGrid for password recovery emails.
--   **Payment Gateway**: Stripe for subscription management.
--   **Environment Management**:  files, backend                          RUNNING   pid 42, uptime 0:00:02
+-   **Full-stack**: React, FastAPI, MongoDB.
+-   **Asynchronous**: FastAPI /, Motor, background AI jobs.
+-   **LLM Integration**: Google AI (Gemini) via  for question generation and justifications.
+-   **Authentication**: JWT, , , SendGrid, password toggle.
+-   **Payment Gateway**: Stripe.
+-   **Deployment**:  files, backend                          RUNNING   pid 43, uptime 0:00:02
 code-server                      STOPPED   Not started
-frontend                         STOPPED   Oct 15 09:34 PM
+frontend                         STOPPED   Oct 16 01:23 PM
 mongodb                          RUNNING   pid 45, uptime 0:00:02
-nginx-code-proxy                 STARTING  
-supervisor>  for service management.
--   **Frontend Routing**: React Router DOM.
+nginx-code-proxy                 RUNNING   pid 41, uptime 0:00:02
+supervisor> , Kubernetes ingress.
+-   **Data Processing**: PDF/JSON parsing, extensive text cleaning.
 </key_technical_concepts>
 
 <code_architecture>
 
-
--   **/app/backend/server.py**: Main FastAPI application.
-    -   **Importance**: Central hub for API routes, MongoDB interaction, LLM integration, CORS.
-    -   **Changes**:
-        -   Added Pydantic models for  (now includes , , , ), , .
-        -   Implemented , ,  endpoints.
-        -   Implemented ,  endpoints with SendGrid integration.
-        -   Implemented ,  endpoints.
-        -   Modified  to be multi-user, enforce subscription, handle question composition (30/70 topic split, 85/15 DB/AI split), ensure 4 options per question, and prevent blank questions.
-        -   Modified  to save results linked to , implement correct SAS scoring (+2/-0.5/0, min 0).
-        -   Added endpoints for  and .
-        -   Integrated SendGrid and Stripe API keys from .
-        -   Increased MongoDB sample size for questions to avoid timeouts during exam generation.
-        -   Adjusted LLM prompt for strict abbreviation rules.
--   **/app/backend/.env**: Environment variables.
-    -   **Changes**: Added , , , , , , , , .
--   **/app/backend/auth.py**: New file.
-    -   **Importance**: Contains helper functions for JWT token generation, password hashing/verification, and current user retrieval.
--   **/app/backend/clean_abbreviations.py**: New script.
-    -   **Importance**: Used to programmatically clean existing 16,510 questions in MongoDB by replacing common abbreviations with full names (e.g., LPRL -> Ley de Prevención de Riesgos Laborales).
--   **/app/frontend/src/App.js**: Main React component.
-    -   **Changes**: Integrated ,  for routing, added routes for Login, Register, Dashboard, ExamPage, ResultsPage, ForgotPassword, ResetPassword, Pricing, SubscriptionSuccess, SubscriptionCancel, and ProtectedRoute for secured routes.
--   **/app/frontend/src/contexts/AuthContext.jsx**: New file.
-    -   **Importance**: Provides global authentication state and functions (login, logout, token management) to other components.
--   **/app/frontend/src/components/ProtectedRoute.jsx**: New file.
-    -   **Importance**: A React component wrapper to protect routes, redirecting unauthenticated users to the login page.
--   **/app/frontend/src/pages/Home.jsx**: Home page.
-    -   **Changes**: Updated to reflect multi-user nature and lead to authenticated experiences.
--   **/app/frontend/src/pages/ExamPage.jsx**: Exam display component.
-    -   **Changes**: Integrated authentication context, automatically generates exams, configured axios timeout, displays 50 questions with 4 options, handles submission. Uses .
--   **/app/frontend/src/pages/ResultsPage.jsx**: Exam results display.
-    -   **Changes**: Displays detailed results (correct/incorrect), correct answers with justifications, scoring (+2/-0.5/0, min 0), and motivational messages based on score (>=65 points for success).
--   **/app/frontend/src/pages/Login.jsx**, **/app/frontend/src/pages/Register.jsx**, **/app/frontend/src/pages/Auth.css**: New files.
-    -   **Importance**: Frontend components for user authentication, styled with . Login includes Forgot Password link.
--   **/app/frontend/src/pages/Dashboard.jsx**, **/app/frontend/src/pages/Dashboard.css**: New files.
-    -   **Importance**: Personal user dashboard displaying exam history, progress statistics, Manage Subscription button, and options to start new exams. Styled with .
--   **/app/frontend/src/pages/ForgotPassword.jsx**, **/app/frontend/src/pages/ResetPassword.jsx**: New files.
-    -   **Importance**: Frontend components for the password recovery flow.
--   **/app/frontend/src/pages/Pricing.jsx**, **/app/frontend/src/pages/Pricing.css**: New files.
-    -   **Importance**: Displays subscription pricing (10€/month) and a Subscribe Now button. Styled with .
--   **/app/frontend/src/pages/SubscriptionSuccess.jsx**, **/app/frontend/src/pages/SubscriptionCancel.jsx**, **/app/frontend/src/pages/SubscriptionResult.css**: New files.
-    -   **Importance**: Pages displayed after a Stripe checkout session is completed or cancelled. Styled with .
+-   ****: Central API routes. Updated AI prompts for question generation and justifications.  refactored for async justification loading. New  endpoint created. Login logic implicitly fixed by DB cleanup.
+-   ****: Updated AI prompts with all new rules for background question generation.
+-   ****: Corrects colon use in questions.
+-   ****: Ensures full official law names.
+-   ****: Orchestrates database cleaning scripts, with regex fixes.
+-   ****, ****, ****: Iterative scripts to eliminate all forbidden abbreviations.
+-   ****: Repaired missing question options for Temas 14-19, adding 3,501 valid questions.
+-   ****: Addresses mid-sentence capitalization and abbreviations.
+-   ****, ****: Capitalizes after , fixes joined words, and capitalizes option starts.
+-   ****, ****: Converts uppercase questions to sentence case and applies inclusive language, with iterative refinements.
+-   ****: Corrects words joined without spaces (e.g., ).
+-   ****: Removes duplicated  within question text.
+-   ****: Ensures all questions begin with .
+-   ****: Corrects concordance (e.g., del Ley) and adds missing commas in legal phrases.
+-   ****: Capitalizes questions starting with lowercase words (excluding art.).
+-   ****: Modified to style question numbers.
+-   ****: Added CSS for question number styling.
+-   ****: Modified to asynchronously load AI justifications.
+-   ****: Implemented password visibility toggle.
+-   ****: Implemented password visibility toggle for both password fields.
+-   ****: Added styles for password toggle.
+-   ****: New documentation file summarizing rule implementation.
 </code_architecture>
 
 <pending_tasks>
--   Address the reported bug where an exam option is identical to its question, indicating a data quality issue for specific questions.
--   Further optimize frontend performance or error handling related to long loading times.
--   Consider implementing SendGrid domain authentication for improved email deliverability, though this was deprioritized by the user.
+-   Capitalize the first word immediately following a closing question mark () in question text.
+-   Ensure that only the topic banner appears in purple, and no other text within the question or options.
 </pending_tasks>
 
 <current_work>
-Immediately prior to this summary, the AI engineer had completed the full implementation and testing of the Stripe monthly subscription system. This included backend updates to the  model with  and , new API endpoints (, ), and the protection of the  route to enforce active subscriptions. On the frontend, new pages for pricing (), subscription success (), and cancellation () were created. The  was updated to display subscription status and a Manage Subscription button linking to the Stripe Customer Portal. All these Stripe functionalities were thoroughly tested, including user creation, checkout session generation, and webhook processing, confirming 100% functionality.
+Immediately before this summary, the AI engineer was deep into refining grammatical and formatting rules within the application's question database. The last user feedback highlighted two issues:
+1.  **Capitalization after interrogative**: Questions like ¿cual de las siguientes... should be ¿Cuál de las siguientes....
+2.  **Purple text reappearance**: The user observed non-topic related text (implied to be question text or options) appearing in purple, despite earlier efforts to restrict purple styling to only the topic banner.
 
-The user then reported a new bug: in one of the tests, option A was identical to the test question, as evidenced by an uploaded screenshot. This indicates a data integrity issue within the questions served to the frontend.
+The AI engineer has acknowledged both of these specific issues ( and ) and has indicated that these are the next problems to be addressed. The engineer was in the process of planning the fix for these issues.
 </current_work>
 
 <optional_next_step>
-Analyze the user-provided image to identify the specific question with the duplicate option and correct it in the database.
+Correct capitalization after interrogations and remove unintended purple text from questions/options.
 </optional_next_step>

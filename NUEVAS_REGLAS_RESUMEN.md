@@ -118,7 +118,7 @@ Tema 10: 1-2 preguntas    │
 
 **URL de Acceso:**
 ```
-https://celadores-sas-exam.preview.emergentagent.com
+https://healthcare-tests.preview.emergentagent.com
 ```
 
 **Instrucciones de Acceso:**

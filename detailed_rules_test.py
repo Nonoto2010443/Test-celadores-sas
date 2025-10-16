@@ -10,7 +10,7 @@ import re
 from datetime import datetime
 
 # Configuration
-BASE_URL = "https://celadores-sas-exam.preview.emergentagent.com/api"
+BASE_URL = "https://healthcare-tests.preview.emergentagent.com/api"
 HEADERS = {"Content-Type": "application/json"}
 
 def get_authenticated_user():

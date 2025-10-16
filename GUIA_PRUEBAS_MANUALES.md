@@ -3,7 +3,7 @@
 
 **Fecha:** 15 de Octubre de 2025  
 **Versión:** 4.0 - Todas las funcionalidades implementadas  
-**URL de Pruebas:** https://celadores-sas-exam.preview.emergentagent.com
+**URL de Pruebas:** https://healthcare-tests.preview.emergentagent.com
 
 ---
 
@@ -65,7 +65,7 @@
 ### **PASO 1: ACCESO A LA APLICACIÓN**
 
 1. **Abre tu navegador** (Chrome, Firefox, Safari, Edge)
-2. **Accede a:** https://celadores-sas-exam.preview.emergentagent.com
+2. **Accede a:** https://healthcare-tests.preview.emergentagent.com
 3. **Verifica que la página carga correctamente**
 
 ---
