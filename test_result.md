@@ -562,6 +562,9 @@ backend:
       - working: false
         agent: "testing"
         comment: "❌ RE-TEST FAILED: Comprehensive testing of 3 exams (150 questions total) reveals capitalization violations still exist. Found 6 total violations across 9 AI-generated questions. ROOT CAUSE IDENTIFIED: The issue is NOT in real-time AI generation prompts, but in the pre-generated AI questions stored in the 'preguntas_ia' database collection. These stored AI questions still contain capitalization violations (e.g., '¿c' should be '¿C', '¿q' should be '¿Q'). Database questions (141/150) are clean. SOLUTION REQUIRED: Either regenerate the preguntas_ia collection with updated prompts OR create a database cleanup script to fix existing AI questions in the collection."
+      - working: "NA"
+        agent: "main"
+        comment: "FIXED AI DATABASE: Created and executed fix_ai_questions_capitalization.py script to clean the 'preguntas_ia' collection. Fixed 81 out of 98 AI questions (82.7% had capitalization issues). All AI questions now correctly capitalize the first letter after '¿'. Examples fixed: '¿cuál de las siguientes...' → '¿Cuál de las siguientes...'. Combined with updated AI prompts, both existing and future AI questions now follow proper Spanish capitalization rules. Ready for final backend testing."
 
   - task: "Remove Purple Color from Question Text and Options"
     implemented: true
