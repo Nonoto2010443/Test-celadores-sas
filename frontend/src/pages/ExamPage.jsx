@@ -160,7 +160,7 @@ const ExamPage = () => {
               <span className="question-tema">{question.tema}</span>
             )}
             <h3 className="question-text">
-              {currentQuestion + 1}. {question.pregunta}
+              <span className="question-number">{currentQuestion + 1}.</span> {question.pregunta}
             </h3>
           </div>
 
