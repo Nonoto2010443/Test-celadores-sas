@@ -15,9 +15,10 @@ async def fix_capitalization_after_question_mark():
     
     # Conectar a MongoDB
     mongo_url = os.getenv('MONGO_URL')
+    db_name = os.getenv('DB_NAME')
     client = AsyncIOMotorClient(mongo_url)
-    db = client['celadores_db']
-    questions_collection = db['questions']
+    db = client[db_name]
+    questions_collection = db['preguntas_oficiales']
     
     print("🔍 Iniciando corrección de capitalización después de '?'...")
     print("=" * 70)
