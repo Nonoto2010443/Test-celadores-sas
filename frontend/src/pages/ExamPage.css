@@ -127,6 +127,12 @@
   margin: 0;
 }
 
+.question-number {
+  font-weight: 700;
+  color: #667eea;
+  font-size: 1.3rem;
+}
+
 .options-container {
   display: flex;
   flex-direction: column;
