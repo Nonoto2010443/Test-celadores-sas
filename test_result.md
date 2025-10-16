@@ -601,8 +601,7 @@ metadata:
   run_ui: false
 
 test_plan:
-  current_focus:
-    - "Question Number Styling"
+  current_focus: []
   stuck_tasks:
     - "Final Formatting Rules - Punctuation and Official Laws"
   test_all: false
