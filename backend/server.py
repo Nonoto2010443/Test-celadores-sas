@@ -1231,36 +1231,8 @@ async def submit_exam(submission: SubmitExamRequest, current_user: TokenData = D
         # La puntuación mínima es 0 (no puede ser negativa)
         puntuacion = max(0, puntuacion)
         
-        # NUEVA FUNCIONALIDAD: Generar justificaciones con IA para cada pregunta
-        logger.info("Generating AI justifications for all questions...")
-        updated_questions = []
-        
-        for question in exam['preguntas']:
-            # Generate justification with AI
-            try:
-                ai_justification = await generate_justification_with_ai(
-                    pregunta=question['pregunta'],
-                    opciones=question['opciones'],
-                    respuesta_correcta=question['respuesta_correcta']
-                )
-                
-                # Update question with AI-generated justification
-                question_updated = question.copy()
-                question_updated['explicacion'] = ai_justification
-                updated_questions.append(question_updated)
-                
-            except Exception as e:
-                logger.error(f"Error generating justification for question {question['id']}: {e}")
-                # Keep original question if AI generation fails
-                updated_questions.append(question)
-        
-        # Update exam with new justifications in the database
-        await db.exams.update_one(
-            {"id": submission.exam_id},
-            {"$set": {"preguntas": updated_questions}}
-        )
-        
-        logger.info(f"Successfully generated {len(updated_questions)} justifications")
+        # NOTE: Justifications will be generated asynchronously via separate endpoint
+        # to avoid timeout on exam submission
         
         # Create result with user_id
         result = ExamResult(
