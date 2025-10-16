@@ -50,6 +50,10 @@ async def master_corrections():
         r'\bOs\s+Planes\b': 'Los Planes',
         r'\bOs\s+planes\b': 'Los planes',
         
+        # "On" -> "Son"
+        r'\bOn\s+órganos\b': 'Son órganos',
+        r'\bOn\s+([a-záéíóúñü])': r'Son \1',
+        
         # Palabras mal escritas - falta letra
         r'\bElador/a\b': 'Celador/a',
         r'\bEladora\b': 'Celadora',
