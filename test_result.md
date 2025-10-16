@@ -542,6 +542,30 @@ agent_communication:
 
 
 backend:
+  - task: "Capitalization after Question Mark Opening"
+    implemented: true
+    working: "NA"
+    file: "backend/fix_capitalization_after_question_mark.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Created and executed script to capitalize the first letter after '¿' (opening question mark). Fixed 850 questions total: 831 question texts and 21 options. Examples fixed: '¿cual es?' → '¿Cuál es?', '¿qué indica?' → '¿Qué indica?'. Exception maintained for 'art.' abbreviation which remains lowercase."
+
+  - task: "Remove Purple Color from Question Text and Options"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/pages/ExamPage.css"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Updated ExamPage.css to explicitly prevent purple color on question text and options. Added !important rules to .question-text and .option-text to ensure only .question-number and .question-tema have purple color. This prevents any inheritance of purple color to question content or option text."
+
   - task: "Dynamic AI Justifications with Google Gemini"
     implemented: true
     working: true
