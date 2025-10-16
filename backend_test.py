@@ -1804,10 +1804,10 @@ def main():
     all_results.passed += rules_results.passed
     all_results.failed += rules_results.failed
     
-    # Add rules exams to generated exams for further testing
-    generated_exams = rules_exams
+    # Combine all generated exams for further testing
+    generated_exams = formatting_exams + rules_exams
     
-    # 5. Test Protected Exam Generation (Additional)
+    # 6. Test Protected Exam Generation (Additional)
     print("\n📝 Testing Protected Exam Generation...")
     exam_results, additional_exams = test_protected_exam_generation(authenticated_users)
     all_results.results.extend(exam_results.results)
