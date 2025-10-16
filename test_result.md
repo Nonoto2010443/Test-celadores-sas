@@ -596,8 +596,8 @@ frontend:
 
 metadata:
   created_by: "main_agent"
-  version: "5.1"
-  test_sequence: 7
+  version: "5.2"
+  test_sequence: 8
   run_ui: false
 
 test_plan:
