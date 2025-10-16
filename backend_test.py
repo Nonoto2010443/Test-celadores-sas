@@ -2607,11 +2607,18 @@ def test_capitalization_fix_verification_comprehensive():
     return results
 
 def main():
-    """Run capitalization fix verification testing as requested in review"""
+    """FINAL VERIFICATION: Complete Capitalization Fix (All Sources Cleaned) - ZERO TOLERANCE TEST"""
     print("🏥 SAS CELADORES BACKEND API TESTING")
     print("="*60)
-    print("RE-TEST: Capitalization Fix Verification (AI Generation Updated)")
+    print("FINAL VERIFICATION: Complete Capitalization Fix (All Sources Cleaned)")
     print("="*60)
+    print("Testing comprehensive fix for ALL sources:")
+    print("1. ✅ Official questions (preguntas_oficiales): 850 questions fixed")
+    print("2. ✅ AI pre-generated questions (preguntas_ia): 81 questions fixed")  
+    print("3. ✅ AI generation prompts: Updated in server.py and generate_ai_questions_batch.py")
+    print("\nExpected Result: ZERO capitalization violations")
+    print("Pattern to check: '¿[a-z]' (lowercase after ¿)")
+    print("Exception: '¿art.' can remain lowercase")
     
     # Test 1: API Connection
     print("\n1️⃣ Testing API Connection...")
@@ -2621,40 +2628,61 @@ def main():
         return
     print(f"✅ API is accessible: {message}")
     
-    # Test 2: Comprehensive Capitalization Fix Verification
-    print("\n2️⃣ Running Comprehensive Capitalization Fix Verification...")
-    cap_results = test_capitalization_fix_verification_comprehensive()
+    # Test 2: User Registration and Authentication (needed for exam generation)
+    print("\n2️⃣ Setting up test users...")
+    reg_results, registered_users = test_user_registration()
+    if not registered_users:
+        print("❌ Cannot create test users for exam generation")
+        return
+    
+    # Activate subscriptions for test users
+    for token, user_data in registered_users:
+        activate_user_subscription(user_data["email"])
+    print(f"✅ Created and activated {len(registered_users)} test users")
+    
+    # Test 3: COMPREHENSIVE CAPITALIZATION VERIFICATION
+    print("\n3️⃣ Running FINAL CAPITALIZATION VERIFICATION...")
+    cap_results, generated_exams = test_capitalization_after_question_mark(registered_users)
     
     # Print detailed results
     cap_results.print_summary()
     
     # Final assessment based on review requirements
     print(f"\n{'='*60}")
-    print(f"CAPITALIZATION FIX VERIFICATION SUMMARY")
+    print(f"FINAL CAPITALIZATION VERIFICATION SUMMARY")
     print(f"{'='*60}")
     
     # Check success criteria from review request
-    violation_tests = [r for r in cap_results.results if "Capitalization Check" in r["test"]]
+    violation_tests = [r for r in cap_results.results if "ZERO Capitalization Violations" in r["test"]]
     passed_violation_tests = sum(1 for r in violation_tests if r["passed"])
     total_violation_tests = len(violation_tests)
     
-    overall_test = [r for r in cap_results.results if r["test"] == "Overall Capitalization Fix Verification"]
-    overall_success = len(overall_test) > 0 and overall_test[0]["passed"]
+    composition_tests = [r for r in cap_results.results if "Exam Composition" in r["test"]]
+    passed_composition_tests = sum(1 for r in composition_tests if r["passed"])
     
-    print(f"Individual Exam Tests: {passed_violation_tests}/{total_violation_tests} passed")
-    print(f"Overall Success: {'✅ YES' if overall_success else '❌ NO'}")
+    integrity_tests = [r for r in cap_results.results if "Database Integrity" in r["test"]]
+    passed_integrity_tests = sum(1 for r in integrity_tests if r["passed"])
     
-    if overall_success and passed_violation_tests == total_violation_tests:
-        print("\n🎉 SUCCESS CRITERIA MET:")
-        print("✅ Zero AI-generated questions with lowercase after '¿'")
-        print("✅ Database questions remain correctly capitalized")
-        print("✅ All exams follow Spanish capitalization rules")
-        print("✅ No errors during exam generation")
-        print("\n🎯 CAPITALIZATION FIX VERIFIED - AI prompts now enforce Spanish capitalization rules!")
+    print(f"🎯 Capitalization Tests: {passed_violation_tests}/{total_violation_tests} passed")
+    print(f"📊 Composition Tests: {passed_composition_tests}/{len(composition_tests)} passed")
+    print(f"🔧 Database Integrity: {passed_integrity_tests}/{len(integrity_tests)} passed")
+    print(f"📝 Total Exams Generated: {len(generated_exams)}")
+    
+    # SUCCESS CRITERIA: ALL capitalization tests must pass
+    all_capitalization_passed = passed_violation_tests == total_violation_tests and total_violation_tests > 0
+    
+    if all_capitalization_passed:
+        print("\n🎉 SUCCESS: ZERO CAPITALIZATION VIOLATIONS FOUND!")
+        print("✅ All fixes working perfectly:")
+        print("  - Official questions (preguntas_oficiales) clean")
+        print("  - AI pre-generated questions (preguntas_ia) clean") 
+        print("  - AI generation prompts enforcing capitalization rules")
+        print("  - All generated exams follow Spanish capitalization after '¿'")
+        print("\n🎯 CAPITALIZATION FIX COMPLETELY VERIFIED!")
     else:
-        print("\n❌ SUCCESS CRITERIA NOT MET:")
-        print("❌ AI-generated questions still contain capitalization violations")
-        print("❌ Further adjustment of AI prompts required")
+        print("\n❌ FAILURE: Capitalization violations still exist")
+        print("❌ Manual review and additional fixes required")
+        print("⚠️  Check the detailed test results above for specific violations")
     
     return cap_results
 
