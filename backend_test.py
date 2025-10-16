@@ -1790,7 +1790,14 @@ def main():
         else:
             print(f"⚠️  Could not activate subscription for {user_data['nombre']}")
     
-    # 4. Test Permanent Rules Implementation (CRITICAL)
+    # 4. Test Final Formatting Rules (CRITICAL - NEW IMPLEMENTATION)
+    print("\n🎯 Testing Final Formatting Rules Implementation...")
+    formatting_results, formatting_exams = test_final_formatting_rules(authenticated_users)
+    all_results.results.extend(formatting_results.results)
+    all_results.passed += formatting_results.passed
+    all_results.failed += formatting_results.failed
+    
+    # 5. Test Permanent Rules Implementation (CRITICAL)
     print("\n🔒 Testing Permanent Rules Implementation...")
     rules_results, rules_exams = test_permanent_rules_implementation(authenticated_users)
     all_results.results.extend(rules_results.results)
