@@ -15,10 +15,19 @@ const ResultsPage = () => {
   const [exam, setExam] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showDetails, setShowDetails] = useState(false);
+  const [justifications, setJustifications] = useState({});
+  const [loadingJustifications, setLoadingJustifications] = useState({});
 
   useEffect(() => {
     fetchResult();
   }, [resultId]);
+
+  useEffect(() => {
+    // When details are shown, start loading justifications
+    if (showDetails && exam) {
+      loadJustificationsForAllQuestions();
+    }
+  }, [showDetails, exam]);
 
   const fetchResult = async () => {
     try {
@@ -34,6 +43,45 @@ const ResultsPage = () => {
       navigate('/');
     } finally {
       setLoading(false);
+    }
+  };
+
+  const loadJustificationsForAllQuestions = async () => {
+    if (!exam || !exam.preguntas) return;
+
+    // Load justifications one by one with a small delay to avoid overwhelming the server
+    for (const question of exam.preguntas) {
+      if (!justifications[question.id] && !loadingJustifications[question.id]) {
+        await loadJustificationForQuestion(question.id);
+        // Small delay between requests
+        await new Promise(resolve => setTimeout(resolve, 100));
+      }
+    }
+  };
+
+  const loadJustificationForQuestion = async (questionId) => {
+    // Mark as loading
+    setLoadingJustifications(prev => ({ ...prev, [questionId]: true }));
+
+    try {
+      const response = await axios.post(
+        `${API}/results/${resultId}/generate-justification`,
+        { question_id: questionId }
+      );
+
+      setJustifications(prev => ({
+        ...prev,
+        [questionId]: response.data.justification
+      }));
+    } catch (error) {
+      console.error(`Error loading justification for question ${questionId}:`, error);
+      // Set a fallback message
+      setJustifications(prev => ({
+        ...prev,
+        [questionId]: 'Consulta el temario oficial del SAS para más detalles sobre esta pregunta.'
+      }));
+    } finally {
+      setLoadingJustifications(prev => ({ ...prev, [questionId]: false }));
     }
   };
 
