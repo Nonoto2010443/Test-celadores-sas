@@ -632,6 +632,7 @@ metadata:
 
 test_plan:
   current_focus:
+    - "Capitalization after Question Mark Opening"
     - "Remove Purple Color from Question Text and Options"
   stuck_tasks: []
   test_all: false
