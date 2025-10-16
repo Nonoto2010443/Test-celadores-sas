@@ -1297,6 +1297,90 @@ async def get_result(result_id: str, current_user: TokenData = Depends(get_curre
     
     return result
 
+@api_router.post("/results/{result_id}/generate-justification")
+async def generate_single_justification(
+    result_id: str,
+    request: dict,
+    current_user: TokenData = Depends(get_current_user)
+):
+    """Generate AI justification for a single question in an exam result.
+    
+    Request body:
+    {
+        "question_id": "uuid-of-question"
+    }
+    
+    Returns:
+    {
+        "question_id": "...",
+        "justification": "..."
+    }
+    """
+    try:
+        # Verify user owns this result
+        user = await db.users.find_one({"email": current_user.email}, {"_id": 0})
+        if not user:
+            raise HTTPException(status_code=404, detail="User not found")
+        
+        result = await db.exam_results.find_one(
+            {"id": result_id, "user_id": user['id']}, 
+            {"_id": 0}
+        )
+        
+        if not result:
+            raise HTTPException(status_code=404, detail="Result not found")
+        
+        # Get the exam to find the question
+        exam = await db.exams.find_one({"id": result['exam_id']}, {"_id": 0})
+        if not exam:
+            raise HTTPException(status_code=404, detail="Exam not found")
+        
+        # Find the specific question
+        question_id = request.get('question_id')
+        question = None
+        for q in exam['preguntas']:
+            if q['id'] == question_id:
+                question = q
+                break
+        
+        if not question:
+            raise HTTPException(status_code=404, detail="Question not found")
+        
+        # Check if justification already exists in exam
+        if 'explicacion' in question and question['explicacion'] != "Consulta el temario oficial del SAS.":
+            # Return existing justification
+            return {
+                "question_id": question_id,
+                "justification": question['explicacion'],
+                "cached": True
+            }
+        
+        # Generate new justification
+        logger.info(f"Generating justification for question {question_id}")
+        justification = await generate_justification_with_ai(
+            pregunta=question['pregunta'],
+            opciones=question['opciones'],
+            respuesta_correcta=question['respuesta_correcta']
+        )
+        
+        # Update the exam with the new justification
+        await db.exams.update_one(
+            {"id": result['exam_id'], "preguntas.id": question_id},
+            {"$set": {"preguntas.$.explicacion": justification}}
+        )
+        
+        logger.info(f"Justification generated and saved for question {question_id}")
+        
+        return {
+            "question_id": question_id,
+            "justification": justification,
+            "cached": False
+        }
+        
+    except Exception as e:
+        logger.error(f"Error generating justification: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @api_router.get("/results/history/me")
 async def get_my_history(current_user: TokenData = Depends(get_current_user)):
     """Get current user's exam history"""
