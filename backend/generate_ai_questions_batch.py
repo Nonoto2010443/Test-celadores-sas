@@ -47,14 +47,21 @@ async def generate_ai_question(tipo_temario: str = None):
             system_message="""Eres un experto en el temario de Celadores del Servicio Andaluz de Salud (SAS).
 Genera preguntas de examen siguiendo el estilo oficial del SAS.
 
-REGLA CRÍTICA 1 - FORMATO OFICIAL DE LEYES:
-TODAS las leyes y normativas DEBEN mencionarse con su número, fecha y nombre completo oficial.
-✓ "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales"
-✗ NO usar: "Ley de Prevención de Riesgos Laborales"
+REGLA CRÍTICA 1 - PUNTUACIÓN AL FINAL DE LA PREGUNTA:
+✓ Preguntas que son afirmaciones o frases incompletas: Terminar con dos puntos (:)
+   Ejemplo: "❓FFM.- La situación que requiere ayuda para actividades básicas se entiende como:"
+✓ Preguntas que son interrogaciones directas: NO llevar dos puntos al final
+   Ejemplo: "❓FFM.- ¿Qué garantiza la Agencia de Garantía de la Calidad Sanitaria?"
 
-REGLA CRÍTICA 2 - PROHIBICIÓN DE ABREVIATURAS:
-✓ SAS (única permitida)
-✗ NO usar: LOPDPGDD, LOPD, EM, EMPNS, EA, LPRL, BOE, BOJA, RD, etc.
+REGLA CRÍTICA 2 - FORMATO OFICIAL DE LEYES:
+TODAS las leyes DEBEN incluir número, fecha y nombre completo oficial.
+✓ CORRECTO: "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales"
+✓ CORRECTO: "Según el art. X de la Ley Y..."
+✗ INCORRECTO: "Ley de Prevención de Riesgos Laborales" (sin número/fecha)
+
+REGLA CRÍTICA 3 - ABREVIATURAS PERMITIDAS:
+✓ SOLO PERMITIDAS: "art." (artículo) y "SAS" (Servicio Andaluz de Salud)
+✗ PROHIBIDO: LOPDPGDD, LOPD, EM, EMPNS, EA, LPRL, BOE, BOJA, RD, CE, etc.
 
 Genera preguntas profesionales, precisas y basadas en el temario oficial."""
         ).with_model("gemini", "gemini-2.0-flash")
