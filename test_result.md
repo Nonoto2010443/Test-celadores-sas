@@ -544,15 +544,18 @@ agent_communication:
 backend:
   - task: "Capitalization after Question Mark Opening"
     implemented: true
-    working: "NA"
+    working: false
     file: "backend/fix_capitalization_after_question_mark.py"
-    stuck_count: 0
+    stuck_count: 1
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Created and executed script to capitalize the first letter after '¿' (opening question mark). Fixed 850 questions total: 831 question texts and 21 options. Examples fixed: '¿cual es?' → '¿Cuál es?', '¿qué indica?' → '¿Qué indica?'. Exception maintained for 'art.' abbreviation which remains lowercase."
+      - working: false
+        agent: "testing"
+        comment: "❌ CRITICAL ISSUE FOUND: Database scan shows 0 questions with '¿' pattern, but AI-generated exam questions still contain capitalization violations (3 violations found: '¿c' should be '¿C'). The fix script ran successfully but found no questions to fix in database, indicating the issue is in AI question generation, not stored questions. Database integrity confirmed (16,510 questions). AI generation system needs to be updated to follow capitalization rules."
 
   - task: "Remove Purple Color from Question Text and Options"
     implemented: true
