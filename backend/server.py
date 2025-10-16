@@ -299,6 +299,11 @@ REGLA CRÍTICA 1 - PUNTUACIÓN AL FINAL DE LA PREGUNTA:
    Ejemplo CORRECTO: "❓FFM.- ¿Qué garantiza la Agencia de Garantía de la Calidad Sanitaria de Andalucía?"
    Ejemplo CORRECTO: "❓FFM.- ¿Cuál de las siguientes funciones corresponde al Celador?"
 
+✓ CAPITALIZACIÓN ESPAÑOLA DESPUÉS DE "¿": La palabra que sigue inmediatamente al signo de interrogación de apertura "¿" debe ir en mayúscula
+   Ejemplo CORRECTO: "❓FFM.- ¿Qué garantiza la Agencia de Garantía de la Calidad Sanitaria de Andalucía?"
+   Ejemplo CORRECTO: "❓FFM.- ¿Cuál de las siguientes funciones corresponde al Celador?"
+   Ejemplo INCORRECTO: "❓FFM.- ¿qué garantiza..." (la "q" debe ir en mayúscula)
+
 REGLA CRÍTICA 2 - FORMATO OFICIAL DE LEYES Y NORMATIVAS:
 TODAS las leyes y normativas DEBEN mencionarse con su número, fecha y nombre completo oficial.
 
