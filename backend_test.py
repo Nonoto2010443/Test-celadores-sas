@@ -1744,6 +1744,398 @@ def test_final_formatting_rules(authenticated_users):
     
     return results, generated_exams
 
+def test_timeout_fix_and_async_justifications():
+    """Test the critical timeout fix and async justifications implementation"""
+    results = TestResults()
+    
+    print("\n🚨 CRITICAL TIMEOUT FIX AND ASYNC JUSTIFICATIONS TESTING")
+    print("="*70)
+    
+    # Create test user for timeout testing
+    test_user_data = {
+        "email": "timeout-test@example.com",
+        "password": "test123",
+        "nombre": "Timeout Test User"
+    }
+    
+    # Step 1: Register/Login test user
+    print("\n1️⃣ Setting up test user...")
+    try:
+        # Try to register (might already exist)
+        reg_response = requests.post(
+            f"{BASE_URL}/auth/register",
+            headers=HEADERS,
+            json=test_user_data,
+            timeout=10
+        )
+        
+        if reg_response.status_code == 201:
+            token_data = reg_response.json()
+            token = token_data["access_token"]
+            print(f"   ✅ Registered new test user")
+        elif reg_response.status_code == 400:
+            # User already exists, try to login
+            login_response = requests.post(
+                f"{BASE_URL}/auth/login",
+                headers=HEADERS,
+                json={"email": test_user_data["email"], "password": test_user_data["password"]},
+                timeout=10
+            )
+            
+            if login_response.status_code == 200:
+                token_data = login_response.json()
+                token = token_data["access_token"]
+                print(f"   ✅ Logged in existing test user")
+            else:
+                results.add_result(
+                    "Test User Setup",
+                    False,
+                    f"Failed to login existing user: {login_response.status_code}"
+                )
+                return results
+        else:
+            results.add_result(
+                "Test User Setup",
+                False,
+                f"Failed to register user: {reg_response.status_code}"
+            )
+            return results
+            
+        # Activate subscription for test user
+        activate_user_subscription(test_user_data["email"])
+        
+        auth_headers = {
+            **HEADERS,
+            "Authorization": f"Bearer {token}"
+        }
+        
+        results.add_result(
+            "Test User Setup",
+            True,
+            "Successfully set up test user with active subscription"
+        )
+        
+    except Exception as e:
+        results.add_result(
+            "Test User Setup",
+            False,
+            f"Error setting up test user: {str(e)}"
+        )
+        return results
+    
+    # Step 2: Generate an exam
+    print("\n2️⃣ Generating exam for timeout testing...")
+    try:
+        exam_response = requests.post(
+            f"{BASE_URL}/exam/generate",
+            headers=auth_headers,
+            timeout=45
+        )
+        
+        if exam_response.status_code == 200:
+            exam_data = exam_response.json()
+            exam_id = exam_data["id"]
+            questions = exam_data["preguntas"]
+            
+            results.add_result(
+                "Exam Generation for Timeout Test",
+                True,
+                f"Successfully generated exam with {len(questions)} questions"
+            )
+            print(f"   ✅ Generated exam {exam_id} with {len(questions)} questions")
+        else:
+            results.add_result(
+                "Exam Generation for Timeout Test",
+                False,
+                f"Failed to generate exam: {exam_response.status_code}"
+            )
+            return results
+            
+    except Exception as e:
+        results.add_result(
+            "Exam Generation for Timeout Test",
+            False,
+            f"Error generating exam: {str(e)}"
+        )
+        return results
+    
+    # Step 3: CRITICAL TEST - Submit exam and measure time (should be under 5 seconds)
+    print("\n3️⃣ CRITICAL TEST: Exam submission timing (should be under 5 seconds)...")
+    try:
+        # Create realistic answers
+        answers = []
+        for i, question in enumerate(questions):
+            question_id = question.get('id')
+            correct_answer = question.get('respuesta_correcta', 0)
+            
+            # Mix of correct, incorrect, and blank answers
+            if i % 3 == 0:
+                selected_option = None  # Blank
+            elif i % 2 == 0:
+                selected_option = correct_answer  # Correct
+            else:
+                selected_option = (correct_answer + 1) % 4  # Incorrect
+            
+            answers.append({
+                "question_id": question_id,
+                "selected_option": selected_option
+            })
+        
+        submission_data = {
+            "exam_id": exam_id,
+            "respuestas": answers,
+            "tiempo_empleado_segundos": 3600  # 1 hour
+        }
+        
+        # Measure submission time
+        start_time = time.time()
+        
+        submit_response = requests.post(
+            f"{BASE_URL}/exam/submit",
+            headers=auth_headers,
+            json=submission_data,
+            timeout=10  # Should complete well within 10 seconds
+        )
+        
+        end_time = time.time()
+        submission_duration = end_time - start_time
+        
+        print(f"   ⏱️ Submission took {submission_duration:.2f} seconds")
+        
+        if submit_response.status_code == 200:
+            result_data = submit_response.json()
+            result_id = result_data["id"]
+            
+            # Check if submission was fast enough (under 5 seconds)
+            if submission_duration < 5.0:
+                results.add_result(
+                    "CRITICAL: Exam Submission Speed",
+                    True,
+                    f"✅ Submission completed in {submission_duration:.2f}s (under 5s requirement)"
+                )
+                print(f"   ✅ PASSED: Submission completed in {submission_duration:.2f}s (requirement: <5s)")
+            else:
+                results.add_result(
+                    "CRITICAL: Exam Submission Speed",
+                    False,
+                    f"❌ Submission took {submission_duration:.2f}s (exceeds 5s requirement)"
+                )
+                print(f"   ❌ FAILED: Submission took {submission_duration:.2f}s (requirement: <5s)")
+            
+            # Verify result is returned immediately without justifications
+            if "puntuacion" in result_data and "correctas" in result_data:
+                results.add_result(
+                    "Exam Submission - Immediate Result",
+                    True,
+                    f"Result returned immediately with score: {result_data['puntuacion']}"
+                )
+                print(f"   ✅ Result returned immediately with score: {result_data['puntuacion']}")
+            else:
+                results.add_result(
+                    "Exam Submission - Immediate Result",
+                    False,
+                    "Result missing required fields"
+                )
+                
+        else:
+            results.add_result(
+                "CRITICAL: Exam Submission Speed",
+                False,
+                f"Submission failed with status {submit_response.status_code}"
+            )
+            return results
+            
+    except Exception as e:
+        results.add_result(
+            "CRITICAL: Exam Submission Speed",
+            False,
+            f"Error during submission: {str(e)}"
+        )
+        return results
+    
+    # Step 4: Test new justification endpoint
+    print("\n4️⃣ Testing individual justification generation...")
+    try:
+        # Get a question ID from the exam
+        test_question_id = questions[0]["id"]
+        
+        justification_request = {
+            "question_id": test_question_id
+        }
+        
+        # Measure justification generation time
+        start_time = time.time()
+        
+        justification_response = requests.post(
+            f"{BASE_URL}/results/{result_id}/generate-justification",
+            headers=auth_headers,
+            json=justification_request,
+            timeout=30  # Allow more time for AI generation
+        )
+        
+        end_time = time.time()
+        justification_duration = end_time - start_time
+        
+        print(f"   ⏱️ Justification generation took {justification_duration:.2f} seconds")
+        
+        if justification_response.status_code == 200:
+            justification_data = justification_response.json()
+            
+            if "justification" in justification_data and "question_id" in justification_data:
+                results.add_result(
+                    "Individual Justification Generation",
+                    True,
+                    f"Successfully generated justification for question {test_question_id}"
+                )
+                print(f"   ✅ Generated justification for question {test_question_id}")
+                
+                # Check justification quality (should be concise with source citation)
+                justification_text = justification_data["justification"]
+                has_source_citation = any(keyword in justification_text.lower() for keyword in ["tema", "art.", "ley"])
+                
+                if has_source_citation and len(justification_text) > 50:
+                    results.add_result(
+                        "Justification Quality",
+                        True,
+                        "Justification is concise and includes source citation"
+                    )
+                    print(f"   ✅ Justification quality check passed")
+                else:
+                    results.add_result(
+                        "Justification Quality",
+                        False,
+                        f"Justification quality issues: length={len(justification_text)}, has_citation={has_source_citation}"
+                    )
+                
+                # Test caching - request same justification again
+                print("\n5️⃣ Testing justification caching...")
+                
+                start_time = time.time()
+                
+                cached_response = requests.post(
+                    f"{BASE_URL}/results/{result_id}/generate-justification",
+                    headers=auth_headers,
+                    json=justification_request,
+                    timeout=10
+                )
+                
+                end_time = time.time()
+                cached_duration = end_time - start_time
+                
+                print(f"   ⏱️ Cached justification request took {cached_duration:.2f} seconds")
+                
+                if cached_response.status_code == 200:
+                    cached_data = cached_response.json()
+                    
+                    # Should be much faster (cached) and return same content
+                    if cached_duration < justification_duration / 2:  # At least 50% faster
+                        results.add_result(
+                            "Justification Caching Speed",
+                            True,
+                            f"Cached request was faster: {cached_duration:.2f}s vs {justification_duration:.2f}s"
+                        )
+                        print(f"   ✅ Caching speed test passed")
+                    else:
+                        results.add_result(
+                            "Justification Caching Speed",
+                            False,
+                            f"Cached request not significantly faster: {cached_duration:.2f}s vs {justification_duration:.2f}s"
+                        )
+                    
+                    # Check if content is the same
+                    if cached_data.get("justification") == justification_data.get("justification"):
+                        results.add_result(
+                            "Justification Caching Content",
+                            True,
+                            "Cached justification matches original"
+                        )
+                        print(f"   ✅ Cached content matches original")
+                    else:
+                        results.add_result(
+                            "Justification Caching Content",
+                            False,
+                            "Cached justification differs from original"
+                        )
+                        
+                else:
+                    results.add_result(
+                        "Justification Caching",
+                        False,
+                        f"Cached request failed with status {cached_response.status_code}"
+                    )
+                    
+            else:
+                results.add_result(
+                    "Individual Justification Generation",
+                    False,
+                    "Justification response missing required fields"
+                )
+                
+        else:
+            results.add_result(
+                "Individual Justification Generation",
+                False,
+                f"Justification request failed with status {justification_response.status_code}"
+            )
+            
+    except Exception as e:
+        results.add_result(
+            "Individual Justification Generation",
+            False,
+            f"Error generating justification: {str(e)}"
+        )
+    
+    # Step 6: Test multiple justifications to verify no timeout
+    print("\n6️⃣ Testing multiple justification requests (no timeout)...")
+    try:
+        successful_justifications = 0
+        total_time = 0
+        
+        # Test 3 more questions
+        for i in range(1, min(4, len(questions))):
+            question_id = questions[i]["id"]
+            
+            start_time = time.time()
+            
+            response = requests.post(
+                f"{BASE_URL}/results/{result_id}/generate-justification",
+                headers=auth_headers,
+                json={"question_id": question_id},
+                timeout=30
+            )
+            
+            end_time = time.time()
+            duration = end_time - start_time
+            total_time += duration
+            
+            if response.status_code == 200:
+                successful_justifications += 1
+                print(f"   ✅ Question {i+1} justification: {duration:.2f}s")
+            else:
+                print(f"   ❌ Question {i+1} failed: {response.status_code}")
+        
+        if successful_justifications >= 2:
+            results.add_result(
+                "Multiple Justifications - No Timeout",
+                True,
+                f"Successfully generated {successful_justifications}/3 additional justifications"
+            )
+        else:
+            results.add_result(
+                "Multiple Justifications - No Timeout",
+                False,
+                f"Only {successful_justifications}/3 justifications succeeded"
+            )
+            
+    except Exception as e:
+        results.add_result(
+            "Multiple Justifications - No Timeout",
+            False,
+            f"Error testing multiple justifications: {str(e)}"
+        )
+    
+    return results
+
 def main():
     """Main test execution"""
     print("🧪 Starting SAS Celadores Backend API Tests")
