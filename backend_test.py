@@ -1486,6 +1486,264 @@ def test_protected_results_access(submitted_results, authenticated_users):
     
     return results
 
+def test_final_formatting_rules(authenticated_users):
+    """Test final formatting rules implementation - COMPREHENSIVE VERIFICATION"""
+    results = TestResults()
+    
+    if not authenticated_users:
+        results.add_result(
+            "Final Formatting Rules Setup",
+            False,
+            "No authenticated users available for testing"
+        )
+        return results, []
+    
+    generated_exams = []
+    
+    print("\n🎯 FINAL FORMATTING RULES VERIFICATION - Testing 2 Exams")
+    print("="*60)
+    
+    # Generate 2 exams to test formatting consistency
+    for exam_num in range(2):
+        print(f"\n📝 Generating Exam {exam_num + 1}/2 for formatting verification...")
+        
+        try:
+            token, user_data = authenticated_users[0]
+            auth_headers = {
+                **HEADERS,
+                "Authorization": f"Bearer {token}"
+            }
+            
+            response = requests.post(
+                f"{BASE_URL}/exam/generate",
+                headers=auth_headers,
+                timeout=60  # Longer timeout for AI generation
+            )
+            
+            if response.status_code == 200:
+                data = response.json()
+                questions = data.get("preguntas", [])
+                
+                if len(questions) == 50:
+                    generated_exams.append((data["id"], token, user_data, questions))
+                    print(f"   ✅ Generated exam {exam_num + 1} with {len(questions)} questions")
+                    
+                    # CRITICAL TEST 1: PUNCTUATION RULES
+                    print(f"   🔍 Checking punctuation rules in exam {exam_num + 1}...")
+                    
+                    punctuation_violations = []
+                    affirmation_count = 0
+                    interrogation_count = 0
+                    
+                    for idx, q in enumerate(questions):
+                        pregunta_text = q.get('pregunta', '').strip()
+                        
+                        # Remove the prefix to analyze the actual question
+                        if pregunta_text.startswith("❓FFM.- "):
+                            question_content = pregunta_text[8:].strip()
+                        else:
+                            question_content = pregunta_text
+                        
+                        # Check if it's a direct interrogation (starts with ¿ or contains question words)
+                        is_interrogation = (
+                            question_content.startswith('¿') or
+                            any(word in question_content.lower() for word in ['¿qué', '¿cuál', '¿cuáles', '¿cómo', '¿dónde', '¿cuándo', '¿por qué', '¿quién'])
+                        )
+                        
+                        if is_interrogation:
+                            interrogation_count += 1
+                            # Interrogations should NOT end with ':'
+                            if question_content.endswith(':'):
+                                punctuation_violations.append(f"Exam {exam_num+1}, Q{idx+1}: Interrogation incorrectly ends with ':'")
+                        else:
+                            affirmation_count += 1
+                            # Affirmations/incomplete phrases should end with ':'
+                            if not question_content.endswith(':'):
+                                punctuation_violations.append(f"Exam {exam_num+1}, Q{idx+1}: Affirmation/incomplete phrase should end with ':'")
+                    
+                    # CRITICAL TEST 2: OFFICIAL LAW FORMAT
+                    print(f"   🔍 Checking official law format in exam {exam_num + 1}...")
+                    
+                    law_format_violations = []
+                    official_law_patterns = [
+                        r'Ley \d+/\d{4}, de \d+ de \w+',  # Ley 31/1995, de 8 de noviembre
+                        r'Ley Orgánica \d+/\d{4}, de \d+ de \w+',  # Ley Orgánica 3/2018, de 5 de diciembre
+                        r'Real Decreto \d+/\d{4}, de \d+ de \w+',  # Real Decreto format
+                    ]
+                    
+                    # Check for incomplete law references (missing number/date)
+                    incomplete_law_patterns = [
+                        r'\bLey de Prevención de Riesgos Laborales\b(?! \d+/\d{4})',
+                        r'\bLey General de Sanidad\b(?! \d+/\d{4})',
+                        r'\bEstatuto Marco del Personal Estatutario\b(?! \d+/\d{4})',
+                        r'\bEstatuto de Autonomía de Andalucía\b(?! Orgánica \d+/\d{4})',
+                    ]
+                    
+                    for idx, q in enumerate(questions):
+                        pregunta_text = q.get('pregunta', '')
+                        opciones = q.get('opciones', [])
+                        all_text = pregunta_text + ' ' + ' '.join(str(opt) for opt in opciones)
+                        
+                        # Check for incomplete law references
+                        import re
+                        for pattern in incomplete_law_patterns:
+                            if re.search(pattern, all_text):
+                                law_format_violations.append(f"Exam {exam_num+1}, Q{idx+1}: Incomplete law reference found")
+                    
+                    # CRITICAL TEST 3: ABBREVIATION COMPLIANCE
+                    print(f"   🔍 Checking abbreviation compliance in exam {exam_num + 1}...")
+                    
+                    abbreviation_violations = []
+                    forbidden_abbrevs = [
+                        'LOPDPGDD', 'LOPDGDD', 'LOPD', 'RGPD',  # Data protection
+                        'EM', 'EMPNS',                           # Estatuto Marco
+                        'EA', 'EAA', 'CE',                       # Estatuto/Constitución
+                        'LPRL', 'PRL',                           # Prevención Riesgos
+                        'EBAP', 'EBEP',                          # Estatuto Básico
+                        'LGS', 'LSA', 'LGSP',                    # Ley Sanidad
+                        'BOE', 'BOJA', 'RD', 'RDL',             # Boletines/Decretos
+                        'SNS', 'SSPA', 'OMS', 'UE', 'CCAA'      # Organizaciones
+                    ]
+                    
+                    # Only "art." and "SAS" should be allowed
+                    allowed_abbrevs = ['art.', 'SAS']
+                    
+                    for idx, q in enumerate(questions):
+                        pregunta_text = q.get('pregunta', '')
+                        opciones = q.get('opciones', [])
+                        
+                        # Check question text
+                        for abbrev in forbidden_abbrevs:
+                            import re
+                            pattern = r'\b' + re.escape(abbrev) + r'\b'
+                            if re.search(pattern, pregunta_text):
+                                abbreviation_violations.append(f"Exam {exam_num+1}, Q{idx+1}: Forbidden abbreviation '{abbrev}' in question")
+                        
+                        # Check options
+                        for opt_idx, opcion in enumerate(opciones):
+                            if isinstance(opcion, str):
+                                for abbrev in forbidden_abbrevs:
+                                    pattern = r'\b' + re.escape(abbrev) + r'\b'
+                                    if re.search(pattern, opcion):
+                                        abbreviation_violations.append(f"Exam {exam_num+1}, Q{idx+1}, Opt{opt_idx+1}: Forbidden abbreviation '{abbrev}'")
+                    
+                    # CRITICAL TEST 4: QUESTION NUMBERS AND PREFIX
+                    print(f"   🔍 Checking question numbers and prefix in exam {exam_num + 1}...")
+                    
+                    prefix_violations = []
+                    for idx, q in enumerate(questions):
+                        pregunta_text = q.get('pregunta', '')
+                        
+                        # All questions should start with ❓FFM.- 
+                        if not pregunta_text.startswith('❓FFM.- '):
+                            prefix_violations.append(f"Exam {exam_num+1}, Q{idx+1}: Missing '❓FFM.- ' prefix")
+                    
+                    # CRITICAL TEST 5: EXACTLY 4 OPTIONS PER QUESTION
+                    print(f"   🔍 Checking 4 options per question in exam {exam_num + 1}...")
+                    
+                    option_violations = []
+                    for idx, q in enumerate(questions):
+                        opciones = q.get('opciones', [])
+                        if len(opciones) != 4:
+                            option_violations.append(f"Exam {exam_num+1}, Q{idx+1}: Has {len(opciones)} options instead of 4")
+                    
+                    # CRITICAL TEST 6: AI QUESTION INTEGRATION (5% = ~2-3 questions)
+                    print(f"   🔍 Checking AI question integration in exam {exam_num + 1}...")
+                    
+                    ai_questions_count = 0
+                    db_questions_count = 0
+                    
+                    for q in questions:
+                        explicacion = q.get('explicacion', '')
+                        if 'Consulta el temario oficial del SAS' in explicacion:
+                            db_questions_count += 1
+                        else:
+                            ai_questions_count += 1
+                    
+                    # Expected: ~47-48 DB questions, ~2-3 AI questions (5%)
+                    expected_ai_min = 2
+                    expected_ai_max = 3
+                    ai_integration_correct = expected_ai_min <= ai_questions_count <= expected_ai_max
+                    
+                    print(f"   📊 Composition: {db_questions_count} DB, {ai_questions_count} AI")
+                    
+                    # Record results for this exam
+                    results.add_result(
+                        f"Exam {exam_num+1} - Punctuation Rules",
+                        len(punctuation_violations) == 0,
+                        f"✅ Punctuation rules followed: {affirmation_count} affirmations with ':', {interrogation_count} interrogations without ':'" if not punctuation_violations else f"❌ {len(punctuation_violations)} punctuation violations found",
+                        "; ".join(punctuation_violations[:5]) if punctuation_violations else None
+                    )
+                    
+                    results.add_result(
+                        f"Exam {exam_num+1} - Official Law Format",
+                        len(law_format_violations) == 0,
+                        f"✅ All law references use official format with number and date" if not law_format_violations else f"❌ {len(law_format_violations)} incomplete law references found",
+                        "; ".join(law_format_violations[:5]) if law_format_violations else None
+                    )
+                    
+                    results.add_result(
+                        f"Exam {exam_num+1} - Abbreviation Compliance",
+                        len(abbreviation_violations) == 0,
+                        f"✅ Only 'art.' and 'SAS' abbreviations found" if not abbreviation_violations else f"❌ {len(abbreviation_violations)} forbidden abbreviations found",
+                        "; ".join(abbreviation_violations[:5]) if abbreviation_violations else None
+                    )
+                    
+                    results.add_result(
+                        f"Exam {exam_num+1} - Question Prefix",
+                        len(prefix_violations) == 0,
+                        f"✅ All questions have '❓FFM.- ' prefix" if not prefix_violations else f"❌ {len(prefix_violations)} questions missing prefix",
+                        "; ".join(prefix_violations[:5]) if prefix_violations else None
+                    )
+                    
+                    results.add_result(
+                        f"Exam {exam_num+1} - 4 Options Per Question",
+                        len(option_violations) == 0,
+                        f"✅ All questions have exactly 4 options" if not option_violations else f"❌ {len(option_violations)} questions with incorrect option count",
+                        "; ".join(option_violations[:5]) if option_violations else None
+                    )
+                    
+                    results.add_result(
+                        f"Exam {exam_num+1} - AI Integration (5%)",
+                        ai_integration_correct,
+                        f"✅ AI integration correct: {ai_questions_count} AI questions (~{ai_questions_count/50*100:.1f}%)" if ai_integration_correct else f"❌ AI integration incorrect: {ai_questions_count} AI questions (expected 2-3)"
+                    )
+                    
+                else:
+                    results.add_result(
+                        f"Exam {exam_num+1} - Generation Failed",
+                        False,
+                        f"Expected 50 questions, got {len(questions)}"
+                    )
+                    print(f"   ❌ Exam {exam_num+1} generation failed: {len(questions)} questions")
+            else:
+                results.add_result(
+                    f"Exam {exam_num+1} - Generation Failed",
+                    False,
+                    f"HTTP {response.status_code}: {response.text[:200]}"
+                )
+                print(f"   ❌ Exam {exam_num+1} generation failed: HTTP {response.status_code}")
+                
+        except Exception as e:
+            results.add_result(
+                f"Exam {exam_num+1} - Generation Error",
+                False,
+                f"Exception: {str(e)}"
+            )
+            print(f"   ❌ Exam {exam_num+1} generation error: {str(e)}")
+    
+    # SUMMARY ANALYSIS
+    print(f"\n📋 FINAL FORMATTING RULES VERIFICATION SUMMARY")
+    print("="*60)
+    
+    total_tests = len(results.results)
+    passed_tests = sum(1 for r in results.results if r["passed"])
+    
+    print(f"Total Formatting Tests: {passed_tests}/{total_tests} passed")
+    print(f"Success Rate: {(passed_tests/total_tests*100):.1f}%" if total_tests > 0 else "No tests run")
+    
+    return results, generated_exams
+
 def main():
     """Main test execution"""
     print("🧪 Starting SAS Celadores Backend API Tests")
