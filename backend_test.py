@@ -1626,6 +1626,100 @@ def test_capitalization_after_question_mark(authenticated_users):
                         f"✅ All questions have 4 options and proper prefix" if (all_questions_have_4_options and all_questions_have_prefix) else f"❌ Data integrity issues found"
                     )
                     
+                else:
+                    results.add_result(
+                        f"Exam {exam_num+1} - Generation Failed",
+                        False,
+                        f"Expected 50 questions, got {len(questions)}"
+                    )
+                    print(f"   ❌ Exam {exam_num+1} generation failed: {len(questions)} questions")
+            else:
+                results.add_result(
+                    f"Exam {exam_num+1} - Generation Failed",
+                    False,
+                    f"HTTP {response.status_code}: {response.text[:200]}"
+                )
+                print(f"   ❌ Exam {exam_num+1} generation failed: HTTP {response.status_code}")
+                
+        except Exception as e:
+            results.add_result(
+                f"Exam {exam_num+1} - Generation Error",
+                False,
+                f"Exception: {str(e)}"
+            )
+            print(f"   ❌ Exam {exam_num+1} generation error: {str(e)}")
+    
+    # DATABASE INTEGRITY VERIFICATION
+    print(f"\n📊 DATABASE INTEGRITY VERIFICATION")
+    print("="*60)
+    
+    try:
+        import pymongo
+        from pymongo import MongoClient
+        
+        # Connect to MongoDB (using same connection as backend)
+        client = MongoClient("mongodb://localhost:27017")
+        db = client["test_database"]
+        
+        # Check preguntas_oficiales count
+        oficiales_count = db.preguntas_oficiales.count_documents({})
+        expected_oficiales = 16510
+        
+        results.add_result(
+            "Database Integrity - Official Questions Count",
+            oficiales_count == expected_oficiales,
+            f"✅ Found {oficiales_count} official questions (expected: {expected_oficiales})" if oficiales_count == expected_oficiales else f"❌ Found {oficiales_count} official questions, expected {expected_oficiales}"
+        )
+        print(f"Official Questions: {oficiales_count} (Expected: {expected_oficiales})")
+        
+        # Check preguntas_ia count  
+        ia_count = db.preguntas_ia.count_documents({})
+        expected_ia = 98
+        
+        results.add_result(
+            "Database Integrity - AI Questions Count",
+            ia_count == expected_ia,
+            f"✅ Found {ia_count} AI questions (expected: {expected_ia})" if ia_count == expected_ia else f"❌ Found {ia_count} AI questions, expected {expected_ia}"
+        )
+        print(f"AI Questions: {ia_count} (Expected: {expected_ia})")
+        
+        client.close()
+        
+    except Exception as e:
+        results.add_result(
+            "Database Integrity Check",
+            False,
+            f"Could not verify database integrity: {str(e)}"
+        )
+        print(f"❌ Database integrity check failed: {str(e)}")
+    
+    # FINAL SUMMARY ANALYSIS
+    print(f"\n📋 CAPITALIZATION FIX VERIFICATION SUMMARY")
+    print("="*60)
+    
+    total_capitalization_tests = sum(1 for r in results.results if "ZERO Capitalization Violations" in r["test"])
+    passed_capitalization_tests = sum(1 for r in results.results if "ZERO Capitalization Violations" in r["test"] and r["passed"])
+    
+    total_composition_tests = sum(1 for r in results.results if "Exam Composition" in r["test"])
+    passed_composition_tests = sum(1 for r in results.results if "Exam Composition" in r["test"] and r["passed"])
+    
+    total_integrity_tests = sum(1 for r in results.results if "Data Integrity" in r["test"])
+    passed_integrity_tests = sum(1 for r in results.results if "Data Integrity" in r["test"] and r["passed"])
+    
+    print(f"🎯 CAPITALIZATION TESTS: {passed_capitalization_tests}/{total_capitalization_tests} passed")
+    print(f"📊 COMPOSITION TESTS: {passed_composition_tests}/{total_composition_tests} passed")
+    print(f"🔧 INTEGRITY TESTS: {passed_integrity_tests}/{total_integrity_tests} passed")
+    print(f"📝 TOTAL EXAMS GENERATED: {len(generated_exams)}")
+    
+    if passed_capitalization_tests == total_capitalization_tests and total_capitalization_tests > 0:
+        print(f"\n🎉 SUCCESS: ZERO CAPITALIZATION VIOLATIONS FOUND!")
+        print(f"✅ All fixes working perfectly across {len(generated_exams)} exams")
+    else:
+        print(f"\n❌ FAILURE: Capitalization violations still exist")
+        print(f"⚠️  Manual review required for remaining issues")
+    
+    return results, generated_exams
+                    
                     results.add_result(
                         f"Exam {exam_num+1} - Official Law Format",
                         len(law_format_violations) == 0,
