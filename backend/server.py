@@ -416,7 +416,14 @@ async def root():
     return {"status": "ok", "message": "SAS Celadores API"}
 
 async def generate_justification_with_ai(pregunta: str, opciones: List[str], respuesta_correcta: int) -> str:
-    """Generate detailed justification for a question using Google Gemini AI"""
+    """Generate concise, precise justification for a question using Google Gemini AI
+    
+    New optimized format:
+    - Single paragraph, concise and direct
+    - Must cite specific source (Tema X or art. Y de Ley Z)
+    - Professional tone without unnecessary introductions
+    - Focus on why correct answer is correct and briefly why others are wrong
+    """
     try:
         llm_key = os.environ.get('EMERGENT_LLM_KEY')
         if not llm_key:
@@ -428,39 +435,41 @@ async def generate_justification_with_ai(pregunta: str, opciones: List[str], res
         opcion_correcta_letra = chr(65 + respuesta_correcta)
         opcion_correcta_texto = opciones[respuesta_correcta]
         
-        # Initialize Gemini chat
+        # Initialize Gemini chat with new optimized instructions
         chat = LlmChat(
             api_key=llm_key,
             session_id=str(uuid.uuid4()),
-            system_message="""Eres un experto preparador de oposiciones para Celadores del Servicio Andaluz de Salud (SAS). 
-Tu objetivo es generar justificaciones detalladas y de alto valor educativo para cada pregunta del examen.
+            system_message="""Eres un experto preparador de oposiciones para Celadores del Servicio Andaluz de Salud (SAS).
 
-Debes proporcionar explicaciones estructuradas en varios párrafos que:
-- En el PRIMER PÁRRAFO: Explica de forma clara y precisa por qué la opción correcta es la correcta, basando tu razonamiento en las funciones oficiales, el temario o la legislación vigente.
-- En los PÁRRAFOS SIGUIENTES: Analiza CADA una de las opciones incorrectas, explicando INDIVIDUALMENTE por qué no son válidas.
+REGLAS ESTRICTAS PARA JUSTIFICACIONES:
+1. CONCISIÓN: Un solo párrafo, directo y preciso
+2. REFERENCIA OBLIGATORIA: Debes citar la fuente específica (Tema X del temario o art. Y de la Ley Z)
+3. ESTRUCTURA: Explica por qué la opción correcta es correcta y brevemente por qué las otras son incorrectas
+4. TONO: Profesional y didáctico, SIN frases introductorias como "¡Absolutamente!", "Espero que...", etc.
+5. IDIOMA: Español
 
-El tono debe ser profesional, didáctico y riguroso. Haz referencia a leyes específicas, artículos y conceptos del temario oficial de Celadores del SAS.
+FORMATO EJEMPLO:
+"La opción X es correcta. Según el Tema 15 del temario específico, [explicación concisa]. Las opciones Y y Z son incorrectas porque [razón breve]."
 
-IMPORTANTE: Responde SIEMPRE en español."""
+Responde SOLO con la justificación, sin texto adicional."""
         ).with_model("gemini", "gemini-2.0-flash")
         
-        # Create prompt for justification
-        prompt = f"""Pregunta del examen de Celadores del SAS:
+        # Create optimized prompt
+        prompt = f"""Genera una justificación concisa en UN SOLO PÁRRAFO para:
 
-{pregunta}
+Pregunta: {pregunta}
 
 Opciones:
 {opciones_texto}
 
-La respuesta correcta es: {opcion_correcta_letra}) {opcion_correcta_texto}
+Respuesta correcta: {opcion_correcta_letra}) {opcion_correcta_texto}
 
-Genera una justificación detallada y en varios párrafos siguiendo esta estructura:
-
-1. PRIMER PÁRRAFO: Explica de forma clara y precisa por qué la opción {opcion_correcta_letra} es la correcta, basando tu razonamiento en las funciones oficiales del Celador, el temario oficial del SAS o la legislación vigente aplicable.
-
-2. PÁRRAFOS SIGUIENTES: Analiza cada una de las opciones incorrectas (las que NO son {opcion_correcta_letra}), explicando INDIVIDUALMENTE y en párrafos separados por qué cada una no es válida.
-
-El tono debe ser profesional, didáctico y riguroso. Incluye referencias específicas a leyes, artículos o conceptos del temario cuando sea relevante."""
+REQUISITOS:
+- Un solo párrafo (máximo 4-5 líneas)
+- Cita obligatoria de la fuente (Tema X o art. Y de Ley Z)
+- Explica por qué {opcion_correcta_letra} es correcta
+- Menciona brevemente por qué las otras opciones son incorrectas
+- Tono directo, sin introducciones innecesarias"""
 
         user_message = UserMessage(text=prompt)
         response = await chat.send_message(user_message)
@@ -468,7 +477,17 @@ El tono debe ser profesional, didáctico y riguroso. Incluye referencias especí
         # Clean and return response
         justification = response.strip()
         
-        logger.info(f"Generated justification for question: {pregunta[:50]}...")
+        # Remove common unnecessary phrases if present
+        unnecessary_phrases = [
+            "¡Absolutamente!", "Espero que", "Aquí tienes", "¡Claro!", 
+            "Por supuesto", "Sin duda"
+        ]
+        for phrase in unnecessary_phrases:
+            if justification.startswith(phrase):
+                # Find the first sentence after the phrase
+                justification = justification.split(".", 1)[-1].strip()
+        
+        logger.info(f"Generated optimized justification for question")
         return justification
         
     except Exception as e:
