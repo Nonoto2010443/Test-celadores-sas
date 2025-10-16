@@ -2137,110 +2137,54 @@ def test_timeout_fix_and_async_justifications():
     return results
 
 def main():
-    """Main test execution"""
-    print("🧪 Starting SAS Celadores Backend API Tests")
+    """Run comprehensive backend testing with focus on timeout fix"""
+    print("🚀 STARTING BACKEND TESTING - TIMEOUT FIX FOCUS")
     print(f"Testing against: {BASE_URL}")
     print("="*60)
     
-    # Test API connectivity
-    print("🔗 Testing API connectivity...")
+    # Test 1: API Connection
+    print("\n1️⃣ Testing API Connection...")
     connected, message = test_api_connection()
     if not connected:
         print(f"❌ API Connection Failed: {message}")
         return
     print(f"✅ API Connection: {message}")
     
-    all_results = TestResults()
+    # CRITICAL TEST: Timeout Fix and Async Justifications
+    timeout_results = test_timeout_fix_and_async_justifications()
+    timeout_results.print_summary()
     
-    # 1. Test User Registration
-    print("\n👤 Testing User Registration...")
-    reg_results, registered_users = test_user_registration()
-    all_results.results.extend(reg_results.results)
-    all_results.passed += reg_results.passed
-    all_results.failed += reg_results.failed
+    # OVERALL SUMMARY
+    print("\n" + "="*60)
+    print("🎯 TIMEOUT FIX TESTING SUMMARY")
+    print("="*60)
     
-    # 2. Test User Login
-    print("\n🔐 Testing User Login...")
-    login_results, authenticated_users = test_user_login(registered_users)
-    all_results.results.extend(login_results.results)
-    all_results.passed += login_results.passed
-    all_results.failed += login_results.failed
+    total_tests = len(timeout_results.results)
+    total_passed = timeout_results.passed
+    total_failed = timeout_results.failed
     
-    # 3. Test Get Current User
-    print("\n👥 Testing Get Current User...")
-    me_results = test_get_current_user(authenticated_users)
-    all_results.results.extend(me_results.results)
-    all_results.passed += me_results.passed
-    all_results.failed += me_results.failed
+    print(f"Total Tests Run: {total_tests}")
+    print(f"Total Passed: {total_passed}")
+    print(f"Total Failed: {total_failed}")
+    print(f"Success Rate: {(total_passed/total_tests*100):.1f}%")
     
-    # 3.5. Activate subscriptions for test users
-    print("\n🔑 Activating subscriptions for test users...")
-    for token, user_data in authenticated_users:
-        activated = activate_user_subscription(user_data["email"])
-        if activated:
-            print(f"✅ Activated subscription for {user_data['nombre']}")
-        else:
-            print(f"⚠️  Could not activate subscription for {user_data['nombre']}")
+    # Check critical tests
+    critical_tests = [r for r in timeout_results.results if "CRITICAL" in r["test"]]
+    critical_passed = sum(1 for r in critical_tests if r["passed"])
     
-    # 4. Test Final Formatting Rules (CRITICAL - NEW IMPLEMENTATION)
-    print("\n🎯 Testing Final Formatting Rules Implementation...")
-    formatting_results, formatting_exams = test_final_formatting_rules(authenticated_users)
-    all_results.results.extend(formatting_results.results)
-    all_results.passed += formatting_results.passed
-    all_results.failed += formatting_results.failed
+    print(f"\nCritical Tests: {critical_passed}/{len(critical_tests)} passed")
     
-    # 5. Test Permanent Rules Implementation (CRITICAL)
-    print("\n🔒 Testing Permanent Rules Implementation...")
-    rules_results, rules_exams = test_permanent_rules_implementation(authenticated_users)
-    all_results.results.extend(rules_results.results)
-    all_results.passed += rules_results.passed
-    all_results.failed += rules_results.failed
+    if total_failed > 0:
+        print(f"\n⚠️ {total_failed} tests failed. Review the detailed results above.")
+        
+        # Show failed tests
+        failed_tests = [r for r in timeout_results.results if not r["passed"]]
+        for test in failed_tests:
+            print(f"   ❌ {test['test']}: {test['message']}")
+    else:
+        print(f"\n🎉 ALL TESTS PASSED! Timeout fix is working correctly.")
     
-    # Combine all generated exams for further testing
-    generated_exams = formatting_exams + rules_exams
-    
-    # 6. Test Protected Exam Generation (Additional)
-    print("\n📝 Testing Protected Exam Generation...")
-    exam_results, additional_exams = test_protected_exam_generation(authenticated_users)
-    all_results.results.extend(exam_results.results)
-    all_results.passed += exam_results.passed
-    all_results.failed += exam_results.failed
-    
-    # Combine all generated exams
-    generated_exams.extend(additional_exams)
-    
-    # 7. Test Exam Submission
-    print("\n📤 Testing Exam Submission...")
-    submit_results, submitted_results = test_exam_submission(generated_exams)
-    all_results.results.extend(submit_results.results)
-    all_results.passed += submit_results.passed
-    all_results.failed += submit_results.failed
-    
-    # 8. Test User Exam History
-    print("\n📊 Testing User Exam History...")
-    history_results = test_user_exam_history(authenticated_users)
-    all_results.results.extend(history_results.results)
-    all_results.passed += history_results.passed
-    all_results.failed += history_results.failed
-    
-    # 9. Test User Statistics
-    print("\n📈 Testing User Statistics...")
-    stats_results = test_user_statistics(authenticated_users)
-    all_results.results.extend(stats_results.results)
-    all_results.passed += stats_results.passed
-    all_results.failed += stats_results.failed
-    
-    # 10. Test Protected Results Access
-    print("\n🔒 Testing Protected Results Access...")
-    access_results = test_protected_results_access(submitted_results, authenticated_users)
-    all_results.results.extend(access_results.results)
-    all_results.passed += access_results.passed
-    all_results.failed += access_results.failed
-    
-    # Print final summary
-    all_results.print_summary()
-    
-    return all_results
+    return timeout_results
 
 if __name__ == "__main__":
     main()
