@@ -1476,7 +1476,7 @@ async def get_all_results():
     
     return results
 
-@api_router.post("/admin/apply-corrections")
+@api_router.get("/admin/apply-corrections")
 async def apply_database_corrections(current_user: TokenData = Depends(get_current_user)):
     """
     ENDPOINT ADMINISTRATIVO: Aplica todas las correcciones gramaticales a la base de datos.
