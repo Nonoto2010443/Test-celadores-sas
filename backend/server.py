@@ -291,7 +291,15 @@ REGLAS OBLIGATORIAS:
 4. Estilo: Imitar exámenes oficiales del SAS
 5. Cobertura: SOLO preguntas de {temas_rango}
 
-REGLA CRÍTICA 1 - FORMATO OFICIAL DE LEYES Y NORMATIVAS:
+REGLA CRÍTICA 1 - PUNTUACIÓN AL FINAL DE LA PREGUNTA:
+✓ PREGUNTAS QUE SON AFIRMACIONES O FRASES INCOMPLETAS: Deben terminar obligatoriamente con dos puntos (:)
+   Ejemplo CORRECTO: "❓FFM.- La situación en que se encuentra una persona que requiere ayuda para realizar actividades básicas de la vida diaria se entiende como:"
+   
+✓ PREGUNTAS QUE SON INTERROGACIONES DIRECTAS: No deben llevar dos puntos al final
+   Ejemplo CORRECTO: "❓FFM.- ¿Qué garantiza la Agencia de Garantía de la Calidad Sanitaria de Andalucía?"
+   Ejemplo CORRECTO: "❓FFM.- ¿Cuál de las siguientes funciones corresponde al Celador?"
+
+REGLA CRÍTICA 2 - FORMATO OFICIAL DE LEYES Y NORMATIVAS:
 TODAS las leyes y normativas DEBEN mencionarse con su número, fecha y nombre completo oficial.
 
 ✓ FORMATO CORRECTO (OBLIGATORIO):
@@ -304,6 +312,7 @@ TODAS las leyes y normativas DEBEN mencionarse con su número, fecha y nombre co
    - "Ley 7/2007, de 12 de abril, del Estatuto Básico del Empleado Público"
    - "Ley 2/1998, de 15 de junio, de Salud de Andalucía"
    - "Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente"
+   - "Según el art. X de la Ley Y..." (estructura correcta al citar artículos)
 
 ✗ FORMATO INCORRECTO (PROHIBIDO):
    - "Ley de Prevención de Riesgos Laborales" (sin número ni fecha)
@@ -311,19 +320,20 @@ TODAS las leyes y normativas DEBEN mencionarse con su número, fecha y nombre co
    - "LOPDPGDD" o cualquier abreviatura
    - Nombres sin el formato oficial completo
 
-REGLA CRÍTICA 2 - PROHIBICIÓN ESTRICTA DE ABREVIATURAS:
-✓ SAS (Servicio Andaluz de Salud) - ÚNICA abreviatura permitida
+REGLA CRÍTICA 3 - PROHIBICIÓN ESTRICTA DE ABREVIATURAS:
+✓ ABREVIATURAS PERMITIDAS (SOLO ESTAS DOS):
+   - "art." (artículo)
+   - "SAS" (Servicio Andaluz de Salud)
 
 ✗ PROHIBIDO USAR ESTAS ABREVIATURAS:
-   - LOPDPGDD, LOPDGDD, LOPD
+   - LOPDPGDD, LOPDGDD, LOPD, RGPD
    - EM, EMPNS
-   - EA, EAA
+   - EA, EAA, CE
    - LPRL, PRL
    - EBAP, EBEP
-   - LGS, LSA
-   - BOE, BOJA
-   - CE (excepto en contexto "Comunidad Europea")
-   - RD, RDL
+   - LGS, LSA, LGSP
+   - BOE, BOJA, RD, RDL
+   - SNS, SSPA, OMS, UE, CCAA, EPI
    - Y CUALQUIER OTRA ABREVIATURA de leyes o normativas
 
 ✓ SIEMPRE USAR NOMBRES COMPLETOS:
