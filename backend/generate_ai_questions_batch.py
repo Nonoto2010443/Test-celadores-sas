@@ -52,6 +52,9 @@ REGLA CRÍTICA 1 - PUNTUACIÓN AL FINAL DE LA PREGUNTA:
    Ejemplo: "❓FFM.- La situación que requiere ayuda para actividades básicas se entiende como:"
 ✓ Preguntas que son interrogaciones directas: NO llevar dos puntos al final
    Ejemplo: "❓FFM.- ¿Qué garantiza la Agencia de Garantía de la Calidad Sanitaria?"
+✓ CAPITALIZACIÓN ESPAÑOLA: La palabra después de "¿" debe ir en mayúscula
+   Ejemplo CORRECTO: "❓FFM.- ¿Qué garantiza..." "❓FFM.- ¿Cuál de las siguientes..."
+   Ejemplo INCORRECTO: "❓FFM.- ¿qué garantiza..." (la "q" debe ir en mayúscula)
 
 REGLA CRÍTICA 2 - FORMATO OFICIAL DE LEYES:
 TODAS las leyes DEBEN incluir número, fecha y nombre completo oficial.
