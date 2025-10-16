@@ -663,3 +663,16 @@ agent_communication:
   - agent: "main"
     message: "COMPLETE FIX APPLIED: After testing revealed issues in pre-generated AI questions, created and executed fix_ai_questions_capitalization.py script that cleaned the entire 'preguntas_ia' collection. Fixed 81 out of 98 AI questions (82.7%). Combined fixes now complete: 1) Official questions (preguntas_oficiales): 850 questions fixed, 2) AI questions (preguntas_ia): 81 questions fixed, 3) AI generation prompts: Updated in server.py and generate_ai_questions_batch.py. All three sources of questions now follow proper Spanish capitalization after '¿'. Frontend CSS updated to prevent purple color inheritance. Ready for final comprehensive backend testing to verify zero capitalization violations."
 
+
+backend:
+  - task: "Fix Incomplete Words (Missing Initial Letters)"
+    implemented: true
+    working: true
+    file: "backend/fix_incomplete_words.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "User reported words with missing initial letters (e.g., 'Ntre' should be 'Entre'). Created comprehensive script to fix all incomplete words. Corrected 390 questions with patterns: 'Uando' → 'Cuando', 'L celador' → 'El celador', 'Ntre' → 'Entre', 'Onforme' → 'Conforme', 'Os movimientos' → 'Los movimientos'. Verification confirms ZERO remaining instances of these incomplete word patterns."
