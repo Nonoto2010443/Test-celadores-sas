@@ -2263,8 +2263,6 @@ def test_capitalization_after_question_mark():
                                 if not context.startswith('¿art.'):
                                     exam_capitalization_violations.append(f"Exam Q{idx+1}, Opt{opt_idx+1}: '¿{match}' should be '¿{match.upper()}'")
         
-        client.close()
-        
         # Record results
         if not capitalization_violations:
             results.add_result(
