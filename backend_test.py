@@ -1536,26 +1536,64 @@ def test_capitalization_after_question_mark(authenticated_users):
                     generated_exams.append((data["id"], token, user_data, questions))
                     print(f"   ✅ Generated exam {exam_num + 1} with {len(questions)} questions")
                     
-                    # CRITICAL TEST 1: PUNCTUATION RULES
-                    print(f"   🔍 Checking punctuation rules in exam {exam_num + 1}...")
+                    # CRITICAL TEST 1: CAPITALIZATION AFTER ¿ (ZERO TOLERANCE)
+                    print(f"   🔍 Checking capitalization after ¿ in exam {exam_num + 1}...")
                     
-                    punctuation_violations = []
-                    affirmation_count = 0
-                    interrogation_count = 0
+                    capitalization_violations = []
+                    db_questions_count = 0
+                    ai_questions_count = 0
+                    total_questions_checked = 0
+                    
+                    import re
                     
                     for idx, q in enumerate(questions):
                         pregunta_text = q.get('pregunta', '').strip()
+                        opciones = q.get('opciones', [])
+                        explicacion = q.get('explicacion', '')
                         
-                        # Remove the prefix to analyze the actual question
-                        if pregunta_text.startswith("❓FFM.- "):
-                            question_content = pregunta_text[8:].strip()
+                        # Count DB vs AI questions for composition verification
+                        if 'Consulta el temario oficial del SAS' in explicacion:
+                            db_questions_count += 1
                         else:
-                            question_content = pregunta_text
+                            ai_questions_count += 1
                         
-                        # Check if it's a direct interrogation (starts with ¿ or contains question words)
-                        is_interrogation = (
-                            question_content.startswith('¿') or
-                            any(word in question_content.lower() for word in ['¿qué', '¿cuál', '¿cuáles', '¿cómo', '¿dónde', '¿cuándo', '¿por qué', '¿quién'])
+                        # Check question text for capitalization violations
+                        # Pattern: ¿[a-z] (lowercase letter immediately after ¿)
+                        # Exception: ¿art. is allowed to remain lowercase
+                        violation_pattern = r'¿[a-z]'
+                        exception_pattern = r'¿art\.'
+                        
+                        matches = re.findall(violation_pattern, pregunta_text)
+                        for match in matches:
+                            # Check if it's the allowed exception
+                            if not re.search(exception_pattern, pregunta_text[pregunta_text.find(match):pregunta_text.find(match)+5]):
+                                capitalization_violations.append(f"Exam {exam_num+1}, Q{idx+1}: '{match}' should be capitalized in question")
+                        
+                        # Check options for capitalization violations
+                        for opt_idx, opcion in enumerate(opciones):
+                            if isinstance(opcion, str):
+                                matches = re.findall(violation_pattern, opcion)
+                                for match in matches:
+                                    if not re.search(exception_pattern, opcion[opcion.find(match):opcion.find(match)+5]):
+                                        capitalization_violations.append(f"Exam {exam_num+1}, Q{idx+1}, Opt{opt_idx+1}: '{match}' should be capitalized in option")
+                        
+                        total_questions_checked += 1
+                    
+                    # CRITICAL TEST 2: EXAM COMPOSITION VERIFICATION (43 DB + 7 AI = 50 total)
+                    expected_db = 43  # 85% of 50
+                    expected_ai = 7   # 15% of 50
+                    composition_tolerance = 2  # Allow small variance
+                    
+                    composition_correct = (
+                        abs(db_questions_count - expected_db) <= composition_tolerance and
+                        abs(ai_questions_count - expected_ai) <= composition_tolerance
+                    )
+                    
+                    print(f"   📊 Composition: {db_questions_count} DB, {ai_questions_count} AI (Expected: ~43 DB, ~7 AI)")
+                    
+                    # CRITICAL TEST 3: DATA INTEGRITY CHECK
+                    all_questions_have_4_options = all(len(q.get('opciones', [])) == 4 for q in questions)
+                    all_questions_have_prefix = all(q.get('pregunta', '').startswith('❓FFM.- ') for q in questions)o', '¿dónde', '¿cuándo', '¿por qué', '¿quién'])
                         )
                         
                         if is_interrogation:
