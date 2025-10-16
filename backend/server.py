@@ -1498,6 +1498,8 @@ async def apply_database_corrections(current_user: TokenData = Depends(get_curre
             r'\bL\s+paciente': 'El paciente',
             r'\bL\s+hospital': 'El hospital',
             r'\bL\s+la': 'En la',
+            r'\bA\s+reforma\b': 'La reforma',
+            r'\bA\s+aprobación\b': 'La aprobación',
             r'\bOs\s+movimientos\b': 'Los movimientos',
             r'\bOs\s+consejos\b': 'Los consejos',
             r'\bOs\s+Planes\b': 'Los Planes',
