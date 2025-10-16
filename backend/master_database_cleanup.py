@@ -71,44 +71,74 @@ def fix_punctuation(text: str) -> tuple[str, bool]:
     return fixed, (fixed != original.strip())
 
 # ===== OFFICIAL LAW FORMATS =====
+# Using word boundary checks and simpler patterns to avoid complex lookbehinds
 
-LAW_OFFICIAL_FORMATS = {
-    r'(?<!Ley \d+/\d+, de \d+ de \w+, de )Ley de Prevención de Riesgos Laborales': 
-        'Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales',
+def update_law_formats(text: str) -> tuple[str, bool]:
+    """Update law names to official format. Returns (updated_text, was_changed)"""
+    original = text
     
-    r'(?<!Ley \d+/\d+, de \d+ de \w+, )Ley General de Sanidad': 
-        'Ley 14/1986, de 25 de abril, General de Sanidad',
+    # Only update if the law name doesn't already have the official format
+    # Check for common incomplete law names and replace them
     
-    r'(?<!Ley Orgánica \d+/\d+, de \d+ de \w+, de )Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales': 
-        'Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales',
+    # Prevención de Riesgos Laborales
+    if 'Ley de Prevención de Riesgos Laborales' in text and 'Ley 31/1995' not in text:
+        text = text.replace('Ley de Prevención de Riesgos Laborales',
+                           'Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales')
     
-    r'(?<!Ley \d+/\d+, de \d+ de \w+, del )Estatuto Marco del [Pp]ersonal [Ee]statutario(?: de los [Ss]ervicios de [Ss]alud)?': 
-        'Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud',
+    # General de Sanidad
+    if 'Ley General de Sanidad' in text and 'Ley 14/1986' not in text:
+        text = text.replace('Ley General de Sanidad',
+                           'Ley 14/1986, de 25 de abril, General de Sanidad')
     
-    r'(?<!Ley \d+/\d+, de \d+ de \w+, del )Estatuto Básico del Empleado Público': 
-        'Ley 7/2007, de 12 de abril, del Estatuto Básico del Empleado Público',
+    # Protección de Datos - check various forms
+    if 'Ley Orgánica de Protección de Datos' in text and 'Ley Orgánica 3/2018' not in text:
+        text = re.sub(
+            r'Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales',
+            'Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales',
+            text
+        )
     
-    r'(?<!Ley Orgánica \d+/\d+, de \d+ de \w+, de reforma del )Estatuto de Autonomía (?:para|de) Andalucía': 
-        'Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía',
+    # Estatuto Marco
+    if 'Estatuto Marco' in text and 'Ley 55/2003' not in text:
+        text = re.sub(
+            r'Estatuto Marco del [Pp]ersonal [Ee]statutario(?: de los [Ss]ervicios de [Ss]alud)?',
+            'Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud',
+            text
+        )
     
-    r'Constitución Española(?! de 1978)': 
-        'Constitución Española de 1978',
+    # Estatuto Básico del Empleado Público
+    if 'Estatuto Básico del Empleado Público' in text and 'Ley 7/2007' not in text:
+        text = text.replace('Estatuto Básico del Empleado Público',
+                           'Ley 7/2007, de 12 de abril, del Estatuto Básico del Empleado Público')
     
-    r'(?<!Ley \d+/\d+, de \d+ de \w+, de )Ley de Salud de Andalucía': 
-        'Ley 2/1998, de 15 de junio, de Salud de Andalucía',
+    # Estatuto de Autonomía
+    if 'Estatuto de Autonomía' in text and 'Ley Orgánica 2/2007' not in text:
+        text = re.sub(
+            r'Estatuto de Autonomía (?:para|de) Andalucía',
+            'Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía',
+            text
+        )
     
-    r'(?<!Ley \d+/\d+, de \d+ de \w+, )Ley General de Salud Pública': 
-        'Ley 33/2011, de 4 de octubre, General de Salud Pública',
+    # Constitución Española
+    if 'Constitución Española' in text and 'de 1978' not in text.split('Constitución Española')[1][:10]:
+        text = text.replace('Constitución Española', 'Constitución Española de 1978')
     
-    r'(?<!Ley \d+/\d+, de \d+ de \w+, de )Ley de Cohesión y Calidad del Sistema Nacional de Salud': 
-        'Ley 16/2003, de 28 de mayo, de Cohesión y Calidad del Sistema Nacional de Salud',
+    # Ley de Salud de Andalucía
+    if 'Ley de Salud de Andalucía' in text and 'Ley 2/1998' not in text:
+        text = text.replace('Ley de Salud de Andalucía',
+                           'Ley 2/1998, de 15 de junio, de Salud de Andalucía')
     
-    r'(?<!Ley \d+/\d+, de \d+ de \w+, )Ley de Autonomía del Paciente': 
-        'Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica',
+    # Ley General de Salud Pública
+    if 'Ley General de Salud Pública' in text and 'Ley 33/2011' not in text:
+        text = text.replace('Ley General de Salud Pública',
+                           'Ley 33/2011, de 4 de octubre, General de Salud Pública')
     
-    r'(?<!Ley \d+/\d+, de \d+ de \w+, de )Ley de Dependencia': 
-        'Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia',
-}
+    # Ley de Cohesión y Calidad
+    if 'Ley de Cohesión y Calidad del Sistema Nacional de Salud' in text and 'Ley 16/2003' not in text:
+        text = text.replace('Ley de Cohesión y Calidad del Sistema Nacional de Salud',
+                           'Ley 16/2003, de 28 de mayo, de Cohesión y Calidad del Sistema Nacional de Salud')
+    
+    return text, (text != original)
 
 # ===== ABBREVIATION CHECKS =====
 
