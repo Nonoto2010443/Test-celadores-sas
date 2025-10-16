@@ -1719,35 +1719,6 @@ def test_capitalization_after_question_mark(authenticated_users):
         print(f"⚠️  Manual review required for remaining issues")
     
     return results, generated_exams
-                        f"Exam {exam_num+1} - Abbreviation Compliance",
-                        len(abbreviation_violations) == 0,
-                        f"✅ Only 'art.' and 'SAS' abbreviations found" if not abbreviation_violations else f"❌ {len(abbreviation_violations)} forbidden abbreviations found",
-                        "; ".join(abbreviation_violations[:5]) if abbreviation_violations else None
-                    )
-                    
-                    results.add_result(
-                        f"Exam {exam_num+1} - Question Prefix",
-                        len(prefix_violations) == 0,
-                        f"✅ All questions have '❓FFM.- ' prefix" if not prefix_violations else f"❌ {len(prefix_violations)} questions missing prefix",
-                        "; ".join(prefix_violations[:5]) if prefix_violations else None
-                    )
-                    
-                    results.add_result(
-                        f"Exam {exam_num+1} - 4 Options Per Question",
-                        len(option_violations) == 0,
-                        f"✅ All questions have exactly 4 options" if not option_violations else f"❌ {len(option_violations)} questions with incorrect option count",
-                        "; ".join(option_violations[:5]) if option_violations else None
-                    )
-                    
-                    results.add_result(
-                        f"Exam {exam_num+1} - AI Integration (5%)",
-                        ai_integration_correct,
-                        f"✅ AI integration correct: {ai_questions_count} AI questions (~{ai_questions_count/50*100:.1f}%)" if ai_integration_correct else f"❌ AI integration incorrect: {ai_questions_count} AI questions (expected 2-3)"
-                    )
-                    
-                else:
-                    results.add_result(
-                        f"Exam {exam_num+1} - Generation Failed",
                         False,
                         f"Expected 50 questions, got {len(questions)}"
                     )
