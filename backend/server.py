@@ -1502,6 +1502,8 @@ async def apply_database_corrections(current_user: TokenData = Depends(get_curre
             r'\bOs\s+consejos\b': 'Los consejos',
             r'\bOs\s+Planes\b': 'Los Planes',
             r'\bOs\s+planes\b': 'Los planes',
+            r'\bOn\s+órganos\b': 'Son órganos',
+            r'\bOn\s+([a-záéíóúñü])': r'Son \1',
             r'\bElador/a\b': 'Celador/a',
             r'\bEladora\b': 'Celadora',
             r'\bEladores\b': 'Celadores',
