@@ -264,7 +264,7 @@ Formato de respuesta: Un solo párrafo de 3-5 líneas, directo y profesional.
 
 **Para Probar la Nueva Funcionalidad:**
 
-1. Acceder a: https://medstaff-exam.preview.emergentagent.com
+1. Acceder a: https://celadores-sas-exam.preview.emergentagent.com
 2. Iniciar sesión
 3. Generar un nuevo examen
 4. Completar el examen

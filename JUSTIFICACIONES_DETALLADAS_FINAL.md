@@ -285,7 +285,7 @@ específicas a leyes, artículos o conceptos del temario cuando sea relevante.""
 
 ### **Cómo Probar las Justificaciones Detalladas:**
 
-1. **Accede a:** https://medstaff-exam.preview.emergentagent.com
+1. **Accede a:** https://celadores-sas-exam.preview.emergentagent.com
 2. **Inicia sesión**
 3. **Genera un nuevo examen**
 4. **Completa el examen** (responde las 50 preguntas)
