@@ -199,8 +199,13 @@
 }
 
 .option-text {
-  color: #333;
+  color: #333 !important;
   line-height: 1.5;
+}
+
+/* Asegurar que el label de la opción (A, B, C, D) no interfiera con el color */
+.option-text strong {
+  color: #333 !important;
 }
 
 .exam-navigation {
