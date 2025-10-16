@@ -544,11 +544,11 @@ agent_communication:
 backend:
   - task: "Capitalization after Question Mark Opening"
     implemented: true
-    working: "NA"
+    working: false
     file: "backend/fix_capitalization_after_question_mark.py, backend/server.py, backend/generate_ai_questions_batch.py"
-    stuck_count: 1
+    stuck_count: 2
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
@@ -559,6 +559,9 @@ backend:
       - working: "NA"
         agent: "main"
         comment: "FIXED AI GENERATION: Updated AI prompts in both server.py (generate_questions_with_ai function) and generate_ai_questions_batch.py to include explicit Spanish capitalization rule after '¿'. Added new rule specifying that words following '¿' must be capitalized with correct/incorrect examples. Backend restarted to apply changes. Ready for re-testing to verify AI now generates questions with proper capitalization."
+      - working: false
+        agent: "testing"
+        comment: "❌ RE-TEST FAILED: Comprehensive testing of 3 exams (150 questions total) reveals capitalization violations still exist. Found 6 total violations across 9 AI-generated questions. ROOT CAUSE IDENTIFIED: The issue is NOT in real-time AI generation prompts, but in the pre-generated AI questions stored in the 'preguntas_ia' database collection. These stored AI questions still contain capitalization violations (e.g., '¿c' should be '¿C', '¿q' should be '¿Q'). Database questions (141/150) are clean. SOLUTION REQUIRED: Either regenerate the preguntas_ia collection with updated prompts OR create a database cleanup script to fix existing AI questions in the collection."
 
   - task: "Remove Purple Color from Question Text and Options"
     implemented: true
