@@ -544,11 +544,11 @@ agent_communication:
 backend:
   - task: "Capitalization after Question Mark Opening"
     implemented: true
-    working: "NA"
+    working: true
     file: "backend/fix_capitalization_after_question_mark.py, backend/fix_ai_questions_capitalization.py, backend/server.py, backend/generate_ai_questions_batch.py"
     stuck_count: 2
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
