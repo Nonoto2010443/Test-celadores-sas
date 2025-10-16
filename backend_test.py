@@ -2370,8 +2370,8 @@ def test_capitalization_after_question_mark():
     return results
 
 def main():
-    """Run comprehensive backend testing with focus on timeout fix"""
-    print("🚀 STARTING BACKEND TESTING - TIMEOUT FIX FOCUS")
+    """Run comprehensive backend testing with focus on capitalization fix"""
+    print("🚀 STARTING BACKEND TESTING - CAPITALIZATION FIX FOCUS")
     print(f"Testing against: {BASE_URL}")
     print("="*60)
     
@@ -2381,43 +2381,64 @@ def main():
     if not connected:
         print(f"❌ API Connection Failed: {message}")
         return
-    print(f"✅ API Connection: {message}")
+    print(f"✅ API Connected: {message}")
     
-    # CRITICAL TEST: Timeout Fix and Async Justifications
+    # Test 2: CRITICAL - Capitalization After Question Mark Fix
+    print("\n2️⃣ CRITICAL TEST - Capitalization After Question Mark Fix...")
+    capitalization_results = test_capitalization_after_question_mark()
+    capitalization_results.print_summary()
+    
+    # Test 3: Verify Timeout Fix Still Works
+    print("\n3️⃣ Verifying Timeout Fix Still Works...")
     timeout_results = test_timeout_fix_and_async_justifications()
     timeout_results.print_summary()
     
     # OVERALL SUMMARY
     print("\n" + "="*60)
-    print("🎯 TIMEOUT FIX TESTING SUMMARY")
+    print("🎯 CAPITALIZATION FIX TESTING SUMMARY")
     print("="*60)
     
-    total_tests = len(timeout_results.results)
-    total_passed = timeout_results.passed
-    total_failed = timeout_results.failed
+    cap_tests = len(capitalization_results.results)
+    cap_passed = capitalization_results.passed
+    cap_failed = capitalization_results.failed
+    
+    timeout_tests = len(timeout_results.results)
+    timeout_passed = timeout_results.passed
+    timeout_failed = timeout_results.failed
+    
+    total_tests = cap_tests + timeout_tests
+    total_passed = cap_passed + timeout_passed
+    total_failed = cap_failed + timeout_failed
     
     print(f"Total Tests Run: {total_tests}")
     print(f"Total Passed: {total_passed}")
     print(f"Total Failed: {total_failed}")
     print(f"Success Rate: {(total_passed/total_tests*100):.1f}%")
     
-    # Check critical tests
-    critical_tests = [r for r in timeout_results.results if "CRITICAL" in r["test"]]
-    critical_passed = sum(1 for r in critical_tests if r["passed"])
+    print(f"\nCapitalization Tests: {cap_passed}/{cap_tests} passed")
+    print(f"Timeout Tests: {timeout_passed}/{timeout_tests} passed")
     
-    print(f"\nCritical Tests: {critical_passed}/{len(critical_tests)} passed")
-    
-    if total_failed > 0:
-        print(f"\n⚠️ {total_failed} tests failed. Review the detailed results above.")
-        
-        # Show failed tests
-        failed_tests = [r for r in timeout_results.results if not r["passed"]]
-        for test in failed_tests:
-            print(f"   ❌ {test['test']}: {test['message']}")
+    # Focus on critical capitalization results
+    if cap_passed == cap_tests:
+        print(f"\n🎉 CRITICAL SUCCESS: All {cap_tests} capitalization-related tests PASSED!")
+        print("✅ Capitalization after question mark issue has been RESOLVED")
+        print("✅ Database integrity maintained")
     else:
-        print(f"\n🎉 ALL TESTS PASSED! Timeout fix is working correctly.")
+        print(f"\n⚠️ CRITICAL ISSUE: {cap_failed}/{cap_tests} capitalization tests FAILED")
+        print("❌ Capitalization issue may still exist - requires immediate attention")
+        
+        # Show failed capitalization tests
+        failed_cap_tests = [r for r in capitalization_results.results if not r["passed"]]
+        for test in failed_cap_tests:
+            print(f"   ❌ {test['test']}: {test['message']}")
     
-    return timeout_results
+    # Also check timeout results
+    if timeout_passed == timeout_tests:
+        print("✅ Exam submission timeout fix is still working correctly")
+    else:
+        print("⚠️ Some timeout-related issues detected")
+    
+    return capitalization_results, timeout_results
 
 if __name__ == "__main__":
     main()
