@@ -122,15 +122,22 @@
 
 .question-text {
   font-size: 1.2rem;
-  color: #333;
+  color: #333 !important;
   line-height: 1.6;
   margin: 0;
 }
 
+/* SOLO el número de pregunta debe tener color morado */
 .question-number {
   font-weight: 700;
-  color: #667eea;
+  color: #667eea !important;
   font-size: 1.3rem;
+}
+
+/* Asegurar que el resto del texto de la pregunta NO sea morado */
+.question-text > *:not(.question-number),
+.question-text::after {
+  color: #333 !important;
 }
 
 .options-container {
