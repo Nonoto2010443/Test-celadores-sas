@@ -1719,37 +1719,6 @@ def test_capitalization_after_question_mark(authenticated_users):
         print(f"⚠️  Manual review required for remaining issues")
     
     return results, generated_exams
-                        False,
-                        f"Expected 50 questions, got {len(questions)}"
-                    )
-                    print(f"   ❌ Exam {exam_num+1} generation failed: {len(questions)} questions")
-            else:
-                results.add_result(
-                    f"Exam {exam_num+1} - Generation Failed",
-                    False,
-                    f"HTTP {response.status_code}: {response.text[:200]}"
-                )
-                print(f"   ❌ Exam {exam_num+1} generation failed: HTTP {response.status_code}")
-                
-        except Exception as e:
-            results.add_result(
-                f"Exam {exam_num+1} - Generation Error",
-                False,
-                f"Exception: {str(e)}"
-            )
-            print(f"   ❌ Exam {exam_num+1} generation error: {str(e)}")
-    
-    # SUMMARY ANALYSIS
-    print(f"\n📋 FINAL FORMATTING RULES VERIFICATION SUMMARY")
-    print("="*60)
-    
-    total_tests = len(results.results)
-    passed_tests = sum(1 for r in results.results if r["passed"])
-    
-    print(f"Total Formatting Tests: {passed_tests}/{total_tests} passed")
-    print(f"Success Rate: {(passed_tests/total_tests*100):.1f}%" if total_tests > 0 else "No tests run")
-    
-    return results, generated_exams
 
 def test_timeout_fix_and_async_justifications():
     """Test the critical timeout fix and async justifications implementation"""
