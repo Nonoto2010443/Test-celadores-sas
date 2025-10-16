@@ -70,7 +70,7 @@ Genera preguntas profesionales, precisas y basadas en el temario oficial."""
 
 FORMATO REQUERIDO (JSON):
 {{
-  "pregunta": "❓FFM.- [texto de la pregunta con formato oficial de leyes]",
+  "pregunta": "❓FFM.- [texto de la pregunta con formato oficial de leyes y puntuación correcta]",
   "opciones": ["Opción A", "Opción B", "Opción C", "Opción D"],
   "respuesta_correcta": 0,
   "explicacion": "Explicación breve de la respuesta correcta",
@@ -81,8 +81,10 @@ IMPORTANTE:
 - La pregunta DEBE empezar con "❓FFM.-"
 - Exactamente 4 opciones
 - respuesta_correcta es el índice (0=A, 1=B, 2=C, 3=D)
-- Usa formato oficial completo de leyes con número y fecha
-- NO uses abreviaturas excepto SAS
+- PUNTUACIÓN: Si la pregunta es afirmación/frase incompleta → terminar con ":", si es interrogación directa → sin ":"
+- Usa formato oficial completo de leyes con número y fecha (ej: "Ley 31/1995, de 8 de noviembre...")
+- Estructura correcta al citar: "Según el art. X de la Ley Y..."
+- NO uses abreviaturas excepto "art." y "SAS"
 - Devuelve SOLO el JSON, sin texto adicional"""
 
         user_message = UserMessage(text=prompt)
