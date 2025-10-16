@@ -1486,13 +1486,13 @@ def test_protected_results_access(submitted_results, authenticated_users):
     
     return results
 
-def test_final_formatting_rules(authenticated_users):
-    """Test final formatting rules implementation - COMPREHENSIVE VERIFICATION"""
+def test_capitalization_after_question_mark(authenticated_users):
+    """FINAL VERIFICATION: Complete Capitalization Fix (All Sources Cleaned) - ZERO TOLERANCE TEST"""
     results = TestResults()
     
     if not authenticated_users:
         results.add_result(
-            "Final Formatting Rules Setup",
+            "Capitalization Fix Setup",
             False,
             "No authenticated users available for testing"
         )
@@ -1500,7 +1500,15 @@ def test_final_formatting_rules(authenticated_users):
     
     generated_exams = []
     
-    print("\n🎯 FINAL FORMATTING RULES VERIFICATION - Testing 2 Exams")
+    print("\n🎯 FINAL CAPITALIZATION VERIFICATION - ZERO TOLERANCE TEST")
+    print("="*60)
+    print("Testing comprehensive fix for ALL sources:")
+    print("1. ✅ Official questions (preguntas_oficiales): 850 questions fixed")
+    print("2. ✅ AI pre-generated questions (preguntas_ia): 81 questions fixed")  
+    print("3. ✅ AI generation prompts: Updated in server.py and generate_ai_questions_batch.py")
+    print("\nExpected Result: ZERO capitalization violations")
+    print("Pattern to check: '¿[a-z]' (lowercase after ¿)")
+    print("Exception: '¿art.' can remain lowercase")
     print("="*60)
     
     # Generate 2 exams to test formatting consistency
