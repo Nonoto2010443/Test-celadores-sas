@@ -1476,6 +1476,122 @@ async def get_all_results():
     
     return results
 
+@api_router.post("/admin/apply-corrections")
+async def apply_database_corrections(current_user: TokenData = Depends(get_current_user)):
+    """
+    ENDPOINT ADMINISTRATIVO: Aplica todas las correcciones gramaticales a la base de datos.
+    Solo ejecutar una vez después del deployment.
+    """
+    try:
+        import re
+        
+        logger.info(f"User {current_user.email} initiated database corrections")
+        
+        corrections = {
+            r'\bNtre\b': 'Entre',
+            r'\bUando\b': 'Cuando',
+            r'\bOnforme\b': 'Conforme',
+            r'\bOrresponde\b': 'Corresponde',
+            r'\bOrrecto\b': 'Correcto',
+            r'\bN\s+(el|la|los|las|un|una)\b': r'En \1',
+            r'\bL\s+celador': 'El celador',
+            r'\bL\s+paciente': 'El paciente',
+            r'\bL\s+hospital': 'El hospital',
+            r'\bL\s+la': 'En la',
+            r'\bOs\s+movimientos\b': 'Los movimientos',
+            r'\bOs\s+consejos\b': 'Los consejos',
+            r'\bOs\s+Planes\b': 'Los Planes',
+            r'\bOs\s+planes\b': 'Los planes',
+            r'\bElador/a\b': 'Celador/a',
+            r'\bEladora\b': 'Celadora',
+            r'\bEladores\b': 'Celadores',
+            r'\bEntro\s+de\b': 'Dentro de',
+        }
+        
+        def capitalize_after_opening_question(text):
+            if not text or '¿' not in text:
+                return text, False
+            changed = False
+            pattern = r'¿\s*([a-záéíóúñü])'
+            def replacer(match):
+                nonlocal changed
+                lowercase_letter = match.group(1)
+                start_pos = match.start(1)
+                text_after = text[start_pos:start_pos+4]
+                if text_after.startswith('art.'):
+                    return match.group(0)
+                changed = True
+                spaces = match.group(0)[1:-1]
+                return '¿' + spaces + lowercase_letter.upper()
+            new_text = re.sub(pattern, replacer, text)
+            return new_text, changed
+        
+        total_fixed = 0
+        collections = ['preguntas_oficiales', 'preguntas_ia']
+        
+        for coll_name in collections:
+            collection = db[coll_name]
+            questions = await collection.find({}).to_list(length=None)
+            questions_updated = 0
+            
+            for question in questions:
+                original_pregunta = question.get('pregunta', '')
+                modified_pregunta = original_pregunta
+                changed = False
+                
+                for pattern, replacement in corrections.items():
+                    if re.search(pattern, modified_pregunta):
+                        modified_pregunta = re.sub(pattern, replacement, modified_pregunta)
+                        changed = True
+                
+                modified_pregunta, cap_changed = capitalize_after_opening_question(modified_pregunta)
+                if cap_changed:
+                    changed = True
+                
+                options = question.get('opciones', [])
+                options_changed = False
+                
+                for i, option in enumerate(options):
+                    if isinstance(option, str):
+                        modified_option = option
+                        for pattern, replacement in corrections.items():
+                            if re.search(pattern, modified_option):
+                                modified_option = re.sub(pattern, replacement, modified_option)
+                                options_changed = True
+                        modified_option, opt_cap_changed = capitalize_after_opening_question(modified_option)
+                        if opt_cap_changed:
+                            options_changed = True
+                        if modified_option != option:
+                            question['opciones'][i] = modified_option
+                
+                if changed or options_changed:
+                    await collection.update_one(
+                        {'_id': question['_id']},
+                        {'$set': {
+                            'pregunta': modified_pregunta,
+                            'opciones': question['opciones']
+                        }}
+                    )
+                    questions_updated += 1
+                    total_fixed += 1
+            
+            logger.info(f"Collection {coll_name}: {questions_updated} questions corrected")
+        
+        # Limpiar exámenes antiguos
+        exams_deleted = await db['exams'].delete_many({})
+        logger.info(f"Deleted {exams_deleted.deleted_count} old exams")
+        
+        return {
+            "success": True,
+            "total_corrections": total_fixed,
+            "old_exams_deleted": exams_deleted.deleted_count,
+            "message": f"Successfully applied {total_fixed} corrections and deleted {exams_deleted.deleted_count} old exams"
+        }
+        
+    except Exception as e:
+        logger.error(f"Error applying corrections: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 # Include the router in the main app
 app.include_router(api_router)
 
