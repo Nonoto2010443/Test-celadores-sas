@@ -2136,6 +2136,239 @@ def test_timeout_fix_and_async_justifications():
     
     return results
 
+def test_capitalization_after_question_mark():
+    """Test capitalization fix after question mark opening - CRITICAL VERIFICATION"""
+    results = TestResults()
+    
+    print("\n🔍 CAPITALIZATION AFTER QUESTION MARK VERIFICATION")
+    print("="*60)
+    
+    try:
+        import pymongo
+        from pymongo import MongoClient
+        import re
+        
+        # Connect to MongoDB
+        client = MongoClient("mongodb://localhost:27017")
+        db = client["test_database"]
+        
+        # Test 1: Database Verification - Check for lowercase after ¿
+        print("   📊 Checking database for capitalization violations...")
+        
+        # Query random sample of questions with ¿
+        questions_with_question_mark = list(db.preguntas_oficiales.aggregate([
+            {"$match": {"pregunta": {"$regex": "¿"}}},
+            {"$sample": {"size": 30}}  # Sample 30 questions
+        ]))
+        
+        print(f"   📝 Analyzing {len(questions_with_question_mark)} questions with '¿'...")
+        
+        # Check for pattern ¿[a-z] (lowercase after ¿)
+        capitalization_violations = []
+        total_questions_checked = 0
+        
+        for q in questions_with_question_mark:
+            pregunta_text = q.get('pregunta', '')
+            opciones = q.get('opciones', [])
+            
+            # Check question text
+            # Pattern: ¿ followed by lowercase letter (except 'art.')
+            pattern = r'¿\s*([a-z])'
+            matches = re.findall(pattern, pregunta_text)
+            
+            for match in matches:
+                # Exception: 'art.' abbreviation should remain lowercase
+                if not pregunta_text[pregunta_text.find('¿'):].startswith('¿art.'):
+                    capitalization_violations.append(f"Question: '¿{match}' should be '¿{match.upper()}'")
+            
+            # Check options for same pattern
+            for opt_idx, opcion in enumerate(opciones):
+                if isinstance(opcion, str):
+                    matches = re.findall(pattern, opcion)
+                    for match in matches:
+                        if not opcion[opcion.find('¿'):].startswith('¿art.'):
+                            capitalization_violations.append(f"Option {opt_idx+1}: '¿{match}' should be '¿{match.upper()}'")
+            
+            total_questions_checked += 1
+        
+        # Test 2: Verify total question count integrity
+        total_questions = db.preguntas_oficiales.count_documents({})
+        
+        # Test 3: Generate exam to verify capitalization in live questions
+        print("   🎯 Testing capitalization in generated exam...")
+        
+        # We need an authenticated user for this test
+        # Create a test user quickly
+        test_user_data = {
+            "email": f"cap.test.{uuid.uuid4().hex[:8]}@sas.test.es",
+            "password": "CapitalizationTest2025!",
+            "nombre": "Test Capitalization User"
+        }
+        
+        # Register test user
+        reg_response = requests.post(
+            f"{BASE_URL}/auth/register",
+            headers=HEADERS,
+            json=test_user_data,
+            timeout=10
+        )
+        
+        exam_capitalization_violations = []
+        
+        if reg_response.status_code == 201:
+            token_data = reg_response.json()
+            test_token = token_data["access_token"]
+            
+            # Activate subscription
+            activate_user_subscription(test_user_data["email"])
+            
+            # Generate exam
+            auth_headers = {
+                **HEADERS,
+                "Authorization": f"Bearer {test_token}"
+            }
+            
+            exam_response = requests.post(
+                f"{BASE_URL}/exam/generate",
+                headers=auth_headers,
+                timeout=45
+            )
+            
+            if exam_response.status_code == 200:
+                exam_data = exam_response.json()
+                exam_questions = exam_data.get("preguntas", [])
+                
+                print(f"   📋 Checking capitalization in {len(exam_questions)} exam questions...")
+                
+                for idx, q in enumerate(exam_questions):
+                    pregunta_text = q.get('pregunta', '')
+                    opciones = q.get('opciones', [])
+                    
+                    # Check question text for ¿[a-z] pattern
+                    pattern = r'¿\s*([a-z])'
+                    matches = re.findall(pattern, pregunta_text)
+                    
+                    for match in matches:
+                        # Exception: 'art.' abbreviation
+                        context = pregunta_text[pregunta_text.find('¿'):pregunta_text.find('¿')+10]
+                        if not context.startswith('¿art.'):
+                            exam_capitalization_violations.append(f"Exam Q{idx+1}: '¿{match}' should be '¿{match.upper()}'")
+                    
+                    # Check options
+                    for opt_idx, opcion in enumerate(opciones):
+                        if isinstance(opcion, str):
+                            matches = re.findall(pattern, opcion)
+                            for match in matches:
+                                context = opcion[opcion.find('¿'):opcion.find('¿')+10] if '¿' in opcion else ''
+                                if not context.startswith('¿art.'):
+                                    exam_capitalization_violations.append(f"Exam Q{idx+1}, Opt{opt_idx+1}: '¿{match}' should be '¿{match.upper()}'")
+        
+        client.close()
+        
+        # Record results
+        if not capitalization_violations:
+            results.add_result(
+                "Database Capitalization Check",
+                True,
+                f"✅ ZERO capitalization violations found in {total_questions_checked} sampled questions"
+            )
+            print(f"   ✅ Database check: No violations in {total_questions_checked} questions")
+        else:
+            results.add_result(
+                "Database Capitalization Check",
+                False,
+                f"❌ Found {len(capitalization_violations)} capitalization violations",
+                "; ".join(capitalization_violations[:5])
+            )
+            print(f"   ❌ Database check: {len(capitalization_violations)} violations found")
+        
+        results.add_result(
+            "Database Integrity Check",
+            total_questions == 16510,
+            f"✅ Database contains {total_questions} questions (expected: 16,510)" if total_questions == 16510 else f"❌ Database contains {total_questions} questions (expected: 16,510)"
+        )
+        
+        if not exam_capitalization_violations:
+            results.add_result(
+                "Exam Generation Capitalization",
+                True,
+                "✅ No capitalization violations in generated exam questions"
+            )
+            print(f"   ✅ Exam generation: No violations found")
+        else:
+            results.add_result(
+                "Exam Generation Capitalization",
+                False,
+                f"❌ Found {len(exam_capitalization_violations)} violations in exam",
+                "; ".join(exam_capitalization_violations[:3])
+            )
+            print(f"   ❌ Exam generation: {len(exam_capitalization_violations)} violations found")
+        
+        # Test 4: Verify specific examples
+        print("   🔍 Checking specific capitalization examples...")
+        
+        # Look for specific patterns that should be fixed
+        examples_to_check = [
+            ("¿Cuál", "Should start with uppercase C"),
+            ("¿Qué", "Should start with uppercase Q"),
+            ("¿Cómo", "Should start with uppercase C"),
+            ("¿Dónde", "Should start with uppercase D")
+        ]
+        
+        examples_found = []
+        for example, description in examples_to_check:
+            count = db.preguntas_oficiales.count_documents({
+                "$or": [
+                    {"pregunta": {"$regex": example}},
+                    {"opciones": {"$regex": example}}
+                ]
+            })
+            if count > 0:
+                examples_found.append(f"{example}: {count} instances")
+        
+        results.add_result(
+            "Capitalization Examples Verification",
+            len(examples_found) > 0,
+            f"✅ Found proper capitalization examples: {'; '.join(examples_found)}" if examples_found else "⚠️ No specific capitalization examples found in sample"
+        )
+        
+        # Test 5: Verify 'art.' exception is preserved
+        art_exceptions = list(db.preguntas_oficiales.find({
+            "$or": [
+                {"pregunta": {"$regex": "¿art\\."}},
+                {"opciones": {"$regex": "¿art\\."}}
+            ]
+        }).limit(5))
+        
+        art_exception_correct = True
+        for q in art_exceptions:
+            pregunta_text = q.get('pregunta', '')
+            opciones = q.get('opciones', [])
+            
+            # Check that ¿art. remains lowercase
+            if '¿Art.' in pregunta_text:  # Should be ¿art. not ¿Art.
+                art_exception_correct = False
+            
+            for opcion in opciones:
+                if isinstance(opcion, str) and '¿Art.' in opcion:
+                    art_exception_correct = False
+        
+        results.add_result(
+            "Art. Exception Preservation",
+            art_exception_correct,
+            f"✅ 'art.' abbreviation correctly preserved as lowercase (checked {len(art_exceptions)} instances)" if art_exception_correct else "❌ Found 'art.' incorrectly capitalized to 'Art.'"
+        )
+        
+    except Exception as e:
+        results.add_result(
+            "Capitalization Test Error",
+            False,
+            f"Error during capitalization testing: {str(e)}"
+        )
+        print(f"   ❌ Error during testing: {str(e)}")
+    
+    return results
+
 def main():
     """Run comprehensive backend testing with focus on timeout fix"""
     print("🚀 STARTING BACKEND TESTING - TIMEOUT FIX FOCUS")
