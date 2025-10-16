@@ -2357,6 +2357,8 @@ def test_capitalization_after_question_mark():
             f"✅ 'art.' abbreviation correctly preserved as lowercase (checked {len(art_exceptions)} instances)" if art_exception_correct else "❌ Found 'art.' incorrectly capitalized to 'Art.'"
         )
         
+        client.close()
+        
     except Exception as e:
         results.add_result(
             "Capitalization Test Error",
