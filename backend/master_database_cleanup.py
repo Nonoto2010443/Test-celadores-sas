@@ -211,25 +211,23 @@ async def main():
                 changes_in_doc.append('punctuation')
         
         # === STEP 2: Update Law Formats ===
-        for pattern, replacement in LAW_OFFICIAL_FORMATS.items():
-            # Fix in question
-            new_pregunta = re.sub(pattern, replacement, pregunta_working, flags=re.IGNORECASE)
-            if new_pregunta != pregunta_working:
-                pregunta_working = new_pregunta
+        pregunta_updated, pregunta_changed = update_law_formats(pregunta_working)
+        if pregunta_changed:
+            pregunta_working = pregunta_updated
+            stats['laws_updated'] += 1
+            doc_changed = True
+            if 'laws' not in changes_in_doc:
+                changes_in_doc.append('laws')
+        
+        # Fix in options
+        for i, opcion in enumerate(opciones_working):
+            opcion_updated, opcion_changed = update_law_formats(opcion)
+            if opcion_changed:
+                opciones_working[i] = opcion_updated
                 stats['laws_updated'] += 1
                 doc_changed = True
                 if 'laws' not in changes_in_doc:
                     changes_in_doc.append('laws')
-            
-            # Fix in options
-            for i, opcion in enumerate(opciones_working):
-                new_opcion = re.sub(pattern, replacement, opcion, flags=re.IGNORECASE)
-                if new_opcion != opcion:
-                    opciones_working[i] = new_opcion
-                    stats['laws_updated'] += 1
-                    doc_changed = True
-                    if 'laws' not in changes_in_doc:
-                        changes_in_doc.append('laws')
         
         # === STEP 3: Check for Forbidden Abbreviations ===
         all_text = pregunta_working + ' ' + ' '.join(opciones_working)
