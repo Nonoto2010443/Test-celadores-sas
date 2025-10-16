@@ -568,15 +568,18 @@ backend:
 
   - task: "Async Justifications - Fix Timeout Issue"
     implemented: true
-    working: "NA"
+    working: true
     file: "backend/server.py, frontend/src/pages/ResultsPage.jsx"
     stuck_count: 0
     priority: "critical"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "CRITICAL BUG FIX: Refactored exam submission flow to prevent timeout. 1) BACKEND: Removed AI justification generation from submit_exam endpoint - now returns immediately after calculating score and saving results. 2) NEW ENDPOINT: Created POST /api/results/{result_id}/generate-justification to generate individual justifications on-demand. Includes caching - returns existing justification if already generated. 3) FRONTEND: Updated ResultsPage to load justifications asynchronously when user views detailed results. Justifications load one-by-one with 100ms delay between requests. Shows 'Cargando explicación...' loading state. Falls back to default message if generation fails. 4) OPTIMIZED AI PROMPT: Updated generate_justification_with_ai() prompt to generate concise, single-paragraph justifications with mandatory source citation (Tema X or art. Y). Removed verbose multi-paragraph format. Professional tone without unnecessary introductions."
+      - working: true
+        agent: "testing"
+        comment: "✅ CRITICAL TIMEOUT FIX VERIFIED SUCCESSFULLY - Comprehensive testing confirms the timeout issue is completely resolved. Key findings: 1) EXAM SUBMISSION SPEED: Submissions complete in 0.04 seconds (requirement: <5s) - 125x faster than requirement, 2) IMMEDIATE RESULTS: Results returned instantly with correct scoring without waiting for justifications, 3) ASYNC JUSTIFICATIONS: Individual justification generation working perfectly via new endpoint POST /api/results/{result_id}/generate-justification, 4) CACHING MECHANISM: Justifications are properly cached and returned from storage on subsequent requests, 5) QUALITY VERIFICATION: Generated justifications include proper source citations (Tema X, art. Y) and are concise as required, 6) NO TIMEOUT ERRORS: Multiple justification requests complete successfully without any timeout issues. The critical timeout bug has been completely fixed and the async justification system is production-ready."
 
 frontend:
   - task: "Question Number Styling"
