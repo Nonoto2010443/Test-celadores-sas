@@ -1490,7 +1490,7 @@ async def apply_database_corrections(secret: str = None):
     try:
         import re
         
-        logger.info(f"User {current_user.email} initiated database corrections")
+        logger.info("Admin endpoint: Database corrections initiated")
         
         corrections = {
             r'\bNtre\b': 'Entre',
