@@ -1546,6 +1546,23 @@ async def apply_database_corrections(secret: str = None):
             new_text = re.sub(pattern, replacer, text)
             return new_text, changed
         
+        def remove_tema_duplication(text):
+            """Elimina 'TEMA X' o 'T-X' del texto después de FFM.-"""
+            if 'FFM.-' not in text:
+                return text, False
+            changed = False
+            patterns = [
+                r'(FFM\.-)\s+TEMA\s+\d+[A-Z]?\s*[:-]?\s*',
+                r'(FFM\.-)\s+T-?\d+[A-Z]?\s+',
+                r'(FFM\.-)\s+T\d+[A-Z]?\s+',
+            ]
+            new_text = text
+            for pattern in patterns:
+                if re.search(pattern, new_text):
+                    new_text = re.sub(pattern, r'\1 ', new_text)
+                    changed = True
+            return new_text, changed
+        
         total_fixed = 0
         collections = ['preguntas_oficiales', 'preguntas_ia']
         
