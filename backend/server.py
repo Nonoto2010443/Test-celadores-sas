@@ -1602,6 +1602,11 @@ async def apply_database_corrections(secret: str = None):
                         modified_option, opt_cap_changed = capitalize_after_opening_question(modified_option)
                         if opt_cap_changed:
                             options_changed = True
+                        # Eliminar duplicación "A. Opción A:"
+                        dup_pattern = r'^([A-D])\.\s+Opción\s+\1:\s*'
+                        if re.match(dup_pattern, modified_option):
+                            modified_option = re.sub(dup_pattern, '', modified_option)
+                            options_changed = True
                         if modified_option != option:
                             question['opciones'][i] = modified_option
                 
