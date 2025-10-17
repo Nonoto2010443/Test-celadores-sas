@@ -1585,6 +1585,10 @@ async def apply_database_corrections(secret: str = None):
                 if cap_changed:
                     changed = True
                 
+                modified_pregunta, tema_changed = remove_tema_duplication(modified_pregunta)
+                if tema_changed:
+                    changed = True
+                
                 options = question.get('opciones', [])
                 options_changed = False
                 
