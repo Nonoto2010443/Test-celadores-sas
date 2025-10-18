@@ -1495,18 +1495,24 @@ async def apply_database_corrections(secret: str = None):
         corrections = {
             # Palabras con letras faltantes al inicio
             r'\bS\s+el\s+título\b': 'Según el título',
+            r'\bS\s+función\b': 'Es función',
             r'\bEberán\b': 'Deberán',
+            r'\bEndrán\b': 'Tendrán',
             r'\bIempre\b': 'Siempre',
             r'\bN\s+caso\b': 'En caso',
             r'\bNdica\b': 'Indica',
             r'\bSfunción\b': 'Es función',
             r'\bEy\s+(\d+/\d+)': r'Ley \1',
+            r'\bXisten\b': 'Existen',
+            r'\bEspecto\b': 'Respecto',
             
             # Artículos incompletos
             r'\bL\s+número\b': 'El número',
+            r'\bL\s+carácter\b': 'El carácter',
             r'\bA\s+reforma\b': 'La reforma',
             r'\bA\s+aprobación\b': 'La aprobación',
             r'\bOs\s+consejos\b': 'Los consejos',
+            r'\bOs\s+pacientes\b': 'Los pacientes',
             r'\bOs\s+Planes\b': 'Los Planes',
             r'\bOs\s+planes\b': 'Los planes',
             r'\bOs\s+movimientos\b': 'Los movimientos',
@@ -1517,6 +1523,12 @@ async def apply_database_corrections(secret: str = None):
             r'\bL\s+paciente': 'El paciente',
             r'\bL\s+hospital': 'El hospital',
             r'\bL\s+la': 'En la',
+            
+            # Palabras pegadas sin espacio
+            r'\bEstatutariose\b': 'Estatutario se',
+            r'\bEstatuariose\b': 'Estatuario se',
+            
+            # Palabras mal escritas
             r'\bElador/a\b': 'Celador/a',
             r'\bEladora\b': 'Celadora',
             r'\bEladores\b': 'Celadores',
@@ -1526,6 +1538,9 @@ async def apply_database_corrections(secret: str = None):
             r'\bOrresponde\b': 'Corresponde',
             r'\bOrrecto\b': 'Correcto',
             r'\bEntro\s+de\b': 'Dentro de',
+            
+            # Frases con problemas gramaticales específicos
+            r'tipo\s+órgano\s+sin': 'tipo de órgano son',
         }
         
         def capitalize_after_opening_question(text):
